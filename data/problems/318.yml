@@ -1,0 +1,60 @@
+---
+:id: 318
+:name: 2011 nines
+:content: "\r\n<p>\r\nConsider the real number <img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2+<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">3.<br>\r\nWhen we calculate the even powers of
+  <img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">2+<img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3\r\nwe get:<br>\r\n(<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">2+<img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3)<sup>2</sup>
+  = 9.898979485566356...<br>\r\n(<img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2+<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3)<sup>4</sup>
+  = 97.98979485566356...<br>\r\n(<img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2+<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3)<sup>6</sup>
+  = 969.998969071069263...<br>\r\n(<img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2+<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3)<sup>8</sup>
+  = 9601.99989585502907...<br>\r\n(<img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2+<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3)<sup>10</sup>
+  = 95049.999989479221...<br>\r\n(<img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2+<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3)<sup>12</sup>
+  = 940897.9999989371855...<br>\r\n(<img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2+<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3)<sup>14</sup>
+  = 9313929.99999989263...<br>\r\n(<img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2+<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3)<sup>16</sup>
+  = 92198401.99999998915...<br></p>\r\n<p>\r\nIt looks like that the number of consecutive
+  nines at the beginning of the fractional part of these powers is non-decreasing.<br>\r\nIn
+  fact it can be proven that the fractional part of (<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2+<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">3)<sup>2n</sup> approaches 1 for large n.\r\n</p>\r\n<p>\r\nConsider
+  all real numbers of the form <img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\"
+  alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">p+<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">q
+  with p and q positive integers and p<img src=\"images/symbol_lt.gif\" width=\"10\"
+  height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">q, such
+  that the fractional part \r\nof (<img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">p+<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">q)<sup>2n</sup>
+  approaches 1 for large n.\r\n</p>\r\n<p>\r\nLet C(p,q,n) be the number of consecutive
+  nines at the beginning of the fractional part of <br> (<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">p+<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">q)<sup>2n</sup>.\r\n</p>\r\n<p>\r\nLet N(p,q) be
+  the minimal value of n such that C(p,q,n) <img src=\"images/symbol_ge.gif\" width=\"10\"
+  height=\"12\" alt=\"≥\" border=\"0\" style=\"vertical-align:middle;\"> 2011.\r\n</p>\r\n<p>\r\nFind
+  <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\">N(p,q) for p+q <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  2011.\r\n</p>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+  \r\n\r\n\r\n"

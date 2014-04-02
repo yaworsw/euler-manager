@@ -1,0 +1,9 @@
+---
+:id: 291
+:name: Panaitopol Primes
+:content: "\r\n<p>\r\nA prime number <var>p</var> is called a Panaitopol prime if
+  <img src=\"project/images/p_291_formula.gif\" style=\"vertical-align:middle\"> for
+  some positive integers<br><var>x</var> and <var>y</var>.\r\n</p>\r\n<p>\r\nFind
+  how many Panaitopol primes are less than 5<img src=\"images/symbol_times.gif\" width=\"9\"
+  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">10<sup>15</sup>.\r\n</p>\r\n\r\n
+  \ \r\n"

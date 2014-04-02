@@ -1,0 +1,30 @@
+---
+:id: 358
+:name: Cyclic numbers
+:content: "\r\n<p>A <b>cyclic number</b> with <var>n</var> digits has a very interesting
+  property:<br>\r\nWhen it is multiplied by 1, 2, 3, 4, ... <var>n</var>, all the
+  products have exactly the same digits, in the same order, but rotated in a circular
+  fashion!\r\n</p>\r\n\r\n<p>\r\nThe smallest cyclic number is the 6-digit number
+  142857 :<br>\r\n142857 <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 1 = 142857<br>\r\n142857
+  <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"> 2 = 285714<br>\r\n142857 <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
+  3 = 428571<br>\r\n142857 <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 4 = 571428<br>\r\n142857
+  <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"> 5 = 714285<br>\r\n142857 <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
+  6 = 857142  \r\n</p>\r\n\r\n<p>\r\nThe next cyclic number is 0588235294117647 with
+  16 digits :<br>\r\n0588235294117647 <img src=\"images/symbol_times.gif\" width=\"9\"
+  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 1 = 0588235294117647<br>\r\n0588235294117647
+  <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"> 2 = 1176470588235294<br>\r\n0588235294117647 <img
+  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"> 3 = 1764705882352941<br>\r\n...<br>\r\n0588235294117647
+  <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"> 16 = 9411764705882352\r\n</p>\r\n\r\n<p>\r\nNote
+  that for cyclic numbers, leading zeros are important.\r\n</p>\r\n\r\n<p>\r\nThere
+  is only one cyclic number for which, the eleven leftmost digits are 00000000137
+  and the five rightmost digits are 56789 (i.e., it has the form 00000000137...56789
+  with an unknown number of digits in the middle). Find the sum of all its digits.\r\n</p>\r\n\r\n"

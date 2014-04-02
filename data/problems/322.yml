@@ -1,0 +1,11 @@
+---
+:id: 322
+:name: Binomial coefficients divisible by 10
+:content: "\r\n<p>\r\nLet T(<var>m</var>, <var>n</var>) be the number of the binomial
+  coefficients <sup><var>i</var></sup>C<sub><var>n</var></sub> that are divisible
+  by 10 for <var>n</var> <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
+  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var> <img src=\"images/symbol_lt.gif\"
+  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>m</var>(<var>i</var>,
+  <var>m</var> and <var>n</var> are positive integers).<br>\r\nYou are given that
+  T(10<sup>9</sup>, 10<sup>7</sup>-10) = 989697000.\r\n</p>\r\n<p>\r\nFind T(10<sup>18</sup>,
+  10<sup>12</sup>-10).\r\n</p>\r\n"

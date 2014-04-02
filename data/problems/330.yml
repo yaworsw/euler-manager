@@ -1,0 +1,39 @@
+---
+:id: 330
+:name: Euler's Number
+:content: "\r\nAn infinite sequence of real numbers <var>a</var>(<var>n</var>) is
+  defined for all integers <var>n</var> as follows:\r\n<div align=\"center\"><img
+  src=\"project/images/p_330_formula.gif\"></div>\r\n\r\n<p>For example,<br></p>\n<table
+  class=\"formula\"><tr>\n<td>\n<var>a</var>(0) = </td>\r\n    <td><table class=\"frac\">\n<tr><td>1</td></tr>\n<tr><td
+  class=\"overline\">1!</td></tr>\n</table></td>\r\n    <td>+</td>\r\n    <td><table
+  class=\"frac\">\n<tr><td>1</td></tr>\n<tr><td class=\"overline\">2!</td></tr>\n</table></td>\r\n
+  \   <td>+</td>\r\n    <td><table class=\"frac\">\n<tr><td>1</td></tr>\n<tr><td class=\"overline\">3!</td></tr>\n</table></td>\r\n
+  \   <td>+ ... = e <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\"
+  alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"> 1 </td>\r\n</tr></table>\n<table
+  class=\"formula\"><tr>\n<td>\n<var>a</var>(1) = </td>\r\n    <td><table class=\"frac\">\n<tr><td>e
+  <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
+  style=\"vertical-align:middle;\"> 1</td></tr>\n<tr><td class=\"overline\">1!</td></tr>\n</table></td>\r\n
+  \   <td>+</td>\r\n    <td><table class=\"frac\">\n<tr><td>1</td></tr>\n<tr><td class=\"overline\">2!</td></tr>\n</table></td>\r\n
+  \   <td>+</td>\r\n    <td><table class=\"frac\">\n<tr><td>1</td></tr>\n<tr><td class=\"overline\">3!</td></tr>\n</table></td>\r\n
+  \   <td>+ ... = 2e <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\"
+  alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"> 3 </td>\r\n</tr></table>\n<table
+  class=\"formula\"><tr>\n<td>\n<var>a</var>(2) = </td>\r\n    <td><table class=\"frac\">\n<tr><td>2e
+  <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
+  style=\"vertical-align:middle;\"> 3</td></tr>\n<tr><td class=\"overline\">1!</td></tr>\n</table></td>\r\n
+  \   <td>+</td>\r\n    <td><table class=\"frac\">\n<tr><td>e <img src=\"images/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">
+  1</td></tr>\n<tr><td class=\"overline\">2!</td></tr>\n</table></td>\r\n    <td>+</td>\r\n
+  \   <td><table class=\"frac\">\n<tr><td>1</td></tr>\n<tr><td class=\"overline\">3!</td></tr>\n</table></td>\r\n
+  \   <td>+ ... =</td>\r\n    <td><table class=\"frac\">\n<tr><td>7</td></tr>\n<tr><td
+  class=\"overline\">2</td></tr>\n</table></td>\r\n    <td>e <img src=\"images/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">
+  6 </td>\r\n</tr></table>\r\nwith e = 2.7182818... being Euler's constant.\r\n\r\n<p>\r\n</p>\n<table
+  class=\"formula\"><tr>\n<td>It can be shown that <var>a</var>(<var>n</var>) is of
+  the form \r\n    </td>\r\n    <td><table class=\"frac\">\n<tr><td>A(<var>n</var>)
+  e + B(<var>n</var>)</td></tr>\n<tr><td class=\"overline\">\n<var>n</var>!</td></tr>\n</table></td>\r\n
+  \   <td>for integers A(<var>n</var>) and B(<var>n</var>). \r\n    </td>\r\n</tr></table>\n<table
+  class=\"formula\"><tr>\n<td>For example <var>a</var>(10) = \r\n    </td>\r\n    <td><table
+  class=\"frac\">\n<tr><td>328161643 e <img src=\"images/symbol_minus.gif\" width=\"9\"
+  height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"> 652694486</td></tr>\n<tr><td
+  class=\"overline\">10!</td></tr>\n</table></td>\r\n    <td>.</td>\r\n</tr></table>\n<p>\r\nFind
+  A(10<sup>9</sup>) + B(10<sup>9</sup>) and give your answer mod 77 777 777.\r\n</p>\r\n\r\n\r\n\r\n"

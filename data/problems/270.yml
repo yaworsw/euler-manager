@@ -1,0 +1,16 @@
+---
+:id: 270
+:name: Cutting Squares
+:content: "\r\n<p>A square piece of paper with integer dimensions N<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">N
+  is placed with a corner at the origin and two of its sides along the <var>x</var>-
+  and <var>y</var>-axes. Then, we cut it up respecting the following rules:\r\n</p>\n<ul>\n<li>We
+  only make straight cuts between two points lying on different sides of the square,
+  and having integer coordinates.</li>\r\n<li>Two cuts cannot cross, but several cuts
+  can meet at the same border point.</li>\r\n<li>Proceed until no more legal cuts
+  can be made.</li>\r\n</ul>\n<p>Counting any reflections or rotations as distinct,
+  we call C(N) the number of ways to cut an N<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">N
+  square. For example, C(1) = 2 and C(2) = 30 (shown below).</p>\r\n<div align=\"center\"><img
+  src=\"project/images/p_270_CutSquare.gif\"></div>\r\n\r\n<p>What is C(30) mod 10<sup>8</sup>
+  ?</p>\r\n"

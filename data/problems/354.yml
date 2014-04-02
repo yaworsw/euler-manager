@@ -1,0 +1,15 @@
+---
+:id: 354
+:name: 'Distances in a bee''s honeycomb '
+:content: "\r\n<p>Consider a honey bee's honeycomb where each cell is a perfect regular
+  hexagon with side length 1.</p>\r\n\r\n<div align=\"center\">\r\n<img src=\"project/images/p_354_bee_honeycomb.png\">\n</div>\r\n\r\n\r\n<p>\r\nOne
+  particular cell is occupied by the queen bee.<br>\r\nFor a positive real number
+  <var>L</var>, let B(<var>L</var>) count the cells with distance <var>L</var> from
+  the queen bee cell (all distances are measured from centre to centre); you may assume
+  that the honeycomb is large enough to accommodate for any distance we wish to consider.
+  <br>\r\nFor example, B(<img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\"
+  alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3) = 6, B(<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">21)
+  = 12 and B(111 111 111) = 54.</p>\r\n\r\n<p>Find the number of <var>L</var> <img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  5·10<sup>11</sup> such that B(<var>L</var>) = 450.</p>\r\n"

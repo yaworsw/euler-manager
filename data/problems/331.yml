@@ -1,0 +1,27 @@
+---
+:id: 331
+:name: Cross flips
+:content: "\r\n<p><var>N</var><img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var> disks are placed
+  on a square game board. Each disk has a black side and white side.</p>\r\n\r\n<p>At
+  each turn, you may choose a disk and flip all the disks in the same row and the
+  same column as this disk: thus 2<img src=\"images/symbol_times.gif\" width=\"9\"
+  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var>-1
+  disks are flipped. The game ends when all disks show their white side. The following
+  example shows a game on a 5<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">5 board.</p>\r\n\r\n<div
+  align=\"center\"><img src=\"project/images/p_331_crossflips3.gif\"></div>\r\n\r\n<p>It
+  can be proven that 3 is the minimal number of turns to finish this game.</p>\r\n\r\n<p>The
+  bottom left disk on the <var>N</var><img src=\"images/symbol_times.gif\" width=\"9\"
+  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var>
+  board has coordinates (0,0);<br>\r\nthe bottom right disk has coordinates (<var>N</var>-1,0)
+  and the top left disk has coordinates (0,<var>N</var>-1). </p>\r\n\r\n<p>Let C<sub><var>N</var></sub>
+  be the following configuration of a board with <var>N</var><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var>
+  disks:<br>\r\nA disk at (<var>x</var>,<var>y</var>) satisfying <img style=\"vertical-align:middle\"
+  src=\"project/images/p_331_crossflips1.gif\">, shows its black side; otherwise,
+  it shows its white side. C<sub>5</sub> is shown above.</p>\r\n\r\n<p>Let T(<var>N</var>)
+  be the minimal number of turns to finish a game starting from configuration C<sub><var>N</var></sub>
+  or 0 if configuration C<sub><var>N</var></sub> is unsolvable.<br>\r\nWe have shown
+  that T(5)=3. You are also given that T(10)=29 and T(1 000)=395253.</p>\r\n\r\n<p>Find
+  <img style=\"vertical-align:middle\" src=\"project/images/p_331_crossflips2.gif\">.</p>\r\n\r\n"

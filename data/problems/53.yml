@@ -1,0 +1,27 @@
+---
+:id: 53
+:name: Combinatoric selections
+:content: "\r\n<p>There are exactly ten ways of selecting three from five, 12345:</p>\r\n<p
+  style=\"text-align:center;\">123, 124, 125, 134, 135, 145, 234, 235, 245, and 345</p>\r\n<p>In
+  combinatorics, we use the notation, <sup>5</sup>C<sub>3</sub> = 10.</p>\r\n<p>In
+  general,</p>\r\n<div style=\"text-align:center;\">\r\n<table><tr>\n<td>\n<sup><var>n</var></sup>C<sub><var>r</var></sub>
+  = </td>\r\n<td><div style=\"text-align:center;\">\n<var>n</var>!<br><span style=\"border-top:1px
+  solid #000;\"><var>r</var>!(<var>n<img src=\"images/symbol_minus.gif\" width=\"9\"
+  height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">r</var>)!</span>\n</div></td>\r\n<td>,where
+  <var>r</var> <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\"><var>n</var>, <var>n</var>! = <var>n</var><img
+  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\">(<var>n</var><img src=\"images/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">1)<img
+  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\">...<img src=\"images/symbol_times.gif\" width=\"9\"
+  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">3<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">2<img
+  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\">1, and 0! = 1.</td>\r\n</tr></table>\n</div>\r\n<p>It
+  is not until <var>n</var> = 23, that a value exceeds one-million: <sup>23</sup>C<sub>10</sub>
+  = 1144066.</p>\r\n<p>How many, not necessarily distinct, values of  <sup><var>n</var></sup>C<sub><var>r</var></sub>,
+  for 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>n</var> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  100, are greater than one-million?</p>\r\n\r\n"

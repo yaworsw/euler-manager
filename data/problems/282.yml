@@ -1,0 +1,9 @@
+---
+:id: 282
+:name: The Ackermann function
+:content: "\r\n<p>\r\nFor non-negative integers <var>m</var>, <var>n</var>, the Ackermann
+  function <var>A</var>(<var>m</var>, <var>n</var>) is defined as follows:\r\n</p>\r\n<div
+  align=\"center\"><img src=\"project/images/p_282_formula.gif\"></div>\r\n<p>\r\nFor
+  example <var>A</var>(1, 0) = 2, <var>A</var>(2, 2) = 7 and <var>A</var>(3, 4) =
+  125.\r\n</p>\r\n<p>\r\nFind <img src=\"project/images/p_282formula3.gif\" style=\"vertical-align:middle\"><var>A</var>(<var>n</var>,
+  <var>n</var>) and give your answer mod 14<sup>8</sup>.</p>\r\n\r\n"

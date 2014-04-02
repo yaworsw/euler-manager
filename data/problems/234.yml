@@ -1,0 +1,22 @@
+---
+:id: 234
+:name: Semidivisible numbers
+:content: "\r\n<p>For an integer <var>n</var> <img src=\"images/symbol_ge.gif\" width=\"10\"
+  height=\"12\" alt=\"≥\" border=\"0\" style=\"vertical-align:middle;\"> 4, we define
+  the <i>lower prime square root</i> of <var>n</var>, denoted by lps(<var>n</var>),
+  as the largest prime <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
+  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
+  and the <i>upper prime square root</i> of <var>n</var>, ups(<var>n</var>), as the
+  smallest prime <img src=\"images/symbol_ge.gif\" width=\"10\" height=\"12\" alt=\"≥\"
+  border=\"0\" style=\"vertical-align:middle;\"><img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>.</p>\r\n<p>So,
+  for example, lps(4) = 2 = ups(4), lps(1000) = 31, ups(1000) = 37.<br>\r\nLet us
+  call an integer <var>n</var> <img src=\"images/symbol_ge.gif\" width=\"10\" height=\"12\"
+  alt=\"≥\" border=\"0\" style=\"vertical-align:middle;\"> 4 <i>semidivisible</i>,
+  if one of lps(<var>n</var>) and ups(<var>n</var>) divides <var>n</var>, but not
+  both.</p>\r\n\r\n<p>The sum of the semidivisible numbers not exceeding 15 is 30,
+  the numbers are 8, 10 and 12.<br> 15 is not semidivisible because it is a multiple
+  of both lps(15) = 3 and ups(15) = 5.<br>\r\nAs a further example, the sum of the
+  92 semidivisible numbers up to 1000 is 34825.</p>\r\n\r\n<p>What is the sum of all
+  semidivisible numbers not exceeding 999966663333 ?</p>\r\n"

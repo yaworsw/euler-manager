@@ -1,0 +1,24 @@
+---
+:id: 196
+:name: Prime triplets
+:content: "\r\n<p>Build a triangle from all positive integers in the following way:</p>\r\n\r\n<p
+  style=\"font-family:courier new,monospace;font-weight:bold;margin-left:50px;\"> 1<br>\r\n <span
+  style=\"color:red;\">2</span>  <span style=\"color:red;\">3</span><br>\r\n 4  <span
+  style=\"color:red;\">5</span>  6<br>\r\n <span style=\"color:red;\">7</span>  8  9
+  10<br><span style=\"color:red;\">11</span> 12 <span style=\"color:red;\">13</span>
+  14 15<br>\r\n16 <span style=\"color:red;\">17</span> 18 <span style=\"color:red;\">19</span>
+  20 21<br>\r\n22 <span style=\"color:red;\">23</span> 24 25 26 27 28<br><span style=\"color:red;\">29</span>
+  30 <span style=\"color:red;\">31</span> 32 33 34 35 36<br><span style=\"color:red;\">37</span>
+  38 39 40 <span style=\"color:red;\">41</span> 42 <span style=\"color:red;\">43</span>
+  44 45<br>\r\n46 <span style=\"color:red;\">47</span> 48 49 50 51 52 <span style=\"color:red;\">53</span>
+  54 55<br>\r\n56 57 58 <span style=\"color:red;\">59</span> 60 <span style=\"color:red;\">61</span>
+  62 63 64 65 66<br>\r\n. . .</p>\r\n\r\n<p>Each positive integer has up to eight
+  neighbours in the triangle.</p>\r\n\r\n<p>A set of three primes is called a <i>prime
+  triplet</i> if one of the three primes has the other two as neighbours in the triangle.</p>\r\n\r\n<p>For
+  example, in the second row, the prime numbers 2 and 3 are elements of some prime
+  triplet.</p>\r\n\r\n<p>If row 8 is considered, it contains two primes which are
+  elements of some prime triplet, i.e. 29 and 31.<br>\r\nIf row 9 is considered, it
+  contains only one prime which is an element of some prime triplet: 37.</p>\r\n\r\n<p>Define
+  S(<var>n</var>) as the sum of the primes in row <var>n</var> which are elements
+  of any prime triplet.<br>\r\nThen S(8)=60 and S(9)=37.</p>\r\n\r\n<p>You are given
+  that S(10000)=950007619.</p>\r\n\r\n<p>Find  S(5678027) + S(7208785).</p>\r\n\r\n"

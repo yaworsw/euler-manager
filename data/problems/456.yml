@@ -1,0 +1,14 @@
+---
+:id: 456
+:name: Triangles containing the origin II
+:content: "\r\n<p>Define:<br><var>x</var><sub><var>n</var></sub> = (1248<sup><var>n</var></sup>
+  mod 32323) - 16161<br><var>y</var><sub><var>n</var></sub> = (8421<sup><var>n</var></sup>
+  mod 30103) - 15051<br>\r\nP<sub><var>n</var></sub> = {(<var>x</var><sub>1</sub>,
+  <var>y</var><sub>1</sub>), (<var>x</var><sub>2</sub>, <var>y</var><sub>2</sub>),
+  ..., (<var>x</var><sub><var>n</var></sub>, <var>y</var><sub><var>n</var></sub>)}\r\n</p>\r\n\r\n<p>For
+  example, P<sub>8</sub> = {(-14913, -6630), (-10161, 5625), (5226, 11896), (8340,
+  -10778), (15852, -5203), (-15165, 11295), (-1427, -14495), (12407, 1060)}.</p>\r\n\r\n<p>Let
+  C(<var>n</var>) be the number of triangles whose vertices are in P<sub><var>n</var></sub>
+  which contain the origin in the interior.</p>\r\n\r\n<p>\r\nExamples:<br>\r\nC(8)
+  = 20<br>\r\nC(600) = 8950634<br>\r\nC(40 000) = 2666610948988\r\n</p>\r\n\r\n<p>Find
+  C(2 000 000).\r\n\r\n</p>"

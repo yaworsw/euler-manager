@@ -1,0 +1,20 @@
+---
+:id: 254
+:name: Sums of Digit Factorials
+:content: "\r\n<p>Define f(<var>n</var>) as the sum of the factorials of the digits
+  of <var>n</var>. For example, f(342) = 3! + 4! + 2! = 32.</p>\r\n\r\n<p>Define sf(<var>n</var>)
+  as the sum of the digits of f(<var>n</var>). So sf(342) = 3 + 2 = 5.</p>\r\n\r\n<p>Define
+  g(<var>i</var>) to be the smallest positive integer <var>n</var> such that sf(<var>n</var>)
+  = <var>i</var>. Though sf(342) is 5, sf(25) is also 5, and it can be verified that
+  g(5) is 25.</p>\r\n\r\n<p>Define sg(<var>i</var>) as the sum of the digits of g(<var>i</var>).
+  So sg(5) = 2 + 5 = 7.</p>\r\n\r\n<p>Further, it can be verified that g(20) is 267
+  and <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\"> sg(<var>i</var>) for 1 <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var>
+  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"> 20 is 156.</p>\r\n\r\n<p>What is <img src=\"images/symbol_sum.gif\"
+  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"> sg(<var>i</var>)
+  for 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>i</var> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  150?</p>\r\n"

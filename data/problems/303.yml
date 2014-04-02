@@ -1,0 +1,10 @@
+---
+:id: 303
+:name: Multiples with small digits
+:content: "\r\n<p>\r\nFor a positive integer <var>n</var>, define <var>f</var>(<var>n</var>)
+  as the least positive multiple of <var>n</var> that, written in base 10, uses only
+  digits <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"> 2.</p>\r\n<p>Thus <var>f</var>(2)=2, <var>f</var>(3)=12,
+  <var>f</var>(7)=21, <var>f</var>(42)=210, <var>f</var>(89)=1121222.</p>\r\n<p>Also,
+  <img src=\"project/images/p303_formula100.gif\" style=\"vertical-align:middle\">.</p>\r\n<p>\r\nFind
+  <img src=\"project/images/p303_formula10000.gif\" style=\"vertical-align:middle\">.\r\n</p>\r\n\r\n"

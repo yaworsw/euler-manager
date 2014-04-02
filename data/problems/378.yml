@@ -1,0 +1,14 @@
+---
+:id: 378
+:name: Triangle Triples
+:content: "\r\n<p>\r\n</p>\n<table class=\"formula\"><tr>\n<td>\r\nLet T(<var>n</var>)
+  be the <var>n</var><sup>th</sup> triangle number, so T(<var>n</var>) =\r\n</td>\r\n<td>\r\n<table
+  class=\"frac\" style=\"font-size: smaller\">\n<tr><td>\n<var>n</var> (<var>n</var>+1)</td></tr>\n<tr><td
+  class=\"overline\" text-align:center>2</td></tr>\n</table>\n</td>\r\n<td>\r\n.\r\n</td>\r\n</tr></table>\n<p>\r\nLet
+  dT(<var>n</var>) be the number of divisors of T(<var>n</var>).<br>\r\nE.g.:\r\nT(7)
+  = 28 and dT(7) = 6.\r\n</p>\r\n<p>\r\nLet Tr(<var>n</var>) be the number of triples
+  (<var>i</var>, <var>j</var>, <var>k</var>) such that 1 <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i
+  \ n</var> and dT(<var>i</var>) &gt; dT(<var>j</var>) &gt; dT(<var>k</var>).<br>\r\nTr(20)
+  = 14, Tr(100) = 5772 and Tr(1000) = 11174776.\r\n</p>\r\n<p>\r\nFind Tr(60 000 000).
+  <br>\r\nGive the last 18 digits of your answer.\r\n</p>\r\n\r\n"

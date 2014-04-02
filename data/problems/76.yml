@@ -1,0 +1,7 @@
+---
+:id: 76
+:name: Counting summations
+:content: "\r\n\n<p>It is possible to write five as a sum in exactly six different
+  ways:</p>\n<p style=\"margin-left:50px;\">4 + 1<br>\n3 + 2<br>\n3 + 1 + 1<br>\n2
+  + 2 + 1<br>\n2 + 1 + 1 + 1<br>\n1 + 1 + 1 + 1 + 1</p>\n<p>How many different ways
+  can one hundred be written as a sum of at least two positive integers?</p>\n\r\n"

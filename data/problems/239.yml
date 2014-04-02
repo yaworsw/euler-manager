@@ -1,0 +1,8 @@
+---
+:id: 239
+:name: Twenty-two Foolish Primes
+:content: "\r\n<p>A set of disks numbered 1 through 100 are placed in a line in random
+  order.</p>\r\n\r\n<p>What is the probability that we have a partial derangement
+  such that exactly 22 prime number discs are found away from their natural positions?<br>\r\n(Any
+  number of non-prime disks may also be found in or out of their natural positions.)</p>\r\n\r\n<p>Give
+  your answer rounded to 12 places behind the decimal point in the form 0.abcdefghijkl.</p>\r\n\r\n"

@@ -1,0 +1,3 @@
+module Euler
+  VERSION = '0.0.1'
+end

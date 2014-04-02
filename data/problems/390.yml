@@ -1,0 +1,17 @@
+---
+:id: 390
+:name: Triangles with non rational sides and integral area
+:content: "\r\n<p>Consider the triangle with sides <img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">5,
+  <img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">65 and <img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">68.\r\nIt
+  can be shown that this triangle has area 9.</p>\r\n\r\n<p>S(n) is the sum of the
+  areas of  all triangles with sides <img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">(1+b<sup>2</sup>),
+  <img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">(1+c<sup>2</sup>) and <img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">(b<sup>2</sup>+c<sup>2</sup>)
+  (for positive integers b and c ) that have an integral area not exceeding n.</p>\r\n\r\n<p>The
+  example triangle has b=2 and c=8.</p>\r\n\r\n<p>S(10<sup>6</sup>)=18018206.</p>\r\n\r\n<p>Find
+  S(10<sup>10</sup>).</p>\r\n"

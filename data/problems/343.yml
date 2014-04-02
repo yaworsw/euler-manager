@@ -1,0 +1,28 @@
+---
+:id: 343
+:name: Fractional Sequences
+:content: "\r\n<p>For any positive integer <var>k</var>, a finite sequence a<sub><var>i</var></sub>
+  of fractions x<sub><var>i</var></sub>/y<sub><var>i</var></sub> is defined by:<br>\r\na<sub>1</sub>
+  = 1/<var>k</var> and<br>\r\na<sub><var>i</var></sub> = (x<sub><var>i</var>-1</sub>+1)/(y<sub><var>i</var>-1</sub>-1)
+  reduced to lowest terms for <var>i</var>&gt;1.<br>\r\nWhen a<sub><var>i</var></sub>
+  reaches some integer <var>n</var>, the sequence stops. (That is, when y<sub><var>i</var></sub>=1.)<br>\r\nDefine
+  f(<var>k</var>) = <var>n</var>. <br>\r\nFor example, for <var>k</var> = 20:\r\n</p>\r\n\r\n<p>\r\n1/20
+  <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 2/19 <img src=\"images/symbol_maps.gif\" width=\"15\"
+  height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 3/18 = 1/6
+  <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 2/5 <img src=\"images/symbol_maps.gif\" width=\"15\"
+  height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 3/4 <img src=\"images/symbol_maps.gif\"
+  width=\"15\" height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\">
+  4/3 <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 5/2 <img src=\"images/symbol_maps.gif\" width=\"15\"
+  height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 6/1 = 6\r\n</p>\r\n\r\n<p>\r\nSo
+  f(20) = 6.\r\n</p>\r\n\r\n<p>\r\nAlso f(1) = 1, f(2) = 2, f(3) = 1 and Σf(<var>k</var><sup>3</sup>)
+  = 118937 for 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\"><var>k</var> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  100.\r\n</p>\r\n\r\n<p>\r\nFind Σf(<var>k</var><sup>3</sup>) for 1 <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>k</var>
+  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"> 2<img src=\"images/symbol_times.gif\" width=\"9\"
+  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">10<sup>6</sup>.\r\n</p>\r\n"

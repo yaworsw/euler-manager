@@ -1,0 +1,7 @@
+---
+:id: 160
+:name: Factorial trailing digits
+:content: "\r\n<p>For any N, let f(N) be the last five digits before the trailing
+  zeroes in N!.<br>\r\nFor example,</p>\r\n<p style=\"margin-left:50px;\">9! = 362880
+  so f(9)=36288<br>\r\n10! = 3628800 so f(10)=36288<br>\r\n20! = 2432902008176640000
+  so f(20)=17664</p>\r\n<p>Find f(1,000,000,000,000)</p>\r\n"

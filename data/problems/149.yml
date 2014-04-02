@@ -1,0 +1,40 @@
+---
+:id: 149
+:name: Searching for a maximum-sum subsequence
+:content: "\r\n<p>Looking at the table below, it is easy to verify that the maximum
+  possible sum of adjacent numbers in any direction (horizontal, vertical, diagonal
+  or anti-diagonal) <span style=\"white-space:nowrap\">is 16 (= 8 + 7 + 1).</span></p>\r\n\r\n<div
+  style=\"text-align:center\">\r\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\"
+  style=\"margin:auto\"><tbody align=\"right\">\n<tr>\n<td>\n<img src=\"images/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">2</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>9</td>\n<td>\n<img
+  src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
+  style=\"vertical-align:middle;\">6</td>\n<td>5</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3</td>\n<td>2</td>\n<td>7</td>\n<td>3</td>\n</tr>\n<tr>\n<td>\n<img
+  src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
+  style=\"vertical-align:middle;\">1</td>\n<td>8</td>\n<td>\n<img src=\"images/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">4</td>\n<td> 
+  8</td>\n</tr>\n</tbody></table>\n</div>\r\n\r\n<p>Now, let us repeat the search,
+  but on a much larger scale:</p>\r\n\r\n<p>First, generate four million pseudo-random
+  numbers using a specific form of what is known as a \"Lagged Fibonacci Generator\":</p>\r\n\r\n<p>For
+  1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"><i>k</i> <img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 55, <i>s</i><sub><i>k</i></sub>
+  = [100003 <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\"
+  border=\"0\" style=\"vertical-align:middle;\"> 200003<i>k</i> + 300007<i>k</i><sup>3</sup>]
+  (modulo 1000000) <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\"
+  border=\"0\" style=\"vertical-align:middle;\"> 500000.<br>\r\nFor 56 <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><i>k</i>
+  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"> 4000000, <i>s</i><sub><i>k</i></sub> = [<i>s</i><sub><i>k<img
+  src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
+  style=\"vertical-align:middle;\">24</i></sub> + <i>s</i><sub><i>k<img src=\"images/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">55</i></sub>
+  + 1000000] (modulo 1000000) <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\"
+  alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"> 500000.</p>\r\n\r\n<p>Thus,
+  <i>s</i><sub>10</sub> = <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\"
+  alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">393027 and <i>s</i><sub>100</sub>
+  = 86613.</p>\r\n\r\n<p>The terms of <i>s</i> are then arranged in a 2000<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">2000
+  table, using the first 2000 numbers to fill the first row (sequentially), the next
+  2000 numbers to fill the second row, and so on.</p>\r\n\r\n<p>Finally, find the
+  greatest sum of (any number of) adjacent entries in any direction (horizontal, vertical,
+  diagonal or anti-diagonal).</p>\r\n"

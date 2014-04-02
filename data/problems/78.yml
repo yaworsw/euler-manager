@@ -1,0 +1,11 @@
+---
+:id: 78
+:name: Coin partitions
+:content: "\r\n<p>Let p(<i>n</i>) represent the number of different ways in which
+  <i>n</i> coins can be separated into piles. For example, five coins can separated
+  into piles in exactly seven different ways, so p(5)=7.</p>\r\n<div style=\"text-align:center;\">\r\n<table
+  cellspacing=\"0\" cellpadding=\"10\">\n<tr>\n<td>OOOOO</td>\r\n</tr>\n<tr>\n<td>OOOO 
+   O</td>\r\n</tr>\n<tr>\n<td>OOO   OO</td>\r\n</tr>\n<tr>\n<td>OOO   O   O</td>\r\n</tr>\n<tr>\n<td>OO 
+   OO   O</td>\r\n</tr>\n<tr>\n<td>OO   O   O   O</td>\r\n</tr>\n<tr>\n<td>O   O 
+   O   O   O</td>\r\n</tr>\n</table>\n</div>\r\n<p>Find the least value of <i>n</i>
+  for which p(<i>n</i>) is divisible by one million.</p>\r\n\r\n"

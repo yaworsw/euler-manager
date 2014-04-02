@@ -1,0 +1,12 @@
+---
+:id: 237
+:name: Tours on a 4 x n playing board
+:content: "\r\n<p>Let T(<i>n</i>) be the number of tours over a 4 <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i>
+  playing board such that:</p>\r\n<ul>\n<li>The tour starts in the top left corner.</li>\r\n<li>The
+  tour consists of moves that are up, down, left, or right one square.</li>\r\n<li>The
+  tour visits each square exactly once.</li>\r\n<li>The tour ends in the bottom left
+  corner.</li>\r\n</ul>\n<p>The diagram shows one tour over a 4 <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
+  10 board:</p>\r\n\r\n<div style=\"text-align:center;\">\r\n<img src=\"project/images/p_237.gif\"
+  alt=\"\">\n</div>\r\n\r\n<p>T(10) is 2329. What is T(10<sup>12</sup>) modulo 10<sup>8</sup>?</p>\r\n"

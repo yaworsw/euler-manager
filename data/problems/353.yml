@@ -1,0 +1,24 @@
+---
+:id: 353
+:name: Risky moon
+:content: "\r\n<p>\r\nA moon could be described by the sphere C(<var>r</var>) with
+  centre (0,0,0) and radius <var>r</var>. \r\n</p>\r\n\r\n<p>\r\nThere are stations
+  on the moon at the points on the surface of C(<var>r</var>) with integer coordinates.
+  The station at (0,0,<var>r</var>) is called North Pole station, the station at (0,0,-<var>r</var>)
+  is called South Pole station.\r\n</p>\r\n\r\n<p>\r\nAll stations are connected with
+  each other via the shortest road on the great arc through the stations. A journey
+  between two stations is risky. If <var>d</var> is the length of the road between
+  two stations, (<var>d</var>/(π <var>r</var>))<sup>2</sup> is a measure for the risk
+  of the journey (let us call it the risk of the road). If the journey includes more
+  than two stations, the risk of the journey is the sum of risks of the used roads.\r\n</p>\r\n\r\n<p>\r\nA
+  direct journey from  the North Pole station to the South Pole station has the length
+  π<var>r</var> and risk 1. The journey from the North Pole station to the South Pole
+  station via (0,<var>r</var>,0) has the same length, but a smaller risk: (½π<var>r</var>/(π<var>r</var>))<sup>2</sup>+(½π<var>r</var>/(π<var>r</var>))<sup>2</sup>=0.5.\r\n</p>\r\n\r\n<p>\r\nThe
+  minimal risk of a journey from the North Pole station to the South Pole station
+  on C(<var>r</var>) is M(<var>r</var>).\r\n</p>\r\n\r\n<p>\r\nYou are given that
+  M(7)=0.1784943998  rounded to 10 digits behind the decimal point. \r\n</p>\r\n\r\n<p>\r\nFind
+  <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\">M(2<sup>n</sup>-1) for 1<img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">n<img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">15.\r\n</p>\r\n\r\n<p>\r\nGive
+  your answer rounded to 10 digits behind the decimal point in the form a.bcdefghijk.\r\n</p>\r\n\r\n\r\n"

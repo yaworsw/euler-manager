@@ -1,0 +1,17 @@
+---
+:id: 257
+:name: Angular Bisectors
+:content: "\r\n<span style=\"font-size:11pt;\">\r\n<p>Given is an integer sided triangle
+  ABC with sides a <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\"> b <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  c. \r\n(AB = c, BC = a and AC = b).<br>\r\nThe angular bisectors of the triangle
+  intersect the sides at points E, F and G (see picture below).\r\n</p>\r\n<div align=\"center\">\r\n<img
+  src=\"project/images/p_257_bisector.gif\"><br>\n</div>\r\n<p>\r\nThe segments EF,
+  EG and FG partition the triangle ABC into four smaller triangles: AEG, BFE, CGF
+  and EFG.<br>\r\nIt can be proven that for each of these four triangles the ratio
+  area(ABC)/area(subtriangle) is rational.<br>\r\nHowever, there exist triangles for
+  which some or all of these ratios are integral.\r\n</p>\r\n<p>\r\nHow many triangles
+  ABC with perimeter<img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\">100,000,000 exist so that the ratio
+  area(ABC)/area(AEG) is integral?\r\n</p>\r\n</span>\r\n\r\n\r\n\r\n\r\n"

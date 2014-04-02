@@ -1,0 +1,18 @@
+---
+:id: 310
+:name: Nim Square
+:content: "\r\n<p>\r\nAlice and Bob play the game Nim Square.<br>\r\nNim Square is
+  just like ordinary three-heap normal play Nim, but the players may only remove a
+  square number of stones from a heap.<br>\r\nThe number of stones in the three heaps
+  is represented by the ordered triple (a,b,c).<br>\r\nIf 0<img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">a<img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">b<img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">c<img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">29
+  then the number of losing positions for the next player is 1160.\r\n</p>\r\n<p>\r\nFind
+  the number of losing positions for the next player if 0<img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">a<img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">b<img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">c<img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">100
+  000.\r\n</p>\r\n\r\n\r\n"

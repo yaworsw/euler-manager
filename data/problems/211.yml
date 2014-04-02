@@ -1,0 +1,10 @@
+---
+:id: 211
+:name: Divisor Square Sum
+:content: "\r\n<p>For a positive integer <var>n</var>, let σ<sub>2</sub>(<var>n</var>)
+  be the sum of the squares of its divisors. For example,</p>\r\n<div style=\"text-align:center;\">σ<sub>2</sub>(10)
+  = 1 + 4 + 25 + 100 = 130.</div>\r\n<p>Find the sum of all <var>n</var>, 0 <img src=\"images/symbol_lt.gif\"
+  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
+  <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
+  style=\"vertical-align:middle;\"> 64,000,000 such that σ<sub>2</sub>(<var>n</var>)
+  is a perfect square.</p>\r\n"

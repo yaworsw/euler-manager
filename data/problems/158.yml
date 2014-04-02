@@ -1,0 +1,18 @@
+---
+:id: 158
+:name: Exploring strings for which only one character comes lexicographically after
+  its neighbour to the left
+:content: "\r\n<p>Taking three different letters from the 26 letters of the alphabet,
+  character strings of length three can be formed.<br>\r\nExamples are 'abc', 'hat'
+  and 'zyx'.<br>\r\nWhen we study these three examples we see that for 'abc' two characters
+  come lexicographically after its neighbour to the left.<br> \r\nFor 'hat' there
+  is exactly one character that comes lexicographically after its neighbour to the
+  left. For 'zyx' there are zero characters that come lexicographically after its
+  neighbour to the left.<br>\r\nIn all there are 10400 strings of length 3 for which
+  exactly one character comes lexicographically after its neighbour to the left.</p>\r\n<p>We
+  now consider strings of <var>n</var> <img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 26 different
+  characters from the alphabet.<br> \r\nFor every <var>n</var>, p(<var>n</var>) is
+  the number of strings of length <var>n</var> for which exactly one character comes
+  lexicographically after its neighbour to the left.</p> \r\n<p>What is the maximum
+  value of p(<var>n</var>)?</p>\r\n"

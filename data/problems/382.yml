@@ -1,0 +1,22 @@
+---
+:id: 382
+:name: Generating polygons
+:content: "\r\n<p>\r\nA <b>polygon</b> is a flat shape consisting of straight line
+  segments that are joined to form a closed chain or circuit. A polygon consists of
+  at least three sides and does not self-intersect.\r\n</p>\r\n\r\n<p>\r\nA set S
+  of positive numbers is said to <i>generate a polygon</i> P if:</p>\n<ul>\n<li> no
+  two sides of P are the same length,\r\n</li>\n<li> the length of every side of P
+  is in S, and\r\n</li>\n<li> S contains no other value.\r\n</li>\n</ul>\n<p>\r\nFor
+  example:<br>\r\nThe set {3, 4, 5} generates a polygon with sides 3, 4, and 5 (a
+  triangle).<br>\r\nThe set {6, 9, 11, 24} generates a polygon with sides 6, 9, 11,
+  and 24 (a quadrilateral).<br>\r\nThe sets {1, 2, 3} and {2, 3, 4, 9} do not generate
+  any polygon at all.<br></p>\r\n\r\n<p>\r\nConsider the sequence s, defined as follows:</p>\n<ul>\n<li>s<sub>1</sub>
+  = 1, s<sub>2</sub> = 2, s<sub>3</sub> = 3\r\n</li>\n<li>s<sub><var>n</var></sub>
+  = s<sub><var>n</var>-1</sub> + s<sub><var>n</var>-3</sub> for <var>n</var> <img
+  src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\" alt=\"&gt;\" border=\"0\"
+  style=\"vertical-align:middle;\"> 3.\r\n</li>\n</ul>\n<p>\r\nLet U<sub><var>n</var></sub>
+  be the set {s<sub>1</sub>, s<sub>2</sub>, ..., s<sub><var>n</var></sub>}. For example,
+  U<sub>10</sub> = {1, 2, 3, 4, 6, 9, 13, 19, 28, 41}.<br>\r\nLet f(<var>n</var>)
+  be the number of subsets of U<sub><var>n</var></sub> which generate at least one
+  polygon.<br>\r\nFor example, f(5) = 7, f(10) = 501 and f(25) = 18635853.\r\n</p>\r\n\r\n<p>\r\nFind
+  the last 9 digits of f(10<sup>18</sup>).\r\n</p>\r\n"

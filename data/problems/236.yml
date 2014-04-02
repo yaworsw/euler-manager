@@ -1,0 +1,31 @@
+---
+:id: 236
+:name: Luxury Hampers
+:content: "\r\n<style type=\"text/css\">\r\ntable.p236, table.p236 th, table.p236
+  td {\r\n  border-width: 1px 1px 1px 1px;\r\n  border-style: solid solid solid solid;\r\n
+  \ border-color: black black black black;\r\n  text-align:right;\r\n  -moz-border-radius:
+  0px 0px 0px 0px;\r\n}\r\ntable.p236 {\r\n  border-spacing: 1px;\r\n  border-collapse:
+  separate;\r\n  background-color: rgb(224,237,252);\r\n}\r\ntable.p236 th, table.p236
+  td {\r\n  padding: 1px 6px 1px 6px;\r\n}\r\ntable.p236 th { background-color: rgb(193,218,249);
+  }\r\ntable.p236 td { background-color: rgb(255,255,255); }\r\n</style>\n<p>Suppliers
+  'A' and 'B' provided the following numbers of products for the luxury hamper market:</p>\r\n\r\n<p></p>\n<center><table
+  class=\"p236\">\n<tr>\n<th>Product</th>\n<th style=\"text-align:center\">'A'</th>\n<th
+  style=\"text-align:center\">'B'</th>\n</tr>\n<tr>\n<td>Beluga Caviar</td>\n<td>5248</td>\n<td>640</td>\n</tr>\n<tr>\n<td>Christmas
+  Cake</td>\n<td>1312</td>\n<td>1888</td>\n</tr>\n<tr>\n<td>Gammon Joint</td>\n<td>2624</td>\n<td>3776</td>\n</tr>\n<tr>\n<td>Vintage
+  Port</td>\n<td>5760</td>\n<td>3776</td>\n</tr>\n<tr>\n<td>Champagne Truffles</td>\n<td>3936</td>\n<td>5664</td>\n</tr>\n</table></center>\r\n\r\n<p>Although
+  the suppliers try very hard to ship their goods in perfect condition, there is inevitably
+  some spoilage - <i>i.e.</i> products gone bad.</p>\r\n\r\n<p>The suppliers compare
+  their performance using two types of statistic:</p>\n<ul>\n<li>The five <i>per-product
+  spoilage rates</i> for each supplier are equal to the number of products gone bad
+  divided by the number of products supplied, for each of the five products in turn.</li>\r\n
+  \ <li>The <i>overall spoilage rate</i> for each supplier is equal to the total number
+  of products gone bad divided by the total number of products provided by that supplier.</li>\n</ul>\n<p>To
+  their surprise, the suppliers found that each of the five per-product spoilage rates
+  was worse (higher) for 'B' than for 'A' by the same factor (ratio of spoilage rates),
+  <var>m</var>&gt;1; and yet, paradoxically, the overall spoilage rate was worse for
+  'A' than for 'B', also by a factor of <var>m</var>.</p>\r\n\r\n<p>There are thirty-five
+  <var>m</var><img src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\" alt=\"&gt;\"
+  border=\"0\" style=\"vertical-align:middle;\">1 for which this surprising result
+  could have occurred, the smallest of which is 1476/1475.</p>\r\n\r\n<p>What's the
+  largest possible value of <var>m</var>?<br>\r\nGive your answer as a fraction reduced
+  to its lowest terms, in the form <var>u</var>/<var>v</var>.</p>\r\n"

@@ -1,0 +1,41 @@
+---
+:id: 238
+:name: Infinite string tour
+:content: "\r\n<style type=\"text/css\">\r\ntable.p238 td { padding: 0px 3px 0px 3px;
+  }\r\n</style>\n<p>Create a sequence of numbers using the \"Blum Blum Shub\" pseudo-random
+  number generator:</p>\r\n\r\n<center><table class=\"p238\">\n<tr>\n<td style=\"text-align:right\">\n<var>s</var><sub>0</sub>\n</td>\r\n
+  \   <td>=</td>\r\n    <td>14025256</td>\r\n  </tr>\n<tr>\n<td>\n<var>s</var><sub><var>n</var>+1</sub>\n</td>\r\n
+  \   <td>=</td>\r\n    <td>\n<var>s</var><sub><var>n</var></sub><sup>2</sup> mod
+  20300713</td>\r\n  </tr>\n</table></center>\r\n\r\n<p>Concatenate these numbers
+   <var>s</var><sub>0</sub><var>s</var><sub>1</sub><var>s</var><sub>2</sub>… to create
+  a string <var>w</var> of infinite length.<br>\r\nThen, <var>w</var> = <span style=\"font-family:courier
+  new;font-size:12pt;color:#0000ff;\">14025256741014958470038053646…</span></p>\r\n\r\n<p>For
+  a positive integer <var>k</var>, if no substring of <var>w</var> exists with a sum
+  of digits equal to <var>k</var>, <var>p</var>(<var>k</var>) is defined to be zero.
+  If at least one substring of <var>w</var> exists with a sum of digits equal to <var>k</var>,
+  we define <var>p</var>(<var>k</var>) = <var>z</var>, where <var>z</var> is the starting
+  position of the earliest such substring.</p>\r\n\r\n<p>For instance:</p>\r\n\r\n<p>The
+  substrings <span style=\"font-family:courier new;font-size:12pt;color:#0000ff;\">1</span>,
+  <span style=\"font-family:courier new;font-size:12pt;color:#0000ff;\">14</span>,
+  <span style=\"font-family:courier new;font-size:12pt;color:#0000ff;\">1402</span>,
+  … <br>\r\nwith respective sums of digits equal to 1, 5, 7, …<br>\r\nstart at position
+  <b>1</b>, hence <var>p</var>(1) = <var>p</var>(5) = <var>p</var>(7) = … = <b>1</b>.</p>\r\n\r\n<p>The
+  substrings <span style=\"font-family:courier new;font-size:12pt;color:#0000ff;\">4</span>,
+  <span style=\"font-family:courier new;font-size:12pt;color:#0000ff;\">402</span>,
+  <span style=\"font-family:courier new;font-size:12pt;color:#0000ff;\">4025</span>,
+  …<br>\r\nwith respective sums of digits equal to 4, 6, 11, …<br>\r\nstart at position
+  <b>2</b>, hence <var>p</var>(4) = <var>p</var>(6) = <var>p</var>(11) = … = <b>2</b>.</p>\r\n\r\n<p>The
+  substrings <span style=\"font-family:courier new;font-size:12pt;color:#0000ff;\">02</span>,
+  <span style=\"font-family:courier new;font-size:12pt;color:#0000ff;\">0252</span>,
+  …<br>\r\nwith respective sums of digits equal to 2, 9, …<br>\r\nstart at position
+  <b>3</b>, hence <var>p</var>(2) = <var>p</var>(9) = … = <b>3</b>.</p>\n<p>\r\n\r\n</p>\n<p>Note
+  that substring <span style=\"font-family:courier new;font-size:12pt;color:#0000ff;\">025</span>
+  starting at position <b>3</b>, has a sum of digits equal to 7, but there was an
+  earlier substring (starting at position <b>1</b>) with a sum of digits equal to
+  7, so <var>p</var>(7) = 1, <i>not</i> 3.</p>\r\n\r\n<p>We can verify that, for 0 k <img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 10<sup>3</sup>,
+  <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\"> <var>p</var>(<var>k</var>) = 4742.</p>\r\n\r\n<p>Find
+  <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\"> <var>p</var>(<var>k</var>), for 0 k <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 2·10<sup>15</sup>.</p>\r\n"

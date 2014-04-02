@@ -1,0 +1,15 @@
+---
+:id: 99
+:name: Largest exponential
+:content: "\r\n\n<p>Comparing two numbers written in index form like 2<sup>11</sup>
+  and 3<sup>7</sup> is not difficult, as any calculator would confirm that 2<sup>11</sup>
+  = 2048 <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\"
+  border=\"0\" style=\"vertical-align:middle;\"> 3<sup>7</sup> = 2187.</p>\n<p>However,
+  confirming that 632382<sup>518061</sup><img src=\"images/symbol_gt.gif\" width=\"10\"
+  height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\"> 519432<sup>525806</sup>
+  would be much more difficult, as both numbers contain over three million digits.</p>\n<p>Using
+  <a href=\"project/base_exp.txt\">base_exp.txt</a> (right click and 'Save Link/Target
+  As...'), a 22K text file containing one thousand lines with a base/exponent pair
+  on each line, determine which line number has the greatest numerical value.</p>\n<p
+  class=\"info\">NOTE: The first two lines in the file represent the numbers in the
+  example given above.</p>\n\r\n"

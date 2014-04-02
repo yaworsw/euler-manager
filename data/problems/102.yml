@@ -1,0 +1,15 @@
+---
+:id: 102
+:name: Triangle containment
+:content: "\r\n\n<p>Three distinct points are plotted at random on a Cartesian plane,
+  for which -1000 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\"><i>x</i>, <i>y</i> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  1000, such that a triangle is formed.</p>\n<p>Consider the following two triangles:</p>\n<p
+  style=\"text-align:center;\">A(-340,495), B(-153,-910), C(835,-947)<br><br>\nX(-175,41),
+  Y(-421,-714), Z(574,-645)</p>\n<p>It can be verified that triangle ABC contains
+  the origin, whereas triangle XYZ does not.</p>\n<p>Using <a href=\"project/triangles.txt\">triangles.txt</a>
+  (right click and 'Save Link/Target As...'), a 27K text file containing the co-ordinates
+  of one thousand \"random\" triangles, find the number of triangles for which the
+  interior contains the origin.</p>\n<p class=\"info\">NOTE: The first two examples
+  in the file represent the triangles in the example given above.</p>\n\r\n"

@@ -1,0 +1,129 @@
+---
+:id: 64
+:name: Odd period square roots
+:content: "\r\n<p>All square roots are periodic when written as continued fractions
+  and can be written in the form:</p>\r\n<div style=\"margin-left:20px;\">\r\n<table
+  border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tr>\n<td>\n<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var>
+  = <var>a</var><sub>0</sub> +</td>\r\n<td colspan=\"3\" style=\"border-bottom:1px
+  solid #000;\"><div style=\"text-align:center;\">1</div></td>\r\n</tr>\n<tr>\n<td> </td>\r\n<td>\n<var>a</var><sub>1</sub>
+  +</td>\r\n<td colspan=\"2\" style=\"border-bottom:1px solid #000;\"><div style=\"text-align:center;\">1</div></td>\r\n</tr>\n<tr>\n<td> </td>\r\n<td> </td>\r\n<td>\n<var>a</var><sub>2</sub>
+  +</td>\r\n<td style=\"border-bottom:1px solid #000;\"><div style=\"text-align:center;\">1</div></td>\r\n</tr>\n<tr>\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td>\n<var>a</var><sub>3</sub>
+  + ...</td>\r\n</tr>\n</table>\n</div>\r\n<p>For example, let us consider <img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">23:</p>\r\n<div
+  style=\"margin-left:20px;\">\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tr>\n<td>\n<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23 = 4 + <img src=\"images/symbol_radic.gif\" width=\"14\"
+  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">23 — 4 = 4
+  + </td>\r\n<td style=\"border-bottom:1px solid #000;\"><div style=\"text-align:center;\">1</div></td>\r\n<td> =
+  4 + </td>\r\n<td colspan=\"2\" style=\"border-bottom:1px solid #000;\"><div style=\"text-align:center;\">1</div></td>\r\n</tr>\n<tr>\n<td> </td>\r\n<td><div
+  style=\"text-align:center;\">1<br><span style=\"border-top:1px solid #000;\"><img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23—4</span>\n</div></td>\r\n<td> </td>\r\n<td>1
+  + </td>\r\n<td><div style=\"text-align:center;\">\n<span style=\"border-bottom:1px
+  solid #000;\"><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">23 – 3</span><br>7</div></td>\r\n</tr>\n</table>\n</div>\r\n<p>If
+  we continue we would get the following expansion:</p>\r\n<div style=\"margin-left:20px;\">\r\n<table
+  border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tr>\n<td>\n<img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">23
+  = 4 +</td>\r\n<td colspan=\"4\" style=\"border-bottom:1px solid #000;\"><div style=\"text-align:center;\">1</div></td>\r\n</tr>\n<tr>\n<td> </td>\r\n<td>1
+  +</td>\r\n<td colspan=\"3\" style=\"border-bottom:1px solid #000;\"><div style=\"text-align:center;\">1</div></td>\r\n</tr>\n<tr>\n<td> </td>\r\n<td> </td>\r\n<td>3
+  +</td>\r\n<td colspan=\"2\" style=\"border-bottom:1px solid #000;\"><div style=\"text-align:center;\">1</div></td>\r\n</tr>\n<tr>\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td>1
+  +</td>\r\n<td style=\"border-bottom:1px solid #000;\"><div style=\"text-align:center;\">1</div></td>\r\n</tr>\n<tr>\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td>8
+  + ...</td>\r\n</tr>\n</table>\n</div>\r\n<p>The process can be summarised as follows:</p>\r\n<div
+  style=\"margin-left:20px;\">\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tr>\n<td>\n<var>a</var><sub>0</sub>
+  = 4,</td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">1<br><span style=\"border-top:1px
+  solid #000;\"><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">23—4</span>\n</div></td>\r\n<td> = </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\"><img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23+4</span><br>7</div></td>\r\n<td> = 1 + </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\"><img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23—3</span><br>7</div></td>\r\n</tr>\n<tr>\n<td>\n<var>a</var><sub>1</sub>
+  = 1,</td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">7<br><span style=\"border-top:1px
+  solid #000;\"><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">23—3</span>\n</div></td>\r\n<td> = </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\">7(<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23+3)</span><br>14</div></td>\r\n<td> = 3 + </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\"><img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23—3</span><br>2</div></td>\r\n</tr>\n<tr>\n<td>\n<var>a</var><sub>2</sub>
+  = 3,</td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">2<br><span style=\"border-top:1px
+  solid #000;\"><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">23—3</span>\n</div></td>\r\n<td> = </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\">2(<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23+3)</span><br>14</div></td>\r\n<td> = 1 + </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\"><img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23—4</span><br>7</div></td>\r\n</tr>\n<tr>\n<td>\n<var>a</var><sub>3</sub>
+  = 1,</td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">7<br><span style=\"border-top:1px
+  solid #000;\"><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">23—4</span>\n</div></td>\r\n<td> = </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\">7(<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23+4)</span><br>7</div></td>\r\n<td> = 8 + </td>\r\n<td>\n<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23—4</td>\r\n</tr>\n<tr>\n<td>\n<var>a</var><sub>4</sub>
+  = 8,</td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">1<br><span style=\"border-top:1px
+  solid #000;\"><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">23—4</span>\n</div></td>\r\n<td> = </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\"><img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23+4</span><br>7</div></td>\r\n<td> = 1 + </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\"><img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23—3</span><br>7</div></td>\r\n</tr>\n<tr>\n<td>\n<var>a</var><sub>5</sub>
+  = 1,</td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">7<br><span style=\"border-top:1px
+  solid #000;\"><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">23—3</span>\n</div></td>\r\n<td> = </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\">7(<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23+3)</span><br>14</div></td>\r\n<td> = 3 + </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\"><img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23—3</span><br>2</div></td>\r\n</tr>\n<tr>\n<td>\n<var>a</var><sub>6</sub>
+  = 3,</td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">2<br><span style=\"border-top:1px
+  solid #000;\"><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">23—3</span>\n</div></td>\r\n<td> = </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\">2(<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23+3)</span><br>14</div></td>\r\n<td> = 1 + </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\"><img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23—4</span><br>7</div></td>\r\n</tr>\n<tr>\n<td>\n<var>a</var><sub>7</sub>
+  = 1,</td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">7<br><span style=\"border-top:1px
+  solid #000;\"><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">23—4</span>\n</div></td>\r\n<td> = </td>\r\n<td><div
+  style=\"text-align:center;\">\n<span style=\"border-bottom:1px solid #000;\">7(<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23+4)</span><br>7</div></td>\r\n<td> = 8 + </td>\r\n<td>\n<img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23—4</td>\r\n</tr>\n</table>\n</div>\r\n<p>It can
+  be seen that the sequence is repeating. For conciseness, we use the notation <img
+  src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">23 = [4;(1,3,1,8)], to indicate that the block
+  (1,3,1,8) repeats indefinitely.</p>\r\n\r\n<p>The first ten continued fraction representations
+  of (irrational) square roots are:</p>\r\n<p style=\"margin-left:20px;\"><img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2=[1;(2)],
+  period=1<br><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">3=[1;(1,2)], period=2<br><img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">5=[2;(4)],
+  period=1<br><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">6=[2;(2,4)], period=2<br><img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">7=[2;(1,1,1,4)],
+  period=4<br><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">8=[2;(1,4)], period=2<br><img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">10=[3;(6)],
+  period=1<br><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\"
+  border=\"0\" style=\"vertical-align:middle;\">11=[3;(3,6)], period=2<br><img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">12=
+  [3;(2,6)], period=2<br><img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\"
+  alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">13=[3;(1,1,1,1,6)], period=5</p>\r\n<p>Exactly
+  four continued fractions, for <var>N</var> <img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 13, have
+  an odd period.</p>\r\n<p>How many continued fractions for <var>N</var> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  10000 have an odd period?</p>\r\n"

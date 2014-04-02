@@ -1,0 +1,12 @@
+---
+:id: 100
+:name: Arranged probability
+:content: "\r\n\n<p>If a box contains twenty-one coloured discs, composed of fifteen
+  blue discs and six red discs, and two discs were taken at random, it can be seen
+  that the probability of taking two blue discs, P(BB) = (15/21)<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">(14/20)
+  = 1/2.</p>\n<p>The next such arrangement, for which there is exactly 50% chance
+  of taking two blue discs at random, is a box containing eighty-five blue discs and
+  thirty-five red discs.</p>\n<p>By finding the first arrangement to contain over
+  10<sup>12</sup> = 1,000,000,000,000 discs in total, determine the number of blue
+  discs that the box would contain.</p>\n\r\n"

@@ -1,0 +1,16 @@
+---
+:id: 324
+:name: Building a tower
+:content: "\r\n<p>Let <var>f</var>(<var>n</var>) represent the number of ways one
+  can fill a 3<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
+  border=\"0\" style=\"vertical-align:middle;\">3<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
+  tower with blocks of 2<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">1<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">1.
+  <br>You're allowed to rotate the blocks in any way you like; however, rotations,
+  reflections etc of the tower itself are counted as distinct.</p>\r\n<p>For example
+  (with <var>q</var> = 100000007) :<br><var>f</var>(2) = 229,<br><var>f</var>(4) =
+  117805,<br><var>f</var>(10) mod <var>q</var> = 96149360,<br><var>f</var>(10<sup>3</sup>)
+  mod <var>q</var> = 24806056,<br><var>f</var>(10<sup>6</sup>) mod <var>q</var> =
+  30808124.</p>\r\n\r\n<p>Find <var>f</var>(10<sup>10000</sup>) mod 100000007.</p>\r\n"

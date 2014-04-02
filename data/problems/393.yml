@@ -1,0 +1,11 @@
+---
+:id: 393
+:name: Migrating ants
+:content: "\r\n<p>\r\nAn  <var>n</var><img src=\"images/symbol_times.gif\" width=\"9\"
+  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
+  grid of squares contains  <var>n</var><sup>2</sup> ants, one ant per square.<br>\r\nAll
+  ants decide to move simultaneously to an adjacent square (usually 4 possibilities,
+  except for ants on the edge of the grid or at the corners).<br>\r\nWe define <var>f</var>(<var>n</var>)
+  to be the number of ways this can happen without any ants ending on the same square
+  and without any two ants crossing the same edge between two squares.\r\n</p>\r\n<p>\r\nYou
+  are given that <var>f</var>(4) = 88.<br>\r\nFind  <var>f</var>(10).\r\n</p>\r\n\r\n"

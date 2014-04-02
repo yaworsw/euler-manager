@@ -1,0 +1,14 @@
+---
+:id: 405
+:name: A rectangular tiling
+:content: "\r\n<p>\r\nWe wish to tile a rectangle whose length is twice its width.<br>\r\nLet
+  <var>T</var>(0) be the tiling consisting of a single rectangle.<br>\r\nFor <var>n</var>
+  &gt; 0, let <var>T</var>(<var>n</var>) be obtained from <var>T</var>(<var>n</var>-1)
+  by replacing all tiles in the following manner:\r\n</p>\r\n\r\n<div align=\"center\">\r\n<img
+  src=\"project/images/p_405_tile1.png\">\n</div>\r\n\r\n<p>\r\nThe following animation
+  demonstrates the tilings <var>T</var>(<var>n</var>) for <var>n</var> from 0 to 5:\r\n</p>\r\n\r\n<div
+  align=\"center\">\r\n<img src=\"project/images/p_405_tile2.gif\">\n</div>\r\n\r\n<p>\r\nLet
+  <var>f</var>(<var>n</var>) be the number of points where four tiles meet in <var>T</var>(<var>n</var>).<br>\r\nFor
+  example, <var>f</var>(1) = 0, <var>f</var>(4) = 82 and <var>f</var>(10<sup>9</sup>)
+  mod 17<sup>7</sup> = 126897180.\r\n</p>\r\n\r\n<p>\r\nFind <var>f</var>(10<sup><var>k</var></sup>)
+  for <var>k</var> = 10<sup>18</sup>, give your answer modulo 17<sup>7</sup>.\r\n</p>\r\n"

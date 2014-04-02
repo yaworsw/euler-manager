@@ -1,0 +1,65 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH << File.join(File.dirname(__FILE__), '..', 'lib')
+
+require 'colorize'
+require 'nokogiri'
+require 'open-uri'
+require 'yaml'
+
+require 'euler'
+
+# Gets all of the problems from projecteuler.net and serializes them as json
+# into the data/problems directory.  This way http requests do not need to be
+# each time the manager is asked to describe a problem.
+
+# Number of seconds to wait in the beginning of each iteration of the http request loop
+sleep_time = 0.5
+
+puts
+puts 'Updating project Euler problem specs.'
+puts
+
+data_dir     = "#{__dir__}/../data"
+answers_file = "#{data_dir}/answers.yml"
+problems_dir = "#{data_dir}/problems"
+
+puts 'Data directory:     '.light_black + data_dir.underline
+puts 'Answers File:       '.light_black + answers_file.underline
+puts 'Problems Directory: '.light_black + problems_dir.underline
+puts
+
+problem_ids           = YAML.load_file(answers_file).keys
+problems_count        = problem_ids.count
+problems_count_digits = problems_count.to_s.size
+
+puts problems_count.to_s.underline + ' Problems will be updated.'
+puts
+
+# Fetch problems from projecteuler.net
+problems = problem_ids.map.with_index do |problem_id, index|
+  zero_padded_index      = (index + 1).to_s.rjust(problems_count_digits, '0')
+  zero_padded_problem_id =  problem_id.to_s.rjust(problems_count_digits, '0')
+
+  print "(#{zero_padded_index} / #{problems_count}) ##{zero_padded_index}"
+
+  sleep(sleep_time)
+
+  doc     = Nokogiri::HTML(open("http://projecteuler.net/problem=#{problem_id}"))
+  problem = Euler::Problem.new({
+    id:       problem_id,
+    name:     doc.css('h2').first.inner_html,
+    content:  doc.css('.problem_content').first.inner_html
+  })
+
+  print " : " + problem.name.bold.underline
+
+  File.open("#{problems_dir}/#{problem.id}.yml", 'w') do |f|
+    f.write(problem.to_yaml)
+  end
+
+  print " \u2713".encode('utf-8').green.bold
+  puts
+
+  problem
+end

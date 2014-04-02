@@ -1,0 +1,105 @@
+---
+:id: 114
+:name: Counting block combinations I
+:content: "\r\n<p>A row measuring seven units in length has red blocks with a minimum
+  length of three units placed on it, such that any two red blocks (which are allowed
+  to be different lengths) are separated by at least one black square. There are exactly
+  seventeen ways of doing this.</p>\r\n\r\n<table cellpadding=\"5\" cellspacing=\"1\"
+  border=\"0\" align=\"center\">\n<tr>\n<td>\r\n<table cellspacing=\"1\" cellpadding=\"0\"
+  border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img src=\"images/spacer.gif\"
+  width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td colspan=\"3\" style=\"background-color:#cc0000\"><img
+  src=\"images/spacer.gif\" width=\"66\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"3\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"66\" height=\"20\"
+  alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img src=\"images/spacer.gif\"
+  width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n</tr>\n<tr>\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"3\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"66\" height=\"20\"
+  alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img src=\"images/spacer.gif\"
+  width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"3\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"66\" height=\"20\"
+  alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img src=\"images/spacer.gif\"
+  width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"3\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"66\" height=\"20\"
+  alt=\"\"></td>\r\n</tr></table>\n</td>\r\n</tr>\n<tr>\n<td>\r\n<table cellspacing=\"1\"
+  cellpadding=\"0\" border=\"1\"><tr>\n<td colspan=\"3\" style=\"background-color:#cc0000\"><img
+  src=\"images/spacer.gif\" width=\"66\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"3\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"66\" height=\"20\"
+  alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table cellspacing=\"1\" cellpadding=\"0\"
+  border=\"1\"><tr>\n<td colspan=\"4\" style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\"
+  width=\"89\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"4\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"89\" height=\"20\"
+  alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img src=\"images/spacer.gif\"
+  width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n</tr>\n<tr>\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"4\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"89\" height=\"20\"
+  alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img src=\"images/spacer.gif\"
+  width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"4\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"89\" height=\"20\"
+  alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table cellspacing=\"1\" cellpadding=\"0\"
+  border=\"1\"><tr>\n<td colspan=\"5\" style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\"
+  width=\"112\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n</tr>\n<tr>\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"5\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"112\"
+  height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img src=\"images/spacer.gif\"
+  width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"5\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"112\"
+  height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table cellspacing=\"1\"
+  cellpadding=\"0\" border=\"1\"><tr>\n<td colspan=\"6\" style=\"background-color:#cc0000\"><img
+  src=\"images/spacer.gif\" width=\"135\" height=\"20\" alt=\"\"></td>\r\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n</tr>\n<tr>\n<td>\r\n<table
+  cellspacing=\"1\" cellpadding=\"0\" border=\"1\"><tr>\n<td style=\"background-color:#000000\"><img
+  src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"6\"
+  style=\"background-color:#cc0000\"><img src=\"images/spacer.gif\" width=\"135\"
+  height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td>\r\n<table cellspacing=\"1\"
+  cellpadding=\"0\" border=\"1\"><tr>\n<td colspan=\"7\" style=\"background-color:#cc0000\"><img
+  src=\"images/spacer.gif\" width=\"158\" height=\"20\" alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td> </td>\r\n</tr>\n</table>\n<p>How
+  many ways can a row measuring fifty units in length be filled?</p>\r\n<p class=\"info\">NOTE:
+  Although the example above does not lend itself to the possibility, in general it
+  is permitted to mix block sizes. For example, on a row measuring eight units in
+  length you could use red (3), black (1), and red (4).</p>\r\n"

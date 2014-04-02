@@ -1,0 +1,26 @@
+---
+:id: 66
+:name: Diophantine equation
+:content: "\r\n<p>Consider quadratic Diophantine equations of the form:</p>\r\n<p
+  style=\"text-align:center;\"><i>x</i><sup>2</sup> – D<i>y</i><sup>2</sup> = 1</p>\r\n<p>For
+  example, when D=13, the minimal solution in <i>x</i> is 649<sup>2</sup> – 13<img
+  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\">180<sup>2</sup> = 1.</p>\r\n<p>It can be assumed
+  that there are no solutions in positive integers when D is square.</p>\r\n<p>By
+  finding minimal solutions in <i>x</i> for D = {2, 3, 5, 6, 7}, we obtain the following:</p>\r\n<p
+  style=\"margin-left:20px;\">3<sup>2</sup> – 2<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">2<sup>2</sup>
+  = 1<br>\r\n2<sup>2</sup> – 3<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">1<sup>2</sup> = 1<br><span
+  style=\"color:#dd0000;font-weight:bold;\">9</span><sup>2</sup> – 5<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">4<sup>2</sup>
+  = 1<br>\r\n5<sup>2</sup> – 6<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">2<sup>2</sup> = 1<br>\r\n8<sup>2</sup>
+  – 7<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\">3<sup>2</sup> = 1</p>\r\n<p>Hence, by considering
+  minimal solutions in <i>x</i> for D <img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 7, the largest
+  <i>x</i> is obtained when D=5.</p>\r\n<p>Find the value of D <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  1000 in minimal solutions of <i>x</i> for which the largest value of <i>x</i> is
+  obtained.</p>\r\n\r\n"

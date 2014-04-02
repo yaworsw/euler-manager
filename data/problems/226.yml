@@ -1,0 +1,15 @@
+---
+:id: 226
+:name: A Scoop of Blancmange
+:content: "\r\n<p>The <i>blancmange curve</i> is the set of points (<var>x</var>,<var>y</var>)
+  such that 0 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\"> <var>x</var> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 1
+  and <img src=\"project/images/p_226_formula.gif\" style=\"vertical-align:middle;\"
+  alt=\"\"> ,<br>where <var>s</var>(<var>x</var>) = the distance from <var>x</var>
+  to the nearest integer.</p>\r\n\r\n<p>The area under the blancmange curve is equal
+  to ½, shown in pink in the diagram below.</p>\r\n\r\n<div style=\"text-align:center;\">\r\n<img
+  src=\"project/images/p_226_scoop2.gif\" alt=\"blancmange curve\">\n</div>\r\n\r\n<p>Let
+  <var>C</var> be the circle with centre (¼,&amp;frac12) and radius ¼, shown in black
+  in the diagram.</p>\r\n\r\n<p>What area under the blancmange curve is enclosed by
+  <var>C</var>?<br>Give your answer rounded to eight decimal places in the form <i>0.abcdefgh</i></p>\r\n\r\n"

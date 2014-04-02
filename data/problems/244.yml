@@ -1,0 +1,31 @@
+---
+:id: 244
+:name: Sliders
+:content: "\r\n<p>You probably know the game <i>Fifteen Puzzle</i>. Here, instead
+  of numbered tiles, we have seven red tiles and eight blue tiles.</p>\r\n<p>A move
+  is denoted by the uppercase initial of the direction (Left, Right, Up, Down) in
+  which the tile is slid, e.g. starting from configuration (<b>S</b>), by the sequence
+  <b>LULUR</b> we reach the configuration (<b>E</b>):</p>\r\n<p></p>\n<div style=\"text-align:
+  center;\">\r\n<table cellspacing=\"0\" cellpadding=\"2\" border=\"0\" align=\"center\"><tr>\n<td
+  width=\"25\">(<b>S</b>)</td>\n<td width=\"100\"><img src=\"project/images/p_244_start.gif\"></td>\n<td
+  width=\"25\">, (<b>E</b>)</td>\n<td width=\"100\"><img src=\"project/images/p_244_example.gif\"></td>\r\n</tr></table>\n</div>\r\n\r\n<p>For
+  each path, its checksum is calculated by (pseudocode):\r\n</p>\n<div style=\"margin-left:
+  100px;\">\r\nchecksum = 0<br>\r\nchecksum = (checksum <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
+  243 + <var>m</var><sub>1</sub>) mod 100 000 007<br>\r\nchecksum = (checksum <img
+  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"> 243 + <var>m</var><sub>2</sub>) mod 100 000 007<br>\r\n   …<br>\r\nchecksum
+  = (checksum <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
+  border=\"0\" style=\"vertical-align:middle;\"> 243 + <var>m</var><sub><var>n</var></sub>)
+  mod 100 000 007<br>\n</div>\r\nwhere <var>m</var><sub><var>k</var></sub> is the
+  ASCII value of the <var>k</var><sup><var>th</var></sup> letter in the move sequence
+  and the ASCII values for the moves are:\r\n\r\n<div style=\"text-align:center;\">\r\n<table
+  cellspacing=\"0\" cellpadding=\"2\" border=\"1\" align=\"center\">\n<tr>\n<td width=\"30\"><b>L</b></td>\n<td
+  width=\"30\">76</td>\n</tr>\n<tr>\n<td><b>R</b></td>\n<td>82</td>\n</tr>\n<tr>\n<td><b>U</b></td>\n<td>85</td>\n</tr>\n<tr>\n<td><b>D</b></td>\n<td>68</td>\n</tr>\n</table>\n</div>\r\n\r\n<p>For
+  the sequence <b>LULUR</b> given above, the checksum would be 19761398.</p>\r\n<p>Now,
+  starting from configuration (<b>S</b>),\r\nfind all shortest ways to reach configuration
+  (<b>T</b>).</p>\r\n<p></p>\n<div style=\"text-align: center;\">\r\n<table cellspacing=\"0\"
+  cellpadding=\"2\" border=\"0\" align=\"center\"><tr>\n<td width=\"25\">(<b>S</b>)</td>\n<td
+  width=\"100\"><img src=\"project/images/p_244_start.gif\"></td>\n<td width=\"25\">, (<b>T</b>)</td>\n<td
+  width=\"100\"><img src=\"project/images/p_244_target.gif\"></td>\r\n</tr></table>\n</div>\r\n\r\n<p>What
+  is the sum of all checksums for the paths having the minimal length?</p>\r\n"
