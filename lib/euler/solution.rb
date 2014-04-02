@@ -10,16 +10,19 @@ module Euler
       else
         @problem_id = problem
       end
-      @language = language.to_sym
+      @language = Euler.get_language(language)
     end
 
     def problem
       @problem ||= Problem.find(@problem_id)
     end
 
+    def init
+      language.init
+    end
+
     def run
-      lang = Euler.get_language(language)
-      lang.run
+      language.run
     end
 
   end

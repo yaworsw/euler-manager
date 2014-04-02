@@ -2,6 +2,7 @@ require 'ostruct'
 
 require 'euler/version'
 
+require 'euler/errors'
 require 'euler/problem'
 require 'euler/solution'
 
@@ -10,18 +11,29 @@ module Euler
   class << self
 
     @@config_options = OpenStruct.new
-    @@languages      = {}
+    @@languages      = Hash.new
 
     def config
       yield @@config_options
     end
 
-    def register_language name, language
-      @@languages[name.to_s] = language
+    # call without a second argument to unregister a language
+    def register_language language_name, language = nil
+      language_string = language_name.to_s
+      @@languages[language_string.to_s] = language
     end
 
-    def get_language name
-      @@languages[name.to_s]
+    def unregister_language language_name
+      register_language(language_name)
+    end
+
+    def get_language language_name
+      language_string = language_name.to_s
+      if @@languages[language_string].nil?
+        raise Euler::LanguageNotRegisteredError.new "#{language_string} has not been registered."
+      else
+        @@languages[language_string]
+      end
     end
 
   end

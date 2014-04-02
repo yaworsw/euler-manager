@@ -19,6 +19,14 @@ describe Euler::Solution do
 
     solution = Euler::Solution.new(9001, 'euler-lang')
     solution.run
+
+    Euler.unregister_language('euler-lang')
+  end
+
+  it "should raise an error if it's initialized before it's language is registered" do
+    expect {
+      Euler::Solution.new(9001, 'euler-lang')
+    }.to raise_error Euler::LanguageNotRegisteredError
   end
 
 end
