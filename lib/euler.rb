@@ -1,3 +1,4 @@
+require 'fileutils'
 require 'ostruct'
 
 require 'euler/version'
@@ -8,9 +9,25 @@ require 'euler/solution'
 
 module Euler
 
+  class ConfigOptions
+
+    def initialize
+      @config = OpenStruct.new
+    end
+
+    def method_missing method, *args, &block
+      if args.empty?
+        @config.send(method)
+      else
+        @config.send("#{method}=", args.first)
+      end
+    end
+
+  end
+
   class << self
 
-    @@config_options = OpenStruct.new
+    @@config_options = Euler::ConfigOptions.new
     @@languages      = Hash.new
 
     def config
@@ -53,7 +70,12 @@ Euler.config do |config|
 
   data_dir = "#{__dir__}/../data"
 
-  config.answers_file = "#{data_dir}/answers.yml"
-  config.problems_dir = "#{data_dir}/problems"
+  config.answers_file "#{data_dir}/answers.yml"
+  config.problems_dir "#{data_dir}/problems"
+
+  config.directory_stragety do |problem_id, language|
+    dir = "#{Euler.root}/#{problem_id}/#{language}"
+    FileUtils::mkdir_p(dir)
+  end
 
 end

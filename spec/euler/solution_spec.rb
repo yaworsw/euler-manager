@@ -9,9 +9,10 @@ describe Euler::Solution do
   end
 
   it "should call it's language's run method when run is called" do
-    euler_lang = Class.new do
+    class EulerLang
       def run; end
     end
+    euler_lang = EulerLang.new
 
     euler_lang.should_receive(:run).once
 
@@ -23,10 +24,13 @@ describe Euler::Solution do
     Euler.unregister_language('euler-lang')
   end
 
-  it "should raise an error if it's initialized before it's language is registered" do
+  it "should raise an error if run is called before it's language is registered" do
     expect {
-      Euler::Solution.new(9001, 'euler-lang')
+      solution = Euler::Solution.new(9001, 'euler-lang')
+      solution.run
     }.to raise_error Euler::LanguageNotRegisteredError
   end
+
+
 
 end

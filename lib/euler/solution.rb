@@ -6,11 +6,11 @@ module Euler
 
     def initialize problem, language
       if problem.is_a?(Problem)
-        @problem    = problem
+        @problem    = problems
       else
         @problem_id = problem
       end
-      @language = Euler.get_language(language)
+      @language = language
     end
 
     def problem
@@ -18,12 +18,19 @@ module Euler
     end
 
     def init
-      language.init
+
+      language_object.init
     end
 
     def run
-      language.run
+      language_object.run
     end
+
+    private
+
+      def language_object
+        Euler.get_language(language)
+      end
 
   end
 

@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+# Gets all of the problems from projecteuler.net and serializes them as json
+# into the data/problems directory.  This way http requests do not need to be
+# each time the manager is asked to describe a problem.
+
 $LOAD_PATH << File.join(File.dirname(__FILE__), '..', 'lib')
 
 require 'colorize'
@@ -8,10 +12,6 @@ require 'open-uri'
 require 'yaml'
 
 require 'euler'
-
-# Gets all of the problems from projecteuler.net and serializes them as json
-# into the data/problems directory.  This way http requests do not need to be
-# each time the manager is asked to describe a problem.
 
 # Number of seconds to wait in the beginning of each iteration of the http request loop
 sleep_time = 0.5
