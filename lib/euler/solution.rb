@@ -18,6 +18,7 @@ module Euler
     end
 
     def init
+
       language_object.init
     end
 

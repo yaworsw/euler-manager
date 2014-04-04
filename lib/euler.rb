@@ -73,12 +73,12 @@ Euler.config do |config|
   config.answers_file "#{data_dir}/answers.yml"
   config.problems_dir "#{data_dir}/problems"
 
-  config.directory_stragety do |problem_id, language|
+  config.create_directory_strategy do |problem_id, language|
     dir = "#{Euler.root}/#{problem_id}/#{language}"
     FileUtils::mkdir_p(dir)
   end
 
-  config.create_directory_stragety do |problem_id, langauge|
+  config.directory_stragety do |problem_id, langauge|
     "#{Euler.root}/#{problem_id}/#{language}"
   end
 
