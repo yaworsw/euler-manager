@@ -68,7 +68,7 @@ end
 # Default configuration options
 Euler.config do |config|
 
-  data_dir = "#{__dir__}/../data"
+  data_dir = "#{File.dir_name(__FILE__)}/../data"
 
   config.answers_file "#{data_dir}/answers.yml"
   config.problems_dir "#{data_dir}/problems"
@@ -76,6 +76,10 @@ Euler.config do |config|
   config.directory_stragety do |problem_id, language|
     dir = "#{Euler.root}/#{problem_id}/#{language}"
     FileUtils::mkdir_p(dir)
+  end
+
+  config.create_directory_stragety do |problem_id, langauge|
+    "#{Euler.root}/#{problem_id}/#{language}"
   end
 
 end
