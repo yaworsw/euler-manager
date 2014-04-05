@@ -53,14 +53,19 @@ module Euler
       end
     end
 
+    def method_missing method, *args, &block
+      temp = @@config_options.send method
+      if temp.is_a?(Proc)
+        temp.call *args
+      else
+        temp
+      end
+    end
+
   end
 
-  def method_missing method, *args, &block
-    if args.empty?
-      @@config_options.send method
-    else
-      super
-    end
+  def root
+    File.dirname(__FILE__)
   end
 
 end
@@ -73,13 +78,8 @@ Euler.config do |config|
   config.answers_file "#{data_dir}/answers.yml"
   config.problems_dir "#{data_dir}/problems"
 
-  config.create_directory_strategy do |problem_id, language|
-    dir = "#{Euler.root}/#{problem_id}/#{language}"
-    FileUtils::mkdir_p(dir)
-  end
-
-  config.directory_stragety do |problem_id, langauge|
+  config.directory_strategy lambda { |problem_id, language|
     "#{Euler.root}/#{problem_id}/#{language}"
-  end
+  }
 
 end

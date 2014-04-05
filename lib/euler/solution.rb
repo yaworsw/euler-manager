@@ -26,6 +26,10 @@ module Euler
       language_object.run
     end
 
+    def dir
+      Euler.directory_strategy
+    end
+
     private
 
       def language_object
