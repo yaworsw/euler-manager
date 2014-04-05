@@ -29,8 +29,22 @@ module Euler
       self
     end
 
+    def answer
+      problem.answer
+    end
+
     def run
-      language_object.run
+      @result ||= language_object.run
+    end
+
+    def test
+      expected =  answer
+      result   =  run
+      expected == result
+    end
+
+    def correct?
+      test
     end
 
     def dir
