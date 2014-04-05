@@ -17,9 +17,15 @@ module Euler
       @problem ||= Problem.find(@problem_id)
     end
 
-    def init
+    def problem_id
+      @problem_id ||= @problem.id
+    end
 
-      language_object.init
+    def init
+      mkdir
+      if language_object.respond_to? :init
+        language_object.init
+      end
     end
 
     def run
@@ -27,10 +33,14 @@ module Euler
     end
 
     def dir
-      Euler.directory_strategy
+      Euler.directory_strategy(problem_id, language)
     end
 
-    private
+    protected
+
+      def mkdir
+        FileUtils.mkdir_p(dir)
+      end
 
       def language_object
         Euler.get_language(language)
