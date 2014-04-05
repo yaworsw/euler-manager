@@ -34,8 +34,11 @@ command :test do |c|
   c.action do |args, options|
     problem_id = args.shift
     language   = args.shift
+
     solution   = Euler::Solution.new(problem_id, language)
-    correct = solution.correct?
+    problem    = solution.problem
+
+    correct    = solution.correct?
 
     puts
     puts "Testing #{solution.language} solution to"
@@ -50,6 +53,8 @@ command :test do |c|
     else
       puts "                         FAIL                         ".bold.on_red
     end
+
+    puts
   end
 end
 

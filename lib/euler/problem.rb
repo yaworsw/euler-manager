@@ -20,7 +20,7 @@ module Euler
 
     def answer
       @@answers ||= YAML.load_file(Euler.answers_file)
-      @@answers[id]
+      @@answers[id].to_s
     end
 
     def to_hash

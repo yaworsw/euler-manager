@@ -37,6 +37,10 @@ module Euler
       @result ||= language_object.run(self)
     end
 
+    def result
+      run
+    end
+
     def test
       expected =  answer
       result   =  run
