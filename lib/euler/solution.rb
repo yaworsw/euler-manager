@@ -23,9 +23,10 @@ module Euler
 
     def init
       mkdir
-      if language_object.respond_to? :init
+      if language_object.respond_to?(:init)
         language_object.init
       end
+      self
     end
 
     def run
@@ -39,7 +40,7 @@ module Euler
     protected
 
       def mkdir
-        FileUtils.mkdir_p(dir)
+        Euler.create_directory_strategy(dir)
       end
 
       def language_object

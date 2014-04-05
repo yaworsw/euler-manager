@@ -82,4 +82,8 @@ Euler.config do |config|
     "#{Euler.root}/#{problem_id}/#{language}"
   }
 
+  config.create_directory_strategy lambda { |dir|
+    FileUtils.mkdir_p(dir)
+  }
+
 end
