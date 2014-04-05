@@ -54,7 +54,7 @@ module Euler
     protected
 
       def mkdir
-        Euler.create_directory_strategy(dir)
+        Euler.create_directory_strategy(self)
       end
 
       def language_object

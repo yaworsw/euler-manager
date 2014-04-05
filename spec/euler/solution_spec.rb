@@ -32,6 +32,9 @@ describe Euler::Solution do
 
   it "should attempt to create the directory specified by directory_strategy when init is called" do
     include FakeFS::SpecHelpers
+
+    allow(Euler::Problem).to receive(:find).with(1).and_return(Euler::Problem.find(1))
+
     FakeFS.activate!
 
     ds = lambda { |problem_id, language|
