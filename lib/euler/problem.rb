@@ -18,6 +18,10 @@ module Euler
       @content = options[:content]
     end
 
+    def has_answer?
+      not answer.empty?
+    end
+
     def answer
       @@answers ||= YAML.load_file(Euler.answers_file)
       @@answers[id].to_s

@@ -11,7 +11,7 @@ program :version, Euler::VERSION
 program :description, 'Project Euler solution manager.'
 
 command :run do |c|
-  c.syntax = 'euler run problem_id language'
+  c.syntax  = 'euler run [problem_id] [language]'
   c.summary = 'Runs a solution.'
   c.description = c.summary
   c.example 'Runs the ruby solution for problem #1', 'euler run 1 ruby'
@@ -27,7 +27,7 @@ command :run do |c|
 end
 
 command :test do |c|
-  c.syntax = 'euler test problem_id language'
+  c.syntax  = 'euler test [problem_id] [language]'
   c.summary = 'Tests a solution.'
   c.description = c.summary
   c.example 'Tests the ruby solution for problem #1', 'euler test 1 ruby'
@@ -59,6 +59,10 @@ command :test do |c|
 end
 
 command :new do |c|
+  c.syntax  = 'euler new [problem_id] [language]'
+  c.summary = 'Initialize a solution.'
+  c.description = c.summary
+  c.example 'Initialize a ruby solution for problem #1', 'euler new 1 ruby'
   c.action do |args, options|
     problem_id = args.shift
     language   = args.shift
@@ -75,6 +79,24 @@ command :new do |c|
   end
 end
 
-command :describe do |c|
+command :desc do |c|
+  c.syntax  = 'euler desc [problem_id]'
+  c.summary = 'View the description for a problem.'
+  c.description = c.summary
+  c.example 'View the for description for problem #1', 'euler desc 1'
+  c.action do |args, options|
+    problem_id = args.shift
 
+    problem = Euler::Problem.find(problem_id)
+
+    puts
+    puts "##{problem.id} - #{problem.name}".bold
+    puts problem.content
+    if problem.has_answer?
+        puts "The solution to this problem is: " + problem.answer.bold
+    else
+      puts "This problem does not have an answer yet.".on_red
+    end
+    puts
+  end
 end
