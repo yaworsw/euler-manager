@@ -1,18 +1,14 @@
 ---
 :id: 110
 :name: Diophantine reciprocals II
-:content: "\r\n<p>In the following equation <var>x</var>, <var>y</var>, and <var>n</var>
-  are positive integers.</p>\r\n<div style=\"text-align:center;\">\r\n<table align=\"center\"><tr>\n<td><div
-  style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"15\"
-  height=\"1\" alt=\"\"><br><var>x</var>\n</div></td>\r\n<td> + </td>\r\n<td><div
-  style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"15\"
-  height=\"1\" alt=\"\"><br><var>y</var>\n</div></td>\r\n<td> = </td>\r\n<td><div
-  style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"15\"
-  height=\"1\" alt=\"\"><br><var>n</var>\n</div></td>\r\n</tr></table>\n</div>\r\n<p>It
-  can be verified that when <var>n</var> = 1260 there are 113 distinct solutions and
-  this is the least value of <var>n</var> for which the total number of distinct solutions
-  exceeds one hundred.</p>\r\n<p>What is the least value of <var>n</var> for which
-  the number of distinct solutions exceeds four million?</p>\r\n<p class=\"info\">NOTE:
-  This problem is a much more difficult version of problem <a href=\"index.php?section=problems&amp;id=108\">108</a>
+:content:
+- In the following equation <var>x</var>, <var>y</var>, and <var>n</var> are positive
+  integers.
+- It can be verified that when <var>n</var> = 1260 there are 113 distinct solutions
+  and this is the least value of <var>n</var> for which the total number of distinct
+  solutions exceeds one hundred.
+- What is the least value of <var>n</var> for which the number of distinct solutions
+  exceeds four million?
+- 'NOTE: This problem is a much more difficult version of problem <a href="index.php?section=problems&amp;id=108">108</a>
   and as it is well beyond the limitations of a brute force approach it requires a
-  clever implementation.</p>\r\n"
+  clever implementation.'

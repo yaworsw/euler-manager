@@ -1,13 +1,13 @@
 ---
 :id: 447
 :name: Retractions C
-:content: "\r\n<p>\r\nFor every integer n<img src=\"images/symbol_gt.gif\" width=\"10\"
-  height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\">1, the
-  family of functions f<sub>n,a,b</sub>  is defined \r\nby f<sub>n,a,b</sub>(<var>x</var>)<img
-  src=\"images/symbol_cong.gif\" width=\"9\" height=\"11\" alt=\"≡\" border=\"0\"
-  style=\"vertical-align:middle;\">a<var>x</var>+b mod n for a,b,<var>x</var> integer
-  and  0<img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\"
-  border=\"0\" style=\"vertical-align:middle;\">a<img src=\"images/symbol_lt.gif\"
+:content:
+- "\r\nFor every integer n<img src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\"
+  alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\">1, the family of functions
+  f<sub>n,a,b</sub>  is defined \r\nby f<sub>n,a,b</sub>(<var>x</var>)<img src=\"images/symbol_cong.gif\"
+  width=\"9\" height=\"11\" alt=\"≡\" border=\"0\" style=\"vertical-align:middle;\">a<var>x</var>+b
+  mod n for a,b,<var>x</var> integer and  0<img src=\"images/symbol_lt.gif\" width=\"10\"
+  height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">a<img src=\"images/symbol_lt.gif\"
   width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">n,
   0<img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
   style=\"vertical-align:middle;\">b<img src=\"images/symbol_lt.gif\" width=\"10\"
@@ -20,11 +20,11 @@
   mod n for every 0<img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
   border=\"0\" style=\"vertical-align:middle;\"><var>x</var><img src=\"images/symbol_lt.gif\"
   width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">n.<br>\r\nLet
-  R(n) be the number of retractions for n.\r\n</p>\r\n<p>\r\nF(N)=<img src=\"images/symbol_sum.gif\"
-  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">R(n)
-  for 2<img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\">n<img src=\"images/symbol_le.gif\" width=\"10\"
-  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">N.<br>\r\nF(10<sup>7</sup>)<img
+  R(n) be the number of retractions for n.\r\n"
+- "\r\nF(N)=<img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\"
+  border=\"0\" style=\"vertical-align:middle;\">R(n) for 2<img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">n<img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">N.<br>\r\nF(10<sup>7</sup>)<img
   src=\"images/symbol_cong.gif\" width=\"9\" height=\"11\" alt=\"≡\" border=\"0\"
-  style=\"vertical-align:middle;\">638042271 (mod 1 000 000 007).\r\n</p>\r\n<p> \r\nFind
-  F(10<sup>14</sup>) (mod 1 000 000 007).\r\n</p>\r\n\r\n\r\n"
+  style=\"vertical-align:middle;\">638042271 (mod 1 000 000 007).\r\n"
+- " \r\nFind F(10<sup>14</sup>) (mod 1 000 000 007).\r\n"

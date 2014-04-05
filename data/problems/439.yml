@@ -1,7 +1,8 @@
 ---
 :id: 439
 :name: Sum of sum of divisors
-:content: "\r\n<p>Let <var>d</var>(<var>k</var>) be the sum of all divisors of <var>k</var>.<br>\r\nWe
+:content:
+- "Let <var>d</var>(<var>k</var>) be the sum of all divisors of <var>k</var>.<br>\r\nWe
   define the function S(<var>N</var>) = <img src=\"images/symbol_sum.gif\" width=\"11\"
   height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"><sub>1<img
   src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var><img
@@ -12,5 +13,6 @@
   src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var></sub><var>d</var>(<var>i</var>·<var>j</var>).<br>\r\nFor
   example, S(3) = <var>d</var>(1) + <var>d</var>(2) + <var>d</var>(3) + <var>d</var>(2)
   + <var>d</var>(4) + <var>d</var>(6) + <var>d</var>(3) + <var>d</var>(6) + <var>d</var>(9)
-  = 59.</p>\r\n\r\n<p>You are given that S(10<sup>3</sup>) = 563576517282 and S(10<sup>5</sup>)
-  mod 10<sup>9</sup> = 215766508.<br>\r\nFind S(10<sup>11</sup>) mod 10<sup>9</sup>.</p>\r\n\r\n"
+  = 59."
+- "You are given that S(10<sup>3</sup>) = 563576517282 and S(10<sup>5</sup>) mod 10<sup>9</sup>
+  = 215766508.<br>\r\nFind S(10<sup>11</sup>) mod 10<sup>9</sup>."

@@ -1,21 +1,17 @@
 ---
 :id: 422
 :name: Sequence of points on a hyperbola
-:content: "\r\n<p>Let H be the hyperbola defined by the equation 12<var>x</var><sup>2</sup>
-  + 7<var>x</var><var>y</var> - 12<var>y</var><sup>2</sup> = 625.</p>\r\n\r\n<p>Next,
-  define X as the point (7, 1). It can be seen that X is in H.</p>\r\n\r\n<p>Now we
-  define a sequence of points in H, {P<sub><var>i</var></sub> : <var>i</var> <img
-  src=\"images/symbol_ge.gif\" width=\"10\" height=\"12\" alt=\"≥\" border=\"0\" style=\"vertical-align:middle;\">
-  1}, as:\r\n</p>\n<ul>\n<li> P<sub>1</sub> = (13, 61/4).\r\n</li>\n<li> P<sub>2</sub>
-  = (-43/6, -4).\r\n</li>\n<li> For <var>i</var> &gt; 2, P<sub><var>i</var></sub>
-  is the unique point in H that is different from P<sub><var>i</var>-1</sub> and such
-  that line P<sub><var>i</var></sub>P<sub><var>i</var>-1</sub> is parallel to line
-  P<sub><var>i</var>-2</sub>X. It can be shown that P<sub><var>i</var></sub> is well-defined,
-  and that its coordinates are always rational.\r\n</li>\n</ul>\n<img src=\"project/images/p422_hyperbola.gif\"><p>You
-  are given that P<sub>3</sub>  = (-19/2, -229/24), P<sub>4</sub> = (1267/144, -37/12)
-  and P<sub>7</sub> = (17194218091/143327232, 274748766781/1719926784).</p>\r\n\r\n<p>Find
-  P<sub><var>n</var></sub> for <var>n</var> = 11<sup>14</sup> in the following format:<br>If
-  P<sub><var>n</var></sub> = (<var>a</var>/<var>b</var>, <var>c</var>/<var>d</var>)
+:content:
+- Let H be the hyperbola defined by the equation 12<var>x</var><sup>2</sup> + 7<var>x</var><var>y</var>
+  - 12<var>y</var><sup>2</sup> = 625.
+- Next, define X as the point (7, 1). It can be seen that X is in H.
+- "Now we define a sequence of points in H, {P<sub><var>i</var></sub> : <var>i</var>
+  <img src=\"images/symbol_ge.gif\" width=\"10\" height=\"12\" alt=\"≥\" border=\"0\"
+  style=\"vertical-align:middle;\"> 1}, as:\r\n"
+- You are given that P<sub>3</sub>  = (-19/2, -229/24), P<sub>4</sub> = (1267/144,
+  -37/12) and P<sub>7</sub> = (17194218091/143327232, 274748766781/1719926784).
+- Find P<sub><var>n</var></sub> for <var>n</var> = 11<sup>14</sup> in the following
+  format:<br>If P<sub><var>n</var></sub> = (<var>a</var>/<var>b</var>, <var>c</var>/<var>d</var>)
   where the fractions are in lowest terms and the denominators are positive, then
-  the answer is (<var>a</var> + <var>b</var> + <var>c</var> + <var>d</var>) mod 1 000 000 007.</p>\r\n\r\n<p>For
-  <var>n</var> = 7, the answer would have been: 806236837.</p>\r\n"
+  the answer is (<var>a</var> + <var>b</var> + <var>c</var> + <var>d</var>) mod 1 000 000 007.
+- 'For <var>n</var> = 7, the answer would have been: 806236837.'

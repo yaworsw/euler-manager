@@ -1,18 +1,19 @@
 ---
 :id: 410
 :name: Circle and tangent line
-:content: "\r\n<p>Let C be the circle with radius <var>r</var>, <var>x</var><sup>2</sup>
-  + <var>y</var><sup>2</sup> = <var>r</var><sup>2</sup>. We choose two points P(<var>a</var>,
-  <var>b</var>) and Q(-<var>a</var>, <var>c</var>) so that the line passing through
-  P and Q is tangent to C.</p>\r\n\r\n<p>For example, the quadruplet (<var>r</var>,
-  <var>a</var>, <var>b</var>, <var>c</var>) = (2, 6, 2, -7) satisfies this property.</p>\r\n\r\n<p>Let
-  F(<var>R</var>, <var>X</var>) be the number of the integer quadruplets (<var>r</var>,
-  <var>a</var>, <var>b</var>, <var>c</var>) with this property, and with 0 <img src=\"images/symbol_lt.gif\"
-  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>r</var>
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>R</var> and 0 <img src=\"images/symbol_lt.gif\"
-  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>a</var>
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>X</var>.</p>\r\n\r\n<p>We can verify that
-  F(1, 5) = 10, F(2, 10) = 52 and F(10, 100) = 3384.<br>\r\nFind F(10<sup>8</sup>,
-  10<sup>9</sup>) + F(10<sup>9</sup>, 10<sup>8</sup>).</p>\r\n"
+:content:
+- Let C be the circle with radius <var>r</var>, <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup>
+  = <var>r</var><sup>2</sup>. We choose two points P(<var>a</var>, <var>b</var>) and
+  Q(-<var>a</var>, <var>c</var>) so that the line passing through P and Q is tangent
+  to C.
+- For example, the quadruplet (<var>r</var>, <var>a</var>, <var>b</var>, <var>c</var>)
+  = (2, 6, 2, -7) satisfies this property.
+- Let F(<var>R</var>, <var>X</var>) be the number of the integer quadruplets (<var>r</var>,
+  <var>a</var>, <var>b</var>, <var>c</var>) with this property, and with 0 <img src="images/symbol_lt.gif"
+  width="10" height="10" alt="&lt;" border="0" style="vertical-align:middle;"><var>r</var>
+  <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"><var>R</var>
+  and 0 <img src="images/symbol_lt.gif" width="10" height="10" alt="&lt;" border="0"
+  style="vertical-align:middle;"><var>a</var> <img src="images/symbol_le.gif" width="10"
+  height="12" alt="≤" border="0" style="vertical-align:middle;"><var>X</var>.
+- "We can verify that F(1, 5) = 10, F(2, 10) = 52 and F(10, 100) = 3384.<br>\r\nFind
+  F(10<sup>8</sup>, 10<sup>9</sup>) + F(10<sup>9</sup>, 10<sup>8</sup>)."

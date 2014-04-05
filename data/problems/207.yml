@@ -1,19 +1,22 @@
 ---
 :id: 207
 :name: Integer partition equations
-:content: "\r\n<p>For some positive integers <var>k</var>, there exists an integer
-  partition of the form   4<sup>t</sup> = 2<sup>t</sup> + <var>k</var>,<br>\r\nwhere
-  4<sup>t</sup>, 2<sup>t</sup>, and <var>k</var> are all positive integers and <var>t</var>
-  is a real number.</p>\r\n\r\n<p>The first two such partitions are 4<sup>1</sup>
-  = 2<sup>1</sup> + 2 and 4<sup>1.5849625...</sup> = 2<sup>1.5849625...</sup> + 6.</p>\r\n\r\n<p>Partitions
-  where <var>t</var> is also an integer are called <i>perfect</i>.<br> \r\nFor any
-  <var>m</var> <img src=\"images/symbol_ge.gif\" width=\"10\" height=\"12\" alt=\"≥\"
-  border=\"0\" style=\"vertical-align:middle;\"> 1 let P(<var>m</var>) be the proportion
-  of such partitions that are perfect with <var>k</var> <img src=\"images/symbol_le.gif\"
+:content:
+- "For some positive integers <var>k</var>, there exists an integer partition of the
+  form   4<sup>t</sup> = 2<sup>t</sup> + <var>k</var>,<br>\r\nwhere 4<sup>t</sup>,
+  2<sup>t</sup>, and <var>k</var> are all positive integers and <var>t</var> is a
+  real number."
+- The first two such partitions are 4<sup>1</sup> = 2<sup>1</sup> + 2 and 4<sup>1.5849625...</sup>
+  = 2<sup>1.5849625...</sup> + 6.
+- "Partitions where <var>t</var> is also an integer are called <i>perfect</i>.<br>
+  \r\nFor any <var>m</var> <img src=\"images/symbol_ge.gif\" width=\"10\" height=\"12\"
+  alt=\"≥\" border=\"0\" style=\"vertical-align:middle;\"> 1 let P(<var>m</var>) be
+  the proportion of such partitions that are perfect with <var>k</var> <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>m</var>.<br>\r\nThus
-  P(6) = 1/2.</p>\r\n\r\n<p>In the following table are listed some values of P(<var>m</var>)</p>\r\n<p>   P(5)
-  = 1/1<br>\r\n   P(10) = 1/2<br>\r\n   P(15) = 2/3<br>\r\n   P(20) = 1/2<br>\r\n   P(25)
+  P(6) = 1/2."
+- In the following table are listed some values of P(<var>m</var>)
+- "   P(5) = 1/1<br>\r\n   P(10) = 1/2<br>\r\n   P(15) = 2/3<br>\r\n   P(20) = 1/2<br>\r\n   P(25)
   = 1/2<br>\r\n   P(30) = 2/5<br>\r\n   ...<br>\r\n   P(180) = 1/4<br>\r\n   P(185)
-  = 3/13</p>\r\n\r\n\r\n<p>Find the smallest <var>m</var> for which P(<var>m</var>)
-  <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
-  style=\"vertical-align:middle;\"> 1/12345</p>\r\n"
+  = 3/13"
+- Find the smallest <var>m</var> for which P(<var>m</var>) <img src="images/symbol_lt.gif"
+  width="10" height="10" alt="&lt;" border="0" style="vertical-align:middle;"> 1/12345

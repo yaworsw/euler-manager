@@ -1,13 +1,16 @@
 ---
 :id: 218
 :name: Perfect right-angled triangles
-:content: "\r\n<p>Consider the right angled triangle with sides a=7, b=24 and c=25.\r\nThe
-  area of this triangle is 84, which is divisible by the perfect numbers 6 and 28.<br>\r\nMoreover
+:content:
+- "Consider the right angled triangle with sides a=7, b=24 and c=25.\r\nThe area of
+  this triangle is 84, which is divisible by the perfect numbers 6 and 28.<br>\r\nMoreover
   it is a primitive right angled triangle as gcd(a,b)=1 and gcd(b,c)=1.<br>\r\nAlso
-  c is a perfect square.</p>\r\n\r\n<p>We will call a right angled triangle perfect
-  if<br>\r\n-it is a primitive right angled triangle<br>\r\n-its hypotenuse is a perfect
-  square</p>\r\n\r\n<p>We will call a right angled triangle super-perfect if<br>\r\n-it
-  is a perfect right angled triangle and<br>\r\n-its area is a multiple of the perfect
-  numbers 6 and 28.\r\n</p>\r\n\r\n<p>How many perfect right-angled triangles with
-  c<img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\">10<sup>16</sup> exist that are not super-perfect?</p>\r\n\r\n"
+  c is a perfect square."
+- "We will call a right angled triangle perfect if<br>\r\n-it is a primitive right
+  angled triangle<br>\r\n-its hypotenuse is a perfect square"
+- "We will call a right angled triangle super-perfect if<br>\r\n-it is a perfect right
+  angled triangle and<br>\r\n-its area is a multiple of the perfect numbers 6 and
+  28.\r\n"
+- How many perfect right-angled triangles with c<img src="images/symbol_le.gif" width="10"
+  height="12" alt="≤" border="0" style="vertical-align:middle;">10<sup>16</sup> exist
+  that are not super-perfect?

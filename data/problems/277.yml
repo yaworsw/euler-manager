@@ -1,23 +1,25 @@
 ---
 :id: 277
 :name: A Modified Collatz sequence
-:content: "\r\n<p>\r\nA modified Collatz sequence of integers is obtained from a starting
-  value a<sub>1</sub> in the following way:</p>\r\n<p>\r\n<var>a<sub>n+1</sub></var>
-  = <var>a<sub>n</sub></var>/3 if <var>a<sub>n</sub></var> is divisible by 3. We shall
-  denote this as a large downward step, \"D\".</p>\r\n<p>\r\n<var>a<sub>n+1</sub></var>
-  = (4<var>a<sub>n</sub></var> + 2)/3 if <var>a<sub>n</sub></var> divided by 3 gives
-  a remainder of 1. We shall denote this as an upward step, \"U\".\r\n</p>\r\n<p>\r\n<var>a<sub>n+1</sub></var>
-  = (2<var>a<sub>n</sub></var> - 1)/3 if <var>a<sub>n</sub></var> divided by 3 gives
-  a remainder of 2. We shall denote this as a small downward step, \"d\".\r\n</p>\r\n\r\n\r\n<p>\r\nThe
-  sequence terminates when some <var>a<sub>n</sub></var> = 1.\r\n</p>\r\n<p>\r\nGiven
-  any integer, we can list out the sequence of steps.<br>\r\nFor instance if <var>a</var><sub>1</sub>=231,
-  then the sequence {<var>a<sub>n</sub></var>}={231,77,51,17,11,7,10,14,9,3,1} corresponds
-  to the steps \"DdDddUUdDD\".\r\n</p>\r\n<p>\r\nOf course, there are other sequences
-  that begin with that same sequence \"DdDddUUdDD....\".<br>\r\nFor instance, if <var>a</var><sub>1</sub>=1004064,
-  then the sequence is DdDddUUdDDDdUDUUUdDdUUDDDUdDD.<br>\r\nIn fact, 1004064 is the
-  smallest possible <var>a</var><sub>1</sub><img src=\"images/symbol_gt.gif\" width=\"10\"
-  height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\"> 10<sup>6</sup>
-  that begins with the sequence DdDddUUdDD.\r\n</p>\r\n<p>\r\nWhat is the smallest
-  <var>a</var><sub>1</sub><img src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\"
-  alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\"> 10<sup>15</sup> that
-  begins with the sequence \"UDDDUdddDDUDDddDdDddDDUDDdUUDd\"?\r\n</p>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+:content:
+- "\r\nA modified Collatz sequence of integers is obtained from a starting value a<sub>1</sub>
+  in the following way:"
+- "\r\n<var>a<sub>n+1</sub></var> = <var>a<sub>n</sub></var>/3 if <var>a<sub>n</sub></var>
+  is divisible by 3. We shall denote this as a large downward step, \"D\"."
+- "\r\n<var>a<sub>n+1</sub></var> = (4<var>a<sub>n</sub></var> + 2)/3 if <var>a<sub>n</sub></var>
+  divided by 3 gives a remainder of 1. We shall denote this as an upward step, \"U\".\r\n"
+- "\r\n<var>a<sub>n+1</sub></var> = (2<var>a<sub>n</sub></var> - 1)/3 if <var>a<sub>n</sub></var>
+  divided by 3 gives a remainder of 2. We shall denote this as a small downward step,
+  \"d\".\r\n"
+- "\r\nThe sequence terminates when some <var>a<sub>n</sub></var> = 1.\r\n"
+- "\r\nGiven any integer, we can list out the sequence of steps.<br>\r\nFor instance
+  if <var>a</var><sub>1</sub>=231, then the sequence {<var>a<sub>n</sub></var>}={231,77,51,17,11,7,10,14,9,3,1}
+  corresponds to the steps \"DdDddUUdDD\".\r\n"
+- "\r\nOf course, there are other sequences that begin with that same sequence \"DdDddUUdDD....\".<br>\r\nFor
+  instance, if <var>a</var><sub>1</sub>=1004064, then the sequence is DdDddUUdDDDdUDUUUdDdUUDDDUdDD.<br>\r\nIn
+  fact, 1004064 is the smallest possible <var>a</var><sub>1</sub><img src=\"images/symbol_gt.gif\"
+  width=\"10\" height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\">
+  10<sup>6</sup> that begins with the sequence DdDddUUdDD.\r\n"
+- "\r\nWhat is the smallest <var>a</var><sub>1</sub><img src=\"images/symbol_gt.gif\"
+  width=\"10\" height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\">
+  10<sup>15</sup> that begins with the sequence \"UDDDUdddDDUDDddDdDddDDUDDdUUDd\"?\r\n"

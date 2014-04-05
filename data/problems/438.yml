@@ -1,28 +1,20 @@
 ---
 :id: 438
 :name: Integer part of polynomial equation's solutions
-:content: "\r\n<p>\r\nFor an <var>n</var>-tuple of integers <var>t</var> = (<var>a</var><sub>1</sub>,
+:content:
+- "\r\nFor an <var>n</var>-tuple of integers <var>t</var> = (<var>a</var><sub>1</sub>,
   ..., <var>a</var><sub><var>n</var></sub>), let (<var>x</var><sub>1</sub>, ..., <var>x</var><sub><var>n</var></sub>)
   be the solutions of the polynomial equation <var>x</var><sup><var>n</var></sup>
   + <var>a</var><sub>1</sub><var>x</var><sup><var>n</var>-1</sup> + <var>a</var><sub>2</sub><var>x</var><sup><var>n</var>-2</sup>
   + ... + <var>a</var><sub><var>n</var>-1</sub><var>x</var> + <var>a</var><sub><var>n</var></sub>
-  = 0.\r\n</p>\r\n<p>\r\nConsider the following two conditions:\r\n</p>\n<ul>\n<li>\n<var>x</var><sub>1</sub>,
-  ..., <var>x</var><sub><var>n</var></sub> are all real.\r\n</li>\n<li>If <var>x</var><sub>1</sub>,
-  ..., <var>x</var><sub><var>n</var></sub> are sorted, <img src=\"images/symbol_lfloor.gif\"
-  width=\"6\" height=\"16\" alt=\"⌊\" border=\"0\" style=\"vertical-align:middle;\"><var>x</var><sub><var>i</var></sub><img
-  src=\"images/symbol_rfloor.gif\" width=\"6\" height=\"16\" alt=\"⌋\" border=\"0\"
-  style=\"vertical-align:middle;\"> = <var>i</var> for 1 <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var>
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>n</var>. (<img src=\"images/symbol_lfloor.gif\"
-  width=\"6\" height=\"16\" alt=\"⌊\" border=\"0\" style=\"vertical-align:middle;\">·<img
-  src=\"images/symbol_rfloor.gif\" width=\"6\" height=\"16\" alt=\"⌋\" border=\"0\"
-  style=\"vertical-align:middle;\">: floor function.)\r\n</li>\n</ul>\n<p>\r\nIn the
-  case of <var>n</var> = 4, there are 12 <var>n</var>-tuples of integers which satisfy
-  both conditions.<br>\r\nWe define S(<var>t</var>) as the sum of the absolute values
-  of the integers in <var>t</var>.<br>\r\nFor <var>n</var> = 4 we can verify that
-  <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
-  style=\"vertical-align:middle;\">S(<var>t</var>) = 2087 for all <var>n</var>-tuples
-  <var>t</var> which satisfy both conditions.\r\n</p>\r\n<p>\r\nFind <img src=\"images/symbol_sum.gif\"
-  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">S(<var>t</var>)
-  for <var>n</var> = 7.\r\n</p>\r\n"
+  = 0.\r\n"
+- "\r\nConsider the following two conditions:\r\n"
+- "\r\nIn the case of <var>n</var> = 4, there are 12 <var>n</var>-tuples of integers
+  which satisfy both conditions.<br>\r\nWe define S(<var>t</var>) as the sum of the
+  absolute values of the integers in <var>t</var>.<br>\r\nFor <var>n</var> = 4 we
+  can verify that <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\"
+  border=\"0\" style=\"vertical-align:middle;\">S(<var>t</var>) = 2087 for all <var>n</var>-tuples
+  <var>t</var> which satisfy both conditions.\r\n"
+- "\r\nFind <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\"
+  border=\"0\" style=\"vertical-align:middle;\">S(<var>t</var>) for <var>n</var> =
+  7.\r\n"

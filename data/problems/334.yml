@@ -1,38 +1,19 @@
 ---
 :id: 334
 :name: Spilling the beans
-:content: "\r\n<p>In Plato's heaven, there exist an infinite number of bowls in a
-  straight line.<br>\r\nEach bowl either contains some or none of a finite number
-  of beans.<br>\r\nA child plays a game, which allows only one kind of move: removing
-  two beans from any bowl, and putting one in each of the two adjacent bowls.<br>
-  The game ends when each bowl contains either one or no beans.</p>\r\n\r\n<p>For
-  example, consider two adjacent bowls containing 2 and 3 beans respectively, all
-  other bowls being empty. The following eight moves will finish the game:</p>\r\n\r\n<div
-  align=\"center\"><img src=\"project/images/p_334_beans.gif\"></div>\r\n\r\n<p>You
-  are given the following sequences:<br></p>\n<table class=\"formula\" style=\"margin-left:50px;\"><tr>\n<td>\r\n
-  \     <var>t</var><sub><i>0</i></sub> = 123456.\r\n   </td>\r\n</tr></table>\n<table
-  class=\"formula\" style=\"margin-left:50px;\">\n<tr>\n<td>\r\n      <var>t</var><sub><i>i</i></sub>
-  = \r\n   </td>\r\n   <td><img src=\"project/images/p_334_cases.gif\"></td>\r\n   <td>\r\n
-  \  <table class=\"formula\">\n<tr>\n<td></td>\r\n      <td>\r\n         <table class=\"frac\">\n<tr><td>\n<var>t</var><sub><i>i-1</i></sub>\n</td></tr>\n<tr><td
-  class=\"overline\">2</td></tr>\n</table>\n</td>\r\n      <td>\r\n         ,\r\n
-  \     </td>\r\n      <td></td>\r\n      <td>\r\n         if <var>t</var><sub><i>i-1</i></sub>
-  is even\r\n      </td>\r\n      </tr>\n<tr>\n<td><img src=\"project/images/p_334_lfloor.gif\"></td>\r\n
-  \     <td>\r\n         <table class=\"frac\">\n<tr><td>\n<var>t</var><sub><i>i-1</i></sub>\n</td></tr>\n<tr><td
-  class=\"overline\">2</td></tr>\n</table>\n</td>\r\n      <td>\r\n         <img src=\"project/images/p_334_rfloor.gif\">\n</td>\r\n
-  \     <td>\r\n         926252, \r\n      </td>\r\n      <td>\r\n         if <var>t</var><sub><i>i-1</i></sub>
-  is odd\r\n      </td>\r\n      </tr>\n</table>\n</td>\n<td>\r\n</td>\n</tr>\n<tr>\n<td></td>\r\n
-  \  <td></td>\r\n   <td>\r\n      where <img src=\"images/symbol_lfloor.gif\" width=\"6\"
-  height=\"16\" alt=\"⌊\" border=\"0\" style=\"vertical-align:middle;\"><var>x</var><img
-  src=\"images/symbol_rfloor.gif\" width=\"6\" height=\"16\" alt=\"⌋\" border=\"0\"
-  style=\"vertical-align:middle;\"> is the floor function\r\n   </td>\r\n</tr>\n<tr>\n<td></td>\r\n
-  \  <td></td>\r\n   <td>\r\n      and <img src=\"project/images/p_334_oplus.gif\">
-  is the bitwise XOR operator.\r\n   </td>\r\n</tr>\n</table>\n<table class=\"formula\"
-  style=\"margin-left:50px;\"><tr>\n<td>\r\n      <var>b</var><sub><i>i</i></sub>
-  = ( <var>t</var><sub><i>i</i></sub> mod 2<sup>11</sup>) + 1.\r\n   </td>\r\n</tr></table>\n<p>The
-  first two terms of the last sequence are <var>b</var><sub><i>1</i></sub> = 289 and
-  <var>b</var><sub><i>2</i></sub> = 145.<br>\r\nIf we start with <var>b</var><sub><i>1</i></sub>
+:content:
+- "In Plato's heaven, there exist an infinite number of bowls in a straight line.<br>\r\nEach
+  bowl either contains some or none of a finite number of beans.<br>\r\nA child plays
+  a game, which allows only one kind of move: removing two beans from any bowl, and
+  putting one in each of the two adjacent bowls.<br> The game ends when each bowl
+  contains either one or no beans."
+- 'For example, consider two adjacent bowls containing 2 and 3 beans respectively,
+  all other bowls being empty. The following eight moves will finish the game:'
+- You are given the following sequences:<br>
+- "The first two terms of the last sequence are <var>b</var><sub><i>1</i></sub> =
+  289 and <var>b</var><sub><i>2</i></sub> = 145.<br>\r\nIf we start with <var>b</var><sub><i>1</i></sub>
   and <var>b</var><sub><i>2</i></sub> beans in two adjacent bowls, 3419100 moves would
-  be required to finish the game.</p>\r\n\r\n<p>Consider now 1500 adjacent bowls containing
-  <var>b</var><sub><i>1</i></sub>, <var>b</var><sub><i>2</i></sub>,..., <var>b</var><sub><i>1500</i></sub>
-  beans respectively, all other bowls being empty. Find how many moves it takes before
-  the game ends.</p>\r\n\r\n\r\n"
+  be required to finish the game."
+- Consider now 1500 adjacent bowls containing <var>b</var><sub><i>1</i></sub>, <var>b</var><sub><i>2</i></sub>,...,
+  <var>b</var><sub><i>1500</i></sub> beans respectively, all other bowls being empty.
+  Find how many moves it takes before the game ends.

@@ -1,12 +1,14 @@
 ---
 :id: 398
 :name: Cutting rope
-:content: "\r\n<p>\r\nInside a rope of length <var>n</var>, <var>n</var>-1 points
-  are placed with distance 1 from each other and from the endpoints. Among these points,
-  we choose <var>m</var>-1 points at random and cut the rope at these points to create
-  <var>m</var> segments.\r\n</p>\r\n<p>\r\nLet E(<var>n</var>, <var>m</var>) be the
-  expected length of the second-shortest segment.\r\nFor example, E(3, 2) = 2 and
-  E(8, 3) = 16/7.\r\nNote that if multiple segments have the same shortest length
-  the length of the second-shortest segment is defined as the same as the shortest
-  length.\r\n</p>\r\n<p>\r\nFind E(10<sup>7</sup>, 100).\r\nGive your answer rounded
-  to 5 decimal places behind the decimal point.\r\n</p>\r\n"
+:content:
+- "\r\nInside a rope of length <var>n</var>, <var>n</var>-1 points are placed with
+  distance 1 from each other and from the endpoints. Among these points, we choose
+  <var>m</var>-1 points at random and cut the rope at these points to create <var>m</var>
+  segments.\r\n"
+- "\r\nLet E(<var>n</var>, <var>m</var>) be the expected length of the second-shortest
+  segment.\r\nFor example, E(3, 2) = 2 and E(8, 3) = 16/7.\r\nNote that if multiple
+  segments have the same shortest length the length of the second-shortest segment
+  is defined as the same as the shortest length.\r\n"
+- "\r\nFind E(10<sup>7</sup>, 100).\r\nGive your answer rounded to 5 decimal places
+  behind the decimal point.\r\n"

@@ -1,21 +1,23 @@
 ---
 :id: 419
 :name: Look and say sequence
-:content: "\r\n<p>\r\nThe <b>look and say</b> sequence goes 1, 11, 21, 1211, 111221,
-  312211, 13112221, 1113213211, ...<br>\r\nThe sequence starts with 1 and all other
-  members are obtained by describing the previous member in terms of consecutive digits.<br>\r\nIt
-  helps to do this out loud:<br>\r\n1 is 'one one' <img src=\"images/symbol_maps.gif\"
-  width=\"15\" height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\">
-  11<br>\r\n11 is 'two ones' <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\"
-  alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 21<br>\r\n21 is 'one two
+:content:
+- "\r\nThe <b>look and say</b> sequence goes 1, 11, 21, 1211, 111221, 312211, 13112221,
+  1113213211, ...<br>\r\nThe sequence starts with 1 and all other members are obtained
+  by describing the previous member in terms of consecutive digits.<br>\r\nIt helps
+  to do this out loud:<br>\r\n1 is 'one one' <img src=\"images/symbol_maps.gif\" width=\"15\"
+  height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 11<br>\r\n11
+  is 'two ones' <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\"
+  border=\"0\" style=\"vertical-align:middle;\"> 21<br>\r\n21 is 'one two and one
+  one' <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 1211 <br>\r\n1211 is 'one one, one two and two
+  ones' <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 111221<br>\r\n111221 is 'three ones, two twos
   and one one' <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\"
-  border=\"0\" style=\"vertical-align:middle;\"> 1211 <br>\r\n1211 is 'one one, one
-  two and two ones' <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\"
-  alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 111221<br>\r\n111221 is
-  'three ones, two twos and one one' <img src=\"images/symbol_maps.gif\" width=\"15\"
-  height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 312211<br>\r\n...\r\n</p>\r\n<p>\r\nDefine
-  A(n), B(n) and C(n) as the number of ones, twos and threes in the n'th element of
-  the sequence respectively.<br>\r\nOne can verify that A(40) = 31254, B(40) = 20259
-  and C(40) = 11625.\r\n</p>\r\n<p>\r\nFind A(n), B(n) and C(n) for n = 10<sup>12</sup>.<br>
-  \r\nGive your answer modulo 2<sup>30</sup> and separate your values for A, B and
-  C by a comma.<br> \r\nE.g. for n = 40 the answer would be 31254,20259,11625\r\n</p>\r\n\r\n\r\n"
+  border=\"0\" style=\"vertical-align:middle;\"> 312211<br>\r\n...\r\n"
+- "\r\nDefine A(n), B(n) and C(n) as the number of ones, twos and threes in the n'th
+  element of the sequence respectively.<br>\r\nOne can verify that A(40) = 31254,
+  B(40) = 20259 and C(40) = 11625.\r\n"
+- "\r\nFind A(n), B(n) and C(n) for n = 10<sup>12</sup>.<br> \r\nGive your answer
+  modulo 2<sup>30</sup> and separate your values for A, B and C by a comma.<br> \r\nE.g.
+  for n = 40 the answer would be 31254,20259,11625\r\n"

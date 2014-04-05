@@ -1,10 +1,11 @@
 ---
 :id: 276
 :name: Primitive Triangles
-:content: "\r\n<p>Consider the triangles with integer sides a, b and c with a <img
-  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+:content:
+- "Consider the triangles with integer sides a, b and c with a <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
   b <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
   style=\"vertical-align:middle;\"> c.<br>\r\nAn integer sided triangle (a,b,c) is
   called primitive if <dfn title=\" gcd(a,b,c)=gcd(a,gcd(b,c))\"> gcd(a,b,c)</dfn>=1.
   <br>\r\nHow many primitive integer sided triangles exist with a perimeter not exceeding
-  10 000 000?\r\n</p>\r\n\r\n\r\n\r\n\r\n\r\n"
+  10 000 000?\r\n"

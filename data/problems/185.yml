@@ -1,21 +1,24 @@
 ---
 :id: 185
 :name: Number Mind
-:content: "\r\n<p>The game Number Mind is a variant of the well known game Master
-  Mind.</p>\r\n<p>Instead of coloured pegs, you have to guess a secret sequence of
-  digits. After each guess you're only told in how many places you've guessed the
-  correct digit. So, if the sequence was 1234 and you guessed 2036, you'd be told
-  that you have one correct digit; however, you would NOT be told that you also have
-  another digit in the wrong place.</p>\r\n\r\n<p>For instance, given the following
-  guesses for a 5-digit secret sequence,</p>\r\n<p style=\"margin-left:50px;\">90342
-  ;2 correct<br>\r\n70794 ;0 correct<br>\r\n39458 ;2 correct<br>\r\n34109 ;1 correct<br>\r\n51545
-  ;2 correct<br>\r\n12531 ;1 correct</p>\r\n<p>The correct sequence 39542 is unique.</p>\r\n\r\n<p>Based
-  on the following guesses,</p>\r\n\r\n<p style=\"margin-left:50px;\">5616185650518293
-  ;2 correct<br>\r\n3847439647293047 ;1 correct<br>\r\n5855462940810587 ;3 correct<br>\r\n9742855507068353
-  ;3 correct<br>\r\n4296849643607543 ;3 correct<br>\r\n3174248439465858 ;1 correct<br>\r\n4513559094146117
-  ;2 correct<br>\r\n7890971548908067 ;3 correct<br>\r\n8157356344118483 ;1 correct<br>\r\n2615250744386899
-  ;2 correct<br>\r\n8690095851526254 ;3 correct<br>\r\n6375711915077050 ;1 correct<br>\r\n6913859173121360
-  ;1 correct<br>\r\n6442889055042768 ;2 correct<br>\r\n2321386104303845 ;0 correct<br>\r\n2326509471271448
-  ;2 correct<br>\r\n5251583379644322 ;2 correct<br>\r\n1748270476758276 ;3 correct<br>\r\n4895722652190306
-  ;1 correct<br>\r\n3041631117224635 ;3 correct<br>\r\n1841236454324589 ;3 correct<br>\r\n2659862637316867
-  ;2 correct</p>\r\n\r\n<p>Find the unique 16-digit secret sequence.</p>\r\n"
+:content:
+- The game Number Mind is a variant of the well known game Master Mind.
+- Instead of coloured pegs, you have to guess a secret sequence of digits. After each
+  guess you're only told in how many places you've guessed the correct digit. So,
+  if the sequence was 1234 and you guessed 2036, you'd be told that you have one correct
+  digit; however, you would NOT be told that you also have another digit in the wrong
+  place.
+- For instance, given the following guesses for a 5-digit secret sequence,
+- "90342 ;2 correct<br>\r\n70794 ;0 correct<br>\r\n39458 ;2 correct<br>\r\n34109 ;1
+  correct<br>\r\n51545 ;2 correct<br>\r\n12531 ;1 correct"
+- The correct sequence 39542 is unique.
+- Based on the following guesses,
+- "5616185650518293 ;2 correct<br>\r\n3847439647293047 ;1 correct<br>\r\n5855462940810587
+  ;3 correct<br>\r\n9742855507068353 ;3 correct<br>\r\n4296849643607543 ;3 correct<br>\r\n3174248439465858
+  ;1 correct<br>\r\n4513559094146117 ;2 correct<br>\r\n7890971548908067 ;3 correct<br>\r\n8157356344118483
+  ;1 correct<br>\r\n2615250744386899 ;2 correct<br>\r\n8690095851526254 ;3 correct<br>\r\n6375711915077050
+  ;1 correct<br>\r\n6913859173121360 ;1 correct<br>\r\n6442889055042768 ;2 correct<br>\r\n2321386104303845
+  ;0 correct<br>\r\n2326509471271448 ;2 correct<br>\r\n5251583379644322 ;2 correct<br>\r\n1748270476758276
+  ;3 correct<br>\r\n4895722652190306 ;1 correct<br>\r\n3041631117224635 ;3 correct<br>\r\n1841236454324589
+  ;3 correct<br>\r\n2659862637316867 ;2 correct"
+- Find the unique 16-digit secret sequence.

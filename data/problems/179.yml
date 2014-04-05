@@ -1,9 +1,9 @@
 ---
 :id: 179
 :name: "Consecutive positive divisors\r\n"
-:content: "\r\n<p>Find the number of integers 1 <img src=\"images/symbol_lt.gif\"
-  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">
-  n <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
-  style=\"vertical-align:middle;\"> 10<sup>7</sup>, for which <var>n</var> and <var>n</var>
-  + 1 have the same number of positive divisors. For example, 14 has the positive
-  divisors 1, 2, 7, 14 while 15 has 1, 3, 5, 15.</p>\r\n"
+:content:
+- Find the number of integers 1 <img src="images/symbol_lt.gif" width="10" height="10"
+  alt="&lt;" border="0" style="vertical-align:middle;"> n <img src="images/symbol_lt.gif"
+  width="10" height="10" alt="&lt;" border="0" style="vertical-align:middle;"> 10<sup>7</sup>,
+  for which <var>n</var> and <var>n</var> + 1 have the same number of positive divisors.
+  For example, 14 has the positive divisors 1, 2, 7, 14 while 15 has 1, 3, 5, 15.

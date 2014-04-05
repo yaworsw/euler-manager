@@ -1,12 +1,15 @@
 ---
 :id: 371
 :name: Licence plates
-:content: "\r\n<p>\r\nOregon licence plates consist of three letters followed by a
-  three digit number (each digit can be from [0..9]).<br>\r\nWhile driving to work
-  Seth plays the following game:<br>\r\nWhenever the numbers of two licence plates
-  seen on his trip add to 1000 that's a win.\r\n</p>\r\n<p>\r\nE.g. MIC-012 and HAN-988
-  is a win and RYU-500 and SET-500 too. (as long as he sees them in the same trip).
-  \r\n</p>\n<p>\r\n</p>\n<p>\r\nFind the expected number of plates he needs to see
-  for a win.<br>\r\nGive your answer rounded to 8 decimal places behind the decimal
-  point.\r\n</p>\r\n<p style=\"font-size:88%\">\r\n<b>Note:</b> We assume that each
-  licence plate seen is equally likely to have any three digit number on it.\r\n</p>\r\n\r\n\r\n\r\n\r\n"
+:content:
+- "\r\nOregon licence plates consist of three letters followed by a three digit number
+  (each digit can be from [0..9]).<br>\r\nWhile driving to work Seth plays the following
+  game:<br>\r\nWhenever the numbers of two licence plates seen on his trip add to
+  1000 that's a win.\r\n"
+- "\r\nE.g. MIC-012 and HAN-988 is a win and RYU-500 and SET-500 too. (as long as
+  he sees them in the same trip). \r\n"
+- "\r\n"
+- "\r\nFind the expected number of plates he needs to see for a win.<br>\r\nGive your
+  answer rounded to 8 decimal places behind the decimal point.\r\n"
+- "\r\n<b>Note:</b> We assume that each licence plate seen is equally likely to have
+  any three digit number on it.\r\n"

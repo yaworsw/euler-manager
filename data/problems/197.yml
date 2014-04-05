@@ -1,7 +1,8 @@
 ---
 :id: 197
 :name: Investigating the behaviour of a recursively defined sequence
-:content: "\r\n<p>Given is the function <var>f</var>(<var>x</var>) = <img src=\"images/symbol_lfloor.gif\"
+:content:
+- "Given is the function <var>f</var>(<var>x</var>) = <img src=\"images/symbol_lfloor.gif\"
   width=\"6\" height=\"16\" alt=\"⌊\" border=\"0\" style=\"vertical-align:middle;\">2<sup>30.403243784-<var>x</var><sup>2</sup></sup><img
   src=\"images/symbol_rfloor.gif\" width=\"6\" height=\"16\" alt=\"⌋\" border=\"0\"
   style=\"vertical-align:middle;\"><img src=\"images/symbol_times.gif\" width=\"9\"
@@ -10,6 +11,6 @@
   style=\"vertical-align:middle;\"><img src=\"images/symbol_rfloor.gif\" width=\"6\"
   height=\"16\" alt=\"⌋\" border=\"0\" style=\"vertical-align:middle;\"> is the floor-function),<br>\r\nthe
   sequence <var>u<sub>n</sub></var> is defined by <var>u</var><sub>0</sub> = -1 and
-  <var>u</var><sub><var>n</var>+1</sub> = <var>f</var>(<var>u<sub>n</sub></var>).</p>\r\n\r\n<p>Find
-  <var>u<sub>n</sub></var> + <var>u</var><sub><var>n</var>+1</sub> for <var>n</var>
-  = 10<sup>12</sup>.<br>\r\nGive your answer with 9 digits after the decimal point.</p>\r\n"
+  <var>u</var><sub><var>n</var>+1</sub> = <var>f</var>(<var>u<sub>n</sub></var>)."
+- "Find <var>u<sub>n</sub></var> + <var>u</var><sub><var>n</var>+1</sub> for <var>n</var>
+  = 10<sup>12</sup>.<br>\r\nGive your answer with 9 digits after the decimal point."

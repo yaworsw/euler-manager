@@ -1,12 +1,14 @@
 ---
 :id: 383
 :name: Divisibility comparison between factorials
-:content: "\r\n<p>\r\nLet f<sub>5</sub>(<var>n</var>) be the largest integer <var>x</var>
-  for which 5<sup><var>x</var></sup> divides <var>n</var>.<br>\r\nFor example, f<sub>5</sub>(625000)
-  = 7.\r\n</p>\r\n\r\n<p>\r\nLet T<sub>5</sub>(<var>n</var>) be the number of integers
-  <var>i</var> which satisfy f<sub>5</sub>((2·<var>i</var>-1)!) 5(<var>i</var>!) and
-  1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>i</var> <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>.<br>\r\nIt
-  can be verified that T<sub>5</sub>(10<sup>3</sup>) = 68 and T<sub>5</sub>(10<sup>9</sup>)
-  = 2408210.\r\n</p>\r\n\r\n<p>\r\nFind T<sub>5</sub>(10<sup>18</sup>).\r\n</p>\r\n"
+:content:
+- "\r\nLet f<sub>5</sub>(<var>n</var>) be the largest integer <var>x</var> for which
+  5<sup><var>x</var></sup> divides <var>n</var>.<br>\r\nFor example, f<sub>5</sub>(625000)
+  = 7.\r\n"
+- "\r\nLet T<sub>5</sub>(<var>n</var>) be the number of integers <var>i</var> which
+  satisfy f<sub>5</sub>((2·<var>i</var>-1)!) 5(<var>i</var>!) and 1 <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var>
+  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>n</var>.<br>\r\nIt can be verified that T<sub>5</sub>(10<sup>3</sup>)
+  = 68 and T<sub>5</sub>(10<sup>9</sup>) = 2408210.\r\n"
+- "\r\nFind T<sub>5</sub>(10<sup>18</sup>).\r\n"

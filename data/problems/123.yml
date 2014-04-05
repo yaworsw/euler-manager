@@ -1,12 +1,14 @@
 ---
 :id: 123
 :name: Prime square remainders
-:content: "\r\n\n<p>Let <i>p</i><sub>n</sub> be the <i>n</i>th prime: 2, 3, 5, 7,
-  11, ..., and let <i>r</i> be the remainder when (<i>p</i><sub>n</sub><img src=\"images/symbol_minus.gif\"
-  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">1)<sup><i>n</i></sup>
-  + (<i>p</i><sub>n</sub>+1)<sup><i>n</i></sup> is divided by <i>p</i><sub>n</sub><sup>2</sup>.</p>\n<p>For
-  example, when <i>n</i> = 3, <i>p</i><sub>3</sub> = 5, and 4<sup>3</sup> + 6<sup>3</sup>
-  = 280 <img src=\"images/symbol_cong.gif\" width=\"9\" height=\"11\" alt=\"≡\" border=\"0\"
-  style=\"vertical-align:middle;\"> 5 mod 25.</p>\n<p>The least value of <i>n</i>
-  for which the remainder first exceeds 10<sup>9</sup> is 7037.</p>\n<p>Find the least
-  value of <i>n</i> for which the remainder first exceeds 10<sup>10</sup>.</p>\n\r\n"
+:content:
+- 'Let <i>p</i><sub>n</sub> be the <i>n</i>th prime: 2, 3, 5, 7, 11, ..., and let
+  <i>r</i> be the remainder when (<i>p</i><sub>n</sub><img src="images/symbol_minus.gif"
+  width="9" height="3" alt="−" border="0" style="vertical-align:middle;">1)<sup><i>n</i></sup>
+  + (<i>p</i><sub>n</sub>+1)<sup><i>n</i></sup> is divided by <i>p</i><sub>n</sub><sup>2</sup>.'
+- For example, when <i>n</i> = 3, <i>p</i><sub>3</sub> = 5, and 4<sup>3</sup> + 6<sup>3</sup>
+  = 280 <img src="images/symbol_cong.gif" width="9" height="11" alt="≡" border="0"
+  style="vertical-align:middle;"> 5 mod 25.
+- The least value of <i>n</i> for which the remainder first exceeds 10<sup>9</sup>
+  is 7037.
+- Find the least value of <i>n</i> for which the remainder first exceeds 10<sup>10</sup>.

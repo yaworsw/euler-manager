@@ -1,35 +1,15 @@
 ---
 :id: 245
 :name: Coresilience
-:content: "\r\n<p>We shall call a fraction that cannot be cancelled down a resilient
-  fraction.<br> Furthermore we shall define the resilience of a denominator, <var>R</var>(<var>d</var>),
+:content:
+- We shall call a fraction that cannot be cancelled down a resilient fraction.<br>
+  Furthermore we shall define the resilience of a denominator, <var>R</var>(<var>d</var>),
   to be the ratio of its proper fractions that are resilient; for example, <var>R</var>(12)
-  = <sup>4</sup>⁄<sub>11</sub>.</p>\r\n\r\n\r\n<div style=\"text-align:left;\">\r\n<table><tr>\n<td>The
-  resilience of a number <var>d</var> <img src=\"images/symbol_gt.gif\" width=\"10\"
-  height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\"> 1 is then</td>\r\n<td><div
-  style=\"text-align:center;\">φ(<var>d</var>)<br><img src=\"images/blackdot.gif\"
-  width=\"36\" height=\"1\" alt=\"\"><br><var>d</var> - 1</div></td>\n<td>, where
-  φ is Euler's totient function.</td>\r\n</tr></table>\n<table><tr>\n<td>We further
-  define the <b>coresilience</b> of a number <var>n</var> <img src=\"images/symbol_gt.gif\"
-  width=\"10\" height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\">
-  1 as <var>C</var>(<var>n</var>)</td>\n<td>= </td>\r\n<td><div style=\"text-align:center;\">\n<var>n</var>
-  - φ(<var>n</var>)<br><img src=\"images/blackdot.gif\" width=\"54\" height=\"1\"
-  alt=\"\"><br><var>n</var> - 1</div></td>\n<td>.</td>\r\n</tr></table>\n<table><tr>\n<td>The
-  coresilience of a prime <var>p</var> is <var>C</var>(<var>p</var>)</td>\r\n<td>= </td>\r\n<td><div
-  style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"34\"
-  height=\"1\" alt=\"\"><br><var>p</var> - 1</div></td>\n<td>.</td>\r\n</tr></table>\n</div>\r\n\r\n<!--\r\n<p>The
-  resilience of a number <var>d</var> <img src='images/symbol_gt.gif' width='10' height='10'
-  alt='&gt;' border='0' style='vertical-align:middle;' /> 1 is then <font \"size=4\"><sup>&phi;(<var>d</var>)</sup>&frasl;<sub>(<var>d</var>-1)</sub></font>,
-  where &phi; is Euler's totient function.</p>\r\n\r\n<p>We further define the <b>coresilience</b>
-  of a number <var>n</var> <img src='images/symbol_gt.gif' width='10' height='10'
-  alt='&gt;' border='0' style='vertical-align:middle;' /> 1 as <var>C</var>(<var>n</var>)
-  = <font \"size=4\"><sup>(<var>n</var> - &phi;(<var>n</var>))</sup>&frasl;<sub>(<var>n</var>
-  - 1)</sub></font>.\r\n</p>\r\n\r\n<p>The coresilience of a prime <var>p</var> is
-  <var>C</var>(<var>p</var>) = <font \"size=4\"><sup>1</sup>&frasl;<sub>(<var>p</var>
-  - 1)</sub></font>.</p>\r\n-->\r\n\r\n<p>Find the sum of all <b>composite</b> integers
-  1 <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>n</var> <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  2<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\">10<sup>11</sup>, for which <var>C</var>(<var>n</var>)
-  is a <dfn title=\"A fraction with numerator 1\">unit fraction</dfn>.\r\n</p>\r\n\r\n"
+  = <sup>4</sup>⁄<sub>11</sub>.
+- "Find the sum of all <b>composite</b> integers 1 <img src=\"images/symbol_lt.gif\"
+  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
+  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"> 2<img src=\"images/symbol_times.gif\" width=\"9\"
+  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">10<sup>11</sup>,
+  for which <var>C</var>(<var>n</var>) is a <dfn title=\"A fraction with numerator
+  1\">unit fraction</dfn>.\r\n"

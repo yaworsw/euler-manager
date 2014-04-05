@@ -1,13 +1,12 @@
 ---
 :id: 32
 :name: Pandigital products
-:content: "\r\n<p>We shall say that an <var>n</var>-digit number is pandigital if
-  it makes use of all the digits 1 to <var>n</var> exactly once; for example, the
-  5-digit number, 15234, is 1 through 5 pandigital.</p>\r\n\r\n<p>The product 7254
-  is unusual, as the identity, 39 <img src=\"images/symbol_times.gif\" width=\"9\"
-  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 186 = 7254,
-  containing multiplicand, multiplier, and product is 1 through 9 pandigital.</p>\r\n\r\n<p>Find
-  the sum of all products whose multiplicand/multiplier/product identity can be written
-  as a 1 through 9 pandigital.</p>\r\n\r\n<div class=\"info\">HINT: Some products
-  can be obtained in more than one way so be sure to only include it once in your
-  sum.</div>\r\n\r\n"
+:content:
+- We shall say that an <var>n</var>-digit number is pandigital if it makes use of
+  all the digits 1 to <var>n</var> exactly once; for example, the 5-digit number,
+  15234, is 1 through 5 pandigital.
+- The product 7254 is unusual, as the identity, 39 <img src="images/symbol_times.gif"
+  width="9" height="9" alt="×" border="0" style="vertical-align:middle;"> 186 = 7254,
+  containing multiplicand, multiplier, and product is 1 through 9 pandigital.
+- Find the sum of all products whose multiplicand/multiplier/product identity can
+  be written as a 1 through 9 pandigital.

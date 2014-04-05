@@ -1,11 +1,13 @@
 ---
 :id: 388
 :name: Distinct Lines
-:content: "\r\n<p>\r\nConsider all lattice points (a,b,c) with 0 <img src=\"images/symbol_le.gif\"
+:content:
+- "\r\nConsider all lattice points (a,b,c) with 0 <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
   a,b,c <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> N.\r\n</p>\r\n<p>\r\nFrom the origin O(0,0,0)
-  all lines are drawn to the other lattice points.<br>\r\nLet D(N) be the number of
-  <i>distinct</i> such lines.\r\n</p>\r\n<p>\r\nYou are given that D(1 000 000) =
-  831909254469114121.\r\n</p>\n<p>\r\nFind D(10<sup>10</sup>). Give as your answer
-  the first nine digits followed by the last nine digits.\r\n</p>\r\n\r\n\r\n\r\n"
+  style=\"vertical-align:middle;\"> N.\r\n"
+- "\r\nFrom the origin O(0,0,0) all lines are drawn to the other lattice points.<br>\r\nLet
+  D(N) be the number of <i>distinct</i> such lines.\r\n"
+- "\r\nYou are given that D(1 000 000) = 831909254469114121.\r\n"
+- "\r\nFind D(10<sup>10</sup>). Give as your answer the first nine digits followed
+  by the last nine digits.\r\n"

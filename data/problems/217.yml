@@ -1,9 +1,10 @@
 ---
 :id: 217
 :name: Balanced Numbers
-:content: "\r\n<p>\r\nA positive integer with <var>k</var> (decimal) digits is called
-  balanced if its first <img src=\"images/symbol_lceil.gif\" width=\"6\" height=\"16\"
-  alt=\"⌈\" border=\"0\" style=\"vertical-align:middle;\"><sup><var>k</var></sup>/<sub>2</sub><img
+:content:
+- "\r\nA positive integer with <var>k</var> (decimal) digits is called balanced if
+  its first <img src=\"images/symbol_lceil.gif\" width=\"6\" height=\"16\" alt=\"⌈\"
+  border=\"0\" style=\"vertical-align:middle;\"><sup><var>k</var></sup>/<sub>2</sub><img
   src=\"images/symbol_rceil.gif\" width=\"6\" height=\"16\" alt=\"⌉\" border=\"0\"
   style=\"vertical-align:middle;\"> digits sum to the same value as its last <img
   src=\"images/symbol_lceil.gif\" width=\"6\" height=\"16\" alt=\"⌈\" border=\"0\"
@@ -20,7 +21,8 @@
   height=\"16\" alt=\"⌉\" border=\"0\" style=\"vertical-align:middle;\"> = 4 and <img
   src=\"images/symbol_lceil.gif\" width=\"6\" height=\"16\" alt=\"⌈\" border=\"0\"
   style=\"vertical-align:middle;\">5<img src=\"images/symbol_rceil.gif\" width=\"6\"
-  height=\"16\" alt=\"⌉\" border=\"0\" style=\"vertical-align:middle;\"> = 5.</p>\r\n<p>So,
-  for example, all palindromes are balanced, as is 13722.</p>\r\n<p>Let T(<var>n</var>)
-  be the sum of all balanced numbers less than 10<sup><var>n</var></sup>. <br>\r\nThus:
-  T(1) = 45, T(2) = 540 and T(5) = 334795890. </p>\r\n<p>Find T(47) mod 3<sup>15</sup></p>\r\n"
+  height=\"16\" alt=\"⌉\" border=\"0\" style=\"vertical-align:middle;\"> = 5."
+- So, for example, all palindromes are balanced, as is 13722.
+- "Let T(<var>n</var>) be the sum of all balanced numbers less than 10<sup><var>n</var></sup>.
+  <br>\r\nThus: T(1) = 45, T(2) = 540 and T(5) = 334795890. "
+- Find T(47) mod 3<sup>15</sup>

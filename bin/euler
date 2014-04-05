@@ -91,7 +91,9 @@ command :desc do |c|
 
     puts
     puts "##{problem.id} - #{problem.name}".bold
+    puts
     puts problem.content
+    puts
     if problem.has_answer?
         puts "The solution to this problem is: " + problem.answer.bold
     else

@@ -1,58 +1,54 @@
 ---
 :id: 255
 :name: Rounded Square Roots
-:content: "\r\n<p>We define the <i>rounded-square-root</i> of a positive integer <var>n</var>
-  as the square root of <var>n</var> rounded to the nearest integer.</p>\r\n\r\n<p>The
-  following procedure (essentially Heron's method adapted to integer arithmetic) finds
-  the rounded-square-root of <var>n</var>:</p>\r\n<p>Let <var>d</var> be the number
-  of digits of the number <var>n</var>.<br>\r\nIf <var>d</var> is odd, set <var>x</var><sub>0</sub>
-  = 2<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\">10<sup>(<var>d</var>-1)⁄2</sup>.<br>\r\nIf <var>d</var>
-  is even, set <var>x</var><sub>0</sub> = 7<img src=\"images/symbol_times.gif\" width=\"9\"
-  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">10<sup>(<var>d</var>-2)⁄2</sup>.<br>\r\nRepeat:</p>\r\n<p
-  align=\"center\">\r\n<img src=\"project/images/p_255_Heron.gif\"></p>\r\n<!--\r\n<table
-  align='center'>\r\n<tr><td><var>x</var><sub><var>k</var>+1</sub> =</td>\r\n<td style='font-size:220%'>&#8970;</td>\r\n<td
-  style='text-align:center;'><var>x</var><sub><var>k</var></sub> + <img src='images/symbol_lceil.gif'
-  width='6' height='16' alt='&lceil;' border='0' style='vertical-align:middle;' /><var>n</var>&frasl;<var>x</var><sub><var>k</var></sub><img
+:content:
+- We define the <i>rounded-square-root</i> of a positive integer <var>n</var> as the
+  square root of <var>n</var> rounded to the nearest integer.
+- 'The following procedure (essentially Heron''s method adapted to integer arithmetic)
+  finds the rounded-square-root of <var>n</var>:'
+- "Let <var>d</var> be the number of digits of the number <var>n</var>.<br>\r\nIf
+  <var>d</var> is odd, set <var>x</var><sub>0</sub> = 2<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">10<sup>(<var>d</var>-1)⁄2</sup>.<br>\r\nIf
+  <var>d</var> is even, set <var>x</var><sub>0</sub> = 7<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">10<sup>(<var>d</var>-2)⁄2</sup>.<br>\r\nRepeat:"
+- "\r\n<img src=\"project/images/p_255_Heron.gif\">"
+- "until <var>x</var><sub><var>k</var>+1</sub> = <var>x</var><sub><var>k</var></sub>.\r\n"
+- "As an example, let us find the rounded-square-root of <var>n</var> = 4321.<br><var>n</var>
+  has 4 digits, so <var>x</var><sub>0</sub> = 7<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">10<sup>(4-2)⁄2</sup>
+  = 70.<br><img src=\"project/images/p_255_Example.gif\"><!--<var>x</var><sub>1</sub>
+  = <img src='images/symbol_lfloor.gif' width='6' height='16' alt='&lfloor;' border='0'
+  style='vertical-align:middle;' />(70 + <img src='images/symbol_lceil.gif' width='6'
+  height='16' alt='&lceil;' border='0' style='vertical-align:middle;' />4321&frasl;70<img
   src='images/symbol_rceil.gif' width='6' height='16' alt='&rceil;' border='0' style='vertical-align:middle;'
-  /><br />\r\n<img src='images/blackdot.gif' width='75' height='1' alt='' /><br />\r\n2</td><td><td
-  style='font-size:220%'>&#8971;</td></tr>\r\n</table> -->\r\n\r\n<p>until <var>x</var><sub><var>k</var>+1</sub>
-  = <var>x</var><sub><var>k</var></sub>.\r\n</p>\r\n<p>As an example, let us find
-  the rounded-square-root of <var>n</var> = 4321.<br><var>n</var> has 4 digits, so
-  <var>x</var><sub>0</sub> = 7<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
-  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">10<sup>(4-2)⁄2</sup> = 70.<br><img
-  src=\"project/images/p_255_Example.gif\"><!--<var>x</var><sub>1</sub> = <img src='images/symbol_lfloor.gif'
-  width='6' height='16' alt='&lfloor;' border='0' style='vertical-align:middle;' />(70
-  + <img src='images/symbol_lceil.gif' width='6' height='16' alt='&lceil;' border='0'
-  style='vertical-align:middle;' />4321&frasl;70<img src='images/symbol_rceil.gif'
-  width='6' height='16' alt='&rceil;' border='0' style='vertical-align:middle;' />)&frasl;2<img
-  src='images/symbol_rfloor.gif' width='6' height='16' alt='&rfloor;' border='0' style='vertical-align:middle;'
-  /> = 66.<br />\r\n<var>x</var><sub>2</sub> = <img src='images/symbol_lfloor.gif'
-  width='6' height='16' alt='&lfloor;' border='0' style='vertical-align:middle;' />(66
-  + <img src='images/symbol_lceil.gif' width='6' height='16' alt='&lceil;' border='0'
-  style='vertical-align:middle;' />4321&frasl;66<img src='images/symbol_rceil.gif'
-  width='6' height='16' alt='&rceil;' border='0' style='vertical-align:middle;' />)&frasl;2<img
-  src='images/symbol_rfloor.gif' width='6' height='16' alt='&rfloor;' border='0' style='vertical-align:middle;'
-  /> = 66.--><br>\r\nSince <var>x</var><sub>2</sub> = <var>x</var><sub>1</sub>, we
-  stop here.<br>\r\nSo, after just two iterations, we have found that the rounded-square-root
-  of 4321 is 66 (the actual square root is 65.7343137…).\r\n</p>\r\n<p>The number
-  of iterations required when using this method is surprisingly low.<br>\r\nFor example,
-  we can find the rounded-square-root of a 5-digit integer (10,000 <img src=\"images/symbol_le.gif\"
+  />)&frasl;2<img src='images/symbol_rfloor.gif' width='6' height='16' alt='&rfloor;'
+  border='0' style='vertical-align:middle;' /> = 66.<br />\r\n<var>x</var><sub>2</sub>
+  = <img src='images/symbol_lfloor.gif' width='6' height='16' alt='&lfloor;' border='0'
+  style='vertical-align:middle;' />(66 + <img src='images/symbol_lceil.gif' width='6'
+  height='16' alt='&lceil;' border='0' style='vertical-align:middle;' />4321&frasl;66<img
+  src='images/symbol_rceil.gif' width='6' height='16' alt='&rceil;' border='0' style='vertical-align:middle;'
+  />)&frasl;2<img src='images/symbol_rfloor.gif' width='6' height='16' alt='&rfloor;'
+  border='0' style='vertical-align:middle;' /> = 66.--><br>\r\nSince <var>x</var><sub>2</sub>
+  = <var>x</var><sub>1</sub>, we stop here.<br>\r\nSo, after just two iterations,
+  we have found that the rounded-square-root of 4321 is 66 (the actual square root
+  is 65.7343137…).\r\n"
+- "The number of iterations required when using this method is surprisingly low.<br>\r\nFor
+  example, we can find the rounded-square-root of a 5-digit integer (10,000 <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
   style=\"vertical-align:middle;\"> 99,999) with an average of 3.2102888889 iterations
-  (the average value was rounded to 10 decimal places).\r\n</p>\r\n<p>Using the procedure
-  described above, what is the average number of iterations required to find the rounded-square-root
-  of a 14-digit number (10<sup>13</sup><img src=\"images/symbol_le.gif\" width=\"10\"
-  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
+  (the average value was rounded to 10 decimal places).\r\n"
+- "Using the procedure described above, what is the average number of iterations required
+  to find the rounded-square-root of a 14-digit number (10<sup>13</sup><img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
   <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
   style=\"vertical-align:middle;\"> 10<sup>14</sup>)?<br>\r\nGive your answer rounded
-  to 10 decimal places.\r\n</p>\r\n<p>Note: The symbols <img src=\"images/symbol_lfloor.gif\"
-  width=\"6\" height=\"16\" alt=\"⌊\" border=\"0\" style=\"vertical-align:middle;\"><var>x</var><img
-  src=\"images/symbol_rfloor.gif\" width=\"6\" height=\"16\" alt=\"⌋\" border=\"0\"
-  style=\"vertical-align:middle;\"> and <img src=\"images/symbol_lceil.gif\" width=\"6\"
-  height=\"16\" alt=\"⌈\" border=\"0\" style=\"vertical-align:middle;\"><var>x</var><img
-  src=\"images/symbol_rceil.gif\" width=\"6\" height=\"16\" alt=\"⌉\" border=\"0\"
-  style=\"vertical-align:middle;\"> represent the <dfn title=\"the largest integer
-  not greater than x\">floor function</dfn> and <dfn title=\"the smallest integer
-  not less than x\">ceiling function</dfn> respectively.\r\n</p>\r\n"
+  to 10 decimal places.\r\n"
+- "Note: The symbols <img src=\"images/symbol_lfloor.gif\" width=\"6\" height=\"16\"
+  alt=\"⌊\" border=\"0\" style=\"vertical-align:middle;\"><var>x</var><img src=\"images/symbol_rfloor.gif\"
+  width=\"6\" height=\"16\" alt=\"⌋\" border=\"0\" style=\"vertical-align:middle;\">
+  and <img src=\"images/symbol_lceil.gif\" width=\"6\" height=\"16\" alt=\"⌈\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>x</var><img src=\"images/symbol_rceil.gif\"
+  width=\"6\" height=\"16\" alt=\"⌉\" border=\"0\" style=\"vertical-align:middle;\">
+  represent the <dfn title=\"the largest integer not greater than x\">floor function</dfn>
+  and <dfn title=\"the smallest integer not less than x\">ceiling function</dfn> respectively.\r\n"

@@ -49,7 +49,7 @@ problems = problem_ids.map.with_index do |problem_id, index|
   problem = Euler::Problem.new({
     id:       problem_id,
     name:     doc.css('h2').first.inner_html,
-    content:  doc.css('.problem_content').first.inner_html
+    content:  doc.css('.problem_content').first.css('p').map { |p| p.inner_html }
   })
 
   print " : " + problem.name.bold.underline

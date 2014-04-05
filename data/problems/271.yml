@@ -1,12 +1,14 @@
 ---
 :id: 271
 :name: Modular Cubes, part 1
-:content: "\r\n<p>\r\nFor a positive number <var>n</var>, define S(<var>n</var>) as
-  the sum of the integers <var>x,</var> for which 1<img src=\"images/symbol_lt.gif\"
-  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>x</var><img
+:content:
+- "\r\nFor a positive number <var>n</var>, define S(<var>n</var>) as the sum of the
+  integers <var>x,</var> for which 1<img src=\"images/symbol_lt.gif\" width=\"10\"
+  height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>x</var><img
   src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
   style=\"vertical-align:middle;\"><var>n</var> and<br><var>x</var><sup>3</sup><img
   src=\"images/symbol_cong.gif\" width=\"9\" height=\"11\" alt=\"≡\" border=\"0\"
-  style=\"vertical-align:middle;\">1 mod <var>n</var>.\r\n</p>\r\n<p>\r\nWhen <var>n</var>=91,
-  there are 8 possible values for <var>x</var>, namely : 9, 16, 22, 29, 53, 74, 79,
-  81.<br>\r\nThus, S(91)=9+16+22+29+53+74+79+81=363.</p>\r\n<p>\r\nFind S(13082761331670030).\r\n</p>\r\n\r\n"
+  style=\"vertical-align:middle;\">1 mod <var>n</var>.\r\n"
+- "\r\nWhen <var>n</var>=91, there are 8 possible values for <var>x</var>, namely
+  : 9, 16, 22, 29, 53, 74, 79, 81.<br>\r\nThus, S(91)=9+16+22+29+53+74+79+81=363."
+- "\r\nFind S(13082761331670030).\r\n"

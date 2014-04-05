@@ -1,9 +1,11 @@
 ---
 :id: 373
 :name: Circumscribed Circles
-:content: "\r\n<p>\r\nEvery triangle has a circumscribed circle that goes through
-  the three vertices.\r\nConsider all integer sided triangles for which the radius
-  of the circumscribed circle is integral as well.\r\n</p>\r\n<p>\r\nLet S(<var>n</var>)
-  be the sum of the radii of the circumscribed circles of all such triangles for which
-  the radius does not exceed <var>n</var>.\r\n</p>\r\n<p>S(100)=4950 and S(1200)=1653605.\r\n</p>\r\n<p>\r\nFind
-  S(10<sup>7</sup>).\r\n</p>\r\n\r\n"
+:content:
+- "\r\nEvery triangle has a circumscribed circle that goes through the three vertices.\r\nConsider
+  all integer sided triangles for which the radius of the circumscribed circle is
+  integral as well.\r\n"
+- "\r\nLet S(<var>n</var>) be the sum of the radii of the circumscribed circles of
+  all such triangles for which the radius does not exceed <var>n</var>.\r\n"
+- "S(100)=4950 and S(1200)=1653605.\r\n"
+- "\r\nFind S(10<sup>7</sup>).\r\n"

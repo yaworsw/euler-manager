@@ -1,21 +1,23 @@
 ---
 :id: 284
 :name: Steady Squares
-:content: "\r\n<p>The 3-digit number 376 in the decimal numbering system is an example
-  of numbers with the special property that its square ends with the same digits:
-  376<sup>2</sup> = 141376. Let's call a number with this property a steady square.</p>\r\n\r\n<p>Steady
-  squares can also be observed in other numbering systems. In the base 14 numbering
-  system, the 3-digit number c37 is also a steady square: c37<sup>2</sup> = aa0c37,
-  and the sum of its digits is c+3+7=18 in the same numbering system. The letters
-  a, b, c and d are used for the 10, 11, 12 and 13 digits respectively, in a manner
-  similar to the hexadecimal numbering system.</p>\r\n\r\n<p>For 1 <img src=\"images/symbol_le.gif\"
+:content:
+- 'The 3-digit number 376 in the decimal numbering system is an example of numbers
+  with the special property that its square ends with the same digits: 376<sup>2</sup>
+  = 141376. Let''s call a number with this property a steady square.'
+- 'Steady squares can also be observed in other numbering systems. In the base 14
+  numbering system, the 3-digit number c37 is also a steady square: c37<sup>2</sup>
+  = aa0c37, and the sum of its digits is c+3+7=18 in the same numbering system. The
+  letters a, b, c and d are used for the 10, 11, 12 and 13 digits respectively, in
+  a manner similar to the hexadecimal numbering system.'
+- For 1 <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0"
+  style="vertical-align:middle;"> n <img src="images/symbol_le.gif" width="10" height="12"
+  alt="≤" border="0" style="vertical-align:middle;"> 9, the sum of the digits of all
+  the n-digit steady squares in the base 14 numbering system is 2d8 (582 decimal).
+  Steady squares with leading 0's are not allowed.
+- "Find the sum of the digits of all the n-digit steady squares in the base 14 numbering
+  system for<br>\r\n1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
+  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> n <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  n <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> 9, the sum of the digits of all the n-digit steady
-  squares in the base 14 numbering system is 2d8 (582 decimal). Steady squares with
-  leading 0's are not allowed.</p>\r\n\r\n<p>Find the sum of the digits of all the
-  n-digit steady squares in the base 14 numbering system for<br>\r\n1 <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  n <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> 10000 (decimal) and give your answer in the base
-  14 system using lower case letters where necessary.</p>\r\n"
+  10000 (decimal) and give your answer in the base 14 system using lower case letters
+  where necessary."

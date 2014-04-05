@@ -1,13 +1,14 @@
 ---
 :id: 340
 :name: Crazy Function
-:content: "\r\n<p>\r\nFor fixed integers a, b, c, define the <i>crazy function</i>
-  F(<var>n</var>) as follows:<br>\r\nF(<var>n</var>) = <var>n</var> - c for all <var>n</var>
-  <img src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\" alt=\"&gt;\" border=\"0\"
+:content:
+- "\r\nFor fixed integers a, b, c, define the <i>crazy function</i> F(<var>n</var>)
+  as follows:<br>\r\nF(<var>n</var>) = <var>n</var> - c for all <var>n</var> <img
+  src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\" alt=\"&gt;\" border=\"0\"
   style=\"vertical-align:middle;\"> b <br>\r\nF(<var>n</var>) = F(a + F(a + F(a +
   F(a + <var>n</var>)))) for all <var>n</var> <img src=\"images/symbol_le.gif\" width=\"10\"
-  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> b.\r\n</p>\r\n<p>\r\nAlso,
-  define S(a, b, c) = <img src=\"project/images/p_340_formula.gif\" style=\"vertical-align:middle;\">.\r\n</p>\r\n<p>\r\nFor
-  example, if a = 50, b = 2000 and c = 40, then F(0) = 3240 and F(2000) = 2040.<br>\r\nAlso,
-  S(50, 2000, 40) = 5204240.\r\n</p>\r\n<p>\r\nFind the last 9 digits of S(21<sup>7</sup>,
-  7<sup>21</sup>, 12<sup>7</sup>).\r\n</p>\r\n\r\n\r\n\r\n\r\n\r\n"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> b.\r\n"
+- "\r\nAlso, define S(a, b, c) = <img src=\"project/images/p_340_formula.gif\" style=\"vertical-align:middle;\">.\r\n"
+- "\r\nFor example, if a = 50, b = 2000 and c = 40, then F(0) = 3240 and F(2000) =
+  2040.<br>\r\nAlso, S(50, 2000, 40) = 5204240.\r\n"
+- "\r\nFind the last 9 digits of S(21<sup>7</sup>, 7<sup>21</sup>, 12<sup>7</sup>).\r\n"

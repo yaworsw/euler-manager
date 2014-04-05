@@ -1,18 +1,12 @@
 ---
 :id: 82
 :name: 'Path sum: three ways'
-:content: "\r\n<p class=\"info\">NOTE: This problem is a more challenging version
-  of <a href=\"index.php?section=problems&amp;id=81\">Problem 81</a>.</p>\r\n<p>The
-  minimal path sum in the 5 by 5 matrix below, by starting in any cell in the left
-  column and finishing in any cell in the right column, and only moving up, down,
-  and right, is indicated in red and bold; the sum is equal to 994.</p>\r\n<div style=\"text-align:center;\">\r\n<table
-  cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\"><tr>\n<td>\n<img
-  src=\"images/bracket_left.gif\" width=\"8\" height=\"120\" alt=\"\" align=\"middle\"><br>\n</td>\r\n<td>\r\n<table
-  cellpadding=\"3\" cellspacing=\"0\" border=\"0\">\n<tr>\n<td>131</td>\n<td>673</td>\n<td><span
-  style=\"color:#dd0000;\"><b>234</b></span></td>\n<td><span style=\"color:#dd0000;\"><b>103</b></span></td>\n<td><span
-  style=\"color:#dd0000;\"><b>18</b></span></td>\r\n</tr>\n<tr>\n<td><span style=\"color:#dd0000;\"><b>201</b></span></td>\n<td><span
-  style=\"color:#dd0000;\"><b>96</b></span></td>\n<td><span style=\"color:#dd0000;\"><b>342</b></span></td>\n<td>965</td>\n<td>150</td>\r\n</tr>\n<tr>\n<td>630</td>\n<td>803</td>\n<td>746</td>\n<td>422</td>\n<td>111</td>\r\n</tr>\n<tr>\n<td>537</td>\n<td>699</td>\n<td>497</td>\n<td>121</td>\n<td>956</td>\r\n</tr>\n<tr>\n<td>805</td>\n<td>732</td>\n<td>524</td>\n<td>37</td>\n<td>331</td>\r\n</tr>\n</table>\n</td>\r\n<td>\n<img
-  src=\"images/bracket_right.gif\" width=\"8\" height=\"120\" alt=\"\" align=\"middle\"><br>\n</td>\r\n</tr></table>\n</div>\r\n<p>Find
-  the minimal path sum, in <a href=\"project/matrix.txt\">matrix.txt</a> (right click
-  and 'Save Link/Target As...'), a 31K text file containing a 80 by 80 matrix, from
-  the left column to the right column.</p>\r\n\r\n"
+:content:
+- 'NOTE: This problem is a more challenging version of <a href="index.php?section=problems&amp;id=81">Problem
+  81</a>.'
+- The minimal path sum in the 5 by 5 matrix below, by starting in any cell in the
+  left column and finishing in any cell in the right column, and only moving up, down,
+  and right, is indicated in red and bold; the sum is equal to 994.
+- Find the minimal path sum, in <a href="project/matrix.txt">matrix.txt</a> (right
+  click and 'Save Link/Target As...'), a 31K text file containing a 80 by 80 matrix,
+  from the left column to the right column.

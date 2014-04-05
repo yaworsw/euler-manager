@@ -1,12 +1,13 @@
 ---
 :id: 190
 :name: "Maximising a weighted product\r\n"
-:content: "\r\n<p>Let S<sub>m</sub> = (x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>m</sub>)
-  be the m-tuple of positive real numbers with x<sub>1</sub> + x<sub>2</sub> + ...
-  + x<sub>m</sub> = m for which P<sub>m</sub> = x<sub>1</sub> * x<sub>2</sub><sup>2</sup>
-  * ... * x<sub>m</sub><sup>m</sup> is maximised.</p>\r\n\r\n<p>For example, it can
-  be verified that [P<sub>10</sub>] = 4112 ([ ] is the integer part function).</p>\r\n\r\n<p>Find
-  Σ[P<sub>m</sub>] for 2 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
-  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> m <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  15.</p>\r\n"
+:content:
+- Let S<sub>m</sub> = (x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>m</sub>) be the m-tuple
+  of positive real numbers with x<sub>1</sub> + x<sub>2</sub> + ... + x<sub>m</sub>
+  = m for which P<sub>m</sub> = x<sub>1</sub> * x<sub>2</sub><sup>2</sup> * ... *
+  x<sub>m</sub><sup>m</sup> is maximised.
+- For example, it can be verified that [P<sub>10</sub>] = 4112 ([ ] is the integer
+  part function).
+- Find Σ[P<sub>m</sub>] for 2 <img src="images/symbol_le.gif" width="10" height="12"
+  alt="≤" border="0" style="vertical-align:middle;"> m <img src="images/symbol_le.gif"
+  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"> 15.

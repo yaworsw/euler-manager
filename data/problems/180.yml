@@ -1,9 +1,10 @@
 ---
 :id: 180
 :name: Rational zeros of a function of three variables
-:content: "\r\n<p>For any integer <var>n</var>, consider the three functions</p>\r\n<p
-  style=\"margin-left:50px;\"><var>f</var><sub>1,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
-  = <var>x</var><sup><var>n</var>+1</sup> + <var>y</var><sup><var>n</var>+1</sup><img
+:content:
+- For any integer <var>n</var>, consider the three functions
+- "<var>f</var><sub>1,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>) =
+  <var>x</var><sup><var>n</var>+1</sup> + <var>y</var><sup><var>n</var>+1</sup><img
   src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
   style=\"vertical-align:middle;\"><var>z</var><sup><var>n</var>+1</sup><br><var>f</var><sub>2,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
   = (<var>xy</var> + <var>yz</var> + <var>zx</var>)*(<var>x</var><sup><var>n</var>-1</sup>
@@ -11,13 +12,13 @@
   height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"><var>z</var><sup><var>n</var>-1</sup>)<br><var>f</var><sub>3,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
   = <var>xyz</var>*(<var>x</var><sup><var>n</var>-2</sup> + <var>y</var><sup><var>n</var>-2</sup><img
   src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>z</var><sup><var>n</var>-2</sup>)</p>\r\n<p>and
-  their combination</p>\r\n<p style=\"margin-left:50px;\"><var>f</var><sub><var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
-  = <var>f</var><sub>1,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
+  style=\"vertical-align:middle;\"><var>z</var><sup><var>n</var>-2</sup>)"
+- and their combination
+- "<var>f</var><sub><var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>) = <var>f</var><sub>1,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
   + <var>f</var><sub>2,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
   <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>f</var><sub>3,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)</p>\r\n<p>We
-  call (<var>x</var>,<var>y</var>,<var>z</var>) a golden triple of order <var>k</var>
+  style=\"vertical-align:middle;\"><var>f</var><sub>3,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)"
+- "We call (<var>x</var>,<var>y</var>,<var>z</var>) a golden triple of order <var>k</var>
   if <var>x</var>, <var>y</var>, and <var>z</var> are all rational numbers of the
   form <var>a</var> / <var>b</var> with<br>\r\n0 <img src=\"images/symbol_lt.gif\"
   width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>a</var>
@@ -25,9 +26,10 @@
   style=\"vertical-align:middle;\"><var>b</var> <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>k</var>
   and there is (at least) one integer <var>n</var>, so that <var>f</var><sub><var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
-  = 0.</p>\r\n<p>Let <var>s</var>(<var>x</var>,<var>y</var>,<var>z</var>) = <var>x</var>
-  + <var>y</var> + <var>z</var>.<br>\r\nLet <var>t</var> = <var>u</var> / <var>v</var>
-  be the sum of all distinct <var>s</var>(<var>x</var>,<var>y</var>,<var>z</var>)
-  for all golden triples (<var>x</var>,<var>y</var>,<var>z</var>) of order 35.<br>
-  All the <var>s</var>(<var>x</var>,<var>y</var>,<var>z</var>) and <var>t</var>  must
-  be in reduced form.</p>\r\n<p>Find <var>u</var> + <var>v</var>.</p>\r\n"
+  = 0."
+- "Let <var>s</var>(<var>x</var>,<var>y</var>,<var>z</var>) = <var>x</var> + <var>y</var>
+  + <var>z</var>.<br>\r\nLet <var>t</var> = <var>u</var> / <var>v</var> be the sum
+  of all distinct <var>s</var>(<var>x</var>,<var>y</var>,<var>z</var>) for all golden
+  triples (<var>x</var>,<var>y</var>,<var>z</var>) of order 35.<br> All the <var>s</var>(<var>x</var>,<var>y</var>,<var>z</var>)
+  and <var>t</var>  must be in reduced form."
+- Find <var>u</var> + <var>v</var>.

@@ -1,8 +1,9 @@
 ---
 :id: 278
 :name: Linear Combinations of Semiprimes
-:content: "\r\n<p>\r\nGiven the values of integers 1 <img src=\"images/symbol_lt.gif\"
-  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>a</var><sub>1</sub><img
+:content:
+- "\r\nGiven the values of integers 1 <img src=\"images/symbol_lt.gif\" width=\"10\"
+  height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>a</var><sub>1</sub><img
   src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
   style=\"vertical-align:middle;\"><var>a</var><sub>2</sub><img src=\"images/symbol_lt.gif\"
   width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">...
@@ -12,9 +13,10 @@
   + ... + <var>q</var><sub><var>n</var></sub><var>a</var><sub><var>n</var></sub> =
   <var>b</var>, using only integer values <var>q</var><sub><var>k</var></sub><img
   src=\"images/symbol_ge.gif\" width=\"10\" height=\"12\" alt=\"≥\" border=\"0\" style=\"vertical-align:middle;\">
-  0. \r\n</p>\r\n<p>\r\nNote that for a given set of <var>a</var><sub><var>k</var></sub>,
-  it may be that not all values of <var>b</var> are possible.<br>\r\nFor instance,
-  if <var>a</var><sub>1</sub> = 5 and <var>a</var><sub>2</sub> = 7, there are no <var>q</var><sub>1</sub><img
+  0. \r\n"
+- "\r\nNote that for a given set of <var>a</var><sub><var>k</var></sub>, it may be
+  that not all values of <var>b</var> are possible.<br>\r\nFor instance, if <var>a</var><sub>1</sub>
+  = 5 and <var>a</var><sub>2</sub> = 7, there are no <var>q</var><sub>1</sub><img
   src=\"images/symbol_ge.gif\" width=\"10\" height=\"12\" alt=\"≥\" border=\"0\" style=\"vertical-align:middle;\">
   0 and <var>q</var><sub>2</sub><img src=\"images/symbol_ge.gif\" width=\"10\" height=\"12\"
   alt=\"≥\" border=\"0\" style=\"vertical-align:middle;\"> 0 such that <var>b</var>
@@ -22,10 +24,11 @@
   23 is the largest impossible value of <var>b</var> for <var>a</var><sub>1</sub>
   = 5 and <var>a</var><sub>2</sub> = 7.<br> We therefore call <var>f</var>(5, 7) =
   23.<br> Similarly, it can be shown that <var>f</var>(6, 10, 15)=29 and <var>f</var>(14,
-  22, 77) = 195.\r\n</p>\r\n<p>\r\nFind <img src=\"images/symbol_sum.gif\" width=\"11\"
-  height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"><var>f</var>(<var>p*q,p*r,q*r</var>),
+  22, 77) = 195.\r\n"
+- "\r\nFind <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\"
+  border=\"0\" style=\"vertical-align:middle;\"><var>f</var>(<var>p*q,p*r,q*r</var>),
   where <var>p</var>, <var>q</var> and <var>r</var> are prime numbers and <var>p</var>
   &amp;lt <var>q</var> <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\"
   alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>r</var> <img src=\"images/symbol_lt.gif\"
   width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">
-  5000.\r\n\r\n</p>"
+  5000.\r\n\r\n"

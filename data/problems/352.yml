@@ -1,48 +1,34 @@
 ---
 :id: 352
 :name: Blood tests
-:content: "\r\n<p>\r\nEach one of the 25 sheep in a flock must be tested for a rare
-  virus, known to affect 2% of the sheep population.\r\nAn accurate and extremely
-  sensitive PCR test exists for blood samples, producing a clear positive / negative
-  result, but it is very time-consuming and expensive.\r\n</p>\r\n\r\n<p>\r\nBecause
-  of the high cost, the vet-in-charge suggests that instead of performing 25 separate
-  tests, the following procedure can be used instead:<br><br>\r\nThe sheep are split
-  into 5 groups of 5 sheep in each group. \r\nFor each group, the 5 samples are mixed
-  together and a single test is performed. Then,\r\n</p>\n<ul>\n<li>If the result
-  is negative, all the sheep in that group are deemed to be virus-free.</li>\r\n<li>If
-  the result is positive, 5 additional tests will be performed (a separate test for
-  each animal) to determine the affected individual(s).</li>\r\n</ul>\n<p>\r\nSince
-  the probability of infection for any specific animal is only 0.02, the first test
-  (on the pooled samples) for each group will be:\r\n</p>\n<ul>\n<li>Negative (and
-  no more tests needed) with probability 0.98<sup>5</sup> = 0.9039207968.</li>\r\n<li>Positive
-  (5 additional tests needed) with probability 1 - 0.9039207968 = 0.0960792032.</li>\r\n</ul>\n<p>\r\nThus,
-  the expected number of tests for each group is 1 + 0.0960792032 <img src=\"images/symbol_times.gif\"
+:content:
+- "\r\nEach one of the 25 sheep in a flock must be tested for a rare virus, known
+  to affect 2% of the sheep population.\r\nAn accurate and extremely sensitive PCR
+  test exists for blood samples, producing a clear positive / negative result, but
+  it is very time-consuming and expensive.\r\n"
+- "\r\nBecause of the high cost, the vet-in-charge suggests that instead of performing
+  25 separate tests, the following procedure can be used instead:<br><br>\r\nThe sheep
+  are split into 5 groups of 5 sheep in each group. \r\nFor each group, the 5 samples
+  are mixed together and a single test is performed. Then,\r\n"
+- "\r\nSince the probability of infection for any specific animal is only 0.02, the
+  first test (on the pooled samples) for each group will be:\r\n"
+- "\r\nThus, the expected number of tests for each group is 1 + 0.0960792032 <img
+  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"> 5 = 1.480396016.<br>\r\nConsequently, all 5 groups
+  can be screened using an average of only 1.480396016 <img src=\"images/symbol_times.gif\"
   width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
-  5 = 1.480396016.<br>\r\nConsequently, all 5 groups can be screened using an average
-  of only 1.480396016 <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
-  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 5 = <b>7.40198008</b> tests,
-  which represents a huge saving of more than 70% !\r\n</p>\r\n\r\n<p>\r\nAlthough
-  the scheme we have just described seems to be very efficient, it can still be improved
-  considerably (always assuming that the test is sufficiently sensitive and that there
-  are no adverse effects caused by mixing different samples). E.g.:\r\n</p>\n<ul>\n<li>We
-  may start by running a test on a mixture of all the 25 samples. It can be verified
-  that in about 60.35% of the cases this test will be negative, thus no more tests
-  will be needed. Further testing will only be required for the remaining 39.65% of
-  the cases.</li>\r\n<li>If we know that at least one animal in a group of 5 is infected
-  and the first 4 individual tests come out negative, there is no need to run a test
-  on the fifth animal (we know that it must be infected).</li>\r\n<li>We can try a
-  different number of groups / different number of animals in each group, adjusting
-  those numbers at each level so that the total expected number of tests will be minimised.</li>\r\n</ul>\n<p>\r\nTo
-  simplify the very wide range of possibilities, there is one restriction we place
-  when devising the most cost-efficient testing scheme: whenever we start with a mixed
-  sample, all the sheep contributing to that sample must be fully screened (i.e. a
-  verdict of infected / virus-free must be reached for all of them) before we start
-  examining any other animals.\r\n</p>\r\nFor the current example, it turns out that
-  the most cost-efficient testing scheme (we'll call it the <i>optimal strategy</i>)
-  requires an average of just <b>4.155452</b> tests!\r\n\r\n\r\n<p>\r\nUsing the optimal
-  strategy, let T(<var>s</var>,<var>p</var>) represent the average number of tests
-  needed to screen a flock of <var>s</var> sheep for a virus having probability <var>p</var>
-  to be present in any individual.<br>\r\nThus, rounded to six decimal places, T(25,
-  0.02) = 4.155452 and T(25, 0.10) = 12.702124.\r\n</p>\r\n\r\n<p>\r\nFind ΣT(10000,
-  p) for p=0.01, 0.02, 0.03, ... 0.50.<br>\r\nGive your answer rounded to six decimal
-  places.\r\n</p>\r\n\r\n"
+  5 = <b>7.40198008</b> tests, which represents a huge saving of more than 70% !\r\n"
+- "\r\nAlthough the scheme we have just described seems to be very efficient, it can
+  still be improved considerably (always assuming that the test is sufficiently sensitive
+  and that there are no adverse effects caused by mixing different samples). E.g.:\r\n"
+- "\r\nTo simplify the very wide range of possibilities, there is one restriction
+  we place when devising the most cost-efficient testing scheme: whenever we start
+  with a mixed sample, all the sheep contributing to that sample must be fully screened
+  (i.e. a verdict of infected / virus-free must be reached for all of them) before
+  we start examining any other animals.\r\n"
+- "\r\nUsing the optimal strategy, let T(<var>s</var>,<var>p</var>) represent the
+  average number of tests needed to screen a flock of <var>s</var> sheep for a virus
+  having probability <var>p</var> to be present in any individual.<br>\r\nThus, rounded
+  to six decimal places, T(25, 0.02) = 4.155452 and T(25, 0.10) = 12.702124.\r\n"
+- "\r\nFind ΣT(10000, p) for p=0.01, 0.02, 0.03, ... 0.50.<br>\r\nGive your answer
+  rounded to six decimal places.\r\n"

@@ -1,24 +1,21 @@
 ---
 :id: 376
 :name: Nontransitive sets of dice
-:content: "\r\n<p>\r\nConsider the following set of dice with nonstandard pips:\r\n</p>\r\n\r\n<p>\r\nDie
-  A: 1 4 4 4 4 4<br>\r\nDie B: 2 2 2 5 5 5<br>\r\nDie C: 3 3 3 3 3 6<br></p>\r\n\r\n<p>\r\nA
-  game is played by two players picking a die in turn and rolling it. The player who
-  rolls the highest value wins.\r\n</p>\r\n\r\n<p>\r\nIf the first player picks die
-  A and the second player picks die B we get<br>\r\nP(second player wins) = <sup>7</sup>/<sub>12</sub>
-  &gt; <sup>1</sup>/<sub>2</sub></p>\r\n\r\n<p>\r\nIf the first player picks die B
-  and the second player picks die C we get<br>\r\nP(second player wins) = <sup>7</sup>/<sub>12</sub>
-  &gt; <sup>1</sup>/<sub>2</sub></p>\r\n\r\n<p>\r\nIf the first player picks die C
-  and the second player picks die A we get<br>\r\nP(second player wins) = <sup>25</sup>/<sub>36</sub>
-  &gt; <sup>1</sup>/<sub>2</sub></p>\r\n\r\n<p>\r\nSo whatever die the first player
-  picks, the second player can pick another die and have a larger than 50% chance
-  of winning.<br>\r\nA set of dice having this property is called a <b>nontransitive
-  set of dice</b>.\r\n</p>\r\n\r\n<p>\r\nWe wish to investigate how many sets of nontransitive
-  dice exist. We will assume the following conditions:</p>\n<ul>\n<li>There are three
-  six-sided dice with each side having between 1 and <var>N</var> pips, inclusive.</li>\r\n<li>Dice
-  with the same set of pips are equal, regardless of which side on the die the pips
-  are located.</li>\r\n<li>The same pip value may appear on multiple dice; if both
-  players roll the same value neither player wins.</li>\r\n<li>The sets of dice {A,B,C},
-  {B,C,A} and {C,A,B} are the same set.</li>\r\n</ul>\n<p>\r\nFor <var>N</var> = 7
-  we find there are 9780 such sets.<br>\r\nHow many are there for <var>N</var> = 30
-  ?\r\n</p>\r\n"
+:content:
+- "\r\nConsider the following set of dice with nonstandard pips:\r\n"
+- "\r\nDie A: 1 4 4 4 4 4<br>\r\nDie B: 2 2 2 5 5 5<br>\r\nDie C: 3 3 3 3 3 6<br>"
+- "\r\nA game is played by two players picking a die in turn and rolling it. The player
+  who rolls the highest value wins.\r\n"
+- "\r\nIf the first player picks die A and the second player picks die B we get<br>\r\nP(second
+  player wins) = <sup>7</sup>/<sub>12</sub> &gt; <sup>1</sup>/<sub>2</sub>"
+- "\r\nIf the first player picks die B and the second player picks die C we get<br>\r\nP(second
+  player wins) = <sup>7</sup>/<sub>12</sub> &gt; <sup>1</sup>/<sub>2</sub>"
+- "\r\nIf the first player picks die C and the second player picks die A we get<br>\r\nP(second
+  player wins) = <sup>25</sup>/<sub>36</sub> &gt; <sup>1</sup>/<sub>2</sub>"
+- "\r\nSo whatever die the first player picks, the second player can pick another
+  die and have a larger than 50% chance of winning.<br>\r\nA set of dice having this
+  property is called a <b>nontransitive set of dice</b>.\r\n"
+- "\r\nWe wish to investigate how many sets of nontransitive dice exist. We will assume
+  the following conditions:"
+- "\r\nFor <var>N</var> = 7 we find there are 9780 such sets.<br>\r\nHow many are
+  there for <var>N</var> = 30 ?\r\n"

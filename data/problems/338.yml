@@ -1,40 +1,40 @@
 ---
 :id: 338
 :name: Cutting Rectangular Grid Paper
-:content: "\r\n<p>A rectangular sheet of grid paper with integer dimensions <var>w</var>
-  <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>h</var> is given. Its grid spacing is 1.<br>\r\nWhen
-  we cut the sheet along the grid lines into two pieces and rearrange those pieces
-  without overlap, we can make new rectangles with different dimensions.</p>\r\n<p>For
-  example, from a sheet with dimensions 9 <img src=\"images/symbol_times.gif\" width=\"9\"
-  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 4 , we can
-  make rectangles with dimensions 18 <img src=\"images/symbol_times.gif\" width=\"9\"
-  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 2, 12 <img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"> 3 and 6 <img src=\"images/symbol_times.gif\" width=\"9\"
-  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 6 by cutting
-  and rearranging as below:</p>\r\n\r\n<div align=\"center\">\r\n<img src=\"project/images/p_338_gridpaper.gif\"><br>\n</div>\r\n\r\n<p>Similarly,
-  from a sheet with dimensions 9 <img src=\"images/symbol_times.gif\" width=\"9\"
-  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 8 , we can
-  make rectangles with dimensions 18 <img src=\"images/symbol_times.gif\" width=\"9\"
-  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 4 and 12 <img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"> 6 .</p>\r\n\r\n<p>For a pair <var>w</var> and
-  <var>h</var>, let F(<var>w</var>,<var>h</var>) be the number of distinct rectangles
-  that can be made from a sheet with dimensions <var>w</var> <img src=\"images/symbol_times.gif\"
+:content:
+- "A rectangular sheet of grid paper with integer dimensions <var>w</var> <img src=\"images/symbol_times.gif\"
   width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><var>h</var>
-  .<br>\r\nFor example, F(2,1) = 0, F(2,2) = 1, F(9,4) = 3 and F(9,8) = 2. <br>\r\nNote
-  that rectangles congruent to the initial one are not counted in F(<var>w</var>,<var>h</var>).<br>\r\nNote
-  also that rectangles with dimensions <var>w</var> <img src=\"images/symbol_times.gif\"
+  is given. Its grid spacing is 1.<br>\r\nWhen we cut the sheet along the grid lines
+  into two pieces and rearrange those pieces without overlap, we can make new rectangles
+  with different dimensions."
+- 'For example, from a sheet with dimensions 9 <img src="images/symbol_times.gif"
+  width="9" height="9" alt="×" border="0" style="vertical-align:middle;"> 4 , we can
+  make rectangles with dimensions 18 <img src="images/symbol_times.gif" width="9"
+  height="9" alt="×" border="0" style="vertical-align:middle;"> 2, 12 <img src="images/symbol_times.gif"
+  width="9" height="9" alt="×" border="0" style="vertical-align:middle;"> 3 and 6
+  <img src="images/symbol_times.gif" width="9" height="9" alt="×" border="0" style="vertical-align:middle;">
+  6 by cutting and rearranging as below:'
+- Similarly, from a sheet with dimensions 9 <img src="images/symbol_times.gif" width="9"
+  height="9" alt="×" border="0" style="vertical-align:middle;"> 8 , we can make rectangles
+  with dimensions 18 <img src="images/symbol_times.gif" width="9" height="9" alt="×"
+  border="0" style="vertical-align:middle;"> 4 and 12 <img src="images/symbol_times.gif"
+  width="9" height="9" alt="×" border="0" style="vertical-align:middle;"> 6 .
+- "For a pair <var>w</var> and <var>h</var>, let F(<var>w</var>,<var>h</var>) be the
+  number of distinct rectangles that can be made from a sheet with dimensions <var>w</var>
+  <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>h</var> .<br>\r\nFor example, F(2,1) = 0,
+  F(2,2) = 1, F(9,4) = 3 and F(9,8) = 2. <br>\r\nNote that rectangles congruent to
+  the initial one are not counted in F(<var>w</var>,<var>h</var>).<br>\r\nNote also
+  that rectangles with dimensions <var>w</var> <img src=\"images/symbol_times.gif\"
   width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><var>h</var>
   and dimensions <var>h</var> <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
   alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><var>w</var> are not considered
-  distinct.</p>\r\n\r\n<p>For an integer <var>N</var>, let G(<var>N</var>) be the
-  sum of F(<var>w</var>,<var>h</var>) for all pairs <var>w</var> and <var>h</var>
-  which satisfy 0 <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\"
-  border=\"0\" style=\"vertical-align:middle;\"><var>h</var> <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>w</var>
+  distinct."
+- "For an integer <var>N</var>, let G(<var>N</var>) be the sum of F(<var>w</var>,<var>h</var>)
+  for all pairs <var>w</var> and <var>h</var> which satisfy 0 <img src=\"images/symbol_lt.gif\"
+  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>h</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>N</var>.<br>\r\nWe can verify that G(10) =
-  55, G(10<sup>3</sup>) = 971745 and G(10<sup>5</sup>) = 9992617687.</p>\r\n\r\n<p>Find
-  G(10<sup>12</sup>). Give your answer modulo 10<sup>8</sup>.</p>\r\n"
+  style=\"vertical-align:middle;\"><var>w</var> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var>.<br>\r\nWe
+  can verify that G(10) = 55, G(10<sup>3</sup>) = 971745 and G(10<sup>5</sup>) = 9992617687."
+- Find G(10<sup>12</sup>). Give your answer modulo 10<sup>8</sup>.

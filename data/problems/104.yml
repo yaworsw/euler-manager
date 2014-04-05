@@ -1,14 +1,11 @@
 ---
 :id: 104
 :name: Pandigital Fibonacci ends
-:content: "\r\n\n<p>The Fibonacci sequence is defined by the recurrence relation:</p>\n<blockquote>F<sub><i>n</i></sub>
-  = F<sub><i>n</i><img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\"
-  border=\"0\" style=\"vertical-align:middle;\">1</sub> + F<sub><i>n</i><img src=\"images/symbol_minus.gif\"
-  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">2</sub>,
-  where F<sub>1</sub> = 1 and F<sub>2</sub> = 1.</blockquote>\n<p>It turns out that
-  F<sub>541</sub>, which contains 113 digits, is the first Fibonacci number for which
-  the last nine digits are 1-9 pandigital (contain all the digits 1 to 9, but not
-  necessarily in order). And F<sub>2749</sub>, which contains 575 digits, is the first
-  Fibonacci number for which the first nine digits are 1-9 pandigital.</p>\n<p>Given
-  that F<sub><i>k</i></sub> is the first Fibonacci number for which the first nine
-  digits AND the last nine digits are 1-9 pandigital, find <i>k</i>.</p>\n\r\n"
+:content:
+- 'The Fibonacci sequence is defined by the recurrence relation:'
+- It turns out that F<sub>541</sub>, which contains 113 digits, is the first Fibonacci
+  number for which the last nine digits are 1-9 pandigital (contain all the digits
+  1 to 9, but not necessarily in order). And F<sub>2749</sub>, which contains 575
+  digits, is the first Fibonacci number for which the first nine digits are 1-9 pandigital.
+- Given that F<sub><i>k</i></sub> is the first Fibonacci number for which the first
+  nine digits AND the last nine digits are 1-9 pandigital, find <i>k</i>.

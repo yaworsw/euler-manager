@@ -1,20 +1,21 @@
 ---
 :id: 247
 :name: Squares under a hyperbola
-:content: "\r\n<p>Consider the region constrained by 1 <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>x</var>
+:content:
+- "Consider the region constrained by 1 <img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>x</var>
   and 0 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
   style=\"vertical-align:middle;\"><var>y</var> <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><sup>1</sup>/<sub><var>x</var></sub>.\r\n</p>\n<p>\r\nLet
-  S<sub>1</sub> be the largest square that can fit under the curve.<br>\r\nLet S<sub>2</sub>
-  be the largest square that fits in the remaining area, and so on. <br>\r\nLet the
-  <i>index</i> of S<sub><var>n</var></sub> be the pair (left, below) indicating the
-  number of squares to the left of S<sub><var>n</var></sub> and the number of squares
-  below S<sub><var>n</var></sub>.\r\n</p>\r\n<div style=\"text-align:center;\">\r\n<img
-  src=\"project/images/p_247_hypersquares.gif\" alt=\"\">\n</div>\r\n<p>\r\nThe diagram
-  shows some such squares labelled by number. <br>\r\nS<sub>2</sub> has one square
-  to its left and none below, so the index of S<sub>2</sub> is (1,0).<br>\r\nIt can
-  be seen that the index of S<sub>32</sub> is (1,1) as is the index of S<sub>50</sub>.
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><sup>1</sup>/<sub><var>x</var></sub>.\r\n"
+- "\r\nLet S<sub>1</sub> be the largest square that can fit under the curve.<br>\r\nLet
+  S<sub>2</sub> be the largest square that fits in the remaining area, and so on.
+  <br>\r\nLet the <i>index</i> of S<sub><var>n</var></sub> be the pair (left, below)
+  indicating the number of squares to the left of S<sub><var>n</var></sub> and the
+  number of squares below S<sub><var>n</var></sub>.\r\n"
+- "\r\nThe diagram shows some such squares labelled by number. <br>\r\nS<sub>2</sub>
+  has one square to its left and none below, so the index of S<sub>2</sub> is (1,0).<br>\r\nIt
+  can be seen that the index of S<sub>32</sub> is (1,1) as is the index of S<sub>50</sub>.
   <br>\r\n50 is the largest <var>n</var> for which the index of S<sub><var>n</var></sub>
-  is (1,1).\r\n</p>\r\n<p>\r\nWhat is the largest <var>n</var> for which the index
-  of S<sub><var>n</var></sub> is (3,3)?\r\n</p>\r\n\r\n\r\n"
+  is (1,1).\r\n"
+- "\r\nWhat is the largest <var>n</var> for which the index of S<sub><var>n</var></sub>
+  is (3,3)?\r\n"

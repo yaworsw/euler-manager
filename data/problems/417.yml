@@ -1,20 +1,22 @@
 ---
 :id: 417
 :name: Reciprocal cycles II
-:content: "\r\n<p>A unit fraction contains 1 in the numerator. The decimal representation
-  of the unit fractions with denominators 2 to 10 are given:</p>\r\n<blockquote>\r\n<table>\n<tr>\n<td>\n<sup>1</sup>/<sub>2</sub>\n</td>\n<td>= </td>\n<td>0.5</td>\r\n</tr>\n<tr>\n<td>\n<sup>1</sup>/<sub>3</sub>\n</td>\n<td>= </td>\n<td>0.(3)</td>\r\n</tr>\n<tr>\n<td>\n<sup>1</sup>/<sub>4</sub>\n</td>\n<td>= </td>\n<td>0.25</td>\r\n</tr>\n<tr>\n<td>\n<sup>1</sup>/<sub>5</sub>\n</td>\n<td>= </td>\n<td>0.2</td>\r\n</tr>\n<tr>\n<td>\n<sup>1</sup>/<sub>6</sub>\n</td>\n<td>= </td>\n<td>0.1(6)</td>\r\n</tr>\n<tr>\n<td>\n<sup>1</sup>/<sub>7</sub>\n</td>\n<td>= </td>\n<td>0.(142857)</td>\r\n</tr>\n<tr>\n<td>\n<sup>1</sup>/<sub>8</sub>\n</td>\n<td>= </td>\n<td>0.125</td>\r\n</tr>\n<tr>\n<td>\n<sup>1</sup>/<sub>9</sub>\n</td>\n<td>= </td>\n<td>0.(1)</td>\r\n</tr>\n<tr>\n<td>\n<sup>1</sup>/<sub>10</sub>\n</td>\n<td>= </td>\n<td>0.1</td>\r\n</tr>\n</table>\n</blockquote>\r\n<p>Where
-  0.1(6) means 0.166666..., and has a 1-digit recurring cycle. It can be seen that
-  <sup>1</sup>/<sub>7</sub> has a 6-digit recurring cycle.</p>\r\n<p>\r\nUnit fractions
-  whose denominator has no other prime factors than 2 and/or 5 are not considered
-  to have a recurring cycle.<br>\r\nWe define the length of the recurring cycle of
-  those unit fractions as 0. \r\n</p>\r\n<p>\r\nLet L(n) denote the length of the
-  recurring cycle of 1/n.\r\nYou are given that <img src=\"images/symbol_sum.gif\"
-  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">L(n)
-  for 3 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> n <img src=\"images/symbol_le.gif\" width=\"10\"
-  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 1 000 000
-  equals 55535191115.\r\n</p>\r\n<p>\r\nFind <img src=\"images/symbol_sum.gif\" width=\"11\"
-  height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">L(n) for 3
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> n <img src=\"images/symbol_le.gif\" width=\"10\"
-  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 100 000 000\r\n</p>"
+:content:
+- 'A unit fraction contains 1 in the numerator. The decimal representation of the
+  unit fractions with denominators 2 to 10 are given:'
+- Where 0.1(6) means 0.166666..., and has a 1-digit recurring cycle. It can be seen
+  that <sup>1</sup>/<sub>7</sub> has a 6-digit recurring cycle.
+- "\r\nUnit fractions whose denominator has no other prime factors than 2 and/or 5
+  are not considered to have a recurring cycle.<br>\r\nWe define the length of the
+  recurring cycle of those unit fractions as 0. \r\n"
+- "\r\nLet L(n) denote the length of the recurring cycle of 1/n.\r\nYou are given
+  that <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\">L(n) for 3 <img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> n <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  1 000 000 equals 55535191115.\r\n"
+- "\r\nFind <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\"
+  border=\"0\" style=\"vertical-align:middle;\">L(n) for 3 <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  n <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"> 100 000 000\r\n"

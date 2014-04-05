@@ -1,7 +1,8 @@
 ---
 :id: 311
 :name: Biclinic Integral Quadrilaterals
-:content: "\r\n<p>ABCD is a convex, integer sided quadrilateral with 1 <img src=\"images/symbol_le.gif\"
+:content:
+- "ABCD is a convex, integer sided quadrilateral with 1 <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
   AB <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
   style=\"vertical-align:middle;\"> BC <img src=\"images/symbol_lt.gif\" width=\"10\"
@@ -10,11 +11,11 @@
   style=\"vertical-align:middle;\"> AD.<br>\r\nBD has integer length. O is the midpoint
   of BD. AO has integer length.<br>\r\nWe'll call ABCD a <i>biclinic integral quadrilateral</i>
   if AO = CO <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
-  border=\"0\" style=\"vertical-align:middle;\"> BO = DO.<br></p>\r\n\r\n<p>For example,
-  the following quadrilateral is a biclinic integral quadrilateral:<br>\r\nAB = 19,
-  BC = 29, CD = 37, AD = 43, BD = 48 and AO = CO = 23.\r\n</p>\r\n\r\n<div align=\"center\"><img
-  src=\"project/images/p_311_biclinic.gif\"></div>\r\n\r\n<p>Let B(<var>N</var>) be
-  the number of distinct biclinic integral quadrilaterals ABCD that satisfy AB<sup>2</sup>+BC<sup>2</sup>+CD<sup>2</sup>+AD<sup>2</sup><img
+  border=\"0\" style=\"vertical-align:middle;\"> BO = DO.<br>"
+- "For example, the following quadrilateral is a biclinic integral quadrilateral:<br>\r\nAB
+  = 19, BC = 29, CD = 37, AD = 43, BD = 48 and AO = CO = 23.\r\n"
+- "Let B(<var>N</var>) be the number of distinct biclinic integral quadrilaterals
+  ABCD that satisfy AB<sup>2</sup>+BC<sup>2</sup>+CD<sup>2</sup>+AD<sup>2</sup><img
   src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var>.<br>\r\nWe
-  can verify that B(10 000) = 49 and B(1 000 000) = 38239.\r\n</p>\r\n\r\n<p>Find
-  B(10 000 000 000).\r\n</p>\r\n\r\n"
+  can verify that B(10 000) = 49 and B(1 000 000) = 38239.\r\n"
+- "Find B(10 000 000 000).\r\n"

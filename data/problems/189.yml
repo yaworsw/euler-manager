@@ -1,14 +1,14 @@
 ---
 :id: 189
 :name: Tri-colouring a triangular grid
-:content: "\r\n<p>Consider the following configuration of 64 triangles:</p>\r\n\r\n<div
-  style=\"text-align:center;\"><img src=\"project/images/p_189_grid.gif\" alt=\"\"></div>\r\n\r\n<p>We
-  wish to colour the interior of each triangle with one of three colours: red, green
-  or blue, so that no two neighbouring triangles have the same colour. Such a colouring
-  shall be called valid. Here, two triangles are said to be neighbouring if they share
-  an edge.<br>\r\nNote: if they only share a vertex, then they are not neighbours.</p>
-  \r\n\r\n<p>For example, here is a valid colouring of the above grid:</p>\r\n<div
-  style=\"text-align:center;\"><img src=\"project/images/p_189_colours.gif\" alt=\"\"></div>\r\n\r\n<p>A
-  colouring C' which is obtained from a colouring C by rotation or reflection is considered
-  <i>distinct</i> from C unless the two are identical.</p>\r\n\r\n<p>How many distinct
-  valid colourings are there for the above configuration?</p>\r\n\r\n"
+:content:
+- 'Consider the following configuration of 64 triangles:'
+- "We wish to colour the interior of each triangle with one of three colours: red,
+  green or blue, so that no two neighbouring triangles have the same colour. Such
+  a colouring shall be called valid. Here, two triangles are said to be neighbouring
+  if they share an edge.<br>\r\nNote: if they only share a vertex, then they are not
+  neighbours."
+- 'For example, here is a valid colouring of the above grid:'
+- A colouring C' which is obtained from a colouring C by rotation or reflection is
+  considered <i>distinct</i> from C unless the two are identical.
+- How many distinct valid colourings are there for the above configuration?

@@ -1,12 +1,13 @@
 ---
 :id: 432
 :name: Totient sum
-:content: "\r\n<p>\r\nLet S(<var>n,m</var>) = <img src=\"images/symbol_sum.gif\" width=\"11\"
-  height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">φ(<var>n <img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"> i</var>) for 1 <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> m</var>. (φ is Euler's totient function)<br>\r\nYou
-  are given that S(510510,10<sup>6</sup> )= 45480596821125120. \r\n</p>\r\n<p>\r\nFind
-  S(510510,10<sup>11</sup>).<br>\r\nGive the last 9 digits of your answer.\r\n</p>\r\n\r\n"
+:content:
+- "\r\nLet S(<var>n,m</var>) = <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\"
+  alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">φ(<var>n <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
+  i</var>) for 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\"><var>i <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  m</var>. (φ is Euler's totient function)<br>\r\nYou are given that S(510510,10<sup>6</sup>
+  )= 45480596821125120. \r\n"
+- "\r\nFind S(510510,10<sup>11</sup>).<br>\r\nGive the last 9 digits of your answer.\r\n"

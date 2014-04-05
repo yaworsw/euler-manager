@@ -1,10 +1,10 @@
 ---
 :id: 15
 :name: Lattice paths
-:content: "\r\n<p>Starting in the top left corner of a 2<img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">2
-  grid, and only being able to move to the right and down, there are exactly 6 routes
-  to the bottom right corner.</p>\r\n<div style=\"text-align:center;\">\r\n<img src=\"project/images/p_015.gif\"
-  alt=\"\">\n</div>\r\n<p>How many such routes are there through a 20<img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">20
-  grid?</p>\r\n\r\n"
+:content:
+- Starting in the top left corner of a 2<img src="images/symbol_times.gif" width="9"
+  height="9" alt="×" border="0" style="vertical-align:middle;">2 grid, and only being
+  able to move to the right and down, there are exactly 6 routes to the bottom right
+  corner.
+- How many such routes are there through a 20<img src="images/symbol_times.gif" width="9"
+  height="9" alt="×" border="0" style="vertical-align:middle;">20 grid?

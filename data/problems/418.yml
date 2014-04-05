@@ -1,16 +1,12 @@
 ---
 :id: 418
 :name: Factorisation triples
-:content: "\r\n<p>\r\nLet <var>n</var> be a positive integer. An integer triple (<var>a</var>,
-  <var>b</var>, <var>c</var>) is called a <i>factorisation triple</i> of <var>n</var>
-  if:</p>\n<ul>\n<li> 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
-  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>a</var> <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>b</var>
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>c</var>\r\n</li>\n<li> <var>a</var>·<var>b</var>·<var>c</var>
-  = <var>n</var>.\r\n</li>\n</ul>\n<p>\r\nDefine <var>f</var>(<var>n</var>) to be
-  <var>a</var> + <var>b</var> + <var>c</var> for the factorisation triple (<var>a</var>,
-  <var>b</var>, <var>c</var>) of <var>n</var> which minimises <var>c</var> / <var>a</var>.
-  One can show that this triple is unique.\r\n</p>\r\n<p>\r\nFor example, <var>f</var>(165)
-  = 19, <var>f</var>(100100) = 142 and <var>f</var>(20!) = 4034872.\r\n</p>\r\n<p>\r\nFind
-  <var>f</var>(43!).\r\n</p>\r\n"
+:content:
+- "\r\nLet <var>n</var> be a positive integer. An integer triple (<var>a</var>, <var>b</var>,
+  <var>c</var>) is called a <i>factorisation triple</i> of <var>n</var> if:"
+- "\r\nDefine <var>f</var>(<var>n</var>) to be <var>a</var> + <var>b</var> + <var>c</var>
+  for the factorisation triple (<var>a</var>, <var>b</var>, <var>c</var>) of <var>n</var>
+  which minimises <var>c</var> / <var>a</var>. One can show that this triple is unique.\r\n"
+- "\r\nFor example, <var>f</var>(165) = 19, <var>f</var>(100100) = 142 and <var>f</var>(20!)
+  = 4034872.\r\n"
+- "\r\nFind <var>f</var>(43!).\r\n"

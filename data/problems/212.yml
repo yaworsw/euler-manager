@@ -1,40 +1,40 @@
 ---
 :id: 212
 :name: Combined Volume of Cuboids
-:content: "\r\n<p>An <span style=\"font-style: italic\">axis-aligned cuboid</span>,
-  specified by parameters { (x<sub>0</sub>,y<sub>0</sub>,z<sub>0</sub>), (dx,dy,dz)
-  }, consists of all points (X,Y,Z) such that x<sub>0</sub><img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  X <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> x<sub>0</sub>+dx, y<sub>0</sub><img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  Y <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> y<sub>0</sub>+dy and z<sub>0</sub><img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  Z <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> z<sub>0</sub>+dz.  The volume of the cuboid is
-  the product, dx <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
-  border=\"0\" style=\"vertical-align:middle;\"> dy <img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
-  dz.  The <span style=\"font-style: italic\">combined volume</span> of a collection
+:content:
+- 'An <span style="font-style: italic">axis-aligned cuboid</span>, specified by parameters
+  { (x<sub>0</sub>,y<sub>0</sub>,z<sub>0</sub>), (dx,dy,dz) }, consists of all points
+  (X,Y,Z) such that x<sub>0</sub><img src="images/symbol_le.gif" width="10" height="12"
+  alt="≤" border="0" style="vertical-align:middle;"> X <img src="images/symbol_le.gif"
+  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"> x<sub>0</sub>+dx,
+  y<sub>0</sub><img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0"
+  style="vertical-align:middle;"> Y <img src="images/symbol_le.gif" width="10" height="12"
+  alt="≤" border="0" style="vertical-align:middle;"> y<sub>0</sub>+dy and z<sub>0</sub><img
+  src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;">
+  Z <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;">
+  z<sub>0</sub>+dz.  The volume of the cuboid is the product, dx <img src="images/symbol_times.gif"
+  width="9" height="9" alt="×" border="0" style="vertical-align:middle;"> dy <img
+  src="images/symbol_times.gif" width="9" height="9" alt="×" border="0" style="vertical-align:middle;">
+  dz.  The <span style="font-style: italic">combined volume</span> of a collection
   of cuboids is the volume of their union and will be less than the sum of the individual
-  volumes if any cuboids overlap.</p>\r\n\r\n<p>Let C<sub>1</sub>,...,C<sub>50000</sub>
-  be a collection of 50000 axis-aligned cuboids such that C<sub><var>n</var></sub>
-  has parameters</p>\r\n\r\n<p style=\"margin-left:40px;\">x<sub>0</sub> = S<sub>6<var>n</var>-5</sub>
-  modulo 10000<br>y<sub>0</sub> = S<sub>6<var>n</var>-4</sub> modulo 10000<br>z<sub>0</sub>
-  = S<sub>6<var>n</var>-3</sub> modulo 10000<br>dx = 1 + (S<sub>6<var>n</var>-2</sub>
-  modulo 399)<br>dy = 1 + (S<sub>6<var>n</var>-1</sub> modulo 399)<br>dz = 1 + (S<sub>6<var>n</var></sub>
-  modulo 399)</p>\r\n\r\n<p>where S<sub>1</sub>,...,S<sub>300000</sub> come from the
-  \"Lagged Fibonacci Generator\":</p>\r\n\r\n<p style=\"margin-left:40px;\">For 1
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>k</var> <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  55, S<sub><var>k</var></sub> = [100003 - 200003<var>k</var> + 300007<var>k</var><sup>3</sup>]
-    (modulo 1000000)<br>For 56 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
-  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>k</var>, S<sub><var>k</var></sub>
-  = [S<sub><var>k</var>-24</sub> + S<sub><var>k</var>-55</sub>]   (modulo 1000000)</p>\r\n\r\n<p>Thus,
-  C<sub>1</sub> has parameters {(7,53,183),(94,369,56)}, C<sub>2</sub> has parameters
-  {(2383,3563,5079),(42,212,344)}, and so on.</p>\r\n\r\n<p>The combined volume of
-  the first 100 cuboids, C<sub>1</sub>,...,C<sub>100</sub>, is 723581599.</p>\r\n\r\n<p>What
-  is the combined volume of all 50000 cuboids, C<sub>1</sub>,...,C<sub>50000</sub>
-  ?</p>\r\n"
+  volumes if any cuboids overlap.'
+- Let C<sub>1</sub>,...,C<sub>50000</sub> be a collection of 50000 axis-aligned cuboids
+  such that C<sub><var>n</var></sub> has parameters
+- x<sub>0</sub> = S<sub>6<var>n</var>-5</sub> modulo 10000<br>y<sub>0</sub> = S<sub>6<var>n</var>-4</sub>
+  modulo 10000<br>z<sub>0</sub> = S<sub>6<var>n</var>-3</sub> modulo 10000<br>dx =
+  1 + (S<sub>6<var>n</var>-2</sub> modulo 399)<br>dy = 1 + (S<sub>6<var>n</var>-1</sub>
+  modulo 399)<br>dz = 1 + (S<sub>6<var>n</var></sub> modulo 399)
+- 'where S<sub>1</sub>,...,S<sub>300000</sub> come from the "Lagged Fibonacci Generator":'
+- For 1 <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0"
+  style="vertical-align:middle;"><var>k</var> <img src="images/symbol_le.gif" width="10"
+  height="12" alt="≤" border="0" style="vertical-align:middle;"> 55, S<sub><var>k</var></sub>
+  = [100003 - 200003<var>k</var> + 300007<var>k</var><sup>3</sup>]   (modulo 1000000)<br>For
+  56 <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"><var>k</var>,
+  S<sub><var>k</var></sub> = [S<sub><var>k</var>-24</sub> + S<sub><var>k</var>-55</sub>]
+    (modulo 1000000)
+- Thus, C<sub>1</sub> has parameters {(7,53,183),(94,369,56)}, C<sub>2</sub> has parameters
+  {(2383,3563,5079),(42,212,344)}, and so on.
+- The combined volume of the first 100 cuboids, C<sub>1</sub>,...,C<sub>100</sub>,
+  is 723581599.
+- What is the combined volume of all 50000 cuboids, C<sub>1</sub>,...,C<sub>50000</sub>
+  ?

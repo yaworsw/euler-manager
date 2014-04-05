@@ -1,11 +1,13 @@
 ---
 :id: 320
 :name: Factorials divisible by a huge integer
-:content: "\r\n<p>\r\nLet N(<var>i</var>) be the smallest integer <var>n</var> such
-  that <var>n</var>! is divisible by (<var>i</var>!)<sup>1234567890</sup></p>\r\n<p>\r\nLet
-  S(<var>u</var>)=<img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\"
-  border=\"0\" style=\"vertical-align:middle;\">N(<var>i</var>) for 10 <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var>
+:content:
+- "\r\nLet N(<var>i</var>) be the smallest integer <var>n</var> such that <var>n</var>!
+  is divisible by (<var>i</var>!)<sup>1234567890</sup>"
+- "\r\nLet S(<var>u</var>)=<img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\"
+  alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">N(<var>i</var>) for 10 <img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>u</var>.\r\n</p>\r\n<p>\r\nS(1000)=614538266565663.\r\n</p>\r\n<p>\r\nFind
-  S(1 000 000) mod 10<sup>18</sup>.\r\n</p>\r\n\r\n\r\n"
+  style=\"vertical-align:middle;\"><var>u</var>.\r\n"
+- "\r\nS(1000)=614538266565663.\r\n"
+- "\r\nFind S(1 000 000) mod 10<sup>18</sup>.\r\n"

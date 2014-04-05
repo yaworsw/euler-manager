@@ -1,25 +1,25 @@
 ---
 :id: 295
 :name: Lenticular holes
-:content: "\r\n<p>We call the convex area enclosed by two circles a <i>lenticular
-  hole</i> if:\r\n</p>\n<ul>\n<li>The centres of both circles are on lattice points.</li>\r\n<li>The
-  two circles intersect at two distinct lattice points.</li>\r\n<li>The interior of
-  the convex area enclosed by both circles does not contain any lattice points.\r\n</li>\r\n</ul>\n<p>Consider
-  the circles:<br>\r\nC<sub>0</sub>: <var>x</var><sup>2</sup>+<var>y</var><sup>2</sup>=25<br>\r\nC<sub>1</sub>:
+:content:
+- "We call the convex area enclosed by two circles a <i>lenticular hole</i> if:\r\n"
+- "Consider the circles:<br>\r\nC<sub>0</sub>: <var>x</var><sup>2</sup>+<var>y</var><sup>2</sup>=25<br>\r\nC<sub>1</sub>:
   (<var>x</var>+4)<sup>2</sup>+(<var>y</var>-4)<sup>2</sup>=1<br>\r\nC<sub>2</sub>:
-  (<var>x</var>-12)<sup>2</sup>+(<var>y</var>-4)<sup>2</sup>=65\r\n</p>\r\n<p>\r\nThe
-  circles C<sub>0</sub>, C<sub>1</sub> and C<sub>2</sub> are drawn in the picture
-  below.</p>\r\n<div align=\"center\"><img src=\"project/images/p295_lenticular.gif\"></div>\r\n<p>\r\nC<sub>0</sub>
-  and C<sub>1</sub> form a lenticular hole, as well as C<sub>0</sub> and C<sub>2</sub>.</p>\r\n<p>\r\nWe
-  call an ordered pair of positive real numbers (r<sub>1</sub>, r<sub>2</sub>) a <i>lenticular
-  pair</i> if there exist two circles with radii r<sub>1</sub> and r<sub>2</sub> that
-  form a lenticular hole.\r\nWe can verify that (1, 5) and (5, <img src=\"images/symbol_radic.gif\"
-  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">65)
-  are the lenticular pairs of the example above.</p>\r\n<p>\r\nLet L(N) be the number
-  of <b>distinct</b> lenticular pairs (r<sub>1</sub>, r<sub>2</sub>) for which 0 <img
-  src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
-  style=\"vertical-align:middle;\"> r<sub>1</sub><img src=\"images/symbol_le.gif\"
+  (<var>x</var>-12)<sup>2</sup>+(<var>y</var>-4)<sup>2</sup>=65\r\n"
+- "\r\nThe circles C<sub>0</sub>, C<sub>1</sub> and C<sub>2</sub> are drawn in the
+  picture below."
+- "\r\nC<sub>0</sub> and C<sub>1</sub> form a lenticular hole, as well as C<sub>0</sub>
+  and C<sub>2</sub>."
+- "\r\nWe call an ordered pair of positive real numbers (r<sub>1</sub>, r<sub>2</sub>)
+  a <i>lenticular pair</i> if there exist two circles with radii r<sub>1</sub> and
+  r<sub>2</sub> that form a lenticular hole.\r\nWe can verify that (1, 5) and (5,
+  <img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
+  style=\"vertical-align:middle;\">65) are the lenticular pairs of the example above."
+- "\r\nLet L(N) be the number of <b>distinct</b> lenticular pairs (r<sub>1</sub>,
+  r<sub>2</sub>) for which 0 <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\"
+  alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"> r<sub>1</sub><img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
   r<sub>2</sub><img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
   border=\"0\" style=\"vertical-align:middle;\"> N.<br>\r\nWe can verify that L(10)
-  = 30 and L(100) = 3442.</p>\r\n<p>\r\nFind L(100 000).\r\n</p>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+  = 30 and L(100) = 3442."
+- "\r\nFind L(100 000).\r\n"

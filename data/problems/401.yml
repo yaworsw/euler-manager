@@ -1,10 +1,9 @@
 ---
 :id: 401
 :name: Sum of squares of divisors
-:content: "\r\n<p>\r\nThe divisors of 6 are 1,2,3 and 6.<br>\r\nThe sum of the squares
-  of these numbers is 1+4+9+36=50.\r\n</p>\r\n<p>\r\nLet sigma2(n) represent the sum
-  of the squares of the divisors of n.\r\nThus sigma2(6)=50.\r\n</p>\r\nLet SIGMA2
-  represent the summatory function of sigma2, that is SIGMA2(n)=<img src=\"images/symbol_sum.gif\"
-  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">sigma2(i)
-  for i=1 to n.<br>\r\nThe first 6 values of SIGMA2 are: 1,6,16,37,63 and 113.\r\n\r\n<p>\r\nFind
-  SIGMA2(10<sup>15</sup>) modulo 10<sup>9</sup>. \r\n</p>\r\n"
+:content:
+- "\r\nThe divisors of 6 are 1,2,3 and 6.<br>\r\nThe sum of the squares of these numbers
+  is 1+4+9+36=50.\r\n"
+- "\r\nLet sigma2(n) represent the sum of the squares of the divisors of n.\r\nThus
+  sigma2(6)=50.\r\n"
+- "\r\nFind SIGMA2(10<sup>15</sup>) modulo 10<sup>9</sup>. \r\n"

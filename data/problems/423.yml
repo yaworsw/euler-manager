@@ -1,21 +1,23 @@
 ---
 :id: 423
 :name: Consecutive die throws
-:content: "\r\n<p>Let <var>n</var> be a positive integer.<br>\r\nA 6-sided die is
-  thrown <var>n</var> times. Let <var>c</var> be the number of pairs of consecutive
-  throws that give the same value.</p>\r\n\r\n<p>For example, if <var>n</var> = 7
-  and the values of the die throws are (1,1,5,6,6,6,3), then the following pairs of
-  consecutive throws give the same value:<br>\r\n(<u>1,1</u>,5,6,6,6,3)<br>\r\n(1,1,5,<u>6,6</u>,6,3)<br>\r\n(1,1,5,6,<u>6,6</u>,3)<br>\r\nTherefore,
-  <var>c</var> = 3 for (1,1,5,6,6,6,3).</p>\r\n\r\n<p>Define C(<var>n</var>) as the
-  number of outcomes of throwing a 6-sided die <var>n</var> times such that <var>c</var>
-  does not exceed π(<var>n</var>).<sup>1</sup><br>\r\nFor example, C(3) = 216, C(4)
-  = 1290, C(11) = 361912500 and C(24) = 4727547363281250000.</p>\r\n\r\n<p>Define
-  S(<var>L</var>) as <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\"
+:content:
+- "Let <var>n</var> be a positive integer.<br>\r\nA 6-sided die is thrown <var>n</var>
+  times. Let <var>c</var> be the number of pairs of consecutive throws that give the
+  same value."
+- "For example, if <var>n</var> = 7 and the values of the die throws are (1,1,5,6,6,6,3),
+  then the following pairs of consecutive throws give the same value:<br>\r\n(<u>1,1</u>,5,6,6,6,3)<br>\r\n(1,1,5,<u>6,6</u>,6,3)<br>\r\n(1,1,5,6,<u>6,6</u>,3)<br>\r\nTherefore,
+  <var>c</var> = 3 for (1,1,5,6,6,6,3)."
+- "Define C(<var>n</var>) as the number of outcomes of throwing a 6-sided die <var>n</var>
+  times such that <var>c</var> does not exceed π(<var>n</var>).<sup>1</sup><br>\r\nFor
+  example, C(3) = 216, C(4) = 1290, C(11) = 361912500 and C(24) = 4727547363281250000."
+- "Define S(<var>L</var>) as <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\"
   alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"> C(<var>n</var>) for 1 <img
   src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
   style=\"vertical-align:middle;\"><var>L</var>.<br>\r\nFor example, S(50) mod 1 000 000 007
-  = 832833871.</p>\r\n\r\n<p>Find S(50 000 000) mod 1 000 000 007.</p>\r\n\r\n<p><sup>1</sup>
-  π denotes the <b>prime-counting function</b>, i.e. π(<var>n</var>) is the number
-  of primes <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
-  border=\"0\" style=\"vertical-align:middle;\"><var>n</var>.</p>\r\n"
+  = 832833871."
+- Find S(50 000 000) mod 1 000 000 007.
+- "<sup>1</sup> π denotes the <b>prime-counting function</b>, i.e. π(<var>n</var>)
+  is the number of primes <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
+  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>."

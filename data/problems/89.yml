@@ -1,17 +1,20 @@
 ---
 :id: 89
 :name: Roman numerals
-:content: "\r\n<p>The rules for writing Roman numerals allow for many ways of writing
-  each number (see <a href=\"about=roman_numerals\">About Roman Numerals...</a>).
-  However, there is always a \"best\" way of writing a particular number.</p>\r\n<p>For
-  example, the following represent all of the legitimate ways of writing the number
-  sixteen:</p>\r\n<p style=\"margin-left:50px;font-family:courier new,monospace;\">IIIIIIIIIIIIIIII<br>\r\nVIIIIIIIIIII<br>\r\nVVIIIIII<br>\r\nXIIIIII<br>\r\nVVVI<br>\r\nXVI</p>\r\n<p>The
-  last example being considered the most efficient, as it uses the least number of
-  numerals.</p>\r\n<p>The 11K text file, <a href=\"project/roman.txt\">roman.txt</a>
-  (right click and 'Save Link/Target As...'), contains one thousand numbers written
-  in valid, but not necessarily minimal, Roman numerals; that is, they are arranged
-  in descending units and obey the subtractive pair rule (see <a href=\"about=roman_numerals\">About
-  Roman Numerals...</a> for the definitive rules for this problem).</p>\r\n<p>Find
-  the number of characters saved by writing each of these in their minimal form.</p>\r\n<p
-  class=\"info\">Note: You can assume that all the Roman numerals in the file contain
-  no more than four consecutive identical units.</p>\r\n\r\n"
+:content:
+- The rules for writing Roman numerals allow for many ways of writing each number
+  (see <a href="about=roman_numerals">About Roman Numerals...</a>). However, there
+  is always a "best" way of writing a particular number.
+- 'For example, the following represent all of the legitimate ways of writing the
+  number sixteen:'
+- "IIIIIIIIIIIIIIII<br>\r\nVIIIIIIIIIII<br>\r\nVVIIIIII<br>\r\nXIIIIII<br>\r\nVVVI<br>\r\nXVI"
+- The last example being considered the most efficient, as it uses the least number
+  of numerals.
+- The 11K text file, <a href="project/roman.txt">roman.txt</a> (right click and 'Save
+  Link/Target As...'), contains one thousand numbers written in valid, but not necessarily
+  minimal, Roman numerals; that is, they are arranged in descending units and obey
+  the subtractive pair rule (see <a href="about=roman_numerals">About Roman Numerals...</a>
+  for the definitive rules for this problem).
+- Find the number of characters saved by writing each of these in their minimal form.
+- 'Note: You can assume that all the Roman numerals in the file contain no more than
+  four consecutive identical units.'

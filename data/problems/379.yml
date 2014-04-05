@@ -1,14 +1,17 @@
 ---
 :id: 379
 :name: Least common multiple count
-:content: "\r\n<p>\r\nLet <var>f</var>(<var>n</var>) be the number of couples (<var>x</var>,<var>y</var>)
+:content:
+- "\r\nLet <var>f</var>(<var>n</var>) be the number of couples (<var>x</var>,<var>y</var>)
   with <var>x</var> and <var>y</var> positive integers, <var>x</var> <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>y</var>
-  and the least common multiple of <var>x</var> and <var>y</var> equal to <var>n</var>.\r\n</p>\r\n<p>\r\nLet
-  <var>g</var> be the <b>summatory function</b> of <var>f</var>, i.e.: \r\n<var>g</var>(<var>n</var>)
+  and the least common multiple of <var>x</var> and <var>y</var> equal to <var>n</var>.\r\n"
+- "\r\nLet <var>g</var> be the <b>summatory function</b> of <var>f</var>, i.e.: \r\n<var>g</var>(<var>n</var>)
   = <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
   style=\"vertical-align:middle;\"><var>f</var>(<var>i</var>)  for 1 <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>n</var>.\r\n</p>\n<p>\r\n</p>\n<p>\r\nYou
-  are given that <var>g</var>(10<sup>6</sup>) = 37429395.\r\n</p>\r\n<p>\r\nFind <var>g</var>(10<sup>12</sup>).\r\n</p>\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+  style=\"vertical-align:middle;\"><var>n</var>.\r\n"
+- "\r\n"
+- "\r\nYou are given that <var>g</var>(10<sup>6</sup>) = 37429395.\r\n"
+- "\r\nFind <var>g</var>(10<sup>12</sup>).\r\n"

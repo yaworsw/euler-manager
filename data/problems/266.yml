@@ -1,9 +1,10 @@
 ---
 :id: 266
 :name: Pseudo Square Root
-:content: "\r\n<p>\r\nThe divisors of 12 are: 1,2,3,4,6 and 12.<br>\r\nThe largest
-  divisor of 12 that does not exceed the square root of 12 is 3.<br>\r\nWe shall call
-  the largest divisor of an integer <var>n</var> that does not exceed the square root
-  of <var>n</var> the pseudo square root (PSR) of <var>n</var>.<br>\r\nIt can be seen
-  that PSR(3102)=47.\r\n</p>\r\n<p>\r\nLet <var>p</var> be the product of the primes
-  below 190.<br>\r\nFind PSR(<var>p</var>) mod 10<sup>16</sup>.\r\n</p>\r\n\r\n\r\n\r\n\r\n"
+:content:
+- "\r\nThe divisors of 12 are: 1,2,3,4,6 and 12.<br>\r\nThe largest divisor of 12
+  that does not exceed the square root of 12 is 3.<br>\r\nWe shall call the largest
+  divisor of an integer <var>n</var> that does not exceed the square root of <var>n</var>
+  the pseudo square root (PSR) of <var>n</var>.<br>\r\nIt can be seen that PSR(3102)=47.\r\n"
+- "\r\nLet <var>p</var> be the product of the primes below 190.<br>\r\nFind PSR(<var>p</var>)
+  mod 10<sup>16</sup>.\r\n"

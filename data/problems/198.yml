@@ -1,20 +1,21 @@
 ---
 :id: 198
 :name: Ambiguous Numbers
-:content: "\r\n<p>A best approximation to a real number <var>x</var> for the denominator
-  bound <var>d</var> is a rational number <var>r</var>/<var>s</var> (in reduced form)
-  with <var>s</var> <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
-  border=\"0\" style=\"vertical-align:middle;\"><var>d</var>, so that any rational
-  number <var>p</var>/<var>q</var> which is closer to <var>x</var> than <var>r</var>/<var>s</var>
-  has <var>q</var> <img src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\" alt=\"&gt;\"
-  border=\"0\" style=\"vertical-align:middle;\"><var>d</var>.</p>\r\n\r\n<p>Usually
-  the best approximation to a real number is uniquely determined for all denominator
-  bounds. However, there are some exceptions, e.g. 9/40 has the two best approximations
-  1/4 and 1/5 for the denominator bound 6.\r\nWe shall call a real number <var>x</var>
-  <i>ambiguous</i>, if there is at least one denominator bound for which <var>x</var>
-  possesses two best approximations. Clearly, an ambiguous number is necessarily rational.</p>\r\n\r\n<p>How
-  many ambiguous numbers <var>x</var> = <var>p</var>/<var>q</var>,\r\n0 <img src=\"images/symbol_lt.gif\"
-  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>x</var>
-  <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
-  style=\"vertical-align:middle;\"> 1/100, are there whose denominator <var>q</var>
-  does not exceed 10<sup>8</sup>?</p>\r\n"
+:content:
+- A best approximation to a real number <var>x</var> for the denominator bound <var>d</var>
+  is a rational number <var>r</var>/<var>s</var> (in reduced form) with <var>s</var>
+  <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"><var>d</var>,
+  so that any rational number <var>p</var>/<var>q</var> which is closer to <var>x</var>
+  than <var>r</var>/<var>s</var> has <var>q</var> <img src="images/symbol_gt.gif"
+  width="10" height="10" alt="&gt;" border="0" style="vertical-align:middle;"><var>d</var>.
+- "Usually the best approximation to a real number is uniquely determined for all
+  denominator bounds. However, there are some exceptions, e.g. 9/40 has the two best
+  approximations 1/4 and 1/5 for the denominator bound 6.\r\nWe shall call a real
+  number <var>x</var> <i>ambiguous</i>, if there is at least one denominator bound
+  for which <var>x</var> possesses two best approximations. Clearly, an ambiguous
+  number is necessarily rational."
+- "How many ambiguous numbers <var>x</var> = <var>p</var>/<var>q</var>,\r\n0 <img
+  src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>x</var> <img src=\"images/symbol_lt.gif\"
+  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">
+  1/100, are there whose denominator <var>q</var> does not exceed 10<sup>8</sup>?"

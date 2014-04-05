@@ -1,12 +1,14 @@
 ---
 :id: 351
 :name: Hexagonal orchards
-:content: "\r\n<p>A <i>hexagonal orchard</i> of order <var>n</var> is a triangular
-  lattice made up of points within a regular hexagon with side <var>n</var>. The following
-  is an example of a hexagonal orchard of order 5:\r\n</p>\r\n\r\n<div align=\"center\">\r\n<img
-  src=\"project/images/p_351_hexorchard.png\"><br>\n</div>\r\n\r\n<p>\r\nHighlighted
-  in green are the points which are hidden from the center by a point closer to it.
-  It can be seen that for a hexagonal orchard of order 5, 30 points are hidden from
-  the center.\r\n</p>\r\n\r\n<p>\r\nLet H(<var>n</var>) be the number of points hidden
-  from the center in a hexagonal orchard of order <var>n</var>.\r\n</p>\r\n\r\n<p>\r\nH(5)
-  = 30. H(10) = 138. H(1 000) = 1177848.\r\n</p>\r\n\r\n<p>\r\nFind H(100 000 000).\r\n</p>\r\n"
+:content:
+- "A <i>hexagonal orchard</i> of order <var>n</var> is a triangular lattice made up
+  of points within a regular hexagon with side <var>n</var>. The following is an example
+  of a hexagonal orchard of order 5:\r\n"
+- "\r\nHighlighted in green are the points which are hidden from the center by a point
+  closer to it. It can be seen that for a hexagonal orchard of order 5, 30 points
+  are hidden from the center.\r\n"
+- "\r\nLet H(<var>n</var>) be the number of points hidden from the center in a hexagonal
+  orchard of order <var>n</var>.\r\n"
+- "\r\nH(5) = 30. H(10) = 138. H(1 000) = 1177848.\r\n"
+- "\r\nFind H(100 000 000).\r\n"

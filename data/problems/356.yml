@@ -1,9 +1,10 @@
 ---
 :id: 356
 :name: Largest roots of cubic polynomials
-:content: "\r\n<p>\r\nLet <var>a</var><sub><var>n</var></sub> be the largest real
-  root of a polynomial <var>g</var>(x) = x<sup>3</sup> - 2<sup><var>n</var></sup>·x<sup>2</sup>
-  + <var>n</var>.<br>\r\nFor example, <var>a</var><sub>2</sub> = 3.86619826...</p>\r\n\r\n<p>\r\nFind
-  the last eight digits of<img style=\"vertical-align:middle\" src=\"project/images/p_356_cubicpoly1.gif\">.</p>\r\n\r\n<p>\r\n<u><i>Note</i></u>:
-  <img style=\"vertical-align:middle\" src=\"project/images/p_356_cubicpoly2.gif\">
-  represents the floor function.</p>\r\n\r\n"
+:content:
+- "\r\nLet <var>a</var><sub><var>n</var></sub> be the largest real root of a polynomial
+  <var>g</var>(x) = x<sup>3</sup> - 2<sup><var>n</var></sup>·x<sup>2</sup> + <var>n</var>.<br>\r\nFor
+  example, <var>a</var><sub>2</sub> = 3.86619826..."
+- "\r\nFind the last eight digits of<img style=\"vertical-align:middle\" src=\"project/images/p_356_cubicpoly1.gif\">."
+- "\r\n<u><i>Note</i></u>: <img style=\"vertical-align:middle\" src=\"project/images/p_356_cubicpoly2.gif\">
+  represents the floor function."

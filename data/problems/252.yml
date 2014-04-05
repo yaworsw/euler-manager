@@ -1,30 +1,25 @@
 ---
 :id: 252
 :name: Convex Holes
-:content: "\r\n<p>\r\nGiven a set of points on a plane, we define a convex hole to
-  be a convex polygon having as vertices any of the given points and not containing
-  any of the given points in its interior (in addition to the vertices, other given
-  points may lie on the perimeter of the polygon). \r\n</p>\r\n<p>\r\nAs an example,
-  the image below shows a set of twenty points and a few such convex holes. \r\nThe
-  convex hole shown as a red heptagon has an area equal to 1049694.5 square units,
-  which is the highest possible area for a convex hole on the given set of points.\r\n</p>\r\n<div
-  style=\"text-align:center;\">\r\n<img src=\"project/images/p_252_convexhole.gif\"
-  alt=\"\">\n</div>\r\n<p>\r\n<style type=\"text/css\">\r\ntable.p252 td {\r\n  padding:
-  0px 3px 0px 3px;\r\n  vertical-align: bottom;\r\n  text-align: left;\r\n}\r\n</style></p>\n<p>For
-  our example, we used the first 20 points (<var>T</var><sub>2<var>k</var><img src=\"images/symbol_minus.gif\"
-  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">1</sub>, <var>T</var><sub>2<var>k</var></sub>),
-  for <var>k</var> = 1,2,…,20, produced with the pseudo-random number generator:</p>\r\n\r\n<center><table
-  class=\"p252\">\n<tr>\n<td style=\"text-align:right\">\n<var>S</var><sub>0</sub>\n</td>\r\n
-  \   <td>=<sub> </sub>\n</td>\r\n    <td>290797<sub> </sub>\n</td>\r\n  </tr>\n<tr>\n<td>\n<var>S</var><sub><var>n</var>+1</sub>\n</td>\r\n
-  \   <td>=<sub> </sub>\n</td>\r\n    <td>\n<var>S</var><sub><var>n</var></sub><sup>2</sup>
-  mod 50515093</td>\r\n  </tr>\n<tr>\n<td style=\"text-align:right\">\n<var>T</var><sub><var>n</var></sub>\n</td>\r\n
-  \   <td>=<sub> </sub>\n</td>\r\n    <td>( <var>S</var><sub><var>n</var></sub> mod
-  2000 ) <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
-  style=\"vertical-align:middle;\"> 1000<sup> </sup>\n</td>\r\n  </tr>\n</table></center>\r\n\r\n<p>\r\n<i>i.e.</i>
-  (527, 144), (<img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\"
-  border=\"0\" style=\"vertical-align:middle;\">488, 732), (<img src=\"images/symbol_minus.gif\"
+:content:
+- "\r\nGiven a set of points on a plane, we define a convex hole to be a convex polygon
+  having as vertices any of the given points and not containing any of the given points
+  in its interior (in addition to the vertices, other given points may lie on the
+  perimeter of the polygon). \r\n"
+- "\r\nAs an example, the image below shows a set of twenty points and a few such
+  convex holes. \r\nThe convex hole shown as a red heptagon has an area equal to 1049694.5
+  square units, which is the highest possible area for a convex hole on the given
+  set of points.\r\n"
+- "\r\n<style type=\"text/css\">\r\ntable.p252 td {\r\n  padding: 0px 3px 0px 3px;\r\n
+  \ vertical-align: bottom;\r\n  text-align: left;\r\n}\r\n</style>"
+- 'For our example, we used the first 20 points (<var>T</var><sub>2<var>k</var><img
+  src="images/symbol_minus.gif" width="9" height="3" alt="−" border="0" style="vertical-align:middle;">1</sub>, <var>T</var><sub>2<var>k</var></sub>),
+  for <var>k</var> = 1,2,…,20, produced with the pseudo-random number generator:'
+- "\r\n<i>i.e.</i> (527, 144), (<img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\"
+  alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">488, 732), (<img src=\"images/symbol_minus.gif\"
   width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">454, <img
   src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
-  style=\"vertical-align:middle;\">947), …\r\n</p>\r\n<p>\r\nWhat is the maximum area
-  for a convex hole on the set containing the first 500 points in the pseudo-random
-  sequence?<br> Specify your answer including one digit after the decimal point.\r\n</p>\r\n\r\n\r\n\r\n\r\n\r\n"
+  style=\"vertical-align:middle;\">947), …\r\n"
+- "\r\nWhat is the maximum area for a convex hole on the set containing the first
+  500 points in the pseudo-random sequence?<br> Specify your answer including one
+  digit after the decimal point.\r\n"

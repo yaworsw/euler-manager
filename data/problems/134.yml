@@ -1,18 +1,18 @@
 ---
 :id: 134
 :name: Prime pair connection
-:content: "\r\n\n<p>Consider the consecutive primes <i>p</i><sub>1</sub> = 19 and
-  <i>p</i><sub>2</sub> = 23. It can be verified that 1219 is the smallest number such
-  that the last digits are formed by <i>p</i><sub>1</sub> whilst also being divisible
-  by <i>p</i><sub>2</sub>.</p>\n<p>In fact, with the exception of <i>p</i><sub>1</sub>
-  = 3 and <i>p</i><sub>2</sub> = 5, for every pair of consecutive primes, <i>p</i><sub>2</sub><img
-  src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\" alt=\"&gt;\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>p</i><sub>1</sub>, there exist values of <i>n</i>
-  for which the last digits are formed by <i>p</i><sub>1</sub> and <i>n</i> is divisible
-  by <i>p</i><sub>2</sub>. Let <i>S</i> be the smallest of these values of <i>n</i>.</p>\n<p>Find
-  <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>S</i> for every pair of consecutive primes with
-  5 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>p</i><sub>1</sub><img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  1000000.</p>\n\r\n"
+:content:
+- Consider the consecutive primes <i>p</i><sub>1</sub> = 19 and <i>p</i><sub>2</sub>
+  = 23. It can be verified that 1219 is the smallest number such that the last digits
+  are formed by <i>p</i><sub>1</sub> whilst also being divisible by <i>p</i><sub>2</sub>.
+- In fact, with the exception of <i>p</i><sub>1</sub> = 3 and <i>p</i><sub>2</sub>
+  = 5, for every pair of consecutive primes, <i>p</i><sub>2</sub><img src="images/symbol_gt.gif"
+  width="10" height="10" alt="&gt;" border="0" style="vertical-align:middle;"><i>p</i><sub>1</sub>,
+  there exist values of <i>n</i> for which the last digits are formed by <i>p</i><sub>1</sub>
+  and <i>n</i> is divisible by <i>p</i><sub>2</sub>. Let <i>S</i> be the smallest
+  of these values of <i>n</i>.
+- Find <img src="images/symbol_sum.gif" width="11" height="14" alt="∑" border="0"
+  style="vertical-align:middle;"><i>S</i> for every pair of consecutive primes with
+  5 <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"><i>p</i><sub>1</sub><img
+  src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;">
+  1000000.

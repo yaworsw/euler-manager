@@ -1,11 +1,9 @@
 ---
 :id: 409
 :name: Nim Extreme
-:content: "\r\n<p>Let <var>n</var> be a positive integer. Consider <b>nim</b> positions
-  where:</p>\n<ul>\n<li>There are <var>n</var> non-empty piles.\r\n</li>\n<li>Each
-  pile has size less than 2<sup><var>n</var></sup>.\r\n</li>\n<li>No two piles have
-  the same size.\r\n</li>\n</ul>\n<p>Let W(<var>n</var>) be the number of winning
-  nim positions satisfying the above\r\nconditions (a position is winning if the first
-  player has a winning strategy). For example, W(1) = 1, W(2) = 6, W(3) = 168, W(5)
-  = 19764360 and W(100) mod 1 000 000 007 = 384777056.\r\n</p>\r\n<p>Find W(10 000 000)
-  mod 1 000 000 007.\r\n</p>\r\n\r\n"
+:content:
+- 'Let <var>n</var> be a positive integer. Consider <b>nim</b> positions where:'
+- "Let W(<var>n</var>) be the number of winning nim positions satisfying the above\r\nconditions
+  (a position is winning if the first player has a winning strategy). For example,
+  W(1) = 1, W(2) = 6, W(3) = 168, W(5) = 19764360 and W(100) mod 1 000 000 007 = 384777056.\r\n"
+- "Find W(10 000 000) mod 1 000 000 007.\r\n"

@@ -1,31 +1,11 @@
 ---
 :id: 108
 :name: Diophantine reciprocals I
-:content: "\r\n<p>In the following equation <var>x</var>, <var>y</var>, and <var>n</var>
-  are positive integers.</p>\r\n<div style=\"text-align:center;\">\r\n<table align=\"center\"><tr>\n<td><div
-  style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"15\"
-  height=\"1\" alt=\"\"><br><var>x</var>\n</div></td>\r\n<td> + </td>\r\n<td><div
-  style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"15\"
-  height=\"1\" alt=\"\"><br><var>y</var>\n</div></td>\r\n<td> = </td>\r\n<td><div
-  style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"15\"
-  height=\"1\" alt=\"\"><br><var>n</var>\n</div></td>\r\n</tr></table>\n</div>\r\n<p>For
-  <var>n</var> = 4 there are exactly three distinct solutions:</p>\r\n<div style=\"text-align:center;\">\r\n<table
-  align=\"center\">\n<tr>\n<td><div style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\"
-  width=\"15\" height=\"1\" alt=\"\"><br> 5</div></td>\r\n<td> + </td>\r\n<td><div
-  style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"15\"
-  height=\"1\" alt=\"\"><br> 20</div></td>\r\n<td> = </td>\r\n<td><div style=\"text-align:center;\">1<br><img
-  src=\"images/blackdot.gif\" width=\"15\" height=\"1\" alt=\"\"><br> 4</div></td>\r\n</tr>\n<tr>\n<td><div
-  style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"15\"
-  height=\"1\" alt=\"\"><br> 6</div></td>\r\n<td> + </td>\r\n<td><div style=\"text-align:center;\">1<br><img
-  src=\"images/blackdot.gif\" width=\"15\" height=\"1\" alt=\"\"><br> 12</div></td>\r\n<td>
-  = </td>\r\n<td><div style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\"
-  width=\"15\" height=\"1\" alt=\"\"><br> 4</div></td>\r\n</tr>\n<tr>\n<td><div style=\"text-align:center;\">1<br><img
-  src=\"images/blackdot.gif\" width=\"15\" height=\"1\" alt=\"\"><br> 8</div></td>\r\n<td>
-  + </td>\r\n<td><div style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\"
-  width=\"15\" height=\"1\" alt=\"\"><br> 8</div></td>\r\n<td> = </td>\r\n<td><div
-  style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"15\"
-  height=\"1\" alt=\"\"><br> 4</div></td>\r\n</tr>\n</table>\n</div>\r\n<p>What is
-  the least value of <var>n</var> for which the number of distinct solutions exceeds
-  one-thousand?</p>\r\n<p class=\"info\">NOTE: This problem is an easier version of
-  problem <a href=\"index.php?section=problems&amp;id=110\">110</a>; it is strongly
-  advised that you solve this one first.</p>\r\n"
+:content:
+- In the following equation <var>x</var>, <var>y</var>, and <var>n</var> are positive
+  integers.
+- 'For <var>n</var> = 4 there are exactly three distinct solutions:'
+- What is the least value of <var>n</var> for which the number of distinct solutions
+  exceeds one-thousand?
+- 'NOTE: This problem is an easier version of problem <a href="index.php?section=problems&amp;id=110">110</a>;
+  it is strongly advised that you solve this one first.'

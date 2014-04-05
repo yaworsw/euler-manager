@@ -1,24 +1,25 @@
 ---
 :id: 325
 :name: Stone Game II
-:content: "\r\n<p>\r\nA game is played with two piles of stones and two players. At
-  her turn, a player removes a number of stones from the larger pile. The number of
-  stones she removes must be a positive multiple of the number of stones in the smaller
-  pile.\r\n</p>\r\n\r\n<p>\r\nE.g., let the ordered pair(6,14) describe a configuration
-  with 6 stones in the smaller pile and 14 stones in the larger pile, then the first
-  player can remove 6 or 12 stones from the larger pile.\r\n</p>\r\n\r\n<p>\r\nThe
-  player taking all the stones from a pile wins the game.\r\n</p>\r\n\r\n<p>\r\nA
-  <i>winning configuration</i> is one where the first player can force a win. For
-  example, (1,5), (2,6) and (3,12) are winning configurations because the first player
-  can immediately remove all stones in the second pile.\r\n</p>\r\n\r\n<p>\r\nA <i>losing
-  configuration</i> is one where the second player can force a win, no matter what
-  the first player does. For example, (2,3) and (3,4) are losing configurations: any
-  legal move leaves a winning configuration for the second player.\r\n</p>\r\n\r\n<p>\r\nDefine
-  S(<var>N</var>) as the sum of (<var>x</var><sub><var>i</var></sub>+<var>y</var><sub><var>i</var></sub>)
+:content:
+- "\r\nA game is played with two piles of stones and two players. At her turn, a player
+  removes a number of stones from the larger pile. The number of stones she removes
+  must be a positive multiple of the number of stones in the smaller pile.\r\n"
+- "\r\nE.g., let the ordered pair(6,14) describe a configuration with 6 stones in
+  the smaller pile and 14 stones in the larger pile, then the first player can remove
+  6 or 12 stones from the larger pile.\r\n"
+- "\r\nThe player taking all the stones from a pile wins the game.\r\n"
+- "\r\nA <i>winning configuration</i> is one where the first player can force a win.
+  For example, (1,5), (2,6) and (3,12) are winning configurations because the first
+  player can immediately remove all stones in the second pile.\r\n"
+- "\r\nA <i>losing configuration</i> is one where the second player can force a win,
+  no matter what the first player does. For example, (2,3) and (3,4) are losing configurations:
+  any legal move leaves a winning configuration for the second player.\r\n"
+- "\r\nDefine S(<var>N</var>) as the sum of (<var>x</var><sub><var>i</var></sub>+<var>y</var><sub><var>i</var></sub>)
   for all losing configurations (<var>x</var><sub><var>i</var></sub>,<var>y</var><sub><var>i</var></sub>),
   0 <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
   style=\"vertical-align:middle;\"><var>x</var><sub><var>i</var></sub><img src=\"images/symbol_lt.gif\"
   width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>y</var><sub><var>i</var></sub><img
   src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var>.
-  We can verify that S(10) = 211 and S(10<sup>4</sup>) = 230312207313.\r\n</p>\r\n\r\n<p>\r\nFind
-  S(10<sup>16</sup>) mod 7<sup>10</sup>.\r\n</p>\r\n"
+  We can verify that S(10) = 211 and S(10<sup>4</sup>) = 230312207313.\r\n"
+- "\r\nFind S(10<sup>16</sup>) mod 7<sup>10</sup>.\r\n"

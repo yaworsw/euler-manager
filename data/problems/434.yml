@@ -1,31 +1,33 @@
 ---
 :id: 434
 :name: Rigid graphs
-:content: "\r\n<p>Recall that a graph is a collection of vertices and edges connecting
-  the vertices, and that two vertices connected by an edge are called adjacent.<br>\r\nGraphs
-  can be embedded in Euclidean space by associating each vertex with a point in the
-  Euclidean space.<br>\r\nA <strong>flexible</strong> graph is an embedding of a graph
-  where it is possible to move one or more vertices continuously so that the distance
-  between at least two nonadjacent vertices is altered while the distances between
-  each pair of adjacent vertices is kept constant.<br>\r\nA <strong>rigid</strong>
-  graph is an embedding of a graph which is not flexible.<br>\r\nInformally, a graph
-  is rigid if by replacing the vertices with fully rotating hinges and the edges with
-  rods that are unbending and inelastic, no parts of the graph can be moved independently
-  from the rest of the graph.\r\n</p>\r\n<p>The <strong>grid graphs</strong> embedded
-  in the Euclidean plane are not rigid, as the following animation demonstrates:<br><img
-  src=\"project/images/p434_rigid.gif\"></p>\r\n<p>However, one can make them rigid
-  by adding diagonal edges to the cells. For example, for the 2x3 grid graph, there
-  are 19 ways to make the graph rigid:<br><img src=\"project/images/p434_rigid23.png\"></p>\r\n<p>Note
-  that for the purposes of this problem, we do not consider changing the orientation
+:content:
+- "Recall that a graph is a collection of vertices and edges connecting the vertices,
+  and that two vertices connected by an edge are called adjacent.<br>\r\nGraphs can
+  be embedded in Euclidean space by associating each vertex with a point in the Euclidean
+  space.<br>\r\nA <strong>flexible</strong> graph is an embedding of a graph where
+  it is possible to move one or more vertices continuously so that the distance between
+  at least two nonadjacent vertices is altered while the distances between each pair
+  of adjacent vertices is kept constant.<br>\r\nA <strong>rigid</strong> graph is
+  an embedding of a graph which is not flexible.<br>\r\nInformally, a graph is rigid
+  if by replacing the vertices with fully rotating hinges and the edges with rods
+  that are unbending and inelastic, no parts of the graph can be moved independently
+  from the rest of the graph.\r\n"
+- The <strong>grid graphs</strong> embedded in the Euclidean plane are not rigid,
+  as the following animation demonstrates:<br><img src="project/images/p434_rigid.gif">
+- However, one can make them rigid by adding diagonal edges to the cells. For example,
+  for the 2x3 grid graph, there are 19 ways to make the graph rigid:<br><img src="project/images/p434_rigid23.png">
+- "Note that for the purposes of this problem, we do not consider changing the orientation
   of a diagonal edge or adding both diagonal edges to a cell as a different way of
-  making a grid graph rigid.\r\n</p>\r\n<p>Let <var>R</var>(<var>m</var>,<var>n</var>)
-  be the number of ways to make the <var>m</var> <img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
-  grid graph rigid. <br>\r\nE.g. <var>R</var>(2,3) = 19 and <var>R</var>(5,5) = 23679901\r\n</p>\r\n<p>Define
-  <var>S</var>(<var>N</var>) as <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\"
-  alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"><var>R</var>(<var>i</var>,<var>j</var>)
+  making a grid graph rigid.\r\n"
+- "Let <var>R</var>(<var>m</var>,<var>n</var>) be the number of ways to make the <var>m</var>
+  <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>n</var> grid graph rigid. <br>\r\nE.g. <var>R</var>(2,3)
+  = 19 and <var>R</var>(5,5) = 23679901\r\n"
+- "Define <var>S</var>(<var>N</var>) as <img src=\"images/symbol_sum.gif\" width=\"11\"
+  height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"><var>R</var>(<var>i</var>,<var>j</var>)
   for 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
   style=\"vertical-align:middle;\"><var>i</var>, <var>j</var> <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var>.<br>\r\nE.g.
   <var>S</var>(5) = 25021721.<br>\r\nFind <var>S</var>(100), give your answer modulo
-  1000000033\r\n</p>\r\n"
+  1000000033\r\n"

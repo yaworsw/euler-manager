@@ -1,20 +1,22 @@
 ---
 :id: 440
 :name: GCD and Tiling
-:content: "\r\n<p>We want to tile a board of length <var>n</var> and height 1 completely,
-  with either 1 <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
-  border=\"0\" style=\"vertical-align:middle;\"> 2 blocks or 1 <img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
-  1 blocks with a single decimal digit on top:</p>\r\n\r\n<img src=\"project/images/p440_tiles.png\"><p>For
-  example, here are some of the ways to tile a board of length <var>n</var> = 8:</p>\r\n\r\n<img
-  src=\"project/images/p440_some8.png\"><p>Let T(<var>n</var>) be the number of ways
-  to tile a board of length <var>n</var> as described above.</p>\r\n\r\n<p>For example,
-  T(1) = 10 and T(2) = 101.</p>\r\n\r\n<p>Let S(<var>L</var>) be the triple sum <img
-  src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
-  style=\"vertical-align:middle;\"><sub><var>a</var>,<var>b</var>,<var>c</var></sub>
+:content:
+- 'We want to tile a board of length <var>n</var> and height 1 completely, with either
+  1 <img src="images/symbol_times.gif" width="9" height="9" alt="×" border="0" style="vertical-align:middle;">
+  2 blocks or 1 <img src="images/symbol_times.gif" width="9" height="9" alt="×" border="0"
+  style="vertical-align:middle;"> 1 blocks with a single decimal digit on top:'
+- 'For example, here are some of the ways to tile a board of length <var>n</var> =
+  8:'
+- Let T(<var>n</var>) be the number of ways to tile a board of length <var>n</var>
+  as described above.
+- For example, T(1) = 10 and T(2) = 101.
+- "Let S(<var>L</var>) be the triple sum <img src=\"images/symbol_sum.gif\" width=\"11\"
+  height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"><sub><var>a</var>,<var>b</var>,<var>c</var></sub>
   gcd(T(<var>c</var><sup><var>a</var></sup>), T(<var>c</var><sup><var>b</var></sup>))
   for 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
   style=\"vertical-align:middle;\"><var>a</var>, <var>b</var>, <var>c</var> <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>L</var>.<br>\r\nFor
   example:<br>\r\nS(2) = 10444<br>\r\nS(3) = 1292115238446807016106539989<br>\r\nS(4)
-  mod 987 898 789 = 670616280.</p>\r\n\r\n<p>Find S(2000) mod 987 898 789.</p>\r\n"
+  mod 987 898 789 = 670616280."
+- Find S(2000) mod 987 898 789.

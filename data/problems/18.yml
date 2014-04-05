@@ -1,20 +1,21 @@
 ---
 :id: 18
 :name: Maximum path sum I
-:content: "\r\n<p>By starting at the top of the triangle below and moving to adjacent
-  numbers on the row below, the maximum total from top to bottom is 23.</p>\r\n<p
-  style=\"text-align:center;font-family:courier new;font-size:12pt;\"><span style=\"color:#ff0000;\"><b>3</b></span><br><span
-  style=\"color:#ff0000;\"><b>7</b></span> 4<br>\r\n2 <span style=\"color:#ff0000;\"><b>4</b></span>
-  6<br>\r\n8 5 <span style=\"color:#ff0000;\"><b>9</b></span> 3</p>\r\n<p>That is,
-  3 + 7 + 4 + 9 = 23.</p>\r\n<p>Find the maximum total from top to bottom of the triangle
-  below:</p>\r\n<p style=\"text-align:center;font-family:courier new;\">75<br>\r\n95
-  64<br>\r\n17 47 82<br>\r\n18 35 87 10<br>\r\n20 04 82 47 65<br>\r\n19 01 23 75 03
-  34<br>\r\n88 02 77 73 07 63 67<br>\r\n99 65 04 28 06 16 70 92<br>\r\n41 41 26 56
-  83 40 80 70 33<br>\r\n41 48 72 33 47 32 37 16 94 29<br>\r\n53 71 44 65 25 43 91
-  52 97 51 14<br>\r\n70 11 33 28 77 73 17 78 39 68 17 57<br>\r\n91 71 52 38 17 14
-  91 43 58 50 27 29 48<br>\r\n63 66 04 68 89 53 67 30 73 16 69 87 40 31<br>\r\n04
-  62 98 27 23 09 70 98 73 93 38 53 60 04 23</p>\r\n<p class=\"info\"><b>NOTE:</b>
-  As there are only 16384 routes, it is possible to solve this problem by trying every
-  route. However, <a href=\"index.php?section=problems&amp;id=67\">Problem 67</a>,
-  is the same challenge with a triangle containing one-hundred rows; it cannot be
-  solved by brute force, and requires a clever method! ;o)</p>\r\n"
+:content:
+- By starting at the top of the triangle below and moving to adjacent numbers on the
+  row below, the maximum total from top to bottom is 23.
+- "<span style=\"color:#ff0000;\"><b>3</b></span><br><span style=\"color:#ff0000;\"><b>7</b></span>
+  4<br>\r\n2 <span style=\"color:#ff0000;\"><b>4</b></span> 6<br>\r\n8 5 <span style=\"color:#ff0000;\"><b>9</b></span>
+  3"
+- That is, 3 + 7 + 4 + 9 = 23.
+- 'Find the maximum total from top to bottom of the triangle below:'
+- "75<br>\r\n95 64<br>\r\n17 47 82<br>\r\n18 35 87 10<br>\r\n20 04 82 47 65<br>\r\n19
+  01 23 75 03 34<br>\r\n88 02 77 73 07 63 67<br>\r\n99 65 04 28 06 16 70 92<br>\r\n41
+  41 26 56 83 40 80 70 33<br>\r\n41 48 72 33 47 32 37 16 94 29<br>\r\n53 71 44 65
+  25 43 91 52 97 51 14<br>\r\n70 11 33 28 77 73 17 78 39 68 17 57<br>\r\n91 71 52
+  38 17 14 91 43 58 50 27 29 48<br>\r\n63 66 04 68 89 53 67 30 73 16 69 87 40 31<br>\r\n04
+  62 98 27 23 09 70 98 73 93 38 53 60 04 23"
+- "<b>NOTE:</b> As there are only 16384 routes, it is possible to solve this problem
+  by trying every route. However, <a href=\"index.php?section=problems&amp;id=67\">Problem
+  67</a>, is the same challenge with a triangle containing one-hundred rows; it cannot
+  be solved by brute force, and requires a clever method! ;o)"

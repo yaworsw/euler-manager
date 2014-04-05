@@ -1,22 +1,17 @@
 ---
 :id: 228
 :name: Minkowski Sums
-:content: "\r\n<p>Let <var>S</var><sub>n</sub> be the regular <var>n</var>-sided polygon
-  – or <i>shape</i> – whose vertices \r\n\r\n<var>v</var><sub><var>k</var></sub> (<var>k</var> = 1,2,…,<var>n</var>)
-  have coordinates:</p>\r\n<table>\n<tr>\n<td width=\"40\"></td>\r\n    <td>\n<var>x</var><sub><var>k</var></sub>   =
-   \r\n        cos( <sup>2<var>k</var>-1</sup>/<sub><var>n</var></sub><img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">180° )</td>\r\n
-  \ </tr>\n<tr>\n<td width=\"40\"></td>\r\n    <td>\n<var>y</var><sub><var>k</var></sub>   =
-   \r\n        sin( <sup>2<var>k</var>-1</sup>/<sub><var>n</var></sub><img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">180° )</td>\r\n
-  \ </tr>\n</table>\n<p>Each <var>S</var><sub><var>n</var></sub> is to be interpreted
-  as a filled shape consisting of all points on the perimeter and in the interior.</p>\r\n\r\n<p>The
-  <i>Minkowski sum</i>, <var>S</var>+<var>T</var>, of two shapes <var>S</var> and
-  <var>T</var> is the result of \r\n\r\nadding every point in <var>S</var> to every
-  point in <var>T</var>, where point addition is performed coordinate-wise: \r\n\r\n(<var>u</var>, <var>v</var>)
-  + (<var>x</var>, <var>y</var>) = (<var>u</var>+<var>x</var>, <var>v</var>+<var>y</var>).</p>\r\n\r\n<p>For
-  example, the sum of <var>S</var><sub>3</sub> and <var>S</var><sub>4</sub> is the
-  six-sided shape shown in pink below:</p>\r\n\r\n<div style=\"text-align:center;\">\r\n<img
-  src=\"project/images/p_228.png\" alt=\"picture showing S_3 + S_4\">\n</div>\r\n\r\n<p>How
-  many sides does <var>S</var><sub>1864</sub> + <var>S</var><sub>1865</sub> + … + <var>S</var><sub>1909</sub>
-  have?</p>\r\n"
+:content:
+- "Let <var>S</var><sub>n</sub> be the regular <var>n</var>-sided polygon – or <i>shape</i>
+  – whose vertices \r\n\r\n<var>v</var><sub><var>k</var></sub> (<var>k</var> = 1,2,…,<var>n</var>)
+  have coordinates:"
+- Each <var>S</var><sub><var>n</var></sub> is to be interpreted as a filled shape
+  consisting of all points on the perimeter and in the interior.
+- "The <i>Minkowski sum</i>, <var>S</var>+<var>T</var>, of two shapes <var>S</var>
+  and <var>T</var> is the result of \r\n\r\nadding every point in <var>S</var> to
+  every point in <var>T</var>, where point addition is performed coordinate-wise:
+  \r\n\r\n(<var>u</var>, <var>v</var>) + (<var>x</var>, <var>y</var>) = (<var>u</var>+<var>x</var>, <var>v</var>+<var>y</var>)."
+- 'For example, the sum of <var>S</var><sub>3</sub> and <var>S</var><sub>4</sub> is
+  the six-sided shape shown in pink below:'
+- How many sides does <var>S</var><sub>1864</sub> + <var>S</var><sub>1865</sub> + … + <var>S</var><sub>1909</sub>
+  have?

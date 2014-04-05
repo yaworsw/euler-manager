@@ -1,10 +1,11 @@
 ---
 :id: 213
 :name: Flea Circus
-:content: "\r\n<p>A 30<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
-  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">30 grid of squares contains
-  900 fleas, initially one flea per square.<br>\r\nWhen a bell is rung, each flea
-  jumps to an adjacent square at random (usually 4 possibilities, except for fleas
-  on the edge of the grid or at the corners).</p>\r\n\r\n<p>What is the expected number
-  of unoccupied squares after 50 rings of the bell? Give your answer rounded to six
-  decimal places.</p>\r\n"
+:content:
+- "A 30<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\">30 grid of squares contains 900 fleas, initially
+  one flea per square.<br>\r\nWhen a bell is rung, each flea jumps to an adjacent
+  square at random (usually 4 possibilities, except for fleas on the edge of the grid
+  or at the corners)."
+- What is the expected number of unoccupied squares after 50 rings of the bell? Give
+  your answer rounded to six decimal places.

@@ -1,28 +1,13 @@
 ---
 :id: 421
 :name: Prime factors of <var>n</var><sup>15</sup>+1
-:content: "\r\n<p>\r\nNumbers of the form <var>n</var><sup>15</sup>+1 are composite
-  for every integer <var>n</var> <img src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\"
-  alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\"> 1.<br>\r\nFor positive
-  integers <var>n</var> and <var>m</var> let <var>s</var>(<var>n,m</var>) be defined
-  as the sum of the <i>distinct</i> prime factors of <var>n</var><sup>15</sup>+1 not
-  exceeding <var>m</var>.\r\n</p>\r\nE.g. 2<sup>15</sup>+1 = 3<img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">3<img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\">11<img src=\"images/symbol_times.gif\" width=\"9\"
-  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">331.<br>\r\nSo
-  <var>s</var>(2,10) = 3 and <var>s</var>(2,1000) = 3+11+331 = 345.<br><br>\r\n\r\nAlso
-  10<sup>15</sup>+1 = 7<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
-  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">11<img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">13<img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\">211<img src=\"images/symbol_times.gif\" width=\"9\"
-  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">241<img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">2161<img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\">9091.<br>\r\nSo <var>s</var>(10,100) = 31 and <var>s</var>(10,1000)
-  = 483.<br><p>\r\nFind &amp;Sum; <var>s</var>(<var>n</var>,10<sup>8</sup>) for 1
+:content:
+- "\r\nNumbers of the form <var>n</var><sup>15</sup>+1 are composite for every integer
+  <var>n</var> <img src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\" alt=\"&gt;\"
+  border=\"0\" style=\"vertical-align:middle;\"> 1.<br>\r\nFor positive integers <var>n</var>
+  and <var>m</var> let <var>s</var>(<var>n,m</var>) be defined as the sum of the <i>distinct</i>
+  prime factors of <var>n</var><sup>15</sup>+1 not exceeding <var>m</var>.\r\n"
+- "\r\nFind &amp;Sum; <var>s</var>(<var>n</var>,10<sup>8</sup>) for 1 <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>n</var> <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  10<sup>11</sup>.\r\n</p>\r\n\r\n"
+  style=\"vertical-align:middle;\"> 10<sup>11</sup>.\r\n"

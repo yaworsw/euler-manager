@@ -1,15 +1,15 @@
 ---
 :id: 187
 :name: Semiprimes
-:content: "\r\n<p>A composite is a number containing at least two prime factors. For
-  example, 15 = 3 <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
-  border=\"0\" style=\"vertical-align:middle;\"> 5; 9 = 3 <img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
-  3; 12 = 2 <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
-  border=\"0\" style=\"vertical-align:middle;\"> 2 <img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
-  3.</p>\r\n\r\n<p>There are ten composites below thirty containing precisely two,
-  not necessarily distinct, prime factors:\r\n4, 6, 9, 10, 14, 15, 21, 22, 25, 26.</p>\r\n\r\n<p>How
-  many composite integers, <var>n</var> <img src=\"images/symbol_lt.gif\" width=\"10\"
-  height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"> 10<sup>8</sup>,
-  have precisely two, not necessarily distinct, prime factors?</p>\r\n"
+:content:
+- A composite is a number containing at least two prime factors. For example, 15 =
+  3 <img src="images/symbol_times.gif" width="9" height="9" alt="×" border="0" style="vertical-align:middle;">
+  5; 9 = 3 <img src="images/symbol_times.gif" width="9" height="9" alt="×" border="0"
+  style="vertical-align:middle;"> 3; 12 = 2 <img src="images/symbol_times.gif" width="9"
+  height="9" alt="×" border="0" style="vertical-align:middle;"> 2 <img src="images/symbol_times.gif"
+  width="9" height="9" alt="×" border="0" style="vertical-align:middle;"> 3.
+- "There are ten composites below thirty containing precisely two, not necessarily
+  distinct, prime factors:\r\n4, 6, 9, 10, 14, 15, 21, 22, 25, 26."
+- How many composite integers, <var>n</var> <img src="images/symbol_lt.gif" width="10"
+  height="10" alt="&lt;" border="0" style="vertical-align:middle;"> 10<sup>8</sup>,
+  have precisely two, not necessarily distinct, prime factors?

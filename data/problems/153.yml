@@ -1,8 +1,9 @@
 ---
 :id: 153
 :name: Investigating Gaussian Integers
-:content: "\r\n<p>As we all know the equation <var>x</var><sup>2</sup>=-1 has no solutions
-  for real <var>x</var>.\r\n<br>\r\nIf we however introduce the imaginary number <var>i</var>
+:content:
+- "As we all know the equation <var>x</var><sup>2</sup>=-1 has no solutions for real
+  <var>x</var>.\r\n<br>\r\nIf we however introduce the imaginary number <var>i</var>
   this equation has two solutions: <var>x=i</var> and <var>x=-i</var>.\r\n<br>\r\nIf
   we go a step further the equation (<var>x</var>-3)<sup>2</sup>=-4 has two complex
   solutions: <var>x</var>=3+2<var>i</var> and <var>x</var>=3-2<var>i</var>.\r\n<br><var>x</var>=3+2<var>i</var>
@@ -10,17 +11,17 @@
   of the form <var>a</var>+<var>bi</var> are called complex numbers.\r\n<br>\r\nIn
   general <var>a</var>+<var>bi</var> and <var>a</var><img src=\"images/symbol_minus.gif\"
   width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"><var>bi</var>
-  are each other's complex conjugate.</p>\r\n<p>A Gaussian Integer is a complex number
-  <var>a</var>+<var>bi</var> such that both <var>a</var> and <var>b</var> are integers.\r\n<br>\r\nThe
-  regular integers are also Gaussian integers (with <var>b</var>=0).\r\n<br>\r\nTo
-  distinguish them from Gaussian integers with <var>b</var> <img src=\"images/symbol_ne.gif\"
-  width=\"11\" height=\"10\" alt=\"≠\" border=\"0\" style=\"vertical-align:middle;\">
-  0 we call such integers \"rational integers.\"\r\n<br>\r\nA Gaussian integer is
-  called a divisor of a rational integer <var>n</var> if the result is also a Gaussian
-  integer.\r\n<br>\r\nIf for example we divide 5 by 1+2<var>i</var> we can simplify
-  <img src=\"project/images/p_153_formule1.gif\" border=\"0\" style=\"vertical-align:middle\"
-  alt=\"\"> in the following manner:\r\n<br>\r\nMultiply numerator and denominator
-  by the complex conjugate of 1+2<var>i</var>: 1<img src=\"images/symbol_minus.gif\"
+  are each other's complex conjugate."
+- "A Gaussian Integer is a complex number <var>a</var>+<var>bi</var> such that both
+  <var>a</var> and <var>b</var> are integers.\r\n<br>\r\nThe regular integers are
+  also Gaussian integers (with <var>b</var>=0).\r\n<br>\r\nTo distinguish them from
+  Gaussian integers with <var>b</var> <img src=\"images/symbol_ne.gif\" width=\"11\"
+  height=\"10\" alt=\"≠\" border=\"0\" style=\"vertical-align:middle;\"> 0 we call
+  such integers \"rational integers.\"\r\n<br>\r\nA Gaussian integer is called a divisor
+  of a rational integer <var>n</var> if the result is also a Gaussian integer.\r\n<br>\r\nIf
+  for example we divide 5 by 1+2<var>i</var> we can simplify <img src=\"project/images/p_153_formule1.gif\"
+  border=\"0\" style=\"vertical-align:middle\" alt=\"\"> in the following manner:\r\n<br>\r\nMultiply
+  numerator and denominator by the complex conjugate of 1+2<var>i</var>: 1<img src=\"images/symbol_minus.gif\"
   width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">2<var>i</var>.\r\n<br>\r\nThe
   result is \r\n<img src=\"project/images/p_153_formule2.gif\" border=\"0\" alt=\"\"
   style=\"vertical-align:middle;\">.\r\n<br>\r\nSo 1+2<var>i</var> is a divisor of
@@ -29,28 +30,22 @@
   if the Gaussian Integer (<var>a</var>+<var>bi</var>) is a divisor of a rational
   integer <var>n</var>, then its complex conjugate (<var>a</var><img src=\"images/symbol_minus.gif\"
   width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"><var>bi</var>)
-  is also a divisor of <var>n</var>.</p>\r\n<p>In fact, 5 has six divisors such that
-  the real part is positive: {1, 1 + 2<var>i</var>, 1 <img src=\"images/symbol_minus.gif\"
-  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">
-  2<var>i</var>, 2 + <var>i</var>, 2 <img src=\"images/symbol_minus.gif\" width=\"9\"
-  height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var>,
+  is also a divisor of <var>n</var>."
+- "In fact, 5 has six divisors such that the real part is positive: {1, 1 + 2<var>i</var>,
+  1 <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
+  style=\"vertical-align:middle;\"> 2<var>i</var>, 2 + <var>i</var>, 2 <img src=\"images/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var>,
   5}.\r\n<br>\r\nThe following is a table of all of the divisors for the first five
-  positive rational integers:</p>\r\n<table align=\"center\" border=\"1\">\n<tr>\n<td
-  width=\"20\">\r\n<var>n</var>\n</td>\n<td> Gaussian integer divisors<br>\r\nwith
-  positive real part</td>\n<td>Sum s(<var>n</var>) of <br>these\r\n\r\ndivisors</td>\n</tr>\n<tr>\n<td>1</td>\n<td>1</td>\n<td>1</td>\r\n</tr>\n<tr>\n<td>2</td>\n<td>1,
-  1+<var>i</var>, 1-<var>i</var>, 2</td>\n<td>5</td>\r\n</tr>\n<tr>\n<td>3</td>\n<td>1,
-  3</td>\n<td>4</td>\r\n</tr>\n<tr>\n<td>4</td>\n<td>1, 1+<var>i</var>, 1-<var>i</var>,
-  2, 2+2<var>i</var>, 2-2<var>i</var>,4</td>\n<td>13</td>\r\n</tr>\n<tr>\n<td>5</td>\n<td>1,
-  1+2<var>i</var>, 1-2<var>i</var>, 2+<var>i</var>, 2-<var>i</var>, 5</td>\n<td>12</td>\r\n</tr>\n</table>\n<p>For
-  divisors with positive real parts, then, we have: <img src=\"project/images/p_153_formule6.gif\"
-  border=\"0\" style=\"vertical-align:middle\" alt=\"\">.</p>\r\n<p>For 1 <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> 10<sup>5</sup>, <img src=\"images/symbol_sum.gif\"
-  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">
-  s(<var>n</var>)=17924657155.</p>\r\n<p>What is <img src=\"images/symbol_sum.gif\"
-  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">
-  s(<var>n</var>) for 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
-  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var> <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  10<sup>8</sup>?</p>\r\n"
+  positive rational integers:"
+- 'For divisors with positive real parts, then, we have: <img src="project/images/p_153_formule6.gif"
+  border="0" style="vertical-align:middle" alt="">.'
+- For 1 <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0"
+  style="vertical-align:middle;"><var>n</var> <img src="images/symbol_le.gif" width="10"
+  height="12" alt="≤" border="0" style="vertical-align:middle;"> 10<sup>5</sup>, <img
+  src="images/symbol_sum.gif" width="11" height="14" alt="∑" border="0" style="vertical-align:middle;">
+  s(<var>n</var>)=17924657155.
+- What is <img src="images/symbol_sum.gif" width="11" height="14" alt="∑" border="0"
+  style="vertical-align:middle;"> s(<var>n</var>) for 1 <img src="images/symbol_le.gif"
+  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"><var>n</var>
+  <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;">
+  10<sup>8</sup>?

@@ -1,7 +1,6 @@
 ---
 :id: 10
 :name: Summation of primes
-:content: "\r\n<p>The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.</p>\r\n<p>Find
-  the sum of all the primes below two million.</p>\r\n<!--\r\n<p class=\"info\">Note:
-  This problem has been changed recently, please check that you are using the right
-  parameters.</p>\r\n-->\r\n\r\n\r\n"
+:content:
+- The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+- Find the sum of all the primes below two million.

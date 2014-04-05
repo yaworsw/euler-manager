@@ -1,15 +1,17 @@
 ---
 :id: 347
 :name: Largest integer divisible by two primes
-:content: "\r\n<p>\r\nThe largest integer <img src=\"images/symbol_le.gif\" width=\"10\"
-  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 100 that
-  is only divisible by both the primes 2 and 3 is 96, as 96=32*3=2<sup>5</sup>*3.\r\nFor
-  two <i>distinct</i> primes p and q let M(p,q,N) be the largest positive integer
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\">N only divisible\r\nby both p and q and M(p,q,N)=0
-  if such a positive integer does not exist.\r\n</p>\r\n<p>\r\nE.g. M(2,3,100)=96.<br>
-  \r\nM(3,5,100)=75 and not 90 because 90 is divisible by 2 ,3 and 5.<br>\r\nAlso
-  M(2,73,100)=0 because there does not exist a positive integer <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
-  100 that is divisible by both 2 and 73.\r\n</p>\r\n<p>\r\nLet S(N) be the sum of
-  all distinct M(p,q,N).\r\nS(100)=2262.\r\n</p>\r\n<p>\r\nFind S(10 000 000).\r\n</p>\r\n\r\n\r\n\r\n\r\n\r\n"
+:content:
+- "\r\nThe largest integer <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
+  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 100 that is only divisible
+  by both the primes 2 and 3 is 96, as 96=32*3=2<sup>5</sup>*3.\r\nFor two <i>distinct</i>
+  primes p and q let M(p,q,N) be the largest positive integer <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">N
+  only divisible\r\nby both p and q and M(p,q,N)=0 if such a positive integer does
+  not exist.\r\n"
+- "\r\nE.g. M(2,3,100)=96.<br> \r\nM(3,5,100)=75 and not 90 because 90 is divisible
+  by 2 ,3 and 5.<br>\r\nAlso M(2,73,100)=0 because there does not exist a positive
+  integer <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"> 100 that is divisible by both 2 and 73.\r\n"
+- "\r\nLet S(N) be the sum of all distinct M(p,q,N).\r\nS(100)=2262.\r\n"
+- "\r\nFind S(10 000 000).\r\n"

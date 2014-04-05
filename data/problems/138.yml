@@ -1,19 +1,19 @@
 ---
 :id: 138
 :name: Special isosceles triangles
-:content: "\r\n<p>Consider the isosceles triangle with base length, <i>b</i> = 16,
-  and legs, L = 17.</p>\r\n<div style=\"text-align:center;\">\r\n<img src=\"project/images/p_138.gif\"
-  width=\"230\" height=\"228\" alt=\"\">\n</div>\r\n<p>By using the Pythagorean theorem
-  it can be seen that the height of the triangle, <i>h</i> = <img src=\"images/symbol_radic.gif\"
-  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">(17<sup>2</sup><img
-  src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
-  style=\"vertical-align:middle;\"> 8<sup>2</sup>) = 15, which is one less than the
-  base length.</p>\r\n<p>With <i>b</i> = 272 and L = 305, we get <i>h</i> = 273, which
-  is one more than the base length, and this is the second smallest isosceles triangle
-  with the property that <i>h</i> = <i>b</i> <img src=\"images/symbol_plusmn.gif\"
-  width=\"11\" height=\"11\" alt=\"±\" border=\"0\" style=\"vertical-align:middle;\">
-  1.</p>\r\n<p>Find <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\"
-  alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"> L for the twelve smallest
-  isosceles triangles for which <i>h</i> = <i>b</i> <img src=\"images/symbol_plusmn.gif\"
-  width=\"11\" height=\"11\" alt=\"±\" border=\"0\" style=\"vertical-align:middle;\">
-  1 and <i>b</i>, L are positive integers.</p>\r\n\r\n"
+:content:
+- Consider the isosceles triangle with base length, <i>b</i> = 16, and legs, L = 17.
+- By using the Pythagorean theorem it can be seen that the height of the triangle,
+  <i>h</i> = <img src="images/symbol_radic.gif" width="14" height="16" alt="√" border="0"
+  style="vertical-align:middle;">(17<sup>2</sup><img src="images/symbol_minus.gif"
+  width="9" height="3" alt="−" border="0" style="vertical-align:middle;"> 8<sup>2</sup>)
+  = 15, which is one less than the base length.
+- With <i>b</i> = 272 and L = 305, we get <i>h</i> = 273, which is one more than the
+  base length, and this is the second smallest isosceles triangle with the property
+  that <i>h</i> = <i>b</i> <img src="images/symbol_plusmn.gif" width="11" height="11"
+  alt="±" border="0" style="vertical-align:middle;"> 1.
+- Find <img src="images/symbol_sum.gif" width="11" height="14" alt="∑" border="0"
+  style="vertical-align:middle;"> L for the twelve smallest isosceles triangles for
+  which <i>h</i> = <i>b</i> <img src="images/symbol_plusmn.gif" width="11" height="11"
+  alt="±" border="0" style="vertical-align:middle;"> 1 and <i>b</i>, L are positive
+  integers.
