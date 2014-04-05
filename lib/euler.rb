@@ -68,7 +68,7 @@ end
 # Default configuration options
 Euler.config do |config|
 
-  data_dir = "#{File.dir_name(__FILE__)}/../data"
+  data_dir = "#{File.dirname(__FILE__)}/../data"
 
   config.answers_file "#{data_dir}/answers.yml"
   config.problems_dir "#{data_dir}/problems"
