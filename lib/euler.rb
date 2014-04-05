@@ -1,11 +1,11 @@
 require 'fileutils'
 require 'ostruct'
 
-require 'euler/version'
+require_relative 'euler/version'
 
-require 'euler/errors'
-require 'euler/problem'
-require 'euler/solution'
+require_relative 'euler/errors'
+require_relative 'euler/problem'
+require_relative 'euler/solution'
 
 module Euler
 
@@ -62,10 +62,10 @@ module Euler
       end
     end
 
-  end
+    def root
+      ENV['PWD']
+    end
 
-  def root
-    File.dirname(__FILE__)
   end
 
 end
@@ -94,3 +94,5 @@ Euler.config do |config|
   }
 
 end
+
+require_relative 'euler/languages'

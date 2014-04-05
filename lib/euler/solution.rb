@@ -34,7 +34,7 @@ module Euler
     end
 
     def run
-      @result ||= language_object.run
+      @result ||= language_object.run(solution)
     end
 
     def test

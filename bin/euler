@@ -1,12 +1,14 @@
 #!/usr/bin/env ruby
 
-require 'euler'
+require 'rubygems'
 
 require 'commander/import'
 require 'colorize'
 
+require_relative '../lib/euler'
+
 program :version, Euler::VERSION
-probram :description, 'Project Euler solution manager.'
+program :description, 'Project Euler solution manager.'
 
 command :run do |c|
   c.syntax = 'euler run problem_id language'
@@ -47,20 +49,25 @@ command :test do |c|
       puts "                         PASS                         ".bold.on_green
     else
       puts "                         FAIL                         ".bold.on_red
-    end 
+    end
   end
 end
 
 command :new do |c|
-  solution = Solution.from_options(options)
-  problem  = solution.problem
+  c.action do |args, options|
+    problem_id = args.shift
+    language   = args.shift
 
-  solution.init
+    solution = Euler::Solution.new(problem_id, language)
+    problem  = solution.problem
 
-  puts
-  puts "Done initializing empty #{solution.language} solution for"
-  puts "##{problem.id} - #{problem.name}".bold
-  puts
+    solution.init
+
+    puts
+    puts "Done initializing empty #{solution.language} solution for"
+    puts "##{problem.id} - #{problem.name}".bold
+    puts
+  end
 end
 
 command :describe do |c|
