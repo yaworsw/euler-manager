@@ -24,7 +24,7 @@ module Euler
     def init
       mkdir
       if language_object.respond_to?(:init)
-        language_object.init
+        language_object.init(self)
       end
       self
     end
@@ -34,7 +34,7 @@ module Euler
     end
 
     def run
-      @result ||= language_object.run(solution)
+      @result ||= language_object.run(self)
     end
 
     def test
