@@ -9,7 +9,7 @@ describe Euler do
   end
 
   it "should be able to set config options with lambdas" do
-    ds = lambda { |problem_id, language|
+    ds = lambda { |solution|
 
     }
 

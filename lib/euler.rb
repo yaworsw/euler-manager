@@ -78,17 +78,17 @@ Euler.config do |config|
   config.answers_file "#{data_dir}/answers.yml"
   config.problems_dir "#{data_dir}/problems"
 
-  config.directory_strategy Proc.new { |problem_id, language|
-    "#{Euler.root}/#{problem_id}/#{language}"
+  config.directory_strategy lambda { |solution|
+    "#{Euler.root}/#{solution.problem_id}/#{solution.language}"
   }
 
-  config.create_directory_strategy Proc.new { |solution|
+  config.create_directory_strategy lambda { |solution|
     problem = solution.problem
     dir     = solution.dir
 
     FileUtils.mkdir_p(dir)
     readme_path = "#{dir}/../README.md"
-    if not File.exists?(readme_path) then File.open(readme_path, 'w') do  |f|
+    if not File.exists?(readme_path) then File.open(readme_path, 'w') do |f|
       f.write("# #{problem.name}\n\n#{problem.content}")
     end end
   }

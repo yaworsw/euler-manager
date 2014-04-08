@@ -52,7 +52,7 @@ module Euler
     end
 
     def dir
-      Euler.directory_strategy(problem_id, language)
+      Euler.directory_strategy(self)
     end
 
     protected

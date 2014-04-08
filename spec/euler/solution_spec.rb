@@ -35,8 +35,8 @@ describe Euler::Solution do
 
     FakeFS.activate!
 
-    ds = lambda { |problem_id, language|
-      "/euler/#{problem_id}/#{language}"
+    ds = lambda { |solution|
+      "/euler/#{solution.problem_id}/#{solution.language}"
     }
 
     args = [1, 'euler-lang']
@@ -45,9 +45,9 @@ describe Euler::Solution do
       config.directory_strategy ds
     end
 
-    Euler::Solution.new(*args).init
+    solution = Euler::Solution.new(*args).init
 
-    dir = ds.call(*args)
+    dir = ds.call(solution)
 
     File.directory?(dir).should be_true
   end
