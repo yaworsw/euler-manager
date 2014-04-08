@@ -17,6 +17,7 @@ describe Euler::Solution do
   end
 
   it "should call it's language's run method when run is called" do
+    EulerLang.any_instance.should_receive(:run).once
     solution = Euler::Solution.new(9001, 'euler-lang')
     solution.run
   end

@@ -1,4 +1,4 @@
-Euler.register_language 'scala', Class.new do
+Euler.register_language('scala', Class.new do
 
   # Compile and run the scala solution
   def run solution
@@ -24,4 +24,4 @@ Euler.register_language 'scala', Class.new do
       "#{File.dirname(__FILE__)}/templates/scala.rb"
     end
 
-end
+end)

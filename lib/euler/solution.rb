@@ -85,7 +85,7 @@ module Euler
       # solution's language.  Not to be confused with +language+ which just
       # returns the name of the solutions language.
       def language_object
-        Euler.get_language(language)
+        @language_object ||= Euler.get_language(language)
       end
 
   end

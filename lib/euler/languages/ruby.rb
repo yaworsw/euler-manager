@@ -1,4 +1,4 @@
-Euler.register_language 'ruby', Class.new do
+Euler.register_language('ruby', Class.new do
 
   # Run the ruby solution
   def run solution
@@ -22,4 +22,4 @@ Euler.register_language 'ruby', Class.new do
       "#{File.dirname(__FILE__)}/templates/ruby.rb"
     end
 
-end
+end)
