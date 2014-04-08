@@ -1,3 +1,4 @@
+# Loads the default language definitions using a white list.
 [
 
   'ruby'
