@@ -56,6 +56,49 @@ command :test do |c|
   end
 end
 
+command :test_all do |c|
+  c.syntax  = 'euler test_all'
+  c.summary = 'Tests all solutions.'
+  c.description = c.summary
+  c.action do |args, options|
+    solutions = Euler::Solution.all
+
+    failures = []
+
+    puts
+    puts "Testing all solutions."
+    puts
+    Euler::Solution.all.each do |solution|
+      if solution.correct?
+        print ".".green
+      else
+        failures << solution
+        print "X".bold.red
+      end
+    end
+    puts
+    puts
+    if failures.empty?
+      print "                   ".bold.on_green
+      print "All TESTS PASSED".bold.on_green
+      puts  "                   ".bold.on_green
+    else
+      print "                 ".bold.on_red
+      print "THERE WERE #{failures.length} FAILURE#{failures.length != 1 ? 'S' : ''}".bold.on_red
+      puts  "                 ".bold.on_red
+      failures.each do |failure|
+        puts
+        puts "#{failure.problem.to_s} (#{failure.language})".bold
+        puts "Expected: " + failure.problem.answer.cyan
+        puts "Result:   " + failure.result.cyan
+      end
+    end
+    puts
+
+    # fail if not failures.empty?
+  end
+end
+
 command :new do |c|
   c.syntax  = 'euler new [problem_id] [language]'
   c.summary = 'Initialize a solution.'

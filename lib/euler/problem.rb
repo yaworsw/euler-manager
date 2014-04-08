@@ -50,6 +50,10 @@ module Euler
       to_hash.to_yaml
     end
 
+    def to_s
+      "##{id} - #{name}"
+    end
+
   end
 
 end

@@ -163,6 +163,22 @@ Euler.config do |config|
     [problem_id, language]
   }
 
+  # Returns every solution done so far.
+  config.all_solutions_strategy lambda {
+    Dir["#{Euler.root}/*"].select { |f|
+      File.directory?(f) and /\/\d+$/ === f
+    }.map { |problem_dir|
+      Dir["#{problem_dir}/*"].map { |solution_dir|
+        if File.directory?(solution_dir)
+          args = Euler.parse_params_from_directory(solution_dir)
+          Euler::Solution.new(*args)
+        else
+          nil
+        end
+      }
+    }.flatten.compact
+  }
+
 end
 
 # Include the default language definitions.

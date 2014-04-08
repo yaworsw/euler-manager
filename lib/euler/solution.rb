@@ -4,6 +4,11 @@ module Euler
 
   class Solution
 
+    # Returns an array of all of the solutions
+    def self.all
+      Euler.all_solutions_strategy
+    end
+
     attr_reader :language
 
     # Given the problem this solution is for an the language it's implemented in
