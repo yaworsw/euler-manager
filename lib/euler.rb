@@ -85,12 +85,15 @@ module Euler
     end
 
     # Returns the root directory of the current project.
-    #
-    # @todo search up through +ENV['PWD']+ for an Eulerfile or Eulerfile.rb or
-    # whatever we decide to call the Euler manager config file and then return
-    # the name of the directory the config file is in.
     def root
-      ENV['PWD']
+      root = ENV['PWD']
+      until File.exists?("#{root}/Eulerfile.rb") || File.expand_path(root) == '/' do
+        root = File.dirname(root)
+      end
+      if not File.exists?("#{root}/Eulerfile.rb")
+        raise Euler::EulerFileNotFoundError.new "Unable to find an Eulerfile.rb in any of the parent directories."
+      end
+      root
     end
 
   end
@@ -130,3 +133,5 @@ end
 
 # Include the default language definitions.
 require_relative 'euler/languages'
+
+# @todo include Euler file
