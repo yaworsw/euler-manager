@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 class EulerLang
-  def run
+  def run solution
     '42'
   end
 end
