@@ -16,9 +16,8 @@ command :run do |c|
   c.description = c.summary
   c.example 'Runs the ruby solution for problem #1', 'euler run 1 ruby'
   c.action do |args, options|
-    problem_id = args.shift
-    language   = args.shift
-    solution   = Euler::Solution.new(problem_id, language)
+    problem_id, language = Euler.params_from_dir_or_args args
+    solution = Euler::Solution.new(problem_id, language)
 
     puts
     puts solution.run
@@ -32,13 +31,12 @@ command :test do |c|
   c.description = c.summary
   c.example 'Tests the ruby solution for problem #1', 'euler test 1 ruby'
   c.action do |args, options|
-    problem_id = args.shift
-    language   = args.shift
+    problem_id, language = Euler.params_from_dir_or_args args
 
-    solution   = Euler::Solution.new(problem_id, language)
-    problem    = solution.problem
+    solution = Euler::Solution.new(problem_id, language)
+    problem  = solution.problem
 
-    correct    = solution.correct?
+    correct  = solution.correct?
 
     puts
     puts "Testing #{solution.language} solution to"
@@ -64,8 +62,7 @@ command :new do |c|
   c.description = c.summary
   c.example 'Initialize a ruby solution for problem #1', 'euler new 1 ruby'
   c.action do |args, options|
-    problem_id = args.shift
-    language   = args.shift
+    problem_id, language = Euler.params_from_dir_or_args args
 
     solution = Euler::Solution.new(problem_id, language)
     problem  = solution.problem
@@ -85,7 +82,7 @@ command :desc do |c|
   c.description = c.summary
   c.example 'View the for description for problem #1', 'euler desc 1'
   c.action do |args, options|
-    problem_id = args.shift
+    problem_id, language = Euler.params_from_dir_or_args args
 
     problem = Euler::Problem.find(problem_id)
 

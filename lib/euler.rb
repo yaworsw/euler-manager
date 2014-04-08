@@ -96,6 +96,23 @@ module Euler
       root
     end
 
+    # Returns an array with the first element being the problem id and the
+    # second element being the language gotten from either the args passed in or
+    # by parsing the directory the command was ran from
+    def params_from_dir_or_args args
+      from_dir = parse_params_from_directory
+      [
+        args.shift || from_dir.shift,
+        args.shift || from_dir.shift
+      ]
+    end
+
+    # Uses the +directory_parse_strategy+ to attempt to parse the problem id and
+    # language of the solution's directory the command was ran from.
+    def parse_params_from_directory dir = ENV['PWD']
+      self.directory_parse_strategy(dir)
+    end
+
   end
 
 end
@@ -127,6 +144,16 @@ Euler.config do |config|
     if not File.exists?(readme_path) then File.open(readme_path, 'w') do |f|
       f.write("# #{problem.name}\n\n#{problem.content}")
     end end
+  }
+
+  # Attempts to parse a directory for the +problem_id+ and +language+.  Returns
+  # a an array where the first element is the problem id and the second element
+  # is the language.
+  config.directory_parse_strategy lambda { |dir|
+    problem_id = (Regexp.new("#{Euler.root}/(\\d+)").match(dir)     || [])[1]
+    language   = (Regexp.new("#{Euler.root}/\\d+/(.+)").match(dir)  || [])[1]
+
+    [problem_id, language]
   }
 
 end
