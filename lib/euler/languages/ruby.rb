@@ -1,4 +1,4 @@
-Euler.register_language('ruby', Class.new do
+Euler.register_language 'ruby', Class.new do
 
   def run solution
     `ruby #{file_path(solution)}`
@@ -16,4 +16,4 @@ Euler.register_language('ruby', Class.new do
       "#{solution.dir}/#{solution.problem.id}.rb"
     end
 
-end.new)
+end

@@ -49,7 +49,7 @@ module Euler
       if @@languages[language_string].nil?
         raise Euler::LanguageNotRegisteredError.new "#{language_string} has not been registered."
       else
-        @@languages[language_string]
+        @@languages[language_string].new
       end
     end
 

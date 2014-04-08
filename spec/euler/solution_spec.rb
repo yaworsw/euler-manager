@@ -9,9 +9,7 @@ end
 describe Euler::Solution do
 
   before(:all) do
-    euler_lang = EulerLang.new
-    Euler.register_language('euler-lang', euler_lang)
-    euler_lang
+    Euler.register_language('euler-lang', EulerLang)
   end
 
   after(:all) do
