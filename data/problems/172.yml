@@ -1,6 +1,6 @@
 ---
 :id: 172
 :name: Investigating numbers with few repeated digits
-:content:
-- How many 18-digit numbers <var>n</var> (without leading zeros) are there such that
-  no digit occurs more than three times in <var>n</var>?
+:url: http://projecteuler.net/problem=172
+:content: "\r\n<p>How many 18-digit numbers <var>n</var> (without leading zeros) are
+  there such that no digit occurs more than three times in <var>n</var>?</p>\r\n"

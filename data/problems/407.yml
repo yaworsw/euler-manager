@@ -1,21 +1,20 @@
 ---
 :id: 407
 :name: Idempotents
-:content:
-- "\r\nIf we calculate <var>a</var><sup>2</sup> mod 6 for 0 <img src=\"images/symbol_le.gif\"
+:url: http://projecteuler.net/problem=407
+:content: "\r\n<p>\r\nIf we calculate <var>a</var><sup>2</sup> mod 6 for 0 <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>a</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> 5 we get: 0,1,4,3,4,1.\r\n"
-- "\r\nThe largest value of <var>a</var> such that <var>a</var><sup>2</sup><img src=\"images/symbol_cong.gif\"
+  style=\"vertical-align:middle;\"> 5 we get: 0,1,4,3,4,1.\r\n</p>\r\n<p>\r\nThe largest
+  value of <var>a</var> such that <var>a</var><sup>2</sup><img src=\"images/symbol_cong.gif\"
   width=\"9\" height=\"11\" alt=\"≡\" border=\"0\" style=\"vertical-align:middle;\"><var>a</var>
   mod 6 is 4.<br>\r\nLet's call M(<var>n</var>) the largest value of <var>a</var>
   <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
   style=\"vertical-align:middle;\"><var>n</var> such that <var>a</var><sup>2</sup><img
   src=\"images/symbol_cong.gif\" width=\"9\" height=\"11\" alt=\"≡\" border=\"0\"
   style=\"vertical-align:middle;\"><var>a</var> (mod <var>n</var>).<br>\r\nSo M(6)
-  = 4.\r\n"
-- "\r\nFind <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\"
-  border=\"0\" style=\"vertical-align:middle;\">M(<var>n</var>) for 1 <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
+  = 4.\r\n</p>\r\n<p>\r\nFind <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\"
+  alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">M(<var>n</var>) for 1 <img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> 10<sup>7</sup>.\r\n"
+  style=\"vertical-align:middle;\"> 10<sup>7</sup>.\r\n</p>\r\n\r\n"

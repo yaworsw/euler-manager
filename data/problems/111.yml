@@ -1,19 +1,21 @@
 ---
 :id: 111
 :name: Primes with runs
-:content:
-- 'Considering 4-digit primes containing repeated digits it is clear that they cannot
-  all be the same: 1111 is divisible by 11, 2222 is divisible by 22, and so on. But
-  there are nine 4-digit primes containing three ones:'
-- 1117, 1151, 1171, 1181, 1511, 1811, 2111, 4111, 8111
-- We shall say that M(<i>n</i>, <i>d</i>) represents the maximum number of repeated
-  digits for an <i>n</i>-digit prime where <i>d</i> is the repeated digit, N(<i>n</i>,
-  <i>d</i>) represents the number of such primes, and S(<i>n</i>, <i>d</i>) represents
-  the sum of these primes.
-- So M(4, 1) = 3 is the maximum number of repeated digits for a 4-digit prime where
-  one is the repeated digit, there are N(4, 1) = 9 such primes, and the sum of these
-  primes is S(4, 1) = 22275. It turns out that for <i>d</i> = 0, it is only possible
-  to have M(4, 0) = 2 repeated digits, but there are N(4, 0) = 13 such cases.
-- In the same way we obtain the following results for 4-digit primes.
-- For <i>d</i> = 0 to 9, the sum of all S(4, <i>d</i>) is 273700.
-- Find the sum of all S(10, <i>d</i>).
+:url: http://projecteuler.net/problem=111
+:content: "\r\n<p>Considering 4-digit primes containing repeated digits it is clear
+  that they cannot all be the same: 1111 is divisible by 11, 2222 is divisible by
+  22, and so on. But there are nine 4-digit primes containing three ones:</p>\r\n<p
+  style=\"text-align:center;\">1117, 1151, 1171, 1181, 1511, 1811, 2111, 4111, 8111</p>\r\n<p>We
+  shall say that M(<i>n</i>, <i>d</i>) represents the maximum number of repeated digits
+  for an <i>n</i>-digit prime where <i>d</i> is the repeated digit, N(<i>n</i>, <i>d</i>)
+  represents the number of such primes, and S(<i>n</i>, <i>d</i>) represents the sum
+  of these primes.</p>\r\n<p>So M(4, 1) = 3 is the maximum number of repeated digits
+  for a 4-digit prime where one is the repeated digit, there are N(4, 1) = 9 such
+  primes, and the sum of these primes is S(4, 1) = 22275. It turns out that for <i>d</i>
+  = 0, it is only possible to have M(4, 0) = 2 repeated digits, but there are N(4,
+  0) = 13 such cases.</p>\r\n<p>In the same way we obtain the following results for
+  4-digit primes.</p>\r\n<div style=\"text-align:center;\">\r\n<table align=\"center\"
+  border=\"1\" cellspacing=\"0\" cellpadding=\"5\">\n<tr>\n<td><b>Digit, <i>d</i></b></td>\r\n<td><b>M(4,
+  <i>d</i>)</b></td>\r\n<td><b>N(4, <i>d</i>)</b></td>\r\n<td><b>S(4, <i>d</i>)</b></td>\r\n</tr>\n<tr>\n<td>0</td>\r\n<td>2</td>\r\n<td>13</td>\r\n<td>67061</td>\r\n</tr>\n<tr>\n<td>1</td>\r\n<td>3</td>\r\n<td>9</td>\r\n<td>22275</td>\r\n</tr>\n<tr>\n<td>2</td>\r\n<td>3</td>\r\n<td>1</td>\r\n<td>2221</td>\r\n</tr>\n<tr>\n<td>3</td>\r\n<td>3</td>\r\n<td>12</td>\r\n<td>46214</td>\r\n</tr>\n<tr>\n<td>4</td>\r\n<td>3</td>\r\n<td>2</td>\r\n<td>8888</td>\r\n</tr>\n<tr>\n<td>5</td>\r\n<td>3</td>\r\n<td>1</td>\r\n<td>5557</td>\r\n</tr>\n<tr>\n<td>6</td>\r\n<td>3</td>\r\n<td>1</td>\r\n<td>6661</td>\r\n</tr>\n<tr>\n<td>7</td>\r\n<td>3</td>\r\n<td>9</td>\r\n<td>57863</td>\r\n</tr>\n<tr>\n<td>8</td>\r\n<td>3</td>\r\n<td>1</td>\r\n<td>8887</td>\r\n</tr>\n<tr>\n<td>9</td>\r\n<td>3</td>\r\n<td>7</td>\r\n<td>48073</td>\r\n</tr>\n</table>\n</div>\r\n<p>For
+  <i>d</i> = 0 to 9, the sum of all S(4, <i>d</i>) is 273700.</p>\r\n<p>Find the sum
+  of all S(10, <i>d</i>).</p>\r\n\r\n"

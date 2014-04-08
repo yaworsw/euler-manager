@@ -62,7 +62,8 @@ command :new do |c|
   c.description = c.summary
   c.example 'Initialize a ruby solution for problem #1', 'euler new 1 ruby'
   c.action do |args, options|
-    problem_id, language = Euler.params_from_dir_or_args args
+    problem_id = args.shift
+    language   = args.shift
 
     solution = Euler::Solution.new(problem_id, language)
     problem  = solution.problem

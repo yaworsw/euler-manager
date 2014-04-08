@@ -1,20 +1,19 @@
 ---
 :id: 403
 :name: Lattice points enclosed by parabola and line
-:content:
-- "\r\nFor integers <var>a</var> and <var>b</var>, we define <var>D</var>(<var>a</var>,
+:url: http://projecteuler.net/problem=403
+:content: "\r\n<p>\r\nFor integers <var>a</var> and <var>b</var>, we define <var>D</var>(<var>a</var>,
   <var>b</var>) as the domain enclosed by the parabola <var>y</var> = <var>x</var><sup>2</sup>
   and the line <var>y</var> = <var>a</var>·<var>x</var> + <var>b</var>:<br><var>D</var>(<var>a</var>,
   <var>b</var>) = { (<var>x</var>, <var>y</var>) | <var>x</var><sup>2</sup><img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>y</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"><var>a</var>·<var>x</var> + <var>b</var> }.\r\n"
-- "\r\nL(<var>a</var>, <var>b</var>) is defined as the number of lattice points contained
-  in <var>D</var>(<var>a</var>, <var>b</var>).<br>\r\nFor example, L(1, 2) = 8 and
-  L(2, -1) = 1.\r\n"
-- "\r\nWe also define S(<var>N</var>) as the sum of L(<var>a</var>, <var>b</var>)
-  for all the pairs (<var>a</var>, <var>b</var>) such that the area of <var>D</var>(<var>a</var>,
+  style=\"vertical-align:middle;\"><var>a</var>·<var>x</var> + <var>b</var> }.\r\n</p>\r\n<p>\r\nL(<var>a</var>,
+  <var>b</var>) is defined as the number of lattice points contained in <var>D</var>(<var>a</var>,
+  <var>b</var>).<br>\r\nFor example, L(1, 2) = 8 and L(2, -1) = 1.\r\n</p>\r\n<p>\r\nWe
+  also define S(<var>N</var>) as the sum of L(<var>a</var>, <var>b</var>) for all
+  the pairs (<var>a</var>, <var>b</var>) such that the area of <var>D</var>(<var>a</var>,
   <var>b</var>) is a rational number and |<var>a</var>|,|<var>b</var>| <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var>.<br>\r\nWe
-  can verify that S(5) = 344 and S(100) = 26709528.\r\n"
-- "\r\nFind S(10<sup>12</sup>). Give your answer mod 10<sup>8</sup>.\r\n"
+  can verify that S(5) = 344 and S(100) = 26709528.\r\n</p>\r\n<p>\r\nFind S(10<sup>12</sup>).
+  Give your answer mod 10<sup>8</sup>.\r\n</p>\r\n"

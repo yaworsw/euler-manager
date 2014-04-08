@@ -1,13 +1,23 @@
 ---
 :id: 319
 :name: Bounded Sequences
-:content:
-- "\r\nLet <var>x</var><sub>1</sub>, <var>x</var><sub>2</sub>,..., <var>x<sub>n</sub></var>
-  be a sequence of length <var>n</var> such that:\r\n"
-- "\r\nThere are only five such sequences of length 2, namely:\r\n{2,4}, {2,5}, {2,6},
-  {2,7} and {2,8}.<br>\r\nThere are 293 such sequences of length 5; three examples
-  are given below:<br>\r\n{2,5,11,25,55}, {2,6,14,36,88}, {2,8,22,64,181}.\r\n"
-- "\r\nLet <var>t</var>(<var>n</var>) denote the number of such sequences of length
-  <var>n</var>.<br>\r\nYou are given that <var>t</var>(10) = 86195 and <var>t</var>(20)
-  = 5227991891.\r\n"
-- "\r\nFind <var>t</var>(10<sup>10</sup>) and give your answer modulo 10<sup>9</sup>.\r\n"
+:url: http://projecteuler.net/problem=319
+:content: "\r\n<p>\r\nLet <var>x</var><sub>1</sub>, <var>x</var><sub>2</sub>,...,
+  <var>x<sub>n</sub></var> be a sequence of length <var>n</var> such that:\r\n</p>\n<ul>\n<li>\n<var>x</var><sub>1</sub>
+  = 2</li>\r\n<li>for all 1 <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\"
+  alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
+  : <var>x</var><sub><var>i</var>-<i>1</i></sub><img src=\"images/symbol_lt.gif\"
+  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><var>x<sub>i</sub></var>\n</li>\r\n<li>for
+  all <var>i</var> and <var>j</var> with 1 <img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>i</var>,
+  <var>j</var> <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\"><var>n</var> : (<var>x<sub>i</sub></var>)<var><sup>
+  j</sup></var> <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\"
+  border=\"0\" style=\"vertical-align:middle;\"> (<var>x<sub>j</sub></var> + 1)<var><sup>i</sup></var>\n</li>\r\n</ul>\n<p>\r\nThere
+  are only five such sequences of length 2, namely:\r\n{2,4}, {2,5}, {2,6}, {2,7}
+  and {2,8}.<br>\r\nThere are 293 such sequences of length 5; three examples are given
+  below:<br>\r\n{2,5,11,25,55}, {2,6,14,36,88}, {2,8,22,64,181}.\r\n</p>\r\n<p>\r\nLet
+  <var>t</var>(<var>n</var>) denote the number of such sequences of length <var>n</var>.<br>\r\nYou
+  are given that <var>t</var>(10) = 86195 and <var>t</var>(20) = 5227991891.\r\n</p>\r\n<p>\r\nFind
+  <var>t</var>(10<sup>10</sup>) and give your answer modulo 10<sup>9</sup>.\r\n</p>\r\n\r\n\r\n"

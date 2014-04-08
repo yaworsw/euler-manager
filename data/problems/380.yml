@@ -1,24 +1,22 @@
 ---
 :id: 380
 :name: Amazing Mazes!
-:content:
-- "\r\nAn m<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
-  border=\"0\" style=\"vertical-align:middle;\">n maze is an m<img src=\"images/symbol_times.gif\"
+:url: http://projecteuler.net/problem=380
+:content: "\r\n<p>\r\nAn m<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">n maze is an m<img src=\"images/symbol_times.gif\"
   width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">n
   rectangular grid with walls placed between grid cells such that there is exactly
   one path from the top-left square to any other square. <br>The following are examples
   of a 9<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
   style=\"vertical-align:middle;\">12 maze and a 15<img src=\"images/symbol_times.gif\"
   width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">20
-  maze:\r\n"
-- "\r\n<img src=\"project/images/p_380_mazes.gif\">"
-- "\r\nLet C(m,n) be the number of distinct m<img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">n
-  mazes. Mazes which can be formed by rotation and reflection from another maze are
-  considered distinct.\r\n"
-- "\r\nIt can be verified that C(1,1) = 1, C(2,2) = 4, C(3,4) = 2415, and C(9,12)
-  = 2.5720e46 (in scientific notation rounded to 5 significant digits).<br>\r\nFind
-  C(100,500) and write your answer in scientific notation rounded to 5 significant
-  digits.\r\n"
-- "\r\nWhen giving your answer, use a lowercase e to separate mantissa and exponent.\r\nE.g.
-  if the answer is 1234567891011 then the answer format would be 1.2346e12.\r\n\r\n"
+  maze:\r\n</p>\r\n<p>\r\n<img src=\"project/images/p_380_mazes.gif\"></p>\r\n<p>\r\nLet
+  C(m,n) be the number of distinct m<img src=\"images/symbol_times.gif\" width=\"9\"
+  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">n mazes. Mazes
+  which can be formed by rotation and reflection from another maze are considered
+  distinct.\r\n</p>\r\n<p>\r\nIt can be verified that C(1,1) = 1, C(2,2) = 4, C(3,4)
+  = 2415, and C(9,12) = 2.5720e46 (in scientific notation rounded to 5 significant
+  digits).<br>\r\nFind C(100,500) and write your answer in scientific notation rounded
+  to 5 significant digits.\r\n</p>\r\n<p>\r\nWhen giving your answer, use a lowercase
+  e to separate mantissa and exponent.\r\nE.g. if the answer is 1234567891011 then
+  the answer format would be 1.2346e12.\r\n\r\n</p> \r\n\r\n\r\n\r\n\r\n"

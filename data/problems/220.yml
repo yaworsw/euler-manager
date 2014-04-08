@@ -1,24 +1,24 @@
 ---
 :id: 220
 :name: Heighway Dragon
-:content:
-- 'Let <b><i>D</i></b><sub>0</sub> be the two-letter string "Fa".  For n<img src="images/symbol_ge.gif"
-  width="10" height="12" alt="≥" border="0" style="vertical-align:middle;">1, derive
-  <b><i>D</i></b><sub>n</sub> from <b><i>D</i></b><sub>n-1</sub> by the string-rewriting
-  rules:'
-- "\"a\" <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+:url: http://projecteuler.net/problem=220
+:content: "\r\n<p>Let <b><i>D</i></b><sub>0</sub> be the two-letter string \"Fa\".
+  \ For n<img src=\"images/symbol_ge.gif\" width=\"10\" height=\"12\" alt=\"≥\" border=\"0\"
+  style=\"vertical-align:middle;\">1, derive <b><i>D</i></b><sub>n</sub> from <b><i>D</i></b><sub>n-1</sub>
+  by the string-rewriting rules:</p>\r\n\r\n<p style=\"margin-left:40px;\">\"a\" <img
+  src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
   style=\"vertical-align:middle;\"> \"aRbFR\"<br>\r\n\"b\" <img src=\"images/symbol_maps.gif\"
   width=\"15\" height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\">
-  \"LFaLb\""
-- Thus, <b><i>D</i></b><sub>0</sub> = "Fa", <b><i>D</i></b><sub>1</sub> = "FaRbFR",
-  <b><i>D</i></b><sub>2</sub> = "FaRbFRRLFaLbFR", and so on.
-- These strings can be interpreted as instructions to a computer graphics program,
-  with "F" meaning "draw forward one unit", "L" meaning "turn left 90 degrees", "R"
-  meaning "turn right 90 degrees", and "a" and "b" being ignored.  The initial position
-  of the computer cursor is (0,0), pointing up towards (0,1).
-- Then <b><i>D</i></b><sub>n</sub> is an exotic drawing known as the <i>Heighway Dragon</i>
+  \"LFaLb\"</p>\r\n\r\n<p>Thus, <b><i>D</i></b><sub>0</sub> = \"Fa\", <b><i>D</i></b><sub>1</sub>
+  = \"FaRbFR\", <b><i>D</i></b><sub>2</sub> = \"FaRbFRRLFaLbFR\", and so on.</p>\r\n\r\n<p>These
+  strings can be interpreted as instructions to a computer graphics program, with
+  \"F\" meaning \"draw forward one unit\", \"L\" meaning \"turn left 90 degrees\",
+  \"R\" meaning \"turn right 90 degrees\", and \"a\" and \"b\" being ignored.  The
+  initial position of the computer cursor is (0,0), pointing up towards (0,1).</p>\r\n\r\n<p>Then
+  <b><i>D</i></b><sub>n</sub> is an exotic drawing known as the <i>Heighway Dragon</i>
   of order <i>n</i>.  For example, <b><i>D</i></b><sub>10</sub> is shown below; counting
-  each "F" as one step, the highlighted spot at (18,16) is the position reached after
-  500 steps.
-- "What is the position of the cursor after 10<sup>12</sup> steps in <b><i>D</i></b><sub>50</sub>
-  ?<br>\r\nGive your answer in the form <i>x</i>,<i>y</i> with no spaces."
+  each \"F\" as one step, the highlighted spot at (18,16) is the position reached
+  after 500 steps.</p>\r\n\r\n<div style=\"text-align:center;\">\r\n<img src=\"project/images/p_220.gif\"
+  alt=\"\">\n</div>\r\n\r\n<p>What is the position of the cursor after 10<sup>12</sup>
+  steps in <b><i>D</i></b><sub>50</sub> ?<br>\r\nGive your answer in the form <i>x</i>,<i>y</i>
+  with no spaces.</p>\r\n\r\n"

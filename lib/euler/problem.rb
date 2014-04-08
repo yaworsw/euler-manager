@@ -13,13 +13,14 @@ module Euler
       Problem.new problem_spec
     end
 
-    attr_reader :id, :name, :content
+    attr_reader :id, :name, :url, :content
 
     # Given a hash with symbol keys initialize the problem using the +:id+,
-    # +:name+, and +:content+ keys.
+    # +:name+, +url+, and +:content+ keys.
     def initialize options
       @id      = options[:id]
       @name    = options[:name]
+      @url     = options[:url]
       @content = options[:content]
     end
 
@@ -39,6 +40,7 @@ module Euler
       {
         id:       id,
         name:     name,
+        url:      url,
         content:  content
       }
     end

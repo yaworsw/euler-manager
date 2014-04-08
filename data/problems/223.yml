@@ -1,11 +1,12 @@
 ---
 :id: 223
 :name: Almost right-angled triangles I
-:content:
-- Let us call an integer sided triangle with sides <var>a</var> <img src="images/symbol_le.gif"
-  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"><var>b</var>
-  <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"><var>c</var>
-  <i>barely acute</i> if the sides satisfy <br><var>a</var><sup>2</sup> + <var>b</var><sup>2</sup>
-  = <var>c</var><sup>2</sup> + 1.
-- How many barely acute triangles are there with perimeter <img src="images/symbol_le.gif"
-  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"> 25,000,000?
+:url: http://projecteuler.net/problem=223
+:content: "\r\n<p>Let us call an integer sided triangle with sides <var>a</var> <img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>b</var>
+  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>c</var> <i>barely acute</i> if the sides satisfy
+  <br><var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>c</var><sup>2</sup>
+  + 1.</p>\r\n\r\n<p>How many barely acute triangles are there with perimeter <img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  25,000,000?</p>\r\n\r\n \r\n\r\n"

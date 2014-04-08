@@ -2,19 +2,19 @@
 :id: 174
 :name: Counting the number of "hollow" square laminae that can form one, two, three,
   ... distinct arrangements
-:content:
-- We shall define a square lamina to be a square outline with a square "hole" so that
-  the shape possesses vertical and horizontal symmetry.
-- 'Given eight tiles it is possible to form a lamina in only one way: 3x3 square with
-  a 1x1 hole in the middle. However, using thirty-two tiles it is possible to form
-  two distinct laminae.'
-- If <var>t</var> represents the number of tiles used, we shall say that <var>t</var>
-  = 8 is type L(1) and <var>t</var> = 32 is type L(2).
-- Let N(<var>n</var>) be the number of <var>t</var> <img src="images/symbol_le.gif"
-  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"> 1000000
-  such that <var>t</var> is type L(<var>n</var>); for example, N(15) = 832.
-- What is <img src="images/symbol_sum.gif" width="11" height="14" alt="∑" border="0"
-  style="vertical-align:middle;"> N(<var>n</var>) for 1 <img src="images/symbol_le.gif"
-  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"><var>n</var>
-  <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;">
-  10?
+:url: http://projecteuler.net/problem=174
+:content: "\r\n<p>We shall define a square lamina to be a square outline with a square
+  \"hole\" so that the shape possesses vertical and horizontal symmetry.</p>\r\n<p>Given
+  eight tiles it is possible to form a lamina in only one way: 3x3 square with a 1x1
+  hole in the middle. However, using thirty-two tiles it is possible to form two distinct
+  laminae.</p>\r\n<div style=\"text-align:center;\">\r\n<img src=\"project/images/p_173_square_laminas.gif\"
+  alt=\"\">\n</div>\r\n<p>If <var>t</var> represents the number of tiles used, we
+  shall say that <var>t</var> = 8 is type L(1) and <var>t</var> = 32 is type L(2).</p>\r\n<p>Let
+  N(<var>n</var>) be the number of <var>t</var> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  1000000 such that <var>t</var> is type L(<var>n</var>); for example, N(15) = 832.</p>\r\n<p>What
+  is <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\"> N(<var>n</var>) for 1 <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
+  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"> 10?</p>\r\n"

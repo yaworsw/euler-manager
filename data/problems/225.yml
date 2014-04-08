@@ -1,11 +1,11 @@
 ---
 :id: 225
 :name: Tribonacci non-divisors
-:content:
-- "\r\nThe sequence 1, 1, 1, 3, 5, 9, 17, 31, 57, 105, 193, 355, 653, 1201 ...<br>\r\nis
-  defined by T<sub>1</sub> = T<sub>2</sub> = T<sub>3</sub> = 1 and T<sub><var>n</var></sub>
-  = T<sub><var>n</var>-1</sub> + T<sub><var>n</var>-2</sub> + T<sub><var>n</var>-3</sub>.\r\n"
-- "\r\nIt can be shown that 27 does not divide any terms of this sequence.<br>In fact,
-  27 is the first odd number with this property."
-- "\r\nFind the 124<sup>th</sup> odd number that does not divide any terms of the
-  above sequence."
+:url: http://projecteuler.net/problem=225
+:content: "\r\n<p>\r\nThe sequence 1, 1, 1, 3, 5, 9, 17, 31, 57, 105, 193, 355, 653,
+  1201 ...<br>\r\nis defined by T<sub>1</sub> = T<sub>2</sub> = T<sub>3</sub> = 1
+  and T<sub><var>n</var></sub> = T<sub><var>n</var>-1</sub> + T<sub><var>n</var>-2</sub>
+  + T<sub><var>n</var>-3</sub>.\r\n</p>\r\n<p>\r\nIt can be shown that 27 does not
+  divide any terms of this sequence.<br>In fact, 27 is the first odd number with this
+  property.</p>\r\n<p>\r\nFind the 124<sup>th</sup> odd number that does not divide
+  any terms of the above sequence.</p>\r\n"

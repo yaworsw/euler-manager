@@ -1,13 +1,13 @@
 ---
 :id: 251
 :name: Cardano Triplets
-:content:
-- "\r\nA triplet of positive integers (<var>a</var>,<var>b</var>,<var>c</var>) is
-  called a Cardano Triplet if it satisfies the condition:"
-- "\r\nFor example, (2,1,5) is a Cardano Triplet.\r\n"
-- "\r\nThere exist 149 Cardano Triplets for which <var>a</var>+<var>b</var>+<var>c</var>
+:url: http://projecteuler.net/problem=251
+:content: "\r\n<p>\r\nA triplet of positive integers (<var>a</var>,<var>b</var>,<var>c</var>)
+  is called a Cardano Triplet if it satisfies the condition:</p>\r\n<div style=\"text-align:center;\">\r\n<img
+  src=\"project/images/p_251_cardano.gif\" alt=\"\">\n</div>\r\n<p>\r\nFor example,
+  (2,1,5) is a Cardano Triplet.\r\n</p>\r\n<p>\r\nThere exist 149 Cardano Triplets
+  for which <var>a</var>+<var>b</var>+<var>c</var> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  1000.\r\n</p>\r\n<p>\r\nFind how many Cardano Triplets exist such that <var>a</var>+<var>b</var>+<var>c</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> 1000.\r\n"
-- "\r\nFind how many Cardano Triplets exist such that <var>a</var>+<var>b</var>+<var>c</var>
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> 110,000,000.\r\n \r\n\r\n"
+  style=\"vertical-align:middle;\"> 110,000,000.\r\n \r\n\r\n</p>"

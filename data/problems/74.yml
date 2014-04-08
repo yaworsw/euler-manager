@@ -1,23 +1,41 @@
 ---
 :id: 74
 :name: Digit factorial chains
-:content:
-- 'The number 145 is well known for the property that the sum of the factorial of
-  its digits is equal to 145:'
-- 1! + 4! + 5! = 1 + 24 + 120 = 145
-- 'Perhaps less well known is 169, in that it produces the longest chain of numbers
-  that link back to 169; it turns out that there are only three such loops that exist:'
-- |-
-  169 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 363601 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 1454 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 169<br>
-  871 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 45361 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 871<br>
-  872 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 45362 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 872
-- It is not difficult to prove that EVERY starting number will eventually get stuck
-  in a loop. For example,
-- |-
-  69 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 363600 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 1454 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 169 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 363601 (<img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 1454)<br>
-  78 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 45360 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 871 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 45361 (<img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 871)<br>
-  540 <img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 145 (<img src="images/symbol_maps.gif" width="15" height="7" alt="→" border="0" style="vertical-align:middle;"> 145)
-- Starting with 69 produces a chain of five non-repeating terms, but the longest non-repeating
-  chain with a starting number below one million is sixty terms.
-- How many chains, with a starting number below one million, contain exactly sixty
-  non-repeating terms?
+:url: http://projecteuler.net/problem=74
+:content: "\r\n\n<p>The number 145 is well known for the property that the sum of
+  the factorial of its digits is equal to 145:</p>\n<p style=\"margin-left:50px;\">1!
+  + 4! + 5! = 1 + 24 + 120 = 145</p>\n<p>Perhaps less well known is 169, in that it
+  produces the longest chain of numbers that link back to 169; it turns out that there
+  are only three such loops that exist:</p>\n<p style=\"margin-left:50px;\">169 <img
+  src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 363601 <img src=\"images/symbol_maps.gif\" width=\"15\"
+  height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 1454 <img
+  src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 169<br>\n871 <img src=\"images/symbol_maps.gif\"
+  width=\"15\" height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\">
+  45361 <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 871<br>\n872 <img src=\"images/symbol_maps.gif\"
+  width=\"15\" height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\">
+  45362 <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 872</p>\n<p>It is not difficult to prove that
+  EVERY starting number will eventually get stuck in a loop. For example,</p>\n<p
+  style=\"margin-left:50px;\">69 <img src=\"images/symbol_maps.gif\" width=\"15\"
+  height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 363600 <img
+  src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 1454 <img src=\"images/symbol_maps.gif\" width=\"15\"
+  height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 169 <img src=\"images/symbol_maps.gif\"
+  width=\"15\" height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\">
+  363601 (<img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\"
+  border=\"0\" style=\"vertical-align:middle;\"> 1454)<br>\n78 <img src=\"images/symbol_maps.gif\"
+  width=\"15\" height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\">
+  45360 <img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 871 <img src=\"images/symbol_maps.gif\" width=\"15\"
+  height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\"> 45361 (<img
+  src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 871)<br>\n540 <img src=\"images/symbol_maps.gif\"
+  width=\"15\" height=\"7\" alt=\"→\" border=\"0\" style=\"vertical-align:middle;\">
+  145 (<img src=\"images/symbol_maps.gif\" width=\"15\" height=\"7\" alt=\"→\" border=\"0\"
+  style=\"vertical-align:middle;\"> 145)</p>\n<p>Starting with 69 produces a chain
+  of five non-repeating terms, but the longest non-repeating chain with a starting
+  number below one million is sixty terms.</p>\n<p>How many chains, with a starting
+  number below one million, contain exactly sixty non-repeating terms?</p>\n\r\n"

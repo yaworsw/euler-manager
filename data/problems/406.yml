@@ -1,43 +1,46 @@
 ---
 :id: 406
 :name: Guessing Game
-:content:
-- "We are trying to find a hidden number selected from the set of integers {1, 2,
-  ..., <var>n</var>} by asking questions. \r\nEach number (question) we ask, we get
-  one of three possible answers:<br>"
-- Given the value of <var>n</var>, <var>a</var>, and <var>b</var>, an <i>optimal strategy</i>
-  minimizes the total cost <u>for the worst possible case</u>.
-- For example, if <var>n</var> = 5, <var>a</var> = 2, and <var>b</var> = 3, then we
-  may begin by asking "<b>2</b>" as our first question.
-- "If we are told that 2 is higher than the hidden number (for a cost of <var>b</var>=3),
-  then we are sure that \"<b>1</b>\" is the hidden number (for a total cost of <span
-  style=\"color:blue;\"><b>3</b></span>).<br>\r\nIf we are told that 2 is lower than
-  the hidden number (for a cost of <var>a</var>=2), then our next question will be
-  \"<b>4</b>\".<br>\r\nIf we are told that 4 is higher than the hidden number (for
-  a cost of <var>b</var>=3), then we are sure that \"<b>3</b>\" is the hidden number
-  (for a total cost of 2+3=<span style=\"color:blue;\"><b>5</b></span>).<br>\r\nIf
+:url: http://projecteuler.net/problem=406
+:content: "\r\n<p>We are trying to find a hidden number selected from the set of integers
+  {1, 2, ..., <var>n</var>} by asking questions. \r\nEach number (question) we ask,
+  we get one of three possible answers:<br></p>\n<ul>\n<li> \"Your guess is lower
+  than the hidden number\" (and you incur a cost of <var>a</var>), or</li>\r\n<li>
+  \"Your guess is higher than the hidden number\" (and you incur a cost of <var>b</var>),
+  or</li>\r\n<li> \"Yes, that's it!\" (and the game ends).</li>\r\n</ul>\n<p>Given
+  the value of <var>n</var>, <var>a</var>, and <var>b</var>, an <i>optimal strategy</i>
+  minimizes the total cost <u>for the worst possible case</u>.</p>\r\n\r\n<p>For example,
+  if <var>n</var> = 5, <var>a</var> = 2, and <var>b</var> = 3, then we may begin by
+  asking \"<b>2</b>\" as our first question.</p>\r\n\r\n<p>If we are told that 2 is
+  higher than the hidden number (for a cost of <var>b</var>=3), then we are sure that
+  \"<b>1</b>\" is the hidden number (for a total cost of <span style=\"color:blue;\"><b>3</b></span>).<br>\r\nIf
+  we are told that 2 is lower than the hidden number (for a cost of <var>a</var>=2),
+  then our next question will be \"<b>4</b>\".<br>\r\nIf we are told that 4 is higher
+  than the hidden number (for a cost of <var>b</var>=3), then we are sure that \"<b>3</b>\"
+  is the hidden number (for a total cost of 2+3=<span style=\"color:blue;\"><b>5</b></span>).<br>\r\nIf
   we are told that 4 is lower than the hidden number (for a cost of <var>a</var>=2),
   then we are sure that \"<b>5</b>\" is the hidden number (for a total cost of 2+2=<span
   style=\"color:blue;\"><b>4</b></span>).<br>\r\nThus, the worst-case cost achieved
   by this strategy is <span style=\"color:red;\"><b>5</b></span>. It can also be shown
   that this is the lowest worst-case cost that can be achieved. \r\nSo, in fact, we
   have just described an optimal strategy for the given values of <var>n</var>, <var>a</var>,
-  and <var>b</var>."
-- Let C(<var>n</var>, <var>a</var>, <var>b</var>) be the worst-case cost achieved
-  by an optimal strategy for the given values of <var>n</var>, <var>a</var>, and <var>b</var>.
-- "Here are a few examples:<br>\r\nC(5, 2, 3) = 5<br>\r\nC(500, <img src=\"images/symbol_radic.gif\"
-  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2,
+  and <var>b</var>.</p>\r\n\r\n<p>Let C(<var>n</var>, <var>a</var>, <var>b</var>)
+  be the worst-case cost achieved by an optimal strategy for the given values of <var>n</var>,
+  <var>a</var>, and <var>b</var>.</p>\r\n\r\n<p>Here are a few examples:<br>\r\nC(5,
+  2, 3) = 5<br>\r\nC(500, <img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\"
+  alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">2, <img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">3)
+  = 13.22073197...<br>\r\nC(20000, 5, 7) = 82<br>\r\nC(2000000, <img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">5,
   <img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
-  style=\"vertical-align:middle;\">3) = 13.22073197...<br>\r\nC(20000, 5, 7) = 82<br>\r\nC(2000000,
+  style=\"vertical-align:middle;\">7) = 49.63755955...</p>\r\n\r\n<p>Let F<sub><var>k</var></sub>
+  be the Fibonacci numbers: F<sub><var>k</var></sub> = F<sub><var>k</var>-1</sub>
+  + F<sub><var>k</var>-2</sub> with base cases F<sub>1</sub> = F<sub>2</sub> = 1.<br>Find
+  <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\"><sub>1<img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>k</var><img
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">30</sub> C(10<sup>12</sup>,
   <img src=\"images/symbol_radic.gif\" width=\"14\" height=\"16\" alt=\"√\" border=\"0\"
-  style=\"vertical-align:middle;\">5, <img src=\"images/symbol_radic.gif\" width=\"14\"
-  height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">7) = 49.63755955..."
-- 'Let F<sub><var>k</var></sub> be the Fibonacci numbers: F<sub><var>k</var></sub>
-  = F<sub><var>k</var>-1</sub> + F<sub><var>k</var>-2</sub> with base cases F<sub>1</sub>
-  = F<sub>2</sub> = 1.<br>Find <img src="images/symbol_sum.gif" width="11" height="14"
-  alt="∑" border="0" style="vertical-align:middle;"><sub>1<img src="images/symbol_le.gif"
-  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"><var>k</var><img
-  src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;">30</sub> C(10<sup>12</sup>,
-  <img src="images/symbol_radic.gif" width="14" height="16" alt="√" border="0" style="vertical-align:middle;"><var>k</var>,
-  <img src="images/symbol_radic.gif" width="14" height="16" alt="√" border="0" style="vertical-align:middle;">F<sub><var>k</var></sub>),
-  and give your answer rounded to 8 decimal places behind the decimal point.'
+  style=\"vertical-align:middle;\"><var>k</var>, <img src=\"images/symbol_radic.gif\"
+  width=\"14\" height=\"16\" alt=\"√\" border=\"0\" style=\"vertical-align:middle;\">F<sub><var>k</var></sub>),
+  and give your answer rounded to 8 decimal places behind the decimal point.</p>\r\n"

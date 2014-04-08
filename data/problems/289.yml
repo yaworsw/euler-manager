@@ -1,18 +1,19 @@
 ---
 :id: 289
 :name: Eulerian Cycles
-:content:
-- Let C(<var>x</var>,<var>y</var>) be a circle passing through the points (<var>x</var>, <var>y</var>),
-  (<var>x</var>, <var>y</var>+1), (<var>x</var>+1, <var>y</var>) and (<var>x</var>+1, <var>y</var>+1).
-- "For positive integers m and n, let E(<var>m</var>,<var>n</var>) be a configuration
-  which consists of the <var>m</var>·<var>n</var> circles:<br>\r\n{ C(<var>x</var>,<var>y</var>):
-  0 ≤ <var>x</var> m, 0 ≤ <var>y</var> n, <var>x</var> and <var>y</var> are integers
-  }"
-- "An Eulerian cycle on E(<var>m</var>,<var>n</var>) is a closed path that passes
-  through each arc exactly once.<br>\r\nMany such paths are possible on E(<var>m</var>,<var>n</var>),
-  but we are only interested in those which are not self-crossing: \r\nA non-crossing
-  path just touches itself at lattice points, but it never crosses itself."
-- The image below shows E(3,3) and an example of an Eulerian non-crossing path.<br>
-- "Let L(<var>m</var>,<var>n</var>) be the number of Eulerian non-crossing paths on
-  E(<var>m</var>,<var>n</var>).<br>\r\nFor example, L(1,2) = 2, L(2,2) = 37 and L(3,3) = 104290."
-- Find L(6,10) mod 10<sup>10</sup>.
+:url: http://projecteuler.net/problem=289
+:content: "\r\n<p>Let C(<var>x</var>,<var>y</var>) be a circle passing through the
+  points (<var>x</var>, <var>y</var>), (<var>x</var>, <var>y</var>+1), (<var>x</var>+1, <var>y</var>)
+  and (<var>x</var>+1, <var>y</var>+1).</p>\r\n\r\n<p>For positive integers m and
+  n, let E(<var>m</var>,<var>n</var>) be a configuration which consists of the <var>m</var>·<var>n</var>
+  circles:<br>\r\n{ C(<var>x</var>,<var>y</var>): 0 ≤ <var>x</var> m, 0 ≤ <var>y</var> n,
+  <var>x</var> and <var>y</var> are integers }</p>\r\n\r\n<p>An Eulerian cycle on
+  E(<var>m</var>,<var>n</var>) is a closed path that passes through each arc exactly
+  once.<br>\r\nMany such paths are possible on E(<var>m</var>,<var>n</var>), but we
+  are only interested in those which are not self-crossing: \r\nA non-crossing path
+  just touches itself at lattice points, but it never crosses itself.</p>\r\n\r\n<p>The
+  image below shows E(3,3) and an example of an Eulerian non-crossing path.<br></p>\n<div
+  align=\"center\"><img src=\"project/images/p_289_euler.gif\"></div>\r\n\r\n<p>Let
+  L(<var>m</var>,<var>n</var>) be the number of Eulerian non-crossing paths on E(<var>m</var>,<var>n</var>).<br>\r\nFor
+  example, L(1,2) = 2, L(2,2) = 37 and L(3,3) = 104290.</p>\r\n\r\n<p>Find L(6,10)
+  mod 10<sup>10</sup>.</p>\r\n"

@@ -1,22 +1,58 @@
 ---
 :id: 124
 :name: Ordered radicals
-:content:
-- The radical of <i>n</i>, rad(<i>n</i>), is the product of the distinct prime factors
-  of <i>n</i>. For example, 504 = 2<sup>3</sup><img src="images/symbol_times.gif"
-  width="9" height="9" alt="×" border="0" style="vertical-align:middle;"> 3<sup>2</sup><img
-  src="images/symbol_times.gif" width="9" height="9" alt="×" border="0" style="vertical-align:middle;">
-  7, so rad(504) = 2 <img src="images/symbol_times.gif" width="9" height="9" alt="×"
-  border="0" style="vertical-align:middle;"> 3 <img src="images/symbol_times.gif"
-  width="9" height="9" alt="×" border="0" style="vertical-align:middle;"> 7 = 42.
-- 'If we calculate rad(<i>n</i>) for <i>1</i> <img src="images/symbol_le.gif" width="10"
-  height="12" alt="≤" border="0" style="vertical-align:middle;"><i>n</i> <img src="images/symbol_le.gif"
-  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"> 10, then
-  sort them on rad(<i>n</i>), and sorting on <i>n</i> if the radical values are equal,
-  we get:'
-- Let E(<i>k</i>) be the <i>k</i>th element in the sorted <i>n</i> column; for example,
-  E(4) = 8 and E(6) = 9.
-- If rad(<i>n</i>) is sorted for 1 <img src="images/symbol_le.gif" width="10" height="12"
-  alt="≤" border="0" style="vertical-align:middle;"><i>n</i> <img src="images/symbol_le.gif"
-  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"> 100000,
-  find E(10000).
+:url: http://projecteuler.net/problem=124
+:content: "\r\n<p>The radical of <i>n</i>, rad(<i>n</i>), is the product of the distinct
+  prime factors of <i>n</i>. For example, 504 = 2<sup>3</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
+  3<sup>2</sup><img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
+  border=\"0\" style=\"vertical-align:middle;\"> 7, so rad(504) = 2 <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
+  3 <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"> 7 = 42.</p>\r\n<p>If we calculate rad(<i>n</i>)
+  for <i>1</i> <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\"><i>n</i> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  10, then sort them on rad(<i>n</i>), and sorting on <i>n</i> if the radical values
+  are equal, we get:</p>\r\n<table cellpadding=\"2\" cellspacing=\"0\" border=\"0\"
+  align=\"center\">\n<tr>\n<td colspan=\"2\"><div style=\"text-align:center;\"><b>Unsorted</b></div></td>\r\n<td> </td>\r\n<td
+  colspan=\"3\"><div style=\"text-align:center;\"><b>Sorted</b></div></td>\r\n</tr>\n<tr>\n<td><div
+  style=\"text-align:center;\">\n<img src=\"images/spacer.gif\" width=\"50\" height=\"1\"
+  alt=\"\"><br><b><i>n</i></b>\n</div></td>\r\n<td><div style=\"text-align:center;\">\n<img
+  src=\"images/spacer.gif\" width=\"50\" height=\"1\" alt=\"\"><br><b>rad(<i>n</i>)</b>\n</div></td>\r\n<td>\n<img
+  src=\"images/spacer.gif\" width=\"50\" height=\"1\" alt=\"\"><br>\n</td>\r\n<td><div
+  style=\"text-align:center;\">\n<img src=\"images/spacer.gif\" width=\"50\" height=\"1\"
+  alt=\"\"><br><b><i>n</i></b>\n</div></td>\r\n<td><div style=\"text-align:center;\">\n<img
+  src=\"images/spacer.gif\" width=\"50\" height=\"1\" alt=\"\"><br><b>rad(<i>n</i>)</b>\n</div></td>\r\n<td><div
+  style=\"text-align:center;\">\n<img src=\"images/spacer.gif\" width=\"50\" height=\"1\"
+  alt=\"\"><br><b>k</b>\n</div></td>\r\n</tr>\n<tr>\n<td><div style=\"text-align:center;\">1</div></td>\n<td><div
+  style=\"text-align:center;\">1</div></td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">1</div></td>\n<td><div
+  style=\"text-align:center;\">1</div></td>\n<td><div style=\"text-align:center;\">1</div></td>\r\n</tr>\n<tr>\n<td><div
+  style=\"text-align:center;\">2</div></td>\n<td><div style=\"text-align:center;\">2</div></td>\r\n<td> </td>\r\n<td><div
+  style=\"text-align:center;\">2</div></td>\n<td><div style=\"text-align:center;\">2</div></td>\n<td><div
+  style=\"text-align:center;\">2</div></td>\r\n</tr>\n<tr>\n<td><div style=\"text-align:center;\">3</div></td>\n<td><div
+  style=\"text-align:center;\">3</div></td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">4</div></td>\n<td><div
+  style=\"text-align:center;\">2</div></td>\n<td><div style=\"text-align:center;\">3</div></td>\r\n</tr>\n<tr>\n<td><div
+  style=\"text-align:center;\">4</div></td>\n<td><div style=\"text-align:center;\">2</div></td>\r\n<td> </td>\r\n<td><div
+  style=\"text-align:center;\">8</div></td>\n<td><div style=\"text-align:center;\">2</div></td>\n<td><div
+  style=\"text-align:center;\">4</div></td>\r\n</tr>\n<tr>\n<td><div style=\"text-align:center;\">5</div></td>\n<td><div
+  style=\"text-align:center;\">5</div></td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">3</div></td>\n<td><div
+  style=\"text-align:center;\">3</div></td>\n<td><div style=\"text-align:center;\">5</div></td>\r\n</tr>\n<tr>\n<td><div
+  style=\"text-align:center;\">6</div></td>\n<td><div style=\"text-align:center;\">6</div></td>\r\n<td> </td>\r\n<td><div
+  style=\"text-align:center;\">9</div></td>\n<td><div style=\"text-align:center;\">3</div></td>\n<td><div
+  style=\"text-align:center;\">6</div></td>\r\n</tr>\n<tr>\n<td><div style=\"text-align:center;\">7</div></td>\n<td><div
+  style=\"text-align:center;\">7</div></td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">5</div></td>\n<td><div
+  style=\"text-align:center;\">5</div></td>\n<td><div style=\"text-align:center;\">7</div></td>\r\n</tr>\n<tr>\n<td><div
+  style=\"text-align:center;\">8</div></td>\n<td><div style=\"text-align:center;\">2</div></td>\r\n<td> </td>\r\n<td><div
+  style=\"text-align:center;\">6</div></td>\n<td><div style=\"text-align:center;\">6</div></td>\n<td><div
+  style=\"text-align:center;\">8</div></td>\r\n</tr>\n<tr>\n<td><div style=\"text-align:center;\">9</div></td>\n<td><div
+  style=\"text-align:center;\">3</div></td>\r\n<td> </td>\r\n<td><div style=\"text-align:center;\">7</div></td>\n<td><div
+  style=\"text-align:center;\">7</div></td>\n<td><div style=\"text-align:center;\">9</div></td>\r\n</tr>\n<tr>\n<td><div
+  style=\"text-align:center;\">10</div></td>\n<td><div style=\"text-align:center;\">10</div></td>\r\n<td> </td>\r\n<td><div
+  style=\"text-align:center;\">10</div></td>\n<td><div style=\"text-align:center;\">10</div></td>\n<td><div
+  style=\"text-align:center;\">10</div></td>\r\n</tr>\n</table>\n<p>Let E(<i>k</i>)
+  be the <i>k</i>th element in the sorted <i>n</i> column; for example, E(4) = 8 and
+  E(6) = 9.</p>\r\n<p>If rad(<i>n</i>) is sorted for 1 <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i>
+  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"> 100000, find E(10000).</p>\r\n\r\n"

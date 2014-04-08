@@ -1,17 +1,17 @@
 ---
 :id: 136
 :name: Singleton difference
-:content:
-- 'The positive integers, <i>x</i>, <i>y</i>, and <i>z</i>, are consecutive terms
-  of an arithmetic progression. Given that <i>n</i> is a positive integer, the equation,
-  <i>x</i><sup>2</sup><img src="images/symbol_minus.gif" width="9" height="3" alt="−"
-  border="0" style="vertical-align:middle;"><i>y</i><sup>2</sup><img src="images/symbol_minus.gif"
-  width="9" height="3" alt="−" border="0" style="vertical-align:middle;"><i>z</i><sup>2</sup>
-  = <i>n</i>, has exactly one solution when <i>n</i> = 20:'
-- 13<sup>2</sup><img src="images/symbol_minus.gif" width="9" height="3" alt="−" border="0"
-  style="vertical-align:middle;"> 10<sup>2</sup><img src="images/symbol_minus.gif"
-  width="9" height="3" alt="−" border="0" style="vertical-align:middle;"> 7<sup>2</sup>
-  = 20
-- In fact there are twenty-five values of <i>n</i> below one hundred for which the
-  equation has a unique solution.
-- How many values of <i>n</i> less than fifty million have exactly one solution?
+:url: http://projecteuler.net/problem=136
+:content: "\r\n<p>The positive integers, <i>x</i>, <i>y</i>, and <i>z</i>, are consecutive
+  terms of an arithmetic progression. Given that <i>n</i> is a positive integer, the
+  equation, <i>x</i><sup>2</sup><img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\"
+  alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"><i>y</i><sup>2</sup><img
+  src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
+  style=\"vertical-align:middle;\"><i>z</i><sup>2</sup> = <i>n</i>, has exactly one
+  solution when <i>n</i> = 20:</p>\r\n<p style=\"text-align:center;\">13<sup>2</sup><img
+  src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
+  style=\"vertical-align:middle;\"> 10<sup>2</sup><img src=\"images/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">
+  7<sup>2</sup> = 20</p>\r\n<p>In fact there are twenty-five values of <i>n</i> below
+  one hundred for which the equation has a unique solution.</p>\r\n<p>How many values
+  of <i>n</i> less than fifty million have exactly one solution?</p>\r\n\r\n"

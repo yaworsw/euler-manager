@@ -1,9 +1,10 @@
 ---
 :id: 294
 :name: 'Sum of digits - experience #23'
-:content:
-- "\r\nFor a positive integer k, define d(k) as the sum of the digits of k in its
-  usual decimal representation.\r\nThus d(42) = 4+2 = 6.\r\n"
-- "\r\nFor a positive integer n, define S(n) as the number of positive integers k
-  n with the following properties :\r\n"
-- "\r\nFind S(11<sup>12</sup>) and give your answer mod 10<sup>9</sup>.\r\n"
+:url: http://projecteuler.net/problem=294
+:content: "\r\n<p>\r\nFor a positive integer k, define d(k) as the sum of the digits
+  of k in its usual decimal representation.\r\nThus d(42) = 4+2 = 6.\r\n</p>\r\n<p>\r\nFor
+  a positive integer n, define S(n) as the number of positive integers k n with the
+  following properties :\r\n</p>\n<ul>\n<li>k is divisible by 23 and\r\n</li>\n<li>d(k)
+  = 23.\r\n</li>\n</ul>\r\nYou are given that S(9) = 263626 and S(42) = 6377168878570056.\r\n\r\n<p>\r\nFind
+  S(11<sup>12</sup>) and give your answer mod 10<sup>9</sup>.\r\n</p>\r\n\r\n"

@@ -1,7 +1,7 @@
 ---
 :id: 181
 :name: Investigating in how many ways objects of two different colours can be grouped
-:content:
-- 'Having three black objects B and one white object W they can be grouped in 7 ways
-  like this:'
-- In how many ways can sixty black objects B and forty white objects W be  thus grouped?
+:url: http://projecteuler.net/problem=181
+:content: "\r\n<p>Having three black objects B and one white object W they can be
+  grouped in 7 ways like this:</p>\r\n<table cellpadding=\"10\" align=\"center\"><tr>\n<td>(BBBW)</td>\n<td>(B,BBW)</td>\n<td>(B,B,BW)</td>\n<td>(B,B,B,W)</td>\r\n<td>(B,BB,W)</td>\n<td>(BBB,W)</td>\n<td>(BB,BW)</td>\r\n</tr></table>\n<p>In
+  how many ways can sixty black objects B and forty white objects W be  thus grouped?</p>\r\n"

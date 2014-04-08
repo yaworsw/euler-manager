@@ -1,18 +1,30 @@
 ---
 :id: 229
 :name: Four Representations using Squares
-:content:
-- Consider the number 3600. It is very special, because
-- Similarly, we find that 88201 = 99<sup>2</sup> + 280<sup>2</sup> = 287<sup>2</sup>
-  + 2<img src="images/symbol_times.gif" width="9" height="9" alt="×" border="0" style="vertical-align:middle;">54<sup>2</sup>
-  = 283<sup>2</sup> + 3<img src="images/symbol_times.gif" width="9" height="9" alt="×"
-  border="0" style="vertical-align:middle;">52<sup>2</sup> = 197<sup>2</sup> + 7<img
-  src="images/symbol_times.gif" width="9" height="9" alt="×" border="0" style="vertical-align:middle;">84<sup>2</sup>.
-- "In 1747, Euler proved which numbers are representable as a sum of two squares.\r\nWe
+:url: http://projecteuler.net/problem=229
+:content: "\r\n<p>Consider the number 3600. It is very special, because</p>\r\n<div
+  style=\"margin-left:200px;\">\r\n3600 = 48<sup>2</sup> +     36<sup>2</sup><br><br>\r\n3600
+  = 20<sup>2</sup> + 2<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">40<sup>2</sup><br><br>\r\n3600
+  = 30<sup>2</sup> + 3<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">30<sup>2</sup><br><br>\r\n3600
+  = 45<sup>2</sup> + 7<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">15<sup>2</sup><br><br>\n</div>\r\n\r\n<p>Similarly,
+  we find that 88201 = 99<sup>2</sup> + 280<sup>2</sup> = 287<sup>2</sup> + 2<img
+  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\">54<sup>2</sup> = 283<sup>2</sup> + 3<img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">52<sup>2</sup>
+  = 197<sup>2</sup> + 7<img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\"
+  alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">84<sup>2</sup>.</p>\r\n\r\n<p>In
+  1747, Euler proved which numbers are representable as a sum of two squares.\r\nWe
   are interested in the numbers <var>n</var> which admit representations of all of
-  the following four types:"
-- where the <var>a</var><sub><var>k</var></sub> and <var>b</var><sub><var>k</var></sub>
-  are positive integers.
-- "There are 75373 such numbers that do not exceed 10<sup>7</sup>.<br>\r\n\r\nHow
-  many such numbers are there that do not exceed 2<img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">10<sup>9</sup>?"
+  the following four types:</p>\r\n<div style=\"margin-left:200px;\">\r\n<var>n</var>
+  = <var>a<sub>1</sub></var><sup>2</sup> +   <var>b<sub>1</sub></var><sup>2</sup><br><br><var>n</var>
+  = <var>a<sub>2</sub></var><sup>2</sup> + 2 <var>b<sub>2</sub></var><sup>2</sup><br><br><var>n</var>
+  = <var>a<sub>3</sub></var><sup>2</sup> + 3 <var>b<sub>3</sub></var><sup>2</sup><br><br><var>n</var>
+  = <var>a<sub>7</sub></var><sup>2</sup> + 7 <var>b<sub>7</sub></var><sup>2</sup>,\r\n</div>\r\n<p>where
+  the <var>a</var><sub><var>k</var></sub> and <var>b</var><sub><var>k</var></sub>
+  are positive integers.</p>\r\n\r\n<p>There are 75373 such numbers that do not exceed
+  10<sup>7</sup>.<br>\r\n\r\nHow many such numbers are there that do not exceed 2<img
+  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\">10<sup>9</sup>?</p>\r\n"

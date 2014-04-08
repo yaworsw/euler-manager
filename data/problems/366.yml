@@ -1,27 +1,26 @@
 ---
 :id: 366
 :name: Stone Game III
-:content:
-- "\r\nTwo players, Anton and Bernhard, are playing the following game.<br>\r\nThere
+:url: http://projecteuler.net/problem=366
+:content: "\r\n<p>\r\nTwo players, Anton and Bernhard, are playing the following game.<br>\r\nThere
   is one pile of n stones.<br>\r\nThe first player may remove any positive number
   of stones, but not the whole pile.<br>\r\nThereafter, each player may remove at
   most twice the number of stones his opponent took on the previous move.<br>\r\nThe
-  player who removes the last stone wins.\r\n"
-- "\r\nE.g. n=5<br>\r\nIf the first player takes anything more than one stone the
-  next player will be able to take all remaining stones.<br>\r\nIf the first player
-  takes one stone, leaving four, his opponent will take also one stone, leaving three
-  stones.<br>\r\nThe first player cannot take all three because he may take at most
-  2x1=2 stones. So let's say he takes also one stone, leaving 2. The second player
-  can take the two remaining stones and wins.<br>\r\nSo 5 is a losing position for
-  the first player.<br>\r\nFor some winning positions there is more than one possible
-  move for the first player.<br>\r\nE.g. when n=17 the first player can remove one
-  or four stones.\r\n"
-- "\r\nLet M(n) be the maximum number of stones the first player can take from a winning
-  position <i>at his first turn</i> and M(n)=0 for any other position.\r\n"
-- "\r\n<img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  player who removes the last stone wins.\r\n</p>\r\n<p>\r\nE.g. n=5<br>\r\nIf the
+  first player takes anything more than one stone the next player will be able to
+  take all remaining stones.<br>\r\nIf the first player takes one stone, leaving four,
+  his opponent will take also one stone, leaving three stones.<br>\r\nThe first player
+  cannot take all three because he may take at most 2x1=2 stones. So let's say he
+  takes also one stone, leaving 2. The second player can take the two remaining stones
+  and wins.<br>\r\nSo 5 is a losing position for the first player.<br>\r\nFor some
+  winning positions there is more than one possible move for the first player.<br>\r\nE.g.
+  when n=17 the first player can remove one or four stones.\r\n</p>\r\n<p>\r\nLet
+  M(n) be the maximum number of stones the first player can take from a winning position
+  <i>at his first turn</i> and M(n)=0 for any other position.\r\n</p>\r\n<p>\r\n<img
+  src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
   style=\"vertical-align:middle;\">M(n) for n<img src=\"images/symbol_le.gif\" width=\"10\"
-  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">100 is 728.\r\n"
-- "\r\nFind  <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\"
-  border=\"0\" style=\"vertical-align:middle;\">M(n) for n<img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">10<sup>18</sup>.\r\nGive
-  your answer modulo 10<sup>8</sup>.\r\n"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">100 is 728.\r\n</p>\r\n<p>\r\nFind
+  \ <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\">M(n) for n<img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">10<sup>18</sup>.\r\nGive
+  your answer modulo 10<sup>8</sup>.\r\n</p>\r\n"

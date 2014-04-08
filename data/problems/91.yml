@@ -1,16 +1,19 @@
 ---
 :id: 91
 :name: Right triangles with integer coordinates
-:content:
-- The points P (<i>x</i><sub>1</sub>, <i>y</i><sub>1</sub>) and Q (<i>x</i><sub>2</sub>,
-  <i>y</i><sub>2</sub>) are plotted at integer co-ordinates and are joined to the
-  origin, O(0,0), to form ΔOPQ.
-- There are exactly fourteen triangles containing a right angle that can be formed
-  when each co-ordinate lies between 0 and 2 inclusive; that is,<br>0 <img src="images/symbol_le.gif"
-  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"><i>x</i><sub>1</sub>,
-  <i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>y</i><sub>2</sub><img src="images/symbol_le.gif"
-  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"> 2.
-- Given that 0 <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0"
-  style="vertical-align:middle;"><i>x</i><sub>1</sub>, <i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>,
-  <i>y</i><sub>2</sub><img src="images/symbol_le.gif" width="10" height="12" alt="≤"
-  border="0" style="vertical-align:middle;"> 50, how many right triangles can be formed?
+:url: http://projecteuler.net/problem=91
+:content: "\r\n<p>The points P (<i>x</i><sub>1</sub>, <i>y</i><sub>1</sub>) and Q
+  (<i>x</i><sub>2</sub>, <i>y</i><sub>2</sub>) are plotted at integer co-ordinates
+  and are joined to the origin, O(0,0), to form ΔOPQ.</p>\r\n\r\n<div style=\"text-align:center;\">\r\n<img
+  src=\"project/images/p_091_1.gif\" alt=\"\"><br>\n</div>\r\n\r\n<p>There are exactly
+  fourteen triangles containing a right angle that can be formed when each co-ordinate
+  lies between 0 and 2 inclusive; that is,<br>0 <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><i>x</i><sub>1</sub>,
+  <i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>y</i><sub>2</sub><img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  2.</p>\r\n\r\n<div style=\"text-align:center;\">\r\n<img src=\"project/images/p_091_2.gif\"
+  alt=\"\"><br>\n</div>\r\n\r\n<p>Given that 0 <img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><i>x</i><sub>1</sub>,
+  <i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>y</i><sub>2</sub><img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  50, how many right triangles can be formed?</p>\r\n"

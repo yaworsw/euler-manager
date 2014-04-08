@@ -1,5 +1,10 @@
 ---
 :id: 210
 :name: Obtuse Angled Triangles
-:content:
-- "\r\nWhat is N(1,000,000,000)?\r\n"
+:url: http://projecteuler.net/problem=210
+:content: "\r\nConsider the set S(r) of points (x,y) with integer coordinates satisfying
+  |x| + |y| <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\"> r. <br>\r\nLet O be the point (0,0)
+  and C the point (r/4,r/4). <br>\r\nLet N(r) be the number of points B in S(r), so
+  that the triangle OBC has an obtuse angle, i.e. the largest angle α satisfies 90°\r\nSo,
+  for example, N(4)=24 and N(8)=100.\r\n<p>\r\nWhat is N(1,000,000,000)?\r\n</p>\r\n\r\n\r\n\r\n"

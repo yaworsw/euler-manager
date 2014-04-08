@@ -1,20 +1,20 @@
 ---
 :id: 367
 :name: Bozo sort
-:content:
-- "\r\n<b>Bozo sort</b>, not to be confused with the slightly less efficient <b>bogo
-  sort</b>, consists out of checking if the input sequence is sorted and if not swapping
-  randomly two elements. This is repeated until eventually the sequence is sorted.\r\n"
-- "\r\nIf we consider all permutations of the first 4 natural numbers as input the
-  expectation value of the number of swaps, averaged over all 4! input sequences is
-  24.75.<br>\r\nThe already sorted sequence takes 0 steps. \r\n"
-- "\r\nIn this problem we consider the following variant on bozo sort.<br>\r\nIf the
-  sequence is not in order we pick three elements at random and shuffle these three
-  elements randomly.<br>\r\nAll 3!=6 permutations of those three elements are equally
-  likely. <br>\r\nThe already sorted sequence will take 0 steps.<br>\r\nIf we consider
-  all permutations of the first 4 natural numbers as input the expectation value of
-  the number of shuffles, averaged over all 4! input sequences is 27.5. <br>\r\nConsider
+:url: http://projecteuler.net/problem=367
+:content: "\r\n<p>\r\n<b>Bozo sort</b>, not to be confused with the slightly less
+  efficient <b>bogo sort</b>, consists out of checking if the input sequence is sorted
+  and if not swapping randomly two elements. This is repeated until eventually the
+  sequence is sorted.\r\n</p>\r\n<p>\r\nIf we consider all permutations of the first
+  4 natural numbers as input the expectation value of the number of swaps, averaged
+  over all 4! input sequences is 24.75.<br>\r\nThe already sorted sequence takes 0
+  steps. \r\n</p>\r\n<p>\r\nIn this problem we consider the following variant on bozo
+  sort.<br>\r\nIf the sequence is not in order we pick three elements at random and
+  shuffle these three elements randomly.<br>\r\nAll 3!=6 permutations of those three
+  elements are equally likely. <br>\r\nThe already sorted sequence will take 0 steps.<br>\r\nIf
+  we consider all permutations of the first 4 natural numbers as input the expectation
+  value of the number of shuffles, averaged over all 4! input sequences is 27.5. <br>\r\nConsider
   as input sequences the permutations of the first 11 natural numbers.<br>\r\nAveraged
   over all 11! input sequences, what is the expected number of shuffles this sorting
-  algorithm will perform?\r\n"
-- "\r\nGive your answer rounded to the nearest integer.\r\n"
+  algorithm will perform?\r\n</p>\r\n<p>\r\nGive your answer rounded to the nearest
+  integer.\r\n</p>\r\n"

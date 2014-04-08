@@ -1,18 +1,17 @@
 ---
 :id: 28
 :name: Number spiral diagonals
-:content:
-- 'Starting with the number 1 and moving to the right in a clockwise direction a 5
-  by 5 spiral is formed as follows:'
-- "<span style=\"color:#ff0000;font-family:courier new;\"><b>21</b></span> 22 23 24
-  <span style=\"color:#ff0000;font-family:courier new;\"><b>25</b></span><br>\r\n20
+:url: http://projecteuler.net/problem=28
+:content: "\r\n<p>Starting with the number 1 and moving to the right in a clockwise
+  direction a 5 by 5 spiral is formed as follows:</p>\r\n<p style=\"text-align:center;font-family:courier
+  new;\"><span style=\"color:#ff0000;font-family:courier new;\"><b>21</b></span> 22
+  23 24 <span style=\"color:#ff0000;font-family:courier new;\"><b>25</b></span><br>\r\n20
    <span style=\"color:#ff0000;font-family:courier new;\"><b>7</b></span>  8  <span
   style=\"color:#ff0000;font-family:courier new;\"><b>9</b></span> 10<br>\r\n19  6
    <span style=\"color:#ff0000;font-family:courier new;\"><b>1</b></span>  2 11<br>\r\n18
    <span style=\"color:#ff0000;font-family:courier new;\"><b>5</b></span>  4  <span
   style=\"color:#ff0000;font-family:courier new;\"><b>3</b></span> 12<br><span style=\"color:#ff0000;font-family:courier
   new;\"><b>17</b></span> 16 15 14 <span style=\"color:#ff0000;font-family:courier
-  new;\"><b>13</b></span>"
-- It can be verified that the sum of the numbers on the diagonals is 101.
-- What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed
-  in the same way?
+  new;\"><b>13</b></span></p>\r\n<p>It can be verified that the sum of the numbers
+  on the diagonals is 101.</p>\r\n<p>What is the sum of the numbers on the diagonals
+  in a 1001 by 1001 spiral formed in the same way?</p>\r\n\r\n"

@@ -1,11 +1,19 @@
 ---
 :id: 275
 :name: Balanced Sculptures
-:content:
-- "Let us define a <i>balanced sculpture</i> of order <var>n</var> as follows:\r\n"
-- 'When counting the sculptures, any arrangements which are simply reflections about
-  the <var>y</var>-axis, are <u>not</u> counted as distinct. For example, the 18 balanced
+:url: http://projecteuler.net/problem=275
+:content: "\r\n<p>Let us define a <i>balanced sculpture</i> of order <var>n</var>
+  as follows:\r\n</p>\n<ul>\n<li>A <dfn title=\"An arrangement of identical squares
+  connected through shared edges; holes are allowed.\">polyomino</dfn> made up of
+  <var>n</var>+1 tiles known as the <i>blocks</i> (<var>n</var> tiles)<br> and the
+  <i>plinth</i> (remaining tile);</li>\r\n<li>the plinth has its centre at position
+  (<var>x</var> = 0, <var>y</var> = 0);</li>\r\n<li>the blocks have <var>y</var>-coordinates
+  greater than zero (so the plinth is the unique lowest tile);</li>\r\n<li>the centre
+  of mass of all the blocks, combined, has <var>x</var>-coordinate equal to zero.</li>\r\n</ul>\n<p>When
+  counting the sculptures, any arrangements which are simply reflections about the
+  <var>y</var>-axis, are <u>not</u> counted as distinct. For example, the 18 balanced
   sculptures of order 6 are shown below; note that each pair of mirror images (about
-  the <var>y</var>-axis) is counted as one sculpture:'
-- There are 964 balanced sculptures of order 10 and 360505 of order 15.<br>How many
-  balanced sculptures are there of order 18?
+  the <var>y</var>-axis) is counted as one sculpture:</p>\r\n<div align=\"center\"><img
+  src=\"project/images/p_275_sculptures2.gif\"></div>\r\n\r\n<p>There are 964 balanced
+  sculptures of order 10 and 360505 of order 15.<br>How many balanced sculptures are
+  there of order 18?</p>\r\n\r\n"

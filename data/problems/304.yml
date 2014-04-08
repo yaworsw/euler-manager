@@ -1,20 +1,19 @@
 ---
 :id: 304
 :name: Primonacci
-:content:
-- "\r\nFor any positive integer <var>n</var> the function next_prime(<var>n</var>)
+:url: http://projecteuler.net/problem=304
+:content: "\r\n<p>\r\nFor any positive integer <var>n</var> the function next_prime(<var>n</var>)
   returns the smallest prime p <br> such that p<img src=\"images/symbol_gt.gif\" width=\"10\"
-  height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>.\r\n"
-- "\r\nThe sequence a(<var>n</var>) is defined by:<br>\r\na(1)=next_prime(10<sup>14</sup>)
+  height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>.\r\n</p>\r\n<p>\r\nThe
+  sequence a(<var>n</var>) is defined by:<br>\r\na(1)=next_prime(10<sup>14</sup>)
   and a(<var>n</var>)=next_prime(a(<var>n</var>-1)) for n<img src=\"images/symbol_gt.gif\"
-  width=\"10\" height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\">1.\r\n"
-- ''
-- "\r\nThe fibonacci sequence f(<var>n</var>) is defined by:\r\nf(0)=0, f(1)=1 and
-  f(<var>n</var>)=f(<var>n</var>-1)+f(<var>n</var>-2) for <var>n</var><img src=\"images/symbol_gt.gif\"
-  width=\"10\" height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\">1.\r\n"
-- "\r\nThe sequence b(<var>n</var>) is defined as f(a(<var>n</var>)).\r\n"
-- "\r\nFind <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\"
-  border=\"0\" style=\"vertical-align:middle;\">b(<var>n</var>) for 1<img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var><img
-  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">100
-  000. \r\nGive your answer mod 1234567891011. \r\n\r\n\r\n\r\n\r\n\r\n"
+  width=\"10\" height=\"10\" alt=\"&gt;\" border=\"0\" style=\"vertical-align:middle;\">1.\r\n</p>\n<p></p>\r\n<p>\r\nThe
+  fibonacci sequence f(<var>n</var>) is defined by:\r\nf(0)=0, f(1)=1 and f(<var>n</var>)=f(<var>n</var>-1)+f(<var>n</var>-2)
+  for <var>n</var><img src=\"images/symbol_gt.gif\" width=\"10\" height=\"10\" alt=\"&gt;\"
+  border=\"0\" style=\"vertical-align:middle;\">1.\r\n</p>\r\n<p>\r\nThe sequence
+  b(<var>n</var>) is defined as f(a(<var>n</var>)).\r\n</p>\r\n<p>\r\nFind <img src=\"images/symbol_sum.gif\"
+  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\">b(<var>n</var>)
+  for 1<img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>n</var><img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">100 000. \r\nGive
+  your answer mod 1234567891011. \r\n\r\n\r\n\r\n\r\n\r\n</p>"

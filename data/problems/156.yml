@@ -1,27 +1,27 @@
 ---
 :id: 156
 :name: Counting Digits
-:content:
-- "Starting from zero the natural numbers are written down in base 10 like this:\r\n<br>\r\n0
-  1 2 3 4 5 6 7 8 9 10 11 12....\r\n"
-- 'Consider the digit <var>d</var>=1. After we write down each number <var>n</var>,
-  we will update the number of ones that have occurred and call this number <var>f</var>(<var>n</var>,1).
-  The first values for <var>f</var>(<var>n</var>,1), then, are as follows:'
-- "Note that <var>f</var>(<var>n</var>,1) never equals 3.\r\n<br>\r\nSo the first
-  two solutions of the equation <var>f</var>(<var>n</var>,1)=<var>n</var> are <var>n</var>=0
-  and <var>n</var>=1. The next solution is <var>n</var>=199981."
-- "In the same manner the function <var>f</var>(<var>n,d</var>) gives the total number
-  of digits <var>d</var> that have been written down after the number <var>n</var>
-  has been written.\r\n<br>\r\nIn fact, for every digit <var>d</var> <img src=\"images/symbol_ne.gif\"
+:url: http://projecteuler.net/problem=156
+:content: "\r\n<p>Starting from zero the natural numbers are written down in base
+  10 like this:\r\n<br>\r\n0 1 2 3 4 5 6 7 8 9 10 11 12....\r\n</p>\r\n<p>Consider
+  the digit <var>d</var>=1. After we write down each number <var>n</var>, we will
+  update the number of ones that have occurred and call this number <var>f</var>(<var>n</var>,1).
+  The first values for <var>f</var>(<var>n</var>,1), then, are as follows:</p>\r\n<div
+  style=\"text-align:center;\">\r\n<table style=\"text-align:center;\" align=\"center\">\n<tr>\n<td><var>n</var></td>\n<td>\n<var>f</var>(<var>n</var>,1)</td>\r\n</tr>\n<tr>\n<td>0</td>\n<td>0</td>\r\n</tr>\n<tr>\n<td>1</td>\n<td>1</td>\r\n</tr>\n<tr>\n<td>2</td>\n<td>1</td>\r\n</tr>\n<tr>\n<td>3</td>\n<td>1</td>\r\n</tr>\n<tr>\n<td>4</td>\n<td>1</td>\r\n</tr>\n<tr>\n<td>5</td>\n<td>1</td>\r\n</tr>\n<tr>\n<td>6</td>\n<td>1</td>\r\n</tr>\n<tr>\n<td>7</td>\n<td>1</td>\r\n</tr>\n<tr>\n<td>8</td>\n<td>1</td>\r\n</tr>\n<tr>\n<td>9</td>\n<td>1</td>\r\n</tr>\n<tr>\n<td>10</td>\n<td>2</td>\r\n</tr>\n<tr>\n<td>11</td>\n<td>4</td>\r\n</tr>\n<tr>\n<td>12</td>\n<td>5</td>\r\n</tr>\n</table>\n</div>\r\n<p>Note
+  that <var>f</var>(<var>n</var>,1) never equals 3.\r\n<br>\r\nSo the first two solutions
+  of the equation <var>f</var>(<var>n</var>,1)=<var>n</var> are <var>n</var>=0 and
+  <var>n</var>=1. The next solution is <var>n</var>=199981.</p>\r\n<p>In the same
+  manner the function <var>f</var>(<var>n,d</var>) gives the total number of digits
+  <var>d</var> that have been written down after the number <var>n</var> has been
+  written.\r\n<br>\r\nIn fact, for every digit <var>d</var> <img src=\"images/symbol_ne.gif\"
   width=\"11\" height=\"10\" alt=\"≠\" border=\"0\" style=\"vertical-align:middle;\">
-  0, 0 is the first solution of the equation <var>f</var>(<var>n,d</var>)=<var>n</var>."
-- "Let <var>s</var>(<var>d</var>) be the sum of all the solutions for which <var>f</var>(<var>n,d</var>)=<var>n</var>.\r\n<br>\r\nYou
-  are given that <var>s</var>(1)=22786974071."
-- Find  <img src="images/symbol_sum.gif" width="11" height="14" alt="∑" border="0"
-  style="vertical-align:middle;"><var>s</var>(<var>d</var>) for 1 <img src="images/symbol_le.gif"
-  width="10" height="12" alt="≤" border="0" style="vertical-align:middle;"> d <img
-  src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0" style="vertical-align:middle;">
-  9.
-- "Note: if, for some <var>n</var>, <var>f</var>(<var>n,d</var>)=<var>n</var>\r\n
-  for more than one value of <var>d</var> this value of <var>n</var> is counted again
-  for every value of <var>d</var> for which <var>f</var>(<var>n,d</var>)=<var>n</var>."
+  0, 0 is the first solution of the equation <var>f</var>(<var>n,d</var>)=<var>n</var>.</p>\r\n<p>Let
+  <var>s</var>(<var>d</var>) be the sum of all the solutions for which <var>f</var>(<var>n,d</var>)=<var>n</var>.\r\n<br>\r\nYou
+  are given that <var>s</var>(1)=22786974071.</p>\r\n<p>Find  <img src=\"images/symbol_sum.gif\"
+  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"><var>s</var>(<var>d</var>)
+  for 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"> d <img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> 9.</p>\r\n<p>Note:
+  if, for some <var>n</var>, <var>f</var>(<var>n,d</var>)=<var>n</var>\r\n for more
+  than one value of <var>d</var> this value of <var>n</var> is counted again for every
+  value of <var>d</var> for which <var>f</var>(<var>n,d</var>)=<var>n</var>.</p>\r\n"

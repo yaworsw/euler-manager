@@ -1,10 +1,16 @@
 ---
 :id: 375
 :name: Minimum of subsequences
-:content:
-- 'Let <var>S</var><sub><var>n</var></sub> be an integer sequence produced with the
-  following pseudo-random number generator:'
-- "\r\nLet A(<var>i</var>, <var>j</var>) be the minimum of the numbers <var>S</var><sub><var>i</var></sub>,
+:url: http://projecteuler.net/problem=375
+:content: "\r\n<style type=\"text/css\">\r\ntable.p375 td {\r\n  padding: 0px 3px
+  0px 3px;\r\n  vertical-align: bottom;\r\n  text-align: left;\r\n}\r\n</style>\n<p>Let
+  <var>S</var><sub><var>n</var></sub> be an integer sequence produced with the following
+  pseudo-random number generator:</p>\r\n<center><table class=\"p375\">\n<tr>\n<td
+  style=\"text-align:right\">\n<var>S</var><sub>0</sub>\n</td>\r\n    <td>=<sub> </sub>\n</td>\r\n
+  \   <td>290797<sub> </sub>\n</td>\r\n  </tr>\n<tr>\n<td>\n<var>S</var><sub><var>n</var>+1</sub>\n</td>\r\n
+  \   <td>=<sub> </sub>\n</td>\r\n    <td>\n<var>S</var><sub><var>n</var></sub><sup>2</sup>
+  mod 50515093</td>\r\n  </tr>\n</table></center>\r\n\r\n<p>\r\nLet A(<var>i</var>,
+  <var>j</var>) be the minimum of the numbers <var>S</var><sub><var>i</var></sub>,
   <var>S</var><sub><var>i</var>+1</sub>, ... , <var>S</var><sub><var>j</var></sub>
   for <var>i</var> <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
   border=\"0\" style=\"vertical-align:middle;\"><var>j</var>.<br>\r\nLet M(<var>N</var>)
@@ -13,5 +19,5 @@
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
   style=\"vertical-align:middle;\"><var>j</var> <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>N</var>.<br>\r\nWe
-  can verify that M(10) = 432256955 and M(10 000) = 3264567774119."
-- "\r\nFind M(2 000 000 000).\r\n"
+  can verify that M(10) = 432256955 and M(10 000) = 3264567774119.</p>\r\n\r\n<p>\r\nFind
+  M(2 000 000 000).\r\n</p>\r\n"

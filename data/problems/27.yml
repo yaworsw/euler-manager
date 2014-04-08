@@ -1,20 +1,25 @@
 ---
 :id: 27
 :name: Quadratic primes
-:content:
-- 'Euler discovered the remarkable quadratic formula:'
-- "<i>n</i>² + <i>n</i> + 41"
-- It turns out that the formula will produce 40 primes for the consecutive values
-  <i>n</i> = 0 to 39. However, when <i>n</i> = 40, 40<sup>2</sup> + 40 + 41 = 40(40
-  + 1) + 41 is divisible by 41, and certainly when <i>n</i> = 41, 41² + 41 + 41 is
-  clearly divisible by 41.
-- The incredible formula  <i>n</i>² <img src="images/symbol_minus.gif" width="9" height="3"
-  alt="−" border="0" style="vertical-align:middle;"> 79<i>n</i> + 1601 was discovered,
-  which produces 80 primes for the consecutive values <i>n</i> = 0 to 79. The product
-  of the coefficients, <img src="images/symbol_minus.gif" width="9" height="3" alt="−"
-  border="0" style="vertical-align:middle;">79 and 1601, is <img src="images/symbol_minus.gif"
-  width="9" height="3" alt="−" border="0" style="vertical-align:middle;">126479.
-- 'Considering quadratics of the form:'
-- Find the product of the coefficients, <i>a</i> and <i>b</i>, for the quadratic expression
-  that produces the maximum number of primes for consecutive values of <i>n</i>, starting
-  with <i>n</i> = 0.
+:url: http://projecteuler.net/problem=27
+:content: "\r\n<p>Euler discovered the remarkable quadratic formula:</p>\r\n<p style=\"text-align:center;\"><i>n</i>²
+  + <i>n</i> + 41</p>\r\n<p>It turns out that the formula will produce 40 primes for
+  the consecutive values <i>n</i> = 0 to 39. However, when <i>n</i> = 40, 40<sup>2</sup>
+  + 40 + 41 = 40(40 + 1) + 41 is divisible by 41, and certainly when <i>n</i> = 41,
+  41² + 41 + 41 is clearly divisible by 41.</p>\r\n<p>The incredible formula  <i>n</i>²
+  <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
+  style=\"vertical-align:middle;\"> 79<i>n</i> + 1601 was discovered, which produces
+  80 primes for the consecutive values <i>n</i> = 0 to 79. The product of the coefficients,
+  <img src=\"images/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\" border=\"0\"
+  style=\"vertical-align:middle;\">79 and 1601, is <img src=\"images/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">126479.</p>\r\n<p>Considering
+  quadratics of the form:</p>\r\n<blockquote>\r\n<i>n</i>² + <i>an</i> + <i>b</i>,
+  where |<i>a</i>| <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\"
+  border=\"0\" style=\"vertical-align:middle;\"> 1000 and |<i>b</i>| <img src=\"images/symbol_lt.gif\"
+  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">
+  1000<br><br><div class=\"info\" style=\"text-align:left;\">where |<i>n</i>| is the
+  modulus/absolute value of <i>n</i><br>e.g. |11| = 11 and |<img src=\"images/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">4|
+  = 4</div>\r\n</blockquote>\r\n<p>Find the product of the coefficients, <i>a</i>
+  and <i>b</i>, for the quadratic expression that produces the maximum number of primes
+  for consecutive values of <i>n</i>, starting with <i>n</i> = 0.</p>\r\n\r\n"

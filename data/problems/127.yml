@@ -1,21 +1,31 @@
 ---
 :id: 127
 :name: abc-hits
-:content:
-- The radical of <i>n</i>, rad(<i>n</i>), is the product of distinct prime factors
-  of <i>n</i>. For example, 504 = 2<sup>3</sup><img src="images/symbol_times.gif"
-  width="9" height="9" alt="×" border="0" style="vertical-align:middle;"> 3<sup>2</sup><img
-  src="images/symbol_times.gif" width="9" height="9" alt="×" border="0" style="vertical-align:middle;">
-  7, so rad(504) = 2 <img src="images/symbol_times.gif" width="9" height="9" alt="×"
-  border="0" style="vertical-align:middle;"> 3 <img src="images/symbol_times.gif"
-  width="9" height="9" alt="×" border="0" style="vertical-align:middle;"> 7 = 42.
-- 'We shall define the triplet of positive integers (<i>a</i>, <i>b</i>, <i>c</i>)
-  to be an abc-hit if:'
-- 'For example, (5, 27, 32) is an abc-hit, because:'
-- It turns out that abc-hits are quite rare and there are only thirty-one abc-hits
-  for <i>c</i> <img src="images/symbol_lt.gif" width="10" height="10" alt="&lt;" border="0"
-  style="vertical-align:middle;"> 1000, with <img src="images/symbol_sum.gif" width="11"
-  height="14" alt="∑" border="0" style="vertical-align:middle;"><i>c</i> = 12523.
-- Find <img src="images/symbol_sum.gif" width="11" height="14" alt="∑" border="0"
-  style="vertical-align:middle;"><i>c</i> for <i>c</i> <img src="images/symbol_lt.gif"
-  width="10" height="10" alt="&lt;" border="0" style="vertical-align:middle;"> 120000.
+:url: http://projecteuler.net/problem=127
+:content: "\r\n<p>The radical of <i>n</i>, rad(<i>n</i>), is the product of distinct
+  prime factors of <i>n</i>. For example, 504 = 2<sup>3</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
+  3<sup>2</sup><img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
+  border=\"0\" style=\"vertical-align:middle;\"> 7, so rad(504) = 2 <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
+  3 <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"> 7 = 42.</p>\r\n<p>We shall define the triplet
+  of positive integers (<i>a</i>, <i>b</i>, <i>c</i>) to be an abc-hit if:</p>\r\n<ol>\n<li>GCD(<i>a,</i>
+  <i>b</i>) = GCD(<i>a</i>, <i>c</i>) = GCD(<i>b</i>, <i>c</i>) = 1</li>\r\n<li>\n<i>a</i>
+  <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
+  style=\"vertical-align:middle;\"><i>b</i>\n</li>\r\n<li>\n<i>a</i> + <i>b</i> =
+  <i>c</i>\n</li>\r\n<li>rad(<i>abc</i>) <img src=\"images/symbol_lt.gif\" width=\"10\"
+  height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"><i>c</i>\n</li>\r\n</ol>\n<p>For
+  example, (5, 27, 32) is an abc-hit, because:</p>\r\n<ol>\n<li>GCD(5, 27) = GCD(5,
+  32) = GCD(27, 32) = 1</li>\r\n<li>5 <img src=\"images/symbol_lt.gif\" width=\"10\"
+  height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"> 27</li>\r\n<li>5
+  + 27 = 32</li>\r\n<li>rad(4320) = 30 <img src=\"images/symbol_lt.gif\" width=\"10\"
+  height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\"> 32</li>\r\n</ol>\n<p>It
+  turns out that abc-hits are quite rare and there are only thirty-one abc-hits for
+  <i>c</i> <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\"
+  border=\"0\" style=\"vertical-align:middle;\"> 1000, with <img src=\"images/symbol_sum.gif\"
+  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"><i>c</i>
+  = 12523.</p>\r\n<p>Find <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\"
+  alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"><i>c</i> for <i>c</i> <img
+  src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
+  style=\"vertical-align:middle;\"> 120000.</p>\r\n\r\n"

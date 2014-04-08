@@ -1,41 +1,42 @@
 ---
 :id: 122
 :name: Efficient exponentiation
-:content:
-- 'The most naive way of computing <i>n</i><sup>15</sup> requires fourteen multiplications:'
-- "<i>n</i> <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
-  border=\"0\" style=\"vertical-align:middle;\"><i>n</i> <img src=\"images/symbol_times.gif\"
-  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\">
-  ... <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>n</i> = <i>n</i><sup>15</sup>"
-- 'But using a "binary" method you can compute it in six multiplications:'
-- "<i>n</i> <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
-  border=\"0\" style=\"vertical-align:middle;\"><i>n</i> = <i>n</i><sup>2</sup><br><i>n</i><sup>2</sup><img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>n</i><sup>2</sup> = <i>n</i><sup>4</sup><br><i>n</i><sup>4</sup><img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>n</i><sup>4</sup> = <i>n</i><sup>8</sup><br><i>n</i><sup>8</sup><img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>n</i><sup>4</sup> = <i>n</i><sup>12</sup><br><i>n</i><sup>12</sup><img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>n</i><sup>2</sup> = <i>n</i><sup>14</sup><br><i>n</i><sup>14</sup><img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>n</i> = <i>n</i><sup>15</sup>"
-- 'However it is yet possible to compute it in only five multiplications:'
-- "<i>n</i> <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\"
-  border=\"0\" style=\"vertical-align:middle;\"><i>n</i> = <i>n</i><sup>2</sup><br><i>n</i><sup>2</sup><img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>n</i> = <i>n</i><sup>3</sup><br><i>n</i><sup>3</sup><img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>n</i><sup>3</sup> = <i>n</i><sup>6</sup><br><i>n</i><sup>6</sup><img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>n</i><sup>6</sup> = <i>n</i><sup>12</sup><br><i>n</i><sup>12</sup><img
-  src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
-  style=\"vertical-align:middle;\"><i>n</i><sup>3</sup> = <i>n</i><sup>15</sup>"
-- We shall define m(<i>k</i>) to be the minimum number of multiplications to compute
-  <i>n</i><sup><i>k</i></sup>; for example m(15) = 5.
-- For 1 <img src="images/symbol_le.gif" width="10" height="12" alt="≤" border="0"
-  style="vertical-align:middle;"><i>k</i> <img src="images/symbol_le.gif" width="10"
-  height="12" alt="≤" border="0" style="vertical-align:middle;"> 200, find <span style="font-family:times
-  new roman;font-size:13pt;"><img src="images/symbol_sum.gif" width="11" height="14"
-  alt="∑" border="0" style="vertical-align:middle;"></span> m(<i>k</i>).
+:url: http://projecteuler.net/problem=122
+:content: "\r\n<p>The most naive way of computing <i>n</i><sup>15</sup> requires fourteen
+  multiplications:</p>\r\n<p style=\"margin-left:100px;\"><i>n</i> <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i>
+  <img src=\"images/symbol_times.gif\" width=\"9\" height=\"9\" alt=\"×\" border=\"0\"
+  style=\"vertical-align:middle;\"> ... <img src=\"images/symbol_times.gif\" width=\"9\"
+  height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i> =
+  <i>n</i><sup>15</sup></p>\r\n<p>But using a \"binary\" method you can compute it
+  in six multiplications:</p>\r\n<p style=\"margin-left:100px;\"><i>n</i> <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i>
+  = <i>n</i><sup>2</sup><br><i>n</i><sup>2</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i><sup>2</sup>
+  = <i>n</i><sup>4</sup><br><i>n</i><sup>4</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i><sup>4</sup>
+  = <i>n</i><sup>8</sup><br><i>n</i><sup>8</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i><sup>4</sup>
+  = <i>n</i><sup>12</sup><br><i>n</i><sup>12</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i><sup>2</sup>
+  = <i>n</i><sup>14</sup><br><i>n</i><sup>14</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i>
+  = <i>n</i><sup>15</sup></p>\r\n<p>However it is yet possible to compute it in only
+  five multiplications:</p>\r\n<p style=\"margin-left:100px;\"><i>n</i> <img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i>
+  = <i>n</i><sup>2</sup><br><i>n</i><sup>2</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i>
+  = <i>n</i><sup>3</sup><br><i>n</i><sup>3</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i><sup>3</sup>
+  = <i>n</i><sup>6</sup><br><i>n</i><sup>6</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i><sup>6</sup>
+  = <i>n</i><sup>12</sup><br><i>n</i><sup>12</sup><img src=\"images/symbol_times.gif\"
+  width=\"9\" height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"><i>n</i><sup>3</sup>
+  = <i>n</i><sup>15</sup></p>\r\n<p>We shall define m(<i>k</i>) to be the minimum
+  number of multiplications to compute <i>n</i><sup><i>k</i></sup>; for example m(15)
+  = 5.</p>\r\n<p>For 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
+  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><i>k</i> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  200, find <span style=\"font-family:times new roman;font-size:13pt;\"><img src=\"images/symbol_sum.gif\"
+  width=\"11\" height=\"14\" alt=\"∑\" border=\"0\" style=\"vertical-align:middle;\"></span>
+  m(<i>k</i>).</p>\r\n\r\n"

@@ -1,21 +1,18 @@
 ---
 :id: 427
 :name: n-sequences
-:content:
-- "A sequence of integers S = {s<sub><var>i</var></sub>} is called an <var>n-sequence</var>
-  if it has <var>n</var> elements and each element s<sub><var>i</var></sub> satisfies
-  1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> s<sub><var>i</var></sub><img src=\"images/symbol_le.gif\"
+:url: http://projecteuler.net/problem=427
+:content: "\r\n<p>A sequence of integers S = {s<sub><var>i</var></sub>} is called
+  an <var>n-sequence</var> if it has <var>n</var> elements and each element s<sub><var>i</var></sub>
+  satisfies 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\"> s<sub><var>i</var></sub><img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>.
   Thus there are <var>n</var><sup><var>n</var></sup> distinct <var>n</var>-sequences
   in total.\r\nFor example, the sequence S = {1, 5, 5, 10, 7, 7, 7, 2, 3, 7} is a
-  10-sequence."
-- "For any sequence S, let L(S) be the length of the longest contiguous subsequence
-  of S with the same value.\r\nFor example, for the given sequence S above, L(S) =
-  3, because of the three consecutive 7's."
-- Let <var>f</var>(<var>n</var>) = <img src="images/symbol_sum.gif" width="11" height="14"
-  alt="∑" border="0" style="vertical-align:middle;"> L(S) for all <var>n</var>-sequences
-  S.
-- For example, <var>f</var>(3) = 45, <var>f</var>(7) = 1403689 and <var>f</var>(11)
-  = 481496895121.
-- Find <var>f</var>(7 500 000) mod 1 000 000 009.
+  10-sequence.</p>\r\n\r\n<p>For any sequence S, let L(S) be the length of the longest
+  contiguous subsequence of S with the same value.\r\nFor example, for the given sequence
+  S above, L(S) = 3, because of the three consecutive 7's.</p>\r\n\r\n<p>Let <var>f</var>(<var>n</var>)
+  = <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\"> L(S) for all <var>n</var>-sequences S.</p>\r\n\r\n<p>For
+  example, <var>f</var>(3) = 45, <var>f</var>(7) = 1403689 and <var>f</var>(11) =
+  481496895121.</p>\r\n\r\n<p>Find <var>f</var>(7 500 000) mod 1 000 000 009.</p>\r\n\r\n\r\n"

@@ -1,13 +1,22 @@
 ---
 :id: 392
 :name: Enmeshed unit circle
-:content:
-- "\r\nA rectilinear grid is an orthogonal grid where the spacing between the gridlines
-  does not have to be equidistant.<br>\r\nAn example of such grid is logarithmic graph
-  paper.\r\n"
-- "\r\nConsider rectilinear grids in the Cartesian coordinate system with the following
-  properties:<br>"
-- "\r\nE.g. here is a picture of the solution for N = 10:\r\n"
-- "\r\n<img src=\"project/images/p392_gridlines.png\">"
-- "\r\nFind the positions for N = 400.<br> \r\nGive as your answer the area occupied
-  by the red cells rounded to 10 digits behind the decimal point.\r\n"
+:url: http://projecteuler.net/problem=392
+:content: "\r\n<p>\r\nA rectilinear grid is an orthogonal grid where the spacing between
+  the gridlines does not have to be equidistant.<br>\r\nAn example of such grid is
+  logarithmic graph paper.\r\n</p>\r\n<p>\r\nConsider rectilinear grids in the Cartesian
+  coordinate system with the following properties:<br></p>\n<ul>\n<li>The gridlines
+  are parallel to the axes of the Cartesian coordinate system.</li>\n<li>There are
+  N+2 vertical and N+2 horizontal gridlines. Hence there are (N+1) x (N+1) rectangular
+  cells.</li>\n<li>The equations of the two outer vertical gridlines are x = -1 and
+  x = 1.</li>\n<li>The equations of the two outer horizontal gridlines are y = -1
+  and y = 1.</li>\n<li>The grid cells are colored red if they overlap with the <dfn
+  title=\"The unit circle is the circle that has radius 1 and is centered at the origin\">unit
+  circle</dfn>, black otherwise.</li>\n</ul>For this problem we would like you to
+  find the postions of the remaining N inner horizontal and N inner vertical gridlines
+  so that the area occupied by the red cells is minimized.\r\n\r\n<p>\r\nE.g. here
+  is a picture of the solution for N = 10:\r\n</p>\n<p align=\"center\">\r\n<img src=\"project/images/p392_gridlines.png\"></p>\r\n\r\n\r\nThe
+  area occupied by the red cells for N = 10 rounded to 10 digits behind the decimal
+  point is 3.3469640797.\r\n\r\n<p>\r\nFind the positions for N = 400.<br> \r\nGive
+  as your answer the area occupied by the red cells rounded to 10 digits behind the
+  decimal point.\r\n</p>\r\n\r\n"

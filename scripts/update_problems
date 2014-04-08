@@ -45,11 +45,14 @@ problems = problem_ids.map.with_index do |problem_id, index|
 
   sleep(sleep_time)
 
-  doc     = Nokogiri::HTML(open("http://projecteuler.net/problem=#{problem_id}"))
+  url = "http://projecteuler.net/problem=#{problem_id}"
+
+  doc     = Nokogiri::HTML(open(url))
   problem = Euler::Problem.new({
     id:       problem_id,
     name:     doc.css('h2').first.inner_html,
-    content:  doc.css('.problem_content').first.css('p').map { |p| p.inner_html }
+    url:      url,
+    content:  doc.css('.problem_content').first.inner_html
   })
 
   print " : " + problem.name.bold.underline

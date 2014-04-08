@@ -1,15 +1,16 @@
 ---
 :id: 332
 :name: Spherical triangles
-:content:
-- A <b>spherical triangle</b> is a figure formed on the surface of a sphere by three
-  <b>great circular arcs</b> intersecting pairwise in three vertices.
-- "Let C(<var>r</var>) be the sphere with the centre (0,0,0) and radius <var>r</var>.<br>\r\nLet
+:url: http://projecteuler.net/problem=332
+:content: "\r\n<p>A <b>spherical triangle</b> is a figure formed on the surface of
+  a sphere by three <b>great circular arcs</b> intersecting pairwise in three vertices.</p>\r\n\r\n<div
+  align=\"center\"><img src=\"project/images/p_332_spherical.jpg\"></div>\r\n\r\n\r\n<p>Let
+  C(<var>r</var>) be the sphere with the centre (0,0,0) and radius <var>r</var>.<br>\r\nLet
   Z(<var>r</var>) be the set of points on the surface of C(<var>r</var>) with integer
   coordinates.<br>\r\nLet T(<var>r</var>) be the set of spherical triangles with vertices
   in Z(<var>r</var>).\r\nDegenerate spherical triangles, formed by three points on
   the same great arc, are <u>not</u> included in T(<var>r</var>).<br>\r\nLet A(<var>r</var>)
-  be the area of the smallest spherical triangle in T(<var>r</var>)."
-- For example A(14) is 3.294040 rounded to six decimal places.
-- Find <img style="vertical-align:middle" src="project/images/p_332_sum.gif"> A(<var>r</var>).
-  Give your answer rounded to six decimal places.
+  be the area of the smallest spherical triangle in T(<var>r</var>).</p>\r\n\r\n<p>For
+  example A(14) is 3.294040 rounded to six decimal places.</p>\r\n\r\n<p>Find <img
+  style=\"vertical-align:middle\" src=\"project/images/p_332_sum.gif\"> A(<var>r</var>).
+  Give your answer rounded to six decimal places.</p>\r\n\r\n"

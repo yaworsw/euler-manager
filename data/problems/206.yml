@@ -1,6 +1,6 @@
 ---
 :id: 206
 :name: Concealed Square
-:content:
-- Find the unique positive integer whose square has the form 1_2_3_4_5_6_7_8_9_0,<br>
-  where each “_” is a single digit.
+:url: http://projecteuler.net/problem=206
+:content: "\r\n<p>Find the unique positive integer whose square has the form 1_2_3_4_5_6_7_8_9_0,<br>
+  where each “_” is a single digit.</p>\r\n"

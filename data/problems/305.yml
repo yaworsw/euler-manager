@@ -1,15 +1,14 @@
 ---
 :id: 305
 :name: Reflexive Position
-:content:
-- "\r\nLet's call S the (infinite) string that is made by concatenating the consecutive
-  positive integers (starting from 1)  written down in base 10.<br> \r\nThus, S =
-  1234567891011121314151617181920212223242...\r\n"
-- "\r\nIt's easy to see that any number will show up an infinite number of times in
-  S.\r\n"
-- "\r\nLet's call f(n) the starting position of the n<sup>th</sup> occurrence of n
-  in S.<br> \r\nFor example, f(1)=1, f(5)=81, f(12)=271 and f(7780)=111111365.\r\n"
-- "\r\nFind <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\"
-  border=\"0\" style=\"vertical-align:middle;\">f(3<sup>k</sup>) for 1<img src=\"images/symbol_le.gif\"
+:url: http://projecteuler.net/problem=305
+:content: "\r\n<p>\r\nLet's call S the (infinite) string that is made by concatenating
+  the consecutive positive integers (starting from 1)  written down in base 10.<br>
+  \r\nThus, S = 1234567891011121314151617181920212223242...\r\n</p>\r\n<p>\r\nIt's
+  easy to see that any number will show up an infinite number of times in S.\r\n</p>\r\n<p>\r\nLet's
+  call f(n) the starting position of the n<sup>th</sup> occurrence of n in S.<br>
+  \r\nFor example, f(1)=1, f(5)=81, f(12)=271 and f(7780)=111111365.\r\n</p>\r\n<p>\r\nFind
+  <img src=\"images/symbol_sum.gif\" width=\"11\" height=\"14\" alt=\"∑\" border=\"0\"
+  style=\"vertical-align:middle;\">f(3<sup>k</sup>) for 1<img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">k<img
-  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">13.\r\n"
+  src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">13.\r\n</p>\r\n\r\n"

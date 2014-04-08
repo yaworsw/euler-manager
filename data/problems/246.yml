@@ -1,14 +1,17 @@
 ---
 :id: 246
 :name: Tangents to an ellipse
-:content:
-- "\r\nA definition for an ellipse is:<br>\r\nGiven a circle c with centre M and radius
-  r and a point G such that d(G,M)<img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\"
-  alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">r, the locus of the points
-  that are equidistant from c and G form an ellipse.\r\n"
-- "\r\nGiven are the points M(-2000,1500) and G(8000,1500).<br> \r\nGiven is also
-  the circle c with centre M and radius 15000.<br>\r\nThe locus of the points that
-  are equidistant from G and c form an ellipse e.<br>\r\nFrom a point P outside e
-  the two tangents t<sub>1</sub> and t<sub>2</sub> to the ellipse are drawn.<br>\r\nLet
-  the points where t<sub>1</sub> and t<sub>2</sub> touch the ellipse be R and S.\r\n"
-- "\r\nFor how many lattice points P is angle RPS greater than 45 degrees?\r\n"
+:url: http://projecteuler.net/problem=246
+:content: "\r\n<p>\r\nA definition for an ellipse is:<br>\r\nGiven a circle c with
+  centre M and radius r and a point G such that d(G,M)<img src=\"images/symbol_lt.gif\"
+  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">r,
+  the locus of the points that are equidistant from c and G form an ellipse.\r\n</p>\r\nThe
+  construction of the points of the ellipse is shown below.\r\n\r\n<div style=\"text-align:center;\">\r\n<img
+  src=\"project/images/p_246_anim.gif\" alt=\"\">\n</div>\r\n\r\n<p>\r\nGiven are
+  the points M(-2000,1500) and G(8000,1500).<br> \r\nGiven is also the circle c with
+  centre M and radius 15000.<br>\r\nThe locus of the points that are equidistant from
+  G and c form an ellipse e.<br>\r\nFrom a point P outside e the two tangents t<sub>1</sub>
+  and t<sub>2</sub> to the ellipse are drawn.<br>\r\nLet the points where t<sub>1</sub>
+  and t<sub>2</sub> touch the ellipse be R and S.\r\n</p>\r\n<div style=\"text-align:center;\">\r\n<img
+  src=\"project/images/p_246_ellipse.gif\" alt=\"\">\n</div>\r\n<p>\r\nFor how many
+  lattice points P is angle RPS greater than 45 degrees?\r\n</p>\r\n\r\n"

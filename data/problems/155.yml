@@ -1,22 +1,22 @@
 ---
 :id: 155
 :name: Counting Capacitor Circuits
-:content:
-- "An electric circuit uses exclusively identical capacitors of the same value C.\r\n<br>\r\nThe
-  capacitors can be connected in series or in parallel to form sub-units, which can
-  then be connected in series or in parallel with other capacitors or other sub-units
-  to form larger sub-units, and so on up to a final circuit."
-- 'Using this simple procedure and up to <var>n</var> identical capacitors, we can
-  make circuits having a range of different total capacitances. For example, using
-  up to <var>n</var>=3 capacitors of 60 <img src="project/images/p_155_capsmu.gif"
-  width="12" height="21" alt="" style="vertical-align:middle;">F each, we can obtain
-  the following 7 distinct total capacitance values: '
-- 'If we denote by <var>D</var>(<var>n</var>) the number of distinct total capacitance
+:url: http://projecteuler.net/problem=155
+:content: "\r\n<p>An electric circuit uses exclusively identical capacitors of the
+  same value C.\r\n<br>\r\nThe capacitors can be connected in series or in parallel
+  to form sub-units, which can then be connected in series or in parallel with other
+  capacitors or other sub-units to form larger sub-units, and so on up to a final
+  circuit.</p>\r\n<p>Using this simple procedure and up to <var>n</var> identical
+  capacitors, we can make circuits having a range of different total capacitances.
+  For example, using up to <var>n</var>=3 capacitors of 60 <img src=\"project/images/p_155_capsmu.gif\"
+  width=\"12\" height=\"21\" alt=\"\" style=\"vertical-align:middle;\">F each, we
+  can obtain the following 7 distinct total capacitance values: </p>\r\n<div style=\"text-align:center;\"><img
+  src=\"project/images/p_155_capacitors1.gif\" width=\"387\" height=\"557\" alt=\"\"></div>\r\n<p>If
+  we denote by <var>D</var>(<var>n</var>) the number of distinct total capacitance
   values we can obtain when using up to <var>n</var> equal-valued capacitors and the
   simple procedure described above, we have: <var>D</var>(1)=1, <var>D</var>(2)=3,
-  <var>D</var>(3)=7 ...'
-- Find <var>D</var>(18).
-- "<i>Reminder :</i> When connecting capacitors C<sub>1</sub>, C<sub>2</sub> etc in
-  parallel, the total capacitance is C<sub>T</sub> = C<sub>1</sub> + C<sub>2</sub> +...,\r\n<br>\r\nwhereas
+  <var>D</var>(3)=7 ...</p>\r\n<p>Find <var>D</var>(18).</p>\r\n<p><i>Reminder :</i>
+  When connecting capacitors C<sub>1</sub>, C<sub>2</sub> etc in parallel, the total
+  capacitance is C<sub>T</sub> = C<sub>1</sub> + C<sub>2</sub> +...,\r\n<br>\r\nwhereas
   when connecting them in series, the overall capacitance is given by:\r\n<img src=\"project/images/p_155_capsform.gif\"
-  width=\"127\" height=\"38\" alt=\"\" style=\"vertical-align:middle;\">"
+  width=\"127\" height=\"38\" alt=\"\" style=\"vertical-align:middle;\"></p>\r\n\r\n"

@@ -1,10 +1,11 @@
 ---
 :id: 145
 :name: How many reversible numbers are there below one-billion?
-:content:
-- Some positive integers <i>n</i> have the property that the sum [ <i>n</i> + reverse(<i>n</i>)
-  ] consists entirely of odd (decimal) digits. For instance, 36 + 63 = 99 and 409
-  + 904 = 1313. We will call such numbers <em>reversible</em>; so 36, 63, 409, and
-  904 are reversible. Leading zeroes are not allowed in either <i>n</i> or reverse(<i>n</i>).
-- There are 120 reversible numbers below one-thousand.
-- How many reversible numbers are there below one-billion (10<sup>9</sup>)?
+:url: http://projecteuler.net/problem=145
+:content: "\r\n<p>Some positive integers <i>n</i> have the property that the sum [
+  <i>n</i> + reverse(<i>n</i>) ] consists entirely of odd (decimal) digits. For instance,
+  36 + 63 = 99 and 409 + 904 = 1313. We will call such numbers <em>reversible</em>;
+  so 36, 63, 409, and 904 are reversible. Leading zeroes are not allowed in either
+  <i>n</i> or reverse(<i>n</i>).</p>\r\n\r\n<p>There are 120 reversible numbers below
+  one-thousand.</p>\r\n\r\n<p>How many reversible numbers are there below one-billion
+  (10<sup>9</sup>)?</p>\r\n"

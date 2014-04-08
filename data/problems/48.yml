@@ -1,8 +1,7 @@
 ---
 :id: 48
 :name: Self powers
-:content:
-- The series, 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + ... + 10<sup>10</sup>
-  = 10405071317.
-- Find the last ten digits of the series, 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup>
-  + ... + 1000<sup>1000</sup>.
+:url: http://projecteuler.net/problem=48
+:content: "\r\n\n<p>The series, 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + ...
+  + 10<sup>10</sup> = 10405071317.</p>\n<p>Find the last ten digits of the series,
+  1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + ... + 1000<sup>1000</sup>.</p>\n\r\n"

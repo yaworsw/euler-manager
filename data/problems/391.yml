@@ -1,31 +1,29 @@
 ---
 :id: 391
 :name: Hopping Game
-:content:
-- "\r\nLet <var>s<sub>k</sub></var> be the number of 1’s when writing the numbers
-  from 0 to <var>k</var> in binary.<br>\r\nFor example, writing 0 to 5 in binary,
-  we have 0, 1, 10, 11, 100, 101. There are seven 1’s, so <var>s</var><sub>5</sub>
+:url: http://projecteuler.net/problem=391
+:content: "\r\n<p>\r\nLet <var>s<sub>k</sub></var> be the number of 1’s when writing
+  the numbers from 0 to <var>k</var> in binary.<br>\r\nFor example, writing 0 to 5
+  in binary, we have 0, 1, 10, 11, 100, 101. There are seven 1’s, so <var>s</var><sub>5</sub>
   = 7.<br>\r\nThe sequence S = {<var>s<sub>k</sub></var> : <var>k</var> <img src=\"images/symbol_ge.gif\"
   width=\"10\" height=\"12\" alt=\"≥\" border=\"0\" style=\"vertical-align:middle;\">
-  0} starts {0, 1, 2, 4, 5, 7, 9, 12, ...}.<br>"
-- "\r\nA game is played by two players. Before the game starts, a number <var>n</var>
-  is chosen. A counter <var>c</var> starts at 0. At each turn, the player chooses
-  a number from 1 to <var>n</var> (inclusive) and increases <var>c</var> by that number.
-  The resulting value of <var>c</var> must be a member of S. If there are no more
-  valid moves, the player loses.\r\n"
-- "\r\nFor example:<br>\r\nLet <var>n</var> = 5. <var>c</var> starts at 0.<br>\r\nPlayer
-  1 chooses 4, so <var>c</var> becomes 0 + 4 = 4.<br>\r\nPlayer 2 chooses 5, so <var>c</var>
+  0} starts {0, 1, 2, 4, 5, 7, 9, 12, ...}.<br></p>\r\n\r\n<p>\r\nA game is played
+  by two players. Before the game starts, a number <var>n</var> is chosen. A counter
+  <var>c</var> starts at 0. At each turn, the player chooses a number from 1 to <var>n</var>
+  (inclusive) and increases <var>c</var> by that number. The resulting value of <var>c</var>
+  must be a member of S. If there are no more valid moves, the player loses.\r\n</p>\r\n\r\n<p>\r\nFor
+  example:<br>\r\nLet <var>n</var> = 5. <var>c</var> starts at 0.<br>\r\nPlayer 1
+  chooses 4, so <var>c</var> becomes 0 + 4 = 4.<br>\r\nPlayer 2 chooses 5, so <var>c</var>
   becomes 4 + 5 = 9.<br>\r\nPlayer 1 chooses 3, so <var>c</var> becomes 9 + 3 = 12.<br>\r\netc.<br>\r\nNote
   that <var>c</var> must always belong to S, and each player can increase <var>c</var>
-  by at most <var>n</var>.\r\n"
-- "\r\nLet M(<var>n</var>) be the highest number the first player can choose at her
-  first turn to force a win, and M(<var>n</var>) = 0 if there is no such move. For
-  example, M(2) = 2, M(7) = 1 and M(20) = 4.\r\n"
-- "\r\nGiven Σ(M(<var>n</var>))<sup>3</sup> = 8150 for 1 <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
+  by at most <var>n</var>.\r\n</p>\r\n\r\n<p>\r\nLet M(<var>n</var>) be the highest
+  number the first player can choose at her first turn to force a win, and M(<var>n</var>)
+  = 0 if there is no such move. For example, M(2) = 2, M(7) = 1 and M(20) = 4.\r\n</p>\r\n\r\n<p>\r\nGiven
+  Σ(M(<var>n</var>))<sup>3</sup> = 8150 for 1 <img src=\"images/symbol_le.gif\" width=\"10\"
+  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
   <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> 20.\r\n"
-- "\r\nFind Σ(M(<var>n</var>))<sup>3</sup> for 1 <img src=\"images/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
-  <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
-  style=\"vertical-align:middle;\"> 1000.\r\n"
+  style=\"vertical-align:middle;\"> 20.\r\n</p>\r\n\r\n<p>\r\nFind Σ(M(<var>n</var>))<sup>3</sup>
+  for 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>n</var> <img src=\"images/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">
+  1000.\r\n</p>\r\n"

@@ -86,14 +86,21 @@ module Euler
 
     # Returns the root directory of the current project.
     def root
-      root = ENV['PWD']
-      until File.exists?("#{root}/Eulerfile.rb") || File.expand_path(root) == '/' do
-        root = File.dirname(root)
+      if @root.nil?
+        root = ENV['PWD']
+        until File.exists?("#{root}/Eulerfile.rb") || File.expand_path(root) == '/' do
+          root = File.dirname(root)
+        end
+        if not File.exists?("#{root}/Eulerfile.rb")
+          raise Euler::EulerFileNotFoundError.new "Unable to find an Eulerfile.rb in any of the parent directories."
+        end
+        @root = root
       end
-      if not File.exists?("#{root}/Eulerfile.rb")
-        raise Euler::EulerFileNotFoundError.new "Unable to find an Eulerfile.rb in any of the parent directories."
-      end
-      root
+      @root
+    end
+
+    def euler_file_path
+      "#{root}/Eulerfile.rb"
     end
 
     # Returns an array with the first element being the problem id and the
@@ -142,7 +149,7 @@ Euler.config do |config|
     FileUtils.mkdir_p(dir)
     readme_path = "#{dir}/../README.md"
     if not File.exists?(readme_path) then File.open(readme_path, 'w') do |f|
-      f.write("# #{problem.name}\n\n#{problem.content}")
+      f.write("# [#{problem.name}](#{problem.url})\n\n#{problem.content}")
     end end
   }
 
@@ -161,4 +168,7 @@ end
 # Include the default language definitions.
 require_relative 'euler/languages'
 
-# @todo include Euler file
+# Attempt to load user defined configuration
+begin
+  require Euler.euler_file_path
+rescue; end

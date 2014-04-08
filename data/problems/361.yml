@@ -1,18 +1,20 @@
 ---
 :id: 361
 :name: Subsequence of Thue-Morse sequence
-:content:
-- 'The <b>Thue-Morse sequence</b> {T<sub><var>n</var></sub>} is a binary sequence
-  satisfying:'
-- "\r\nThe first several terms of {T<sub><var>n</var></sub>} are given as follows:<br>\r\n01101001<span
-  style=\"color:red;\">10010</span>1101001011001101001....\r\n"
-- "\r\nWe define {A<sub><var>n</var></sub>} as the sorted sequence of integers such
-  that the binary expression of each element appears as a subsequence in {T<sub><var>n</var></sub>}.<br>\r\nFor
+:url: http://projecteuler.net/problem=361
+:content: "\r\n<p>The <b>Thue-Morse sequence</b> {T<sub><var>n</var></sub>} is a binary
+  sequence satisfying:</p>\r\n<ul>\n<li>T<sub>0</sub> = 0</li>\r\n<li>T<sub>2<var>n</var></sub>
+  = T<sub><var>n</var></sub>\n</li>\r\n<li>T<sub>2<var>n</var>+1</sub> = 1 - T<sub><var>n</var></sub>\n</li>\r\n</ul>\n<p>\r\nThe
+  first several terms of {T<sub><var>n</var></sub>} are given as follows:<br>\r\n01101001<span
+  style=\"color:red;\">10010</span>1101001011001101001....\r\n</p>\r\n\r\n<p>\r\nWe
+  define {A<sub><var>n</var></sub>} as the sorted sequence of integers such that the
+  binary expression of each element appears as a subsequence in {T<sub><var>n</var></sub>}.<br>\r\nFor
   example, the decimal number 18 is expressed as 10010 in binary. 10010 appears in
   {T<sub><var>n</var></sub>} (T<sub>8</sub> to T<sub>12</sub>), so 18 is an element
   of {A<sub><var>n</var></sub>}.<br>\r\nThe decimal number 14 is expressed as 1110
   in binary. 1110 never appears in {T<sub><var>n</var></sub>}, so 14 is not an element
-  of {A<sub><var>n</var></sub>}.\r\n"
-- "\r\nThe first several terms of A<sub><var>n</var></sub> are given as follows:<br>"
-- "\r\nWe can also verify that A<sub>100</sub> = 3251 and A<sub>1000</sub> = 80852364498.\r\n"
-- "\r\nFind the last 9 digits of <img style=\"vertical-align:middle\" src=\"project/images/p_361_Thue-Morse1.gif\">.\r\n"
+  of {A<sub><var>n</var></sub>}.\r\n</p>\r\n\r\n<p>\r\nThe first several terms of
+  A<sub><var>n</var></sub> are given as follows:<br></p>\n<div align=\"center\">\r\n<table
+  cellspacing=\"1\" cellpadding=\"5\" border=\"0\" align=\"center\">\n<tr>\n<td align=\"left\"><var>n</var></td>\n<td>0</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n<td>7</td>\n<td>8</td>\n<td>9</td>\n<td>10</td>\n<td>11</td>\n<td>12</td>\n<td>…</td>\n</tr>\n<tr>\n<td>A<sub><var>n</var></sub>\n</td>\n<td>0</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n<td>9</td>\n<td>10</td>\n<td>11</td>\n<td>12</td>\n<td>13</td>\n<td>18</td>\n<td>…</td>\n</tr>\n</table>\n</div>\r\n\r\n\r\n<p>\r\nWe
+  can also verify that A<sub>100</sub> = 3251 and A<sub>1000</sub> = 80852364498.\r\n</p>\r\n\r\n<p>\r\nFind
+  the last 9 digits of <img style=\"vertical-align:middle\" src=\"project/images/p_361_Thue-Morse1.gif\">.\r\n</p>\r\n"

@@ -1,17 +1,16 @@
 ---
 :id: 425
 :name: Prime connection
-:content:
-- "\r\nTwo positive numbers A and B are said to be <i>connected</i> (denoted by \"A
-  ↔ B\") if one of these conditions holds:<br>\r\n(1) A and B have the same length
-  and differ in exactly one digit; for example, 123 ↔ 173.<br>\r\n(2) Adding one digit
-  to the left of A (or B) makes B (or A); for example, 23 ↔ 223 and 123 ↔ 23.\r\n"
-- "\r\nWe call a prime P a <i>2's relative</i> if there exists a chain of connected
-  primes between 2 and P and no prime in the chain exceeds P.\r\n"
-- "\r\nFor example, 127 is a 2's relative. One of the possible chains is shown below:<br>\r\n2
-  ↔ 3 ↔ 13 ↔ 113 ↔ 103 ↔ 107 ↔ 127<br>\r\nHowever, 11 and 103 are not 2's relatives.\r\n"
-- "\r\nLet F(N) be the sum of the primes <img src=\"images/symbol_le.gif\" width=\"10\"
-  height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> N which are
-  not 2's relatives.<br>\r\nWe can verify that F(10<sup>3</sup>) = 431 and F(10<sup>4</sup>)
-  = 78728.\r\n"
-- "\r\nFind F(10<sup>7</sup>).\r\n"
+:url: http://projecteuler.net/problem=425
+:content: "\r\n<p>\r\nTwo positive numbers A and B are said to be <i>connected</i>
+  (denoted by \"A ↔ B\") if one of these conditions holds:<br>\r\n(1) A and B have
+  the same length and differ in exactly one digit; for example, 123 ↔ 173.<br>\r\n(2)
+  Adding one digit to the left of A (or B) makes B (or A); for example, 23 ↔ 223 and
+  123 ↔ 23.\r\n</p>\r\n<p>\r\nWe call a prime P a <i>2's relative</i> if there exists
+  a chain of connected primes between 2 and P and no prime in the chain exceeds P.\r\n</p>\r\n<p>\r\nFor
+  example, 127 is a 2's relative. One of the possible chains is shown below:<br>\r\n2
+  ↔ 3 ↔ 13 ↔ 113 ↔ 103 ↔ 107 ↔ 127<br>\r\nHowever, 11 and 103 are not 2's relatives.\r\n</p>\r\n<p>\r\nLet
+  F(N) be the sum of the primes <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\"
+  alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"> N which are not 2's relatives.<br>\r\nWe
+  can verify that F(10<sup>3</sup>) = 431 and F(10<sup>4</sup>) = 78728.\r\n</p>\r\n<p>\r\nFind
+  F(10<sup>7</sup>).\r\n</p>\r\n"

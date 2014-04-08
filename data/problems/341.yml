@@ -1,18 +1,18 @@
 ---
 :id: 341
 :name: Golomb's self-describing sequence
-:content:
-- The <b>Golomb's self-describing sequence</b> {G(<var>n</var>)} is the only nondecreasing
-  sequence of natural numbers such that <var>n</var> appears exactly G(<var>n</var>)
-  times in the sequence. The values of G(<var>n</var>) for the first few <var>n</var>
-  are
-- ''
-- "You are given that G(10<sup>3</sup>) = 86, G(10<sup>6</sup>) = 6137.<br>\r\nYou
-  are also given that ΣG(<var>n</var><sup>3</sup>) = 153506976 for 1 <img src=\"images/symbol_le.gif\"
+:url: http://projecteuler.net/problem=341
+:content: "\r\n<p>The <b>Golomb's self-describing sequence</b> {G(<var>n</var>)} is
+  the only nondecreasing sequence of natural numbers such that <var>n</var> appears
+  exactly G(<var>n</var>) times in the sequence. The values of G(<var>n</var>) for
+  the first few <var>n</var> are</p>\r\n\r\n<p></p>\n<div align=\"center\">\r\n<table
+  cellspacing=\"1\" cellpadding=\"5\" border=\"0\" align=\"center\">\n<tr>\n<td align=\"left\"><var>n</var></td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n<td>7</td>\n<td>8</td>\n<td>9</td>\n<td>10</td>\n<td>11</td>\n<td>12</td>\n<td>13</td>\n<td>14</td>\n<td>15</td>\n<td>…</td>\n</tr>\n<tr>\n<td>G(<var>n</var>)</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>3</td>\n<td>3</td>\n<td>4</td>\n<td>4</td>\n<td>4</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>…</td>\n</tr>\n</table>\n</div>\r\n\r\n<p>You
+  are given that G(10<sup>3</sup>) = 86, G(10<sup>6</sup>) = 6137.<br>\r\nYou are
+  also given that ΣG(<var>n</var><sup>3</sup>) = 153506976 for 1 <img src=\"images/symbol_le.gif\"
   width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>n</var>
   <img src=\"images/symbol_lt.gif\" width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\"
-  style=\"vertical-align:middle;\"> 10<sup>3</sup>."
-- Find ΣG(<var>n</var><sup>3</sup>) for 1 <img src="images/symbol_le.gif" width="10"
-  height="12" alt="≤" border="0" style="vertical-align:middle;"><var>n</var> <img
-  src="images/symbol_lt.gif" width="10" height="10" alt="&lt;" border="0" style="vertical-align:middle;">
-  10<sup>6</sup>.
+  style=\"vertical-align:middle;\"> 10<sup>3</sup>.</p>\r\n\r\n<p>Find ΣG(<var>n</var><sup>3</sup>)
+  for 1 <img src=\"images/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\" border=\"0\"
+  style=\"vertical-align:middle;\"><var>n</var> <img src=\"images/symbol_lt.gif\"
+  width=\"10\" height=\"10\" alt=\"&lt;\" border=\"0\" style=\"vertical-align:middle;\">
+  10<sup>6</sup>.</p>\r\n\r\n\r\n"

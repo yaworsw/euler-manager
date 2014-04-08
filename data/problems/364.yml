@@ -1,8 +1,15 @@
 ---
 :id: 364
 :name: Comfortable distance
-:content:
-- "\r\nThere are <var>N</var> seats in a row. <var>N</var> people come after each
-  other to fill the seats according to the following rules:\r\n"
-- We can verify that T(10) = 61632 and T(1 000) mod 100 000 007 = 47255094.
-- Find T(1 000 000) mod 100 000 007.
+:url: http://projecteuler.net/problem=364
+:content: "\r\n<p>\r\nThere are <var>N</var> seats in a row. <var>N</var> people come
+  after each other to fill the seats according to the following rules:\r\n</p>\n<ol
+  type=\"1\">\n<li>If there is any seat whose adjacent seat(s) are not occupied take
+  such a seat.</li>\r\n<li>If there is no such seat and there is any seat for which
+  only one adjacent seat is occupied take such a seat.</li>\r\n<li>Otherwise take
+  one of the remaining available seats. </li>\r\n</ol>\r\nLet T(<var>N</var>) be the
+  number of possibilities that <var>N</var> seats are occupied by <var>N</var> people
+  with the given rules.<br> The following figure shows T(4)=8.\r\n\r\n\r\n<div align=\"center\">\r\n<img
+  src=\"project/images/p_364_comf_dist.gif\">\n</div>\r\n\r\n<p>We can verify that
+  T(10) = 61632 and T(1 000) mod 100 000 007 = 47255094.</p>\r\n<p>Find T(1 000 000)
+  mod 100 000 007.</p>\r\n"
