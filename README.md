@@ -1,6 +1,6 @@
 # Euler Manager
 
-[![Code Climate](https://codeclimate.com/github/yaworsw/euler-manager.png)](https://codeclimate.com/github/yaworsw/euler-manager)
+[![Code Climate](https://codeclimate.com/github/yaworsw/euler-manager.png)](https://codeclimate.com/github/yaworsw/euler-manager) [![Code Climate](https://codeclimate.com/github/yaworsw/euler-manager/coverage.png)](https://codeclimate.com/github/yaworsw/euler-manager) [![Build Status](https://travis-ci.org/yaworsw/euler-manager.svg?branch=master)](https://travis-ci.org/yaworsw/euler-manager)
 
 Manage [Project Euler](https://projecteuler.net/) problems form the command line.
 
