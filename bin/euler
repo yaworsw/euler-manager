@@ -4,6 +4,7 @@ require 'rubygems'
 
 require 'commander/import'
 require 'colorize'
+require 'peach'
 
 require_relative '../lib/euler'
 
@@ -68,7 +69,7 @@ command :test_all do |c|
     puts
     puts "Testing all solutions."
     puts
-    Euler::Solution.all.each do |solution|
+    Euler::Solution.all.peach do |solution|
       if solution.correct?
         print ".".green
       else

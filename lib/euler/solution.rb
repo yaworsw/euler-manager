@@ -53,7 +53,7 @@ module Euler
 
     # Returns the result of running this solution.
     def run
-      @result ||= language_object.run(self)
+      @result ||= language_object.run(self).gsub(/\r?\n/, '')
     end
 
     # Alias for +run+.
