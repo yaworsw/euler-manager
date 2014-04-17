@@ -1,0 +1,12 @@
+script: 'bundle exec rspec'
+
+rvm:
+  - 1.8.7
+  - 1.9.3
+  - 2.0.0
+  - 2.1.1
+
+addons:
+  code_climate:
+    repo_token:
+      secure: "SPOEaP7C8L3IBezo3ocVnrLevrOT5CRu4A1kX83nvQDWtApnkHp0C9pRBTqS5pP/LEVbnts7EQjmlXLVcp7K4daaAcbkqAN/B8+TPXN7CZKoge4xylSzeRTRJ8g7sh7bk4ypxuTY0s5YJWhwz0JdDrObW3ZtFr1dlL5tAXnH3uA="
