@@ -1,6 +1,12 @@
 # Euler Manager
 
+[![Code Climate](https://codeclimate.com/github/yaworsw/euler-manager.png)](https://codeclimate.com/github/yaworsw/euler-manager)
+
 Manage [Project Euler](https://projecteuler.net/) problems form the command line.
+
+## Installing
+
+    $ gem install euler-manager
 
 ## Usage
 
