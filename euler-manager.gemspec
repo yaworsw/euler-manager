@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'euler/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'euler'
+  spec.name          = 'euler-manager'
   spec.version       = Euler::VERSION
   spec.authors       = ['William Yaworsky']
   spec.email         = ['wj.px01@gmail.com']
   spec.summary       = %q{Manage and test project Euler problems from your command line.}
-  # spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ''
+  # spec.description   = %q{This gem provides a framework for solving project Euler problems.  You can test}
+  spec.homepage      = 'https://github.com/yaworsw/euler-manager'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
