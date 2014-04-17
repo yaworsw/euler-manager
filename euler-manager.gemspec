@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'euler/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'euler'
+  spec.name          = 'euler-manager'
   spec.version       = Euler::VERSION
   spec.authors       = ['William Yaworsky']
   spec.email         = ['wj.px01@gmail.com']
