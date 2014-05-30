@@ -27,6 +27,6 @@
   style=\"text-align:center;\">1<br><img src=\"images/blackdot.gif\" width=\"15\"
   height=\"1\" alt=\"\"><br> 4</div></td>\r\n</tr>\n</table>\n</div>\r\n<p>What is
   the least value of <var>n</var> for which the number of distinct solutions exceeds
-  one-thousand?</p>\r\n<p class=\"info\">NOTE: This problem is an easier version of
-  problem <a href=\"index.php?section=problems&amp;id=110\">110</a>; it is strongly
-  advised that you solve this one first.</p>\r\n"
+  one-thousand?</p>\r\n<p class=\"note\">NOTE: This problem is an easier version of
+  <a href=\"problem=110\">Problem 110</a>; it is strongly advised that you solve this
+  one first.</p>\r\n"

@@ -2,11 +2,11 @@
 :id: 82
 :name: 'Path sum: three ways'
 :url: http://projecteuler.net/problem=82
-:content: "\r\n<p class=\"info\">NOTE: This problem is a more challenging version
-  of <a href=\"index.php?section=problems&amp;id=81\">Problem 81</a>.</p>\r\n<p>The
-  minimal path sum in the 5 by 5 matrix below, by starting in any cell in the left
-  column and finishing in any cell in the right column, and only moving up, down,
-  and right, is indicated in red and bold; the sum is equal to 994.</p>\r\n<div style=\"text-align:center;\">\r\n<table
+:content: "\r\n<p class=\"note\">NOTE: This problem is a more challenging version
+  of <a href=\"problem=81\">Problem 81</a>.</p>\r\n<p>The minimal path sum in the
+  5 by 5 matrix below, by starting in any cell in the left column and finishing in
+  any cell in the right column, and only moving up, down, and right, is indicated
+  in red and bold; the sum is equal to 994.</p>\r\n<div style=\"text-align:center;\">\r\n<table
   cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\"><tr>\n<td>\n<img
   src=\"images/bracket_left.gif\" width=\"8\" height=\"120\" alt=\"\" align=\"middle\"><br>\n</td>\r\n<td>\r\n<table
   cellpadding=\"3\" cellspacing=\"0\" border=\"0\">\n<tr>\n<td>131</td>\n<td>673</td>\n<td><span

@@ -2,10 +2,10 @@
 :id: 83
 :name: 'Path sum: four ways'
 :url: http://projecteuler.net/problem=83
-:content: "\r\n<p class=\"info\">NOTE: This problem is a significantly more challenging
-  version of <a href=\"index.php?section=problems&amp;id=81\">Problem 81</a>.</p>\r\n<p>In
-  the 5 by 5 matrix below, the minimal path sum from the top left to the bottom right,
-  by moving left, right, up, and down, is indicated in bold red and is equal to 2297.</p>\r\n<div
+:content: "\r\n<p class=\"note\">NOTE: This problem is a significantly more challenging
+  version of <a href=\"problem=81\">Problem 81</a>.</p>\r\n<p>In the 5 by 5 matrix
+  below, the minimal path sum from the top left to the bottom right, by moving left,
+  right, up, and down, is indicated in bold red and is equal to 2297.</p>\r\n<div
   style=\"text-align:center;\">\r\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\"
   align=\"center\"><tr>\n<td>\n<img src=\"images/bracket_left.gif\" width=\"8\" height=\"120\"
   alt=\"\" align=\"middle\"><br>\n</td>\r\n<td>\r\n<table cellpadding=\"3\" cellspacing=\"0\"

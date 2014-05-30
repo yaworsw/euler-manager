@@ -20,20 +20,20 @@
   five hands dealt to two players:</p>\r\n<div style=\"text-align:center;\">\r\n<table>\n<tr>\n<td><b>Hand</b></td>\n<td> </td>\n<td><b>Player
   1</b></td>\n<td> </td>\n<td><b>Player 2</b></td>\n<td> </td>\n<td><b>Winner</b></td>\r\n</tr>\n<tr>\n<td
   style=\"vertical-align:top;\"><b>1</b></td>\n<td> </td>\n<td>5H 5C 6S 7S KD<br><div
-  class=\"info\">Pair of Fives</div>\n</td>\n<td> </td>\n<td>2C 3S 8S 8D TD<br><div
-  class=\"info\">Pair of Eights</div>\n</td>\n<td> </td>\n<td style=\"vertical-align:top;\">Player
+  class=\"note\">Pair of Fives</div>\n</td>\n<td> </td>\n<td>2C 3S 8S 8D TD<br><div
+  class=\"note\">Pair of Eights</div>\n</td>\n<td> </td>\n<td style=\"vertical-align:top;\">Player
   2</td>\r\n</tr>\n<tr>\n<td style=\"vertical-align:top;\"><b>2</b></td>\n<td> </td>\n<td>5D
-  8C 9S JS AC<br><div class=\"info\">Highest card Ace</div>\n</td>\n<td> </td>\n<td>2C
-  5C 7D 8S QH<br><div class=\"info\">Highest card Queen</div>\n</td>\n<td> </td>\n<td
+  8C 9S JS AC<br><div class=\"note\">Highest card Ace</div>\n</td>\n<td> </td>\n<td>2C
+  5C 7D 8S QH<br><div class=\"note\">Highest card Queen</div>\n</td>\n<td> </td>\n<td
   style=\"vertical-align:top;\">Player 1</td>\r\n</tr>\n<tr>\n<td style=\"vertical-align:top;\"><b>3</b></td>\n<td> </td>\n<td>2D
-  9C AS AH AC<br><div class=\"info\">Three Aces</div>\n</td>\n<td> </td>\n<td>3D 6D
-  7D TD QD<br><div class=\"info\">Flush  with Diamonds</div>\n</td>\n<td> </td>\n<td
+  9C AS AH AC<br><div class=\"note\">Three Aces</div>\n</td>\n<td> </td>\n<td>3D 6D
+  7D TD QD<br><div class=\"note\">Flush  with Diamonds</div>\n</td>\n<td> </td>\n<td
   style=\"vertical-align:top;\">Player 2</td>\r\n</tr>\n<tr>\n<td style=\"vertical-align:top;\"><b>4</b></td>\n<td> </td>\n<td>4D
-  6S 9H QH QC<br><div class=\"info\">Pair of Queens<br>Highest card Nine</div>\n</td>\n<td> </td>\n<td>3D
-  6D 7H QD QS<br><div class=\"info\">Pair of Queens<br>Highest card Seven</div>\n</td>\n<td> </td>\n<td
+  6S 9H QH QC<br><div class=\"note\">Pair of Queens<br>Highest card Nine</div>\n</td>\n<td> </td>\n<td>3D
+  6D 7H QD QS<br><div class=\"note\">Pair of Queens<br>Highest card Seven</div>\n</td>\n<td> </td>\n<td
   style=\"vertical-align:top;\">Player 1</td>\r\n</tr>\n<tr>\n<td style=\"vertical-align:top;\"><b>5</b></td>\n<td> </td>\n<td>2H
-  2D 4C 4D 4S<br><div class=\"info\">Full House<br>With Three Fours</div>\n</td>\n<td> </td>\n<td>3C
-  3D 3S 9S 9D<br><div class=\"info\">Full House<br>with Three Threes</div>\n</td>\n<td> </td>\n<td
+  2D 4C 4D 4S<br><div class=\"note\">Full House<br>With Three Fours</div>\n</td>\n<td> </td>\n<td>3C
+  3D 3S 9S 9D<br><div class=\"note\">Full House<br>with Three Threes</div>\n</td>\n<td> </td>\n<td
   style=\"vertical-align:top;\">Player 1</td>\r\n</tr>\n</table>\n</div>\r\n<p>The
   file, <a href=\"project/poker.txt\">poker.txt</a>, contains one-thousand random
   hands dealt to two players. Each line of the file contains ten cards (separated

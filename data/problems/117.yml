@@ -78,5 +78,5 @@
   src=\"images/spacer.gif\" width=\"20\" height=\"20\" alt=\"\"></td>\r\n<td colspan=\"4\"
   style=\"background-color:#0000cc\"><img src=\"images/spacer.gif\" width=\"92\" height=\"20\"
   alt=\"\"></td>\r\n</tr></table>\n</td>\r\n<td> </td>\r\n</tr>\n</table>\n<p>How
-  many ways can a row measuring fifty units in length be tiled?</p>\r\n<p class=\"info\">NOTE:
-  This is related to problem <a href=\"index.php?section=problems&amp;id=116\">116</a>.</p>\r\n"
+  many ways can a row measuring fifty units in length be tiled?</p>\r\n<p class=\"note\">NOTE:
+  This is related to <a href=\"problem=116\">Problem 116</a>.</p>\r\n"

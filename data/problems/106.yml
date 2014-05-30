@@ -15,5 +15,5 @@
   = 4, only 1 of these pairs need to be tested for equality (first rule). Similarly,
   when <i>n</i> = 7, only 70 out of the 966 subset pairs need to be tested.</p>\r\n<p>For
   <i>n</i> = 12, how many of the 261625 subset pairs that can be obtained need to
-  be tested for equality?</p>\r\n<p class=\"info\">NOTE: This problem is related to
-  problems <a href=\"index.php?section=problems&amp;id=103\">103</a> and <a href=\"index.php?section=problems&amp;id=105\">105</a>.</p>\r\n"
+  be tested for equality?</p>\r\n<p class=\"note\">NOTE: This problem is related to
+  <a href=\"problem=103\">Problem 103</a> and <a href=\"problem=105\">Problem 105</a>.</p>\r\n"

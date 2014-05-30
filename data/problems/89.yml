@@ -14,5 +14,5 @@
   in descending units and obey the subtractive pair rule (see <a href=\"about=roman_numerals\">About
   Roman Numerals...</a> for the definitive rules for this problem).</p>\r\n<p>Find
   the number of characters saved by writing each of these in their minimal form.</p>\r\n<p
-  class=\"info\">Note: You can assume that all the Roman numerals in the file contain
+  class=\"note\">Note: You can assume that all the Roman numerals in the file contain
   no more than four consecutive identical units.</p>\r\n\r\n"

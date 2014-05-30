@@ -1,6 +1,6 @@
 ---
 :id: 190
-:name: "Maximising a weighted product\r\n"
+:name: Maximising a weighted product
 :url: http://projecteuler.net/problem=190
 :content: "\r\n<p>Let S<sub>m</sub> = (x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>m</sub>)
   be the m-tuple of positive real numbers with x<sub>1</sub> + x<sub>2</sub> + ...

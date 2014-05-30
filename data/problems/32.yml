@@ -9,6 +9,6 @@
   height=\"9\" alt=\"×\" border=\"0\" style=\"vertical-align:middle;\"> 186 = 7254,
   containing multiplicand, multiplier, and product is 1 through 9 pandigital.</p>\r\n\r\n<p>Find
   the sum of all products whose multiplicand/multiplier/product identity can be written
-  as a 1 through 9 pandigital.</p>\r\n\r\n<div class=\"info\">HINT: Some products
+  as a 1 through 9 pandigital.</p>\r\n\r\n<div class=\"note\">HINT: Some products
   can be obtained in more than one way so be sure to only include it once in your
   sum.</div>\r\n\r\n"

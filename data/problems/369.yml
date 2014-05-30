@@ -1,6 +1,6 @@
 ---
 :id: 369
-:name: "Badugi\r\n"
+:name: Badugi
 :url: http://projecteuler.net/problem=369
 :content: "\r\n<p>In a standard 52 card deck of playing cards, a set of 4 cards is
   a <b>Badugi</b> if it contains 4 cards with no pairs and no two cards of the same

@@ -1,6 +1,6 @@
 ---
 :id: 312
-:name: "Cyclic paths on Sierpiński graphs\r\n"
+:name: Cyclic paths on Sierpiński graphs
 :url: http://projecteuler.net/problem=312
 :content: "\r\n<p>- A <b>Sierpiński graph</b> of order-1 (<var>S</var><sub>1</sub>)
   is an equilateral triangle.<br>\r\n- <var>S</var><sub><var>n</var>+1</sub> is obtained
