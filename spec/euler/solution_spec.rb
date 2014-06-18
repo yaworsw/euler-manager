@@ -50,7 +50,7 @@ describe Euler::Solution do
 
     dir = ds.call(solution)
 
-    File.directory?(dir).should be_true
+    File.directory?(dir).should be_truthy
   end
 
   it "correct? method should return true of the solution is correct and false otherwise" do
@@ -61,9 +61,9 @@ describe Euler::Solution do
     problem  = solution.problem
     allow(problem).to receive(:answer).and_return('42', '9001')
 
-    solution.correct?.should be_true
+    solution.correct?.should be_truthy
 
-    solution.correct?.should be_false
+    solution.correct?.should be_falsey
   end
 
 end
