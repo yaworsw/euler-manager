@@ -5,7 +5,8 @@
   'javascript',
   'python',
   'ruby',
-  'scala'
+  'scala',
+  'java'
 
 ].each do |lang|
   require_relative "./languages/#{lang}"
