@@ -43,6 +43,7 @@ solution for problem number 1 then you can just run `$ euelr run` from `1/ruby`
 
 - coffeescript
 - javascript
+- java
 - python
 - ruby
 - scala
