@@ -19,7 +19,7 @@ Euler.register_language('ruby', Class.new do
 
     # Returns the path to the ruby template
     def template_path
-      "#{File.dirname(__FILE__)}/templates/ruby.rb"
+      "#{File.dirname(__FILE__)}/../templates/ruby.rb"
     end
 
 end)

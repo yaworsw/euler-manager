@@ -4,7 +4,7 @@ Euler.register_language('scala', Class.new do
   def run solution
     dir = File.dirname(file_path(solution))
     Dir.chdir(dir)
-    `scalac #{Euler.root}/lib/*.scala && scalac -cp .:#{Euler.root}/lib ./*.scala  && scala Main`
+    `scalac #{Euler.root}/lib/*.scala && scalac -cp .:#{Euler.root}/lib ./*.scala && scala Main`
   end
 
   # Copy the scala template to the solution directory
@@ -21,7 +21,7 @@ Euler.register_language('scala', Class.new do
 
     # Returns the path of the scala template
     def template_path
-      "#{File.dirname(__FILE__)}/templates/scala.scala"
+      "#{File.dirname(__FILE__)}/../templates/scala.scala"
     end
 
 end)

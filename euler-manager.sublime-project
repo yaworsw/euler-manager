@@ -5,7 +5,10 @@
       "follow_symlinks": true,
       "path": ".",
       "folder_exclude_patterns": [
-        "*/scala/euler"
+        "*/scala/euler", "coverage", "pkg", "doc"
+      ],
+      "file_exclude_patterns": [
+        "*.gem"
       ]
     }
   ]

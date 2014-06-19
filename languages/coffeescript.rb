@@ -1,8 +1,8 @@
-Euler.register_language('javascript', Class.new do
+Euler.register_language('coffeescript', Class.new do
 
   # Run the solution
   def run solution
-    `node #{file_path(solution)}`
+    `coffee #{file_path(solution)}`
   end
 
   # Copy the template into the solution's directory
@@ -14,12 +14,12 @@ Euler.register_language('javascript', Class.new do
 
     # Returns the path to the solution
     def file_path solution
-      "#{solution.dir}/#{solution.problem.id}.js"
+      "#{solution.dir}/#{solution.problem.id}.coffee"
     end
 
     # Returns the path to the template
     def template_path
-      "#{File.dirname(__FILE__)}/templates/javascript.js"
+      "#{File.dirname(__FILE__)}/../templates/coffeescript.coffee"
     end
 
 end)
