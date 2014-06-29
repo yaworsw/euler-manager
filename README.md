@@ -10,7 +10,12 @@ Manage [Project Euler](https://projecteuler.net/) problems form the command line
 
 ## Usage
 
-Euler manager has 5 commands:
+Euler manager has 6 commands:
+
+`init` initializes an empty `Eulerfile.rb` in the directory you are currently
+in.
+
+    $ euler init
 
 `new` initializes a solution.  This typically means creating the directory for
 the solution and populating it with some files.
