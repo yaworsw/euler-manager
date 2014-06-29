@@ -125,7 +125,11 @@ command :desc do |c|
   c.description = c.summary
   c.example 'View the for description for problem #1', 'euler desc 1'
   c.action do |args, options|
-    problem_id, language = Euler.params_from_dir_or_args args
+    begin
+      problem_id, language = Euler.params_from_dir_or_args args
+    rescue
+      problem_id = args[0]
+    end
 
     problem = Euler::Problem.find(problem_id)
 
@@ -134,11 +138,15 @@ command :desc do |c|
     puts
     puts problem.content
     puts
-    if problem.has_answer?
-        puts "The solution to this problem is: " + problem.answer.bold
-    else
-      puts "This problem does not have an answer yet.".on_red
-    end
-    puts
+  end
+end
+
+command :init do |c|
+  c.syntax  = 'euler init'
+  c.summary = 'Initialize an Eulerfile.rb in the current directory'
+  c.description = c.summary
+  c.action do
+    file = "#{Dir.pwd}/Eulerfile.rb"
+    FileUtils.touch(file)
   end
 end
