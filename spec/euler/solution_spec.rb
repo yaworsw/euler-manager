@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'digest/sha1'
 
 class EulerLang
   def run solution
@@ -59,7 +60,7 @@ describe Euler::Solution do
 
     solution = Euler::Solution.new(1, 'euler-lang')
     problem  = solution.problem
-    allow(problem).to receive(:answer).and_return('42', '9001')
+    allow(problem).to receive(:answer).and_return(Digest::SHA1.hexdigest('42'), Digest::SHA1.hexdigest('9001'))
 
     solution.correct?.should be_truthy
 
