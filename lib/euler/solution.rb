@@ -1,3 +1,5 @@
+require 'digest/sha1'
+
 module Euler
 
   # This class represents a user created solution to a project Euler problem.
@@ -65,7 +67,7 @@ module Euler
     def test
       expected =  answer
       result   =  run
-      expected == result
+      expected == Digest::SHA1.hexdigest(result)
     end
 
     # Alias for +test+.

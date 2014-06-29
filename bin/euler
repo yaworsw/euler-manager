@@ -43,7 +43,6 @@ command :test do |c|
     puts "Testing #{solution.language} solution to"
     puts "##{problem.id} - #{problem.name}".bold
     puts
-    puts "Expected: " + problem.answer.cyan
     puts "Result:   " + solution.result.cyan
     puts
 
@@ -90,7 +89,6 @@ command :test_all do |c|
       failures.each do |failure|
         puts
         puts "#{failure.problem.to_s} (#{failure.language})".bold
-        puts "Expected: " + failure.problem.answer.cyan
         puts "Result:   " + failure.result.cyan
       end
     end
