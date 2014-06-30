@@ -1,0 +1,29 @@
+---
+:id: 238
+:name: Infinite string tour
+:url: http://projecteuler.net/problem=238
+:content: "<style type=\"text/css\"><![CDATA[\r\ntable.p238 td { padding: 0px 3px
+  0px 3px; }\r\n]]></style>\n\nCreate a sequence of numbers using the \"Blum Blum
+  Shub\" pseudo-random number generator:\n\n<center><table class=\"p238\">\r\n  <tr>\r\n
+  \   <td style=\"text-align:right\">\n<var>s</var><sub>0</sub>\n</td>\r\n    <td>=</td>\r\n
+  \   <td>14025256</td>\r\n  </tr>\n<tr>\r\n    <td>\n<var>s</var><sub><var>n</var>+1</sub>\n</td>\r\n
+  \   <td>=</td>\r\n    <td>\n<var>s</var><sub><var>n</var></sub><sup>2</sup> mod
+  20300713</td>\r\n  </tr>\r\n</table></center>\n\nConcatenate these numbers  <var>s</var><sub>0</sub><var>s</var><sub>1</sub><var>s</var><sub>2</sub>…
+  to create a string <var>w</var> of infinite length.  \n\rThen, <var>w</var> = 14025256741014958470038053646…\n\nFor
+  a positive integer <var>k</var>, if no substring of <var>w</var> exists with a sum
+  of digits equal to <var>k</var>, <var>p</var>(<var>k</var>) is defined to be zero.
+  If at least one substring of <var>w</var> exists with a sum of digits equal to <var>k</var>,
+  we define <var>p</var>(<var>k</var>) = <var>z</var>, where <var>z</var> is the starting
+  position of the earliest such substring.\n\nFor instance:\n\nThe substrings 1, 14,
+  1402, …   \n\rwith respective sums of digits equal to 1, 5, 7, …  \n\rstart at position
+  **1** , hence <var>p</var>(1) = <var>p</var>(5) = <var>p</var>(7) = … =  **1** .\n\nThe
+  substrings 4, 402, 4025, …  \n\rwith respective sums of digits equal to 4, 6, 11,
+  …  \n\rstart at position **2** , hence <var>p</var>(4) = <var>p</var>(6) = <var>p</var>(11) = … = 
+  **2** .\n\nThe substrings 02, 0252, …  \n\rwith respective sums of digits equal
+  to 2, 9, …  \n\rstart at position **3** , hence <var>p</var>(2) = <var>p</var>(9) = … = 
+  **3** .\n\nNote that substring 025 starting at position **3** , has a sum of digits
+  equal to 7, but there was an earlier substring (starting at position **1** ) with
+  a sum of digits equal to 7, so <var>p</var>(7) = 1, _not_ 3.\n\nWe can verify that,
+  for 0 k  ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>3</sup>, ![∑]({{ images_dir
+  }}/symbol_sum.gif) <var>p</var>(<var>k</var>) = 4742.\n\nFind ![∑]({{ images_dir
+  }}/symbol_sum.gif) <var>p</var>(<var>k</var>), for 0 k  ![≤]({{ images_dir }}/symbol_le.gif) 2·10<sup>15</sup>.\n\n"

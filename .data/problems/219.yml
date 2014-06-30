@@ -1,0 +1,14 @@
+---
+:id: 219
+:name: Skew-cost coding
+:url: http://projecteuler.net/problem=219
+:content: "Let A and B be bit strings (sequences of 0's and 1's).  \n\rIf A is equal
+  to the leftmost length(A) bits of B, then A is said to be a prefix of B.  \n\rFor
+  example, 00110 is a prefix of 001101001, but not of 00111 or 100110.\n\nA prefix-free
+  code of size <var>n</var> is a collection of <var>n</var> distinct bit strings such
+  that no string is a prefix of any other. For example, this is a prefix-free code
+  of size 6:\n\n0000, 0001, 001, 01, 10, 11\n\nNow suppose that it costs one penny
+  to transmit a '0' bit, but four pence to transmit a '1'.  \n\rThen the total cost
+  of the prefix-free code shown above is 35 pence, which happens to be the cheapest
+  possible for the skewed pricing scheme in question.  \n\rIn short, we write Cost(6)
+  = 35.\n\nWhat is Cost(10<sup>9</sup>) ?\n\n"

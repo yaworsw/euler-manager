@@ -1,0 +1,11 @@
+---
+:id: 216
+:name: Investigating the primality of numbers of the form 2<var>n</var><sup>2</sup>-1
+:url: http://projecteuler.net/problem=216
+:content: "Consider numbers <var>t</var>(<var>n</var>) of the form <var>t</var>(<var>n</var>)
+  = 2<var>n</var><sup>2</sup>-1 with <var>n</var> ![>]({{ images_dir }}/symbol_gt.gif)
+  1.  \n\rThe first such numbers are 7, 17, 31, 49, 71, 97, 127 and 161.  \n\rIt turns
+  out that only 49 = 7\\*7 and 161 = 7\\*23 are not prime.  \n\rFor <var>n</var> ![≤]({{
+  images_dir }}/symbol_le.gif) 10000 there are 2202 numbers <var>t</var>(<var>n</var>)
+  that are prime.\n\nHow many numbers <var>t</var>(<var>n</var>) are prime for <var>n</var>
+  ![≤]({{ images_dir }}/symbol_le.gif) 50,000,000 ?\n\n"

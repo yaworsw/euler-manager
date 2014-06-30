@@ -1,0 +1,15 @@
+---
+:id: 332
+:name: Spherical triangles
+:url: http://projecteuler.net/problem=332
+:content: "A **spherical triangle** is a figure formed on the surface of a sphere
+  by three **great circular arcs** intersecting pairwise in three vertices.\n\n ![]({{
+  images_dir }}/p_332_spherical.jpg)\n\nLet C(<var>r</var>) be the sphere with the
+  centre (0,0,0) and radius <var>r</var>.  \n\rLet Z(<var>r</var>) be the set of points
+  on the surface of C(<var>r</var>) with integer coordinates.  \n\rLet T(<var>r</var>)
+  be the set of spherical triangles with vertices in Z(<var>r</var>).\rDegenerate
+  spherical triangles, formed by three points on the same great arc, are <u>not</u>
+  included in T(<var>r</var>).  \n\rLet A(<var>r</var>) be the area of the smallest
+  spherical triangle in T(<var>r</var>).\n\nFor example A(14) is 3.294040 rounded
+  to six decimal places.\n\nFind ![]({{ images_dir }}/p_332_sum.gif) A(<var>r</var>).
+  Give your answer rounded to six decimal places.\n\n"

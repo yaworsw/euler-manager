@@ -1,0 +1,21 @@
+---
+:id: 295
+:name: Lenticular holes
+:url: http://projecteuler.net/problem=295
+:content: "We call the convex area enclosed by two circles a _lenticular hole_ if:\n\n-
+  The centres of both circles are on lattice points.\n- The two circles intersect
+  at two distinct lattice points.\n- The interior of the convex area enclosed by both
+  circles does not contain any lattice points.\r\n\nConsider the circles:  \n\rC<sub>0</sub>:
+  <var>x</var><sup>2</sup>+<var>y</var><sup>2</sup>=25  \n\rC<sub>1</sub>: (<var>x</var>+4)<sup>2</sup>+(<var>y</var>-4)<sup>2</sup>=1
+  \ \n\rC<sub>2</sub>: (<var>x</var>-12)<sup>2</sup>+(<var>y</var>-4)<sup>2</sup>=65\n\nThe
+  circles C<sub>0</sub>, C<sub>1</sub> and C<sub>2</sub> are drawn in the picture
+  below.\n\n ![]({{ images_dir }}/p295_lenticular.gif)\n\nC<sub>0</sub> and C<sub>1</sub>
+  form a lenticular hole, as well as C<sub>0</sub> and C<sub>2</sub>.\n\nWe call an
+  ordered pair of positive real numbers (r<sub>1</sub>, r<sub>2</sub>) a _lenticular
+  pair_ if there exist two circles with radii r<sub>1</sub> and r<sub>2</sub> that
+  form a lenticular hole.\rWe can verify that (1, 5) and (5, ![√]({{ images_dir }}/symbol_radic.gif)65)
+  are the lenticular pairs of the example above.\n\nLet L(N) be the number of **distinct**
+  lenticular pairs (r<sub>1</sub>, r<sub>2</sub>) for which 0 ![<]({{ images_dir }}/symbol_lt.gif)
+  r<sub>1</sub> ![≤]({{ images_dir }}/symbol_le.gif) r<sub>2</sub> ![≤]({{ images_dir
+  }}/symbol_le.gif) N.  \n\rWe can verify that L(10) = 30 and L(100) = 3442.\n\nFind
+  L(100 000).\n\n"

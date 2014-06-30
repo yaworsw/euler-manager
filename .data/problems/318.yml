@@ -1,0 +1,32 @@
+---
+:id: 318
+:name: 2011 nines
+:url: http://projecteuler.net/problem=318
+:content: "Consider the real number ![√]({{ images_dir }}/symbol_radic.gif)2+ ![√]({{
+  images_dir }}/symbol_radic.gif)3.  \n\rWhen we calculate the even powers of ![√]({{
+  images_dir }}/symbol_radic.gif)2+ ![√]({{ images_dir }}/symbol_radic.gif)3\rwe get:
+  \ \n\r( ![√]({{ images_dir }}/symbol_radic.gif)2+ ![√]({{ images_dir }}/symbol_radic.gif)3)<sup>2</sup>
+  = 9.898979485566356...  \n\r( ![√]({{ images_dir }}/symbol_radic.gif)2+ ![√]({{
+  images_dir }}/symbol_radic.gif)3)<sup>4</sup> = 97.98979485566356...  \n\r( ![√]({{
+  images_dir }}/symbol_radic.gif)2+ ![√]({{ images_dir }}/symbol_radic.gif)3)<sup>6</sup>
+  = 969.998969071069263...  \n\r( ![√]({{ images_dir }}/symbol_radic.gif)2+ ![√]({{
+  images_dir }}/symbol_radic.gif)3)<sup>8</sup> = 9601.99989585502907...  \n\r( ![√]({{
+  images_dir }}/symbol_radic.gif)2+ ![√]({{ images_dir }}/symbol_radic.gif)3)<sup>10</sup>
+  = 95049.999989479221...  \n\r( ![√]({{ images_dir }}/symbol_radic.gif)2+ ![√]({{
+  images_dir }}/symbol_radic.gif)3)<sup>12</sup> = 940897.9999989371855...  \n\r(
+  ![√]({{ images_dir }}/symbol_radic.gif)2+ ![√]({{ images_dir }}/symbol_radic.gif)3)<sup>14</sup>
+  = 9313929.99999989263...  \n\r( ![√]({{ images_dir }}/symbol_radic.gif)2+ ![√]({{
+  images_dir }}/symbol_radic.gif)3)<sup>16</sup> = 92198401.99999998915...\n\nIt looks
+  like that the number of consecutive nines at the beginning of the fractional part
+  of these powers is non-decreasing.  \n\rIn fact it can be proven that the fractional
+  part of ( ![√]({{ images_dir }}/symbol_radic.gif)2+ ![√]({{ images_dir }}/symbol_radic.gif)3)<sup>2n</sup>
+  approaches 1 for large n.\n\nConsider all real numbers of the form ![√]({{ images_dir
+  }}/symbol_radic.gif)p+ ![√]({{ images_dir }}/symbol_radic.gif)q with p and q positive
+  integers and p ![<]({{ images_dir }}/symbol_lt.gif)q, such that the fractional part
+  \rof ( ![√]({{ images_dir }}/symbol_radic.gif)p+ ![√]({{ images_dir }}/symbol_radic.gif)q)<sup>2n</sup>
+  approaches 1 for large n.\n\nLet C(p,q,n) be the number of consecutive nines at
+  the beginning of the fractional part of   \n ( ![√]({{ images_dir }}/symbol_radic.gif)p+
+  ![√]({{ images_dir }}/symbol_radic.gif)q)<sup>2n</sup>.\n\nLet N(p,q) be the minimal
+  value of n such that C(p,q,n) ![≥]({{ images_dir }}/symbol_ge.gif) 2011.\n\nFind
+  ![∑]({{ images_dir }}/symbol_sum.gif)N(p,q) for p+q ![≤]({{ images_dir }}/symbol_le.gif)
+  2011.\n\n"

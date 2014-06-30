@@ -1,0 +1,24 @@
+---
+:id: 260
+:name: Stone Game
+:url: http://projecteuler.net/problem=260
+:content: "A game is played with three piles of stones and two players.  \n\rAt her
+  turn, a player removes one or more stones from the piles. However, if she takes
+  stones from more than one pile, she must remove the same number of stones from each
+  of the selected piles.\n\nIn other words, the player chooses some N>0 and removes:\n\n-
+  N stones from any single pile; or\n- N stones from each of any two piles (2N total);
+  or\n- N stones from each of the three piles (3N total).\n\rThe player taking the
+  last stone(s) wins the game.\r\r\n\nA _winning configuration_ is one where the first
+  player can force a win.  \n\rFor example, (0,0,13), (0,11,11) and (5,5,5) are winning
+  configurations because the first player can immediately remove all stones.\n\nA
+  _losing configuration_ is one where the second player can force a win, no matter
+  what the first player does.  \n \rFor example, (0,1,2) and (1,3,3) are losing configurations:
+  any legal move leaves a winning configuration for the second player.\n\nConsider
+  all losing configurations (x<sub>i</sub>,y<sub>i</sub>,z<sub>i</sub>) where x<sub>i</sub>
+  ![≤]({{ images_dir }}/symbol_le.gif) y<sub>i</sub> ![≤]({{ images_dir }}/symbol_le.gif)
+  z<sub>i</sub> ![≤]({{ images_dir }}/symbol_le.gif) 100.  \n\rWe can verify that
+  Σ(x<sub>i</sub>+y<sub>i</sub>+z<sub>i</sub>) = 173895 for these.\n\nFind Σ(x<sub>i</sub>+y<sub>i</sub>+z<sub>i</sub>)
+  where (x<sub>i</sub>,y<sub>i</sub>,z<sub>i</sub>) ranges over the losing configurations
+  \ \n\rwith x<sub>i</sub> ![≤]({{ images_dir }}/symbol_le.gif) y<sub>i</sub> ![≤]({{
+  images_dir }}/symbol_le.gif) z<sub>i</sub> ![≤]({{ images_dir }}/symbol_le.gif)
+  1000.\n\n"

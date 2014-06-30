@@ -1,0 +1,7 @@
+---
+:id: 160
+:name: Factorial trailing digits
+:url: http://projecteuler.net/problem=160
+:content: "For any N, let f(N) be the last five digits before the trailing zeroes
+  in N!.  \n\rFor example,\n\n9! = 362880 so f(9)=36288  \n\r10! = 3628800 so f(10)=36288
+  \ \n\r20! = 2432902008176640000 so f(20)=17664\n\nFind f(1,000,000,000,000)\n\n"

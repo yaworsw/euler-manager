@@ -1,0 +1,22 @@
+---
+:id: 74
+:name: Digit factorial chains
+:url: http://projecteuler.net/problem=74
+:content: "The number 145 is well known for the property that the sum of the factorial
+  of its digits is equal to 145:\n\n1! + 4! + 5! = 1 + 24 + 120 = 145\n\nPerhaps less
+  well known is 169, in that it produces the longest chain of numbers that link back
+  to 169; it turns out that there are only three such loops that exist:\n\n169 ![→]({{
+  images_dir }}/symbol_maps.gif) 363601 ![→]({{ images_dir }}/symbol_maps.gif) 1454
+  ![→]({{ images_dir }}/symbol_maps.gif) 169  \n871 ![→]({{ images_dir }}/symbol_maps.gif)
+  45361 ![→]({{ images_dir }}/symbol_maps.gif) 871  \n872 ![→]({{ images_dir }}/symbol_maps.gif)
+  45362 ![→]({{ images_dir }}/symbol_maps.gif) 872\n\nIt is not difficult to prove
+  that EVERY starting number will eventually get stuck in a loop. For example,\n\n69
+  ![→]({{ images_dir }}/symbol_maps.gif) 363600 ![→]({{ images_dir }}/symbol_maps.gif)
+  1454 ![→]({{ images_dir }}/symbol_maps.gif) 169 ![→]({{ images_dir }}/symbol_maps.gif)
+  363601 ( ![→]({{ images_dir }}/symbol_maps.gif) 1454)  \n78 ![→]({{ images_dir }}/symbol_maps.gif)
+  45360 ![→]({{ images_dir }}/symbol_maps.gif) 871 ![→]({{ images_dir }}/symbol_maps.gif)
+  45361 ( ![→]({{ images_dir }}/symbol_maps.gif) 871)  \n540 ![→]({{ images_dir }}/symbol_maps.gif)
+  145 ( ![→]({{ images_dir }}/symbol_maps.gif) 145)\n\nStarting with 69 produces a
+  chain of five non-repeating terms, but the longest non-repeating chain with a starting
+  number below one million is sixty terms.\n\nHow many chains, with a starting number
+  below one million, contain exactly sixty non-repeating terms?\n\n"

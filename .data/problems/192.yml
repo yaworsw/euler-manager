@@ -1,0 +1,18 @@
+---
+:id: 192
+:name: Best Approximations
+:url: http://projecteuler.net/problem=192
+:content: "Let <var>x</var> be a real number.  \n\rA _best approximation_ to <var>x</var>
+  for the _denominator bound_ <var>d</var> is a rational number <var>r</var>/<var>s</var>
+  _in reduced form_, with <var>s</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>d</var>,
+  such that any rational number which is closer to <var>x</var> than <var>r</var>/<var>s</var>
+  has a denominator larger than <var>d</var>:\n\n|<var>p</var>/<var>q</var>-<var>x</var>|
+  ![<]({{ images_dir }}/symbol_lt.gif) |<var>r</var>/<var>s</var>-<var>x</var>| ![⇒]({{
+  images_dir }}/symbol_implies.gif) <var>q</var> ![>]({{ images_dir }}/symbol_gt.gif)
+  <var>d</var>\n\nFor example, the best approximation to ![√]({{ images_dir }}/symbol_radic.gif)13
+  for the denominator bound 20 is 18/5 and the best approximation to ![√]({{ images_dir
+  }}/symbol_radic.gif)13 for the denominator bound 30 is 101/28.\n\nFind the sum of
+  all denominators of the best approximations to ![√]({{ images_dir }}/symbol_radic.gif)<var>n</var>
+  for the denominator bound 10<sup>12</sup>, where <var>n</var> is not a perfect square
+  and 1 ![<]({{ images_dir }}/symbol_lt.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)
+  100000.\n\n"

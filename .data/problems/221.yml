@@ -1,0 +1,13 @@
+---
+:id: 221
+:name: Alexandrian Integers
+:url: http://projecteuler.net/problem=221
+:content: "We shall call a positive integer <var>A</var> an \"Alexandrian integer\",
+  if there exist integers <var>p</var>, <var>q</var>, <var>r</var> such that:\n\n|
+  <var>A</var> = <var>p</var> · <var>q</var> · <var>r</var>    and  \r | \n\n| 1 |\n|
+  <var>A</var> |\n\n | = | \n\n| 1 |\n| <var>p</var> |\n\n | + | \n\n| 1 |\n| <var>q</var>
+  |\n\n | + | \n\n| 1 |\n| <var>r</var> |\n\n |\n\nFor example, 630 is an Alexandrian
+  integer (<var>p</var> = 5, <var>q</var> =  ![−]({{ images_dir }}/symbol_minus.gif)7,
+  <var>r</var> =  ![−]({{ images_dir }}/symbol_minus.gif)18).\rIn fact, 630 is the
+  6<sup>th</sup> Alexandrian integer, the first 6 Alexandrian integers being: 6, 42,
+  120, 156, 420 and 630.\n\nFind the 150000<sup>th</sup> Alexandrian integer.\n\n"

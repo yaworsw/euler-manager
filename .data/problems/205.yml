@@ -1,0 +1,10 @@
+---
+:id: 205
+:name: Dice Game
+:url: http://projecteuler.net/problem=205
+:content: "Peter has nine four-sided (pyramidal) dice, each with faces numbered 1,
+  2, 3, 4.  \n\rColin has six six-sided (cubic) dice, each with faces numbered 1,
+  2, 3, 4, 5, 6.\n\nPeter and Colin roll their dice and compare totals: the highest
+  total wins. The result is a draw if the totals are equal.\n\nWhat is the probability
+  that Pyramidal Pete beats Cubic Colin? Give your answer rounded to seven decimal
+  places in the form 0.abcdefg\n\n"

@@ -1,10 +1,11 @@
 # Initialize the Euler module's configuration to the default values.
 Euler.config do |config|
 
-  data_dir = "#{File.dirname(__FILE__)}/../data"
+  data_dir = "#{File.dirname(__FILE__)}/../.data"
 
   config.answers_file "#{data_dir}/answers.yml"
   config.problems_dir "#{data_dir}/problems"
+  config.images_dir   "#{data_dir}/images"
 
   # The +directory_strategy+ is a Proc which returns the directory assigned to a
   # a given solution.

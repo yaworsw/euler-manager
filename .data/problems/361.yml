@@ -1,0 +1,20 @@
+---
+:id: 361
+:name: Subsequence of Thue-Morse sequence
+:url: http://projecteuler.net/problem=361
+:content: "The **Thue-Morse sequence** {T<sub><var>n</var></sub>} is a binary sequence
+  satisfying:\n\n- T<sub>0</sub> = 0\n- T<sub>2<var>n</var></sub> = T<sub><var>n</var></sub>\n-
+  T<sub>2<var>n</var>+1</sub> = 1 - T<sub><var>n</var></sub>\n\nThe first several
+  terms of {T<sub><var>n</var></sub>} are given as follows:  \n\r01101001100101101001011001101001....\n\nWe
+  define {A<sub><var>n</var></sub>} as the sorted sequence of integers such that the
+  binary expression of each element appears as a subsequence in {T<sub><var>n</var></sub>}.
+  \ \n\rFor example, the decimal number 18 is expressed as 10010 in binary. 10010
+  appears in {T<sub><var>n</var></sub>} (T<sub>8</sub> to T<sub>12</sub>), so 18 is
+  an element of {A<sub><var>n</var></sub>}.  \n\rThe decimal number 14 is expressed
+  as 1110 in binary. 1110 never appears in {T<sub><var>n</var></sub>}, so 14 is not
+  an element of {A<sub><var>n</var></sub>}.\n\nThe first several terms of A<sub><var>n</var></sub>
+  are given as follows:\n\n| <var>n</var> | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+  | 10 | 11 | 12 | … |\n| A<sub><var>n</var></sub> | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 9
+  | 10 | 11 | 12 | 13 | 18 | … |\n\nWe can also verify that A<sub>100</sub> = 3251
+  and A<sub>1000</sub> = 80852364498.\n\nFind the last 9 digits of ![]({{ images_dir
+  }}/p_361_Thue-Morse1.gif).\n\n"

@@ -1,0 +1,10 @@
+---
+:id: 9
+:name: Special Pythagorean triplet
+:url: http://projecteuler.net/problem=9
+:content: "A Pythagorean triplet is a set of three natural numbers, <var>a</var> ![<]({{
+  images_dir }}/symbol_lt.gif) <var>b</var> ![<]({{ images_dir }}/symbol_lt.gif) <var>c</var>,
+  for which,\n\n <var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>c</var><sup>2</sup>\n\nFor
+  example, 3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = 25 = 5<sup>2</sup>.\n\nThere exists
+  exactly one Pythagorean triplet for which <var>a</var> + <var>b</var> + <var>c</var>
+  = 1000.  \nFind the product <var>abc</var>.\n\n"

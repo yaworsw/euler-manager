@@ -1,0 +1,16 @@
+---
+:id: 261
+:name: Pivotal Square Sums
+:url: http://projecteuler.net/problem=261
+:content: "Let us call a positive integer <var>k</var> a <var>square-pivot</var>,
+  if there is a pair of integers <var>m</var> ![>]({{ images_dir }}/symbol_gt.gif)
+  0 and <var>n</var> ![≥]({{ images_dir }}/symbol_ge.gif) <var>k</var>, such that
+  the sum of the (<var>m</var>+1) consecutive squares up to <var>k</var> equals the
+  sum of the <var>m</var> consecutive squares from (<var>n</var>+1) on:\n\n\r(<var>k</var>-<var>m</var>)<sup>2</sup>
+  + ... + <var>k</var><sup>2</sup> = (<var>n</var>+1)<sup>2</sup> + ... + (<var>n</var>+<var>m</var>)<sup>2</sup>.\n\nSome
+  small square-pivots are\n\n- **4** : 3<sup>2</sup> + **4** <sup>2</sup>\r = 5<sup>2</sup>\n-
+  **21** : 20<sup>2</sup> + **21** <sup>2</sup> = 29<sup>2</sup>\n- **24** : 21<sup>2</sup>
+  + 22<sup>2</sup> + 23<sup>2</sup> + **24** <sup>2</sup> = 25<sup>2</sup> + 26<sup>2</sup>
+  + 27<sup>2</sup>\n- **110** : 108<sup>2</sup> + 109<sup>2</sup> + **110** <sup>2</sup>
+  = 133<sup>2</sup> + 134<sup>2</sup>\n\nFind the sum of all **distinct** square-pivots
+  ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>10</sup>.\n\n"

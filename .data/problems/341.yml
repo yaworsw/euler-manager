@@ -1,0 +1,14 @@
+---
+:id: 341
+:name: Golomb's self-describing sequence
+:url: http://projecteuler.net/problem=341
+:content: "The **Golomb's self-describing sequence** {G(<var>n</var>)} is the only
+  nondecreasing sequence of natural numbers such that <var>n</var> appears exactly
+  G(<var>n</var>) times in the sequence. The values of G(<var>n</var>) for the first
+  few <var>n</var> are\n\n| <var>n</var> | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+  | 11 | 12 | 13 | 14 | 15 | … |\n| G(<var>n</var>) | 1 | 2 | 2 | 3 | 3 | 4 | 4 |
+  4 | 5 | 5 | 5 | 6 | 6 | 6 | 6 | … |\n\nYou are given that G(10<sup>3</sup>) = 86,
+  G(10<sup>6</sup>) = 6137.  \n\rYou are also given that ΣG(<var>n</var><sup>3</sup>)
+  = 153506976 for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![<]({{ images_dir
+  }}/symbol_lt.gif) 10<sup>3</sup>.\n\nFind ΣG(<var>n</var><sup>3</sup>) for 1 ![≤]({{
+  images_dir }}/symbol_le.gif) <var>n</var> ![<]({{ images_dir }}/symbol_lt.gif) 10<sup>6</sup>.\n\n"

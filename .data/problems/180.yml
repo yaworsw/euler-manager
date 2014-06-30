@@ -1,0 +1,28 @@
+---
+:id: 180
+:name: Rational zeros of a function of three variables
+:url: http://projecteuler.net/problem=180
+:content: "For any integer <var>n</var>, consider the three functions\n\n<var>f</var><sub>1,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
+  = <var>x</var><sup><var>n</var>+1</sup> + <var>y</var><sup><var>n</var>+1</sup>
+  ![−]({{ images_dir }}/symbol_minus.gif) <var>z</var><sup><var>n</var>+1</sup>  \n<var>f</var><sub>2,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
+  = (<var>xy</var> + <var>yz</var> + <var>zx</var>)\\*(<var>x</var><sup><var>n</var>-1</sup>
+  + <var>y</var><sup><var>n</var>-1</sup> ![−]({{ images_dir }}/symbol_minus.gif)
+  <var>z</var><sup><var>n</var>-1</sup>)  \n<var>f</var><sub>3,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
+  = <var>xyz</var>\\*(<var>x</var><sup><var>n</var>-2</sup> + <var>y</var><sup><var>n</var>-2</sup>
+  ![−]({{ images_dir }}/symbol_minus.gif) <var>z</var><sup><var>n</var>-2</sup>)\n\nand
+  their combination\n\n<var>f</var><sub><var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
+  = <var>f</var><sub>1,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
+  + <var>f</var><sub>2,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
+  ![−]({{ images_dir }}/symbol_minus.gif) <var>f</var><sub>3,<var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)\n\nWe
+  call (<var>x</var>,<var>y</var>,<var>z</var>) a golden triple of order <var>k</var>
+  if <var>x</var>, <var>y</var>, and <var>z</var> are all rational numbers of the
+  form <var>a</var> / <var>b</var> with  \n\r0 ![<]({{ images_dir }}/symbol_lt.gif)
+  <var>a</var> ![<]({{ images_dir }}/symbol_lt.gif) <var>b</var> ![≤]({{ images_dir
+  }}/symbol_le.gif) <var>k</var> and there is (at least) one integer <var>n</var>,
+  so that <var>f</var><sub><var>n</var></sub>(<var>x</var>,<var>y</var>,<var>z</var>)
+  = 0.\n\nLet <var>s</var>(<var>x</var>,<var>y</var>,<var>z</var>) = <var>x</var>
+  + <var>y</var> + <var>z</var>.  \n\rLet <var>t</var> = <var>u</var> / <var>v</var>
+  be the sum of all distinct <var>s</var>(<var>x</var>,<var>y</var>,<var>z</var>)
+  for all golden triples (<var>x</var>,<var>y</var>,<var>z</var>) of order 35.  \n
+  All the <var>s</var>(<var>x</var>,<var>y</var>,<var>z</var>) and <var>t</var> must
+  be in reduced form.\n\nFind <var>u</var> + <var>v</var>.\n\n"

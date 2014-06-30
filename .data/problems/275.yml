@@ -1,0 +1,17 @@
+---
+:id: 275
+:name: Balanced Sculptures
+:url: http://projecteuler.net/problem=275
+:content: "Let us define a _balanced sculpture_ of order <var>n</var> as follows:\n\n-
+  A <dfn title=\"An arrangement of identical squares connected through shared edges;
+  holes are allowed.\">polyomino</dfn> made up of <var>n</var>+1 tiles known as the
+  _blocks_ (<var>n</var> tiles)  \n and the _plinth_ (remaining tile);\n- the plinth
+  has its centre at position (<var>x</var> = 0, <var>y</var> = 0);\n- the blocks have
+  <var>y</var>-coordinates greater than zero (so the plinth is the unique lowest tile);\n-
+  the centre of mass of all the blocks, combined, has <var>x</var>-coordinate equal
+  to zero.\n\nWhen counting the sculptures, any arrangements which are simply reflections
+  about the <var>y</var>-axis, are <u>not</u> counted as distinct. For example, the
+  18 balanced sculptures of order 6 are shown below; note that each pair of mirror
+  images (about the <var>y</var>-axis) is counted as one sculpture:\n\n ![]({{ images_dir
+  }}/p_275_sculptures2.gif)\n\nThere are 964 balanced sculptures of order 10 and 360505
+  of order 15.  \nHow many balanced sculptures are there of order 18?\n\n"

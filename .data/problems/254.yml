@@ -1,0 +1,17 @@
+---
+:id: 254
+:name: Sums of Digit Factorials
+:url: http://projecteuler.net/problem=254
+:content: |+
+  Define f(<var>n</var>) as the sum of the factorials of the digits of <var>n</var>. For example, f(342) = 3! + 4! + 2! = 32.
+
+  Define sf(<var>n</var>) as the sum of the digits of f(<var>n</var>). So sf(342) = 3 + 2 = 5.
+
+  Define g(<var>i</var>) to be the smallest positive integer <var>n</var> such that sf(<var>n</var>) = <var>i</var>. Though sf(342) is 5, sf(25) is also 5, and it can be verified that g(5) is 25.
+
+  Define sg(<var>i</var>) as the sum of the digits of g(<var>i</var>). So sg(5) = 2 + 5 = 7.
+
+  Further, it can be verified that g(20) is 267 and ![∑]({{ images_dir }}/symbol_sum.gif) sg(<var>i</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>i</var> ![≤]({{ images_dir }}/symbol_le.gif) 20 is 156.
+
+  What is ![∑]({{ images_dir }}/symbol_sum.gif) sg(<var>i</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>i</var> ![≤]({{ images_dir }}/symbol_le.gif) 150?
+

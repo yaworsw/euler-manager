@@ -1,0 +1,13 @@
+---
+:id: 304
+:name: Primonacci
+:url: http://projecteuler.net/problem=304
+:content: "For any positive integer <var>n</var> the function next\\_prime(<var>n</var>)
+  returns the smallest prime p   \n such that p ![>]({{ images_dir }}/symbol_gt.gif)<var>n</var>.\n\nThe
+  sequence a(<var>n</var>) is defined by:  \n\ra(1)=next\\_prime(10<sup>14</sup>)
+  and a(<var>n</var>)=next\\_prime(a(<var>n</var>-1)) for n ![>]({{ images_dir }}/symbol_gt.gif)1.\n\nThe
+  fibonacci sequence f(<var>n</var>) is defined by:\rf(0)=0, f(1)=1 and f(<var>n</var>)=f(<var>n</var>-1)+f(<var>n</var>-2)
+  for <var>n</var> ![>]({{ images_dir }}/symbol_gt.gif)1.\n\nThe sequence b(<var>n</var>)
+  is defined as f(a(<var>n</var>)).\n\nFind ![∑]({{ images_dir }}/symbol_sum.gif)b(<var>n</var>)
+  for 1 ![≤]({{ images_dir }}/symbol_le.gif)<var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)100
+  000. \rGive your answer mod 1234567891011.\n\n"

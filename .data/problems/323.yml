@@ -1,0 +1,15 @@
+---
+:id: 323
+:name: Bitwise-OR operations on random integers
+:url: http://projecteuler.net/problem=323
+:content: "Let <var>y</var><sub>0</sub>, <var>y</var><sub>1</sub>, <var>y</var><sub>2</sub>,...
+  be a sequence of random unsigned 32 bit integers  \n\r(i.e. 0 ![≤]({{ images_dir
+  }}/symbol_le.gif) <var>y<sub>i</sub></var> ![<]({{ images_dir }}/symbol_lt.gif)
+  2<sup>32</sup>, every value equally likely).\n\nFor the sequence <var>x<sub>i</sub></var>
+  the following recursion is given:\n\n- <var>x</var><sub>0</sub> = 0 and\n- <var>x<sub>i</sub></var>
+  = <var>x</var><sub><var>i</var>-<i>1</i></sub> **|** <var>y</var><sub><var>i</var>-<i>1</i></sub>,
+  for <var>i</var> ![>]({{ images_dir }}/symbol_gt.gif) 0. ( **|** is the bitwise-OR
+  operator)\n\nIt can be seen that eventually there will be an index N such that <var>x<sub>i</sub></var>
+  = 2<sup>32</sup> -1 (a bit-pattern of all ones) for all <var>i</var> ![≥]({{ images_dir
+  }}/symbol_ge.gif) N.\n\nFind the expected value of N.   \n\rGive your answer rounded
+  to 10 digits after the decimal point.\n\n"

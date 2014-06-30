@@ -1,0 +1,7 @@
+---
+:id: 179
+:name: Consecutive positive divisors
+:url: http://projecteuler.net/problem=179
+:content: |+
+  Find the number of integers 1 ![<]({{ images_dir }}/symbol_lt.gif) n ![<]({{ images_dir }}/symbol_lt.gif) 10<sup>7</sup>, for which <var>n</var> and <var>n</var> + 1 have the same number of positive divisors. For example, 14 has the positive divisors 1, 2, 7, 14 while 15 has 1, 3, 5, 15.
+

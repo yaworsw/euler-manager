@@ -1,0 +1,11 @@
+---
+:id: 393
+:name: Migrating ants
+:url: http://projecteuler.net/problem=393
+:content: "An <var>n</var> ![×]({{ images_dir }}/symbol_times.gif)<var>n</var> grid
+  of squares contains <var>n</var><sup>2</sup> ants, one ant per square.  \n\rAll
+  ants decide to move simultaneously to an adjacent square (usually 4 possibilities,
+  except for ants on the edge of the grid or at the corners).  \n\rWe define <var>f</var>(<var>n</var>)
+  to be the number of ways this can happen without any ants ending on the same square
+  and without any two ants crossing the same edge between two squares.\n\nYou are
+  given that <var>f</var>(4) = 88.  \n\rFind <var>f</var>(10).\n\n"

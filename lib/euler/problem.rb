@@ -13,7 +13,7 @@ module Euler
       Problem.new problem_spec
     end
 
-    attr_reader :id, :name, :url, :content
+    attr_reader :id, :name, :url
 
     # Given a hash with symbol keys initialize the problem using the +:id+,
     # +:name+, +url+, and +:content+ keys.
@@ -22,6 +22,11 @@ module Euler
       @name    = options[:name]
       @url     = options[:url]
       @content = options[:content]
+    end
+
+    # Passing content though an ultra simple template engine before returning it
+    def content
+      @content.gsub(/\{\{\s?images_dir\s?\}\}/, Euler.images_dir)
     end
 
     # Returns true if this problem has an answer.

@@ -1,0 +1,13 @@
+---
+:id: 364
+:name: Comfortable distance
+:url: http://projecteuler.net/problem=364
+:content: "There are <var>N</var> seats in a row. <var>N</var> people come after each
+  other to fill the seats according to the following rules:\n\n1. If there is any
+  seat whose adjacent seat(s) are not occupied take such a seat.\n2. If there is no
+  such seat and there is any seat for which only one adjacent seat is occupied take
+  such a seat.\n3. Otherwise take one of the remaining available seats. \n\rLet T(<var>N</var>)
+  be the number of possibilities that <var>N</var> seats are occupied by <var>N</var>
+  people with the given rules.  \n The following figure shows T(4)=8.\r\r\r\n ![]({{
+  images_dir }}/p_364_comf_dist.gif)\n\nWe can verify that T(10) = 61632 and T(1 000)
+  mod 100 000 007 = 47255094.\n\nFind T(1 000 000) mod 100 000 007.\n\n"

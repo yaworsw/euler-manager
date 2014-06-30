@@ -1,0 +1,23 @@
+---
+:id: 376
+:name: Nontransitive sets of dice
+:url: http://projecteuler.net/problem=376
+:content: "Consider the following set of dice with nonstandard pips:\n\nDie A: 1 4
+  4 4 4 4  \n\rDie B: 2 2 2 5 5 5  \n\rDie C: 3 3 3 3 3 6\n\nA game is played by two
+  players picking a die in turn and rolling it. The player who rolls the highest value
+  wins.\n\nIf the first player picks die A and the second player picks die B we get
+  \ \n\rP(second player wins) = <sup>7</sup>/<sub>12</sub> > <sup>1</sup>/<sub>2</sub>\n\nIf
+  the first player picks die B and the second player picks die C we get  \n\rP(second
+  player wins) = <sup>7</sup>/<sub>12</sub> > <sup>1</sup>/<sub>2</sub>\n\nIf the
+  first player picks die C and the second player picks die A we get  \n\rP(second
+  player wins) = <sup>25</sup>/<sub>36</sub> > <sup>1</sup>/<sub>2</sub>\n\nSo whatever
+  die the first player picks, the second player can pick another die and have a larger
+  than 50% chance of winning.  \n\rA set of dice having this property is called a
+  **nontransitive set of dice** .\n\nWe wish to investigate how many sets of nontransitive
+  dice exist. We will assume the following conditions:\n\n- There are three six-sided
+  dice with each side having between 1 and <var>N</var> pips, inclusive.\n- Dice with
+  the same set of pips are equal, regardless of which side on the die the pips are
+  located.\n- The same pip value may appear on multiple dice; if both players roll
+  the same value neither player wins.\n- The sets of dice {A,B,C}, {B,C,A} and {C,A,B}
+  are the same set.\n\nFor <var>N</var> = 7 we find there are 9780 such sets.  \n\rHow
+  many are there for <var>N</var> = 30 ?\n\n"

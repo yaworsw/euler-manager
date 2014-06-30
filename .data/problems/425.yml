@@ -1,0 +1,14 @@
+---
+:id: 425
+:name: Prime connection
+:url: http://projecteuler.net/problem=425
+:content: "Two positive numbers A and B are said to be _connected_ (denoted by \"A
+  ↔ B\") if one of these conditions holds:  \n\r(1) A and B have the same length and
+  differ in exactly one digit; for example, 123 ↔ 173.  \n\r(2) Adding one digit to
+  the left of A (or B) makes B (or A); for example, 23 ↔ 223 and 123 ↔ 23.\n\nWe call
+  a prime P a _2's relative_ if there exists a chain of connected primes between 2
+  and P and no prime in the chain exceeds P.\n\nFor example, 127 is a 2's relative.
+  One of the possible chains is shown below:  \n\r2 ↔ 3 ↔ 13 ↔ 113 ↔ 103 ↔ 107 ↔ 127
+  \ \n\rHowever, 11 and 103 are not 2's relatives.\n\nLet F(N) be the sum of the primes
+  ![≤]({{ images_dir }}/symbol_le.gif) N which are not 2's relatives.  \n\rWe can
+  verify that F(10<sup>3</sup>) = 431 and F(10<sup>4</sup>) = 78728.\n\nFind F(10<sup>7</sup>).\n\n"

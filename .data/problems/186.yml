@@ -1,0 +1,19 @@
+---
+:id: 186
+:name: Connectedness of a network
+:url: http://projecteuler.net/problem=186
+:content: "Here are the records from a busy telephone system with one million users:\n\n|
+  RecNr | Caller | Called |\n| 1 | 200007 | 100053 |\n| 2 | 600183 | 500439 |\n| 3
+  | 600863 | 701497 |\n| ... | ... | ... |\n\nThe telephone number of the caller and
+  the called number in record n are Caller(n) = S<sub>2n-1</sub> and Called(n) = S<sub>2n</sub>
+  where S<sub>1,2,3,...</sub> come from the \"Lagged Fibonacci Generator\":\n\nFor
+  1 ![≤]({{ images_dir }}/symbol_le.gif) k ![≤]({{ images_dir }}/symbol_le.gif) 55,
+  S<sub>k</sub> = [100003 - 200003k + 300007k<sup>3</sup>] (modulo 1000000)  \n\rFor
+  56 ![≤]({{ images_dir }}/symbol_le.gif) k, S<sub>k</sub> = [S<sub>k-24</sub> + S<sub>k-55</sub>]
+  (modulo 1000000)\n\nIf Caller(n) = Called(n) then the user is assumed to have misdialled
+  and the call fails; otherwise the call is successful.\n\nFrom the start of the records,
+  we say that any pair of users X and Y are friends if X calls Y or vice-versa. Similarly,
+  X is a friend of a friend of Z if X is a friend of Y and Y is a friend of Z; and
+  so on for longer chains.\n\nThe Prime Minister's phone number is 524287. After how
+  many successful calls, not counting misdials, will 99% of the users (including the
+  PM) be a friend, or a friend of a friend etc., of the Prime Minister?\n\n"

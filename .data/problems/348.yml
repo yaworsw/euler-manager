@@ -1,0 +1,11 @@
+---
+:id: 348
+:name: Sum of a square and a cube
+:url: http://projecteuler.net/problem=348
+:content: "Many numbers can be expressed as the sum of a square and a cube. Some of
+  them in more than one way.\n\nConsider the palindromic numbers that can be expressed
+  as the sum of a square and a cube, both greater than 1, in **exactly** 4 different
+  ways.  \n\rFor example, 5229225 is a palindromic number and it can be expressed
+  in exactly 4 different ways:\n\n2285<sup>2</sup> + 20<sup>3</sup>  \n\r2223<sup>2</sup>
+  + 66<sup>3</sup>  \n\r1810<sup>2</sup> + 125<sup>3</sup>  \n\r1197<sup>2</sup> +
+  156<sup>3</sup>\n\nFind the sum of the five smallest such palindromic numbers.\n\n"

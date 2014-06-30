@@ -1,0 +1,14 @@
+---
+:id: 405
+:name: A rectangular tiling
+:url: http://projecteuler.net/problem=405
+:content: "We wish to tile a rectangle whose length is twice its width.  \n\rLet <var>T</var>(0)
+  be the tiling consisting of a single rectangle.  \n\rFor <var>n</var> > 0, let <var>T</var>(<var>n</var>)
+  be obtained from <var>T</var>(<var>n</var>-1) by replacing all tiles in the following
+  manner:\n\n ![]({{ images_dir }}/p_405_tile1.png)\n\nThe following animation demonstrates
+  the tilings <var>T</var>(<var>n</var>) for <var>n</var> from 0 to 5:\n\n ![]({{
+  images_dir }}/p_405_tile2.gif)\n\nLet <var>f</var>(<var>n</var>) be the number of
+  points where four tiles meet in <var>T</var>(<var>n</var>).  \n\rFor example, <var>f</var>(1)
+  = 0, <var>f</var>(4) = 82 and <var>f</var>(10<sup>9</sup>) mod 17<sup>7</sup> =
+  126897180.\n\nFind <var>f</var>(10<sup><var>k</var></sup>) for <var>k</var> = 10<sup>18</sup>,
+  give your answer modulo 17<sup>7</sup>.\n\n"

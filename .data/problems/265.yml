@@ -1,0 +1,14 @@
+---
+:id: 265
+:name: Binary Circles
+:url: http://projecteuler.net/problem=265
+:content: "2<sup>N</sup> binary digits can be placed in a circle so that all the N-digit
+  clockwise subsequences are distinct.\n\nFor N=3, two such circular arrangements
+  are possible, ignoring rotations:\n\n ![]({{ images_dir }}/p_265_BinaryCircles.gif)\n\nFor
+  the first arrangement, the 3-digit subsequences, in clockwise order, are:  \n 000,
+  001, 010, 101, 011, 111, 110 and 100.\n\nEach circular arrangement can be encoded
+  as a number by concatenating the binary digits starting with the subsequence of
+  all zeros as the most significant bits and proceeding clockwise. The two arrangements
+  for N=3 are thus represented as 23 and 29:\n\n00010111 <sub>2</sub> = 23\n\n00011101 <sub>2</sub>
+  = 29\n\nCalling S(N) the sum of the unique numeric representations, we can see that
+  S(3) = 23 + 29 = 52.\n\nFind S(5).\n\n"

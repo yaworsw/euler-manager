@@ -1,0 +1,11 @@
+---
+:id: 208
+:name: Robot Walks
+:url: http://projecteuler.net/problem=208
+:content: "A robot moves in a series of one-fifth circular arcs (72°), with a free
+  choice of a clockwise or an anticlockwise arc for each step, but no turning on the
+  spot.\n\nOne of 70932 possible closed paths of 25 arcs starting northward is\n\n
+  ![]({{ images_dir }}/p_208_robotwalk.gif)\n\nGiven that the robot starts facing
+  North, how many journeys of 70 arcs in length can it take that return it, after
+  the final arc, to its starting position?  \n<!--(Journeys are allowed to return
+  multiple times to the start.)-->\r(Any arc may be traversed multiple times.)\n\n"

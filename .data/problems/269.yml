@@ -1,0 +1,14 @@
+---
+:id: 269
+:name: Polynomials with at least one integer root
+:url: http://projecteuler.net/problem=269
+:content: "A root or zero of a polynomial P(<var>x</var>) is a solution to the equation
+  P(<var>x</var>) = 0.   \n\rDefine P<sub><var>n</var></sub> as the polynomial whose
+  coefficients are the digits of <var>n</var>.  \n\rFor example, P<sub>5703</sub>(<var>x</var>)
+  = 5<var>x</var><sup>3</sup> + 7<var>x</var><sup>2</sup> + 3.\n\nWe can see that:\n\n-
+  P<sub><var>n</var></sub>(0) is the last digit of <var>n</var>,\n- P<sub><var>n</var></sub>(1)
+  is the sum of the digits of <var>n</var>,\n- P<sub><var>n</var></sub>(10) is <var>n</var>
+  itself.\n\nDefine Z(<var>k</var>) as the number of positive integers, <var>n</var>,
+  not exceeding <var>k</var> for which the polynomial P<sub><var>n</var></sub> has
+  at least one integer root.\n\nIt can be verified that Z(100 000) is 14696.\n\nWhat
+  is Z(10<sup>16</sup>)?\n\n"

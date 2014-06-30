@@ -1,0 +1,11 @@
+---
+:id: 187
+:name: Semiprimes
+:url: http://projecteuler.net/problem=187
+:content: "A composite is a number containing at least two prime factors. For example,
+  15 = 3 ![×]({{ images_dir }}/symbol_times.gif) 5; 9 = 3 ![×]({{ images_dir }}/symbol_times.gif)
+  3; 12 = 2 ![×]({{ images_dir }}/symbol_times.gif) 2 ![×]({{ images_dir }}/symbol_times.gif)
+  3.\n\nThere are ten composites below thirty containing precisely two, not necessarily
+  distinct, prime factors:\r4, 6, 9, 10, 14, 15, 21, 22, 25, 26.\n\nHow many composite
+  integers, <var>n</var> ![<]({{ images_dir }}/symbol_lt.gif) 10<sup>8</sup>, have
+  precisely two, not necessarily distinct, prime factors?\n\n"

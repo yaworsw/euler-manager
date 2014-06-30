@@ -1,0 +1,13 @@
+---
+:id: 123
+:name: Prime square remainders
+:url: http://projecteuler.net/problem=123
+:content: |+
+  Let _p_<sub>n</sub> be the _n_th prime: 2, 3, 5, 7, 11, ..., and let _r_ be the remainder when (_p_<sub>n</sub> ![−]({{ images_dir }}/symbol_minus.gif)1)<sup><i>n</i></sup> + (_p_<sub>n</sub>+1)<sup><i>n</i></sup> is divided by _p_<sub>n</sub><sup>2</sup>.
+
+  For example, when _n_ = 3, _p_<sub>3</sub> = 5, and 4<sup>3</sup> + 6<sup>3</sup> = 280 ![≡]({{ images_dir }}/symbol_cong.gif) 5 mod 25.
+
+  The least value of _n_ for which the remainder first exceeds 10<sup>9</sup> is 7037.
+
+  Find the least value of _n_ for which the remainder first exceeds 10<sup>10</sup>.
+

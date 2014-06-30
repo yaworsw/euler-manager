@@ -1,0 +1,10 @@
+---
+:id: 266
+:name: Pseudo Square Root
+:url: http://projecteuler.net/problem=266
+:content: "The divisors of 12 are: 1,2,3,4,6 and 12.  \n\rThe largest divisor of 12
+  that does not exceed the square root of 12 is 3.  \n\rWe shall call the largest
+  divisor of an integer <var>n</var> that does not exceed the square root of <var>n</var>
+  the pseudo square root (PSR) of <var>n</var>.  \n\rIt can be seen that PSR(3102)=47.\n\nLet
+  <var>p</var> be the product of the primes below 190.  \n\rFind PSR(<var>p</var>)
+  mod 10<sup>16</sup>.\n\n"

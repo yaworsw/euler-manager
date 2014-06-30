@@ -1,0 +1,12 @@
+---
+:id: 371
+:name: Licence plates
+:url: http://projecteuler.net/problem=371
+:content: "Oregon licence plates consist of three letters followed by a three digit
+  number (each digit can be from [0..9]).  \n\rWhile driving to work Seth plays the
+  following game:  \n\rWhenever the numbers of two licence plates seen on his trip
+  add to 1000 that's a win.\n\nE.g. MIC-012 and HAN-988 is a win and RYU-500 and SET-500
+  too. (as long as he sees them in the same trip).\n\nFind the expected number of
+  plates he needs to see for a win.  \n\rGive your answer rounded to 8 decimal places
+  behind the decimal point.\n\n**Note:** We assume that each licence plate seen is
+  equally likely to have any three digit number on it.\n\n"

@@ -1,9 +1,0 @@
----
-:id: 235
-:name: An Arithmetic Geometric sequence
-:url: http://projecteuler.net/problem=235
-:content: "\r\n<p>\r\nGiven is the arithmetic-geometric sequence u(<var>k</var>) =
-  (900-3<var>k</var>)<var>r</var><sup><var>k</var>-1</sup>.<br>\r\nLet s(<var>n</var>)
-  = Σ<sub><var>k</var>=1...<var>n</var></sub>u(<var>k</var>).\r\n</p>\r\n<p>\r\nFind
-  the value of <var>r</var> for which s(5000) = -600,000,000,000.\r\n</p>\r\n<p>\r\nGive
-  your answer rounded to 12 places behind the decimal point.\r\n</p>\r\n\r\n\r\n\r\n"

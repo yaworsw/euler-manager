@@ -1,0 +1,7 @@
+---
+:id: 142
+:name: Perfect Square Collection
+:url: http://projecteuler.net/problem=142
+:content: |+
+  Find the smallest x + y + z with integers x ![>]({{ images_dir }}/symbol_gt.gif) y ![>]({{ images_dir }}/symbol_gt.gif) z ![>]({{ images_dir }}/symbol_gt.gif) 0 such that x + y, x ![−]({{ images_dir }}/symbol_minus.gif) y, x + z, x ![−]({{ images_dir }}/symbol_minus.gif) z, y + z, y ![−]({{ images_dir }}/symbol_minus.gif) z are all perfect squares.
+

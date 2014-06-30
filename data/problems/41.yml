@@ -1,8 +1,0 @@
----
-:id: 41
-:name: Pandigital prime
-:url: http://projecteuler.net/problem=41
-:content: "\r\n\n<p>We shall say that an <i>n</i>-digit number is pandigital if it
-  makes use of all the digits 1 to <i>n</i> exactly once. For example, 2143 is a 4-digit
-  pandigital and is also prime.</p>\n<p>What is the largest <i>n</i>-digit pandigital
-  prime that exists?</p>\n\r\n"

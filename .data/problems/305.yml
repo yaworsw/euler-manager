@@ -1,0 +1,11 @@
+---
+:id: 305
+:name: Reflexive Position
+:url: http://projecteuler.net/problem=305
+:content: "Let's call S the (infinite) string that is made by concatenating the consecutive
+  positive integers (starting from 1) written down in base 10.  \n \rThus, S = 1234567891011121314151617181920212223242...\n\nIt's
+  easy to see that any number will show up an infinite number of times in S.\n\nLet's
+  call f(n) the starting position of the n<sup>th</sup> occurrence of n in S.  \n
+  \rFor example, f(1)=1, f(5)=81, f(12)=271 and f(7780)=111111365.\n\nFind ![∑]({{
+  images_dir }}/symbol_sum.gif)f(3<sup>k</sup>) for 1 ![≤]({{ images_dir }}/symbol_le.gif)k
+  ![≤]({{ images_dir }}/symbol_le.gif)13.\n\n"

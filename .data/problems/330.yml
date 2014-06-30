@@ -1,0 +1,20 @@
+---
+:id: 330
+:name: Euler's Number
+:url: http://projecteuler.net/problem=330
+:content: "\rAn infinite sequence of real numbers <var>a</var>(<var>n</var>) is defined
+  for all integers <var>n</var> as follows:\r\n ![]({{ images_dir }}/p_330_formula.gif)\n\nFor
+  example,\n\n| <var>a</var>(0) = | \n\n| 1 |\n| 1! |\n\n | + | \n\n| 1 |\n| 2! |\n\n
+  | + | \n\n| 1 |\n| 3! |\n\n | + ... = e ![−]({{ images_dir }}/symbol_minus.gif)
+  1 |\n\n| <var>a</var>(1) = | \n\n| e ![−]({{ images_dir }}/symbol_minus.gif) 1 |\n|
+  1! |\n\n | + | \n\n| 1 |\n| 2! |\n\n | + | \n\n| 1 |\n| 3! |\n\n | + ... = 2e ![−]({{
+  images_dir }}/symbol_minus.gif) 3 |\n\n| <var>a</var>(2) = | \n\n| 2e ![−]({{ images_dir
+  }}/symbol_minus.gif) 3 |\n| 1! |\n\n | + | \n\n| e ![−]({{ images_dir }}/symbol_minus.gif)
+  1 |\n| 2! |\n\n | + | \n\n| 1 |\n| 3! |\n\n | + ... = | \n\n| 7 |\n| 2 |\n\n | e
+  ![−]({{ images_dir }}/symbol_minus.gif) 6 |\n\n\rwith e = 2.7182818... being Euler's
+  constant.\r\r\n\n| It can be shown that <var>a</var>(<var>n</var>) is of the form
+  \r | \n\n| A(<var>n</var>) e + B(<var>n</var>) |\n| <var>n</var>! |\n\n | for integers
+  A(<var>n</var>) and B(<var>n</var>). \r |\n\n| For example <var>a</var>(10) = \r
+  | \n\n| 328161643 e ![−]({{ images_dir }}/symbol_minus.gif) 652694486 |\n| 10! |\n\n
+  | . |\n\nFind A(10<sup>9</sup>) + B(10<sup>9</sup>) and give your answer mod 77
+  777 777.\n\n"

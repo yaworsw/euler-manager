@@ -1,0 +1,15 @@
+---
+:id: 138
+:name: Special isosceles triangles
+:url: http://projecteuler.net/problem=138
+:content: |+
+  Consider the isosceles triangle with base length, _b_ = 16, and legs, L = 17.
+
+   ![]({{ images_dir }}/p_138.gif)
+
+  By using the Pythagorean theorem it can be seen that the height of the triangle, _h_ = ![√]({{ images_dir }}/symbol_radic.gif)(17<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) 8<sup>2</sup>) = 15, which is one less than the base length.
+
+  With _b_ = 272 and L = 305, we get _h_ = 273, which is one more than the base length, and this is the second smallest isosceles triangle with the property that _h_ = _b_ ![±]({{ images_dir }}/symbol_plusmn.gif) 1.
+
+  Find ![∑]({{ images_dir }}/symbol_sum.gif) L for the twelve smallest isosceles triangles for which _h_ = _b_ ![±]({{ images_dir }}/symbol_plusmn.gif) 1 and _b_, L are positive integers.
+

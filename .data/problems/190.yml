@@ -1,0 +1,11 @@
+---
+:id: 190
+:name: Maximising a weighted product
+:url: http://projecteuler.net/problem=190
+:content: |+
+  Let S<sub>m</sub> = (x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>m</sub>) be the m-tuple of positive real numbers with x<sub>1</sub> + x<sub>2</sub> + ... + x<sub>m</sub> = m for which P<sub>m</sub> = x<sub>1</sub> \* x<sub>2</sub><sup>2</sup> \* ... \* x<sub>m</sub><sup>m</sup> is maximised.
+
+  For example, it can be verified that [P<sub>10</sub>] = 4112 ([] is the integer part function).
+
+  Find Σ[P<sub>m</sub>] for 2 ![≤]({{ images_dir }}/symbol_le.gif) m ![≤]({{ images_dir }}/symbol_le.gif) 15.
+

@@ -1,0 +1,22 @@
+---
+:id: 229
+:name: Four Representations using Squares
+:url: http://projecteuler.net/problem=229
+:content: "Consider the number 3600. It is very special, because\n\n\r3600 = 48<sup>2</sup>
+  +     36<sup>2</sup>  \n  \n  \n\r3600 = 20<sup>2</sup> + 2 ![×]({{ images_dir }}/symbol_times.gif)40<sup>2</sup>
+  \ \n  \n  \n\r3600 = 30<sup>2</sup> + 3 ![×]({{ images_dir }}/symbol_times.gif)30<sup>2</sup>
+  \ \n  \n  \n\r3600 = 45<sup>2</sup> + 7 ![×]({{ images_dir }}/symbol_times.gif)15<sup>2</sup>
+  \ \n  \n  \n\nSimilarly, we find that 88201 = 99<sup>2</sup> + 280<sup>2</sup> =
+  287<sup>2</sup> + 2 ![×]({{ images_dir }}/symbol_times.gif)54<sup>2</sup> = 283<sup>2</sup>
+  + 3 ![×]({{ images_dir }}/symbol_times.gif)52<sup>2</sup> = 197<sup>2</sup> + 7
+  ![×]({{ images_dir }}/symbol_times.gif)84<sup>2</sup>.\n\nIn 1747, Euler proved
+  which numbers are representable as a sum of two squares.\rWe are interested in the
+  numbers <var>n</var> which admit representations of all of the following four types:\n\n<var>n</var>
+  = <var>a<sub>1</sub></var><sup>2</sup> +   <var>b<sub>1</sub></var><sup>2</sup>
+  \ \n  \n  \n<var>n</var> = <var>a<sub>2</sub></var><sup>2</sup> + 2 <var>b<sub>2</sub></var><sup>2</sup>
+  \ \n  \n  \n<var>n</var> = <var>a<sub>3</sub></var><sup>2</sup> + 3 <var>b<sub>3</sub></var><sup>2</sup>
+  \ \n  \n  \n<var>n</var> = <var>a<sub>7</sub></var><sup>2</sup> + 7 <var>b<sub>7</sub></var><sup>2</sup>,\r\n\nwhere
+  the <var>a</var><sub><var>k</var></sub> and <var>b</var><sub><var>k</var></sub>
+  are positive integers.\n\nThere are 75373 such numbers that do not exceed 10<sup>7</sup>.
+  \ \n\r\rHow many such numbers are there that do not exceed 2 ![×]({{ images_dir
+  }}/symbol_times.gif)10<sup>9</sup>?\n\n"

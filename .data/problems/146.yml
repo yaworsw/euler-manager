@@ -1,0 +1,9 @@
+---
+:id: 146
+:name: Investigating a Prime Pattern
+:url: http://projecteuler.net/problem=146
+:content: |+
+  The smallest positive integer _n_ for which the numbers _n_<sup>2</sup>+1, _n_<sup>2</sup>+3, _n_<sup>2</sup>+7, _n_<sup>2</sup>+9, _n_<sup>2</sup>+13, and _n_<sup>2</sup>+27 are consecutive primes is 10. The sum of all such integers _n_ below one-million is 1242490.
+
+  What is the sum of all such integers _n_ below 150 million?
+

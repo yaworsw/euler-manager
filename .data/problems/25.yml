@@ -1,0 +1,16 @@
+---
+:id: 25
+:name: 1000-digit Fibonacci number
+:url: http://projecteuler.net/problem=25
+:content: "The Fibonacci sequence is defined by the recurrence relation:\n\n> F<sub><i>n</i></sub>
+  = F<sub><i>n</i><img src=\"%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif\" width=\"9\"
+  height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">1</sub> + F<sub><i>n</i><img
+  src=\"%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\"
+  border=\"0\" style=\"vertical-align:middle;\">2</sub>, where F<sub>1</sub> = 1 and
+  F<sub>2</sub> = 1.\n\nHence the first 12 terms will be:\n\n> F<sub>1</sub> = 1  \n>
+  \rF<sub>2</sub> = 1  \n> \rF<sub>3</sub> = 2  \n> \rF<sub>4</sub> = 3  \n> \rF<sub>5</sub>
+  = 5  \n> \rF<sub>6</sub> = 8  \n> \rF<sub>7</sub> = 13  \n> \rF<sub>8</sub> = 21
+  \ \n> \rF<sub>9</sub> = 34  \n> \rF<sub>10</sub> = 55  \n> \rF<sub>11</sub> = 89
+  \ \n> \rF<sub>12</sub> = 144\n\nThe 12th term, F<sub>12</sub>, is the first term
+  to contain three digits.\n\nWhat is the first term in the Fibonacci sequence to
+  contain 1000 digits?\n\n"

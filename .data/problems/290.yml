@@ -1,0 +1,7 @@
+---
+:id: 290
+:name: Digital Signature
+:url: http://projecteuler.net/problem=290
+:content: |+
+  How many integers 0 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> &lt 10<sup>18</sup> have the property that the sum of the digits of <var>n</var> equals the sum of digits of 137<var>n</var>?
+

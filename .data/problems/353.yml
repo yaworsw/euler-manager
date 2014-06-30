@@ -1,0 +1,21 @@
+---
+:id: 353
+:name: Risky moon
+:url: http://projecteuler.net/problem=353
+:content: |+
+  A moon could be described by the sphere C(<var>r</var>) with centre (0,0,0) and radius <var>r</var>.
+
+  There are stations on the moon at the points on the surface of C(<var>r</var>) with integer coordinates. The station at (0,0,<var>r</var>) is called North Pole station, the station at (0,0,-<var>r</var>) is called South Pole station.
+
+  All stations are connected with each other via the shortest road on the great arc through the stations. A journey between two stations is risky. If <var>d</var> is the length of the road between two stations, (<var>d</var>/(π <var>r</var>))<sup>2</sup> is a measure for the risk of the journey (let us call it the risk of the road). If the journey includes more than two stations, the risk of the journey is the sum of risks of the used roads.
+
+  A direct journey from the North Pole station to the South Pole station has the length π<var>r</var> and risk 1. The journey from the North Pole station to the South Pole station via (0,<var>r</var>,0) has the same length, but a smaller risk: (½π<var>r</var>/(π<var>r</var>))<sup>2</sup>+(½π<var>r</var>/(π<var>r</var>))<sup>2</sup>=0.5.
+
+  The minimal risk of a journey from the North Pole station to the South Pole station on C(<var>r</var>) is M(<var>r</var>).
+
+  You are given that M(7)=0.1784943998 rounded to 10 digits behind the decimal point.
+
+  Find ![∑]({{ images_dir }}/symbol_sum.gif)M(2<sup>n</sup>-1) for 1 ![≤]({{ images_dir }}/symbol_le.gif)n ![≤]({{ images_dir }}/symbol_le.gif)15.
+
+  Give your answer rounded to 10 digits behind the decimal point in the form a.bcdefghijk.
+

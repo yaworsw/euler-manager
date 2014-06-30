@@ -1,0 +1,14 @@
+---
+:id: 408
+:name: Admissible paths through a grid
+:url: http://projecteuler.net/problem=408
+:content: "Let's call a lattice point (<var>x</var>, <var>y</var>) _inadmissible_
+  if <var>x</var>, <var>y</var> and <var>x</var> + <var>y</var> are all positive perfect
+  squares.  \n\rFor example, (9, 16) is inadmissible, while (0, 4), (3, 1) and (9,
+  4) are not.\n\nConsider a path from point (<var>x</var><sub>1</sub>, <var>y</var><sub>1</sub>)
+  to point (<var>x</var><sub>2</sub>, <var>y</var><sub>2</sub>) using only unit steps
+  north or east.  \n\rLet's call such a path _admissible_ if none of its intermediate
+  points are inadmissible.\n\nLet P(<var>n</var>) be the number of admissible paths
+  from (0, 0) to (<var>n</var>, <var>n</var>).  \n\rIt can be verified that P(5) =
+  252, P(16) = 596994440 and P(1000) mod 1 000 000 007 = 341920854.\n\nFind P(10 000 000)
+  mod 1 000 000 007.\n\n"

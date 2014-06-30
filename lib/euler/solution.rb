@@ -17,7 +17,7 @@ module Euler
     # initialize the instance.
     def initialize problem, language
       if problem.is_a?(Problem)
-        @problem    = problems
+        @problem = problem
       else
         @problem_id = problem
       end

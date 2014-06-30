@@ -1,0 +1,12 @@
+---
+:id: 389
+:name: Platonic Dice
+:url: http://projecteuler.net/problem=389
+:content: "An unbiased single 4-sided die is thrown and its value, <var>T</var>, is
+  noted.  \n<var>T</var> unbiased 6-sided dice are thrown and their scores are added
+  together. The sum, <var>C</var>, is noted.  \n<var>C</var> unbiased 8-sided dice
+  are thrown and their scores are added together. The sum, <var>O</var>, is noted.
+  \ \n<var>O</var> unbiased 12-sided dice are thrown and their scores are added together.
+  The sum, <var>D</var>, is noted.  \n<var>D</var> unbiased 20-sided dice are thrown
+  and their scores are added together. The sum, <var>I</var>, is noted.  \n\rFind
+  the variance of <var>I</var>, and give your answer rounded to 4 decimal places.\n\n"

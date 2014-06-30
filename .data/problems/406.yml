@@ -1,0 +1,38 @@
+---
+:id: 406
+:name: Guessing Game
+:url: http://projecteuler.net/problem=406
+:content: "We are trying to find a hidden number selected from the set of integers
+  {1, 2, ..., <var>n</var>} by asking questions. \rEach number (question) we ask,
+  we get one of three possible answers:\n\n- \"Your guess is lower than the hidden
+  number\" (and you incur a cost of <var>a</var>), or\n- \"Your guess is higher than
+  the hidden number\" (and you incur a cost of <var>b</var>), or\n- \"Yes, that's
+  it!\" (and the game ends).\n\nGiven the value of <var>n</var>, <var>a</var>, and
+  <var>b</var>, an _optimal strategy_ minimizes the total cost <u>for the worst possible
+  case</u>.\n\nFor example, if <var>n</var> = 5, <var>a</var> = 2, and <var>b</var>
+  = 3, then we may begin by asking \" **2** \" as our first question.\n\nIf we are
+  told that 2 is higher than the hidden number (for a cost of <var>b</var>=3), then
+  we are sure that \" **1** \" is the hidden number (for a total cost of **3** ).
+  \ \n\rIf we are told that 2 is lower than the hidden number (for a cost of <var>a</var>=2),
+  then our next question will be \" **4** \".  \n\rIf we are told that 4 is higher
+  than the hidden number (for a cost of <var>b</var>=3), then we are sure that \"
+  **3** \" is the hidden number (for a total cost of 2+3= **5** ).  \n\rIf we are
+  told that 4 is lower than the hidden number (for a cost of <var>a</var>=2), then
+  we are sure that \" **5** \" is the hidden number (for a total cost of 2+2= **4**
+  ).  \n\rThus, the worst-case cost achieved by this strategy is **5** . It can also
+  be shown that this is the lowest worst-case cost that can be achieved. \rSo, in
+  fact, we have just described an optimal strategy for the given values of <var>n</var>,
+  <var>a</var>, and <var>b</var>.\n\nLet C(<var>n</var>, <var>a</var>, <var>b</var>)
+  be the worst-case cost achieved by an optimal strategy for the given values of <var>n</var>,
+  <var>a</var>, and <var>b</var>.\n\nHere are a few examples:  \n\rC(5, 2, 3) = 5
+  \ \n\rC(500, ![√]({{ images_dir }}/symbol_radic.gif)2, ![√]({{ images_dir }}/symbol_radic.gif)3)
+  = 13.22073197...  \n\rC(20000, 5, 7) = 82  \n\rC(2000000, ![√]({{ images_dir }}/symbol_radic.gif)5,
+  ![√]({{ images_dir }}/symbol_radic.gif)7) = 49.63755955...\n\nLet F<sub><var>k</var></sub>
+  be the Fibonacci numbers: F<sub><var>k</var></sub> = F<sub><var>k</var>-1</sub>
+  + F<sub><var>k</var>-2</sub> with base cases F<sub>1</sub> = F<sub>2</sub> = 1.
+  \ \nFind ![∑]({{ images_dir }}/symbol_sum.gif)<sub>1<img src=\"%7B%7B%20images_dir%20%7D%7D/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>k</var><img
+  src=\"%7B%7B%20images_dir%20%7D%7D/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
+  border=\"0\" style=\"vertical-align:middle;\">30</sub> C(10<sup>12</sup>, ![√]({{
+  images_dir }}/symbol_radic.gif)<var>k</var>, ![√]({{ images_dir }}/symbol_radic.gif)F<sub><var>k</var></sub>),
+  and give your answer rounded to 8 decimal places behind the decimal point.\n\n"

@@ -1,0 +1,15 @@
+---
+:id: 209
+:name: Circular Logic
+:url: http://projecteuler.net/problem=209
+:content: "A <var>k</var>-input _binary truth table_ is a map from <var>k</var> input
+  bits\r(binary digits, 0 [false] or 1 [true]) to 1 output bit. For example, the 2-input
+  binary truth tables for the logical AND and XOR functions are:\n\n| <var>x</var>
+  | <var>y</var> | <var>x</var> AND <var>y</var> |\n| 0 | 0 | 0 |\n| 0 | 1 | 0 |\n|
+  1 | 0 | 0 |\n| 1 | 1 | 1 |\n\n| <var>x</var> | <var>y</var> | <var>x</var> XOR <var>y</var>
+  |\n| 0 | 0 | 0 |\n| 0 | 1 | 1 |\n| 1 | 0 | 1 |\n| 1 | 1 | 0 |\n\n  \n  \n\nHow many
+  6-input binary truth tables, τ, satisfy the formula\n\n\rτ(<var>a</var>, <var>b</var>,
+  <var>c</var>, <var>d</var>, <var>e</var>, <var>f</var>) AND τ(<var>b</var>, <var>c</var>,
+  <var>d</var>, <var>e</var>, <var>f</var>, <var>a</var> XOR (<var>b</var> AND <var>c</var>))
+  = 0\r\n  \n  \n\nfor all 6-bit inputs (<var>a</var>, <var>b</var>, <var>c</var>,
+  <var>d</var>, <var>e</var>, <var>f</var>)?\n\n"

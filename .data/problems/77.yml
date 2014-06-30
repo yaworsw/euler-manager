@@ -1,0 +1,8 @@
+---
+:id: 77
+:name: Prime summations
+:url: http://projecteuler.net/problem=77
+:content: "It is possible to write ten as the sum of primes in exactly five different
+  ways:\n\n7 + 3  \n5 + 5  \n5 + 3 + 2  \n3 + 3 + 2 + 2  \n2 + 2 + 2 + 2 + 2\n\nWhat
+  is the first value which can be written as the sum of primes in over five thousand
+  different ways?\n\n"

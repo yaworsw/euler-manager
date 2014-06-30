@@ -1,0 +1,40 @@
+---
+:id: 153
+:name: Investigating Gaussian Integers
+:url: http://projecteuler.net/problem=153
+:content: "As we all know the equation <var>x</var><sup>2</sup>=-1 has no solutions
+  for real <var>x</var>.\r  \n\rIf we however introduce the imaginary number <var>i</var>
+  this equation has two solutions: <var>x=i</var> and <var>x=-i</var>.\r  \n\rIf we
+  go a step further the equation (<var>x</var>-3)<sup>2</sup>=-4 has two complex solutions:
+  <var>x</var>=3+2<var>i</var> and <var>x</var>=3-2<var>i</var>.\r  \n<var>x</var>=3+2<var>i</var>
+  and <var>x</var>=3-2<var>i</var> are called each others' complex conjugate.\r  \n\rNumbers
+  of the form <var>a</var>+<var>bi</var> are called complex numbers.\r  \n\rIn general
+  <var>a</var>+<var>bi</var> and <var>a</var> ![−]({{ images_dir }}/symbol_minus.gif)<var>bi</var>
+  are each other's complex conjugate.\n\nA Gaussian Integer is a complex number <var>a</var>+<var>bi</var>
+  such that both <var>a</var> and <var>b</var> are integers.\r  \n\rThe regular integers
+  are also Gaussian integers (with <var>b</var>=0).\r  \n\rTo distinguish them from
+  Gaussian integers with <var>b</var> ![≠]({{ images_dir }}/symbol_ne.gif) 0 we call
+  such integers \"rational integers.\"\r  \n\rA Gaussian integer is called a divisor
+  of a rational integer <var>n</var> if the result is also a Gaussian integer.\r  \n\rIf
+  for example we divide 5 by 1+2<var>i</var> we can simplify ![]({{ images_dir }}/p_153_formule1.gif)
+  in the following manner:\r  \n\rMultiply numerator and denominator by the complex
+  conjugate of 1+2<var>i</var>: 1 ![−]({{ images_dir }}/symbol_minus.gif)2<var>i</var>.\r
+  \ \n\rThe result is \r ![]({{ images_dir }}/p_153_formule2.gif).\r  \n\rSo 1+2<var>i</var>
+  is a divisor of 5.\r  \n\rNote that 1+<var>i</var> is not a divisor of 5 because
+  ![]({{ images_dir }}/p_153_formule5.gif).\r  \n\rNote also that if the Gaussian
+  Integer (<var>a</var>+<var>bi</var>) is a divisor of a rational integer <var>n</var>,
+  then its complex conjugate (<var>a</var> ![−]({{ images_dir }}/symbol_minus.gif)<var>bi</var>)
+  is also a divisor of <var>n</var>.\n\nIn fact, 5 has six divisors such that the
+  real part is positive: {1, 1 + 2<var>i</var>, 1 ![−]({{ images_dir }}/symbol_minus.gif)
+  2<var>i</var>, 2 + <var>i</var>, 2 ![−]({{ images_dir }}/symbol_minus.gif) <var>i</var>,
+  5}.\r  \n\rThe following is a table of all of the divisors for the first five positive
+  rational integers:\n\n| <var>n</var> | Gaussian integer divisors  \n\rwith positive
+  real part | Sum s(<var>n</var>) of   \nthese\r\rdivisors |\n| 1 | 1 | 1 |\n| 2 |
+  1, 1+<var>i</var>, 1-<var>i</var>, 2 | 5 |\n| 3 | 1, 3 | 4 |\n| 4 | 1, 1+<var>i</var>,
+  1-<var>i</var>, 2, 2+2<var>i</var>, 2-2<var>i</var>,4 | 13 |\n| 5 | 1, 1+2<var>i</var>,
+  1-2<var>i</var>, 2+<var>i</var>, 2-<var>i</var>, 5 | 12 |\n\nFor divisors with positive
+  real parts, then, we have: ![]({{ images_dir }}/p_153_formule6.gif).\n\nFor 1 ![≤]({{
+  images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>5</sup>,
+  ![∑]({{ images_dir }}/symbol_sum.gif) s(<var>n</var>)=17924657155.\n\nWhat is ![∑]({{
+  images_dir }}/symbol_sum.gif) s(<var>n</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif)
+  <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>8</sup>?\n\n"

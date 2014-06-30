@@ -1,0 +1,9 @@
+---
+:id: 276
+:name: Primitive Triangles
+:url: http://projecteuler.net/problem=276
+:content: "Consider the triangles with integer sides a, b and c with a ![≤]({{ images_dir
+  }}/symbol_le.gif) b ![≤]({{ images_dir }}/symbol_le.gif) c.  \n\rAn integer sided
+  triangle (a,b,c) is called primitive if <dfn title=\" gcd(a,b,c)=gcd(a,gcd(b,c))\">
+  gcd(a,b,c)</dfn>=1.   \n\rHow many primitive integer sided triangles exist with
+  a perimeter not exceeding 10 000 000?\n\n"

@@ -1,0 +1,19 @@
+---
+:id: 220
+:name: Heighway Dragon
+:url: http://projecteuler.net/problem=220
+:content: "Let **_D_** <sub>0</sub> be the two-letter string \"Fa\". For n ![≥]({{
+  images_dir }}/symbol_ge.gif)1, derive **_D_** <sub>n</sub> from **_D_** <sub>n-1</sub>
+  by the string-rewriting rules:\n\n\"a\" ![→]({{ images_dir }}/symbol_maps.gif) \"aRbFR\"
+  \ \n\r\"b\" ![→]({{ images_dir }}/symbol_maps.gif) \"LFaLb\"\n\nThus, **_D_** <sub>0</sub>
+  = \"Fa\", **_D_** <sub>1</sub> = \"FaRbFR\", **_D_** <sub>2</sub> = \"FaRbFRRLFaLbFR\",
+  and so on.\n\nThese strings can be interpreted as instructions to a computer graphics
+  program, with \"F\" meaning \"draw forward one unit\", \"L\" meaning \"turn left
+  90 degrees\", \"R\" meaning \"turn right 90 degrees\", and \"a\" and \"b\" being
+  ignored. The initial position of the computer cursor is (0,0), pointing up towards
+  (0,1).\n\nThen **_D_** <sub>n</sub> is an exotic drawing known as the _Heighway
+  Dragon_ of order _n_. For example, **_D_** <sub>10</sub> is shown below; counting
+  each \"F\" as one step, the highlighted spot at (18,16) is the position reached
+  after 500 steps.\n\n ![]({{ images_dir }}/p_220.gif)\n\nWhat is the position of
+  the cursor after 10<sup>12</sup> steps in **_D_** <sub>50</sub> ?  \n\rGive your
+  answer in the form _x_,_y_ with no spaces.\n\n"

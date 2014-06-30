@@ -1,0 +1,30 @@
+---
+:id: 96
+:name: Su Doku
+:url: http://projecteuler.net/problem=96
+:content: "Su Doku (Japanese meaning _number place_) is the name given to a popular
+  puzzle concept. Its origin is unclear, but credit must be attributed to Leonhard
+  Euler who invented a similar, and much more difficult, puzzle idea called Latin
+  Squares. The objective of Su Doku puzzles, however, is to replace the blanks (or
+  zeros) in a 9 by 9 grid in such that each row, column, and 3 by 3 box contains each
+  of the digits 1 to 9. Below is an example of a typical starting puzzle grid and
+  its solution grid.\n\n| \n\n| 0 0 3  \n9 0 0  \n0 0 1 | 0 2 0  \n3 0 5  \n8 0 6
+  | 6 0 0  \n0 0 1  \n4 0 0 |\n| 0 0 8  \n7 0 0  \n0 0 6 | 1 0 2  \n0 0 0  \n7 0 8
+  | 9 0 0  \n0 0 8  \n2 0 0 |\n| 0 0 2  \n8 0 0  \n0 0 5 | 6 0 9  \n2 0 3  \n0 1 0
+  | 5 0 0  \n0 0 9  \n3 0 0 |\n\n | ![]({{ images_dir }}/spacer.gif)  \n | \n\n| 4
+  8 3  \n9 6 7  \n2 5 1 | 9 2 1  \n3 4 5  \n8 7 6 | 6 5 7  \n8 2 1  \n4 9 3 |\n| 5
+  4 8  \n7 2 9  \n1 3 6 | 1 3 2  \n5 6 4  \n7 9 8 | 9 7 6  \n1 3 8  \n2 4 5 |\n| 3
+  7 2  \n8 1 4  \n6 9 5 | 6 8 9  \n2 5 3  \n4 1 7 | 5 1 4  \n7 6 9  \n3 8 2 |\n\n
+  |\n\nA well constructed Su Doku puzzle has a unique solution and can be solved by
+  logic, although it may be necessary to employ \"guess and test\" methods in order
+  to eliminate options (there is much contested opinion over this). The complexity
+  of the search determines the difficulty of the puzzle; the example above is considered
+  _easy_ because it can be solved by straight forward direct deduction.\n\nThe 6K
+  text file, [sudoku.txt](project/sudoku.txt) (right click and 'Save Link/Target As...'),
+  contains fifty different Su Doku puzzles ranging in difficulty, but all with unique
+  solutions (the first puzzle in the file is the example above).\n\nBy solving all
+  fifty puzzles find the sum of the 3-digit numbers found in the top left corner of
+  each solution grid; for example, 483 is the 3-digit number found in the top left
+  corner of the solution grid above.\n\n<!--<p class='info'>Note: If you're convinced
+  that &quot;guess and test&quot; methods need not be employed please tell how you
+  would solve #6 and #46. (c;</p>-->\n"

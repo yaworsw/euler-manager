@@ -1,0 +1,33 @@
+---
+:id: 328
+:name: Lowest-cost Search
+:url: http://projecteuler.net/problem=328
+:content: "We are trying to find a hidden number selected from the set of integers
+  {1, 2, ..., <var>n</var>} by asking questions. \rEach number (question) we ask,
+  has a <u>cost equal to the number asked</u> and we get one of three possible answers:\n\n-
+  \"Your guess is lower than the hidden number\", or\n- \"Yes, that's it!\", or\n-
+  \"Your guess is higher than the hidden number\".\n\nGiven the value of <var>n</var>,
+  an _optimal strategy_ minimizes the total cost (i.e. the sum of all the questions
+  asked) <u>for the worst possible case</u>. E.g.\n\nIf <var>n</var>=3, the best we
+  can do is obviously to ask the number \" **2** \". The answer will immediately lead
+  us to find the hidden number (at a total cost = 2).\n\nIf <var>n</var>=8, we might
+  decide to use a \"binary search\" type of strategy: Our first question would be
+  \" **4** \" and if the hidden number is higher than 4 we will need one or two additional
+  questions.  \n\rLet our second question be \" **6** \". If the hidden number is
+  still higher than 6, we will need a third question in order to discriminate between
+  7 and 8.  \n\rThus, our third question will be \" **7** \" and the total cost for
+  this worst-case scenario will be 4+6+7= **17** .\n\nWe can improve considerably
+  the worst-case cost for <var>n</var>=8, by asking \" **5** \" as our first question.
+  \ \n\rIf we are told that the hidden number is higher than 5, our second question
+  will be \" **7** \", then we'll know for certain what the hidden number is (for
+  a total cost of 5+7= **12** ).  \n\rIf we are told that the hidden number is lower
+  than 5, our second question will be \" **3** \" and if the hidden number is lower
+  than 3 our third question will be \" **1** \", giving a total cost of 5+3+1= **9**
+  .  \n\rSince **12** > **9** , the worst-case cost for this strategy is **12** .
+  That's better than what we achieved previously with the \"binary search\" strategy;
+  it is also better than or equal to any other strategy.  \n\rSo, in fact, we have
+  just described an optimal strategy for <var>n</var>=8.\n\nLet C(<var>n</var>) be
+  the worst-case cost achieved by an optimal strategy for <var>n</var>, as described
+  above.  \n\rThus C(1) = 0, C(2) = 1, C(3) = 2 and C(8) = 12.  \n\rSimilarly, C(100)
+  = 400 and ![]({{ images_dir }}/p_328_sum1.gif)C(<var>n</var>) = 17575.\n\nFind ![]({{
+  images_dir }}/p_328_sum2.gif)C(<var>n</var>).\n\n"

@@ -31,4 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'fakefs', '~> 0.5.2'
 
   spec.add_development_dependency 'nokogiri'
+  spec.add_development_dependency 'reverse_markdown'
 end
