@@ -10,7 +10,7 @@ Manage [Project Euler](https://projecteuler.net/) problems form the command line
 
 ## Usage
 
-Euler manager has 6 commands:
+Euler manager has 7 commands:
 
 `init` initializes an empty `Eulerfile.rb` in the directory you are currently
 in.
@@ -37,6 +37,11 @@ the solution and populating it with some files.
 `test_all` runs all of your solutions to see if they are correct.
 
     $ euler test_all
+
+`include_images` will copy Project Euler's images into your euler managed
+directory so that you can access them without an Internet connection.
+
+    $ euler include_images
 
 If you do not pass a problem id and language to the `desc`, `run`, or `test`
 commands Euler manager will use the directory it was invoked from to try to

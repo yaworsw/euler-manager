@@ -146,7 +146,20 @@ command :init do |c|
   c.summary = 'Initialize an Eulerfile.rb in the current directory'
   c.description = c.summary
   c.action do
+    tmpl = "#{File.dirname(__FILE__)}/../templates/Eulerfile.rb"
     file = "#{Dir.pwd}/Eulerfile.rb"
-    FileUtils.touch(file)
+    FileUtils.cp(tmpl, file) unless File.exists?(file)
+  end
+end
+
+command :include_images do |c|
+  c.syntax  = 'euler include_images'
+  c.summary = 'Copy Project Euler\'s image files.'
+  c.description = c.summary
+  c.action do
+    images = "#{File.dirname(__FILE__)}/../data/images"
+    dest   = "#{Euler.root}/.data/images"
+    FileUtils.mkdir_p(dest)
+    FileUtils.cp_r(images, dest)
   end
 end
