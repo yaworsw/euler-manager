@@ -5,9 +5,10 @@
 :content: "Alice and Bob play the game Nim Square.  \n\rNim Square is just like ordinary
   three-heap normal play Nim, but the players may only remove a square number of stones
   from a heap.  \n\rThe number of stones in the three heaps is represented by the
-  ordered triple (a,b,c).  \n\rIf 0 ![≤]({{ images_dir }}/symbol_le.gif)a ![≤]({{
-  images_dir }}/symbol_le.gif)b ![≤]({{ images_dir }}/symbol_le.gif)c ![≤]({{ images_dir
-  }}/symbol_le.gif)29 then the number of losing positions for the next player is 1160.\n\nFind
-  the number of losing positions for the next player if 0 ![≤]({{ images_dir }}/symbol_le.gif)a
-  ![≤]({{ images_dir }}/symbol_le.gif)b ![≤]({{ images_dir }}/symbol_le.gif)c ![≤]({{
-  images_dir }}/symbol_le.gif)100 000.\n\n"
+  ordered triple (a,b,c).  \n\rIf 0 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)a
+  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)b ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)c
+  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)29 then the
+  number of losing positions for the next player is 1160.\n\nFind the number of losing
+  positions for the next player if 0 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)a
+  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)b ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)c
+  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)100 000.\n\n"

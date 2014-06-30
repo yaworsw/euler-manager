@@ -13,7 +13,7 @@
   fifth term, which is 9.\n\nNow we use for A the first 100 digits of π behind the
   decimal point:\n\n14159265358979323846264338327950288419716939937510   \n\r58209749445923078164062862089986280348253421170679\n\nand
   for B the next hundred digits:\n\n82148086513282306647093844609550582231725359408128
-  \  \n\r48111745028410270193852110555964462294895493038196 .\n\nFind ![∑]({{ images_dir
-  }}/symbol_sum.gif)<sub><var>n</var> = 0,1,...,17</sub>   10<sup><var>n</var></sup>
-  ![×]({{ images_dir }}/symbol_times.gif) D<sub>A,B</sub>((127+19<var>n</var>) ![×]({{
-  images_dir }}/symbol_times.gif)7<sup><var>n</var></sup>) .\n\n"
+  \  \n\r48111745028410270193852110555964462294895493038196 .\n\nFind ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)<sub><var>n</var>
+  = 0,1,...,17</sub>   10<sup><var>n</var></sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
+  D<sub>A,B</sub>((127+19<var>n</var>) ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)7<sup><var>n</var></sup>)
+  .\n\n"

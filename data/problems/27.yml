@@ -6,13 +6,14 @@
   turns out that the formula will produce 40 primes for the consecutive values _n_
   = 0 to 39. However, when _n_ = 40, 40<sup>2</sup> + 40 + 41 = 40(40 + 1) + 41 is
   divisible by 41, and certainly when _n_ = 41, 41² + 41 + 41 is clearly divisible
-  by 41.\n\nThe incredible formula  _n_² ![−]({{ images_dir }}/symbol_minus.gif) 79_n_
-  + 1601 was discovered, which produces 80 primes for the consecutive values _n_ =
-  0 to 79. The product of the coefficients, ![−]({{ images_dir }}/symbol_minus.gif)79
-  and 1601, is ![−]({{ images_dir }}/symbol_minus.gif)126479.\n\nConsidering quadratics
-  of the form:\n\n> _n_² + _an_ + _b_, where |_a_| ![<]({{ images_dir }}/symbol_lt.gif)
-  1000 and |_b_| ![<]({{ images_dir }}/symbol_lt.gif) 1000  \n>   \n> \n> where |_n_|
-  is the modulus/absolute value of _n_  \n> e.g. |11| = 11 and | ![−]({{ images_dir
-  }}/symbol_minus.gif)4| = 4\n\nFind the product of the coefficients, _a_ and _b_,
-  for the quadratic expression that produces the maximum number of primes for consecutive
-  values of _n_, starting with _n_ = 0.\n\n"
+  by 41.\n\nThe incredible formula  _n_² ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)
+  79_n_ + 1601 was discovered, which produces 80 primes for the consecutive values
+  _n_ = 0 to 79. The product of the coefficients, ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)79
+  and 1601, is ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)126479.\n\nConsidering
+  quadratics of the form:\n\n> _n_² + _an_ + _b_, where |_a_| ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
+  1000 and |_b_| ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
+  1000  \n>   \n> \n> where |_n_| is the modulus/absolute value of _n_  \n> e.g. |11|
+  = 11 and | ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)4|
+  = 4\n\nFind the product of the coefficients, _a_ and _b_, for the quadratic expression
+  that produces the maximum number of primes for consecutive values of _n_, starting
+  with _n_ = 0.\n\n"

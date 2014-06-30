@@ -2,11 +2,13 @@
 :id: 20
 :name: Factorial digit sum
 :url: http://projecteuler.net/problem=20
-:content: "_n_! means _n_ ![×]({{ images_dir }}/symbol_times.gif) (_n_ ![−]({{ images_dir
-  }}/symbol_minus.gif) 1) ![×]({{ images_dir }}/symbol_times.gif) ... ![×]({{ images_dir
-  }}/symbol_times.gif) 3 ![×]({{ images_dir }}/symbol_times.gif) 2 ![×]({{ images_dir
-  }}/symbol_times.gif) 1\n\nFor example, 10! = 10 ![×]({{ images_dir }}/symbol_times.gif)
-  9 ![×]({{ images_dir }}/symbol_times.gif) ... ![×]({{ images_dir }}/symbol_times.gif)
-  3 ![×]({{ images_dir }}/symbol_times.gif) 2 ![×]({{ images_dir }}/symbol_times.gif)
-  1 = 3628800,  \nand the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8
-  + 0 + 0 = 27.\n\nFind the sum of the digits in the number 100!\n\n"
+:content: "_n_! means _n_ ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
+  (_n_ ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif) 1)
+  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) ... ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
+  3 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
+  1\n\nFor example, 10! = 10 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
+  9 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) ...
+  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 3 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
+  2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 1 =
+  3628800,  \nand the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0
+  + 0 = 27.\n\nFind the sum of the digits in the number 100!\n\n"

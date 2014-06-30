@@ -2,19 +2,19 @@
 :id: 274
 :name: Divisibility Multipliers
 :url: http://projecteuler.net/problem=274
-:content: "For each integer <var>p</var> ![>]({{ images_dir }}/symbol_gt.gif) 1 coprime
-  to 10 there is a positive _divisibility multiplier_ <var>m</var> ![<]({{ images_dir
-  }}/symbol_lt.gif) <var>p</var> which preserves divisibility by <var>p</var> for
-  the following function on any positive integer, <var>n</var>:\n\n<var>f</var>(<var>n</var>)
-  = (all but the last digit of <var>n</var>) + (the last digit of <var>n</var>) \\*
-  <var>m</var>\n\nThat is, if <var>m</var> is the divisibility multiplier for <var>p</var>,
-  then <var>f</var>(<var>n</var>) is divisible by <var>p</var> if and only if <var>n</var>
-  is divisible by <var>p</var>.\n\n(When <var>n</var> is much larger than <var>p</var>,
-  <var>f</var>(<var>n</var>) will be less than <var>n</var> and repeated application
-  of <var>f</var> provides a multiplicative divisibility test for <var>p</var>.)\n\nFor
-  example, the divisibility multiplier for 113 is 34.\n\n<var>f</var>(76275) = 7627
-  + 5 \\* 34 = 7797 : 76275 and 7797 are both divisible by 113  \n<var>f</var>(12345)
-  = 1234 + 5 \\* 34 = 1404 : 12345 and 1404 are both not divisible by 113\n\nThe sum
+:content: "For each integer <var>p</var> ![>](/home/will/src/euler-manager/config/../data/images/symbol_gt.gif)
+  1 coprime to 10 there is a positive _divisibility multiplier_ <var>m</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
+  <var>p</var> which preserves divisibility by <var>p</var> for the following function
+  on any positive integer, <var>n</var>:\n\n<var>f</var>(<var>n</var>) = (all but
+  the last digit of <var>n</var>) + (the last digit of <var>n</var>) \\* <var>m</var>\n\nThat
+  is, if <var>m</var> is the divisibility multiplier for <var>p</var>, then <var>f</var>(<var>n</var>)
+  is divisible by <var>p</var> if and only if <var>n</var> is divisible by <var>p</var>.\n\n(When
+  <var>n</var> is much larger than <var>p</var>, <var>f</var>(<var>n</var>) will be
+  less than <var>n</var> and repeated application of <var>f</var> provides a multiplicative
+  divisibility test for <var>p</var>.)\n\nFor example, the divisibility multiplier
+  for 113 is 34.\n\n<var>f</var>(76275) = 7627 + 5 \\* 34 = 7797 : 76275 and 7797
+  are both divisible by 113  \n<var>f</var>(12345) = 1234 + 5 \\* 34 = 1404 : 12345
+  and 1404 are both not divisible by 113\n\nThe sum of the divisibility multipliers
+  for the primes that are coprime to 10 and less than 1000 is 39517. What is the sum
   of the divisibility multipliers for the primes that are coprime to 10 and less than
-  1000 is 39517. What is the sum of the divisibility multipliers for the primes that
-  are coprime to 10 and less than 10<sup>7</sup>?\n\n"
+  10<sup>7</sup>?\n\n"

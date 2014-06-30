@@ -3,12 +3,12 @@
 :name: Distances in a bee's honeycomb
 :url: http://projecteuler.net/problem=354
 :content: "Consider a honey bee's honeycomb where each cell is a perfect regular hexagon
-  with side length 1.\n\n ![]({{ images_dir }}/p_354_bee_honeycomb.png)\n\nOne particular
-  cell is occupied by the queen bee.  \n\rFor a positive real number <var>L</var>,
+  with side length 1.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_354_bee_honeycomb.png)\n\nOne
+  particular cell is occupied by the queen bee.  \n\rFor a positive real number <var>L</var>,
   let B(<var>L</var>) count the cells with distance <var>L</var> from the queen bee
   cell (all distances are measured from centre to centre); you may assume that the
   honeycomb is large enough to accommodate for any distance we wish to consider.   \n\rFor
-  example, B( ![√]({{ images_dir }}/symbol_radic.gif)3) = 6, B( ![√]({{ images_dir
-  }}/symbol_radic.gif)21) = 12 and B(111 111 111) = 54.\n\nFind the number of <var>L</var>
-  ![≤]({{ images_dir }}/symbol_le.gif) 5·10<sup>11</sup> such that B(<var>L</var>)
-  = 450.\n\n"
+  example, B( ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)3)
+  = 6, B( ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)21)
+  = 12 and B(111 111 111) = 54.\n\nFind the number of <var>L</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  5·10<sup>11</sup> such that B(<var>L</var>) = 450.\n\n"

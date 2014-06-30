@@ -2,16 +2,17 @@
 :id: 247
 :name: Squares under a hyperbola
 :url: http://projecteuler.net/problem=247
-:content: "Consider the region constrained by 1 ![≤]({{ images_dir }}/symbol_le.gif)
-  <var>x</var> and 0 ![≤]({{ images_dir }}/symbol_le.gif) <var>y</var> ![≤]({{ images_dir
-  }}/symbol_le.gif) <sup>1</sup>/<sub><var>x</var></sub>.\n\nLet S<sub>1</sub> be
-  the largest square that can fit under the curve.  \n\rLet S<sub>2</sub> be the largest
-  square that fits in the remaining area, and so on.   \n\rLet the _index_ of S<sub><var>n</var></sub>
+:content: "Consider the region constrained by 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>x</var> and 0 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>y</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <sup>1</sup>/<sub><var>x</var></sub>.\n\nLet S<sub>1</sub> be the largest square
+  that can fit under the curve.  \n\rLet S<sub>2</sub> be the largest square that
+  fits in the remaining area, and so on.   \n\rLet the _index_ of S<sub><var>n</var></sub>
   be the pair (left, below) indicating the number of squares to the left of S<sub><var>n</var></sub>
-  and the number of squares below S<sub><var>n</var></sub>.\n\n ![]({{ images_dir
-  }}/p_247_hypersquares.gif)\n\nThe diagram shows some such squares labelled by number.
-  \  \n\rS<sub>2</sub> has one square to its left and none below, so the index of
-  S<sub>2</sub> is (1,0).  \n\rIt can be seen that the index of S<sub>32</sub> is
-  (1,1) as is the index of S<sub>50</sub>.   \n\r50 is the largest <var>n</var> for
-  which the index of S<sub><var>n</var></sub> is (1,1).\n\nWhat is the largest <var>n</var>
-  for which the index of S<sub><var>n</var></sub> is (3,3)?\n\n"
+  and the number of squares below S<sub><var>n</var></sub>.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_247_hypersquares.gif)\n\nThe
+  diagram shows some such squares labelled by number.   \n\rS<sub>2</sub> has one
+  square to its left and none below, so the index of S<sub>2</sub> is (1,0).  \n\rIt
+  can be seen that the index of S<sub>32</sub> is (1,1) as is the index of S<sub>50</sub>.
+  \  \n\r50 is the largest <var>n</var> for which the index of S<sub><var>n</var></sub>
+  is (1,1).\n\nWhat is the largest <var>n</var> for which the index of S<sub><var>n</var></sub>
+  is (3,3)?\n\n"

@@ -4,7 +4,7 @@
 :url: http://projecteuler.net/problem=351
 :content: "A _hexagonal orchard_ of order <var>n</var> is a triangular lattice made
   up of points within a regular hexagon with side <var>n</var>. The following is an
-  example of a hexagonal orchard of order 5:\n\n ![]({{ images_dir }}/p_351_hexorchard.png)
+  example of a hexagonal orchard of order 5:\n\n ![](/home/will/src/euler-manager/config/../data/images/p_351_hexorchard.png)
   \ \n\nHighlighted in green are the points which are hidden from the center by a
   point closer to it. It can be seen that for a hexagonal orchard of order 5, 30 points
   are hidden from the center.\n\nLet H(<var>n</var>) be the number of points hidden

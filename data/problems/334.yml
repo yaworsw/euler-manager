@@ -8,20 +8,20 @@
   any bowl, and putting one in each of the two adjacent bowls.  \n The game ends when
   each bowl contains either one or no beans.\n\nFor example, consider two adjacent
   bowls containing 2 and 3 beans respectively, all other bowls being empty. The following
-  eight moves will finish the game:\n\n ![]({{ images_dir }}/p_334_beans.gif)\n\nYou
+  eight moves will finish the game:\n\n ![](/home/will/src/euler-manager/config/../data/images/p_334_beans.gif)\n\nYou
   are given the following sequences:\n\n| <var>t</var><sub><i>0</i></sub> = 123456.\r
-  |\n\n| <var>t</var><sub><i>i</i></sub> = \r | ![]({{ images_dir }}/p_334_cases.gif)
+  |\n\n| <var>t</var><sub><i>i</i></sub> = \r | ![](/home/will/src/euler-manager/config/../data/images/p_334_cases.gif)
   | \n\n| | \n\n| <var>t</var><sub><i>i-1</i></sub> |\n| 2 |\n\n | \r ,\r | | \r if
-  <var>t</var><sub><i>i-1</i></sub> is even\r |\n| ![]({{ images_dir }}/p_334_lfloor.gif)
-  | \n\n| <var>t</var><sub><i>i-1</i></sub> |\n| 2 |\n\n | ![]({{ images_dir }}/p_334_rfloor.gif)
+  <var>t</var><sub><i>i-1</i></sub> is even\r |\n| ![](/home/will/src/euler-manager/config/../data/images/p_334_lfloor.gif)
+  | \n\n| <var>t</var><sub><i>i-1</i></sub> |\n| 2 |\n\n | ![](/home/will/src/euler-manager/config/../data/images/p_334_rfloor.gif)
   | \r 926252, \r | \r if <var>t</var><sub><i>i-1</i></sub> is odd\r |\n\n | |\n|
-  | | \r where ![⌊]({{ images_dir }}/symbol_lfloor.gif)<var>x</var> ![⌋]({{ images_dir
-  }}/symbol_rfloor.gif) is the floor function\r |\n| | | \r and ![]({{ images_dir
-  }}/p_334_oplus.gif) is the bitwise XOR operator.\r |\n\n| <var>b</var><sub><i>i</i></sub>
-  = ( <var>t</var><sub><i>i</i></sub> mod 2<sup>11</sup>) + 1.\r |\n\nThe first two
-  terms of the last sequence are <var>b</var><sub><i>1</i></sub> = 289 and <var>b</var><sub><i>2</i></sub>
-  = 145.  \n\rIf we start with <var>b</var><sub><i>1</i></sub> and <var>b</var><sub><i>2</i></sub>
-  beans in two adjacent bowls, 3419100 moves would be required to finish the game.\n\nConsider
-  now 1500 adjacent bowls containing <var>b</var><sub><i>1</i></sub>, <var>b</var><sub><i>2</i></sub>,...,
-  <var>b</var><sub><i>1500</i></sub> beans respectively, all other bowls being empty.
-  Find how many moves it takes before the game ends.\n\n"
+  | | \r where ![⌊](/home/will/src/euler-manager/config/../data/images/symbol_lfloor.gif)<var>x</var>
+  ![⌋](/home/will/src/euler-manager/config/../data/images/symbol_rfloor.gif) is the
+  floor function\r |\n| | | \r and ![](/home/will/src/euler-manager/config/../data/images/p_334_oplus.gif)
+  is the bitwise XOR operator.\r |\n\n| <var>b</var><sub><i>i</i></sub> = ( <var>t</var><sub><i>i</i></sub>
+  mod 2<sup>11</sup>) + 1.\r |\n\nThe first two terms of the last sequence are <var>b</var><sub><i>1</i></sub>
+  = 289 and <var>b</var><sub><i>2</i></sub> = 145.  \n\rIf we start with <var>b</var><sub><i>1</i></sub>
+  and <var>b</var><sub><i>2</i></sub> beans in two adjacent bowls, 3419100 moves would
+  be required to finish the game.\n\nConsider now 1500 adjacent bowls containing <var>b</var><sub><i>1</i></sub>,
+  <var>b</var><sub><i>2</i></sub>,..., <var>b</var><sub><i>1500</i></sub> beans respectively,
+  all other bowls being empty. Find how many moves it takes before the game ends.\n\n"

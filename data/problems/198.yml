@@ -4,14 +4,15 @@
 :url: http://projecteuler.net/problem=198
 :content: "A best approximation to a real number <var>x</var> for the denominator
   bound <var>d</var> is a rational number <var>r</var>/<var>s</var> (in reduced form)
-  with <var>s</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>d</var>, so that any
-  rational number <var>p</var>/<var>q</var> which is closer to <var>x</var> than <var>r</var>/<var>s</var>
-  has <var>q</var> ![>]({{ images_dir }}/symbol_gt.gif) <var>d</var>.\n\nUsually the
-  best approximation to a real number is uniquely determined for all denominator bounds.
-  However, there are some exceptions, e.g. 9/40 has the two best approximations 1/4
-  and 1/5 for the denominator bound 6.\rWe shall call a real number <var>x</var> _ambiguous_,
-  if there is at least one denominator bound for which <var>x</var> possesses two
-  best approximations. Clearly, an ambiguous number is necessarily rational.\n\nHow
-  many ambiguous numbers <var>x</var> = <var>p</var>/<var>q</var>,\r0 ![<]({{ images_dir
-  }}/symbol_lt.gif) <var>x</var> ![<]({{ images_dir }}/symbol_lt.gif) 1/100, are there
-  whose denominator <var>q</var> does not exceed 10<sup>8</sup>?\n\n"
+  with <var>s</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>d</var>, so that any rational number <var>p</var>/<var>q</var> which is closer
+  to <var>x</var> than <var>r</var>/<var>s</var> has <var>q</var> ![>](/home/will/src/euler-manager/config/../data/images/symbol_gt.gif)
+  <var>d</var>.\n\nUsually the best approximation to a real number is uniquely determined
+  for all denominator bounds. However, there are some exceptions, e.g. 9/40 has the
+  two best approximations 1/4 and 1/5 for the denominator bound 6.\rWe shall call
+  a real number <var>x</var> _ambiguous_, if there is at least one denominator bound
+  for which <var>x</var> possesses two best approximations. Clearly, an ambiguous
+  number is necessarily rational.\n\nHow many ambiguous numbers <var>x</var> = <var>p</var>/<var>q</var>,\r0
+  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) <var>x</var>
+  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) 1/100, are
+  there whose denominator <var>q</var> does not exceed 10<sup>8</sup>?\n\n"

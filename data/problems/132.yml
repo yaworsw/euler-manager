@@ -5,7 +5,7 @@
 :content: |+
   A number consisting entirely of ones is called a repunit. We shall define R(_k_) to be a repunit of length _k_.
 
-  For example, R(10) = 1111111111 = 11 ![×]({{ images_dir }}/symbol_times.gif)41 ![×]({{ images_dir }}/symbol_times.gif)271 ![×]({{ images_dir }}/symbol_times.gif)9091, and the sum of these prime factors is 9414.
+  For example, R(10) = 1111111111 = 11 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)41 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)271 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)9091, and the sum of these prime factors is 9414.
 
   Find the sum of the first forty prime factors of R(10<sup>9</sup>).
 

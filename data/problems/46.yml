@@ -3,11 +3,11 @@
 :name: Goldbach's other conjecture
 :url: http://projecteuler.net/problem=46
 :content: "It was proposed by Christian Goldbach that every odd composite number can
-  be written as the sum of a prime and twice a square.\n\n9 = 7 + 2 ![×]({{ images_dir
-  }}/symbol_times.gif)1<sup>2</sup>  \n\r15 = 7 + 2 ![×]({{ images_dir }}/symbol_times.gif)2<sup>2</sup>
-  \ \n\r21 = 3 + 2 ![×]({{ images_dir }}/symbol_times.gif)3<sup>2</sup>  \n\r25 =
-  7 + 2 ![×]({{ images_dir }}/symbol_times.gif)3<sup>2</sup>  \n\r27 = 19 + 2 ![×]({{
-  images_dir }}/symbol_times.gif)2<sup>2</sup>  \n\r33 = 31 + 2 ![×]({{ images_dir
-  }}/symbol_times.gif)1<sup>2</sup>\n\nIt turns out that the conjecture was false.\n\nWhat
-  is the smallest odd composite that cannot be written as the sum of a prime and twice
-  a square?\n\n"
+  be written as the sum of a prime and twice a square.\n\n9 = 7 + 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)1<sup>2</sup>
+  \ \n\r15 = 7 + 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2<sup>2</sup>
+  \ \n\r21 = 3 + 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)3<sup>2</sup>
+  \ \n\r25 = 7 + 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)3<sup>2</sup>
+  \ \n\r27 = 19 + 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2<sup>2</sup>
+  \ \n\r33 = 31 + 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)1<sup>2</sup>\n\nIt
+  turns out that the conjecture was false.\n\nWhat is the smallest odd composite that
+  cannot be written as the sum of a prime and twice a square?\n\n"

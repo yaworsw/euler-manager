@@ -13,7 +13,7 @@
 
   A _losing configuration_ is one where the second player can force a win, no matter what the first player does. For example, (2,3) and (3,4) are losing configurations: any legal move leaves a winning configuration for the second player.
 
-  Define S(<var>N</var>) as the sum of (<var>x</var><sub><var>i</var></sub>+<var>y</var><sub><var>i</var></sub>) for all losing configurations (<var>x</var><sub><var>i</var></sub>,<var>y</var><sub><var>i</var></sub>), 0 ![<]({{ images_dir }}/symbol_lt.gif) <var>x</var><sub><var>i</var></sub> ![<]({{ images_dir }}/symbol_lt.gif) <var>y</var><sub><var>i</var></sub> ![≤]({{ images_dir }}/symbol_le.gif) <var>N</var>. We can verify that S(10) = 211 and S(10<sup>4</sup>) = 230312207313.
+  Define S(<var>N</var>) as the sum of (<var>x</var><sub><var>i</var></sub>+<var>y</var><sub><var>i</var></sub>) for all losing configurations (<var>x</var><sub><var>i</var></sub>,<var>y</var><sub><var>i</var></sub>), 0 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) <var>x</var><sub><var>i</var></sub> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) <var>y</var><sub><var>i</var></sub> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>N</var>. We can verify that S(10) = 211 and S(10<sup>4</sup>) = 230312207313.
 
   Find S(10<sup>16</sup>) mod 7<sup>10</sup>.
 

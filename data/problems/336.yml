@@ -16,8 +16,7 @@
   then carriage B, and so on.\n\nUsing four carriages, the worst possible arrangements
   for Simon, which we shall call _maximix arrangements_, are DACB and DBAC; each requiring
   him five rotations (although, using the most efficient approach, they could be solved
-  using just three rotations). The process he uses for DACB is shown below.\n\n ![]({{
-  images_dir }}/p_336_maximix.gif)\n\nIt can be verified that there are 24 maximix
-  arrangements for six carriages, of which the tenth lexicographic maximix arrangement
-  is DFAECB.\n\nFind the 2011<sup>th</sup> lexicographic maximix arrangement for eleven
-  carriages.\n\n"
+  using just three rotations). The process he uses for DACB is shown below.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_336_maximix.gif)\n\nIt
+  can be verified that there are 24 maximix arrangements for six carriages, of which
+  the tenth lexicographic maximix arrangement is DFAECB.\n\nFind the 2011<sup>th</sup>
+  lexicographic maximix arrangement for eleven carriages.\n\n"

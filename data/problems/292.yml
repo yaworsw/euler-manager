@@ -6,7 +6,7 @@
   the following properties:\n\n- there are at least three vertices,\n- no three vertices
   are aligned,\n- each vertex has **integer coordinates** ,\n- each edge has **integer
   length** .\n\nFor a given integer <var>n</var>, define P(<var>n</var>) as the number
-  of distinct pythagorean polygons for which the perimeter is ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var>.
+  of distinct pythagorean polygons for which the perimeter is ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var>.
   \ \n\rPythagorean polygons should be considered distinct as long as none is a translation
   of another.\n\nYou are given that P(4) = 1, P(30) = 3655 and P(60) = 891045.  \n\rFind
   P(120).\n\n"

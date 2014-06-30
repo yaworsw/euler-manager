@@ -8,11 +8,11 @@
 
   Given eight tiles it is possible to form a lamina in only one way: 3x3 square with a 1x1 hole in the middle. However, using thirty-two tiles it is possible to form two distinct laminae.
 
-   ![]({{ images_dir }}/p_173_square_laminas.gif)
+   ![](/home/will/src/euler-manager/config/../data/images/p_173_square_laminas.gif)
 
   If <var>t</var> represents the number of tiles used, we shall say that <var>t</var> = 8 is type L(1) and <var>t</var> = 32 is type L(2).
 
-  Let N(<var>n</var>) be the number of <var>t</var> ![≤]({{ images_dir }}/symbol_le.gif) 1000000 such that <var>t</var> is type L(<var>n</var>); for example, N(15) = 832.
+  Let N(<var>n</var>) be the number of <var>t</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 1000000 such that <var>t</var> is type L(<var>n</var>); for example, N(15) = 832.
 
-  What is ![∑]({{ images_dir }}/symbol_sum.gif) N(<var>n</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 10?
+  What is ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif) N(<var>n</var>) for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 10?
 

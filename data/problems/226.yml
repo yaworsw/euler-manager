@@ -3,11 +3,11 @@
 :name: A Scoop of Blancmange
 :url: http://projecteuler.net/problem=226
 :content: "The _blancmange curve_ is the set of points (<var>x</var>,<var>y</var>)
-  such that 0  ![≤]({{ images_dir }}/symbol_le.gif) <var>x</var>  ![≤]({{ images_dir
-  }}/symbol_le.gif) 1 and ![]({{ images_dir }}/p_226_formula.gif) ,  \nwhere <var>s</var>(<var>x</var>)
-  = the distance from <var>x</var> to the nearest integer.\n\nThe area under the blancmange
-  curve is equal to ½, shown in pink in the diagram below.\n\n ![blancmange curve]({{
-  images_dir }}/p_226_scoop2.gif)\n\nLet <var>C</var> be the circle with centre (¼,&frac12)
-  and radius ¼, shown in black in the diagram.\n\nWhat area under the blancmange curve
-  is enclosed by <var>C</var>?  \nGive your answer rounded to eight decimal places
-  in the form _0.abcdefgh_\n\n"
+  such that 0  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>x</var> 
+  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 1 and ![](/home/will/src/euler-manager/config/../data/images/p_226_formula.gif)
+  ,  \nwhere <var>s</var>(<var>x</var>) = the distance from <var>x</var> to the nearest
+  integer.\n\nThe area under the blancmange curve is equal to ½, shown in pink in
+  the diagram below.\n\n ![blancmange curve](/home/will/src/euler-manager/config/../data/images/p_226_scoop2.gif)\n\nLet
+  <var>C</var> be the circle with centre (¼,&frac12) and radius ¼, shown in black
+  in the diagram.\n\nWhat area under the blancmange curve is enclosed by <var>C</var>?
+  \ \nGive your answer rounded to eight decimal places in the form _0.abcdefgh_\n\n"

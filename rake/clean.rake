@@ -3,7 +3,7 @@
 desc "Deletes all of the data that has been downloaded for Project Euler problems"
 task :clean do
 
-  data_dir     = "#{__dir__}/../.data"
+  data_dir     = "#{__dir__}/../data"
   answers_file = "#{data_dir}/answers.yml"
   problems_dir = "#{data_dir}/problems"
   images_dir   = "#{data_dir}/images"

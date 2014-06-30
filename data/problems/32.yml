@@ -5,7 +5,7 @@
 :content: |+
   We shall say that an <var>n</var>-digit number is pandigital if it makes use of all the digits 1 to <var>n</var> exactly once; for example, the 5-digit number, 15234, is 1 through 5 pandigital.
 
-  The product 7254 is unusual, as the identity, 39 ![×]({{ images_dir }}/symbol_times.gif) 186 = 7254, containing multiplicand, multiplier, and product is 1 through 9 pandigital.
+  The product 7254 is unusual, as the identity, 39 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 186 = 7254, containing multiplicand, multiplier, and product is 1 through 9 pandigital.
 
   Find the sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through 9 pandigital.
 

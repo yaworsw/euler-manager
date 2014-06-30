@@ -24,6 +24,7 @@
   **3** .\n\nNote that substring 025 starting at position **3** , has a sum of digits
   equal to 7, but there was an earlier substring (starting at position **1** ) with
   a sum of digits equal to 7, so <var>p</var>(7) = 1, _not_ 3.\n\nWe can verify that,
-  for 0 k  ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>3</sup>, ![∑]({{ images_dir
-  }}/symbol_sum.gif) <var>p</var>(<var>k</var>) = 4742.\n\nFind ![∑]({{ images_dir
-  }}/symbol_sum.gif) <var>p</var>(<var>k</var>), for 0 k  ![≤]({{ images_dir }}/symbol_le.gif) 2·10<sup>15</sup>.\n\n"
+  for 0 k  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 10<sup>3</sup>,
+  ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif) <var>p</var>(<var>k</var>)
+  = 4742.\n\nFind ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif) <var>p</var>(<var>k</var>),
+  for 0 k  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 2·10<sup>15</sup>.\n\n"

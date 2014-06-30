@@ -22,7 +22,7 @@ task :update do
   puts 'Updating project Euler problem specs.'
   puts
 
-  data_dir     = "#{__dir__}/../.data"
+  data_dir     = "#{__dir__}/../data"
   answers_file = "#{data_dir}/answers.yml"
   problems_dir = "#{data_dir}/problems"
   images_dir   = "#{data_dir}/images"

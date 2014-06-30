@@ -15,7 +15,7 @@
   corresponds to the steps \"DdDddUUdDD\".\n\nOf course, there are other sequences
   that begin with that same sequence \"DdDddUUdDD....\".  \n\rFor instance, if <var>a</var><sub>1</sub>=1004064,
   then the sequence is DdDddUUdDDDdUDUUUdDdUUDDDUdDD.  \n\rIn fact, 1004064 is the
-  smallest possible <var>a</var><sub>1</sub> ![>]({{ images_dir }}/symbol_gt.gif)
+  smallest possible <var>a</var><sub>1</sub> ![>](/home/will/src/euler-manager/config/../data/images/symbol_gt.gif)
   10<sup>6</sup> that begins with the sequence DdDddUUdDD.\n\nWhat is the smallest
-  <var>a</var><sub>1</sub> ![>]({{ images_dir }}/symbol_gt.gif) 10<sup>15</sup> that
-  begins with the sequence \"UDDDUdddDDUDDddDdDddDDUDDdUUDd\"?\n\n"
+  <var>a</var><sub>1</sub> ![>](/home/will/src/euler-manager/config/../data/images/symbol_gt.gif)
+  10<sup>15</sup> that begins with the sequence \"UDDDUdddDDUDDddDdDddDDUDDdUUDd\"?\n\n"

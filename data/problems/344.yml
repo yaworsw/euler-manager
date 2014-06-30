@@ -11,7 +11,7 @@
   or over another coin.\n\nAlternatively, the player can choose to make the _special_
   move of pocketing the leftmost coin rather than making a regular move. If no regular
   moves are possible, the player is forced to pocket the leftmost coin.\n\nThe winner
-  is the player who pockets the silver dollar.\n\n ![]({{ images_dir }}/p_344_silverdollar.gif)
+  is the player who pockets the silver dollar.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_344_silverdollar.gif)
   \ \n\nA _winning configuration_ is an arrangement of coins on the strip where the
   first player can force a win no matter what the second player does.\n\nLet W(<var>n</var>,<var>c</var>)
   be the number of winning configurations for a strip of <var>n</var> squares, <var>c</var>

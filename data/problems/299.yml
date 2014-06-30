@@ -3,22 +3,23 @@
 :name: Three similar triangles
 :url: http://projecteuler.net/problem=299
 :content: "Four points with integer coordinates are selected:  \nA(<var>a</var>, 0),
-  B(<var>b</var>, 0), C(0, <var>c</var>) and D(0, <var>d</var>), \rwith 0  ![<]({{
-  images_dir }}/symbol_lt.gif) <var>a</var>  ![<]({{ images_dir }}/symbol_lt.gif) <var>b</var>
-  and 0  ![<]({{ images_dir }}/symbol_lt.gif) <var>c</var>  ![<]({{ images_dir }}/symbol_lt.gif) <var>d</var>.
+  B(<var>b</var>, 0), C(0, <var>c</var>) and D(0, <var>d</var>), \rwith 0  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) <var>a</var> 
+  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) <var>b</var>
+  and 0  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) <var>c</var> 
+  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) <var>d</var>.
   \ \n\rPoint P, also with integer coordinates, is chosen on the line AC so that the
   three triangles ABP, CDP and BDP are all <dfn title=\"Have equal angles\">similar</dfn>.\n\n
-  ![]({{ images_dir }}/p_299_ThreeSimTri.gif)\n\nIt is easy to prove that the three
-  triangles can be similar, only if <var>a</var>=<var>c</var>.\n\nSo, given that <var>a</var>=<var>c</var>,
-  we are looking for triplets (<var>a</var>,<var>b</var>,<var>d</var>) such that at
-  least one point P (with integer coordinates) exists on AC, making the three triangles
-  ABP, CDP and BDP all similar.\n\nFor example, if (<var>a</var>,<var>b</var>,<var>d</var>)=(2,3,4),
+  ![](/home/will/src/euler-manager/config/../data/images/p_299_ThreeSimTri.gif)\n\nIt
+  is easy to prove that the three triangles can be similar, only if <var>a</var>=<var>c</var>.\n\nSo,
+  given that <var>a</var>=<var>c</var>, we are looking for triplets (<var>a</var>,<var>b</var>,<var>d</var>)
+  such that at least one point P (with integer coordinates) exists on AC, making the
+  three triangles ABP, CDP and BDP all similar.\n\nFor example, if (<var>a</var>,<var>b</var>,<var>d</var>)=(2,3,4),
   it can be easily verified that point P(1,1) satisfies the above condition. \rNote
   that the triplets (2,3,4) and (2,4,3) are considered as distinct, although point
-  P(1,1) is common for both.\n\nIf <var>b</var>+<var>d</var>  ![<]({{ images_dir }}/symbol_lt.gif) 100,
+  P(1,1) is common for both.\n\nIf <var>b</var>+<var>d</var>  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) 100,
   there are 92 distinct triplets (<var>a</var>,<var>b</var>,<var>d</var>) such that
-  point P exists.  \n\rIf <var>b</var>+<var>d</var>  ![<]({{ images_dir }}/symbol_lt.gif) 100
+  point P exists.  \n\rIf <var>b</var>+<var>d</var>  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) 100
   000, there are 320471 distinct triplets (<var>a</var>,<var>b</var>,<var>d</var>)
-  such that point P exists.\n\nIf <var>b</var>+<var>d</var>  ![<]({{ images_dir }}/symbol_lt.gif) 100
+  such that point P exists.\n\nIf <var>b</var>+<var>d</var>  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) 100
   000 000, how many distinct triplets (<var>a</var>,<var>b</var>,<var>d</var>) are
   there such that point P exists?\n\n"

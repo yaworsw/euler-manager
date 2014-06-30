@@ -19,5 +19,7 @@
   <var>n</var> = 535, then  \n\rfor <var>p</var> = 31415926 **535** 897...., we get
   <var>k</var> = 9  \n\rfor <var>p</var> = 35528714365004956000049084876408468 **535**
   4..., we get <var>k</var> = 36  \n\retc and we find that <var>g</var>(535) = 1008.\n\nGiven
-  that ![]({{ images_dir }}/p_316_decexp1.gif), find ![]({{ images_dir }}/p_316_decexp2.gif)\n\n<u><i>Note</i></u>:
-  ![]({{ images_dir }}/p_316_decexp3.gif) represents the floor function.\r\n"
+  that ![](/home/will/src/euler-manager/config/../data/images/p_316_decexp1.gif),
+  find ![](/home/will/src/euler-manager/config/../data/images/p_316_decexp2.gif)\n\n<u><i>Note</i></u>:
+  ![](/home/will/src/euler-manager/config/../data/images/p_316_decexp3.gif) represents
+  the floor function.\r\n"

@@ -2,8 +2,9 @@
 :id: 213
 :name: Flea Circus
 :url: http://projecteuler.net/problem=213
-:content: "A 30 ![×]({{ images_dir }}/symbol_times.gif)30 grid of squares contains
-  900 fleas, initially one flea per square.  \n\rWhen a bell is rung, each flea jumps
-  to an adjacent square at random (usually 4 possibilities, except for fleas on the
-  edge of the grid or at the corners).\n\nWhat is the expected number of unoccupied
-  squares after 50 rings of the bell? Give your answer rounded to six decimal places.\n\n"
+:content: "A 30 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)30
+  grid of squares contains 900 fleas, initially one flea per square.  \n\rWhen a bell
+  is rung, each flea jumps to an adjacent square at random (usually 4 possibilities,
+  except for fleas on the edge of the grid or at the corners).\n\nWhat is the expected
+  number of unoccupied squares after 50 rings of the bell? Give your answer rounded
+  to six decimal places.\n\n"

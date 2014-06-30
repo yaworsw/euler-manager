@@ -10,13 +10,13 @@
   according to the following rule: Transfer the leftmost ball which has not been moved
   to the nearest empty box to its right.\n\nAfter one turn the sequence (2, 2, 2,
   1, 2) becomes (2, 2, 1, 2, 3) as can be seen below; note that we begin the new sequence
-  starting at the first occupied box.\n\n ![]({{ images_dir }}/p_426_baxball1.gif)\n\nA
+  starting at the first occupied box.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_426_baxball1.gif)\n\nA
   system like this is called a **Box-Ball System** or **BBS** for short.\n\nIt can
   be shown that after a sufficient number of turns, the system evolves to a state
   where the consecutive numbers of occupied boxes is invariant. In the example below,
   the consecutive numbers of **occupied boxes** evolves to [1, 2, 3]; we shall call
-  this the final state.\n\n ![]({{ images_dir }}/p_426_baxball2.gif)\n\nWe define
-  the sequence {<var>t</var><sub><var>i</var></sub>}:\n\n- <var>s</var><sub>0</sub>
+  this the final state.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_426_baxball2.gif)\n\nWe
+  define the sequence {<var>t</var><sub><var>i</var></sub>}:\n\n- <var>s</var><sub>0</sub>
   = 290797\r\n- <var>s</var><sub><var>k</var>+1</sub> = <var>s</var><sub><var>k</var></sub><sup>2</sup>
   mod 50515093\r\n- <var>t</var><sub><var>k</var></sub> = (<var>s</var><sub><var>k</var></sub>
   mod 64) + 1\r\n\nStarting from the initial configuration (<var>t</var><sub>0</sub>,

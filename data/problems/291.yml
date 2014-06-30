@@ -2,6 +2,6 @@
 :id: 291
 :name: Panaitopol Primes
 :url: http://projecteuler.net/problem=291
-:content: "A prime number <var>p</var> is called a Panaitopol prime if ![]({{ images_dir
-  }}/p_291_formula.gif) for some positive integers  \n <var>x</var> and <var>y</var>.\n\nFind
-  how many Panaitopol primes are less than 5 ![×]({{ images_dir }}/symbol_times.gif)10<sup>15</sup>.\n\n"
+:content: "A prime number <var>p</var> is called a Panaitopol prime if ![](/home/will/src/euler-manager/config/../data/images/p_291_formula.gif)
+  for some positive integers  \n <var>x</var> and <var>y</var>.\n\nFind how many Panaitopol
+  primes are less than 5 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)10<sup>15</sup>.\n\n"

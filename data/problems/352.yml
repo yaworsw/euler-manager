@@ -16,29 +16,30 @@
   (on the pooled samples) for each group will be:\n\n- Negative (and no more tests
   needed) with probability 0.98<sup>5</sup> = 0.9039207968.\n- Positive (5 additional
   tests needed) with probability 1 - 0.9039207968 = 0.0960792032.\n\nThus, the expected
-  number of tests for each group is 1 + 0.0960792032 ![×]({{ images_dir }}/symbol_times.gif)
+  number of tests for each group is 1 + 0.0960792032 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
   5 = 1.480396016.  \n\rConsequently, all 5 groups can be screened using an average
-  of only 1.480396016 ![×]({{ images_dir }}/symbol_times.gif) 5 = **7.40198008** tests,
-  which represents a huge saving of more than 70% !\n\nAlthough the scheme we have
-  just described seems to be very efficient, it can still be improved considerably
-  (always assuming that the test is sufficiently sensitive and that there are no adverse
-  effects caused by mixing different samples). E.g.:\n\n- We may start by running
-  a test on a mixture of all the 25 samples. It can be verified that in about 60.35%
-  of the cases this test will be negative, thus no more tests will be needed. Further
-  testing will only be required for the remaining 39.65% of the cases.\n- If we know
-  that at least one animal in a group of 5 is infected and the first 4 individual
-  tests come out negative, there is no need to run a test on the fifth animal (we
-  know that it must be infected).\n- We can try a different number of groups / different
-  number of animals in each group, adjusting those numbers at each level so that the
-  total expected number of tests will be minimised.\n\nTo simplify the very wide range
-  of possibilities, there is one restriction we place when devising the most cost-efficient
-  testing scheme: whenever we start with a mixed sample, all the sheep contributing
-  to that sample must be fully screened (i.e. a verdict of infected / virus-free must
-  be reached for all of them) before we start examining any other animals.\n\n\rFor
-  the current example, it turns out that the most cost-efficient testing scheme (we'll
-  call it the _optimal strategy_) requires an average of just **4.155452** tests!\r\r\r\n\nUsing
-  the optimal strategy, let T(<var>s</var>,<var>p</var>) represent the average number
-  of tests needed to screen a flock of <var>s</var> sheep for a virus having probability
-  <var>p</var> to be present in any individual.  \n\rThus, rounded to six decimal
-  places, T(25, 0.02) = 4.155452 and T(25, 0.10) = 12.702124.\n\nFind ΣT(10000, p)
-  for p=0.01, 0.02, 0.03, ... 0.50.  \n\rGive your answer rounded to six decimal places.\n\n"
+  of only 1.480396016 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
+  5 = **7.40198008** tests, which represents a huge saving of more than 70% !\n\nAlthough
+  the scheme we have just described seems to be very efficient, it can still be improved
+  considerably (always assuming that the test is sufficiently sensitive and that there
+  are no adverse effects caused by mixing different samples). E.g.:\n\n- We may start
+  by running a test on a mixture of all the 25 samples. It can be verified that in
+  about 60.35% of the cases this test will be negative, thus no more tests will be
+  needed. Further testing will only be required for the remaining 39.65% of the cases.\n-
+  If we know that at least one animal in a group of 5 is infected and the first 4
+  individual tests come out negative, there is no need to run a test on the fifth
+  animal (we know that it must be infected).\n- We can try a different number of groups
+  / different number of animals in each group, adjusting those numbers at each level
+  so that the total expected number of tests will be minimised.\n\nTo simplify the
+  very wide range of possibilities, there is one restriction we place when devising
+  the most cost-efficient testing scheme: whenever we start with a mixed sample, all
+  the sheep contributing to that sample must be fully screened (i.e. a verdict of
+  infected / virus-free must be reached for all of them) before we start examining
+  any other animals.\n\n\rFor the current example, it turns out that the most cost-efficient
+  testing scheme (we'll call it the _optimal strategy_) requires an average of just
+  **4.155452** tests!\r\r\r\n\nUsing the optimal strategy, let T(<var>s</var>,<var>p</var>)
+  represent the average number of tests needed to screen a flock of <var>s</var> sheep
+  for a virus having probability <var>p</var> to be present in any individual.  \n\rThus,
+  rounded to six decimal places, T(25, 0.02) = 4.155452 and T(25, 0.10) = 12.702124.\n\nFind
+  ΣT(10000, p) for p=0.01, 0.02, 0.03, ... 0.50.  \n\rGive your answer rounded to
+  six decimal places.\n\n"

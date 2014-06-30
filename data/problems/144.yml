@@ -7,9 +7,9 @@
 
   The specific white cell we will be considering is an ellipse with the equation 4_x_<sup>2</sup> + _y_<sup>2</sup> = 100
 
-  The section corresponding to ![−]({{ images_dir }}/symbol_minus.gif)0.01 ![≤]({{ images_dir }}/symbol_le.gif) _x_ ![≤]({{ images_dir }}/symbol_le.gif) +0.01 at the top is missing, allowing the light to enter and exit through the hole.
+  The section corresponding to ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)0.01 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) _x_ ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) +0.01 at the top is missing, allowing the light to enter and exit through the hole.
 
-   ![]({{ images_dir }}/p_144_1.gif) ![]({{ images_dir }}/p_144_2.gif)
+   ![](/home/will/src/euler-manager/config/../data/images/p_144_1.gif) ![](/home/will/src/euler-manager/config/../data/images/p_144_2.gif)
 
   The light beam in this problem starts at the point (0.0,10.1) just outside the white cell, and the beam first impacts the mirror at (1.4,-9.6).
 
@@ -17,7 +17,7 @@
 
   In the figure on the left, the red line shows the first two points of contact between the laser beam and the wall of the white cell; the blue line shows the line tangent to the ellipse at the point of incidence of the first bounce.
 
-  The slope _m_ of the tangent line at any point (_x_,_y_) of the given ellipse is: _m_ = ![−]({{ images_dir }}/symbol_minus.gif)4_x_/_y_
+  The slope _m_ of the tangent line at any point (_x_,_y_) of the given ellipse is: _m_ = ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)4_x_/_y_
 
   The normal line is perpendicular to this tangent line at the point of incidence.
 

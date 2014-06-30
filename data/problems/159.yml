@@ -14,6 +14,6 @@
   \n2x2x2x3\n | \n9\n |\n| \n2x3x4\n | \n9\n |\n| \n2x2x6\n | \n10\n |\n| \n4x6\n
   | \n10\n |\n| \n3x8\n | \n11\n |\n| \n2x12\n | \n5\n |\n| \n24\n | \n6\n |\n\nThe
   maximum Digital Root Sum of 24 is 11.  \n\rThe function mdrs(<var>n</var>) gives
-  the maximum Digital Root Sum of <var>n</var>. So mdrs(24)=11.  \n\rFind ![∑]({{
-  images_dir }}/symbol_sum.gif)mdrs(<var>n</var>) for 1 ![<]({{ images_dir }}/symbol_lt.gif)
-  <var>n</var> ![<]({{ images_dir }}/symbol_lt.gif) 1,000,000.\n\n"
+  the maximum Digital Root Sum of <var>n</var>. So mdrs(24)=11.  \n\rFind ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)mdrs(<var>n</var>)
+  for 1 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) <var>n</var>
+  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) 1,000,000.\n\n"

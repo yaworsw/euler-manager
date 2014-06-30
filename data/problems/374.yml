@@ -12,8 +12,10 @@
   <var>n</var> with that product.\n\nSo f(5)=6 and m(5)=2.\n\nFor <var>n</var>=10
   the partition with the largest product is 10=2+3+5, which gives f(10)=30 and m(10)=3.\r
   \ \nAnd their product, f(10)·m(10) = 30·3 = 90\n\nIt can be verified that\r  \n
-  ![∑]({{ images_dir }}/symbol_sum.gif)f(<var>n</var>)·m(<var>n</var>) for 1 ![≤]({{
-  images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 100
-  = 1683550844462.\n\nFind ![∑]({{ images_dir }}/symbol_sum.gif)f(<var>n</var>)·m(<var>n</var>)
-  for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)
-  10<sup>14</sup>.\r  \nGive your answer modulo 982451653, the 50 millionth prime.\n\n"
+  ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)f(<var>n</var>)·m(<var>n</var>)
+  for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var>
+  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 100 = 1683550844462.\n\nFind
+  ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)f(<var>n</var>)·m(<var>n</var>)
+  for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var>
+  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 10<sup>14</sup>.\r
+  \ \nGive your answer modulo 982451653, the 50 millionth prime.\n\n"

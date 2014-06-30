@@ -4,15 +4,15 @@
 :url: http://projecteuler.net/problem=243
 :content: "A positive fraction whose numerator is less than its denominator is called
   a proper fraction.  \n\rFor any denominator, <var>d</var>, there will be <var>d</var>
-  ![−]({{ images_dir }}/symbol_minus.gif)1 proper fractions; for example, with <var>d</var> = 12:
-  \ \n<sup>1</sup>/<sub>12</sub> , <sup>2</sup>/<sub>12</sub> , <sup>3</sup>/<sub>12</sub>
-  , <sup>4</sup>/<sub>12</sub> , <sup>5</sup>/<sub>12</sub> , <sup>6</sup>/<sub>12</sub>
-  , <sup>7</sup>/<sub>12</sub> , <sup>8</sup>/<sub>12</sub> , <sup>9</sup>/<sub>12</sub>
-  , <sup>10</sup>/<sub>12</sub> , <sup>11</sup>/<sub>12</sub> .\n\nWe shall call a
-  fraction that cannot be cancelled down a _resilient fraction_.  \n\rFurthermore
-  we shall define the _resilience_ of a denominator, <var>R</var>(<var>d</var>), to
-  be the ratio of its proper fractions that are resilient; for example, <var>R</var>(12)
-  = <sup>4</sup>/<sub>11</sub> .  \n\rIn fact, <var>d</var> = 12 is the smallest denominator
-  having a resilience <var>R</var>(<var>d</var>) 4/<sub>10</sub> .\n\nFind the smallest
-  denominator <var>d</var>, having a resilience <var>R</var>(<var>d</var>) 15499/<sub>94744</sub>
-  .\n\n"
+  ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)1 proper
+  fractions; for example, with <var>d</var> = 12:  \n<sup>1</sup>/<sub>12</sub> ,
+  <sup>2</sup>/<sub>12</sub> , <sup>3</sup>/<sub>12</sub> , <sup>4</sup>/<sub>12</sub>
+  , <sup>5</sup>/<sub>12</sub> , <sup>6</sup>/<sub>12</sub> , <sup>7</sup>/<sub>12</sub>
+  , <sup>8</sup>/<sub>12</sub> , <sup>9</sup>/<sub>12</sub> , <sup>10</sup>/<sub>12</sub>
+  , <sup>11</sup>/<sub>12</sub> .\n\nWe shall call a fraction that cannot be cancelled
+  down a _resilient fraction_.  \n\rFurthermore we shall define the _resilience_ of
+  a denominator, <var>R</var>(<var>d</var>), to be the ratio of its proper fractions
+  that are resilient; for example, <var>R</var>(12) = <sup>4</sup>/<sub>11</sub> .
+  \ \n\rIn fact, <var>d</var> = 12 is the smallest denominator having a resilience
+  <var>R</var>(<var>d</var>) 4/<sub>10</sub> .\n\nFind the smallest denominator <var>d</var>,
+  having a resilience <var>R</var>(<var>d</var>) 15499/<sub>94744</sub> .\n\n"

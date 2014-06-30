@@ -2,8 +2,8 @@
 :id: 393
 :name: Migrating ants
 :url: http://projecteuler.net/problem=393
-:content: "An <var>n</var> ![×]({{ images_dir }}/symbol_times.gif)<var>n</var> grid
-  of squares contains <var>n</var><sup>2</sup> ants, one ant per square.  \n\rAll
+:content: "An <var>n</var> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)<var>n</var>
+  grid of squares contains <var>n</var><sup>2</sup> ants, one ant per square.  \n\rAll
   ants decide to move simultaneously to an adjacent square (usually 4 possibilities,
   except for ants on the edge of the grid or at the corners).  \n\rWe define <var>f</var>(<var>n</var>)
   to be the number of ways this can happen without any ants ending on the same square

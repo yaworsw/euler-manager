@@ -3,7 +3,8 @@
 :name: Obtuse Angled Triangles
 :url: http://projecteuler.net/problem=210
 :content: "\rConsider the set S(r) of points (x,y) with integer coordinates satisfying
-  |x| + |y| ![≤]({{ images_dir }}/symbol_le.gif) r.   \n\rLet O be the point (0,0)
-  and C the point (r/4,r/4).   \n\rLet N(r) be the number of points B in S(r), so
-  that the triangle OBC has an obtuse angle, i.e. the largest angle α satisfies 90°\rSo,
-  for example, N(4)=24 and N(8)=100.\r\n\nWhat is N(1,000,000,000)?\n\n"
+  |x| + |y| ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  r.   \n\rLet O be the point (0,0) and C the point (r/4,r/4).   \n\rLet N(r) be the
+  number of points B in S(r), so that the triangle OBC has an obtuse angle, i.e. the
+  largest angle α satisfies 90°\rSo, for example, N(4)=24 and N(8)=100.\r\n\nWhat
+  is N(1,000,000,000)?\n\n"

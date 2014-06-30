@@ -4,11 +4,11 @@
 :url: http://projecteuler.net/problem=91
 :content: "The points P (_x_<sub>1</sub>, _y_<sub>1</sub>) and Q (_x_<sub>2</sub>,
   _y_<sub>2</sub>) are plotted at integer co-ordinates and are joined to the origin,
-  O(0,0), to form ΔOPQ.\n\n ![]({{ images_dir }}/p_091_1.gif)  \n\nThere are exactly
-  fourteen triangles containing a right angle that can be formed when each co-ordinate
-  lies between 0 and 2 inclusive; that is,  \n0 ![≤]({{ images_dir }}/symbol_le.gif)
-  _x_<sub>1</sub>, _y_<sub>1</sub>, _x_<sub>2</sub>, _y_<sub>2</sub> ![≤]({{ images_dir
-  }}/symbol_le.gif) 2.\n\n ![]({{ images_dir }}/p_091_2.gif)  \n\nGiven that 0 ![≤]({{
-  images_dir }}/symbol_le.gif) _x_<sub>1</sub>, _y_<sub>1</sub>, _x_<sub>2</sub>,
-  _y_<sub>2</sub> ![≤]({{ images_dir }}/symbol_le.gif) 50, how many right triangles
-  can be formed?\n\n"
+  O(0,0), to form ΔOPQ.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_091_1.gif)
+  \ \n\nThere are exactly fourteen triangles containing a right angle that can be
+  formed when each co-ordinate lies between 0 and 2 inclusive; that is,  \n0 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  _x_<sub>1</sub>, _y_<sub>1</sub>, _x_<sub>2</sub>, _y_<sub>2</sub> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  2.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_091_2.gif)  \n\nGiven
+  that 0 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) _x_<sub>1</sub>,
+  _y_<sub>1</sub>, _x_<sub>2</sub>, _y_<sub>2</sub> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  50, how many right triangles can be formed?\n\n"

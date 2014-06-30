@@ -20,7 +20,7 @@
   have no common point. So among the three line segments, we find one true intersection
   point.\n\nNow let us do the same for 5000 line segments. To this end, we generate
   20000 numbers using the so-called \"Blum Blum Shub\" pseudo-random number generator.\n\ns<sub>0</sub>
-  = 290797  \n  \n  \n\rs<sub>n+1</sub> = s<sub>n</sub> ![×]({{ images_dir }}/symbol_times.gif)s<sub>n</sub>
+  = 290797  \n  \n  \n\rs<sub>n+1</sub> = s<sub>n</sub> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)s<sub>n</sub>
   (modulo 50515093)  \n  \n  \n\rt<sub>n</sub> = s<sub>n</sub> (modulo 500)\n\nTo
   create each line segment, we use four consecutive numbers t<sub>n</sub>. That is,
   the first line segment is given by:\n\n(t<sub>1</sub>, t<sub>2</sub>) to (t<sub>3</sub>,

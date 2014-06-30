@@ -5,20 +5,21 @@
 :content: "Let <var>s<sub>k</sub></var> be the number of 1’s when writing the numbers
   from 0 to <var>k</var> in binary.  \n\rFor example, writing 0 to 5 in binary, we
   have 0, 1, 10, 11, 100, 101. There are seven 1’s, so <var>s</var><sub>5</sub> =
-  7.  \n\rThe sequence S = {<var>s<sub>k</sub></var> : <var>k</var> ![≥]({{ images_dir
-  }}/symbol_ge.gif) 0} starts {0, 1, 2, 4, 5, 7, 9, 12, ...}.\n\nA game is played
-  by two players. Before the game starts, a number <var>n</var> is chosen. A counter
-  <var>c</var> starts at 0. At each turn, the player chooses a number from 1 to <var>n</var>
-  (inclusive) and increases <var>c</var> by that number. The resulting value of <var>c</var>
-  must be a member of S. If there are no more valid moves, the player loses.\n\nFor
-  example:  \n\rLet <var>n</var> = 5. <var>c</var> starts at 0.  \n\rPlayer 1 chooses
-  4, so <var>c</var> becomes 0 + 4 = 4.  \n\rPlayer 2 chooses 5, so <var>c</var> becomes
+  7.  \n\rThe sequence S = {<var>s<sub>k</sub></var> : <var>k</var> ![≥](/home/will/src/euler-manager/config/../data/images/symbol_ge.gif)
+  0} starts {0, 1, 2, 4, 5, 7, 9, 12, ...}.\n\nA game is played by two players. Before
+  the game starts, a number <var>n</var> is chosen. A counter <var>c</var> starts
+  at 0. At each turn, the player chooses a number from 1 to <var>n</var> (inclusive)
+  and increases <var>c</var> by that number. The resulting value of <var>c</var> must
+  be a member of S. If there are no more valid moves, the player loses.\n\nFor example:
+  \ \n\rLet <var>n</var> = 5. <var>c</var> starts at 0.  \n\rPlayer 1 chooses 4, so
+  <var>c</var> becomes 0 + 4 = 4.  \n\rPlayer 2 chooses 5, so <var>c</var> becomes
   4 + 5 = 9.  \n\rPlayer 1 chooses 3, so <var>c</var> becomes 9 + 3 = 12.  \n\retc.
   \ \n\rNote that <var>c</var> must always belong to S, and each player can increase
   <var>c</var> by at most <var>n</var>.\n\nLet M(<var>n</var>) be the highest number
   the first player can choose at her first turn to force a win, and M(<var>n</var>)
   = 0 if there is no such move. For example, M(2) = 2, M(7) = 1 and M(20) = 4.\n\nGiven
-  Σ(M(<var>n</var>))<sup>3</sup> = 8150 for 1 ![≤]({{ images_dir }}/symbol_le.gif)
-  <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 20.\n\nFind Σ(M(<var>n</var>))<sup>3</sup>
-  for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)
+  Σ(M(<var>n</var>))<sup>3</sup> = 8150 for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>n</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  20.\n\nFind Σ(M(<var>n</var>))<sup>3</sup> for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>n</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
   1000.\n\n"

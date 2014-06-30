@@ -3,15 +3,15 @@
 :name: Cutting Squares
 :url: http://projecteuler.net/problem=270
 :content: |+
-  A square piece of paper with integer dimensions N ![×]({{ images_dir }}/symbol_times.gif)N is placed with a corner at the origin and two of its sides along the <var>x</var>- and <var>y</var>-axes. Then, we cut it up respecting the following rules:
+  A square piece of paper with integer dimensions N ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)N is placed with a corner at the origin and two of its sides along the <var>x</var>- and <var>y</var>-axes. Then, we cut it up respecting the following rules:
 
   - We only make straight cuts between two points lying on different sides of the square, and having integer coordinates.
   - Two cuts cannot cross, but several cuts can meet at the same border point.
   - Proceed until no more legal cuts can be made.
 
-  Counting any reflections or rotations as distinct, we call C(N) the number of ways to cut an N ![×]({{ images_dir }}/symbol_times.gif)N square. For example, C(1) = 2 and C(2) = 30 (shown below).
+  Counting any reflections or rotations as distinct, we call C(N) the number of ways to cut an N ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)N square. For example, C(1) = 2 and C(2) = 30 (shown below).
 
-   ![]({{ images_dir }}/p_270_CutSquare.gif)
+   ![](/home/will/src/euler-manager/config/../data/images/p_270_CutSquare.gif)
 
   What is C(30) mod 10<sup>8</sup> ?
 

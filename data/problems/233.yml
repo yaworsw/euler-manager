@@ -7,5 +7,5 @@
 
   It can be shown that <var>f</var>(10000) = 36.
 
-  What is the sum of all positive integers <var>N</var>  ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>11</sup> such that <var>f</var>(<var>N</var>) = 420 ?
+  What is the sum of all positive integers <var>N</var>  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 10<sup>11</sup> such that <var>f</var>(<var>N</var>) = 420 ?
 

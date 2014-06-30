@@ -5,7 +5,7 @@
 :content: |+
   Let ABCD be a convex quadrilateral, with diagonals AC and BD. At each vertex the diagonal makes an angle with each of the two sides, creating eight corner angles.
 
-  ![]({{ images_dir }}/p_177_quad.gif)
+  ![](/home/will/src/euler-manager/config/../data/images/p_177_quad.gif)
 
   For example, at vertex A, the two angles are CAD, CAB.
 

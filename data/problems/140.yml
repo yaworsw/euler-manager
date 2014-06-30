@@ -10,10 +10,10 @@
   The corresponding values of _x_ for the first five natural numbers are shown below.
 
   | **_x_** | **A<sub>G</sub>(_x_)** |
-  | ( ![√]({{ images_dir }}/symbol_radic.gif)5 ![−]({{ images_dir }}/symbol_minus.gif)1)/4 | 1 |
+  | ( ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)5 ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)1)/4 | 1 |
   | 2/5 | 2 |
-  | ( ![√]({{ images_dir }}/symbol_radic.gif)22 ![−]({{ images_dir }}/symbol_minus.gif)2)/6 | 3 |
-  | ( ![√]({{ images_dir }}/symbol_radic.gif)137 ![−]({{ images_dir }}/symbol_minus.gif)5)/14 | 4 |
+  | ( ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)22 ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)2)/6 | 3 |
+  | ( ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)137 ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)5)/14 | 4 |
   | 1/2 | 5 |
 
   We shall call A<sub>G</sub>(_x_) a golden nugget if _x_ is rational, because they become increasingly rarer; for example, the 20th golden nugget is 211345365.

@@ -2,11 +2,12 @@
 :id: 296
 :name: Angular Bisector and Tangent
 :url: http://projecteuler.net/problem=296
-:content: "Given is an integer sided triangle <var>ABC</var> with <var>BC</var> ![≤]({{
-  images_dir }}/symbol_le.gif) <var>AC</var> ![≤]({{ images_dir }}/symbol_le.gif)
+:content: "Given is an integer sided triangle <var>ABC</var> with <var>BC</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>AC</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
   <var>AB</var>.  \n<var>k</var> is the angular bisector of angle <var>ACB</var>.
   \ \n <var>m</var> is the tangent at <var>C</var> to the circumscribed circle of
   <var>ABC</var>.  \n <var>n</var> is a line parallel to <var>m</var> through <var>B</var>.
   \ \n\rThe intersection of <var>n</var> and <var>k</var> is called <var>E</var>.\n\n
-  ![]({{ images_dir }}/p296_bisector.gif)\n\nHow many triangles <var>ABC</var> with
-  a perimeter not exceeding 100 000 exist such that <var>BE</var> has integral length?\n\n"
+  ![](/home/will/src/euler-manager/config/../data/images/p296_bisector.gif)\n\nHow
+  many triangles <var>ABC</var> with a perimeter not exceeding 100 000 exist such
+  that <var>BE</var> has integral length?\n\n"

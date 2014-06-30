@@ -3,10 +3,11 @@
 :name: Least common multiple count
 :url: http://projecteuler.net/problem=379
 :content: "Let <var>f</var>(<var>n</var>) be the number of couples (<var>x</var>,<var>y</var>)
-  with <var>x</var> and <var>y</var> positive integers, <var>x</var> ![≤]({{ images_dir
-  }}/symbol_le.gif) <var>y</var> and the least common multiple of <var>x</var> and
-  <var>y</var> equal to <var>n</var>.\n\nLet <var>g</var> be the **summatory function**
-  of <var>f</var>, i.e.: \r<var>g</var>(<var>n</var>) = ![∑]({{ images_dir }}/symbol_sum.gif)
-  <var>f</var>(<var>i</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>i</var>
-  ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var>.\n\nYou are given that <var>g</var>(10<sup>6</sup>)
-  = 37429395.\n\nFind <var>g</var>(10<sup>12</sup>).\n\n"
+  with <var>x</var> and <var>y</var> positive integers, <var>x</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>y</var> and the least common multiple of <var>x</var> and <var>y</var> equal
+  to <var>n</var>.\n\nLet <var>g</var> be the **summatory function** of <var>f</var>,
+  i.e.: \r<var>g</var>(<var>n</var>) = ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)
+  <var>f</var>(<var>i</var>) for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>i</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>n</var>.\n\nYou are given that <var>g</var>(10<sup>6</sup>) = 37429395.\n\nFind
+  <var>g</var>(10<sup>12</sup>).\n\n"

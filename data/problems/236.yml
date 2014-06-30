@@ -24,7 +24,7 @@
   found that each of the five per-product spoilage rates was worse (higher) for 'B'
   than for 'A' by the same factor (ratio of spoilage rates), <var>m</var>>1; and yet,
   paradoxically, the overall spoilage rate was worse for 'A' than for 'B', also by
-  a factor of <var>m</var>.\n\nThere are thirty-five <var>m</var> ![>]({{ images_dir
-  }}/symbol_gt.gif)1 for which this surprising result could have occurred, the smallest
-  of which is 1476/1475.\n\nWhat's the largest possible value of <var>m</var>?  \n\rGive
-  your answer as a fraction reduced to its lowest terms, in the form <var>u</var>/<var>v</var>.\n\n"
+  a factor of <var>m</var>.\n\nThere are thirty-five <var>m</var> ![>](/home/will/src/euler-manager/config/../data/images/symbol_gt.gif)1
+  for which this surprising result could have occurred, the smallest of which is 1476/1475.\n\nWhat's
+  the largest possible value of <var>m</var>?  \n\rGive your answer as a fraction
+  reduced to its lowest terms, in the form <var>u</var>/<var>v</var>.\n\n"

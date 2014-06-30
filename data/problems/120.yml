@@ -3,9 +3,9 @@
 :name: Square remainders
 :url: http://projecteuler.net/problem=120
 :content: |+
-  Let _r_ be the remainder when (_a_ ![−]({{ images_dir }}/symbol_minus.gif)1)<sup><i>n</i></sup> + (_a_+1)<sup><i>n</i></sup> is divided by _a_<sup>2</sup>.
+  Let _r_ be the remainder when (_a_ ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)1)<sup><i>n</i></sup> + (_a_+1)<sup><i>n</i></sup> is divided by _a_<sup>2</sup>.
 
-  For example, if _a_ = 7 and _n_ = 3, then _r_ = 42: 6<sup>3</sup> + 8<sup>3</sup> = 728 ![≡]({{ images_dir }}/symbol_cong.gif) 42 mod 49. And as _n_ varies, so too will _r_, but for _a_ = 7 it turns out that _r_<sub>max</sub> = 42.
+  For example, if _a_ = 7 and _n_ = 3, then _r_ = 42: 6<sup>3</sup> + 8<sup>3</sup> = 728 ![≡](/home/will/src/euler-manager/config/../data/images/symbol_cong.gif) 42 mod 49. And as _n_ varies, so too will _r_, but for _a_ = 7 it turns out that _r_<sub>max</sub> = 42.
 
-  For 3 ![≤]({{ images_dir }}/symbol_le.gif) _a_ ![≤]({{ images_dir }}/symbol_le.gif) 1000, find ![∑]({{ images_dir }}/symbol_sum.gif) _r_<sub>max</sub>.
+  For 3 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) _a_ ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 1000, find ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif) _r_<sub>max</sub>.
 

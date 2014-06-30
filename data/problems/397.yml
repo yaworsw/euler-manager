@@ -7,8 +7,11 @@
   and C(<var>c</var>, <var>c</var><sup>2</sup>/<var>k</var>) are chosen.\n\nLet F(<var>K</var>,
   <var>X</var>) be the number of the integer quadruplets (<var>k</var>, <var>a</var>,
   <var>b</var>, <var>c</var>) such that at least one angle of the triangle ABC is
-  45-degree, with 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>k</var> ![≤]({{ images_dir
-  }}/symbol_le.gif) <var>K</var> and -<var>X</var> ![≤]({{ images_dir }}/symbol_le.gif)
-  <var>a</var> ![<]({{ images_dir }}/symbol_lt.gif) <var>b</var> ![<]({{ images_dir
-  }}/symbol_lt.gif) <var>c</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>X</var>.\n\nFor
-  example, F(1, 10) = 41 and F(10, 100) = 12492.  \n\rFind F(10<sup>6</sup>, 10<sup>9</sup>).\n\n"
+  45-degree, with 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>k</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>K</var> and -<var>X</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>a</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
+  <var>b</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
+  <var>c</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>X</var>.\n\nFor example, F(1, 10) = 41 and F(10, 100) = 12492.  \n\rFind F(10<sup>6</sup>,
+  10<sup>9</sup>).\n\n"

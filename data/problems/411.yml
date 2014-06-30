@@ -4,15 +4,16 @@
 :url: http://projecteuler.net/problem=411
 :content: "Let <var>n</var> be a positive integer. Suppose there are stations at the
   coordinates (<var>x</var>, <var>y</var>) = (2<sup><var>i</var></sup> mod <var>n</var>,
-  3<sup><var>i</var></sup> mod <var>n</var>) for 0 ![≤]({{ images_dir }}/symbol_le.gif)
-  <var>i</var> ![≤]({{ images_dir }}/symbol_le.gif) 2<var>n</var>. We will consider
-  stations with the same coordinates as the same station.\n\nWe wish to form a path
-  from (0, 0) to (<var>n</var>, <var>n</var>) such that the x and y coordinates never
-  decrease.  \n\rLet S(<var>n</var>) be the maximum number of stations such a path
-  can pass through.\n\nFor example, if <var>n</var> = 22, there are 11 distinct stations,
-  and a valid path can pass through at most 5 stations. Therefore, S(22) = 5.\rThe
-  case is illustrated below, with an example of an optimal path:\n\n![]({{ images_dir
-  }}/p411_longpath.png)\n\nIt can also be verified that S(123) = 14 and S(10000) =
-  48.\n\nFind ![∑]({{ images_dir }}/symbol_sum.gif) S(<var>k</var><sup>5</sup>) for
-  1 ![≤]({{ images_dir }}/symbol_le.gif) <var>k</var> ![≤]({{ images_dir }}/symbol_le.gif)
+  3<sup><var>i</var></sup> mod <var>n</var>) for 0 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>i</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  2<var>n</var>. We will consider stations with the same coordinates as the same station.\n\nWe
+  wish to form a path from (0, 0) to (<var>n</var>, <var>n</var>) such that the x
+  and y coordinates never decrease.  \n\rLet S(<var>n</var>) be the maximum number
+  of stations such a path can pass through.\n\nFor example, if <var>n</var> = 22,
+  there are 11 distinct stations, and a valid path can pass through at most 5 stations.
+  Therefore, S(22) = 5.\rThe case is illustrated below, with an example of an optimal
+  path:\n\n![](/home/will/src/euler-manager/config/../data/images/p411_longpath.png)\n\nIt
+  can also be verified that S(123) = 14 and S(10000) = 48.\n\nFind ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)
+  S(<var>k</var><sup>5</sup>) for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>k</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
   30.\n\n"

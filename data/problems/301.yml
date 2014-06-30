@@ -19,5 +19,5 @@
   stones remain; so the current player loses. To illustrate:  \n\r- current player
   moves to (1,2,1)  \n\r- opponent moves to (1,0,1)  \n\r- current player moves to
   (0,0,1)  \n\r- opponent moves to (0,0,0), and so wins.\n\nFor how many positive
-  integers <var>n</var>  ![≤]({{ images_dir }}/symbol_le.gif) 2<sup>30</sup> does
-  <var>X</var>(<var>n</var>,2<var>n</var>,3<var>n</var>) = 0 ?\n\n"
+  integers <var>n</var>  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 2<sup>30</sup>
+  does <var>X</var>(<var>n</var>,2<var>n</var>,3<var>n</var>) = 0 ?\n\n"

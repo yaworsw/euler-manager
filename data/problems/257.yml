@@ -2,13 +2,13 @@
 :id: 257
 :name: Angular Bisectors
 :url: http://projecteuler.net/problem=257
-:content: "Given is an integer sided triangle ABC with sides a ![≤]({{ images_dir
-  }}/symbol_le.gif) b ![≤]({{ images_dir }}/symbol_le.gif) c. \r(AB = c, BC = a and
-  AC = b).  \n\rThe angular bisectors of the triangle intersect the sides at points
-  E, F and G (see picture below).\n\n ![]({{ images_dir }}/p_257_bisector.gif)  \n\nThe
-  segments EF, EG and FG partition the triangle ABC into four smaller triangles: AEG,
-  BFE, CGF and EFG.  \n\rIt can be proven that for each of these four triangles the
-  ratio area(ABC)/area(subtriangle) is rational.  \n\rHowever, there exist triangles
+:content: "Given is an integer sided triangle ABC with sides a ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  b ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) c. \r(AB
+  = c, BC = a and AC = b).  \n\rThe angular bisectors of the triangle intersect the
+  sides at points E, F and G (see picture below).\n\n ![](/home/will/src/euler-manager/config/../data/images/p_257_bisector.gif)
+  \ \n\nThe segments EF, EG and FG partition the triangle ABC into four smaller triangles:
+  AEG, BFE, CGF and EFG.  \n\rIt can be proven that for each of these four triangles
+  the ratio area(ABC)/area(subtriangle) is rational.  \n\rHowever, there exist triangles
   for which some or all of these ratios are integral.\n\nHow many triangles ABC with
-  perimeter ![≤]({{ images_dir }}/symbol_le.gif)100,000,000 exist so that the ratio
-  area(ABC)/area(AEG) is integral?\n\n"
+  perimeter ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)100,000,000
+  exist so that the ratio area(ABC)/area(AEG) is integral?\n\n"

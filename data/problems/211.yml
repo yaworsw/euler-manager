@@ -7,5 +7,5 @@
 
   σ<sub>2</sub>(10) = 1 + 4 + 25 + 100 = 130.
 
-  Find the sum of all <var>n</var>, 0 ![<]({{ images_dir }}/symbol_lt.gif) <var>n</var> ![<]({{ images_dir }}/symbol_lt.gif) 64,000,000 such that σ<sub>2</sub>(<var>n</var>) is a perfect square.
+  Find the sum of all <var>n</var>, 0 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) <var>n</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) 64,000,000 such that σ<sub>2</sub>(<var>n</var>) is a perfect square.
 
