@@ -62,10 +62,10 @@ end
   'coffeescript',
   'java',
   'javascript',
+  'julia',
   'python',
   'ruby',
-  'scala',
-  'julia'
+  'scala'
 
 ].each do |lang|
   require_relative "../languages/#{lang}"
