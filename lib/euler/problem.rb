@@ -9,8 +9,12 @@ module Euler
     # Returns the problem with the given id.
     def self.find id
       problem_spec_file = "#{Euler.problems_dir}/#{id}.yml"
-      problem_spec      = YAML.load_file(problem_spec_file)
-      Problem.new problem_spec
+      begin
+        problem_spec    = YAML.load_file(problem_spec_file)
+      rescue
+        raise "No problem with id '#{id}' found"
+      end
+      Problem.new(problem_spec)
     end
 
     attr_reader :id, :name, :url

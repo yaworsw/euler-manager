@@ -83,9 +83,15 @@ command :test_all do |c|
       print "All TESTS PASSED".bold.on_green
       puts  "                   ".bold.on_green
     else
-      print "                 ".bold.on_red
-      print "THERE WERE #{failures.length} FAILURE#{failures.length != 1 ? 'S' : ''}".bold.on_red
-      puts  "                 ".bold.on_red
+      if failures.length == 1
+        print "                  ".bold.on_red
+        print "THERE WAS A FAILURE".bold.on_red
+        print "                  ".bold.on_red
+      else
+        print "                 ".bold.on_red
+        print "THERE WERE #{failures.length} FAILURES".bold.on_red
+        print "                 ".bold.on_red
+      end
       failures.each do |failure|
         puts
         puts "#{failure.problem.to_s} (#{failure.language})".bold
@@ -107,8 +113,12 @@ command :new do |c|
     problem_id = args.shift
     language   = args.shift
 
-    solution = Euler::Solution.new(problem_id, language)
-    problem  = solution.problem
+    begin
+      solution = Euler::Solution.new(problem_id, language)
+      problem  = solution.problem
+    rescue
+
+    end
 
     solution.init
 
