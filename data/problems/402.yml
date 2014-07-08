@@ -9,12 +9,11 @@
   such that <var>n</var><sup>4</sup> + <var>a</var><var>n</var><sup>3</sup> + <var>b</var><var>n</var><sup>2</sup>
   + <var>c</var><var>n</var> is a multiple of <var>m</var> for all integers <var>n</var>.
   For example, M(4, 2, 5) = 6.\n\nAlso, define S(<var>N</var>) as the sum of M(<var>a</var>,
-  <var>b</var>, <var>c</var>) for all 0 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  <var>a</var>, <var>b</var>, <var>c</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>N</var>.\n\nWe can verify that S(10) = 1972 and S(10000) = 2024258331114.\n\nLet
-  F<sub><var>k</var></sub> be the Fibonacci sequence:  \n\rF<sub>0</sub> = 0, F<sub>1</sub>
-  = 1 and  \n\rF<sub><var>k</var></sub> = F<sub><var>k</var>-1</sub> + F<sub><var>k</var>-2</sub>
-  for <var>k</var> ![≥](/home/will/src/euler-manager/config/../data/images/symbol_ge.gif)
-  2.\n\nFind the last 9 digits of Σ S(F<sub><var>k</var></sub>) for 2 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>k</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  <var>b</var>, <var>c</var>) for all 0 ![<]({{ images_dir }}/symbol_lt.gif) <var>a</var>,
+  <var>b</var>, <var>c</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>N</var>.\n\nWe
+  can verify that S(10) = 1972 and S(10000) = 2024258331114.\n\nLet F<sub><var>k</var></sub>
+  be the Fibonacci sequence:  \n\rF<sub>0</sub> = 0, F<sub>1</sub> = 1 and  \n\rF<sub><var>k</var></sub>
+  = F<sub><var>k</var>-1</sub> + F<sub><var>k</var>-2</sub> for <var>k</var> ![≥]({{
+  images_dir }}/symbol_ge.gif) 2.\n\nFind the last 9 digits of Σ S(F<sub><var>k</var></sub>)
+  for 2 ![≤]({{ images_dir }}/symbol_le.gif) <var>k</var> ![≤]({{ images_dir }}/symbol_le.gif)
   1234567890123.\n\n"

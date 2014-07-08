@@ -3,9 +3,9 @@
 :name: Singleton difference
 :url: http://projecteuler.net/problem=136
 :content: |+
-  The positive integers, _x_, _y_, and _z_, are consecutive terms of an arithmetic progression. Given that _n_ is a positive integer, the equation, _x_<sup>2</sup> ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif) _y_<sup>2</sup> ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif) _z_<sup>2</sup> = _n_, has exactly one solution when _n_ = 20:
+  The positive integers, _x_, _y_, and _z_, are consecutive terms of an arithmetic progression. Given that _n_ is a positive integer, the equation, _x_<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) _y_<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) _z_<sup>2</sup> = _n_, has exactly one solution when _n_ = 20:
 
-  13<sup>2</sup> ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif) 10<sup>2</sup> ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif) 7<sup>2</sup> = 20
+  13<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) 10<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) 7<sup>2</sup> = 20
 
   In fact there are twenty-five values of _n_ below one hundred for which the equation has a unique solution.
 

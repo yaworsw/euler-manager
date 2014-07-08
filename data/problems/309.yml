@@ -6,11 +6,11 @@
   and <var>y</var> of two ladders resting on the opposite walls of a narrow, level
   street. We are also given the height <var>h</var> above the street where the two
   ladders cross and we are asked to find the width of the street (<var>w</var>).\n\n
-  ![](/home/will/src/euler-manager/config/../data/images/p_309_ladders.gif)\n\nHere,
-  we are only concerned with instances where all four variables are positive integers.
-  \ \n\rFor example, if <var>x</var> = 70, <var>y</var> = 119 and <var>h</var> = 30,
-  we can calculate that <var>w</var> = 56.\n\nIn fact, for integer values <var>x</var>,
-  <var>y</var>, <var>h</var> and 0 x y x,<var>y</var>,<var>h</var>) producing integer
-  solutions for <var>w</var>:  \n\r(70, 119, 30), (74, 182, 21), (87, 105, 35), (100,
-  116, 35) and (119, 175, 40).\n\nFor integer values <var>x</var>, <var>y</var>, <var>h</var>
-  and 0 x y x,<var>y</var>,<var>h</var>) produce integer solutions for <var>w</var>?\n\n"
+  ![]({{ images_dir }}/p_309_ladders.gif)\n\nHere, we are only concerned with instances
+  where all four variables are positive integers.  \n\rFor example, if <var>x</var>
+  = 70, <var>y</var> = 119 and <var>h</var> = 30, we can calculate that <var>w</var>
+  = 56.\n\nIn fact, for integer values <var>x</var>, <var>y</var>, <var>h</var> and
+  0 x y x,<var>y</var>,<var>h</var>) producing integer solutions for <var>w</var>:
+  \ \n\r(70, 119, 30), (74, 182, 21), (87, 105, 35), (100, 116, 35) and (119, 175,
+  40).\n\nFor integer values <var>x</var>, <var>y</var>, <var>h</var> and 0 x y x,<var>y</var>,<var>h</var>)
+  produce integer solutions for <var>w</var>?\n\n"

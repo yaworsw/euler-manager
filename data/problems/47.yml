@@ -3,14 +3,10 @@
 :name: Distinct primes factors
 :url: http://projecteuler.net/problem=47
 :content: "The first two consecutive numbers to have two distinct prime factors are:\n\n14
-  = 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 7
-  \ \n15 = 3 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
+  = 2 ![×]({{ images_dir }}/symbol_times.gif) 7  \n15 = 3 ![×]({{ images_dir }}/symbol_times.gif)
   5\n\nThe first three consecutive numbers to have three distinct prime factors are:\n\n644
-  = 2² ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 7
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 23  \n645
-  = 3 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 5
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 43  \n646
-  = 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 17
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 19.\n\nFind
-  the first four consecutive integers to have four distinct prime factors. What is
-  the first of these numbers?\n\n"
+  = 2² ![×]({{ images_dir }}/symbol_times.gif) 7 ![×]({{ images_dir }}/symbol_times.gif)
+  23  \n645 = 3 ![×]({{ images_dir }}/symbol_times.gif) 5 ![×]({{ images_dir }}/symbol_times.gif)
+  43  \n646 = 2 ![×]({{ images_dir }}/symbol_times.gif) 17 ![×]({{ images_dir }}/symbol_times.gif)
+  19.\n\nFind the first four consecutive integers to have four distinct prime factors.
+  What is the first of these numbers?\n\n"

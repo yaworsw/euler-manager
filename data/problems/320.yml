@@ -5,7 +5,7 @@
 :content: |+
   Let N(<var>i</var>) be the smallest integer <var>n</var> such that <var>n</var>! is divisible by (<var>i</var>!)<sup>1234567890</sup>
 
-  Let S(<var>u</var>)= ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)N(<var>i</var>) for 10 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>i</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>u</var>.
+  Let S(<var>u</var>)= ![∑]({{ images_dir }}/symbol_sum.gif)N(<var>i</var>) for 10 ![≤]({{ images_dir }}/symbol_le.gif) <var>i</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>u</var>.
 
   S(1000)=614538266565663.
 

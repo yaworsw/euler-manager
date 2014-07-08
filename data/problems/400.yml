@@ -9,9 +9,8 @@
   and removes that node along with the subtree rooted at that node.  \n\rThe player
   who is forced to take the root node of the entire tree loses.\n\nHere are the winning
   moves of the first player on the first turn for T(<var>k</var>) from <var>k</var>=1
-  to <var>k</var>=6.\n\n![](/home/will/src/euler-manager/config/../data/images/p400_winning.png)\n\n\r\r\r\rLet
-  <var>f</var>(<var>k</var>) be the number of winning moves of the first player (i.e.
-  the moves for which the second player has no winning strategy) on the first turn
-  of the game when this game is played on T(<var>k</var>).\r\r\r\n\nFor example, <var>f</var>(5)
-  = 1 and <var>f</var>(10) = 17.\n\nFind <var>f</var>(10000). Give the last 18 digits
-  of your answer.\n\n"
+  to <var>k</var>=6.\n\n![]({{ images_dir }}/p400_winning.png)\n\n\r\r\r\rLet <var>f</var>(<var>k</var>)
+  be the number of winning moves of the first player (i.e. the moves for which the
+  second player has no winning strategy) on the first turn of the game when this game
+  is played on T(<var>k</var>).\r\r\r\n\nFor example, <var>f</var>(5) = 1 and <var>f</var>(10)
+  = 17.\n\nFind <var>f</var>(10000). Give the last 18 digits of your answer.\n\n"

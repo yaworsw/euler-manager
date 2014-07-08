@@ -6,9 +6,9 @@
   all divisors of <var>n</var>, so e.g. σ(6) = 1 + 2 + 3 + 6 = 12.\n\nA perfect number,
   as you probably know, is a number with σ(<var>n</var>) = 2<var>n</var>.\n\n| Let
   us define the **perfection quotient** of a positive integer as | <var>p</var>(<var>n</var>)
-  | =  | \nσ(<var>n</var>)  \n ![](/home/will/src/euler-manager/config/../data/images/blackdot.gif)
-  \ \n<var>n</var>\n | . |\n\n<!--\r\n<p>Let us define the <b>perfection quotient</b>
-  of a positive integer as <var>p</var>(<var>n</var>) = <font \"size=4\"> <sup>&sigma;(<var>n</var>)</sup>&frasl;<sub><var>n</var></sub></font>.</p>\r\n-->\n\nFind
-  the sum of all positive integers <var>n</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  | =  | \nσ(<var>n</var>)  \n ![]({{ images_dir }}/blackdot.gif)  \n<var>n</var>\n
+  | . |\n\n<!--\r\n<p>Let us define the <b>perfection quotient</b> of a positive integer
+  as <var>p</var>(<var>n</var>) = <font \"size=4\"> <sup>&sigma;(<var>n</var>)</sup>&frasl;<sub><var>n</var></sub></font>.</p>\r\n-->\n\nFind
+  the sum of all positive integers <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)
   10<sup>18</sup> for which <var>p</var>(<var>n</var>) has the form <var>k</var> +
   <sup>1</sup>⁄<sub>2</sub>, where <var>k</var> is an integer.\n\n"

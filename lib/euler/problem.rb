@@ -28,6 +28,11 @@ module Euler
       @content = options[:content]
     end
 
+    # Content without going through the template engine
+    def template
+      @content
+    end
+
     # Passing content though an ultra simple template engine before returning it
     def content
       @content.gsub(/\{\{\s?images_dir\s?\}\}/, Euler.images_dir)
@@ -50,7 +55,7 @@ module Euler
         id:       id,
         name:     name,
         url:      url,
-        content:  content
+        content:  template
       }
     end
 

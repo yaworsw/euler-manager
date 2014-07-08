@@ -4,27 +4,25 @@
 :url: http://projecteuler.net/problem=182
 :content: "The RSA encryption is based on the following procedure:\n\nGenerate two
   distinct primes <var>p</var> and <var>q</var>.  \nCompute <var>n=pq</var> and φ=(<var>p</var>-1)(<var>q</var>-1).
-  \ \n\rFind an integer <var>e</var>, 1 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)<var>e</var>
-  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)φ, such that
-  gcd(<var>e</var>,φ)=1.\n\nA message in this system is a number in the interval [0,<var>n</var>-1].
-  \ \n\rA text to be encrypted is then somehow converted to messages (numbers in the
-  interval [0,<var>n</var>-1]).  \n\rTo encrypt the text, for each message, <var>m</var>,
-  <var>c</var>=<var>m</var><sup><var>e</var></sup> mod <var>n</var> is calculated.\n\nTo
-  decrypt the text, the following procedure is needed: calculate <var>d</var> such
-  that <var>ed</var>=1 mod φ, then for each encrypted message, <var>c</var>, calculate
-  <var>m=c<sup>d</sup></var> mod <var>n</var>.\n\nThere exist values of <var>e</var>
-  and <var>m</var> such that <var>m<sup>e</sup></var> mod <var>n=m</var>.  \nWe call
-  messages <var>m</var> for which <var>m<sup>e</sup></var> mod <var>n=m</var> unconcealed
-  messages.\n\nAn issue when choosing <var>e</var> is that there should not be too
-  many unconcealed messages.   \nFor instance, let <var>p</var>=19 and <var>q</var>=37.
-  \ \n\rThen <var>n</var>=19\\*37=703 and φ=18\\*36=648.  \n\rIf we choose <var>e</var>=181,
-  then, although gcd(181,648)=1 it turns out that all possible messages  \n<var>m</var>
-  (0 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)<var>m</var>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)<var>n</var>-1)
-  are unconcealed when calculating <var>m<sup>e</sup></var> mod <var>n</var>.  \n\rFor
-  any valid choice of <var>e</var> there exist some unconcealed messages.  \n\rIt's
-  important that the number of unconcealed messages is at a minimum.\n\nChoose <var>p</var>=1009
-  and <var>q</var>=3643.  \n\rFind the sum of all values of <var>e</var>, 1 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)<var>e</var>
-  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)φ(1009,3643)
-  and gcd(<var>e</var>,φ)=1, so that the number of unconcealed messages for this value
-  of <var>e</var> is at a minimum.\n\n"
+  \ \n\rFind an integer <var>e</var>, 1 ![<]({{ images_dir }}/symbol_lt.gif)<var>e</var>
+  ![<]({{ images_dir }}/symbol_lt.gif)φ, such that gcd(<var>e</var>,φ)=1.\n\nA message
+  in this system is a number in the interval [0,<var>n</var>-1].  \n\rA text to be
+  encrypted is then somehow converted to messages (numbers in the interval [0,<var>n</var>-1]).
+  \ \n\rTo encrypt the text, for each message, <var>m</var>, <var>c</var>=<var>m</var><sup><var>e</var></sup>
+  mod <var>n</var> is calculated.\n\nTo decrypt the text, the following procedure
+  is needed: calculate <var>d</var> such that <var>ed</var>=1 mod φ, then for each
+  encrypted message, <var>c</var>, calculate <var>m=c<sup>d</sup></var> mod <var>n</var>.\n\nThere
+  exist values of <var>e</var> and <var>m</var> such that <var>m<sup>e</sup></var>
+  mod <var>n=m</var>.  \nWe call messages <var>m</var> for which <var>m<sup>e</sup></var>
+  mod <var>n=m</var> unconcealed messages.\n\nAn issue when choosing <var>e</var>
+  is that there should not be too many unconcealed messages.   \nFor instance, let
+  <var>p</var>=19 and <var>q</var>=37.  \n\rThen <var>n</var>=19\\*37=703 and φ=18\\*36=648.
+  \ \n\rIf we choose <var>e</var>=181, then, although gcd(181,648)=1 it turns out
+  that all possible messages  \n<var>m</var> (0 ![≤]({{ images_dir }}/symbol_le.gif)<var>m</var>
+  ![≤]({{ images_dir }}/symbol_le.gif)<var>n</var>-1) are unconcealed when calculating
+  <var>m<sup>e</sup></var> mod <var>n</var>.  \n\rFor any valid choice of <var>e</var>
+  there exist some unconcealed messages.  \n\rIt's important that the number of unconcealed
+  messages is at a minimum.\n\nChoose <var>p</var>=1009 and <var>q</var>=3643.  \n\rFind
+  the sum of all values of <var>e</var>, 1 ![<]({{ images_dir }}/symbol_lt.gif)<var>e</var>
+  ![<]({{ images_dir }}/symbol_lt.gif)φ(1009,3643) and gcd(<var>e</var>,φ)=1, so that
+  the number of unconcealed messages for this value of <var>e</var> is at a minimum.\n\n"

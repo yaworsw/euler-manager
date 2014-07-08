@@ -4,19 +4,18 @@
 :url: http://projecteuler.net/problem=333
 :content: "All positive integers can be partitioned in such a way that each and every
   term of the partition can be expressed as 2<sup>i</sup>x3<sup>j</sup>, where i,j
-  ![≥](/home/will/src/euler-manager/config/../data/images/symbol_ge.gif) 0.\n\nLet's
-  consider only those such partitions where none of the terms can divide any of the
-  other terms.\r  \nFor example, the partition of 17 = 2 + 6 + 9 = (2<sup>1</sup>x3<sup>0</sup>
-  + 2<sup>1</sup>x3<sup>1</sup> + 2<sup>0</sup>x3<sup>2</sup>) would not be valid
-  since 2 can divide 6. Neither would the partition 17 = 16 + 1 = (2<sup>4</sup>x3<sup>0</sup>
-  + 2<sup>0</sup>x3<sup>0</sup>) since 1 can divide 16. The only valid partition of
-  17 would be 8 + 9 = (2<sup>3</sup>x3<sup>0</sup> + 2<sup>0</sup>x3<sup>2</sup>).\n\nMany
-  integers have more than one valid partition, the first being 11 having the following
-  two partitions.\r  \n11 = 2 + 9 = (2<sup>1</sup>x3<sup>0</sup> + 2<sup>0</sup>x3<sup>2</sup>)\r
-  \ \n11 = 8 + 3 = (2<sup>3</sup>x3<sup>0</sup> + 2<sup>0</sup>x3<sup>1</sup>)\n\nLet's
-  define P(<var>n</var>) as the number of valid partitions of <var>n</var>. For example,
-  P(11) = 2.\n\nLet's consider only the prime integers <var>q</var> which would have
-  a single valid partition such as P(17).\n\nThe sum of the primes <var>q</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)100
-  such that P(<var>q</var>)=1 equals 233.\n\nFind the sum of the primes <var>q</var>
-  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)1000000 such
-  that P(<var>q</var>)=1.\n\n"
+  ![≥]({{ images_dir }}/symbol_ge.gif) 0.\n\nLet's consider only those such partitions
+  where none of the terms can divide any of the other terms.\r  \nFor example, the
+  partition of 17 = 2 + 6 + 9 = (2<sup>1</sup>x3<sup>0</sup> + 2<sup>1</sup>x3<sup>1</sup>
+  + 2<sup>0</sup>x3<sup>2</sup>) would not be valid since 2 can divide 6. Neither
+  would the partition 17 = 16 + 1 = (2<sup>4</sup>x3<sup>0</sup> + 2<sup>0</sup>x3<sup>0</sup>)
+  since 1 can divide 16. The only valid partition of 17 would be 8 + 9 = (2<sup>3</sup>x3<sup>0</sup>
+  + 2<sup>0</sup>x3<sup>2</sup>).\n\nMany integers have more than one valid partition,
+  the first being 11 having the following two partitions.\r  \n11 = 2 + 9 = (2<sup>1</sup>x3<sup>0</sup>
+  + 2<sup>0</sup>x3<sup>2</sup>)\r  \n11 = 8 + 3 = (2<sup>3</sup>x3<sup>0</sup> +
+  2<sup>0</sup>x3<sup>1</sup>)\n\nLet's define P(<var>n</var>) as the number of valid
+  partitions of <var>n</var>. For example, P(11) = 2.\n\nLet's consider only the prime
+  integers <var>q</var> which would have a single valid partition such as P(17).\n\nThe
+  sum of the primes <var>q</var> ![<]({{ images_dir }}/symbol_lt.gif)100 such that
+  P(<var>q</var>)=1 equals 233.\n\nFind the sum of the primes <var>q</var> ![<]({{
+  images_dir }}/symbol_lt.gif)1000000 such that P(<var>q</var>)=1.\n\n"

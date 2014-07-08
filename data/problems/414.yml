@@ -16,20 +16,18 @@
   a Kaprekar constant exists in all cases; either the routine can end up in a cycle
   for some input numbers or the constant the routine arrives at can be different for
   different input numbers.  \n\rHowever, it can be shown that for 5 digits and a base
-  b = 6t+3 ![≠](/home/will/src/euler-manager/config/../data/images/symbol_ne.gif)9,
-  a Kaprekar constant exists.  \n\rE.g. base 15: (10,4,14,9,5)<sub>15</sub>  \n\rbase
-  21: (14,6,20,13,7)<sub>21</sub>\n\nDefine <var>C<sub>b</sub></var> to be the Kaprekar
-  constant in base <var>b</var> for 5 digits.\rDefine the function <var>sb(i)</var>
-  to be\n\n- 0 if i = <var>C<sub>b</sub></var> or if <var>i</var> written in base
-  <var>b</var> consists of 5 identical digits\r\n- the number of iterations it takes
-  the Kaprekar routine in base <var>b</var> to arrive at <var>C<sub>b</sub></var>,
-  otherwise\r\n\rNote that we can define <var>sb(i)</var> for all integers <var>i</var>
-  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) <var>b</var><sup>5</sup>.
+  b = 6t+3 ![≠]({{ images_dir }}/symbol_ne.gif)9, a Kaprekar constant exists.  \n\rE.g.
+  base 15: (10,4,14,9,5)<sub>15</sub>  \n\rbase 21: (14,6,20,13,7)<sub>21</sub>\n\nDefine
+  <var>C<sub>b</sub></var> to be the Kaprekar constant in base <var>b</var> for 5
+  digits.\rDefine the function <var>sb(i)</var> to be\n\n- 0 if i = <var>C<sub>b</sub></var>
+  or if <var>i</var> written in base <var>b</var> consists of 5 identical digits\r\n-
+  the number of iterations it takes the Kaprekar routine in base <var>b</var> to arrive
+  at <var>C<sub>b</sub></var>, otherwise\r\n\rNote that we can define <var>sb(i)</var>
+  for all integers <var>i</var> ![<]({{ images_dir }}/symbol_lt.gif) <var>b</var><sup>5</sup>.
   If <var>i</var> written in base <var>b</var> takes less than 5 digits, the number
   is padded with leading zero digits until we have 5 digits before applying the Kaprekar
-  routine.\r\r\n\nDefine <var>S(b)</var> as the sum of <var>sb(i)</var> for 0 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  <var>i</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  <var>b</var><sup>5</sup>.  \n\rE.g. S(15) = 5274369  \n \rS(111) = 400668930299\n\nFind
-  the sum of S(6k+3) for 2 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  k ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 300.  \n\rGive
-  the last 18 digits as your answer.\n\n"
+  routine.\r\r\n\nDefine <var>S(b)</var> as the sum of <var>sb(i)</var> for 0 ![<]({{
+  images_dir }}/symbol_lt.gif) <var>i</var> ![<]({{ images_dir }}/symbol_lt.gif) <var>b</var><sup>5</sup>.
+  \ \n\rE.g. S(15) = 5274369  \n \rS(111) = 400668930299\n\nFind the sum of S(6k+3)
+  for 2 ![≤]({{ images_dir }}/symbol_le.gif) k ![≤]({{ images_dir }}/symbol_le.gif)
+  300.  \n\rGive the last 18 digits as your answer.\n\n"

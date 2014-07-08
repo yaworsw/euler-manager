@@ -10,6 +10,5 @@
   and P and no prime in the chain exceeds P.\n\nFor example, 127 is a 2's relative.
   One of the possible chains is shown below:  \n\r2 ↔ 3 ↔ 13 ↔ 113 ↔ 103 ↔ 107 ↔ 127
   \ \n\rHowever, 11 and 103 are not 2's relatives.\n\nLet F(N) be the sum of the primes
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) N which are
-  not 2's relatives.  \n\rWe can verify that F(10<sup>3</sup>) = 431 and F(10<sup>4</sup>)
-  = 78728.\n\nFind F(10<sup>7</sup>).\n\n"
+  ![≤]({{ images_dir }}/symbol_le.gif) N which are not 2's relatives.  \n\rWe can
+  verify that F(10<sup>3</sup>) = 431 and F(10<sup>4</sup>) = 78728.\n\nFind F(10<sup>7</sup>).\n\n"

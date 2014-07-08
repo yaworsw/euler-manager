@@ -5,9 +5,9 @@
 :content: "A horizontal row comprising of 2<var>n</var> + 1 squares has <var>n</var>
   red counters placed at one end and <var>n</var> blue counters at the other end,
   being separated by a single empty square in the centre. For example, when <var>n</var>
-  = 3.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_321_swapping_counters_1.gif)\n\nA
-  counter can move from one square to the next (slide) or can jump over another counter
-  (hop) as long as the square next to that counter is unoccupied.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_321_swapping_counters_2.gif)\n\nLet
+  = 3.\n\n ![]({{ images_dir }}/p_321_swapping_counters_1.gif)\n\nA counter can move
+  from one square to the next (slide) or can jump over another counter (hop) as long
+  as the square next to that counter is unoccupied.\n\n ![]({{ images_dir }}/p_321_swapping_counters_2.gif)\n\nLet
   M(<var>n</var>) represent the minimum number of moves/actions to completely reverse
   the positions of the coloured counters; that is, move all the red counters to the
   right and all the blue counters to the left.\n\nIt can be verified M(3) = 15, which

@@ -5,7 +5,7 @@
 :content: "Let f<sub>5</sub>(<var>n</var>) be the largest integer <var>x</var> for
   which 5<sup><var>x</var></sup> divides <var>n</var>.  \n\rFor example, f<sub>5</sub>(625000)
   = 7.\n\nLet T<sub>5</sub>(<var>n</var>) be the number of integers <var>i</var> which
-  satisfy f<sub>5</sub>((2·<var>i</var>-1)!) 5(<var>i</var>!) and 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>i</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>n</var>.  \n\rIt can be verified that T<sub>5</sub>(10<sup>3</sup>) = 68 and
-  T<sub>5</sub>(10<sup>9</sup>) = 2408210.\n\nFind T<sub>5</sub>(10<sup>18</sup>).\n\n"
+  satisfy f<sub>5</sub>((2·<var>i</var>-1)!) 5(<var>i</var>!) and 1 ![≤]({{ images_dir
+  }}/symbol_le.gif) <var>i</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var>.
+  \ \n\rIt can be verified that T<sub>5</sub>(10<sup>3</sup>) = 68 and T<sub>5</sub>(10<sup>9</sup>)
+  = 2408210.\n\nFind T<sub>5</sub>(10<sup>18</sup>).\n\n"

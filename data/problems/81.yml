@@ -4,10 +4,10 @@
 :url: http://projecteuler.net/problem=81
 :content: "In the 5 by 5 matrix below, the minimal path sum from the top left to the
   bottom right, by **only moving to the right and down** , is indicated in bold red
-  and is equal to 2427.\n\n| ![](/home/will/src/euler-manager/config/../data/images/bracket_left.gif)
-  \ \n | \n\n| **131** | 673 | 234 | 103 | 18 |\n| **201** | **96** | **342** | 965
-  | 150 |\n| 630 | 803 | **746** | **422** | 111 |\n| 537 | 699 | 497 | **121** |
-  956 |\n| 805 | 732 | 524 | **37** | **331** |\n\n | ![](/home/will/src/euler-manager/config/../data/images/bracket_right.gif)
-  \ \n |\n\nFind the minimal path sum, in [matrix.txt](project/matrix.txt) (right
-  click and 'Save Link/Target As...'), a 31K text file containing a 80 by 80 matrix,
-  from the top left to the bottom right by only moving right and down.\n\n"
+  and is equal to 2427.\n\n| ![]({{ images_dir }}/bracket_left.gif)  \n | \n\n| **131**
+  | 673 | 234 | 103 | 18 |\n| **201** | **96** | **342** | 965 | 150 |\n| 630 | 803
+  | **746** | **422** | 111 |\n| 537 | 699 | 497 | **121** | 956 |\n| 805 | 732 |
+  524 | **37** | **331** |\n\n | ![]({{ images_dir }}/bracket_right.gif)  \n |\n\nFind
+  the minimal path sum, in [matrix.txt](project/matrix.txt) (right click and 'Save
+  Link/Target As...'), a 31K text file containing a 80 by 80 matrix, from the top
+  left to the bottom right by only moving right and down.\n\n"

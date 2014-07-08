@@ -16,7 +16,7 @@
   | 9 | 1,2,4,5,7,8 | 6 | 1.5 |
   | 10 | 1,3,7,9 | 4 | 2.5 |
 
-  It can be seen that _n_=6 produces a maximum _n_/φ(_n_) for _n_ ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 10.
+  It can be seen that _n_=6 produces a maximum _n_/φ(_n_) for _n_ ![≤]({{ images_dir }}/symbol_le.gif) 10.
 
-  Find the value of _n_ ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 1,000,000 for which _n_/φ(_n_) is a maximum.
+  Find the value of _n_ ![≤]({{ images_dir }}/symbol_le.gif) 1,000,000 for which _n_/φ(_n_) is a maximum.
 

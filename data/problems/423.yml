@@ -11,10 +11,8 @@
   as the number of outcomes of throwing a 6-sided die <var>n</var> times such that
   <var>c</var> does not exceed π(<var>n</var>).<sup>1</sup>  \n\rFor example, C(3)
   = 216, C(4) = 1290, C(11) = 361912500 and C(24) = 4727547363281250000.\n\nDefine
-  S(<var>L</var>) as ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)
-  C(<var>n</var>) for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>n</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>L</var>.  \n\rFor example, S(50) mod 1 000 000 007 = 832833871.\n\nFind S(50 000 000)
-  mod 1 000 000 007.\n\n<sup>1</sup> π denotes the **prime-counting function** , i.e.
-  π(<var>n</var>) is the number of primes ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>n</var>.\n\n"
+  S(<var>L</var>) as ![∑]({{ images_dir }}/symbol_sum.gif) C(<var>n</var>) for 1 ![≤]({{
+  images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>L</var>.
+  \ \n\rFor example, S(50) mod 1 000 000 007 = 832833871.\n\nFind S(50 000 000) mod
+  1 000 000 007.\n\n<sup>1</sup> π denotes the **prime-counting function** , i.e.
+  π(<var>n</var>) is the number of primes ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var>.\n\n"

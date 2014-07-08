@@ -11,7 +11,7 @@
 
   Define sg(<var>i</var>) as the sum of the digits of g(<var>i</var>). So sg(5) = 2 + 5 = 7.
 
-  Further, it can be verified that g(20) is 267 and ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif) sg(<var>i</var>) for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>i</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 20 is 156.
+  Further, it can be verified that g(20) is 267 and ![∑]({{ images_dir }}/symbol_sum.gif) sg(<var>i</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>i</var> ![≤]({{ images_dir }}/symbol_le.gif) 20 is 156.
 
-  What is ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif) sg(<var>i</var>) for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>i</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 150?
+  What is ![∑]({{ images_dir }}/symbol_sum.gif) sg(<var>i</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>i</var> ![≤]({{ images_dir }}/symbol_le.gif) 150?
 

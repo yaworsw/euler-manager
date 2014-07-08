@@ -11,8 +11,8 @@
   triangle, with one of its sides coinciding with that leg.\n3. Repeat this procedure
   for both squares, considering as their bases the sides touching the triangle.\n\rThe
   resulting figure, after an infinite number of iterations, is the Pythagorean tree.\r\r\r\n
-  ![](/home/will/src/euler-manager/config/../data/images/p_395_pythagorean.gif)\n\nIt
-  can be shown that there exists at least one rectangle, whose sides are parallel
-  to the largest square of the Pythagorean tree, which encloses the Pythagorean tree
-  completely.\n\nFind the smallest area possible for such a bounding rectangle, and
-  give your answer rounded to 10 decimal places.\n\n"
+  ![]({{ images_dir }}/p_395_pythagorean.gif)\n\nIt can be shown that there exists
+  at least one rectangle, whose sides are parallel to the largest square of the Pythagorean
+  tree, which encloses the Pythagorean tree completely.\n\nFind the smallest area
+  possible for such a bounding rectangle, and give your answer rounded to 10 decimal
+  places.\n\n"

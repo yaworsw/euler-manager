@@ -2,12 +2,10 @@
 :id: 390
 :name: Triangles with non rational sides and integral area
 :url: http://projecteuler.net/problem=390
-:content: "Consider the triangle with sides ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)5,
-  ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)65 and
-  ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)68.\rIt
+:content: "Consider the triangle with sides ![√]({{ images_dir }}/symbol_radic.gif)5,
+  ![√]({{ images_dir }}/symbol_radic.gif)65 and ![√]({{ images_dir }}/symbol_radic.gif)68.\rIt
   can be shown that this triangle has area 9.\n\nS(n) is the sum of the areas of all
-  triangles with sides ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)(1+b<sup>2</sup>),
-  ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)(1+c<sup>2</sup>)
-  and ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)(b<sup>2</sup>+c<sup>2</sup>)
+  triangles with sides ![√]({{ images_dir }}/symbol_radic.gif)(1+b<sup>2</sup>), ![√]({{
+  images_dir }}/symbol_radic.gif)(1+c<sup>2</sup>) and ![√]({{ images_dir }}/symbol_radic.gif)(b<sup>2</sup>+c<sup>2</sup>)
   (for positive integers b and c ) that have an integral area not exceeding n.\n\nThe
   example triangle has b=2 and c=8.\n\nS(10<sup>6</sup>)=18018206.\n\nFind S(10<sup>10</sup>).\n\n"

@@ -4,18 +4,17 @@
 :url: http://projecteuler.net/problem=183
 :content: "Let N be a positive integer and let N be split into <var>k</var> equal
   parts, <var>r</var> = N/<var>k</var>, so that N = <var>r</var> + <var>r</var> +
-  ... + <var>r</var>.  \n\rLet P be the product of these parts, P = <var>r</var> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  <var>r</var> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  ... ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) <var>r</var>
-  = <var>r</var><sup><var>k</var></sup>.\n\nFor example, if 11 is split into five
-  equal parts, 11 = 2.2 + 2.2 + 2.2 + 2.2 + 2.2, then P = 2.2<sup>5</sup> = 51.53632.\n\nLet
-  M(N) = P<sub>max</sub> for a given value of N.\n\nIt turns out that the maximum
-  for N = 11 is found by splitting eleven into four equal parts which leads to P<sub>max</sub>
-  = (11/4)<sup>4</sup>; that is, M(11) = 14641/256 = 57.19140625, which is a terminating
-  decimal.\n\nHowever, for N = 8 the maximum is achieved by splitting it into three
-  equal parts, so M(8) = 512/27, which is a non-terminating decimal.\n\nLet D(N) =
-  N if M(N) is a non-terminating decimal and D(N) = -N if M(N) is a terminating decimal.\n\nFor
-  example, ΣD(N) for 5 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  N ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 100 is
-  2438.\n\nFind ΣD(N) for 5 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  N ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 10000.\n\n"
+  ... + <var>r</var>.  \n\rLet P be the product of these parts, P = <var>r</var> ![×]({{
+  images_dir }}/symbol_times.gif) <var>r</var> ![×]({{ images_dir }}/symbol_times.gif)
+  ... ![×]({{ images_dir }}/symbol_times.gif) <var>r</var> = <var>r</var><sup><var>k</var></sup>.\n\nFor
+  example, if 11 is split into five equal parts, 11 = 2.2 + 2.2 + 2.2 + 2.2 + 2.2,
+  then P = 2.2<sup>5</sup> = 51.53632.\n\nLet M(N) = P<sub>max</sub> for a given value
+  of N.\n\nIt turns out that the maximum for N = 11 is found by splitting eleven into
+  four equal parts which leads to P<sub>max</sub> = (11/4)<sup>4</sup>; that is, M(11)
+  = 14641/256 = 57.19140625, which is a terminating decimal.\n\nHowever, for N = 8
+  the maximum is achieved by splitting it into three equal parts, so M(8) = 512/27,
+  which is a non-terminating decimal.\n\nLet D(N) = N if M(N) is a non-terminating
+  decimal and D(N) = -N if M(N) is a terminating decimal.\n\nFor example, ΣD(N) for
+  5 ![≤]({{ images_dir }}/symbol_le.gif) N ![≤]({{ images_dir }}/symbol_le.gif) 100
+  is 2438.\n\nFind ΣD(N) for 5 ![≤]({{ images_dir }}/symbol_le.gif) N ![≤]({{ images_dir
+  }}/symbol_le.gif) 10000.\n\n"

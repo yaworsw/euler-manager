@@ -13,19 +13,17 @@
   width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">4</td>\n<td> 
   8</td>\n</tr>\n</tbody>\n\nNow, let us repeat the search, but on a much larger scale:\n\nFirst,
   generate four million pseudo-random numbers using a specific form of what is known
-  as a \"Lagged Fibonacci Generator\":\n\nFor 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  _k_ ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 55, _s_<sub><i>k</i></sub>
-  = [100003 ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)
-  200003_k_ + 300007_k_<sup>3</sup>] (modulo 1000000) ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)
-  500000.  \n\rFor 56 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  _k_ ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 4000000,
-  _s_<sub><i>k</i></sub> = [_s_<sub><i>k<img src=\"%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif\"
-  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">24</i></sub>
-  + _s_<sub><i>k<img src=\"%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif\" width=\"9\"
-  height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">55</i></sub>
-  + 1000000] (modulo 1000000) ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)
-  500000.\n\nThus, _s_<sub>10</sub> = ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)393027
-  and _s_<sub>100</sub> = 86613.\n\nThe terms of _s_ are then arranged in a 2000 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2000
+  as a \"Lagged Fibonacci Generator\":\n\nFor 1 ![≤]({{ images_dir }}/symbol_le.gif)
+  _k_ ![≤]({{ images_dir }}/symbol_le.gif) 55, _s_<sub><i>k</i></sub> = [100003 ![−]({{
+  images_dir }}/symbol_minus.gif) 200003_k_ + 300007_k_<sup>3</sup>] (modulo 1000000)
+  ![−]({{ images_dir }}/symbol_minus.gif) 500000.  \n\rFor 56 ![≤]({{ images_dir }}/symbol_le.gif)
+  _k_ ![≤]({{ images_dir }}/symbol_le.gif) 4000000, _s_<sub><i>k</i></sub> = [_s_<sub><i>k<img
+  src=\"%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif\" width=\"9\" height=\"3\" alt=\"−\"
+  border=\"0\" style=\"vertical-align:middle;\">24</i></sub> + _s_<sub><i>k<img src=\"%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif\"
+  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">55</i></sub>
+  + 1000000] (modulo 1000000) ![−]({{ images_dir }}/symbol_minus.gif) 500000.\n\nThus,
+  _s_<sub>10</sub> = ![−]({{ images_dir }}/symbol_minus.gif)393027 and _s_<sub>100</sub>
+  = 86613.\n\nThe terms of _s_ are then arranged in a 2000 ![×]({{ images_dir }}/symbol_times.gif)2000
   table, using the first 2000 numbers to fill the first row (sequentially), the next
   2000 numbers to fill the second row, and so on.\n\nFinally, find the greatest sum
   of (any number of) adjacent entries in any direction (horizontal, vertical, diagonal

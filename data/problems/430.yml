@@ -9,10 +9,9 @@
   uniformly at random.  \n\rAll disks with an index from <var>A</var> to <var>B</var>
   (inclusive) are flipped.\n\nThe following example shows the case <var>N</var> =
   8. At the first turn <var>A</var> = 5 and <var>B</var> = 2, and at the second turn
-  <var>A</var> = 4 and <var>B</var> = 6.\n\n![](/home/will/src/euler-manager/config/../data/images/p_430_flips.gif)\n\nLet
+  <var>A</var> = 4 and <var>B</var> = 6.\n\n![]({{ images_dir }}/p_430_flips.gif)\n\nLet
   E(<var>N</var>, <var>M</var>) be the expected number of disks that show their white
   side after <var>M</var> turns.  \n\rWe can verify that E(3, 1) = 10/9, E(3, 2) =
-  5/3, E(10, 4) ![≈](/home/will/src/euler-manager/config/../data/images/symbol_asymp.gif)
-  5.157 and E(100, 10) ![≈](/home/will/src/euler-manager/config/../data/images/symbol_asymp.gif)
-  51.893.\n\nFind E(10<sup>10</sup>, 4000).  \n\rGive your answer rounded to 2 decimal
-  places behind the decimal point.\n\n"
+  5/3, E(10, 4) ![≈]({{ images_dir }}/symbol_asymp.gif) 5.157 and E(100, 10) ![≈]({{
+  images_dir }}/symbol_asymp.gif) 51.893.\n\nFind E(10<sup>10</sup>, 4000).  \n\rGive
+  your answer rounded to 2 decimal places behind the decimal point.\n\n"

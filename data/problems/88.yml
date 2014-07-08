@@ -5,30 +5,25 @@
 :content: "A natural number, N, that can be written as the sum and product of a given
   set of at least two natural numbers, {_a_<sub>1</sub>, _a_<sub>2</sub>, ... , _a_<sub><i>k</i></sub>}
   is called a product-sum number: N = _a_<sub>1</sub> + _a_<sub>2</sub> + ... + _a_<sub><i>k</i></sub>
-  = _a_<sub>1</sub> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _a_<sub>2</sub> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  ... ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) _a_<sub><i>k</i></sub>.\n\nFor
-  example, 6 = 1 + 2 + 3 = 1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 3.\n\nFor
-  a given set of size, _k_, we shall call the smallest N with this property a minimal
-  product-sum number. The minimal product-sum numbers for sets of size, _k_ = 2, 3,
-  4, 5, and 6 are as follows.\n\n_k_=2: 4 = 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  2 = 2 + 2  \n_k_=3: 6 = 1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 3 =
-  1 + 2 + 3  \n_k_=4: 8 = 1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  4 = 1 + 1 + 2 + 4  \n_k_=5: 8 = 1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 2 =
-  1 + 1 + 2 + 2 + 2  \n_k_=6: 12 = 1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  6 = 1 + 1 + 1 + 1 + 2 + 6\n\nHence for 2 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)_k_
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)6, the sum
-  of all the minimal product-sum numbers is 4+6+8+12 = 30; note that 8 is only counted
-  once in the sum.\n\nIn fact, as the complete set of minimal product-sum numbers
-  for 2 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)_k_
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)12 is {4,
-  6, 8, 12, 15, 16}, the sum is 61.\n\nWhat is the sum of all the minimal product-sum
-  numbers for 2 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)_k_
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)12000?\n\n"
+  = _a_<sub>1</sub> ![×]({{ images_dir }}/symbol_times.gif) _a_<sub>2</sub> ![×]({{
+  images_dir }}/symbol_times.gif) ... ![×]({{ images_dir }}/symbol_times.gif) _a_<sub><i>k</i></sub>.\n\nFor
+  example, 6 = 1 + 2 + 3 = 1 ![×]({{ images_dir }}/symbol_times.gif) 2 ![×]({{ images_dir
+  }}/symbol_times.gif) 3.\n\nFor a given set of size, _k_, we shall call the smallest
+  N with this property a minimal product-sum number. The minimal product-sum numbers
+  for sets of size, _k_ = 2, 3, 4, 5, and 6 are as follows.\n\n_k_=2: 4 = 2 ![×]({{
+  images_dir }}/symbol_times.gif) 2 = 2 + 2  \n_k_=3: 6 = 1 ![×]({{ images_dir }}/symbol_times.gif)
+  2 ![×]({{ images_dir }}/symbol_times.gif) 3 = 1 + 2 + 3  \n_k_=4: 8 = 1 ![×]({{
+  images_dir }}/symbol_times.gif) 1 ![×]({{ images_dir }}/symbol_times.gif) 2 ![×]({{
+  images_dir }}/symbol_times.gif) 4 = 1 + 1 + 2 + 4  \n_k_=5: 8 = 1 ![×]({{ images_dir
+  }}/symbol_times.gif) 1 ![×]({{ images_dir }}/symbol_times.gif) 2 ![×]({{ images_dir
+  }}/symbol_times.gif) 2 ![×]({{ images_dir }}/symbol_times.gif) 2 = 1 + 1 + 2 + 2
+  + 2  \n_k_=6: 12 = 1 ![×]({{ images_dir }}/symbol_times.gif) 1 ![×]({{ images_dir
+  }}/symbol_times.gif) 1 ![×]({{ images_dir }}/symbol_times.gif) 1 ![×]({{ images_dir
+  }}/symbol_times.gif) 2 ![×]({{ images_dir }}/symbol_times.gif) 6 = 1 + 1 + 1 + 1
+  + 2 + 6\n\nHence for 2 ![≤]({{ images_dir }}/symbol_le.gif)_k_ ![≤]({{ images_dir
+  }}/symbol_le.gif)6, the sum of all the minimal product-sum numbers is 4+6+8+12 =
+  30; note that 8 is only counted once in the sum.\n\nIn fact, as the complete set
+  of minimal product-sum numbers for 2 ![≤]({{ images_dir }}/symbol_le.gif)_k_ ![≤]({{
+  images_dir }}/symbol_le.gif)12 is {4, 6, 8, 12, 15, 16}, the sum is 61.\n\nWhat
+  is the sum of all the minimal product-sum numbers for 2 ![≤]({{ images_dir }}/symbol_le.gif)_k_
+  ![≤]({{ images_dir }}/symbol_le.gif)12000?\n\n"

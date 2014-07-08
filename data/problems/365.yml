@@ -3,9 +3,9 @@
 :name: A huge binomial coefficient
 :url: http://projecteuler.net/problem=365
 :content: |+
-  The binomial coeffient C(10<sup>18</sup>,10<sup>9</sup>) is a number with more than 9 billion (9 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)10<sup>9</sup>) digits.
+  The binomial coeffient C(10<sup>18</sup>,10<sup>9</sup>) is a number with more than 9 billion (9 ![×]({{ images_dir }}/symbol_times.gif)10<sup>9</sup>) digits.
 
   Let M(n,k,m) denote the binomial coefficient C(n,k) modulo m.
 
-  Calculate ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)M(10<sup>18</sup>,10<sup>9</sup>,p\*q\*r) for 1000 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)p ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)q ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)r ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)5000 and p,q,r prime.
+  Calculate ![∑]({{ images_dir }}/symbol_sum.gif)M(10<sup>18</sup>,10<sup>9</sup>,p\*q\*r) for 1000 ![<]({{ images_dir }}/symbol_lt.gif)p ![<]({{ images_dir }}/symbol_lt.gif)q ![<]({{ images_dir }}/symbol_lt.gif)r ![<]({{ images_dir }}/symbol_lt.gif)5000 and p,q,r prime.
 

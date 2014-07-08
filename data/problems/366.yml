@@ -16,8 +16,7 @@
   than one possible move for the first player.  \n\rE.g. when n=17 the first player
   can remove one or four stones.\n\nLet M(n) be the maximum number of stones the first
   player can take from a winning position _at his first turn_ and M(n)=0 for any other
-  position.\n\n![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)M(n)
-  for n ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)100
-  is 728.\n\nFind ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)M(n)
-  for n ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)10<sup>18</sup>.\rGive
-  your answer modulo 10<sup>8</sup>.\n\n"
+  position.\n\n![∑]({{ images_dir }}/symbol_sum.gif)M(n) for n ![≤]({{ images_dir
+  }}/symbol_le.gif)100 is 728.\n\nFind ![∑]({{ images_dir }}/symbol_sum.gif)M(n) for
+  n ![≤]({{ images_dir }}/symbol_le.gif)10<sup>18</sup>.\rGive your answer modulo
+  10<sup>8</sup>.\n\n"

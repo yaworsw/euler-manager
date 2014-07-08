@@ -25,16 +25,14 @@
   <var>a</var>, and <var>b</var>.\n\nLet C(<var>n</var>, <var>a</var>, <var>b</var>)
   be the worst-case cost achieved by an optimal strategy for the given values of <var>n</var>,
   <var>a</var>, and <var>b</var>.\n\nHere are a few examples:  \n\rC(5, 2, 3) = 5
-  \ \n\rC(500, ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)2,
-  ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)3) = 13.22073197...
-  \ \n\rC(20000, 5, 7) = 82  \n\rC(2000000, ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)5,
-  ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)7) = 49.63755955...\n\nLet
-  F<sub><var>k</var></sub> be the Fibonacci numbers: F<sub><var>k</var></sub> = F<sub><var>k</var>-1</sub>
+  \ \n\rC(500, ![√]({{ images_dir }}/symbol_radic.gif)2, ![√]({{ images_dir }}/symbol_radic.gif)3)
+  = 13.22073197...  \n\rC(20000, 5, 7) = 82  \n\rC(2000000, ![√]({{ images_dir }}/symbol_radic.gif)5,
+  ![√]({{ images_dir }}/symbol_radic.gif)7) = 49.63755955...\n\nLet F<sub><var>k</var></sub>
+  be the Fibonacci numbers: F<sub><var>k</var></sub> = F<sub><var>k</var>-1</sub>
   + F<sub><var>k</var>-2</sub> with base cases F<sub>1</sub> = F<sub>2</sub> = 1.
-  \ \nFind ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)<sub>1<img
+  \ \nFind ![∑]({{ images_dir }}/symbol_sum.gif)<sub>1<img src=\"%7B%7B%20images_dir%20%7D%7D/symbol_le.gif\"
+  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\"><var>k</var><img
   src=\"%7B%7B%20images_dir%20%7D%7D/symbol_le.gif\" width=\"10\" height=\"12\" alt=\"≤\"
-  border=\"0\" style=\"vertical-align:middle;\"><var>k</var><img src=\"%7B%7B%20images_dir%20%7D%7D/symbol_le.gif\"
-  width=\"10\" height=\"12\" alt=\"≤\" border=\"0\" style=\"vertical-align:middle;\">30</sub> C(10<sup>12</sup>,
-  ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)<var>k</var>,
-  ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)F<sub><var>k</var></sub>),
+  border=\"0\" style=\"vertical-align:middle;\">30</sub> C(10<sup>12</sup>, ![√]({{
+  images_dir }}/symbol_radic.gif)<var>k</var>, ![√]({{ images_dir }}/symbol_radic.gif)F<sub><var>k</var></sub>),
   and give your answer rounded to 8 decimal places behind the decimal point.\n\n"

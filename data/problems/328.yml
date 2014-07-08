@@ -29,5 +29,5 @@
   just described an optimal strategy for <var>n</var>=8.\n\nLet C(<var>n</var>) be
   the worst-case cost achieved by an optimal strategy for <var>n</var>, as described
   above.  \n\rThus C(1) = 0, C(2) = 1, C(3) = 2 and C(8) = 12.  \n\rSimilarly, C(100)
-  = 400 and ![](/home/will/src/euler-manager/config/../data/images/p_328_sum1.gif)C(<var>n</var>)
-  = 17575.\n\nFind ![](/home/will/src/euler-manager/config/../data/images/p_328_sum2.gif)C(<var>n</var>).\n\n"
+  = 400 and ![]({{ images_dir }}/p_328_sum1.gif)C(<var>n</var>) = 17575.\n\nFind ![]({{
+  images_dir }}/p_328_sum2.gif)C(<var>n</var>).\n\n"

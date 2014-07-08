@@ -2,12 +2,11 @@
 :id: 342
 :name: The totient of a square is a cube
 :url: http://projecteuler.net/problem=342
-:content: "Consider the number 50.  \n\r50<sup>2</sup> = 2500 = 2<sup>2</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  5<sup>4</sup>, so φ(2500) = 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  4 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 5<sup>3</sup>
-  = 8 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 5<sup>3</sup>
-  = 2<sup>3</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  5<sup>3</sup>. <sup>1</sup>  \n\rSo 2500 is a square and φ(2500) is a cube.\n\nFind
-  the sum of all numbers n, 1 &lt n ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
+:content: "Consider the number 50.  \n\r50<sup>2</sup> = 2500 = 2<sup>2</sup> ![×]({{
+  images_dir }}/symbol_times.gif) 5<sup>4</sup>, so φ(2500) = 2 ![×]({{ images_dir
+  }}/symbol_times.gif) 4 ![×]({{ images_dir }}/symbol_times.gif) 5<sup>3</sup> = 8
+  ![×]({{ images_dir }}/symbol_times.gif) 5<sup>3</sup> = 2<sup>3</sup> ![×]({{ images_dir
+  }}/symbol_times.gif) 5<sup>3</sup>. <sup>1</sup>  \n\rSo 2500 is a square and φ(2500)
+  is a cube.\n\nFind the sum of all numbers n, 1 &lt n ![<]({{ images_dir }}/symbol_lt.gif)
   10<sup>10</sup> such that φ(n<sup>2</sup>) is a cube.\n\n<sup>1</sup> φ denotes
   **Euler's totient function** .\n\n"

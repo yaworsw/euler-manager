@@ -4,7 +4,7 @@
 :url: http://projecteuler.net/problem=262
 :content: "The following equation represents the _continuous_ topography of a mountainous
   region, giving the <dfn title=\"height above sea level\">elevation</dfn> <var>h</var>
-  at any point (<var>x</var>,<var>y</var>):\n\n ![](/home/will/src/euler-manager/config/../data/images/p_262_formula1.gif)
+  at any point (<var>x</var>,<var>y</var>):\n\n ![]({{ images_dir }}/p_262_formula1.gif)
   \ \n\nA mosquito intends to fly from A(200,200) to B(1400,1400), without leaving
   the area given by 0 ≤ <var>x</var>, <var>y</var> ≤ 1600.\n\nBecause of the intervening
   mountains, it first rises straight up to a point A', having elevation <var>f</var>.

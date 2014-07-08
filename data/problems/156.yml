@@ -14,12 +14,11 @@
   are <var>n</var>=0 and <var>n</var>=1. The next solution is <var>n</var>=199981.\n\nIn
   the same manner the function <var>f</var>(<var>n,d</var>) gives the total number
   of digits <var>d</var> that have been written down after the number <var>n</var>
-  has been written.\r  \n\rIn fact, for every digit <var>d</var> ![≠](/home/will/src/euler-manager/config/../data/images/symbol_ne.gif)
-  0, 0 is the first solution of the equation <var>f</var>(<var>n,d</var>)=<var>n</var>.\n\nLet
+  has been written.\r  \n\rIn fact, for every digit <var>d</var> ![≠]({{ images_dir
+  }}/symbol_ne.gif) 0, 0 is the first solution of the equation <var>f</var>(<var>n,d</var>)=<var>n</var>.\n\nLet
   <var>s</var>(<var>d</var>) be the sum of all the solutions for which <var>f</var>(<var>n,d</var>)=<var>n</var>.\r
-  \ \n\rYou are given that <var>s</var>(1)=22786974071.\n\nFind ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)
-  <var>s</var>(<var>d</var>) for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  d ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 9.\n\nNote:
-  if, for some <var>n</var>, <var>f</var>(<var>n,d</var>)=<var>n</var>\r for more
-  than one value of <var>d</var> this value of <var>n</var> is counted again for every
-  value of <var>d</var> for which <var>f</var>(<var>n,d</var>)=<var>n</var>.\n\n"
+  \ \n\rYou are given that <var>s</var>(1)=22786974071.\n\nFind ![∑]({{ images_dir
+  }}/symbol_sum.gif) <var>s</var>(<var>d</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif)
+  d ![≤]({{ images_dir }}/symbol_le.gif) 9.\n\nNote: if, for some <var>n</var>, <var>f</var>(<var>n,d</var>)=<var>n</var>\r
+  for more than one value of <var>d</var> this value of <var>n</var> is counted again
+  for every value of <var>d</var> for which <var>f</var>(<var>n,d</var>)=<var>n</var>.\n\n"

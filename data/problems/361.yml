@@ -16,4 +16,5 @@
   are given as follows:\n\n| <var>n</var> | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
   | 10 | 11 | 12 | … |\n| A<sub><var>n</var></sub> | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 9
   | 10 | 11 | 12 | 13 | 18 | … |\n\nWe can also verify that A<sub>100</sub> = 3251
-  and A<sub>1000</sub> = 80852364498.\n\nFind the last 9 digits of ![](/home/will/src/euler-manager/config/../data/images/p_361_Thue-Morse1.gif).\n\n"
+  and A<sub>1000</sub> = 80852364498.\n\nFind the last 9 digits of ![]({{ images_dir
+  }}/p_361_Thue-Morse1.gif).\n\n"

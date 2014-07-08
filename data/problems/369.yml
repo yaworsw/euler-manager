@@ -7,5 +7,5 @@
 
   Let f(<var>n</var>) be the number of ways to choose <var>n</var> cards with a 4 card subset that is a Badugi. For example, there are 2598960 ways to choose five cards from a standard 52 card deck, of which 514800 contain a 4 card subset that is a Badugi, so f(5) = 514800.
 
-  Find ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)f(<var>n</var>) for 4 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 13.
+  Find ![∑]({{ images_dir }}/symbol_sum.gif)f(<var>n</var>) for 4 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 13.
 

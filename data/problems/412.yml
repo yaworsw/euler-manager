@@ -2,14 +2,14 @@
 :id: 412
 :name: Gnomon numbering
 :url: http://projecteuler.net/problem=412
-:content: "For integers <var>m</var>, <var>n</var> (0  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var> m),
-  let L(<var>m</var>, <var>n</var>) be an <var>m</var> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)<var>m</var>
-  grid with the top-right <var>n</var> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)<var>n</var>
-  grid removed.\n\nFor example, L(5, 3) looks like this:\n\n![](/home/will/src/euler-manager/config/../data/images/p412_table53.png)\n\nWe
+:content: "For integers <var>m</var>, <var>n</var> (0  ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> m),
+  let L(<var>m</var>, <var>n</var>) be an <var>m</var> ![×]({{ images_dir }}/symbol_times.gif)<var>m</var>
+  grid with the top-right <var>n</var> ![×]({{ images_dir }}/symbol_times.gif)<var>n</var>
+  grid removed.\n\nFor example, L(5, 3) looks like this:\n\n![]({{ images_dir }}/p412_table53.png)\n\nWe
   want to number each cell of L(<var>m</var>, <var>n</var>) with consecutive integers
   1, 2, 3, ... such that the number in every cell is smaller than the number below
-  it and to the left of it.\n\nFor example, here are two valid numberings of L(5, 3):\n\n![](/home/will/src/euler-manager/config/../data/images/p412_tablenums.png)\n\nLet
-  LC(<var>m</var>, <var>n</var>) be the number of valid numberings of L(<var>m</var>,
-  <var>n</var>).  \n\rIt can be verified that LC(3, 0) = 42, LC(5, 3) = 250250, LC(6, 3)
-  = 406029023400 and LC(10, 5) mod 76543217 = 61251715.\n\nFind LC(10000, 5000) mod
-  76543217.\n\n"
+  it and to the left of it.\n\nFor example, here are two valid numberings of L(5, 3):\n\n![]({{
+  images_dir }}/p412_tablenums.png)\n\nLet LC(<var>m</var>, <var>n</var>) be the number
+  of valid numberings of L(<var>m</var>, <var>n</var>).  \n\rIt can be verified that
+  LC(3, 0) = 42, LC(5, 3) = 250250, LC(6, 3) = 406029023400 and LC(10, 5) mod 76543217
+  = 61251715.\n\nFind LC(10000, 5000) mod 76543217.\n\n"

@@ -9,7 +9,7 @@
 
   It is possible to make £2 in the following way:
 
-  > 1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)£1 + 1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)50p + 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)20p + 1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)5p + 1 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2p + 3 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)1p
+  > 1 ![×]({{ images_dir }}/symbol_times.gif)£1 + 1 ![×]({{ images_dir }}/symbol_times.gif)50p + 2 ![×]({{ images_dir }}/symbol_times.gif)20p + 1 ![×]({{ images_dir }}/symbol_times.gif)5p + 1 ![×]({{ images_dir }}/symbol_times.gif)2p + 3 ![×]({{ images_dir }}/symbol_times.gif)1p
 
   How many different ways can £2 be made using any number of coins?
 

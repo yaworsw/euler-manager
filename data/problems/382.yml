@@ -12,9 +12,9 @@
   \ \n\rThe sets {1, 2, 3} and {2, 3, 4, 9} do not generate any polygon at all.\n\nConsider
   the sequence s, defined as follows:\n\n- s<sub>1</sub> = 1, s<sub>2</sub> = 2, s<sub>3</sub>
   = 3\r\n- s<sub><var>n</var></sub> = s<sub><var>n</var>-1</sub> + s<sub><var>n</var>-3</sub>
-  for <var>n</var> ![>](/home/will/src/euler-manager/config/../data/images/symbol_gt.gif)
-  3.\r\n\nLet U<sub><var>n</var></sub> be the set {s<sub>1</sub>, s<sub>2</sub>, ...,
-  s<sub><var>n</var></sub>}. For example, U<sub>10</sub> = {1, 2, 3, 4, 6, 9, 13,
-  19, 28, 41}.  \n\rLet f(<var>n</var>) be the number of subsets of U<sub><var>n</var></sub>
-  which generate at least one polygon.  \n\rFor example, f(5) = 7, f(10) = 501 and
-  f(25) = 18635853.\n\nFind the last 9 digits of f(10<sup>18</sup>).\n\n"
+  for <var>n</var> ![>]({{ images_dir }}/symbol_gt.gif) 3.\r\n\nLet U<sub><var>n</var></sub>
+  be the set {s<sub>1</sub>, s<sub>2</sub>, ..., s<sub><var>n</var></sub>}. For example,
+  U<sub>10</sub> = {1, 2, 3, 4, 6, 9, 13, 19, 28, 41}.  \n\rLet f(<var>n</var>) be
+  the number of subsets of U<sub><var>n</var></sub> which generate at least one polygon.
+  \ \n\rFor example, f(5) = 7, f(10) = 501 and f(25) = 18635853.\n\nFind the last
+  9 digits of f(10<sup>18</sup>).\n\n"

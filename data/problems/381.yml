@@ -2,14 +2,11 @@
 :id: 381
 :name: (prime-k) factorial
 :url: http://projecteuler.net/problem=381
-:content: "For a prime p let S(p) = ( ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)(p-k)!)
-  mod(p) for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  k ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 5.\n\nFor
-  example, if p=7,  \n\r(7-1)! + (7-2)! + (7-3)! + (7-4)! + (7-5)! = 6! + 5! + 4!
-  + 3! + 2! = 720+120+24+6+2 = 872.  \n \rAs 872 mod(7) = 4, S(7) = 4.\n\nIt can be
-  verified that ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)S(p)
-  = 480 for 5 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  p ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif) 100.\n\nFind
-  ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)S(p) for
-  5 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) p ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  10<sup>8</sup>.\n\n"
+:content: "For a prime p let S(p) = ( ![∑]({{ images_dir }}/symbol_sum.gif)(p-k)!)
+  mod(p) for 1 ![≤]({{ images_dir }}/symbol_le.gif) k ![≤]({{ images_dir }}/symbol_le.gif)
+  5.\n\nFor example, if p=7,  \n\r(7-1)! + (7-2)! + (7-3)! + (7-4)! + (7-5)! = 6!
+  + 5! + 4! + 3! + 2! = 720+120+24+6+2 = 872.  \n \rAs 872 mod(7) = 4, S(7) = 4.\n\nIt
+  can be verified that ![∑]({{ images_dir }}/symbol_sum.gif)S(p) = 480 for 5 ![≤]({{
+  images_dir }}/symbol_le.gif) p ![<]({{ images_dir }}/symbol_lt.gif) 100.\n\nFind
+  ![∑]({{ images_dir }}/symbol_sum.gif)S(p) for 5 ![≤]({{ images_dir }}/symbol_le.gif)
+  p ![<]({{ images_dir }}/symbol_lt.gif) 10<sup>8</sup>.\n\n"
