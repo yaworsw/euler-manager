@@ -15,12 +15,10 @@
   what the first player does.  \n \rFor example, (0,1,2) and (1,3,3) are losing configurations:
   any legal move leaves a winning configuration for the second player.\n\nConsider
   all losing configurations (x<sub>i</sub>,y<sub>i</sub>,z<sub>i</sub>) where x<sub>i</sub>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) y<sub>i</sub>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) z<sub>i</sub>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 100.  \n\rWe
-  can verify that Σ(x<sub>i</sub>+y<sub>i</sub>+z<sub>i</sub>) = 173895 for these.\n\nFind
-  Σ(x<sub>i</sub>+y<sub>i</sub>+z<sub>i</sub>) where (x<sub>i</sub>,y<sub>i</sub>,z<sub>i</sub>)
-  ranges over the losing configurations  \n\rwith x<sub>i</sub> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  y<sub>i</sub> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  z<sub>i</sub> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  ![≤]({{ images_dir }}/symbol_le.gif) y<sub>i</sub> ![≤]({{ images_dir }}/symbol_le.gif)
+  z<sub>i</sub> ![≤]({{ images_dir }}/symbol_le.gif) 100.  \n\rWe can verify that
+  Σ(x<sub>i</sub>+y<sub>i</sub>+z<sub>i</sub>) = 173895 for these.\n\nFind Σ(x<sub>i</sub>+y<sub>i</sub>+z<sub>i</sub>)
+  where (x<sub>i</sub>,y<sub>i</sub>,z<sub>i</sub>) ranges over the losing configurations
+  \ \n\rwith x<sub>i</sub> ![≤]({{ images_dir }}/symbol_le.gif) y<sub>i</sub> ![≤]({{
+  images_dir }}/symbol_le.gif) z<sub>i</sub> ![≤]({{ images_dir }}/symbol_le.gif)
   1000.\n\n"

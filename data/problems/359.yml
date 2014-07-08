@@ -19,5 +19,5 @@
   and 0 if no person occupies the room. Here are a few examples:\r  \nP(1, 1) = 1\r
   \ \nP(1, 2) = 3\r  \nP(2, 1) = 2\r  \nP(10, 20) = 440\r  \nP(25, 75) = 4863\r  \nP(99,
   100) = 19454\n\nFind the sum of all P(<var>f</var>, <var>r</var>) for all positive
-  <var>f</var> and <var>r</var> such that <var>f</var> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
+  <var>f</var> and <var>r</var> such that <var>f</var> ![×]({{ images_dir }}/symbol_times.gif)
   <var>r</var> = 71328803586048 and give the last 8 digits as your answer.\n\n"

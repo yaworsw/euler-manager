@@ -5,13 +5,12 @@
 :content: "For integers <var>a</var> and <var>b</var>, we define <var>D</var>(<var>a</var>,
   <var>b</var>) as the domain enclosed by the parabola <var>y</var> = <var>x</var><sup>2</sup>
   and the line <var>y</var> = <var>a</var>·<var>x</var> + <var>b</var>:  \n<var>D</var>(<var>a</var>,
-  <var>b</var>) = { (<var>x</var>, <var>y</var>) | <var>x</var><sup>2</sup> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>y</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>a</var>·<var>x</var> + <var>b</var> }.\n\nL(<var>a</var>, <var>b</var>) is
-  defined as the number of lattice points contained in <var>D</var>(<var>a</var>,
-  <var>b</var>).  \n\rFor example, L(1, 2) = 8 and L(2, -1) = 1.\n\nWe also define
-  S(<var>N</var>) as the sum of L(<var>a</var>, <var>b</var>) for all the pairs (<var>a</var>,
-  <var>b</var>) such that the area of <var>D</var>(<var>a</var>, <var>b</var>) is
-  a rational number and |<var>a</var>|,|<var>b</var>| ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>N</var>.  \n\rWe can verify that S(5) = 344 and S(100) = 26709528.\n\nFind
-  S(10<sup>12</sup>). Give your answer mod 10<sup>8</sup>.\n\n"
+  <var>b</var>) = { (<var>x</var>, <var>y</var>) | <var>x</var><sup>2</sup> ![≤]({{
+  images_dir }}/symbol_le.gif) <var>y</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>a</var>·<var>x</var>
+  + <var>b</var> }.\n\nL(<var>a</var>, <var>b</var>) is defined as the number of lattice
+  points contained in <var>D</var>(<var>a</var>, <var>b</var>).  \n\rFor example,
+  L(1, 2) = 8 and L(2, -1) = 1.\n\nWe also define S(<var>N</var>) as the sum of L(<var>a</var>,
+  <var>b</var>) for all the pairs (<var>a</var>, <var>b</var>) such that the area
+  of <var>D</var>(<var>a</var>, <var>b</var>) is a rational number and |<var>a</var>|,|<var>b</var>|
+  ![≤]({{ images_dir }}/symbol_le.gif) <var>N</var>.  \n\rWe can verify that S(5)
+  = 344 and S(100) = 26709528.\n\nFind S(10<sup>12</sup>). Give your answer mod 10<sup>8</sup>.\n\n"

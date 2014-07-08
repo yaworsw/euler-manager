@@ -3,9 +3,8 @@
 :name: Modular Cubes, part 1
 :url: http://projecteuler.net/problem=271
 :content: "For a positive number <var>n</var>, define S(<var>n</var>) as the sum of
-  the integers <var>x,</var> for which 1 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)<var>x</var>
-  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)<var>n</var>
-  and  \n <var>x</var><sup>3</sup> ![≡](/home/will/src/euler-manager/config/../data/images/symbol_cong.gif)1
-  mod <var>n</var>.\n\nWhen <var>n</var>=91, there are 8 possible values for <var>x</var>,
-  namely : 9, 16, 22, 29, 53, 74, 79, 81.  \n\rThus, S(91)=9+16+22+29+53+74+79+81=363.\n\nFind
-  S(13082761331670030).\n\n"
+  the integers <var>x,</var> for which 1 ![<]({{ images_dir }}/symbol_lt.gif)<var>x</var>
+  ![<]({{ images_dir }}/symbol_lt.gif)<var>n</var> and  \n <var>x</var><sup>3</sup>
+  ![≡]({{ images_dir }}/symbol_cong.gif)1 mod <var>n</var>.\n\nWhen <var>n</var>=91,
+  there are 8 possible values for <var>x</var>, namely : 9, 16, 22, 29, 53, 74, 79,
+  81.  \n\rThus, S(91)=9+16+22+29+53+74+79+81=363.\n\nFind S(13082761331670030).\n\n"

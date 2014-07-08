@@ -11,8 +11,7 @@
   'zyx' there are zero characters that come lexicographically after its neighbour
   to the left.  \n\rIn all there are 10400 strings of length 3 for which exactly one
   character comes lexicographically after its neighbour to the left.\n\nWe now consider
-  strings of <var>n</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  26 different characters from the alphabet.  \n \rFor every <var>n</var>, p(<var>n</var>)
-  is the number of strings of length <var>n</var> for which exactly one character
-  comes lexicographically after its neighbour to the left.\n\nWhat is the maximum
-  value of p(<var>n</var>)?\n\n"
+  strings of <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 26 different characters
+  from the alphabet.  \n \rFor every <var>n</var>, p(<var>n</var>) is the number of
+  strings of length <var>n</var> for which exactly one character comes lexicographically
+  after its neighbour to the left.\n\nWhat is the maximum value of p(<var>n</var>)?\n\n"

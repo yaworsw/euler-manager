@@ -8,7 +8,7 @@
   lie on the perimeter of the polygon).\n\nAs an example, the image below shows a
   set of twenty points and a few such convex holes. \rThe convex hole shown as a red
   heptagon has an area equal to 1049694.5 square units, which is the highest possible
-  area for a convex hole on the given set of points.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_252_convexhole.gif)\n\n<style
+  area for a convex hole on the given set of points.\n\n ![]({{ images_dir }}/p_252_convexhole.gif)\n\n<style
   type=\"text/css\"><![CDATA[\r\ntable.p252 td {\r\n  padding: 0px 3px 0px 3px;\r\n
   \ vertical-align: bottom;\r\n  text-align: left;\r\n}\r\n]]></style>\n\nFor our
   example, we used the first 20 points (<var>T</var><sub>2<var>k</var><img src=\"%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif\"
@@ -22,9 +22,8 @@
   \   <td>=<sub> </sub>\n</td>\r\n    <td>( <var>S</var><sub><var>n</var></sub> mod
   2000 ) <img src=\"%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif\" width=\"9\" height=\"3\"
   alt=\"−\" border=\"0\" style=\"vertical-align:middle;\"> 1000<sup> </sup>\n</td>\r\n
-  \ </tr>\r\n</table></center>\n\n_i.e._ (527, 144), ( ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)488, 732),
-  ( ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)454, 
-  ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)947), …\n\nWhat
-  is the maximum area for a convex hole on the set containing the first 500 points
-  in the pseudo-random sequence?  \n Specify your answer including one digit after
-  the decimal point.\n\n"
+  \ </tr>\r\n</table></center>\n\n_i.e._ (527, 144), ( ![−]({{ images_dir }}/symbol_minus.gif)488, 732),
+  ( ![−]({{ images_dir }}/symbol_minus.gif)454,  ![−]({{ images_dir }}/symbol_minus.gif)947),
+  …\n\nWhat is the maximum area for a convex hole on the set containing the first
+  500 points in the pseudo-random sequence?  \n Specify your answer including one
+  digit after the decimal point.\n\n"

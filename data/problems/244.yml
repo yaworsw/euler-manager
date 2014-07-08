@@ -6,18 +6,17 @@
   tiles, we have seven red tiles and eight blue tiles.\n\nA move is denoted by the
   uppercase initial of the direction (Left, Right, Up, Down) in which the tile is
   slid, e.g. starting from configuration ( **S** ), by the sequence **LULUR** we reach
-  the configuration ( **E** ):\n\n| ( **S** ) | ![](/home/will/src/euler-manager/config/../data/images/p_244_start.gif)
-  | , ( **E** ) | ![](/home/will/src/euler-manager/config/../data/images/p_244_example.gif)
-  |\n\nFor each path, its checksum is calculated by (pseudocode):\n\n\rchecksum =
-  0  \n\rchecksum = (checksum ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  243 + <var>m</var><sub>1</sub>) mod 100 000 007  \n\rchecksum = (checksum ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  243 + <var>m</var><sub>2</sub>) mod 100 000 007  \n\r   …  \n\rchecksum = (checksum
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 243 +
-  <var>m</var><sub><var>n</var></sub>) mod 100 000 007  \n\n\rwhere <var>m</var><sub><var>k</var></sub>
+  the configuration ( **E** ):\n\n| ( **S** ) | ![]({{ images_dir }}/p_244_start.gif)
+  | , ( **E** ) | ![]({{ images_dir }}/p_244_example.gif) |\n\nFor each path, its
+  checksum is calculated by (pseudocode):\n\n\rchecksum = 0  \n\rchecksum = (checksum
+  ![×]({{ images_dir }}/symbol_times.gif) 243 + <var>m</var><sub>1</sub>) mod 100 000 007
+  \ \n\rchecksum = (checksum ![×]({{ images_dir }}/symbol_times.gif) 243 + <var>m</var><sub>2</sub>)
+  mod 100 000 007  \n\r   …  \n\rchecksum = (checksum ![×]({{ images_dir }}/symbol_times.gif)
+  243 + <var>m</var><sub><var>n</var></sub>) mod 100 000 007  \n\n\rwhere <var>m</var><sub><var>k</var></sub>
   is the ASCII value of the <var>k</var><sup><var>th</var></sup> letter in the move
   sequence and the ASCII values for the moves are:\r\r\n\n| **L** | 76 |\n| **R**
   | 82 |\n| **U** | 85 |\n| **D** | 68 |\n\nFor the sequence **LULUR** given above,
   the checksum would be 19761398.\n\nNow, starting from configuration ( **S** ),\rfind
-  all shortest ways to reach configuration ( **T** ).\n\n| ( **S** ) | ![](/home/will/src/euler-manager/config/../data/images/p_244_start.gif)
-  | , ( **T** ) | ![](/home/will/src/euler-manager/config/../data/images/p_244_target.gif)
-  |\n\nWhat is the sum of all checksums for the paths having the minimal length?\n\n"
+  all shortest ways to reach configuration ( **T** ).\n\n| ( **S** ) | ![]({{ images_dir
+  }}/p_244_start.gif) | , ( **T** ) | ![]({{ images_dir }}/p_244_target.gif) |\n\nWhat
+  is the sum of all checksums for the paths having the minimal length?\n\n"

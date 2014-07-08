@@ -5,18 +5,17 @@
 :content: "A **cyclic number** with <var>n</var> digits has a very interesting property:
   \ \n\rWhen it is multiplied by 1, 2, 3, 4, ... <var>n</var>, all the products have
   exactly the same digits, in the same order, but rotated in a circular fashion!\n\nThe
-  smallest cyclic number is the 6-digit number 142857 :  \n\r142857 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  1 = 142857  \n\r142857 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  2 = 285714  \n\r142857 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  3 = 428571  \n\r142857 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  4 = 571428  \n\r142857 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  5 = 714285  \n\r142857 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
+  smallest cyclic number is the 6-digit number 142857 :  \n\r142857 ![×]({{ images_dir
+  }}/symbol_times.gif) 1 = 142857  \n\r142857 ![×]({{ images_dir }}/symbol_times.gif)
+  2 = 285714  \n\r142857 ![×]({{ images_dir }}/symbol_times.gif) 3 = 428571  \n\r142857
+  ![×]({{ images_dir }}/symbol_times.gif) 4 = 571428  \n\r142857 ![×]({{ images_dir
+  }}/symbol_times.gif) 5 = 714285  \n\r142857 ![×]({{ images_dir }}/symbol_times.gif)
   6 = 857142\n\nThe next cyclic number is 0588235294117647 with 16 digits :  \n\r0588235294117647
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) 1 = 0588235294117647
-  \ \n\r0588235294117647 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  2 = 1176470588235294  \n\r0588235294117647 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  3 = 1764705882352941  \n\r...  \n\r0588235294117647 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  16 = 9411764705882352\n\nNote that for cyclic numbers, leading zeros are important.\n\nThere
-  is only one cyclic number for which, the eleven leftmost digits are 00000000137
-  and the five rightmost digits are 56789 (i.e., it has the form 00000000137...56789
-  with an unknown number of digits in the middle). Find the sum of all its digits.\n\n"
+  ![×]({{ images_dir }}/symbol_times.gif) 1 = 0588235294117647  \n\r0588235294117647
+  ![×]({{ images_dir }}/symbol_times.gif) 2 = 1176470588235294  \n\r0588235294117647
+  ![×]({{ images_dir }}/symbol_times.gif) 3 = 1764705882352941  \n\r...  \n\r0588235294117647
+  ![×]({{ images_dir }}/symbol_times.gif) 16 = 9411764705882352\n\nNote that for cyclic
+  numbers, leading zeros are important.\n\nThere is only one cyclic number for which,
+  the eleven leftmost digits are 00000000137 and the five rightmost digits are 56789
+  (i.e., it has the form 00000000137...56789 with an unknown number of digits in the
+  middle). Find the sum of all its digits.\n\n"

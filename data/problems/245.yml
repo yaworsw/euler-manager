@@ -5,24 +5,23 @@
 :content: "We shall call a fraction that cannot be cancelled down a resilient fraction.
   \ \n Furthermore we shall define the resilience of a denominator, <var>R</var>(<var>d</var>),
   to be the ratio of its proper fractions that are resilient; for example, <var>R</var>(12)
-  = <sup>4</sup>⁄<sub>11</sub>.\n\n| The resilience of a number <var>d</var> ![>](/home/will/src/euler-manager/config/../data/images/symbol_gt.gif)
-  1 is then | \nφ(<var>d</var>)  \n ![](/home/will/src/euler-manager/config/../data/images/blackdot.gif)
-  \ \n<var>d</var> - 1\n | , where φ is Euler's totient function. |\n\n| We further
-  define the **coresilience** of a number <var>n</var> ![>](/home/will/src/euler-manager/config/../data/images/symbol_gt.gif)
-  1 as <var>C</var>(<var>n</var>) | =  | \n<var>n</var> - φ(<var>n</var>)  \n ![](/home/will/src/euler-manager/config/../data/images/blackdot.gif)
-  \ \n<var>n</var> - 1\n | . |\n\n| The coresilience of a prime <var>p</var> is <var>C</var>(<var>p</var>)
-  | =  | \n1  \n ![](/home/will/src/euler-manager/config/../data/images/blackdot.gif)
-  \ \n<var>p</var> - 1\n | . |\n\n<!--\r\n<p>The resilience of a number <var>d</var>
-  <img src='images/symbol_gt.gif' width='10' height='10' alt='&gt;' border='0' style='vertical-align:middle;'
-  /> 1 is then <font \"size=4\"><sup>&phi;(<var>d</var>)</sup>&frasl;<sub>(<var>d</var>-1)</sub></font>,
+  = <sup>4</sup>⁄<sub>11</sub>.\n\n| The resilience of a number <var>d</var> ![>]({{
+  images_dir }}/symbol_gt.gif) 1 is then | \nφ(<var>d</var>)  \n ![]({{ images_dir
+  }}/blackdot.gif)  \n<var>d</var> - 1\n | , where φ is Euler's totient function.
+  |\n\n| We further define the **coresilience** of a number <var>n</var> ![>]({{ images_dir
+  }}/symbol_gt.gif) 1 as <var>C</var>(<var>n</var>) | =  | \n<var>n</var> - φ(<var>n</var>)
+  \ \n ![]({{ images_dir }}/blackdot.gif)  \n<var>n</var> - 1\n | . |\n\n| The coresilience
+  of a prime <var>p</var> is <var>C</var>(<var>p</var>) | =  | \n1  \n ![]({{ images_dir
+  }}/blackdot.gif)  \n<var>p</var> - 1\n | . |\n\n<!--\r\n<p>The resilience of a number
+  <var>d</var> <img src='images/symbol_gt.gif' width='10' height='10' alt='&gt;' border='0'
+  style='vertical-align:middle;' /> 1 is then <font \"size=4\"><sup>&phi;(<var>d</var>)</sup>&frasl;<sub>(<var>d</var>-1)</sub></font>,
   where &phi; is Euler's totient function.</p>\r\n\r\n\r\n<p>We further define the
   <b>coresilience</b> of a number <var>n</var> <img src='images/symbol_gt.gif' width='10'
   height='10' alt='&gt;' border='0' style='vertical-align:middle;' /> 1 as <var>C</var>(<var>n</var>)
   = <font \"size=4\"><sup>(<var>n</var> - &phi;(<var>n</var>))</sup>&frasl;<sub>(<var>n</var>
   - 1)</sub></font>.\r\n</p>\r\n\r\n\r\n<p>The coresilience of a prime <var>p</var>
   is <var>C</var>(<var>p</var>) = <font \"size=4\"><sup>1</sup>&frasl;<sub>(<var>p</var>
-  - 1)</sub></font>.</p>\r\n-->\n\nFind the sum of all **composite** integers 1 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  <var>n</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)10<sup>11</sup>,
-  for which <var>C</var>(<var>n</var>) is a <dfn title=\"A fraction with numerator
-  1\">unit fraction</dfn>.\n\n"
+  - 1)</sub></font>.</p>\r\n-->\n\nFind the sum of all **composite** integers 1 ![<]({{
+  images_dir }}/symbol_lt.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 2
+  ![×]({{ images_dir }}/symbol_times.gif)10<sup>11</sup>, for which <var>C</var>(<var>n</var>)
+  is a <dfn title=\"A fraction with numerator 1\">unit fraction</dfn>.\n\n"

@@ -5,16 +5,16 @@
 :content: "Let H be the hyperbola defined by the equation 12<var>x</var><sup>2</sup>
   + 7<var>x</var><var>y</var> - 12<var>y</var><sup>2</sup> = 625.\n\nNext, define
   X as the point (7, 1). It can be seen that X is in H.\n\nNow we define a sequence
-  of points in H, {P<sub><var>i</var></sub> : <var>i</var> ![≥](/home/will/src/euler-manager/config/../data/images/symbol_ge.gif)
+  of points in H, {P<sub><var>i</var></sub> : <var>i</var> ![≥]({{ images_dir }}/symbol_ge.gif)
   1}, as:\n\n- P<sub>1</sub> = (13, 61/4).\r\n- P<sub>2</sub> = (-43/6, -4).\r\n-
   For <var>i</var> > 2, P<sub><var>i</var></sub> is the unique point in H that is
   different from P<sub><var>i</var>-1</sub> and such that line P<sub><var>i</var></sub>P<sub><var>i</var>-1</sub>
   is parallel to line P<sub><var>i</var>-2</sub>X. It can be shown that P<sub><var>i</var></sub>
-  is well-defined, and that its coordinates are always rational.\r\n ![](/home/will/src/euler-manager/config/../data/images/p422_hyperbola.gif)\n\nYou
-  are given that P<sub>3</sub> = (-19/2, -229/24), P<sub>4</sub> = (1267/144, -37/12)
-  and P<sub>7</sub> = (17194218091/143327232, 274748766781/1719926784).\n\nFind P<sub><var>n</var></sub>
-  for <var>n</var> = 11<sup>14</sup> in the following format:  \nIf P<sub><var>n</var></sub>
-  = (<var>a</var>/<var>b</var>, <var>c</var>/<var>d</var>) where the fractions are
-  in lowest terms and the denominators are positive, then the answer is (<var>a</var>
-  + <var>b</var> + <var>c</var> + <var>d</var>) mod 1 000 000 007.\n\nFor <var>n</var>
-  = 7, the answer would have been: 806236837.\n\n"
+  is well-defined, and that its coordinates are always rational.\r\n ![]({{ images_dir
+  }}/p422_hyperbola.gif)\n\nYou are given that P<sub>3</sub> = (-19/2, -229/24), P<sub>4</sub>
+  = (1267/144, -37/12) and P<sub>7</sub> = (17194218091/143327232, 274748766781/1719926784).\n\nFind
+  P<sub><var>n</var></sub> for <var>n</var> = 11<sup>14</sup> in the following format:
+  \ \nIf P<sub><var>n</var></sub> = (<var>a</var>/<var>b</var>, <var>c</var>/<var>d</var>)
+  where the fractions are in lowest terms and the denominators are positive, then
+  the answer is (<var>a</var> + <var>b</var> + <var>c</var> + <var>d</var>) mod 1 000 000 007.\n\nFor
+  <var>n</var> = 7, the answer would have been: 806236837.\n\n"

@@ -2,12 +2,13 @@
 :id: 189
 :name: Tri-colouring a triangular grid
 :url: http://projecteuler.net/problem=189
-:content: "Consider the following configuration of 64 triangles:\n\n ![](/home/will/src/euler-manager/config/../data/images/p_189_grid.gif)\n\nWe
-  wish to colour the interior of each triangle with one of three colours: red, green
-  or blue, so that no two neighbouring triangles have the same colour. Such a colouring
-  shall be called valid. Here, two triangles are said to be neighbouring if they share
-  an edge.  \n\rNote: if they only share a vertex, then they are not neighbours.\n\nFor
-  example, here is a valid colouring of the above grid:\n\n ![](/home/will/src/euler-manager/config/../data/images/p_189_colours.gif)\n\nA
-  colouring C' which is obtained from a colouring C by rotation or reflection is considered
-  _distinct_ from C unless the two are identical.\n\nHow many distinct valid colourings
-  are there for the above configuration?\n\n"
+:content: "Consider the following configuration of 64 triangles:\n\n ![]({{ images_dir
+  }}/p_189_grid.gif)\n\nWe wish to colour the interior of each triangle with one of
+  three colours: red, green or blue, so that no two neighbouring triangles have the
+  same colour. Such a colouring shall be called valid. Here, two triangles are said
+  to be neighbouring if they share an edge.  \n\rNote: if they only share a vertex,
+  then they are not neighbours.\n\nFor example, here is a valid colouring of the above
+  grid:\n\n ![]({{ images_dir }}/p_189_colours.gif)\n\nA colouring C' which is obtained
+  from a colouring C by rotation or reflection is considered _distinct_ from C unless
+  the two are identical.\n\nHow many distinct valid colourings are there for the above
+  configuration?\n\n"

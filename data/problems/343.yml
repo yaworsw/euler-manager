@@ -8,15 +8,11 @@
   reduced to lowest terms for <var>i</var>>1.  \n\rWhen a<sub><var>i</var></sub> reaches
   some integer <var>n</var>, the sequence stops. (That is, when y<sub><var>i</var></sub>=1.)
   \ \n\rDefine f(<var>k</var>) = <var>n</var>.   \n\rFor example, for <var>k</var>
-  = 20:\n\n1/20 ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif)
-  2/19 ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) 3/18
-  = 1/6 ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) 2/5
-  ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) 3/4 ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif)
-  4/3 ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) 5/2
-  ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) 6/1 = 6\n\nSo
-  f(20) = 6.\n\nAlso f(1) = 1, f(2) = 2, f(3) = 1 and Σf(<var>k</var><sup>3</sup>)
-  = 118937 for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>k</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  100.\n\nFind Σf(<var>k</var><sup>3</sup>) for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>k</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)10<sup>6</sup>.\n\n"
+  = 20:\n\n1/20 ![→]({{ images_dir }}/symbol_maps.gif) 2/19 ![→]({{ images_dir }}/symbol_maps.gif)
+  3/18 = 1/6 ![→]({{ images_dir }}/symbol_maps.gif) 2/5 ![→]({{ images_dir }}/symbol_maps.gif)
+  3/4 ![→]({{ images_dir }}/symbol_maps.gif) 4/3 ![→]({{ images_dir }}/symbol_maps.gif)
+  5/2 ![→]({{ images_dir }}/symbol_maps.gif) 6/1 = 6\n\nSo f(20) = 6.\n\nAlso f(1)
+  = 1, f(2) = 2, f(3) = 1 and Σf(<var>k</var><sup>3</sup>) = 118937 for 1 ![≤]({{
+  images_dir }}/symbol_le.gif) <var>k</var> ![≤]({{ images_dir }}/symbol_le.gif) 100.\n\nFind
+  Σf(<var>k</var><sup>3</sup>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>k</var>
+  ![≤]({{ images_dir }}/symbol_le.gif) 2 ![×]({{ images_dir }}/symbol_times.gif)10<sup>6</sup>.\n\n"

@@ -3,13 +3,12 @@
 :name: Diophantine reciprocals II
 :url: http://projecteuler.net/problem=110
 :content: "In the following equation <var>x</var>, <var>y</var>, and <var>n</var>
-  are positive integers.\n\n| \n1  \n ![](/home/will/src/euler-manager/config/../data/images/blackdot.gif)
-  \ \n <var>x</var>\n | + | \n1  \n ![](/home/will/src/euler-manager/config/../data/images/blackdot.gif)
-  \ \n <var>y</var>\n | = | \n1  \n ![](/home/will/src/euler-manager/config/../data/images/blackdot.gif)
-  \ \n <var>n</var>\n |\n\nIt can be verified that when <var>n</var> = 1260 there
-  are 113 distinct solutions and this is the least value of <var>n</var> for which
-  the total number of distinct solutions exceeds one hundred.\n\nWhat is the least
-  value of <var>n</var> for which the number of distinct solutions exceeds four million?\n\nNOTE:
-  This problem is a much more difficult version of [Problem 108](problem=108) and
-  as it is well beyond the limitations of a brute force approach it requires a clever
-  implementation.\n\n"
+  are positive integers.\n\n| \n1  \n ![]({{ images_dir }}/blackdot.gif)  \n <var>x</var>\n
+  | + | \n1  \n ![]({{ images_dir }}/blackdot.gif)  \n <var>y</var>\n | = | \n1  \n
+  ![]({{ images_dir }}/blackdot.gif)  \n <var>n</var>\n |\n\nIt can be verified that
+  when <var>n</var> = 1260 there are 113 distinct solutions and this is the least
+  value of <var>n</var> for which the total number of distinct solutions exceeds one
+  hundred.\n\nWhat is the least value of <var>n</var> for which the number of distinct
+  solutions exceeds four million?\n\nNOTE: This problem is a much more difficult version
+  of [Problem 108](problem=108) and as it is well beyond the limitations of a brute
+  force approach it requires a clever implementation.\n\n"

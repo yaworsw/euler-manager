@@ -3,23 +3,21 @@
 :name: Efficient exponentiation
 :url: http://projecteuler.net/problem=122
 :content: "The most naive way of computing _n_<sup>15</sup> requires fourteen multiplications:\n\n_n_
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) _n_ ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  ... ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) _n_
-  = _n_<sup>15</sup>\n\nBut using a \"binary\" method you can compute it in six multiplications:\n\n_n_
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) _n_ =
-  _n_<sup>2</sup>  \n_n_<sup>2</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _n_<sup>2</sup> = _n_<sup>4</sup>  \n_n_<sup>4</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _n_<sup>4</sup> = _n_<sup>8</sup>  \n_n_<sup>8</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _n_<sup>4</sup> = _n_<sup>12</sup>  \n_n_<sup>12</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _n_<sup>2</sup> = _n_<sup>14</sup>  \n_n_<sup>14</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _n_ = _n_<sup>15</sup>\n\nHowever it is yet possible to compute it in only five
-  multiplications:\n\n_n_ ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _n_ = _n_<sup>2</sup>  \n_n_<sup>2</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _n_ = _n_<sup>3</sup>  \n_n_<sup>3</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _n_<sup>3</sup> = _n_<sup>6</sup>  \n_n_<sup>6</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _n_<sup>6</sup> = _n_<sup>12</sup>  \n_n_<sup>12</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  _n_<sup>3</sup> = _n_<sup>15</sup>\n\nWe shall define m(_k_) to be the minimum number
-  of multiplications to compute _n_<sup><i>k</i></sup>; for example m(15) = 5.\n\nFor
-  1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) _k_ ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  200, find ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)
-  m(_k_).\n\n"
+  ![×]({{ images_dir }}/symbol_times.gif) _n_ ![×]({{ images_dir }}/symbol_times.gif)
+  ... ![×]({{ images_dir }}/symbol_times.gif) _n_ = _n_<sup>15</sup>\n\nBut using
+  a \"binary\" method you can compute it in six multiplications:\n\n_n_ ![×]({{ images_dir
+  }}/symbol_times.gif) _n_ = _n_<sup>2</sup>  \n_n_<sup>2</sup> ![×]({{ images_dir
+  }}/symbol_times.gif) _n_<sup>2</sup> = _n_<sup>4</sup>  \n_n_<sup>4</sup> ![×]({{
+  images_dir }}/symbol_times.gif) _n_<sup>4</sup> = _n_<sup>8</sup>  \n_n_<sup>8</sup>
+  ![×]({{ images_dir }}/symbol_times.gif) _n_<sup>4</sup> = _n_<sup>12</sup>  \n_n_<sup>12</sup>
+  ![×]({{ images_dir }}/symbol_times.gif) _n_<sup>2</sup> = _n_<sup>14</sup>  \n_n_<sup>14</sup>
+  ![×]({{ images_dir }}/symbol_times.gif) _n_ = _n_<sup>15</sup>\n\nHowever it is
+  yet possible to compute it in only five multiplications:\n\n_n_ ![×]({{ images_dir
+  }}/symbol_times.gif) _n_ = _n_<sup>2</sup>  \n_n_<sup>2</sup> ![×]({{ images_dir
+  }}/symbol_times.gif) _n_ = _n_<sup>3</sup>  \n_n_<sup>3</sup> ![×]({{ images_dir
+  }}/symbol_times.gif) _n_<sup>3</sup> = _n_<sup>6</sup>  \n_n_<sup>6</sup> ![×]({{
+  images_dir }}/symbol_times.gif) _n_<sup>6</sup> = _n_<sup>12</sup>  \n_n_<sup>12</sup>
+  ![×]({{ images_dir }}/symbol_times.gif) _n_<sup>3</sup> = _n_<sup>15</sup>\n\nWe
+  shall define m(_k_) to be the minimum number of multiplications to compute _n_<sup><i>k</i></sup>;
+  for example m(15) = 5.\n\nFor 1 ![≤]({{ images_dir }}/symbol_le.gif) _k_ ![≤]({{
+  images_dir }}/symbol_le.gif) 200, find ![∑]({{ images_dir }}/symbol_sum.gif) m(_k_).\n\n"

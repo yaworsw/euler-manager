@@ -24,9 +24,9 @@
   P<sub>0</sub>P<sub>1</sub> in P<sub>0</sub> and P<sub>2</sub>P<sub>3</sub> in P<sub>3</sub>.\n\nA
   cubic Bézier curve with P<sub>0</sub>=(1,0), P<sub>1</sub>=(1,<var>v</var>), P<sub>2</sub>=(<var>v</var>,1)
   and P<sub>3</sub>=(0,1) is used to approximate a quarter circle.  \n\rThe value
-  <var>v</var> ![>](/home/will/src/euler-manager/config/../data/images/symbol_gt.gif)0
-  is chosen such that the area enclosed by the lines OP<sub>0</sub>, OP<sub>3</sub>
-  and the curve is equal to <sup>π</sup>/<sub>4</sub> (the area of the quarter circle).\n\nBy
-  how many percent does the length of the curve differ from the length of the quarter
-  circle?  \n\rThat is, if L is the length of the curve, calculate 100\\*<sup>(L-π/2)</sup>/<sub>(π/2)</sub>.
-  \ \n\rGive your answer rounded to 10 digits behind the decimal point.\n\n"
+  <var>v</var> ![>]({{ images_dir }}/symbol_gt.gif)0 is chosen such that the area
+  enclosed by the lines OP<sub>0</sub>, OP<sub>3</sub> and the curve is equal to <sup>π</sup>/<sub>4</sub>
+  (the area of the quarter circle).\n\nBy how many percent does the length of the
+  curve differ from the length of the quarter circle?  \n\rThat is, if L is the length
+  of the curve, calculate 100\\*<sup>(L-π/2)</sup>/<sub>(π/2)</sub>.  \n\rGive your
+  answer rounded to 10 digits behind the decimal point.\n\n"

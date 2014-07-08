@@ -18,10 +18,9 @@
   inside the square area touching the four sides the area will be equal to π\\*250<sup>2</sup>
   m<sup>2</sup> and the perimeter will be π\\*500 m, so the enclosed-area/wall-length
   ratio will also be 125.\n\nHowever, if you cut off from the square four triangles
-  with sides 75 m, 75 m and 75 ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)2
-  m the total area becomes 238750 m<sup>2</sup> and the perimeter becomes 1400+300
-  ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)2 m. So
-  this gives an enclosed-area/wall-length ratio of 130.87, which is significantly
-  better.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_314_landgrab.gif)\n\nFind
+  with sides 75 m, 75 m and 75 ![√]({{ images_dir }}/symbol_radic.gif)2 m the total
+  area becomes 238750 m<sup>2</sup> and the perimeter becomes 1400+300 ![√]({{ images_dir
+  }}/symbol_radic.gif)2 m. So this gives an enclosed-area/wall-length ratio of 130.87,
+  which is significantly better.\n\n ![]({{ images_dir }}/p_314_landgrab.gif)\n\nFind
   the maximum enclosed-area/wall-length ratio.  \n\rGive your answer rounded to 8
   places behind the decimal point in the form abc.defghijk.\n\n"

@@ -12,14 +12,11 @@
   loses.\n- If <var>n</var> = 4, there are three valid moves for the first player;
   she can win the game by painting the two middle squares.\n- If <var>n</var> = 5,
   there are four valid moves for the first player (shown below in red); but no matter
-  what she does, the second player (blue) wins.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_306_pstrip.gif)\n\nSo,
-  for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 5, there
-  are 3 values of <var>n</var> for which the first player can force a win.  \n\rSimilarly,
-  for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 50, there
-  are 40 values of <var>n</var> for which the first player can force a win.\n\nFor
-  1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 1 000 000,
-  how many values of <var>n</var> are there for which the first player can force a
-  win?\n\n"
+  what she does, the second player (blue) wins.\n\n ![]({{ images_dir }}/p_306_pstrip.gif)\n\nSo,
+  for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)
+  5, there are 3 values of <var>n</var> for which the first player can force a win.
+  \ \n\rSimilarly, for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{
+  images_dir }}/symbol_le.gif) 50, there are 40 values of <var>n</var> for which the
+  first player can force a win.\n\nFor 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var>
+  ![≤]({{ images_dir }}/symbol_le.gif) 1 000 000, how many values of <var>n</var>
+  are there for which the first player can force a win?\n\n"

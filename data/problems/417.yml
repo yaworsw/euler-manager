@@ -13,8 +13,7 @@
   fractions whose denominator has no other prime factors than 2 and/or 5 are not considered
   to have a recurring cycle.  \n\rWe define the length of the recurring cycle of those
   unit fractions as 0.\n\nLet L(n) denote the length of the recurring cycle of 1/n.\rYou
-  are given that ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)L(n)
-  for 3 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) n ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  1 000 000 equals 55535191115.\n\nFind ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)L(n)
-  for 3 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) n ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  100 000 000\n\n"
+  are given that ![∑]({{ images_dir }}/symbol_sum.gif)L(n) for 3 ![≤]({{ images_dir
+  }}/symbol_le.gif) n ![≤]({{ images_dir }}/symbol_le.gif) 1 000 000 equals 55535191115.\n\nFind
+  ![∑]({{ images_dir }}/symbol_sum.gif)L(n) for 3 ![≤]({{ images_dir }}/symbol_le.gif)
+  n ![≤]({{ images_dir }}/symbol_le.gif) 100 000 000\n\n"

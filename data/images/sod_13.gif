@@ -45,6 +45,10 @@
    </div>
 
    <div id="content">
+<div id="notification">
+   <p><strong>NOTICE: </strong> Please read the <a href="news">News</a> to explain why the website is currently operating in reduced functionality.</p>
+</div>
+<br />
 <h2>Problems</h2>
 
 <div class="pagination"><a href="problems" class="current">1</a><a href="problems;page=2" title="Go to page 2">2</a><a href="problems;page=3" title="Go to page 3">3</a><a href="problems;page=4" title="Go to page 4">4</a><a href="problems;page=5" title="Go to page 5">5</a><a href="problems;page=6" title="Go to page 6">6</a><a href="problems;page=7" title="Go to page 7">7</a><a href="problems;page=8" title="Go to page 8">8</a><a href="problems;page=9" title="Go to page 9">9</a><a href="problems;page=10" title="Go to page 10">10</a><span>&nbsp;&nbsp;&nbsp;Go to Problem: <input type="text" id="jump_top" style="width:30px;" onkeypress="if (event.keyCode==13) location.href='problem='+this.value;" /></span></div><div style="clear:both;"></div><br /><table class="grid">

@@ -6,7 +6,7 @@
   so T(<var>n</var>) =\r | \n\n| <var>n</var> (<var>n</var>+1) |\n| 2 |\n\n | \r.\r
   |\n\nLet dT(<var>n</var>) be the number of divisors of T(<var>n</var>).  \n\rE.g.:\rT(7)
   = 28 and dT(7) = 6.\n\nLet Tr(<var>n</var>) be the number of triples (<var>i</var>,
-  <var>j</var>, <var>k</var>) such that 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>i n</var> and dT(<var>i</var>) > dT(<var>j</var>) > dT(<var>k</var>).  \n\rTr(20)
+  <var>j</var>, <var>k</var>) such that 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>i
+  n</var> and dT(<var>i</var>) > dT(<var>j</var>) > dT(<var>k</var>).  \n\rTr(20)
   = 14, Tr(100) = 5772 and Tr(1000) = 11174776.\n\nFind Tr(60 000 000).   \n\rGive
   the last 18 digits of your answer.\n\n"

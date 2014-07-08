@@ -8,7 +8,6 @@
   are all less than nine and relatively prime to nine, φ(9)=6.  \nThe number 1 is
   considered to be relatively prime to every positive number, so φ(1)=1.\n\nInterestingly,
   φ(87109)=79180, and it can be seen that 87109 is a permutation of 79180.\n\nFind
-  the value of <var>n</var>, 1 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  <var>n</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  10<sup>7</sup>, for which φ(<var>n</var>) is a permutation of <var>n</var> and the
-  ratio <var>n</var>/φ(<var>n</var>) produces a minimum.\n\n"
+  the value of <var>n</var>, 1 ![<]({{ images_dir }}/symbol_lt.gif) <var>n</var> ![<]({{
+  images_dir }}/symbol_lt.gif) 10<sup>7</sup>, for which φ(<var>n</var>) is a permutation
+  of <var>n</var> and the ratio <var>n</var>/φ(<var>n</var>) produces a minimum.\n\n"

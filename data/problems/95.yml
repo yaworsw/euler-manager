@@ -9,7 +9,7 @@
 
   Perhaps less well known are longer chains. For example, starting with 12496, we form a chain of five numbers:
 
-  12496 ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) 14288 ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) 15472 ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) 14536 ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) 14264 ( ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) 12496 ![→](/home/will/src/euler-manager/config/../data/images/symbol_maps.gif) ...)
+  12496 ![→]({{ images_dir }}/symbol_maps.gif) 14288 ![→]({{ images_dir }}/symbol_maps.gif) 15472 ![→]({{ images_dir }}/symbol_maps.gif) 14536 ![→]({{ images_dir }}/symbol_maps.gif) 14264 ( ![→]({{ images_dir }}/symbol_maps.gif) 12496 ![→]({{ images_dir }}/symbol_maps.gif) ...)
 
   Since this chain returns to its starting point, it is called an amicable chain.
 

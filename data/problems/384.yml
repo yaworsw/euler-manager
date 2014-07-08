@@ -6,7 +6,7 @@
   binary expansion of n (possibly overlapping).\r  \nE.g.: a(5) = a(101<sub>2</sub>)
   = 0, a(6) = a(110<sub>2</sub>) = 1, a(7) = a(111<sub>2</sub>) = 2\n\nDefine the
   sequence b(n) = (-1)<sup>a(n)</sup>.\r  \nThis sequence is called the **Rudin-Shapiro**
-  sequence.\n\nAlso consider the summatory sequence of b(n): ![](/home/will/src/euler-manager/config/../data/images/p_384_formula.gif).\n\nThe
+  sequence.\n\nAlso consider the summatory sequence of b(n): ![]({{ images_dir }}/p_384_formula.gif).\n\nThe
   first couple of values of these sequences are:\r  \n<tt>n    &amp;nbsp   0 &amp;nbsp
     1 &amp;nbsp   2 &amp;nbsp   3 &amp;nbsp   4 &amp;nbsp   5 &amp;nbsp   6 &amp;nbsp
     7\r\n<br>a(n) &amp;nbsp   0 &amp;nbsp   0 &amp;nbsp   0 &amp;nbsp   1 &amp;nbsp
@@ -15,10 +15,9 @@
     1\r\n<br>s(n) &amp;nbsp   1 &amp;nbsp   2 &amp;nbsp   3 &amp;nbsp   2 &amp;nbsp
     3 &amp;nbsp   4 &amp;nbsp   3 &amp;nbsp   4</tt>\n\nThe sequence s(n) has the
   remarkable property that all elements are positive and every positive integer k
-  occurs exactly k times.\n\nDefine g(t,c), with 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  c ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) t, as the
-  index in s(n) for which t occurs for the c'th time in s(n).\r  \nE.g.: g(3,3) =
-  6, g(4,2) = 7 and g(54321,12345) = 1220847710.\n\nLet F(n) be the fibonacci sequence
-  defined by:\r  \nF(0)=F(1)=1 and\r  \nF(n)=F(n-1)+F(n-2) for n>1.\n\nDefine GF(t)=g(F(t),F(t-1)).\n\nFind
-  ΣGF(t) for 2 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)t
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)45.\n\n"
+  occurs exactly k times.\n\nDefine g(t,c), with 1 ![≤]({{ images_dir }}/symbol_le.gif)
+  c ![≤]({{ images_dir }}/symbol_le.gif) t, as the index in s(n) for which t occurs
+  for the c'th time in s(n).\r  \nE.g.: g(3,3) = 6, g(4,2) = 7 and g(54321,12345)
+  = 1220847710.\n\nLet F(n) be the fibonacci sequence defined by:\r  \nF(0)=F(1)=1
+  and\r  \nF(n)=F(n-1)+F(n-2) for n>1.\n\nDefine GF(t)=g(F(t),F(t-1)).\n\nFind ΣGF(t)
+  for 2 ![≤]({{ images_dir }}/symbol_le.gif)t ![≤]({{ images_dir }}/symbol_le.gif)45.\n\n"

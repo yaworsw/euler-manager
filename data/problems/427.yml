@@ -4,13 +4,13 @@
 :url: http://projecteuler.net/problem=427
 :content: "A sequence of integers S = {s<sub><var>i</var></sub>} is called an <var>n-sequence</var>
   if it has <var>n</var> elements and each element s<sub><var>i</var></sub> satisfies
-  1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) s<sub><var>i</var></sub>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var>.
-  Thus there are <var>n</var><sup><var>n</var></sup> distinct <var>n</var>-sequences
-  in total.\rFor example, the sequence S = {1, 5, 5, 10, 7, 7, 7, 2, 3, 7} is a 10-sequence.\n\nFor
-  any sequence S, let L(S) be the length of the longest contiguous subsequence of
-  S with the same value.\rFor example, for the given sequence S above, L(S) = 3, because
-  of the three consecutive 7's.\n\nLet <var>f</var>(<var>n</var>) = ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)
-  L(S) for all <var>n</var>-sequences S.\n\nFor example, <var>f</var>(3) = 45, <var>f</var>(7)
+  1 ![≤]({{ images_dir }}/symbol_le.gif) s<sub><var>i</var></sub> ![≤]({{ images_dir
+  }}/symbol_le.gif) <var>n</var>. Thus there are <var>n</var><sup><var>n</var></sup>
+  distinct <var>n</var>-sequences in total.\rFor example, the sequence S = {1, 5,
+  5, 10, 7, 7, 7, 2, 3, 7} is a 10-sequence.\n\nFor any sequence S, let L(S) be the
+  length of the longest contiguous subsequence of S with the same value.\rFor example,
+  for the given sequence S above, L(S) = 3, because of the three consecutive 7's.\n\nLet
+  <var>f</var>(<var>n</var>) = ![∑]({{ images_dir }}/symbol_sum.gif) L(S) for all
+  <var>n</var>-sequences S.\n\nFor example, <var>f</var>(3) = 45, <var>f</var>(7)
   = 1403689 and <var>f</var>(11) = 481496895121.\n\nFind <var>f</var>(7 500 000) mod
   1 000 000 009.\n\n"

@@ -3,16 +3,15 @@
 :name: Prime factors of <var>n</var><sup>15</sup>+1
 :url: http://projecteuler.net/problem=421
 :content: "Numbers of the form <var>n</var><sup>15</sup>+1 are composite for every
-  integer <var>n</var> ![>](/home/will/src/euler-manager/config/../data/images/symbol_gt.gif)
-  1.  \n\rFor positive integers <var>n</var> and <var>m</var> let <var>s</var>(<var>n,m</var>)
-  be defined as the sum of the _distinct_ prime factors of <var>n</var><sup>15</sup>+1
-  not exceeding <var>m</var>.\n\n\rE.g. 2<sup>15</sup>+1 = 3 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)3
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)11 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)331.
+  integer <var>n</var> ![>]({{ images_dir }}/symbol_gt.gif) 1.  \n\rFor positive integers
+  <var>n</var> and <var>m</var> let <var>s</var>(<var>n,m</var>) be defined as the
+  sum of the _distinct_ prime factors of <var>n</var><sup>15</sup>+1 not exceeding
+  <var>m</var>.\n\n\rE.g. 2<sup>15</sup>+1 = 3 ![×]({{ images_dir }}/symbol_times.gif)3
+  ![×]({{ images_dir }}/symbol_times.gif)11 ![×]({{ images_dir }}/symbol_times.gif)331.
   \ \n\rSo <var>s</var>(2,10) = 3 and <var>s</var>(2,1000) = 3+11+331 = 345.  \n  \n
-  \ \n\r\rAlso 10<sup>15</sup>+1 = 7 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)11
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)13 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)211
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)241 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2161
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)9091.  \n\rSo
-  <var>s</var>(10,100) = 31 and <var>s</var>(10,1000) = 483.  \n\nFind &Sum; <var>s</var>(<var>n</var>,10<sup>8</sup>)
-  for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 10<sup>11</sup>.\n\n"
+  \ \n\r\rAlso 10<sup>15</sup>+1 = 7 ![×]({{ images_dir }}/symbol_times.gif)11 ![×]({{
+  images_dir }}/symbol_times.gif)13 ![×]({{ images_dir }}/symbol_times.gif)211 ![×]({{
+  images_dir }}/symbol_times.gif)241 ![×]({{ images_dir }}/symbol_times.gif)2161 ![×]({{
+  images_dir }}/symbol_times.gif)9091.  \n\rSo <var>s</var>(10,100) = 31 and <var>s</var>(10,1000)
+  = 483.  \n\nFind &Sum; <var>s</var>(<var>n</var>,10<sup>8</sup>) for 1 ![≤]({{ images_dir
+  }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>11</sup>.\n\n"

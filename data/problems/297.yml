@@ -9,8 +9,7 @@
   a sum is called the **Zeckendorf representation** of the number.\n\nFor any integer
   <var>n</var>>0, let <var>z</var>(<var>n</var>) be the number of terms in the Zeckendorf
   representation of <var>n</var>.  \n\rThus, <var>z</var>(5) = 1, <var>z</var>(14) = 2,
-  <var>z</var>(100) = 3 etc.  \n\rAlso, for 0 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)<var>n</var>
-  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)10<sup>6</sup>,
-  ∑ <var>z</var>(<var>n</var>) = 7894453.\n\nFind ∑ <var>z</var>(<var>n</var>) for
-  0 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)<var>n</var>
-  ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)10<sup>17</sup>.\n\n"
+  <var>z</var>(100) = 3 etc.  \n\rAlso, for 0 ![<]({{ images_dir }}/symbol_lt.gif)<var>n</var>
+  ![<]({{ images_dir }}/symbol_lt.gif)10<sup>6</sup>, ∑ <var>z</var>(<var>n</var>) = 7894453.\n\nFind
+  ∑ <var>z</var>(<var>n</var>) for 0 ![<]({{ images_dir }}/symbol_lt.gif)<var>n</var>
+  ![<]({{ images_dir }}/symbol_lt.gif)10<sup>17</sup>.\n\n"

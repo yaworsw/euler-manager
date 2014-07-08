@@ -3,29 +3,25 @@
 :name: Combined Volume of Cuboids
 :url: http://projecteuler.net/problem=212
 :content: "An axis-aligned cuboid, specified by parameters { (x<sub>0</sub>,y<sub>0</sub>,z<sub>0</sub>),
-  (dx,dy,dz) }, consists of all points (X,Y,Z) such that x<sub>0</sub> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  X ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) x<sub>0</sub>+dx,
-  y<sub>0</sub> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  Y ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) y<sub>0</sub>+dy
-  and z<sub>0</sub> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  Z ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) z<sub>0</sub>+dz.
-  The volume of the cuboid is the product, dx ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)
-  dy ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) dz.
-  The combined volume of a collection of cuboids is the volume of their union and
-  will be less than the sum of the individual volumes if any cuboids overlap.\n\nLet
-  C<sub>1</sub>,...,C<sub>50000</sub> be a collection of 50000 axis-aligned cuboids
-  such that C<sub><var>n</var></sub> has parameters\n\nx<sub>0</sub> = S<sub>6<var>n</var>-5</sub>
-  modulo 10000  \ny<sub>0</sub> = S<sub>6<var>n</var>-4</sub> modulo 10000  \nz<sub>0</sub>
-  = S<sub>6<var>n</var>-3</sub> modulo 10000  \ndx = 1 + (S<sub>6<var>n</var>-2</sub>
-  modulo 399)  \ndy = 1 + (S<sub>6<var>n</var>-1</sub> modulo 399)  \ndz = 1 + (S<sub>6<var>n</var></sub>
-  modulo 399)\n\nwhere S<sub>1</sub>,...,S<sub>300000</sub> come from the \"Lagged
-  Fibonacci Generator\":\n\nFor 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>k</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  55, S<sub><var>k</var></sub> = [100003 - 200003<var>k</var> + 300007<var>k</var><sup>3</sup>]
-    (modulo 1000000)  \nFor 56 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>k</var>, S<sub><var>k</var></sub> = [S<sub><var>k</var>-24</sub> + S<sub><var>k</var>-55</sub>]
-    (modulo 1000000)\n\nThus, C<sub>1</sub> has parameters {(7,53,183),(94,369,56)},
-  C<sub>2</sub> has parameters {(2383,3563,5079),(42,212,344)}, and so on.\n\nThe
-  combined volume of the first 100 cuboids, C<sub>1</sub>,...,C<sub>100</sub>, is
-  723581599.\n\nWhat is the combined volume of all 50000 cuboids, C<sub>1</sub>,...,C<sub>50000</sub>
-  ?\n\n"
+  (dx,dy,dz) }, consists of all points (X,Y,Z) such that x<sub>0</sub> ![≤]({{ images_dir
+  }}/symbol_le.gif) X ![≤]({{ images_dir }}/symbol_le.gif) x<sub>0</sub>+dx, y<sub>0</sub>
+  ![≤]({{ images_dir }}/symbol_le.gif) Y ![≤]({{ images_dir }}/symbol_le.gif) y<sub>0</sub>+dy
+  and z<sub>0</sub> ![≤]({{ images_dir }}/symbol_le.gif) Z ![≤]({{ images_dir }}/symbol_le.gif)
+  z<sub>0</sub>+dz. The volume of the cuboid is the product, dx ![×]({{ images_dir
+  }}/symbol_times.gif) dy ![×]({{ images_dir }}/symbol_times.gif) dz. The combined
+  volume of a collection of cuboids is the volume of their union and will be less
+  than the sum of the individual volumes if any cuboids overlap.\n\nLet C<sub>1</sub>,...,C<sub>50000</sub>
+  be a collection of 50000 axis-aligned cuboids such that C<sub><var>n</var></sub>
+  has parameters\n\nx<sub>0</sub> = S<sub>6<var>n</var>-5</sub> modulo 10000  \ny<sub>0</sub>
+  = S<sub>6<var>n</var>-4</sub> modulo 10000  \nz<sub>0</sub> = S<sub>6<var>n</var>-3</sub>
+  modulo 10000  \ndx = 1 + (S<sub>6<var>n</var>-2</sub> modulo 399)  \ndy = 1 + (S<sub>6<var>n</var>-1</sub>
+  modulo 399)  \ndz = 1 + (S<sub>6<var>n</var></sub> modulo 399)\n\nwhere S<sub>1</sub>,...,S<sub>300000</sub>
+  come from the \"Lagged Fibonacci Generator\":\n\nFor 1 ![≤]({{ images_dir }}/symbol_le.gif)
+  <var>k</var> ![≤]({{ images_dir }}/symbol_le.gif) 55, S<sub><var>k</var></sub> =
+  [100003 - 200003<var>k</var> + 300007<var>k</var><sup>3</sup>]   (modulo 1000000)
+  \ \nFor 56 ![≤]({{ images_dir }}/symbol_le.gif) <var>k</var>, S<sub><var>k</var></sub>
+  = [S<sub><var>k</var>-24</sub> + S<sub><var>k</var>-55</sub>]   (modulo 1000000)\n\nThus,
+  C<sub>1</sub> has parameters {(7,53,183),(94,369,56)}, C<sub>2</sub> has parameters
+  {(2383,3563,5079),(42,212,344)}, and so on.\n\nThe combined volume of the first
+  100 cuboids, C<sub>1</sub>,...,C<sub>100</sub>, is 723581599.\n\nWhat is the combined
+  volume of all 50000 cuboids, C<sub>1</sub>,...,C<sub>50000</sub> ?\n\n"

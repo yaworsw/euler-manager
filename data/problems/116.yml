@@ -5,31 +5,25 @@
 :content: "A row of five black square tiles is to have a number of its tiles replaced
   with coloured oblong tiles chosen from red (length two), green (length three), or
   blue (length four).\n\nIf red tiles are chosen there are exactly seven ways this
-  can be done.\n\n| \n\n| ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) |\n\n | \n\n|
-  ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  |\n\n | \n\n| ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) |\n\n | \n\n|
-  ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  |\n\n |\n| \n\n| ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  |\n\n | \n\n| ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  |\n\n | \n\n| ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  |\n\n |   |\n\nIf green tiles are chosen there are three ways.\n\n| \n\n| ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  |\n\n | \n\n| ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  |\n\n | \n\n| ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  |\n\n |   |\n\nAnd if blue tiles are chosen there are two ways.\n\n| \n\n| ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
-  | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) |\n\n | \n\n|
-  ![](/home/will/src/euler-manager/config/../data/images/spacer.gif) | ![](/home/will/src/euler-manager/config/../data/images/spacer.gif)
+  can be done.\n\n| \n\n| ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif)
+  | ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif) |\n\n | \n\n|
+  ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir
+  }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif) |\n\n | \n\n| ![]({{ images_dir
+  }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif)
+  | ![]({{ images_dir }}/spacer.gif) |\n\n | \n\n| ![]({{ images_dir }}/spacer.gif)
+  | ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir
+  }}/spacer.gif) |\n\n |\n| \n\n| ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir
+  }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif) |\n\n | \n\n| ![]({{ images_dir
+  }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif)
+  |\n\n | \n\n| ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif)
+  | ![]({{ images_dir }}/spacer.gif) |\n\n |   |\n\nIf green tiles are chosen there
+  are three ways.\n\n| \n\n| ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir
+  }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif) |\n\n | \n\n| ![]({{ images_dir
+  }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif)
+  |\n\n | \n\n| ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif)
+  | ![]({{ images_dir }}/spacer.gif) |\n\n |   |\n\nAnd if blue tiles are chosen there
+  are two ways.\n\n| \n\n| ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif)
+  |\n\n | \n\n| ![]({{ images_dir }}/spacer.gif) | ![]({{ images_dir }}/spacer.gif)
   |\n\n |\n\nAssuming that colours cannot be mixed there are 7 + 3 + 2 = 12 ways of
   replacing the black tiles in a row measuring five units in length.\n\nHow many different
   ways can the black tiles in a row measuring fifty units in length be replaced if

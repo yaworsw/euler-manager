@@ -6,14 +6,13 @@
   coordinates\">lattice points</dfn>.\n- <dfn title=\"Centre of the circumscribed
   circle\">Circumcentre</dfn> at the origin O.\n- <dfn title=\"Point where the three
   altitudes meet\">Orthocentre</dfn> at the point H(5, 0).\n\nThere are nine such
-  triangles having a perimeter ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  50.  \n\rListed and shown in ascending order of their perimeter, they are:\n\n|
-  A(-4, 3), B(5, 0), C(4, -3)  \n\rA(4, 3), B(5, 0), C(-4, -3)  \n\rA(-3, 4), B(5,
-  0), C(3, -4)  \n  \n  \n  \n  \n\rA(3, 4), B(5, 0), C(-3, -4)  \n\rA(0, 5), B(5,
-  0), C(0, -5)  \n\rA(1, 8), B(8, -1), C(-4, -7)  \n  \n  \n  \n  \n\rA(8, 1), B(1,
-  -8), C(-4, 7)  \n\rA(2, 9), B(9, -2), C(-6, -7)  \n\rA(9, 2), B(2, -9), C(-6, 7)
-  \ \n | ![](/home/will/src/euler-manager/config/../data/images/p_264_TriangleCentres.gif)
-  |\n\nThe sum of their perimeters, rounded to four decimal places, is 291.0089.\n\nFind
-  all such triangles with a perimeter ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  10<sup>5</sup>.  \n\rEnter as your answer the sum of their perimeters rounded to
-  four decimal places.\n\n"
+  triangles having a perimeter ![≤]({{ images_dir }}/symbol_le.gif) 50.  \n\rListed
+  and shown in ascending order of their perimeter, they are:\n\n| A(-4, 3), B(5, 0),
+  C(4, -3)  \n\rA(4, 3), B(5, 0), C(-4, -3)  \n\rA(-3, 4), B(5, 0), C(3, -4)  \n  \n
+  \ \n  \n  \n\rA(3, 4), B(5, 0), C(-3, -4)  \n\rA(0, 5), B(5, 0), C(0, -5)  \n\rA(1,
+  8), B(8, -1), C(-4, -7)  \n  \n  \n  \n  \n\rA(8, 1), B(1, -8), C(-4, 7)  \n\rA(2,
+  9), B(9, -2), C(-6, -7)  \n\rA(9, 2), B(2, -9), C(-6, 7)  \n | ![]({{ images_dir
+  }}/p_264_TriangleCentres.gif) |\n\nThe sum of their perimeters, rounded to four
+  decimal places, is 291.0089.\n\nFind all such triangles with a perimeter ![≤]({{
+  images_dir }}/symbol_le.gif) 10<sup>5</sup>.  \n\rEnter as your answer the sum of
+  their perimeters rounded to four decimal places.\n\n"

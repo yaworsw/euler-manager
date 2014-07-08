@@ -14,11 +14,11 @@
   The corresponding values of _x_ for the first five natural numbers are shown below.
 
   | **_x_** | **A<sub>F</sub>(_x_)** |
-  | ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)2 ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)1 | 1 |
+  | ![√]({{ images_dir }}/symbol_radic.gif)2 ![−]({{ images_dir }}/symbol_minus.gif)1 | 1 |
   | 1/2 | 2 |
-  | ( ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)13 ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)2)/3 | 3 |
-  | ( ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)89 ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)5)/8 | 4 |
-  | ( ![√](/home/will/src/euler-manager/config/../data/images/symbol_radic.gif)34 ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)3)/5 | 5 |
+  | ( ![√]({{ images_dir }}/symbol_radic.gif)13 ![−]({{ images_dir }}/symbol_minus.gif)2)/3 | 3 |
+  | ( ![√]({{ images_dir }}/symbol_radic.gif)89 ![−]({{ images_dir }}/symbol_minus.gif)5)/8 | 4 |
+  | ( ![√]({{ images_dir }}/symbol_radic.gif)34 ![−]({{ images_dir }}/symbol_minus.gif)3)/5 | 5 |
 
   We shall call A<sub>F</sub>(_x_) a golden nugget if _x_ is rational, because they become increasingly rarer; for example, the 10th golden nugget is 74049690.
 

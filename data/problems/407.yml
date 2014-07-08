@@ -2,12 +2,12 @@
 :id: 407
 :name: Idempotents
 :url: http://projecteuler.net/problem=407
-:content: "If we calculate <var>a</var><sup>2</sup> mod 6 for 0 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>a</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  5 we get: 0,1,4,3,4,1.\n\nThe largest value of <var>a</var> such that <var>a</var><sup>2</sup>
-  ![≡](/home/will/src/euler-manager/config/../data/images/symbol_cong.gif) <var>a</var>
-  mod 6 is 4.  \n\rLet's call M(<var>n</var>) the largest value of <var>a</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  <var>n</var> such that <var>a</var><sup>2</sup> ![≡](/home/will/src/euler-manager/config/../data/images/symbol_cong.gif)
-  <var>a</var> (mod <var>n</var>).  \n\rSo M(6) = 4.\n\nFind ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)M(<var>n</var>)
-  for 1 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 10<sup>7</sup>.\n\n"
+:content: "If we calculate <var>a</var><sup>2</sup> mod 6 for 0 ![≤]({{ images_dir
+  }}/symbol_le.gif) <var>a</var> ![≤]({{ images_dir }}/symbol_le.gif) 5 we get: 0,1,4,3,4,1.\n\nThe
+  largest value of <var>a</var> such that <var>a</var><sup>2</sup> ![≡]({{ images_dir
+  }}/symbol_cong.gif) <var>a</var> mod 6 is 4.  \n\rLet's call M(<var>n</var>) the
+  largest value of <var>a</var> ![<]({{ images_dir }}/symbol_lt.gif) <var>n</var>
+  such that <var>a</var><sup>2</sup> ![≡]({{ images_dir }}/symbol_cong.gif) <var>a</var>
+  (mod <var>n</var>).  \n\rSo M(6) = 4.\n\nFind ![∑]({{ images_dir }}/symbol_sum.gif)M(<var>n</var>)
+  for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)
+  10<sup>7</sup>.\n\n"

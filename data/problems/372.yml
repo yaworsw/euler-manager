@@ -3,11 +3,9 @@
 :name: Pencils of rays
 :url: http://projecteuler.net/problem=372
 :content: "Let R(<var>M</var>, <var>N</var>) be the number of lattice points (<var>x</var>,
-  <var>y</var>) which satisfy <var>M</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)<var>x</var>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)<var>N</var>,
-  <var>M</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)<var>y</var>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)<var>N</var>
-  and ![](/home/will/src/euler-manager/config/../data/images/p_372_pencilray1.jpg)
-  is odd.  \n\rWe can verify that R(0, 100) = 3019 and R(100, 10000) = 29750422.  \n\rFind
-  R(2·10<sup>6</sup>, 10<sup>9</sup>).\n\n<u><i>Note</i></u>: ![](/home/will/src/euler-manager/config/../data/images/p_372_pencilray2.gif)
-  represents the floor function.\n\n"
+  <var>y</var>) which satisfy <var>M</var> ![<]({{ images_dir }}/symbol_lt.gif)<var>x</var>
+  ![≤]({{ images_dir }}/symbol_le.gif)<var>N</var>, <var>M</var> ![<]({{ images_dir
+  }}/symbol_lt.gif)<var>y</var> ![≤]({{ images_dir }}/symbol_le.gif)<var>N</var> and
+  ![]({{ images_dir }}/p_372_pencilray1.jpg) is odd.  \n\rWe can verify that R(0,
+  100) = 3019 and R(100, 10000) = 29750422.  \n\rFind R(2·10<sup>6</sup>, 10<sup>9</sup>).\n\n<u><i>Note</i></u>:
+  ![]({{ images_dir }}/p_372_pencilray2.gif) represents the floor function.\n\n"

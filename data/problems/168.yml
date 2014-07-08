@@ -4,8 +4,8 @@
 :url: http://projecteuler.net/problem=168
 :content: "Consider the number 142857. We can right-rotate this number by moving the
   last digit (7) to the front of it, giving us 714285.  \n\rIt can be verified that
-  714285=5 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)142857.
-  \ \n\rThis demonstrates an unusual property of 142857: it is a divisor of its right-rotation.\n\nFind
-  the last 5 digits of the sum of all integers <var>n</var>, 10 ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  <var>n</var> ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  10<sup>100</sup>, that have this property.\n\n"
+  714285=5 ![×]({{ images_dir }}/symbol_times.gif)142857.  \n\rThis demonstrates an
+  unusual property of 142857: it is a divisor of its right-rotation.\n\nFind the last
+  5 digits of the sum of all integers <var>n</var>, 10 ![<]({{ images_dir }}/symbol_lt.gif)
+  <var>n</var> ![<]({{ images_dir }}/symbol_lt.gif) 10<sup>100</sup>, that have this
+  property.\n\n"

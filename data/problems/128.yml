@@ -7,7 +7,7 @@
 
   New rings are added in the same fashion, with the next rings being numbered 8 to 19, 20 to 37, 38 to 61, and so on. The diagram below shows the first three rings.
 
-   ![](/home/will/src/euler-manager/config/../data/images/p_128.gif)
+   ![]({{ images_dir }}/p_128.gif)
 
   By finding the difference between tile _n_ and each its six neighbours we shall define PD(_n_) to be the number of those differences which are prime.
 

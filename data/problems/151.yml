@@ -11,7 +11,7 @@
 
   All the unused sheets are placed back in the envelope.
 
-   ![](/home/will/src/euler-manager/config/../data/images/p_151.gif)
+   ![]({{ images_dir }}/p_151.gif)
 
   At the beginning of each subsequent batch, he takes from the envelope one sheet of paper at random. If it is of size A5, he uses it. If it is larger, he repeats the 'cut-in-half' procedure until he has what he needs and any remaining sheets are always placed back in the envelope.
 

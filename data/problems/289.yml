@@ -12,7 +12,7 @@
   are possible on E(<var>m</var>,<var>n</var>), but we are only interested in those
   which are not self-crossing: \rA non-crossing path just touches itself at lattice
   points, but it never crosses itself.\n\nThe image below shows E(3,3) and an example
-  of an Eulerian non-crossing path.\n\n ![](/home/will/src/euler-manager/config/../data/images/p_289_euler.gif)\n\nLet
+  of an Eulerian non-crossing path.\n\n ![]({{ images_dir }}/p_289_euler.gif)\n\nLet
   L(<var>m</var>,<var>n</var>) be the number of Eulerian non-crossing paths on E(<var>m</var>,<var>n</var>).
   \ \n\rFor example, L(1,2) = 2, L(2,2) = 37 and L(3,3) = 104290.\n\nFind L(6,10)
   mod 10<sup>10</sup>.\n\n"

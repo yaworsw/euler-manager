@@ -9,7 +9,6 @@
   example, the sequence U(1,2) begins with  \n\r1, 2, 3 = 1 + 2, 4 = 1 + 3, 6 = 2
   + 4, 8 = 2 + 6, 11 = 3 + 8;  \n\r5 does not belong to it because 5 = 1 + 4 = 2 +
   3 has two representations as the sum of two previous members, likewise 7 = 1 + 6
-  = 3 + 4.\n\nFind ![∑](/home/will/src/euler-manager/config/../data/images/symbol_sum.gif)U(2,2<var>n</var>+1)<sub><var>k</var></sub>
-  for 2 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) <var>n</var>
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)10, where
-  <var>k</var> = 10<sup>11</sup>.\n\n"
+  = 3 + 4.\n\nFind ![∑]({{ images_dir }}/symbol_sum.gif)U(2,2<var>n</var>+1)<sub><var>k</var></sub>
+  for 2 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)10,
+  where <var>k</var> = 10<sup>11</sup>.\n\n"

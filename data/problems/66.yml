@@ -4,14 +4,14 @@
 :url: http://projecteuler.net/problem=66
 :content: "Consider quadratic Diophantine equations of the form:\n\n_x_<sup>2</sup>
   – D_y_<sup>2</sup> = 1\n\nFor example, when D=13, the minimal solution in _x_ is
-  649<sup>2</sup> – 13 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)180<sup>2</sup>
-  = 1.\n\nIt can be assumed that there are no solutions in positive integers when
-  D is square.\n\nBy finding minimal solutions in _x_ for D = {2, 3, 5, 6, 7}, we
-  obtain the following:\n\n3<sup>2</sup> – 2 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2<sup>2</sup>
-  = 1  \n\r2<sup>2</sup> – 3 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)1<sup>2</sup>
-  = 1  \n9<sup>2</sup> – 5 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)4<sup>2</sup>
-  = 1  \n\r5<sup>2</sup> – 6 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2<sup>2</sup>
-  = 1  \n\r8<sup>2</sup> – 7 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)3<sup>2</sup>
-  = 1\n\nHence, by considering minimal solutions in _x_ for D ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  7, the largest _x_ is obtained when D=5.\n\nFind the value of D ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  649<sup>2</sup> – 13 ![×]({{ images_dir }}/symbol_times.gif)180<sup>2</sup> = 1.\n\nIt
+  can be assumed that there are no solutions in positive integers when D is square.\n\nBy
+  finding minimal solutions in _x_ for D = {2, 3, 5, 6, 7}, we obtain the following:\n\n3<sup>2</sup>
+  – 2 ![×]({{ images_dir }}/symbol_times.gif)2<sup>2</sup> = 1  \n\r2<sup>2</sup>
+  – 3 ![×]({{ images_dir }}/symbol_times.gif)1<sup>2</sup> = 1  \n9<sup>2</sup> –
+  5 ![×]({{ images_dir }}/symbol_times.gif)4<sup>2</sup> = 1  \n\r5<sup>2</sup> –
+  6 ![×]({{ images_dir }}/symbol_times.gif)2<sup>2</sup> = 1  \n\r8<sup>2</sup> –
+  7 ![×]({{ images_dir }}/symbol_times.gif)3<sup>2</sup> = 1\n\nHence, by considering
+  minimal solutions in _x_ for D ![≤]({{ images_dir }}/symbol_le.gif) 7, the largest
+  _x_ is obtained when D=5.\n\nFind the value of D ![≤]({{ images_dir }}/symbol_le.gif)
   1000 in minimal solutions of _x_ for which the largest value of _x_ is obtained.\n\n"

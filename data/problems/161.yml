@@ -3,9 +3,10 @@
 :name: Triominoes
 :url: http://projecteuler.net/problem=161
 :content: "A triomino is a shape consisting of three squares joined via the edges.\rThere
-  are two basic forms:\n\n![](/home/will/src/euler-manager/config/../data/images/p_161_trio1.gif)\n\nIf
-  all possible orientations are taken into account there are six:\n\n![](/home/will/src/euler-manager/config/../data/images/p_161_trio3.gif)\n\nAny
+  are two basic forms:\n\n![]({{ images_dir }}/p_161_trio1.gif)\n\nIf all possible
+  orientations are taken into account there are six:\n\n![]({{ images_dir }}/p_161_trio3.gif)\n\nAny
   n by m grid for which nxm is divisible by 3 can be tiled with triominoes.  \n\rIf
   we consider tilings that can be obtained by reflection or rotation from another
-  tiling as different there are 41 ways a 2 by 9 grid can be tiled with triominoes:\n\n![](/home/will/src/euler-manager/config/../data/images/p_161_k9.gif)\n\nIn
-  how many ways can a 9 by 12 grid be tiled in this way by triominoes?\n\n"
+  tiling as different there are 41 ways a 2 by 9 grid can be tiled with triominoes:\n\n![]({{
+  images_dir }}/p_161_k9.gif)\n\nIn how many ways can a 9 by 12 grid be tiled in this
+  way by triominoes?\n\n"

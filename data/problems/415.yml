@@ -9,8 +9,8 @@
   the set {(0, 0), (1, 1), (2, 2), (4, 4)} is not a titanic set since the line passing
   through any two points in the set also passes through the other two.\n\nFor any
   positive integer <var>N</var>, let <var>T</var>(<var>N</var>) be the number of titanic
-  sets S whose every point (<var>x</var>, <var>y</var>) satisfies 0 ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
-  <var>x</var>, <var>y</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  sets S whose every point (<var>x</var>, <var>y</var>) satisfies 0 ![≤]({{ images_dir
+  }}/symbol_le.gif) <var>x</var>, <var>y</var> ![≤]({{ images_dir }}/symbol_le.gif)
   <var>N</var>.\rIt can be verified that <var>T</var>(1) = 11, <var>T</var>(2) = 494,
   <var>T</var>(4) = 33554178, <var>T</var>(111) mod 10<sup>8</sup> = 13500401 and
   <var>T</var>(10<sup>5</sup>) mod 10<sup>8</sup> = 63259062.\n\nFind <var>T</var>(10<sup>11</sup>) mod 10<sup>8</sup>.\n\n"

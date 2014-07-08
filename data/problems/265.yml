@@ -4,7 +4,7 @@
 :url: http://projecteuler.net/problem=265
 :content: "2<sup>N</sup> binary digits can be placed in a circle so that all the N-digit
   clockwise subsequences are distinct.\n\nFor N=3, two such circular arrangements
-  are possible, ignoring rotations:\n\n ![](/home/will/src/euler-manager/config/../data/images/p_265_BinaryCircles.gif)\n\nFor
+  are possible, ignoring rotations:\n\n ![]({{ images_dir }}/p_265_BinaryCircles.gif)\n\nFor
   the first arrangement, the 3-digit subsequences, in clockwise order, are:  \n 000,
   001, 010, 101, 011, 111, 110 and 100.\n\nEach circular arrangement can be encoded
   as a number by concatenating the binary digits starting with the subsequence of

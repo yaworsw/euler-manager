@@ -14,7 +14,7 @@
   the origin\">unit circle</dfn>, black otherwise.\nFor this problem we would like
   you to find the postions of the remaining N inner horizontal and N inner vertical
   gridlines so that the area occupied by the red cells is minimized.\r\r\n\nE.g. here
-  is a picture of the solution for N = 10:\n\n![](/home/will/src/euler-manager/config/../data/images/p392_gridlines.png)\n\n\r\r\rThe
+  is a picture of the solution for N = 10:\n\n![]({{ images_dir }}/p392_gridlines.png)\n\n\r\r\rThe
   area occupied by the red cells for N = 10 rounded to 10 digits behind the decimal
   point is 3.3469640797.\r\r\n\nFind the positions for N = 400.  \n \rGive as your
   answer the area occupied by the red cells rounded to 10 digits behind the decimal

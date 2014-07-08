@@ -11,5 +11,5 @@
 
   If _d_<sub><i>n</i></sub> represents the _n_<sup>th</sup> digit of the fractional part, find the value of the following expression.
 
-  _d_<sub>1</sub> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) _d_<sub>10</sub> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) _d_<sub>100</sub> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) _d_<sub>1000</sub> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) _d_<sub>10000</sub> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) _d_<sub>100000</sub> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif) _d_<sub>1000000</sub>
+  _d_<sub>1</sub> ![×]({{ images_dir }}/symbol_times.gif) _d_<sub>10</sub> ![×]({{ images_dir }}/symbol_times.gif) _d_<sub>100</sub> ![×]({{ images_dir }}/symbol_times.gif) _d_<sub>1000</sub> ![×]({{ images_dir }}/symbol_times.gif) _d_<sub>10000</sub> ![×]({{ images_dir }}/symbol_times.gif) _d_<sub>100000</sub> ![×]({{ images_dir }}/symbol_times.gif) _d_<sub>1000000</sub>
 

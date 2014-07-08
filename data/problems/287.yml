@@ -3,24 +3,25 @@
 :name: Quadtree encoding (a simple compression algorithm)
 :url: http://projecteuler.net/problem=287
 :content: "The quadtree encoding allows us to describe a 2<sup><var>N</var></sup>
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2<sup><var>N</var></sup>
-  black and white image as a sequence of bits (0 and 1). Those sequences are to be
-  read from left to right like this:\n\n- the first bit deals with the complete 2<sup><var>N</var></sup>
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2<sup><var>N</var></sup>
-  region;\n- \"0\" denotes a split:\r  \nthe current 2<sup><var>n</var></sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2<sup><var>n</var></sup>
-  region is divided into 4 sub-regions of dimension 2<sup><var>n</var>-1</sup> ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2<sup><var>n</var>-1</sup>,
-  \ \n\rthe next bits contains the description of the top left, top right, bottom
-  left and bottom right sub-regions - in that order;\n- \"10\" indicates that the
-  current region contains only black pixels;\n- \"11\" indicates that the current
-  region contains only white pixels.\n\nConsider the following 4 ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)4
-  image (colored marks denote places where a split can occur):\n\n ![](/home/will/src/euler-manager/config/../data/images/p_287_quadtree.gif)\n\nThis
+  ![×]({{ images_dir }}/symbol_times.gif)2<sup><var>N</var></sup> black and white
+  image as a sequence of bits (0 and 1). Those sequences are to be read from left
+  to right like this:\n\n- the first bit deals with the complete 2<sup><var>N</var></sup>
+  ![×]({{ images_dir }}/symbol_times.gif)2<sup><var>N</var></sup> region;\n- \"0\"
+  denotes a split:\r  \nthe current 2<sup><var>n</var></sup> ![×]({{ images_dir }}/symbol_times.gif)2<sup><var>n</var></sup>
+  region is divided into 4 sub-regions of dimension 2<sup><var>n</var>-1</sup> ![×]({{
+  images_dir }}/symbol_times.gif)2<sup><var>n</var>-1</sup>,  \n\rthe next bits contains
+  the description of the top left, top right, bottom left and bottom right sub-regions
+  - in that order;\n- \"10\" indicates that the current region contains only black
+  pixels;\n- \"11\" indicates that the current region contains only white pixels.\n\nConsider
+  the following 4 ![×]({{ images_dir }}/symbol_times.gif)4 image (colored marks denote
+  places where a split can occur):\n\n ![]({{ images_dir }}/p_287_quadtree.gif)\n\nThis
   image can be described by several sequences, for example :<bp></bp>\r\" **0****
   0 **10101010** 0 **1011111011** 0**10101010\", of length 30, or  \n\r\" **0** 10
   **0** 101111101110\", of length 16, which is the minimal sequence for this image.\n\nFor
   a positive integer <var>N</var>, define <var>D<sub>N</sub></var> as the 2<sup><var>N</var></sup>
-  ![×](/home/will/src/euler-manager/config/../data/images/symbol_times.gif)2<sup><var>N</var></sup>
-  image with the following coloring scheme:\n\n- the pixel with coordinates <var>x</var> = 0,
-  <var>y</var> = 0 corresponds to the bottom left pixel,\n- if (<var>x</var> - 2<sup><var>N</var>-1</sup>)<sup>2</sup> + (<var>y</var> - 2<sup><var>N</var>-1</sup>)<sup>2</sup> 
-  ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif) 2<sup>2<var>N</var>-2</sup>
-  then the pixel is black,\n- otherwise the pixel is white.\n\nWhat is the length
-  of the minimal sequence describing <var>D</var><sub>24</sub> ?\n\n"
+  ![×]({{ images_dir }}/symbol_times.gif)2<sup><var>N</var></sup> image with the following
+  coloring scheme:\n\n- the pixel with coordinates <var>x</var> = 0, <var>y</var> = 0
+  corresponds to the bottom left pixel,\n- if (<var>x</var> - 2<sup><var>N</var>-1</sup>)<sup>2</sup> + (<var>y</var> - 2<sup><var>N</var>-1</sup>)<sup>2</sup> 
+  ![≤]({{ images_dir }}/symbol_le.gif) 2<sup>2<var>N</var>-2</sup> then the pixel
+  is black,\n- otherwise the pixel is white.\n\nWhat is the length of the minimal
+  sequence describing <var>D</var><sub>24</sub> ?\n\n"

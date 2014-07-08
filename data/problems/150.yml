@@ -5,14 +5,14 @@
 :content: "In a triangular array of positive and negative integers, we wish to find
   a sub-triangle such that the sum of the numbers it contains is the smallest possible.\n\nIn
   the example below, it can be easily verified that the marked triangle satisfies
-  this condition having a sum of ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)42.\n\n
-  ![](/home/will/src/euler-manager/config/../data/images/p_150.gif)\n\nWe wish to
-  make such a triangular array with one thousand rows, so we generate 500500 pseudo-random
-  numbers s<sub>k</sub> in the range ![±](/home/will/src/euler-manager/config/../data/images/symbol_plusmn.gif)2<sup>19</sup>,
-  using a type of random number generator (known as a Linear Congruential Generator)
-  as follows:\n\nt := 0\r  \n\rfor k = 1 up to k = 500500:\r  \n\r    t := (615949\\*t
-  + 797807) modulo 2<sup>20</sup>  \n\r    s<sub>k</sub> := t ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)2<sup>19</sup>\n\nThus:
-  s<sub>1</sub> = 273519, s<sub>2</sub> = ![−](/home/will/src/euler-manager/config/../data/images/symbol_minus.gif)153582,
+  this condition having a sum of ![−]({{ images_dir }}/symbol_minus.gif)42.\n\n ![]({{
+  images_dir }}/p_150.gif)\n\nWe wish to make such a triangular array with one thousand
+  rows, so we generate 500500 pseudo-random numbers s<sub>k</sub> in the range ![±]({{
+  images_dir }}/symbol_plusmn.gif)2<sup>19</sup>, using a type of random number generator
+  (known as a Linear Congruential Generator) as follows:\n\nt := 0\r  \n\rfor k =
+  1 up to k = 500500:\r  \n\r    t := (615949\\*t + 797807) modulo 2<sup>20</sup>
+  \ \n\r    s<sub>k</sub> := t ![−]({{ images_dir }}/symbol_minus.gif)2<sup>19</sup>\n\nThus:
+  s<sub>1</sub> = 273519, s<sub>2</sub> = ![−]({{ images_dir }}/symbol_minus.gif)153582,
   s<sub>3</sub> = 450905 etc\n\nOur triangular array is then formed using the pseudo-random
   numbers thus:\n\n\rs<sub>1</sub>  \n\rs<sub>2</sub>  s<sub>3</sub>  \n\rs<sub>4</sub> 
   s<sub>5</sub>  s<sub>6</sub>  \r  \n\rs<sub>7</sub>  s<sub>8</sub>  s<sub>9</sub> 

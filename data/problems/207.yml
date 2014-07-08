@@ -8,10 +8,10 @@
   real number.\n\nThe first two such partitions are 4<sup>1</sup> = 2<sup>1</sup>
   + 2 and 4<sup>1.5849625...</sup> = 2<sup>1.5849625...</sup> + 6.\n\nPartitions where
   <var>t</var> is also an integer are called _perfect_.  \n \rFor any <var>m</var>
-  ![≥](/home/will/src/euler-manager/config/../data/images/symbol_ge.gif) 1 let P(<var>m</var>)
-  be the proportion of such partitions that are perfect with <var>k</var> ![≤](/home/will/src/euler-manager/config/../data/images/symbol_le.gif)
+  ![≥]({{ images_dir }}/symbol_ge.gif) 1 let P(<var>m</var>) be the proportion of
+  such partitions that are perfect with <var>k</var> ![≤]({{ images_dir }}/symbol_le.gif)
   <var>m</var>.  \n\rThus P(6) = 1/2.\n\nIn the following table are listed some values
   of P(<var>m</var>)\n\n   P(5) = 1/1  \n\r   P(10) = 1/2  \n\r   P(15) = 2/3  \n\r   P(20)
   = 1/2  \n\r   P(25) = 1/2  \n\r   P(30) = 2/5  \n\r   ...  \n\r   P(180) = 1/4  \n\r   P(185)
-  = 3/13\n\nFind the smallest <var>m</var> for which P(<var>m</var>) ![<](/home/will/src/euler-manager/config/../data/images/symbol_lt.gif)
-  1/12345\n\n"
+  = 3/13\n\nFind the smallest <var>m</var> for which P(<var>m</var>) ![<]({{ images_dir
+  }}/symbol_lt.gif) 1/12345\n\n"
