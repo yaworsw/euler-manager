@@ -4,6 +4,7 @@ require 'ostruct'
 require_relative 'euler/version'
 
 require_relative 'euler/errors'
+require_relative 'euler/language'
 require_relative 'euler/problem'
 require_relative 'euler/solution'
 

@@ -1,0 +1,5 @@
+package euler
+
+object euler {
+
+}

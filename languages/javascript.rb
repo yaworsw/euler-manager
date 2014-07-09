@@ -5,21 +5,40 @@ Euler.register_language('javascript', Class.new do
     `node #{file_path(solution)}`
   end
 
-  # Copy the template into the solution's directory
+  # Init initializes a solution.
+  #
+  # The solution's directory is created before init is ran.
+  #
+  # This init method copys a starter javascript file into the solution's
+  # directory and creates a starter euler.js in the lib directory if one does
+  # not exist.
   def init solution
-    FileUtils.cp(template_path, file_path(solution))
+    solution_file = file_path(solution)
+    FileUtils.cp(solution_template_path, solution_file) unless File.exist?(solution_file)
+
+    FileUtils.cp(lib_template_path, lib_path) unless File.exist?(lib_path)
   end
 
   private
 
-    # Returns the path to the solution
+    def lib_exists?
+      File.exist?(lib_path)
+    end
+
     def file_path solution
       "#{solution.dir}/#{solution.problem.id}.js"
     end
 
-    # Returns the path to the template
-    def template_path
-      "#{File.dirname(__FILE__)}/../templates/javascript.js"
+    def solution_template_path
+      "#{File.dirname(__FILE__)}/../templates/solution/javascript.js"
+    end
+
+    def lib_template_path
+      "#{File.dirname(__FILE__)}/../templates/lib/javascript.js"
+    end
+
+    def lib_path
+      "#{Euler.root}/lib/euler.js"
     end
 
 end)
