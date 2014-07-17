@@ -7,7 +7,14 @@ Euler.register_language('python', Class.new do
 
   # Copy the template into the solution's directory
   def init solution
-    FileUtils.symlink("#{Euler.root}/lib/euler.py", "#{solution.dir}/euler.py")
+    rel_euler_root = solution.dir.gsub(Euler.root, '').gsub(/\/[^\/]+/, '/..').sub(/^\//, '')
+    old_dir        = Dir.pwd
+
+    Dir.chdir solution.dir
+
+    FileUtils.symlink("#{rel_euler_root}/lib/euler.py", "#{solution.dir}/euler.py")
+
+    Dir.chdir old_dir
 
     FileUtils.cp(template_path, file_path(solution))
   end

@@ -67,22 +67,35 @@ end
 
 Euler.register_language('python', Class.new do
 
-  # The run method must return the result of running the solution.
+  # Run the solution
   def run solution
-    `python #{solution.dir}/#{solution.problem_id}.py`
+    `python #{file_path(solution)}`
   end
 
-  # The init method is used to do any extra initialization for a solution.  This
-  # method is not required
-  #
-  # This example symlinks lib/euler.py into the solution's directory and then
-  # writes a base file into the directory.
+  # Copy the template into the solution's directory
   def init solution
-    FileUtils.symlink("#{Euler.root}/lib/euler.py", "#{solution.dir}/euler.py")
+    rel_euler_root = solution.dir.gsub(Euler.root, '').gsub(/\/[^\/]+/, '/..').sub(/^\//, '')
+    old_dir        = Dir.pwd
 
-    File.open("#{solution.dir}/#{solution.problem_id}.py", 'w') do |f|
-      f.write("import euler\n\nanswer = 0\n\nprint(answer)\n")
-    end
+    Dir.chdir solution.dir
+
+    FileUtils.symlink("#{rel_euler_root}/lib/euler.py", "#{solution.dir}/euler.py")
+
+    Dir.chdir old_dir
+
+    FileUtils.cp(template_path, file_path(solution))
   end
+
+  private
+
+    # Returns the path to the solution
+    def file_path solution
+      "#{solution.dir}/#{solution.problem.id}.py"
+    end
+
+    # Returns the path to the template
+    def template_path
+      "#{File.dirname(__FILE__)}/../templates/python.py"
+    end
 
 end)
