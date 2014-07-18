@@ -83,19 +83,14 @@ Euler.register_language('python', Class.new do
 
     Dir.chdir old_dir
 
-    FileUtils.cp(template_path, file_path(solution))
+    FileUtils.touch(file_path(solution))
   end
 
   private
 
-    # Returns the path to the solution
     def file_path solution
       "#{solution.dir}/#{solution.problem.id}.py"
     end
 
-    # Returns the path to the template
-    def template_path
-      "#{File.dirname(__FILE__)}/../templates/python.py"
-    end
-
 end)
+
