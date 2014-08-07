@@ -2,7 +2,7 @@ Euler.register_language('haskell', Class.new do
 
   # Run the solution
   def run solution
-    `ghc #{file_path(solution)} > /dev/null && #{exec_path(solution)}`
+    `runhaskell -i#{Euler.root}/lib #{file_path(solution)}`
   end
 
   # Copy the template into the solution's directory
@@ -15,11 +15,6 @@ Euler.register_language('haskell', Class.new do
     # Returns the path to the solution
     def file_path solution
       "#{solution.dir}/#{solution.problem.id}.hs"
-    end
-
-    # Returns the path to the executable
-    def exec_path solution
-      "#{solution.dir}/#{solution.problem.id}"
     end
 
     # Returns the path to the template
