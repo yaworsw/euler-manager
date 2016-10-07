@@ -80,31 +80,31 @@ Feel free to send a pull request with additional languages.
 
 #### Example
 
+```ruby
     Euler.register_language('ruby', Class.new do
-
       # Run the solution
-      def run solution
+      def run(solution)
         `ruby #{file_path(solution)}`
       end
 
       # Copy the template into the solution's directory
-      def init solution
+      def init(solution)
         FileUtils.cp(template_path, file_path(solution))
       end
 
       private
 
-        # Returns the path to the solution
-        def file_path solution
-          "#{solution.dir}/#{solution.problem.id}.rb"
-        end
+      # Returns the path to the solution
+      def file_path(solution)
+        "#{solution.dir}/#{solution.problem.id}.rb"
+      end
 
-        # Returns the path to the ruby template
-        def template_path
-          "#{File.dirname(__FILE__)}/templates/ruby.rb"
-        end
-
+      # Returns the path to the ruby template
+      def template_path
+        "#{File.dirname(__FILE__)}/templates/ruby.rb"
+      end
     end)
+```
 
 The `init` method of the language's class is optional but he `run` method is
 required.
