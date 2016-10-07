@@ -26,6 +26,7 @@ describe Euler do
 
   it "should have a few languages preregistered" do
     Euler.get_language('coffeescript').should be_truthy
+    Euler.get_language('elixir').should be_truthy
     Euler.get_language('haskell').should be_truthy
     Euler.get_language('java').should be_truthy
     Euler.get_language('javascript').should be_truthy
