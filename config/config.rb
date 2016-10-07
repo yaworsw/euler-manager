@@ -60,6 +60,7 @@ end
 [
 
   'coffeescript',
+  'elixir',
   'haskell',
   'java',
   'javascript',
