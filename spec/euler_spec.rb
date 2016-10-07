@@ -32,6 +32,7 @@ describe Euler do
     Euler.get_language('python').should be_truthy
     Euler.get_language('ruby').should be_truthy
     Euler.get_language('scala').should be_truthy
+    Euler.get_language('perl').should be_truthy
   end
 
   describe "Ruby language" do
