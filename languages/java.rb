@@ -5,7 +5,7 @@ Euler.register_language('java', Class.new do
     dir = File.dirname(file_path(solution))
     Dir.chdir(dir)
     libs = Dir["#{Euler.root}/lib/**/*.java"].reject { |f| File.basename(f) == 'java.java' }
-    libs.each { |lib| `javac #{lib}` }
+    `javac #{libs.join(' ')}`
     `javac -cp .:#{Euler.root}/lib ./*.java && java Main`
   end
 
