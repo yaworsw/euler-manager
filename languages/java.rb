@@ -4,7 +4,8 @@ Euler.register_language('java', Class.new do
   def run solution
     dir = File.dirname(file_path(solution))
     Dir.chdir(dir)
-    `find #{Euler.root}/lib -type f -name "*.java" -not -name "java.java" -print | xargs javac`
+    libs = Dir["#{Euler.root}/lib/**/*.java"].reject { |f| File.basename(f) == 'java.java' }
+    libs.each { |lib| `javac #{lib}` }
     `javac -cp .:#{Euler.root}/lib ./*.java && java Main`
   end
 
