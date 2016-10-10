@@ -64,11 +64,11 @@ end
   'haskell',
   'java',
   'javascript',
+  'julia',
+  'php',
   'python',
   'ruby',
-  'scala',
-  'julia',
-  'php'
+  'scala'
 
 ].each do |lang|
   require_relative "../languages/#{lang}"
