@@ -59,15 +59,18 @@ end
 # Loads the default language definitions.
 [
 
+  'c',
   'coffeescript',
+  'elixir',
   'haskell',
   'java',
   'javascript',
+  'julia',
+  'perl',
+  'php',
   'python',
   'ruby',
-  'scala',
-  'julia',
-  'c'
+  'scala'
 
 ].each do |lang|
   require_relative "../languages/#{lang}"

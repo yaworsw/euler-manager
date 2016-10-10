@@ -51,16 +51,18 @@ solution for problem number 1 then you can just run `$ euelr run` from `1/ruby`
 
 ## Supported Programming Languages
 
+- C
 - coffeescript
+- elixir
 - haskell
-- javascript
 - java
+- javascript
+- julia
+- perl
+- php
 - python
 - ruby
 - scala
-- julia
-- perl
-- C
 
 ## Configuring Euler Manager
 
@@ -83,29 +85,29 @@ Feel free to send a pull request with additional languages.
 #### Example
 
 ```ruby
-    Euler.register_language('ruby', Class.new do
-      # Run the solution
-      def run(solution)
-        `ruby #{file_path(solution)}`
-      end
+Euler.register_language('ruby', Class.new do
+  # Run the solution
+  def run(solution)
+    `ruby #{file_path(solution)}`
+  end
 
-      # Copy the template into the solution's directory
-      def init(solution)
-        FileUtils.cp(template_path, file_path(solution))
-      end
+  # Copy the template into the solution's directory
+  def init(solution)
+    FileUtils.cp(template_path, file_path(solution))
+  end
 
-      private
+  private
 
-      # Returns the path to the solution
-      def file_path(solution)
-        "#{solution.dir}/#{solution.problem.id}.rb"
-      end
+  # Returns the path to the solution
+  def file_path(solution)
+    "#{solution.dir}/#{solution.problem.id}.rb"
+  end
 
-      # Returns the path to the ruby template
-      def template_path
-        "#{File.dirname(__FILE__)}/templates/ruby.rb"
-      end
-    end)
+  # Returns the path to the ruby template
+  def template_path
+    "#{File.dirname(__FILE__)}/templates/ruby.rb"
+  end
+end)
 ```
 
 The `init` method of the language's class is optional but he `run` method is
