@@ -51,16 +51,18 @@ solution for problem number 1 then you can just run `$ euelr run` from `1/ruby`
 
 ## Supported Programming Languages
 
+- C
 - coffeescript
 - elixir
 - haskell
 - java
 - javascript
 - julia
+- perl
+- php
 - python
 - ruby
 - scala
-- php
 
 ## Configuring Euler Manager
 
@@ -97,15 +99,15 @@ Euler.register_language('ruby', Class.new do
 
   private
 
-    # Returns the path to the solution
-    def file_path solution
-      "#{solution.dir}/#{solution.problem.id}.rb"
-    end
+  # Returns the path to the solution
+  def file_path solution
+    "#{solution.dir}/#{solution.problem.id}.rb"
+  end
 
-    # Returns the path to the ruby template
-    def template_path
-      "#{File.dirname(__FILE__)}/templates/ruby.rb"
-    end
+  # Returns the path to the ruby template
+  def template_path
+    "#{File.dirname(__FILE__)}/templates/ruby.rb"
+  end
 
 end)
 ```

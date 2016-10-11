@@ -59,12 +59,14 @@ end
 # Loads the default language definitions.
 [
 
+  'c',
   'coffeescript',
   'elixir',
   'haskell',
   'java',
   'javascript',
   'julia',
+  'perl',
   'php',
   'python',
   'ruby',
