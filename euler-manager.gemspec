@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['William Yaworsky']
   spec.email         = ['wj.px01@gmail.com']
   spec.summary       = %q{Manage and test project Euler problems from your command line.}
-  # spec.description   = %q{This gem provides a framework for solving project Euler problems.  You can test}
+  spec.description   = %q{This gem provides a framework for managing project Euler solutions.}
   spec.homepage      = 'https://github.com/yaworsw/euler-manager'
   spec.license       = 'MIT'
 
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.required_ruby_version = '>= 1.9.3'
+  spec.required_ruby_version = '>= 2.0.0'
 
   spec.add_dependency 'commander'
   spec.add_dependency 'colorize'
