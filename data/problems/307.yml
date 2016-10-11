@@ -1,10 +1,10 @@
 ---
 :id: 307
 :name: Chip Defects
-:url: http://projecteuler.net/problem=307
+:url: https://projecteuler.net/problem=307
 :content: "<var>k</var> defects are randomly distributed amongst <var>n</var> integrated-circuit
   chips produced by a factory (any number of defects may be found on a chip and each
   defect is independent of the other defects).\n\nLet p(<var>k,n</var>) represent
-  the probability that there is a chip with at least 3 defects.  \n\rFor instance
-  p(3,7) ![≈]({{ images_dir }}/symbol_asymp.gif) 0.0204081633.\n\nFind p(20 000, 1
-  000 000) and give your answer rounded to 10 decimal places in the form 0.abcdefghij\n\n"
+  the probability that there is a chip with at least 3 defects.  \nFor instance p(3,7)
+  ≈ 0.0204081633.\n\nFind p(20 000, 1 000 000) and give your answer rounded to 10
+  decimal places in the form 0.abcdefghij\n\n"

@@ -1,23 +1,23 @@
 ---
 :id: 424
 :name: Kakuro
-:url: http://projecteuler.net/problem=424
-:content: "![]({{ images_dir }}/p_424_kakuro1.gif)\n\nThe above is an example of a
-  cryptic kakuro (also known as cross sums, or even sums cross) puzzle, with its final
-  solution on the right. (The common rules of kakuro puzzles can be found easily on
-  numerous internet sites. Other related information can also be currently found at
-  [krazydad.com](http://krazydad.com/) whose author has provided the puzzle data for
-  this challenge.)\n\nThe downloadable text file ( [kakuro200.txt](project/kakuro200.txt))
+:url: https://projecteuler.net/problem=424
+:content: " ![p424_kakuro1.gif]({{ images_dir }}/p424_kakuro1.gif)\n\nThe above is
+  an example of a cryptic kakuro (also known as cross sums, or even sums cross) puzzle,
+  with its final solution on the right. (The common rules of kakuro puzzles can be
+  found easily on numerous internet sites. Other related information can also be currently
+  found at [krazydad.com](http://krazydad.com/) whose author has provided the puzzle
+  data for this challenge.)\n\nThe downloadable text file ([kakuro200.txt](project/resources/p424_kakuro200.txt))
   contains the description of 200 such puzzles, a mix of 5x5 and 6x6 types. The first
   puzzle in the file is the above example which is coded as follows:\n\n6,X,X,(vCC),(vI),X,X,X,(hH),B,O,(vCA),(vJE),X,(hFE,vD),O,O,O,O,(hA),O,I,(hJC,vB),O,O,(hJC),H,O,O,O,X,X,X,(hJE),O,O,X\n\nThe
   first character is a numerical digit indicating the size of the information grid.
   It would be either a 6 (for a 5x5 kakuro puzzle) or a 7 (for a 6x6 puzzle) followed
   by a comma (,). The extra top line and left column are needed to insert information.\n\nThe
   content of each cell is then described and followed by a comma, going left to right
-  and starting with the top line.  \n\rX = Gray cell, not required to be filled by
-  a digit.  \n\rO (upper case letter)= White empty cell to be filled by a digit.  \n\rA
+  and starting with the top line.  \nX = Gray cell, not required to be filled by a
+  digit.  \nO (upper case letter)= White empty cell to be filled by a digit.  \nA
   = Or any one of the upper case letters from A to J to be replaced by its equivalent
-  digit in the solved puzzle.  \n\r( ) = Location of the encrypted sums. Horizontal
+  digit in the solved puzzle.  \n( ) = Location of the encrypted sums. Horizontal
   sums are preceded by a lower case \"h\" and vertical sums are preceded by a lower
   case \"v\". Those are followed by one or two upper case letters depending if the
   sum is a single digit or double digit one. For double digit sums, the first letter

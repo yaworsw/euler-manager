@@ -1,7 +1,7 @@
 ---
 :id: 254
 :name: Sums of Digit Factorials
-:url: http://projecteuler.net/problem=254
+:url: https://projecteuler.net/problem=254
 :content: |+
   Define f(<var>n</var>) as the sum of the factorials of the digits of <var>n</var>. For example, f(342) = 3! + 4! + 2! = 32.
 
@@ -11,7 +11,7 @@
 
   Define sg(<var>i</var>) as the sum of the digits of g(<var>i</var>). So sg(5) = 2 + 5 = 7.
 
-  Further, it can be verified that g(20) is 267 and ![∑]({{ images_dir }}/symbol_sum.gif) sg(<var>i</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>i</var> ![≤]({{ images_dir }}/symbol_le.gif) 20 is 156.
+  Further, it can be verified that g(20) is 267 and ∑ sg(<var>i</var>) for 1 ≤ <var>i</var> ≤ 20 is 156.
 
-  What is ![∑]({{ images_dir }}/symbol_sum.gif) sg(<var>i</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>i</var> ![≤]({{ images_dir }}/symbol_le.gif) 150?
+  What is ∑ sg(<var>i</var>) for 1 ≤ <var>i</var> ≤ 150?
 

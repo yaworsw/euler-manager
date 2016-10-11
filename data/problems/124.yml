@@ -1,23 +1,21 @@
 ---
 :id: 124
 :name: Ordered radicals
-:url: http://projecteuler.net/problem=124
+:url: https://projecteuler.net/problem=124
 :content: "The radical of _n_, rad(_n_), is the product of the distinct prime factors
-  of _n_. For example, 504 = 2<sup>3</sup> ![×]({{ images_dir }}/symbol_times.gif)
-  3<sup>2</sup> ![×]({{ images_dir }}/symbol_times.gif) 7, so rad(504) = 2 ![×]({{
-  images_dir }}/symbol_times.gif) 3 ![×]({{ images_dir }}/symbol_times.gif) 7 = 42.\n\nIf
-  we calculate rad(_n_) for _1_ ![≤]({{ images_dir }}/symbol_le.gif) _n_ ![≤]({{ images_dir
-  }}/symbol_le.gif) 10, then sort them on rad(_n_), and sorting on _n_ if the radical
-  values are equal, we get:\n\n| \n**Unsorted**\n |   | \n**Sorted**\n |\n| \n ![]({{
-  images_dir }}/spacer.gif)  \n**_n_**\n | \n ![]({{ images_dir }}/spacer.gif)  \n**rad(_n_)**\n
-  | ![]({{ images_dir }}/spacer.gif)  \n | \n ![]({{ images_dir }}/spacer.gif)  \n**_n_**\n
-  | \n ![]({{ images_dir }}/spacer.gif)  \n**rad(_n_)**\n | \n ![]({{ images_dir }}/spacer.gif)
-  \ \n**k**\n |\n| \n1\n | \n1\n |   | \n1\n | \n1\n | \n1\n |\n| \n2\n | \n2\n |
-    | \n2\n | \n2\n | \n2\n |\n| \n3\n | \n3\n |   | \n4\n | \n2\n | \n3\n |\n| \n4\n
-  | \n2\n |   | \n8\n | \n2\n | \n4\n |\n| \n5\n | \n5\n |   | \n3\n | \n3\n | \n5\n
-  |\n| \n6\n | \n6\n |   | \n9\n | \n3\n | \n6\n |\n| \n7\n | \n7\n |   | \n5\n |
-  \n5\n | \n7\n |\n| \n8\n | \n2\n |   | \n6\n | \n6\n | \n8\n |\n| \n9\n | \n3\n
-  |   | \n7\n | \n7\n | \n9\n |\n| \n10\n | \n10\n |   | \n10\n | \n10\n | \n10\n
-  |\n\nLet E(_k_) be the _k_th element in the sorted _n_ column; for example, E(4)
-  = 8 and E(6) = 9.\n\nIf rad(_n_) is sorted for 1 ![≤]({{ images_dir }}/symbol_le.gif)
-  _n_ ![≤]({{ images_dir }}/symbol_le.gif) 100000, find E(10000).\n\n"
+  of _n_. For example, 504 = 2<sup>3</sup> × 3<sup>2</sup> × 7, so rad(504) = 2 ×
+  3 × 7 = 42.\n\nIf we calculate rad(_n_) for _1_ ≤ _n_ ≤ 10, then sort them on rad(_n_),
+  and sorting on _n_ if the radical values are equal, we get:\n\n| \n**Unsorted**\n
+  | &nbsp; | \n**Sorted**\n |\n| \n ![]({{ images_dir }}/spacer.gif)  \n**_n_**\n
+  | \n ![]({{ images_dir }}/spacer.gif)  \n**rad(_n_)**\n | ![]({{ images_dir }}/spacer.gif)
+  \ \n | \n ![]({{ images_dir }}/spacer.gif)  \n**_n_**\n | \n ![]({{ images_dir }}/spacer.gif)
+  \ \n**rad(_n_)**\n | \n ![]({{ images_dir }}/spacer.gif)  \n**k**\n |\n| \n1\n |
+  \n1\n | &nbsp; | \n1\n | \n1\n | \n1\n |\n| \n2\n | \n2\n | &nbsp; | \n2\n | \n2\n
+  | \n2\n |\n| \n3\n | \n3\n | &nbsp; | \n4\n | \n2\n | \n3\n |\n| \n4\n | \n2\n |
+  &nbsp; | \n8\n | \n2\n | \n4\n |\n| \n5\n | \n5\n | &nbsp; | \n3\n | \n3\n | \n5\n
+  |\n| \n6\n | \n6\n | &nbsp; | \n9\n | \n3\n | \n6\n |\n| \n7\n | \n7\n | &nbsp;
+  | \n5\n | \n5\n | \n7\n |\n| \n8\n | \n2\n | &nbsp; | \n6\n | \n6\n | \n8\n |\n|
+  \n9\n | \n3\n | &nbsp; | \n7\n | \n7\n | \n9\n |\n| \n10\n | \n10\n | &nbsp; | \n10\n
+  | \n10\n | \n10\n |\n\nLet E(_k_) be the _k_th element in the sorted _n_ column;
+  for example, E(4) = 8 and E(6) = 9.\n\nIf rad(_n_) is sorted for 1 ≤ _n_ ≤ 100000,
+  find E(10000).\n\n"

@@ -1,12 +1,12 @@
 ---
 :id: 106
 :name: 'Special subset sums: meta-testing'
-:url: http://projecteuler.net/problem=106
+:url: https://projecteuler.net/problem=106
 :content: |+
   Let S(A) represent the sum of elements in set A of size _n_. We shall call it a special sum set if for any two non-empty disjoint subsets, B and C, the following properties are true:
 
-  1. S(B) ![≠]({{ images_dir }}/symbol_ne.gif) S(C); that is, sums of subsets cannot be equal.
-  2. If B contains more elements than C then S(B) ![>]({{ images_dir }}/symbol_gt.gif) S(C).
+  1. S(B) ≠ S(C); that is, sums of subsets cannot be equal.
+  2. If B contains more elements than C then S(B) \> S(C).
 
   For this problem we shall assume that a given set contains _n_ strictly increasing elements and it already satisfies the second rule.
 

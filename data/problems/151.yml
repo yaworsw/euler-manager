@@ -1,7 +1,7 @@
 ---
 :id: 151
 :name: 'Paper sheets of standard sizes: an expected-value problem'
-:url: http://projecteuler.net/problem=151
+:url: https://projecteuler.net/problem=151
 :content: |+
   A printing shop runs 16 batches (jobs) every week and each batch requires a sheet of special colour-proofing paper of size A5.
 
@@ -11,11 +11,11 @@
 
   All the unused sheets are placed back in the envelope.
 
-   ![]({{ images_dir }}/p_151.gif)
+   ![]({{ images_dir }}/p151.gif)
 
   At the beginning of each subsequent batch, he takes from the envelope one sheet of paper at random. If it is of size A5, he uses it. If it is larger, he repeats the 'cut-in-half' procedure until he has what he needs and any remaining sheets are always placed back in the envelope.
 
   Excluding the first and last batch of the week, find the expected number of times (during each week) that the foreman finds a single sheet of paper in the envelope.
 
-  Give your answer rounded to six decimal places using the format x.xxxxxx .
+  Give your answer rounded to six decimal places using the format x.xxxxxx&nbsp;.
 

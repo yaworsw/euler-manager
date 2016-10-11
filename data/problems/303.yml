@@ -1,13 +1,13 @@
 ---
 :id: 303
 :name: Multiples with small digits
-:url: http://projecteuler.net/problem=303
+:url: https://projecteuler.net/problem=303
 :content: |+
-  For a positive integer <var>n</var>, define <var>f</var>(<var>n</var>) as the least positive multiple of <var>n</var> that, written in base 10, uses only digits ![≤]({{ images_dir }}/symbol_le.gif) 2.
+  For a positive integer <var>n</var>, define <var>f</var>(<var>n</var>) as the least positive multiple of <var>n</var> that, written in base 10, uses only digits ≤ 2.
 
   Thus <var>f</var>(2)=2, <var>f</var>(3)=12, <var>f</var>(7)=21, <var>f</var>(42)=210, <var>f</var>(89)=1121222.
 
-  Also, ![]({{ images_dir }}/p303_formula100.gif).
+  Also, ![p303_formula100.gif]({{ images_dir }}/p303_formula100.gif).
 
-  Find ![]({{ images_dir }}/p303_formula10000.gif).
+  Find ![p303_formula10000.gif]({{ images_dir }}/p303_formula10000.gif).
 

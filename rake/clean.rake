@@ -1,5 +1,3 @@
-# Delete all of the problem's .yaml files and the images from the data directory
-
 desc "Deletes all of the data that has been downloaded for Project Euler problems"
 task :clean do
 

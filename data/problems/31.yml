@@ -1,7 +1,7 @@
 ---
 :id: 31
 :name: Coin sums
-:url: http://projecteuler.net/problem=31
+:url: https://projecteuler.net/problem=31
 :content: |+
   In England the currency is made up of pound, £, and pence, p, and there are eight coins in general circulation:
 
@@ -9,7 +9,7 @@
 
   It is possible to make £2 in the following way:
 
-  > 1 ![×]({{ images_dir }}/symbol_times.gif)£1 + 1 ![×]({{ images_dir }}/symbol_times.gif)50p + 2 ![×]({{ images_dir }}/symbol_times.gif)20p + 1 ![×]({{ images_dir }}/symbol_times.gif)5p + 1 ![×]({{ images_dir }}/symbol_times.gif)2p + 3 ![×]({{ images_dir }}/symbol_times.gif)1p
+  > 1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 3×1p
 
   How many different ways can £2 be made using any number of coins?
 

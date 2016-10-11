@@ -1,7 +1,7 @@
 ---
 :id: 113
 :name: Non-bouncy numbers
-:url: http://projecteuler.net/problem=113
+:url: https://projecteuler.net/problem=113
 :content: |+
   Working from left-to-right if no digit is exceeded by the digit to its left it is called an increasing number; for example, 134468.
 

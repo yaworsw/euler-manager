@@ -1,7 +1,7 @@
 ---
 :id: 129
 :name: Repunit divisibility
-:url: http://projecteuler.net/problem=129
+:url: https://projecteuler.net/problem=129
 :content: |+
   A number consisting entirely of ones is called a repunit. We shall define R(_k_) to be a repunit of length _k_; for example, R(6) = 111111.
 

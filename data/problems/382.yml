@@ -1,20 +1,19 @@
 ---
 :id: 382
 :name: Generating polygons
-:url: http://projecteuler.net/problem=382
+:url: https://projecteuler.net/problem=382
 :content: "A **polygon** is a flat shape consisting of straight line segments that
   are joined to form a closed chain or circuit. A polygon consists of at least three
   sides and does not self-intersect.\n\nA set S of positive numbers is said to _generate
-  a polygon_ P if:\n\n- no two sides of P are the same length,\r\n- the length of
-  every side of P is in S, and\r\n- S contains no other value.\r\n\nFor example:  \n\rThe
-  set {3, 4, 5} generates a polygon with sides 3, 4, and 5 (a triangle).  \n\rThe
-  set {6, 9, 11, 24} generates a polygon with sides 6, 9, 11, and 24 (a quadrilateral).
-  \ \n\rThe sets {1, 2, 3} and {2, 3, 4, 9} do not generate any polygon at all.\n\nConsider
+  a polygon_ P if:\n\n- no two sides of P are the same length,\n- the length of every
+  side of P is in S, and\n- S contains no other value.\n\nFor example:  \nThe set
+  {3, 4, 5} generates a polygon with sides 3, 4, and 5 (a triangle).  \nThe set {6,
+  9, 11, 24} generates a polygon with sides 6, 9, 11, and 24 (a quadrilateral).  \nThe
+  sets {1, 2, 3} and {2, 3, 4, 9} do not generate any polygon at all.\n\nConsider
   the sequence s, defined as follows:\n\n- s<sub>1</sub> = 1, s<sub>2</sub> = 2, s<sub>3</sub>
-  = 3\r\n- s<sub><var>n</var></sub> = s<sub><var>n</var>-1</sub> + s<sub><var>n</var>-3</sub>
-  for <var>n</var> ![>]({{ images_dir }}/symbol_gt.gif) 3.\r\n\nLet U<sub><var>n</var></sub>
-  be the set {s<sub>1</sub>, s<sub>2</sub>, ..., s<sub><var>n</var></sub>}. For example,
-  U<sub>10</sub> = {1, 2, 3, 4, 6, 9, 13, 19, 28, 41}.  \n\rLet f(<var>n</var>) be
-  the number of subsets of U<sub><var>n</var></sub> which generate at least one polygon.
-  \ \n\rFor example, f(5) = 7, f(10) = 501 and f(25) = 18635853.\n\nFind the last
-  9 digits of f(10<sup>18</sup>).\n\n"
+  = 3\n- s<sub><var>n</var></sub> = s<sub><var>n</var>-1</sub> + s<sub><var>n</var>-3</sub>
+  for <var>n</var> \\> 3.\n\nLet U<sub><var>n</var></sub> be the set {s<sub>1</sub>,
+  s<sub>2</sub>, ..., s<sub><var>n</var></sub>}. For example, U<sub>10</sub> = {1,
+  2, 3, 4, 6, 9, 13, 19, 28, 41}.  \nLet f(<var>n</var>) be the number of subsets
+  of U<sub><var>n</var></sub> which generate at least one polygon.  \nFor example,
+  f(5) = 7, f(10) = 501 and f(25) = 18635853.\n\nFind the last 9 digits of f(10<sup>18</sup>).\n\n"

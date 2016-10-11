@@ -1,22 +1,18 @@
 ---
 :id: 368
 :name: A Kempner-like series
-:url: http://projecteuler.net/problem=368
-:content: "| The **harmonic series** 1 | + | \n\n| 1 |\n| 2 |\n\n | + | \n\n| 1 |\n|
-  3 |\n\n | + | \n\n| 1 |\n| 4 |\n\n | + ... is well known to be divergent. |\n\nIf
-  we however omit from this series every term where the denominator has a 9 in it,
-  the series remarkably enough converges to approximately 22.9206766193.  \n\rThis
-  modified harmonic series is called the **Kempner** series.\n\nLet us now consider
-  another modified harmonic series by omitting from the harmonic series every term
-  where the denominator has 3 or more equal consecutive digits.\rOne can verify that
-  out of the first 1200 terms of the harmonic series, only 20 terms will be omitted.
-  \ \n\rThese 20 omitted terms are:\n\n \n \n\n| 1 |\n| 111 |\n\n | , | \n\n| 1 |\n|
-  222 |\n\n | , | \n\n| 1 |\n| 333 |\n\n | , | \n\n| 1 |\n| 444 |\n\n | , | \n\n|
-  1 |\n| 555 |\n\n | , | \n\n| 1 |\n| 666 |\n\n | , | \n\n| 1 |\n| 777 |\n\n | , |
-  \n\n| 1 |\n| 888 |\n\n | , | \n\n| 1 |\n| 999 |\n\n | , | \n\n| 1 |\n| 1000 |\n\n
-  | , | \n\n| 1 |\n| 1110 |\n\n | , |\n\n \n \n\n| 1 |\n| 1111 |\n\n | , | \n\n| 1
-  |\n| 1112 |\n\n | , | \n\n| 1 |\n| 1113 |\n\n | , | \n\n| 1 |\n| 1114 |\n\n | ,
-  | \n\n| 1 |\n| 1115 |\n\n | , | \n\n| 1 |\n| 1116 |\n\n | , | \n\n| 1 |\n| 1117
-  |\n\n | , | \n\n| 1 |\n| 1118 |\n\n | and | \n\n| 1 |\n| 1119 |\n\n | . |\n\nThis
-  series converges as well.\n\nFind the value the series converges to.  \n\rGive your
+:url: https://projecteuler.net/problem=368
+:content: "The **harmonic series** $1 + \\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{1}{4}
+  + ...$ is well known to be divergent.\n\nIf we however omit from this series every
+  term where the denominator has a 9 in it, the series remarkably enough converges
+  to approximately 22.9206766193.  \nThis modified harmonic series is called the **Kempner**
+  series.\n\nLet us now consider another modified harmonic series by omitting from
+  the harmonic series every term where the denominator has 3 or more equal consecutive
+  digits. One can verify that out of the first 1200 terms of the harmonic series,
+  only 20 terms will be omitted.  \nThese 20 omitted terms are:\n\n$$\\dfrac{1}{111},
+  \\dfrac{1}{222}, \\dfrac{1}{333}, \\dfrac{1}{444}, \\dfrac{1}{555}, \\dfrac{1}{666},
+  \\dfrac{1}{777}, \\dfrac{1}{888}, \\dfrac{1}{999}, \\dfrac{1}{1000}, \\dfrac{1}{1110},
+  \\\\\\ \\dfrac{1}{1111}, \\dfrac{1}{1112}, \\dfrac{1}{1113}, \\dfrac{1}{1114}, \\dfrac{1}{1115},
+  \\dfrac{1}{1116}, \\dfrac{1}{1117}, \\dfrac{1}{1118}, \\dfrac{1}{1119}$$\n\nThis
+  series converges as well.\n\nFind the value the series converges to.  \nGive your
   answer rounded to 10 digits behind the decimal point.\n\n"

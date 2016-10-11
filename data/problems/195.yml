@@ -1,11 +1,10 @@
 ---
 :id: 195
 :name: Inscribed circles of triangles with one angle of 60 degrees
-:url: http://projecteuler.net/problem=195
+:url: https://projecteuler.net/problem=195
 :content: "Let's call an integer sided triangle with exactly one angle of 60 degrees
-  a 60-degree triangle.  \n\rLet <var>r</var> be the radius of the inscribed circle
+  a 60-degree triangle.  \nLet <var>r</var> be the radius of the inscribed circle
   of such a 60-degree triangle.\n\nThere are 1234 60-degree triangles for which <var>r</var>
-  ![≤]({{ images_dir }}/symbol_le.gif) 100.\r  \nLet T(<var>n</var>) be the number
-  of 60-degree triangles for which <var>r</var> ![≤]({{ images_dir }}/symbol_le.gif)
-  <var>n</var>, so  \n\r T(100) = 1234,  T(1000) = 22767, and  T(10000) = 359912.\n\nFind
-  T(1053779).\n\n"
+  ≤ 100.  \nLet T(<var>n</var>) be the number of 60-degree triangles for which <var>r</var>
+  ≤ <var>n</var>, so  \n T(100) = 1234,&nbsp; T(1000) = 22767, and&nbsp; T(10000)
+  = 359912.\n\nFind T(1053779).\n\n"

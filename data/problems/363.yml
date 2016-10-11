@@ -1,32 +1,32 @@
 ---
 :id: 363
 :name: Bézier Curves
-:url: http://projecteuler.net/problem=363
-:content: "\rA cubic Bézier curve is defined by four points: P<sub>0</sub>, P<sub>1</sub>,
-  P<sub>2</sub> and P<sub>3</sub>.\r\n\nThe curve is constructed as follows:  \n\rOn
-  the segments P<sub>0</sub>P<sub>1</sub>, P<sub>1</sub>P<sub>2</sub> and P<sub>2</sub>P<sub>3</sub>
-  the points Q<sub>0</sub>,Q<sub>1</sub> and Q<sub>2</sub> are drawn such that P<sub>0</sub>Q<sub>0</sub>/P<sub>0</sub>P<sub>1</sub>=P<sub>1</sub>Q<sub>1</sub>/P<sub>1</sub>P<sub>2</sub>=P<sub>2</sub>Q<sub>2</sub>/P<sub>2</sub>P<sub>3</sub>=t
-  (t in [0,1]).  \n\rOn the segments Q<sub>0</sub>Q<sub>1</sub> and Q<sub>1</sub>Q<sub>2</sub>
-  the points R<sub>0</sub> and R<sub>1</sub> are drawn such that\rQ<sub>0</sub>R<sub>0</sub>/Q<sub>0</sub>Q<sub>1</sub>=Q<sub>1</sub>R<sub>1</sub>/Q<sub>1</sub>Q<sub>2</sub>=t
-  for the same value of t.  \n\rOn the segment R<sub>0</sub>R<sub>1</sub> the point
-  B is drawn such that R<sub>0</sub>B/R<sub>0</sub>R<sub>1</sub>=t for the same value
-  of t.\rThe Bézier curve defined by the points P<sub>0</sub>, P<sub>1</sub>, P<sub>2</sub>,
-  P<sub>3</sub> is the locus of B as Q<sub>0</sub> takes all possible positions on
-  the segment P<sub>0</sub>P<sub>1</sub>. (Please note that for all points the value
-  of t is the same.)\n\n<applet code=\"CabriJava.class\" width=\"390\" height=\"300\"
-  align=\"right\" hspace=\"20\" archive=\"project/images/bezier/CabriJava.jar\">\r\n
-  \  <param name=\"lang\" value=\"en\">\r\n   <param name=\"file\" value=\"project/images/bezier/bezier.fig\">\r\n
-  \  <param name=\"loop\" value=\"true\">\r\n</applet>\n\nIn the applet to the right
-  you can drag the points P<sub>0</sub>, P<sub>1</sub>, P<sub>2</sub> and P<sub>3</sub>
-  to see what the Bézier curve (green curve) defined by those points looks like. You
-  can also drag the point Q<sub>0</sub> along the segment P<sub>0</sub>P<sub>1</sub>.\n\nFrom
-  the construction it is clear that the Bézier curve will be tangent to the segments
-  P<sub>0</sub>P<sub>1</sub> in P<sub>0</sub> and P<sub>2</sub>P<sub>3</sub> in P<sub>3</sub>.\n\nA
-  cubic Bézier curve with P<sub>0</sub>=(1,0), P<sub>1</sub>=(1,<var>v</var>), P<sub>2</sub>=(<var>v</var>,1)
-  and P<sub>3</sub>=(0,1) is used to approximate a quarter circle.  \n\rThe value
-  <var>v</var> ![>]({{ images_dir }}/symbol_gt.gif)0 is chosen such that the area
-  enclosed by the lines OP<sub>0</sub>, OP<sub>3</sub> and the curve is equal to <sup>π</sup>/<sub>4</sub>
-  (the area of the quarter circle).\n\nBy how many percent does the length of the
-  curve differ from the length of the quarter circle?  \n\rThat is, if L is the length
-  of the curve, calculate 100\\*<sup>(L-π/2)</sup>/<sub>(π/2)</sub>.  \n\rGive your
-  answer rounded to 10 digits behind the decimal point.\n\n"
+:url: https://projecteuler.net/problem=363
+:content: "A cubic Bézier curve is defined by four points: P<sub>0</sub>, P<sub>1</sub>,
+  P<sub>2</sub> and P<sub>3</sub>.\n\n ![p363_bezier.png]({{ images_dir }}/p363_bezier.png)\n\nThe
+  curve is constructed as follows:  \nOn the segments P<sub>0</sub>P<sub>1</sub>,
+  P<sub>1</sub>P<sub>2</sub> and P<sub>2</sub>P<sub>3</sub> the points Q<sub>0</sub>,Q<sub>1</sub>
+  and Q<sub>2</sub> are drawn such that  \nP<sub>0</sub>Q<sub>0</sub> / P<sub>0</sub>P<sub>1</sub>
+  = P<sub>1</sub>Q<sub>1</sub> / P<sub>1</sub>P<sub>2</sub> = P<sub>2</sub>Q<sub>2</sub>
+  / P<sub>2</sub>P<sub>3</sub> = t (t in [0,1]).  \nOn the segments Q<sub>0</sub>Q<sub>1</sub>
+  and Q<sub>1</sub>Q<sub>2</sub> the points R<sub>0</sub> and R<sub>1</sub> are drawn
+  such that  \nQ<sub>0</sub>R<sub>0</sub> / Q<sub>0</sub>Q<sub>1</sub> = Q<sub>1</sub>R<sub>1</sub>
+  / Q<sub>1</sub>Q<sub>2</sub> = t for the same value of t.  \nOn the segment R<sub>0</sub>R<sub>1</sub>
+  the point B is drawn such that R<sub>0</sub>B / R<sub>0</sub>R<sub>1</sub> = t for
+  the same value of t.  \nThe Bézier curve defined by the points P<sub>0</sub>, P<sub>1</sub>,
+  P<sub>2</sub>, P<sub>3</sub> is the locus of B as Q<sub>0</sub> takes all possible
+  positions on the segment P<sub>0</sub>P<sub>1</sub>.  \n(Please note that for all
+  points the value of t is the same.)\n\nAt [this (external) web address](http://home.kpn.nl/hklein/bezier/bezier.html)
+  you will find an applet that allows you to drag the points P<sub>0</sub>, P<sub>1</sub>,
+  P<sub>2</sub> and P<sub>3</sub> to see what the Bézier curve (green curve) defined
+  by those points looks like. You can also drag the point Q<sub>0</sub> along the
+  segment P<sub>0</sub>P<sub>1</sub>.\n\nFrom the construction it is clear that the
+  Bézier curve will be tangent to the segments P<sub>0</sub>P<sub>1</sub> in P<sub>0</sub>
+  and P<sub>2</sub>P<sub>3</sub> in P<sub>3</sub>.\n\nA cubic Bézier curve with P<sub>0</sub>=(1,0),
+  P<sub>1</sub>=(1,<var>v</var>), P<sub>2</sub>=(<var>v</var>,1) and P<sub>3</sub>=(0,1)
+  is used to approximate a quarter circle.  \nThe value <var>v</var> \\> 0 is chosen
+  such that the area enclosed by the lines OP<sub>0</sub>, OP<sub>3</sub> and the
+  curve is equal to <sup>π</sup>/<sub>4</sub> (the area of the quarter circle).\n\nBy
+  how many percent does the length of the curve differ from the length of the quarter
+  circle?\n\n| That is, if L is the length of the curve, calculate 100 × | \n\nL −
+  π/2\nπ/2\n |\n\nGive your answer rounded to 10 digits behind the decimal point.\n\n"

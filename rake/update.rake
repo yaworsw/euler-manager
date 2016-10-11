@@ -15,6 +15,9 @@ require 'euler'
 desc "Scrape the Project Euler website and download problem descriptions and images"
 task :update do
 
+  protocol = 'https'
+  domain   = 'projecteuler.net'
+
   # Number of seconds to wait in the beginning of each iteration of the http request loop
   sleep_time = 0.5
 
@@ -48,7 +51,7 @@ task :update do
 
     sleep(sleep_time)
 
-    url = "http://projecteuler.net/problem=#{problem_id}"
+    url = "#{protocol}://#{domain}/problem=#{problem_id}"
 
     doc = Nokogiri::HTML(open(url))
 
@@ -58,7 +61,7 @@ task :update do
 
     # download images
     doc.css('.problem_content img').each do |img|
-      image_url = "http://projecteuler.net/#{img['src']}"
+      image_url = "#{protocol}://#{domain}/#{img['src']}"
       file_name = File.basename(image_url)
       file_path = "#{images_dir}/#{file_name}"
       open(image_url) do |i|

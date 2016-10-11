@@ -1,14 +1,14 @@
 ---
 :id: 352
 :name: Blood tests
-:url: http://projecteuler.net/problem=352
+:url: https://projecteuler.net/problem=352
 :content: "Each one of the 25 sheep in a flock must be tested for a rare virus, known
-  to affect 2% of the sheep population.\rAn accurate and extremely sensitive PCR test
+  to affect 2% of the sheep population. An accurate and extremely sensitive PCR test
   exists for blood samples, producing a clear positive / negative result, but it is
   very time-consuming and expensive.\n\nBecause of the high cost, the vet-in-charge
   suggests that instead of performing 25 separate tests, the following procedure can
-  be used instead:  \n  \n  \n\rThe sheep are split into 5 groups of 5 sheep in each
-  group. \rFor each group, the 5 samples are mixed together and a single test is performed.
+  be used instead:  \n  \nThe sheep are split into 5 groups of 5 sheep in each group.
+  For each group, the 5 samples are mixed together and a single test is performed.
   Then,\n\n- If the result is negative, all the sheep in that group are deemed to
   be virus-free.\n- If the result is positive, 5 additional tests will be performed
   (a separate test for each animal) to determine the affected individual(s).\n\nSince
@@ -16,11 +16,10 @@
   (on the pooled samples) for each group will be:\n\n- Negative (and no more tests
   needed) with probability 0.98<sup>5</sup> = 0.9039207968.\n- Positive (5 additional
   tests needed) with probability 1 - 0.9039207968 = 0.0960792032.\n\nThus, the expected
-  number of tests for each group is 1 + 0.0960792032 ![×]({{ images_dir }}/symbol_times.gif)
-  5 = 1.480396016.  \n\rConsequently, all 5 groups can be screened using an average
-  of only 1.480396016 ![×]({{ images_dir }}/symbol_times.gif) 5 = **7.40198008** tests,
-  which represents a huge saving of more than 70% !\n\nAlthough the scheme we have
-  just described seems to be very efficient, it can still be improved considerably
+  number of tests for each group is 1 + 0.0960792032 × 5 = 1.480396016.  \nConsequently,
+  all 5 groups can be screened using an average of only 1.480396016 × 5 = **7.40198008**
+  tests, which represents a huge saving of more than 70% !\n\nAlthough the scheme
+  we have just described seems to be very efficient, it can still be improved considerably
   (always assuming that the test is sufficiently sensitive and that there are no adverse
   effects caused by mixing different samples). E.g.:\n\n- We may start by running
   a test on a mixture of all the 25 samples. It can be verified that in about 60.35%
@@ -34,11 +33,11 @@
   of possibilities, there is one restriction we place when devising the most cost-efficient
   testing scheme: whenever we start with a mixed sample, all the sheep contributing
   to that sample must be fully screened (i.e. a verdict of infected / virus-free must
-  be reached for all of them) before we start examining any other animals.\n\n\rFor
+  be reached for all of them) before we start examining any other animals.\n\nFor
   the current example, it turns out that the most cost-efficient testing scheme (we'll
-  call it the _optimal strategy_) requires an average of just **4.155452** tests!\r\r\r\n\nUsing
+  call it the _optimal strategy_) requires an average of just **4.155452** tests!\n\nUsing
   the optimal strategy, let T(<var>s</var>,<var>p</var>) represent the average number
   of tests needed to screen a flock of <var>s</var> sheep for a virus having probability
-  <var>p</var> to be present in any individual.  \n\rThus, rounded to six decimal
-  places, T(25, 0.02) = 4.155452 and T(25, 0.10) = 12.702124.\n\nFind ΣT(10000, p)
-  for p=0.01, 0.02, 0.03, ... 0.50.  \n\rGive your answer rounded to six decimal places.\n\n"
+  <var>p</var> to be present in any individual.  \nThus, rounded to six decimal places,
+  T(25, 0.02) = 4.155452 and T(25, 0.10) = 12.702124.\n\nFind ΣT(10000, p) for p=0.01,
+  0.02, 0.03, ... 0.50.  \nGive your answer rounded to six decimal places.\n\n"

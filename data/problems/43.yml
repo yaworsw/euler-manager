@@ -1,7 +1,7 @@
 ---
 :id: 43
 :name: Sub-string divisibility
-:url: http://projecteuler.net/problem=43
+:url: https://projecteuler.net/problem=43
 :content: |+
   The number, 1406357289, is a 0 to 9 pandigital number because it is made up of each of the digits 0 to 9 in some order, but it also has a rather interesting sub-string divisibility property.
 

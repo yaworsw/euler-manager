@@ -1,14 +1,14 @@
 ---
 :id: 67
 :name: Maximum path sum II
-:url: http://projecteuler.net/problem=67
+:url: https://projecteuler.net/problem=67
 :content: "By starting at the top of the triangle below and moving to adjacent numbers
   on the row below, the maximum total from top to bottom is 23.\n\n**3**  \n**7**
-  4  \n\r2 **4** 6  \n\r8 5 **9** 3\n\nThat is, 3 + 7 + 4 + 9 = 23.\n\nFind the maximum
-  total from top to bottom in [triangle.txt](project/triangle.txt) (right click and
-  'Save Link/Target As...'), a 15K text file containing a triangle with one-hundred
-  rows.\n\n**NOTE:** This is a much more difficult version of [Problem 18](problem=18).
-  It is not possible to try every route to solve this problem, as there are 2<sup>99</sup>
-  altogether! If you could check one trillion (10<sup>12</sup>) routes every second
-  it would take over twenty billion years to check them all. There is an efficient
-  algorithm to solve it. ;o)\n\n"
+  4  \n2 **4** 6  \n8 5 **9** 3\n\nThat is, 3 + 7 + 4 + 9 = 23.\n\nFind the maximum
+  total from top to bottom in [triangle.txt](project/resources/p067_triangle.txt)
+  (right click and 'Save Link/Target As...'), a 15K text file containing a triangle
+  with one-hundred rows.\n\n**NOTE:** This is a much more difficult version of [Problem
+  18](problem=18). It is not possible to try every route to solve this problem, as
+  there are 2<sup>99</sup> altogether! If you could check one trillion (10<sup>12</sup>)
+  routes every second it would take over twenty billion years to check them all. There
+  is an efficient algorithm to solve it. ;o)\n\n"

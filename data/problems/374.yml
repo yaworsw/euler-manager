@@ -1,19 +1,17 @@
 ---
 :id: 374
 :name: Maximum Integer Partition Product
-:url: http://projecteuler.net/problem=374
+:url: https://projecteuler.net/problem=374
 :content: "An integer partition of a number <var>n</var> is a way of writing <var>n</var>
   as a sum of positive integers.\n\nPartitions that differ only in the order of their
-  summands are considered the same.\rA partition of <var>n</var> into **distinct parts**
+  summands are considered the same. A partition of <var>n</var> into **distinct parts**
   is a partition of <var>n</var> in which every part occurs at most once.\n\nThe partitions
-  of 5 into distinct parts are:\r  \n5, 4+1 and 3+2.\n\nLet f(<var>n</var>) be the
-  maximum product of the parts of any such partition of <var>n</var> into distinct
-  parts and let m(<var>n</var>) be the number of elements of any such partition of
-  <var>n</var> with that product.\n\nSo f(5)=6 and m(5)=2.\n\nFor <var>n</var>=10
-  the partition with the largest product is 10=2+3+5, which gives f(10)=30 and m(10)=3.\r
-  \ \nAnd their product, f(10)·m(10) = 30·3 = 90\n\nIt can be verified that\r  \n
-  ![∑]({{ images_dir }}/symbol_sum.gif)f(<var>n</var>)·m(<var>n</var>) for 1 ![≤]({{
-  images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 100
-  = 1683550844462.\n\nFind ![∑]({{ images_dir }}/symbol_sum.gif)f(<var>n</var>)·m(<var>n</var>)
-  for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)
-  10<sup>14</sup>.\r  \nGive your answer modulo 982451653, the 50 millionth prime.\n\n"
+  of 5 into distinct parts are:  \n5, 4+1 and 3+2.\n\nLet f(<var>n</var>) be the maximum
+  product of the parts of any such partition of <var>n</var> into distinct parts and
+  let m(<var>n</var>) be the number of elements of any such partition of <var>n</var>
+  with that product.\n\nSo f(5)=6 and m(5)=2.\n\nFor <var>n</var>=10 the partition
+  with the largest product is 10=2+3+5, which gives f(10)=30 and m(10)=3.  \nAnd their
+  product, f(10)·m(10) = 30·3 = 90\n\nIt can be verified that  \n∑f(<var>n</var>)·m(<var>n</var>)
+  for 1 ≤ <var>n</var> ≤ 100 = 1683550844462.\n\nFind ∑f(<var>n</var>)·m(<var>n</var>)
+  for 1 ≤ <var>n</var> ≤ 10<sup>14</sup>.  \nGive your answer modulo 982451653, the
+  50 millionth prime.\n\n"

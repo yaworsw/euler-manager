@@ -1,9 +1,9 @@
 ---
 :id: 392
 :name: Enmeshed unit circle
-:url: http://projecteuler.net/problem=392
+:url: https://projecteuler.net/problem=392
 :content: "A rectilinear grid is an orthogonal grid where the spacing between the
-  gridlines does not have to be equidistant.  \n\rAn example of such grid is logarithmic
+  gridlines does not have to be equidistant.  \nAn example of such grid is logarithmic
   graph paper.\n\nConsider rectilinear grids in the Cartesian coordinate system with
   the following properties:\n\n- The gridlines are parallel to the axes of the Cartesian
   coordinate system.\n- There are N+2 vertical and N+2 horizontal gridlines. Hence
@@ -12,10 +12,10 @@
   are y = -1 and y = 1.\n- The grid cells are colored red if they overlap with the
   <dfn title=\"The unit circle is the circle that has radius 1 and is centered at
   the origin\">unit circle</dfn>, black otherwise.\nFor this problem we would like
-  you to find the postions of the remaining N inner horizontal and N inner vertical
-  gridlines so that the area occupied by the red cells is minimized.\r\r\n\nE.g. here
-  is a picture of the solution for N = 10:\n\n![]({{ images_dir }}/p392_gridlines.png)\n\n\r\r\rThe
-  area occupied by the red cells for N = 10 rounded to 10 digits behind the decimal
-  point is 3.3469640797.\r\r\n\nFind the positions for N = 400.  \n \rGive as your
-  answer the area occupied by the red cells rounded to 10 digits behind the decimal
-  point.\n\n"
+  you to find the positions of the remaining N inner horizontal and N inner vertical
+  gridlines so that the area occupied by the red cells is minimized.\n\nE.g. here
+  is a picture of the solution for N = 10:\n\n![p392_gridlines.png]({{ images_dir
+  }}/p392_gridlines.png)\n\nThe area occupied by the red cells for N = 10 rounded
+  to 10 digits behind the decimal point is 3.3469640797.\n\nFind the positions for
+  N = 400.  \n Give as your answer the area occupied by the red cells rounded to 10
+  digits behind the decimal point.\n\n"

@@ -1,31 +1,26 @@
 ---
 :id: 256
 :name: Tatami-Free Rooms
-:url: http://projecteuler.net/problem=256
+:url: https://projecteuler.net/problem=256
 :content: "Tatami are rectangular mats, used to completely cover the floor of a room,
   without overlap.\n\nAssuming that the only type of available tatami has dimensions
-  1 ![×]({{ images_dir }}/symbol_times.gif)2, there are obviously some limitations
-  for the shape and size of the rooms that can be covered.\n\nFor this problem, we
-  consider only rectangular rooms with integer dimensions <var>a</var>, <var>b</var>
-  and even size <var>s</var> = <var>a</var>·<var>b</var>.  \n\rWe use the term 'size'
-  to denote the floor surface area of the room, and — without loss of generality —
-  we add the condition <var>a</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>b</var>.\n\nThere
+  1×2, there are obviously some limitations for the shape and size of the rooms that
+  can be covered.\n\nFor this problem, we consider only rectangular rooms with integer
+  dimensions <var>a</var>, <var>b</var> and even size <var>s</var> = <var>a</var>·<var>b</var>.
+  \ \nWe use the term 'size' to denote the floor surface area of the room, and — without
+  loss of generality — we add the condition <var>a</var> ≤ <var>b</var>.\n\nThere
   is one rule to follow when laying out tatami: there must be no points where corners
-  of four different mats meet.  \n\rFor example, consider the two arrangements below
-  for a 4 ![×]({{ images_dir }}/symbol_times.gif)4 room:\n\n ![]({{ images_dir }}/p_256_tatami3.gif)
-  \ \n\nThe arrangement on the left is acceptable, whereas the one on the right is
-  not: a red \" **X** \" in the middle, marks the point where four tatami meet.\n\nBecause
-  of this rule, certain even-sized rooms cannot be covered with tatami: we call them
-  tatami-free rooms.  \n\rFurther, we define <var>T</var>(<var>s</var>) as the number
+  of four different mats meet.  \nFor example, consider the two arrangements below
+  for a 4×4 room:\n\n ![p256_tatami3.gif]({{ images_dir }}/p256_tatami3.gif)  \n\nThe
+  arrangement on the left is acceptable, whereas the one on the right is not: a red
+  \" **X**\" in the middle, marks the point where four tatami meet.\n\nBecause of
+  this rule, certain even-sized rooms cannot be covered with tatami: we call them
+  tatami-free rooms.  \nFurther, we define <var>T</var>(<var>s</var>) as the number
   of tatami-free rooms of size <var>s</var>.\n\nThe smallest tatami-free room has
-  size <var>s</var> = 70 and dimensions 7 ![×]({{ images_dir }}/symbol_times.gif)10.
-  \ \n\rAll the other rooms of size <var>s</var> = 70 can be covered with tatami;
-  they are: 1 ![×]({{ images_dir }}/symbol_times.gif)70, 2 ![×]({{ images_dir }}/symbol_times.gif)35
-  and 5 ![×]({{ images_dir }}/symbol_times.gif)14.  \n\rHence, <var>T</var>(70) =
-  1.\n\nSimilarly, we can verify that <var>T</var>(1320) = 5 because there are exactly
-  5 tatami-free rooms of size <var>s</var> = 1320:  \n\r20 ![×]({{ images_dir }}/symbol_times.gif)66,
-  22 ![×]({{ images_dir }}/symbol_times.gif)60, 24 ![×]({{ images_dir }}/symbol_times.gif)55,
-  30 ![×]({{ images_dir }}/symbol_times.gif)44 and 33 ![×]({{ images_dir }}/symbol_times.gif)40.
-  \ \n\rIn fact, <var>s</var> = 1320 is the smallest room-size <var>s</var> for which
-  <var>T</var>(<var>s</var>) = 5.\n\nFind the smallest room-size <var>s</var> for
-  which <var>T</var>(<var>s</var>) = 200.\n\n"
+  size <var>s</var> = 70 and dimensions 7×10.  \nAll the other rooms of size <var>s</var>
+  = 70 can be covered with tatami; they are: 1×70, 2×35 and 5×14.  \nHence, <var>T</var>(70)
+  = 1.\n\nSimilarly, we can verify that <var>T</var>(1320) = 5 because there are exactly
+  5 tatami-free rooms of size <var>s</var> = 1320:  \n20×66, 22×60, 24×55, 30×44 and
+  33×40.  \nIn fact, <var>s</var> = 1320 is the smallest room-size <var>s</var> for
+  which <var>T</var>(<var>s</var>) = 5.\n\nFind the smallest room-size <var>s</var>
+  for which <var>T</var>(<var>s</var>) = 200.\n\n"

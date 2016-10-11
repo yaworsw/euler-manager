@@ -1,16 +1,11 @@
 ---
 :id: 92
 :name: Square digit chains
-:url: http://projecteuler.net/problem=92
+:url: https://projecteuler.net/problem=92
 :content: "A number chain is created by continuously adding the square of the digits
   in a number to form a new number until it has been seen before.\n\nFor example,\n\n44
-  ![→]({{ images_dir }}/symbol_maps.gif) 32 ![→]({{ images_dir }}/symbol_maps.gif)
-  13 ![→]({{ images_dir }}/symbol_maps.gif) 10 ![→]({{ images_dir }}/symbol_maps.gif)
-  **1** ![→]({{ images_dir }}/symbol_maps.gif) **1**  \n85 ![→]({{ images_dir }}/symbol_maps.gif)
-  **89** ![→]({{ images_dir }}/symbol_maps.gif) 145 ![→]({{ images_dir }}/symbol_maps.gif)
-  42 ![→]({{ images_dir }}/symbol_maps.gif) 20 ![→]({{ images_dir }}/symbol_maps.gif)
-  4 ![→]({{ images_dir }}/symbol_maps.gif) 16 ![→]({{ images_dir }}/symbol_maps.gif)
-  37 ![→]({{ images_dir }}/symbol_maps.gif) 58 ![→]({{ images_dir }}/symbol_maps.gif)
-  **89**\n\nTherefore any chain that arrives at 1 or 89 will become stuck in an endless
-  loop. What is most amazing is that EVERY starting number will eventually arrive
-  at 1 or 89.\n\nHow many starting numbers below ten million will arrive at 89?\n\n"
+  → 32 → 13 → 10 → **1** → **1**  \n85 → **89** → 145 → 42 → 20 → 4 → 16 → 37 → 58
+  → **89**\n\nTherefore any chain that arrives at 1 or 89 will become stuck in an
+  endless loop. What is most amazing is that EVERY starting number will eventually
+  arrive at 1 or 89.\n\nHow many starting numbers below ten million will arrive at
+  89?\n\n"

@@ -1,17 +1,17 @@
 ---
 :id: 273
 :name: Sum of Squares
-:url: http://projecteuler.net/problem=273
+:url: https://projecteuler.net/problem=273
 :content: |+
-  Consider equations of the form: <var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>N</var>, 0 ![≤]({{ images_dir }}/symbol_le.gif) <var>a</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>b</var>, <var>a</var>, <var>b</var> and <var>N</var> integer.
+  Consider equations of the form: <var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>N</var>, 0 ≤ <var>a</var> ≤ <var>b</var>, <var>a</var>, <var>b</var> and <var>N</var> integer.
 
   For <var>N</var>=65 there are two solutions:
 
   <var>a</var>=1, <var>b</var>=8 and <var>a</var>=4, <var>b</var>=7.
 
-  We call S(<var>N</var>) the sum of the values of <var>a</var> of all solutions of <var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>N</var>, 0 ![≤]({{ images_dir }}/symbol_le.gif) <var>a</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>b</var>, <var>a</var>, <var>b</var> and <var>N</var> integer.
+  We call S(<var>N</var>) the sum of the values of <var>a</var> of all solutions of <var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>N</var>, 0 ≤ <var>a</var> ≤ <var>b</var>, <var>a</var>, <var>b</var> and <var>N</var> integer.
 
   Thus S(65) = 1 + 4 = 5.
 
-  Find ![∑]({{ images_dir }}/symbol_sum.gif)S(<var>N</var>), for all squarefree <var>N</var> only divisible by primes of the form 4<var>k</var>+1 with 4<var>k</var>+1 ![<]({{ images_dir }}/symbol_lt.gif) 150.
+  Find ∑S(<var>N</var>), for all squarefree <var>N</var> only divisible by primes of the form 4<var>k</var>+1 with 4<var>k</var>+1 \< 150.
 

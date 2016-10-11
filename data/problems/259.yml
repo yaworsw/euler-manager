@@ -1,7 +1,7 @@
 ---
 :id: 259
 :name: Reachable Numbers
-:url: http://projecteuler.net/problem=259
+:url: https://projecteuler.net/problem=259
 :content: |+
   A positive integer will be called _reachable_ if it can result from an arithmetic expression obeying the following rules:
 

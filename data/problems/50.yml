@@ -1,7 +1,7 @@
 ---
 :id: 50
 :name: Consecutive prime sum
-:url: http://projecteuler.net/problem=50
+:url: https://projecteuler.net/problem=50
 :content: |+
   The prime 41, can be written as the sum of six consecutive primes:
 

@@ -1,17 +1,12 @@
 ---
 :id: 14
 :name: Longest Collatz sequence
-:url: http://projecteuler.net/problem=14
+:url: https://projecteuler.net/problem=14
 :content: "The following iterative sequence is defined for the set of positive integers:\n\n<var>n</var>
-  ![→]({{ images_dir }}/symbol_maps.gif) <var>n</var>/2 (<var>n</var> is even)  \n<var>n</var>
-  ![→]({{ images_dir }}/symbol_maps.gif) 3<var>n</var> + 1 (<var>n</var> is odd)\n\nUsing
-  the rule above and starting with 13, we generate the following sequence:\n\n13 ![→]({{
-  images_dir }}/symbol_maps.gif) 40 ![→]({{ images_dir }}/symbol_maps.gif) 20 ![→]({{
-  images_dir }}/symbol_maps.gif) 10 ![→]({{ images_dir }}/symbol_maps.gif) 5 ![→]({{
-  images_dir }}/symbol_maps.gif) 16 ![→]({{ images_dir }}/symbol_maps.gif) 8 ![→]({{
-  images_dir }}/symbol_maps.gif) 4 ![→]({{ images_dir }}/symbol_maps.gif) 2 ![→]({{
-  images_dir }}/symbol_maps.gif) 1\n\nIt can be seen that this sequence (starting
-  at 13 and finishing at 1) contains 10 terms. Although it has not been proved yet
-  (Collatz Problem), it is thought that all starting numbers finish at 1.\n\nWhich
-  starting number, under one million, produces the longest chain?\n\n**NOTE:** Once
-  the chain starts the terms are allowed to go above one million.\n\n"
+  → <var>n</var>/2 (<var>n</var> is even)  \n<var>n</var> → 3<var>n</var> + 1 (<var>n</var>
+  is odd)\n\nUsing the rule above and starting with 13, we generate the following
+  sequence:\n\n13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1\n\nIt can be seen that this
+  sequence (starting at 13 and finishing at 1) contains 10 terms. Although it has
+  not been proved yet (Collatz Problem), it is thought that all starting numbers finish
+  at 1.\n\nWhich starting number, under one million, produces the longest chain?\n\n**NOTE:**
+  Once the chain starts the terms are allowed to go above one million.\n\n"

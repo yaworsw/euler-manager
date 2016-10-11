@@ -1,17 +1,16 @@
 ---
 :id: 430
 :name: Range flips
-:url: http://projecteuler.net/problem=430
+:url: https://projecteuler.net/problem=430
 :content: "<var>N</var> disks are placed in a row, indexed 1 to <var>N</var> from
-  left to right.  \n\rEach disk has a black side and white side. Initially all disks
+  left to right.  \nEach disk has a black side and white side. Initially all disks
   show their white side.\n\nAt each turn, two, not necessarily distinct, integers
   <var>A</var> and <var>B</var> between 1 and <var>N</var> (inclusive) are chosen
-  uniformly at random.  \n\rAll disks with an index from <var>A</var> to <var>B</var>
+  uniformly at random.  \nAll disks with an index from <var>A</var> to <var>B</var>
   (inclusive) are flipped.\n\nThe following example shows the case <var>N</var> =
   8. At the first turn <var>A</var> = 5 and <var>B</var> = 2, and at the second turn
-  <var>A</var> = 4 and <var>B</var> = 6.\n\n![]({{ images_dir }}/p_430_flips.gif)\n\nLet
+  <var>A</var> = 4 and <var>B</var> = 6.\n\n![p430_flips.gif]({{ images_dir }}/p430_flips.gif)\n\nLet
   E(<var>N</var>, <var>M</var>) be the expected number of disks that show their white
-  side after <var>M</var> turns.  \n\rWe can verify that E(3, 1) = 10/9, E(3, 2) =
-  5/3, E(10, 4) ![≈]({{ images_dir }}/symbol_asymp.gif) 5.157 and E(100, 10) ![≈]({{
-  images_dir }}/symbol_asymp.gif) 51.893.\n\nFind E(10<sup>10</sup>, 4000).  \n\rGive
+  side after <var>M</var> turns.  \nWe can verify that E(3, 1) = 10/9, E(3, 2) = 5/3,
+  E(10, 4) ≈ 5.157 and E(100, 10) ≈ 51.893.\n\nFind E(10<sup>10</sup>, 4000).  \nGive
   your answer rounded to 2 decimal places behind the decimal point.\n\n"

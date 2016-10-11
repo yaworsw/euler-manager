@@ -1,17 +1,15 @@
 ---
 :id: 234
 :name: Semidivisible numbers
-:url: http://projecteuler.net/problem=234
-:content: "For an integer <var>n</var> ![≥]({{ images_dir }}/symbol_ge.gif) 4, we
-  define the _lower prime square root_ of <var>n</var>, denoted by lps(<var>n</var>),
-  as the largest prime ![≤]({{ images_dir }}/symbol_le.gif) ![√]({{ images_dir }}/symbol_radic.gif)<var>n</var>
+:url: https://projecteuler.net/problem=234
+:content: "For an integer <var>n</var> ≥ 4, we define the _lower prime square root_
+  of <var>n</var>, denoted by lps(<var>n</var>), as the largest prime ≤ √<var>n</var>
   and the _upper prime square root_ of <var>n</var>, ups(<var>n</var>), as the smallest
-  prime ![≥]({{ images_dir }}/symbol_ge.gif) ![√]({{ images_dir }}/symbol_radic.gif)<var>n</var>.\n\nSo,
-  for example, lps(4) = 2 = ups(4), lps(1000) = 31, ups(1000) = 37.  \n\rLet us call
-  an integer <var>n</var> ![≥]({{ images_dir }}/symbol_ge.gif) 4 _semidivisible_,
-  if one of lps(<var>n</var>) and ups(<var>n</var>) divides <var>n</var>, but not
-  both.\n\nThe sum of the semidivisible numbers not exceeding 15 is 30, the numbers
-  are 8, 10 and 12.  \n 15 is not semidivisible because it is a multiple of both lps(15)
-  = 3 and ups(15) = 5.  \n\rAs a further example, the sum of the 92 semidivisible
-  numbers up to 1000 is 34825.\n\nWhat is the sum of all semidivisible numbers not
-  exceeding 999966663333 ?\n\n"
+  prime ≥ √<var>n</var>.\n\nSo, for example, lps(4) = 2 = ups(4), lps(1000) = 31,
+  ups(1000) = 37.  \nLet us call an integer <var>n</var> ≥ 4 _semidivisible_, if one
+  of lps(<var>n</var>) and ups(<var>n</var>) divides <var>n</var>, but not both.\n\nThe
+  sum of the semidivisible numbers not exceeding 15 is 30, the numbers are 8, 10 and
+  12.  \n 15 is not semidivisible because it is a multiple of both lps(15) = 3 and
+  ups(15) = 5.  \nAs a further example, the sum of the 92 semidivisible numbers up
+  to 1000 is 34825.\n\nWhat is the sum of all semidivisible numbers not exceeding
+  999966663333 ?\n\n"

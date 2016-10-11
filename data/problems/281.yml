@@ -1,14 +1,12 @@
 ---
 :id: 281
 :name: Pizza Toppings
-:url: http://projecteuler.net/problem=281
+:url: https://projecteuler.net/problem=281
 :content: "You are given a pizza (perfect circle) that has been cut into <var>m</var>·<var>n</var>
   equal pieces and you want to have exactly one topping on each slice.\n\nLet <var>f</var>(<var>m</var>,<var>n</var>)
   denote the number of ways you can have toppings on the pizza with <var>m</var> different
-  toppings (<var>m</var>  ![≥]({{ images_dir }}/symbol_ge.gif) 2), using each topping
-  on exactly <var>n</var> slices (<var>n</var>  ![≥]({{ images_dir }}/symbol_ge.gif) 1).
+  toppings (<var>m</var> ≥ 2), using each topping on exactly <var>n</var> slices (<var>n</var> ≥ 1).
   \  \nReflections are considered distinct, rotations are not.\n\nThus, for instance,
   <var>f</var>(2,1) = 1, <var>f</var>(2,2) = <var>f</var>(3,1) = 2 and <var>f</var>(3,2) = 16.
-  \  \n<var>f</var>(3,2) is shown below:\n\n ![]({{ images_dir }}/p_281_pizza.gif)\n\nFind
-  the sum of all <var>f</var>(<var>m</var>,<var>n</var>) such that <var>f</var>(<var>m</var>,<var>n</var>) 
-  ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>15</sup>.\n\n"
+  \  \n<var>f</var>(3,2) is shown below:\n\n ![p281_pizza.gif]({{ images_dir }}/p281_pizza.gif)\n\nFind
+  the sum of all <var>f</var>(<var>m</var>,<var>n</var>) such that <var>f</var>(<var>m</var>,<var>n</var>) ≤ 10<sup>15</sup>.\n\n"

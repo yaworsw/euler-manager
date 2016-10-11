@@ -1,11 +1,11 @@
 ---
 :id: 233
 :name: Lattice points on a circle
-:url: http://projecteuler.net/problem=233
+:url: https://projecteuler.net/problem=233
 :content: |+
   Let <var>f</var>(<var>N</var>) be the number of points with integer coordinates that are on a circle passing through (0,0), (<var>N</var>,0),(0,<var>N</var>), and (<var>N</var>,<var>N</var>).
 
   It can be shown that <var>f</var>(10000) = 36.
 
-  What is the sum of all positive integers <var>N</var>  ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>11</sup> such that <var>f</var>(<var>N</var>) = 420 ?
+  What is the sum of all positive integers <var>N</var> ≤ 10<sup>11</sup> such that <var>f</var>(<var>N</var>) = 420 ?
 

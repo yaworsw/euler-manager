@@ -1,7 +1,7 @@
 ---
 :id: 114
 :name: Counting block combinations I
-:url: http://projecteuler.net/problem=114
+:url: https://projecteuler.net/problem=114
 :content: "A row measuring seven units in length has red blocks with a minimum length
   of three units placed on it, such that any two red blocks (which are allowed to
   be different lengths) are separated by at least one black square. There are exactly
@@ -35,7 +35,7 @@
   | ![]({{ images_dir }}/spacer.gif) |\n\n | \n\n| ![]({{ images_dir }}/spacer.gif)
   | ![]({{ images_dir }}/spacer.gif) |\n\n |\n| \n\n| ![]({{ images_dir }}/spacer.gif)
   | ![]({{ images_dir }}/spacer.gif) |\n\n | \n\n| ![]({{ images_dir }}/spacer.gif)
-  |\n\n |   |\n\nHow many ways can a row measuring fifty units in length be filled?\n\nNOTE:
+  |\n\n | &nbsp; |\n\nHow many ways can a row measuring fifty units in length be filled?\n\nNOTE:
   Although the example above does not lend itself to the possibility, in general it
   is permitted to mix block sizes. For example, on a row measuring eight units in
   length you could use red (3), black (1), and red (4).\n\n"

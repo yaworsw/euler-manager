@@ -1,17 +1,18 @@
 ---
 :id: 196
 :name: Prime triplets
-:url: http://projecteuler.net/problem=196
-:content: "Build a triangle from all positive integers in the following way:\n\n 1
-  \ \n\r 2  3  \n\r 4  5  6  \n\r 7  8  9 10  \n11 12 13 14 15  \n\r16 17 18 19 20
-  21  \n\r22 23 24 25 26 27 28  \n29 30 31 32 33 34 35 36  \n37 38 39 40 41 42 43
-  44 45  \n\r46 47 48 49 50 51 52 53 54 55  \n\r56 57 58 59 60 61 62 63 64 65 66  \n\r.
-  . .\n\nEach positive integer has up to eight neighbours in the triangle.\n\nA set
-  of three primes is called a _prime triplet_ if one of the three primes has the other
-  two as neighbours in the triangle.\n\nFor example, in the second row, the prime
-  numbers 2 and 3 are elements of some prime triplet.\n\nIf row 8 is considered, it
-  contains two primes which are elements of some prime triplet, i.e. 29 and 31.  \n\rIf
-  row 9 is considered, it contains only one prime which is an element of some prime
-  triplet: 37.\n\nDefine S(<var>n</var>) as the sum of the primes in row <var>n</var>
-  which are elements of any prime triplet.  \n\rThen S(8)=60 and S(9)=37.\n\nYou are
-  given that S(10000)=950007619.\n\nFind  S(5678027) + S(7208785).\n\n"
+:url: https://projecteuler.net/problem=196
+:content: "Build a triangle from all positive integers in the following way:\n\n&nbsp;1
+  \ \n&nbsp;2&nbsp; 3  \n&nbsp;4&nbsp;&nbsp;5&nbsp;&nbsp;6  \n&nbsp;7&nbsp;&nbsp;8&nbsp;&nbsp;9
+  10  \n11 12 13 14 15  \n16 17 18 19 20 21  \n22 23 24 25 26 27 28  \n29 30 31 32
+  33 34 35 36  \n37 38 39 40 41 42 43 44 45  \n46 47 48 49 50 51 52 53 54 55  \n56
+  57 58 59 60 61 62 63 64 65 66  \n. . .\n\nEach positive integer has up to eight
+  neighbours in the triangle.\n\nA set of three primes is called a _prime triplet_
+  if one of the three primes has the other two as neighbours in the triangle.\n\nFor
+  example, in the second row, the prime numbers 2 and 3 are elements of some prime
+  triplet.\n\nIf row 8 is considered, it contains two primes which are elements of
+  some prime triplet, i.e. 29 and 31.  \nIf row 9 is considered, it contains only
+  one prime which is an element of some prime triplet: 37.\n\nDefine S(<var>n</var>)
+  as the sum of the primes in row <var>n</var> which are elements of any prime triplet.
+  \ \nThen S(8)=60 and S(9)=37.\n\nYou are given that S(10000)=950007619.\n\nFind
+  &nbsp;S(5678027) + S(7208785).\n\n"

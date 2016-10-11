@@ -2,17 +2,17 @@
 :id: 174
 :name: Counting the number of "hollow" square laminae that can form one, two, three,
   ... distinct arrangements
-:url: http://projecteuler.net/problem=174
+:url: https://projecteuler.net/problem=174
 :content: |+
   We shall define a square lamina to be a square outline with a square "hole" so that the shape possesses vertical and horizontal symmetry.
 
   Given eight tiles it is possible to form a lamina in only one way: 3x3 square with a 1x1 hole in the middle. However, using thirty-two tiles it is possible to form two distinct laminae.
 
-   ![]({{ images_dir }}/p_173_square_laminas.gif)
+   ![]({{ images_dir }}/p173_square_laminas.gif)
 
   If <var>t</var> represents the number of tiles used, we shall say that <var>t</var> = 8 is type L(1) and <var>t</var> = 32 is type L(2).
 
-  Let N(<var>n</var>) be the number of <var>t</var> ![≤]({{ images_dir }}/symbol_le.gif) 1000000 such that <var>t</var> is type L(<var>n</var>); for example, N(15) = 832.
+  Let N(<var>n</var>) be the number of <var>t</var> ≤ 1000000 such that <var>t</var> is type L(<var>n</var>); for example, N(15) = 832.
 
-  What is ![∑]({{ images_dir }}/symbol_sum.gif) N(<var>n</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 10?
+  What is ∑ N(<var>n</var>) for 1 ≤ <var>n</var> ≤ 10?
 

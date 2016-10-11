@@ -1,7 +1,7 @@
 ---
 :id: 350
 :name: Constraining the least greatest and the greatest least
-:url: http://projecteuler.net/problem=350
+:url: https://projecteuler.net/problem=350
 :content: "A _list of size n_ is a sequence of <var>n</var> natural numbers.  \n Examples
   are (2,4,6), (2,6,4), (10,6,15,6), and (11).\n\nThe **greatest common divisor**
   , or gcd, of a list is the largest natural number that divides all entries of the
@@ -9,8 +9,7 @@
   **least common multiple** , or lcm, of a list is the smallest natural number divisible
   by each entry of the list.   \nExamples: lcm(2,6,4) = 12, lcm(10,6,15,6) = 30 and
   lcm(11) = 11.\n\nLet f(<var>G</var>, <var>L</var>, <var>N</var>) be the number of
-  lists of size <var>N</var> with gcd ![≥]({{ images_dir }}/symbol_ge.gif) <var>G</var>
-  and lcm ![≤]({{ images_dir }}/symbol_le.gif) <var>L</var>. For example:\n\nf(10,
-  100, 1) = 91.  \n\rf(10, 100, 2) = 327.  \n\rf(10, 100, 3) = 1135.  \n\rf(10, 100,
-  1000) mod 101<sup>4</sup> = 3286053.\n\nFind f(10<sup>6</sup>, 10<sup>12</sup>,
-  10<sup>18</sup>) mod 101<sup>4</sup>.\n\n"
+  lists of size <var>N</var> with gcd ≥ <var>G</var> and lcm ≤ <var>L</var>. For example:\n\nf(10,
+  100, 1) = 91.  \nf(10, 100, 2) = 327.  \nf(10, 100, 3) = 1135.  \nf(10, 100, 1000)
+  mod 101<sup>4</sup> = 3286053.\n\nFind f(10<sup>6</sup>, 10<sup>12</sup>, 10<sup>18</sup>)
+  mod 101<sup>4</sup>.\n\n"

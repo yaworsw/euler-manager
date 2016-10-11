@@ -1,13 +1,13 @@
 ---
 :id: 370
 :name: Geometric triangles
-:url: http://projecteuler.net/problem=370
+:url: https://projecteuler.net/problem=370
 :content: |+
-  Let us define a _geometric triangle_ as an integer sided triangle with sides <var>a</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>b</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>c</var> so that its sides form a **geometric progression** , i.e. <var>b<sup>2</sup></var> = <var>a</var> · <var>c</var> . 
+  Let us define a _geometric triangle_ as an integer sided triangle with sides <var>a</var> ≤ <var>b</var> ≤ <var>c</var> so that its sides form a **geometric progression** , i.e. <var>b<sup>2</sup></var>&nbsp;=&nbsp;<var>a</var>&nbsp;·&nbsp;<var>c</var>&nbsp;.&nbsp;
 
   An example of such a geometric triangle is the triangle with sides <var>a</var> = 144, <var>b</var> = 156 and <var>c</var> = 169.
 
-  There are 861805 geometric triangles with perimeter ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>6</sup> .
+  There are 861805 geometric triangles with perimeter ≤ 10<sup>6</sup> .
 
-  How many geometric triangles exist with perimeter ![≤]({{ images_dir }}/symbol_le.gif) 2.5·10<sup>13</sup> ?
+  How many geometric triangles exist with perimeter ≤ 2.5·10<sup>13</sup> ?
 

@@ -1,13 +1,13 @@
 ---
 :id: 282
 :name: The Ackermann function
-:url: http://projecteuler.net/problem=282
+:url: https://projecteuler.net/problem=282
 :content: |+
   For non-negative integers <var>m</var>, <var>n</var>, the Ackermann function <var>A</var>(<var>m</var>, <var>n</var>) is defined as follows:
 
-   ![]({{ images_dir }}/p_282_formula.gif)
+   ![p282_formula.gif]({{ images_dir }}/p282_formula.gif)
 
   For example <var>A</var>(1, 0) = 2, <var>A</var>(2, 2) = 7 and <var>A</var>(3, 4) = 125.
 
-  Find ![]({{ images_dir }}/p_282formula3.gif)<var>A</var>(<var>n</var>, <var>n</var>) and give your answer mod 14<sup>8</sup>.
+  Find ![p282formula3.gif]({{ images_dir }}/p282formula3.gif)<var>A</var>(<var>n</var>, <var>n</var>) and give your answer mod 14<sup>8</sup>.
 

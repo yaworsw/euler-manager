@@ -1,7 +1,7 @@
 ---
 :id: 314
 :name: The Mouse on the Moon
-:url: http://projecteuler.net/problem=314
+:url: https://projecteuler.net/problem=314
 :content: "The moon has been opened up, and land can be obtained for free, but there
   is a catch. You have to build a wall around the land that you stake out, and building
   a wall on the moon is expensive. Every country has been allotted a 500 m by 500
@@ -12,15 +12,14 @@
   area. The [Duchy of Grand Fenwick](http://en.wikipedia.org/wiki/Grand_Fenwick),
   has a tighter budget, and has asked you (their Royal Programmer) to compute what
   shape would get best maximum enclosed-area/wall-length ratio.\n\nYou have done some
-  preliminary calculations on a sheet of paper.\rFor a 2000 meter wall enclosing the
-  250 000 m<sup>2</sup> area the\renclosed-area/wall-length ratio is 125.  \n\rAlthough
+  preliminary calculations on a sheet of paper. For a 2000 meter wall enclosing the
+  250 000 m<sup>2</sup> area the enclosed-area/wall-length ratio is 125.  \nAlthough
   not allowed , but to get an idea if this is anything better: if you place a circle
   inside the square area touching the four sides the area will be equal to π\\*250<sup>2</sup>
   m<sup>2</sup> and the perimeter will be π\\*500 m, so the enclosed-area/wall-length
   ratio will also be 125.\n\nHowever, if you cut off from the square four triangles
-  with sides 75 m, 75 m and 75 ![√]({{ images_dir }}/symbol_radic.gif)2 m the total
-  area becomes 238750 m<sup>2</sup> and the perimeter becomes 1400+300 ![√]({{ images_dir
-  }}/symbol_radic.gif)2 m. So this gives an enclosed-area/wall-length ratio of 130.87,
-  which is significantly better.\n\n ![]({{ images_dir }}/p_314_landgrab.gif)\n\nFind
-  the maximum enclosed-area/wall-length ratio.  \n\rGive your answer rounded to 8
-  places behind the decimal point in the form abc.defghijk.\n\n"
+  with sides 75 m, 75 m and 75√2 m the total area becomes 238750 m<sup>2</sup> and
+  the perimeter becomes 1400+300√2 m. So this gives an enclosed-area/wall-length ratio
+  of 130.87, which is significantly better.\n\n ![p314_landgrab.gif]({{ images_dir
+  }}/p314_landgrab.gif)\n\nFind the maximum enclosed-area/wall-length ratio.  \nGive
+  your answer rounded to 8 places behind the decimal point in the form abc.defghijk.\n\n"

@@ -1,15 +1,15 @@
 ---
 :id: 128
 :name: Hexagonal tile differences
-:url: http://projecteuler.net/problem=128
+:url: https://projecteuler.net/problem=128
 :content: |+
   A hexagonal tile with number 1 is surrounded by a ring of six hexagonal tiles, starting at "12 o'clock" and numbering the tiles 2 to 7 in an anti-clockwise direction.
 
   New rings are added in the same fashion, with the next rings being numbered 8 to 19, 20 to 37, 38 to 61, and so on. The diagram below shows the first three rings.
 
-   ![]({{ images_dir }}/p_128.gif)
+   ![]({{ images_dir }}/p128.gif)
 
-  By finding the difference between tile _n_ and each its six neighbours we shall define PD(_n_) to be the number of those differences which are prime.
+  By finding the difference between tile _n_ and each of its six neighbours we shall define PD(_n_) to be the number of those differences which are prime.
 
   For example, working clockwise around tile 8 the differences are 12, 29, 11, 6, 1, and 13. So PD(8) = 3.
 

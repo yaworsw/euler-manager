@@ -1,18 +1,12 @@
 ---
 :id: 53
 :name: Combinatoric selections
-:url: http://projecteuler.net/problem=53
+:url: https://projecteuler.net/problem=53
 :content: "There are exactly ten ways of selecting three from five, 12345:\n\n123,
   124, 125, 134, 135, 145, 234, 235, 245, and 345\n\nIn combinatorics, we use the
   notation, <sup>5</sup>C<sub>3</sub> = 10.\n\nIn general,\n\n| <sup><var>n</var></sup>C<sub><var>r</var></sub>
-  = | \n<var>n</var>!  \n<var>r</var>!(<var>n<img src=\"%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif\"
-  width=\"9\" height=\"3\" alt=\"−\" border=\"0\" style=\"vertical-align:middle;\">r</var>)!\n
-  | ,where <var>r</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var>, <var>n</var>!
-  = <var>n</var> ![×]({{ images_dir }}/symbol_times.gif)(<var>n</var> ![−]({{ images_dir
-  }}/symbol_minus.gif)1) ![×]({{ images_dir }}/symbol_times.gif)... ![×]({{ images_dir
-  }}/symbol_times.gif)3 ![×]({{ images_dir }}/symbol_times.gif)2 ![×]({{ images_dir
-  }}/symbol_times.gif)1, and 0! = 1. |\n\nIt is not until <var>n</var> = 23, that
-  a value exceeds one-million: <sup>23</sup>C<sub>10</sub> = 1144066.\n\nHow many,
-  not necessarily distinct, values of  <sup><var>n</var></sup>C<sub><var>r</var></sub>,
-  for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)
-  100, are greater than one-million?\n\n"
+  = | \n<var>n</var>!  \n<var>r</var>!(<var>n−r</var>)!\n | ,where <var>r</var> ≤
+  <var>n</var>, <var>n</var>! = <var>n</var>×(<var>n</var>−1)×...×3×2×1, and 0! =
+  1. |\n\nIt is not until <var>n</var> = 23, that a value exceeds one-million: <sup>23</sup>C<sub>10</sub>
+  = 1144066.\n\nHow many, not necessarily distinct, values of &nbsp;<sup><var>n</var></sup>C<sub><var>r</var></sub>,
+  for 1 ≤ <var>n</var> ≤ 100, are greater than one-million?\n\n"

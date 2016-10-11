@@ -1,24 +1,24 @@
 ---
 :id: 137
 :name: Fibonacci golden nuggets
-:url: http://projecteuler.net/problem=137
+:url: https://projecteuler.net/problem=137
 :content: |+
-  Consider the infinite polynomial series A<sub>F</sub>(_x_) = _x_F<sub>1</sub> + _x_<sup>2</sup>F<sub>2</sub> + _x_<sup>3</sup>F<sub>3</sub> + ..., where F<sub><i>k</i></sub> is the _k_th term in the Fibonacci sequence: 1, 1, 2, 3, 5, 8, ... ; that is, F<sub><i>k</i></sub> = F<sub><i>k</i><img src="%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif" width="9" height="3" alt="−" border="0" style="vertical-align:middle;">1</sub> + F<sub><i>k</i><img src="%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif" width="9" height="3" alt="−" border="0" style="vertical-align:middle;">2</sub>, F<sub>1</sub> = 1 and F<sub>2</sub> = 1.
+  Consider the infinite polynomial series A<sub>F</sub>(_x_) = _x_F<sub>1</sub> + _x_<sup>2</sup>F<sub>2</sub> + _x_<sup>3</sup>F<sub>3</sub> + ..., where F<sub><i>k</i></sub> is the _k_th term in the Fibonacci sequence: 1, 1, 2, 3, 5, 8, ... ; that is, F<sub><i>k</i></sub> = F<sub><i>k</i>−1</sub> + F<sub><i>k</i>−2</sub>, F<sub>1</sub> = 1 and F<sub>2</sub> = 1.
 
   For this problem we shall be interested in values of _x_ for which A<sub>F</sub>(_x_) is a positive integer.
 
-  | Surprisingly A<sub>F</sub>(1/2) |  =  | (1/2).1 + (1/2)<sup>2</sup>.1 + (1/2)<sup>3</sup>.2 + (1/2)<sup>4</sup>.3 + (1/2)<sup>5</sup>.5 + ... |
-  |   |  =  | 1/2 + 1/4 + 2/8 + 3/16 + 5/32 + ... |
-  |   |  =  | 2 |
+  | Surprisingly A<sub>F</sub>(1/2) | &nbsp;=&nbsp; | (1/2).1 + (1/2)<sup>2</sup>.1 + (1/2)<sup>3</sup>.2 + (1/2)<sup>4</sup>.3 + (1/2)<sup>5</sup>.5 + ... |
+  | &nbsp; | &nbsp;=&nbsp; | 1/2 + 1/4 + 2/8 + 3/16 + 5/32 + ... |
+  | &nbsp; | &nbsp;=&nbsp; | 2 |
 
   The corresponding values of _x_ for the first five natural numbers are shown below.
 
   | **_x_** | **A<sub>F</sub>(_x_)** |
-  | ![√]({{ images_dir }}/symbol_radic.gif)2 ![−]({{ images_dir }}/symbol_minus.gif)1 | 1 |
+  | √2−1 | 1 |
   | 1/2 | 2 |
-  | ( ![√]({{ images_dir }}/symbol_radic.gif)13 ![−]({{ images_dir }}/symbol_minus.gif)2)/3 | 3 |
-  | ( ![√]({{ images_dir }}/symbol_radic.gif)89 ![−]({{ images_dir }}/symbol_minus.gif)5)/8 | 4 |
-  | ( ![√]({{ images_dir }}/symbol_radic.gif)34 ![−]({{ images_dir }}/symbol_minus.gif)3)/5 | 5 |
+  | (√13−2)/3 | 3 |
+  | (√89−5)/8 | 4 |
+  | (√34−3)/5 | 5 |
 
   We shall call A<sub>F</sub>(_x_) a golden nugget if _x_ is rational, because they become increasingly rarer; for example, the 10th golden nugget is 74049690.
 

@@ -1,14 +1,13 @@
 ---
 :id: 386
 :name: Maximum length of an antichain
-:url: http://projecteuler.net/problem=386
+:url: https://projecteuler.net/problem=386
 :content: "Let <var>n</var> be an integer and <var>S</var>(<var>n</var>) be the set
   of factors of <var>n</var>.\n\nA subset <var>A</var> of <var>S</var>(<var>n</var>)
   is called an **antichain** of <var>S</var>(<var>n</var>) if <var>A</var> contains
   only one element or if none of the elements of <var>A</var> divides any of the other
   elements of <var>A</var>.\n\nFor example: <var>S</var>(30) = {1, 2, 3, 5, 6, 10,
-  15, 30}\r  \n{2, 5, 6} is not an antichain of <var>S</var>(30).\r  \n{2, 3, 5} is
-  an antichain of <var>S</var>(30).\n\nLet <var>N</var>(<var>n</var>) be the maximum
+  15, 30}  \n{2, 5, 6} is not an antichain of <var>S</var>(30).  \n{2, 3, 5} is an
+  antichain of <var>S</var>(30).\n\nLet <var>N</var>(<var>n</var>) be the maximum
   length of an antichain of <var>S</var>(<var>n</var>).\n\nFind Σ<var>N</var>(<var>n</var>)
-  for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif)
-  10<sup>8</sup>\n\n"
+  for 1 ≤ <var>n</var> ≤ 10<sup>8</sup>\n\n"

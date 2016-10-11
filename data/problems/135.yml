@@ -1,11 +1,11 @@
 ---
 :id: 135
 :name: Same differences
-:url: http://projecteuler.net/problem=135
+:url: https://projecteuler.net/problem=135
 :content: |+
-  Given the positive integers, _x_, _y_, and _z_, are consecutive terms of an arithmetic progression, the least value of the positive integer, _n_, for which the equation, _x_<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) _y_<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) _z_<sup>2</sup> = _n_, has exactly two solutions is _n_ = 27:
+  Given the positive integers, _x_, _y_, and _z_, are consecutive terms of an arithmetic progression, the least value of the positive integer, _n_, for which the equation, _x_<sup>2</sup> − _y_<sup>2</sup> − _z_<sup>2</sup> = _n_, has exactly two solutions is _n_ = 27:
 
-  34<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) 27<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) 20<sup>2</sup> = 12<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) 9<sup>2</sup> ![−]({{ images_dir }}/symbol_minus.gif) 6<sup>2</sup> = 27
+  34<sup>2</sup> − 27<sup>2</sup> − 20<sup>2</sup> = 12<sup>2</sup> − 9<sup>2</sup> − 6<sup>2</sup> = 27
 
   It turns out that _n_ = 1155 is the least value which has exactly ten solutions.
 

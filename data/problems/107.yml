@@ -1,19 +1,19 @@
 ---
 :id: 107
 :name: Minimal network
-:url: http://projecteuler.net/problem=107
+:url: https://projecteuler.net/problem=107
 :content: "The following undirected network consists of seven vertices and twelve
-  edges with a total weight of 243.\n\n ![]({{ images_dir }}/p_107_1.gif)  \n\nThe
-  same network can be represented by the matrix below.\n\n|      | **A** | **B** |
-  **C** | **D** | **E** | **F** | **G** |\n| **A** | - | 16 | 12 | 21 | - | - | -
-  |\n| **B** | 16 | - | - | 17 | 20 | - | - |\n| **C** | 12 | - | - | 28 | - | 31
-  | - |\n| **D** | 21 | 17 | 28 | - | 18 | 19 | 23 |\n| **E** | - | 20 | - | 18 |
-  - | - | 11 |\n| **F** | - | - | 31 | 19 | - | - | 27 |\n| **G** | - | - | - | 23
-  | 11 | 27 | - |\n\nHowever, it is possible to optimise the network by removing some
-  edges and still ensure that all points on the network remain connected. The network
-  which achieves the maximum saving is shown below. It has a weight of 93, representing
-  a saving of 243 ![−]({{ images_dir }}/symbol_minus.gif) 93 = 150 from the original
-  network.\n\n ![]({{ images_dir }}/p_107_2.gif)  \n\nUsing [network.txt](project/network.txt)
+  edges with a total weight of 243.\n\n ![]({{ images_dir }}/p107_1.gif)  \n\nThe
+  same network can be represented by the matrix below.\n\n| &nbsp;&nbsp;&nbsp;&nbsp;
+  | **A** | **B** | **C** | **D** | **E** | **F** | **G** |\n| **A** | - | 16 | 12
+  | 21 | - | - | - |\n| **B** | 16 | - | - | 17 | 20 | - | - |\n| **C** | 12 | - |
+  - | 28 | - | 31 | - |\n| **D** | 21 | 17 | 28 | - | 18 | 19 | 23 |\n| **E** | -
+  | 20 | - | 18 | - | - | 11 |\n| **F** | - | - | 31 | 19 | - | - | 27 |\n| **G**
+  | - | - | - | 23 | 11 | 27 | - |\n\nHowever, it is possible to optimise the network
+  by removing some edges and still ensure that all points on the network remain connected.
+  The network which achieves the maximum saving is shown below. It has a weight of
+  93, representing a saving of 243 − 93 = 150 from the original network.\n\n ![]({{
+  images_dir }}/p107_2.gif)  \n\nUsing [network.txt](project/resources/p107_network.txt)
   (right click and 'Save Link/Target As...'), a 6K text file containing a network
   with forty vertices, and given in matrix form, find the maximum saving which can
   be achieved by removing redundant edges whilst ensuring that the network remains

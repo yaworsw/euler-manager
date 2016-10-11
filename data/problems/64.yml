@@ -1,49 +1,35 @@
 ---
 :id: 64
 :name: Odd period square roots
-:url: http://projecteuler.net/problem=64
+:url: https://projecteuler.net/problem=64
 :content: "All square roots are periodic when written as continued fractions and can
-  be written in the form:\n\n| ![√]({{ images_dir }}/symbol_radic.gif)<var>N</var>
-  = <var>a</var><sub>0</sub> + | \n1\n |\n|   | <var>a</var><sub>1</sub> + | \n1\n
-  |\n|   |   | <var>a</var><sub>2</sub> + | \n1\n |\n|   |   |   | <var>a</var><sub>3</sub>
-  + ... |\n\nFor example, let us consider ![√]({{ images_dir }}/symbol_radic.gif)23:\n\n|
-  ![√]({{ images_dir }}/symbol_radic.gif)23 = 4 + ![√]({{ images_dir }}/symbol_radic.gif)23
-  — 4 = 4 +  | \n1\n |  = 4 +  | \n1\n |\n|   | \n1  \n ![√]({{ images_dir }}/symbol_radic.gif)23—4\n
-  |   | 1 +  | \n ![√]({{ images_dir }}/symbol_radic.gif)23 – 3  \n7\n |\n\nIf we
-  continue we would get the following expansion:\n\n| ![√]({{ images_dir }}/symbol_radic.gif)23
-  = 4 + | \n1\n |\n|   | 1 + | \n1\n |\n|   |   | 3 + | \n1\n |\n|   |   |   | 1 +
-  | \n1\n |\n|   |   |   |   | 8 + ... |\n\nThe process can be summarised as follows:\n\n|
-  <var>a</var><sub>0</sub> = 4, |   | \n1  \n ![√]({{ images_dir }}/symbol_radic.gif)23—4\n
-  |  =  | \n ![√]({{ images_dir }}/symbol_radic.gif)23+4  \n7\n |  = 1 +  | \n ![√]({{
-  images_dir }}/symbol_radic.gif)23—3  \n7\n |\n| <var>a</var><sub>1</sub> = 1, |
-    | \n7  \n ![√]({{ images_dir }}/symbol_radic.gif)23—3\n |  =  | \n7( ![√]({{ images_dir
-  }}/symbol_radic.gif)23+3)  \n14\n |  = 3 +  | \n ![√]({{ images_dir }}/symbol_radic.gif)23—3
-  \ \n2\n |\n| <var>a</var><sub>2</sub> = 3, |   | \n2  \n ![√]({{ images_dir }}/symbol_radic.gif)23—3\n
-  |  =  | \n2( ![√]({{ images_dir }}/symbol_radic.gif)23+3)  \n14\n |  = 1 +  | \n
-  ![√]({{ images_dir }}/symbol_radic.gif)23—4  \n7\n |\n| <var>a</var><sub>3</sub>
-  = 1, |   | \n7  \n ![√]({{ images_dir }}/symbol_radic.gif)23—4\n |  =  | \n7( ![√]({{
-  images_dir }}/symbol_radic.gif)23+4)  \n7\n |  = 8 +  | ![√]({{ images_dir }}/symbol_radic.gif)23—4
-  |\n| <var>a</var><sub>4</sub> = 8, |   | \n1  \n ![√]({{ images_dir }}/symbol_radic.gif)23—4\n
-  |  =  | \n ![√]({{ images_dir }}/symbol_radic.gif)23+4  \n7\n |  = 1 +  | \n ![√]({{
-  images_dir }}/symbol_radic.gif)23—3  \n7\n |\n| <var>a</var><sub>5</sub> = 1, |
-    | \n7  \n ![√]({{ images_dir }}/symbol_radic.gif)23—3\n |  =  | \n7( ![√]({{ images_dir
-  }}/symbol_radic.gif)23+3)  \n14\n |  = 3 +  | \n ![√]({{ images_dir }}/symbol_radic.gif)23—3
-  \ \n2\n |\n| <var>a</var><sub>6</sub> = 3, |   | \n2  \n ![√]({{ images_dir }}/symbol_radic.gif)23—3\n
-  |  =  | \n2( ![√]({{ images_dir }}/symbol_radic.gif)23+3)  \n14\n |  = 1 +  | \n
-  ![√]({{ images_dir }}/symbol_radic.gif)23—4  \n7\n |\n| <var>a</var><sub>7</sub>
-  = 1, |   | \n7  \n ![√]({{ images_dir }}/symbol_radic.gif)23—4\n |  =  | \n7( ![√]({{
-  images_dir }}/symbol_radic.gif)23+4)  \n7\n |  = 8 +  | ![√]({{ images_dir }}/symbol_radic.gif)23—4
-  |\n\nIt can be seen that the sequence is repeating. For conciseness, we use the
-  notation ![√]({{ images_dir }}/symbol_radic.gif)23 = [4;(1,3,1,8)], to indicate
+  be written in the form:\n\n| √<var>N</var> = <var>a</var><sub>0</sub> + | \n1\n
+  |\n| &nbsp; | <var>a</var><sub>1</sub> + | \n1\n |\n| &nbsp; | &nbsp; | <var>a</var><sub>2</sub>
+  + | \n1\n |\n| &nbsp; | &nbsp; | &nbsp; | <var>a</var><sub>3</sub> + ... |\n\nFor
+  example, let us consider √23:\n\n| √23 = 4 + √23 — 4 = 4 +&nbsp; | \n1\n | &nbsp;=
+  4 +&nbsp; | \n1\n |\n| &nbsp; | \n1  \n√23—4\n | &nbsp; | 1 +&nbsp; | \n√23 – 3
+  \ \n7\n |\n\nIf we continue we would get the following expansion:\n\n| √23 = 4 +
+  | \n1\n |\n| &nbsp; | 1 + | \n1\n |\n| &nbsp; | &nbsp; | 3 + | \n1\n |\n| &nbsp;
+  | &nbsp; | &nbsp; | 1 + | \n1\n |\n| &nbsp; | &nbsp; | &nbsp; | &nbsp; | 8 + ...
+  |\n\nThe process can be summarised as follows:\n\n| <var>a</var><sub>0</sub> = 4,
+  | &nbsp; | \n1  \n√23—4\n | &nbsp;=&nbsp; | \n√23+4  \n7\n | &nbsp;=&nbsp;1 +&nbsp;
+  | \n√23—3  \n7\n |\n| <var>a</var><sub>1</sub> = 1, | &nbsp; | \n7  \n√23—3\n |
+  &nbsp;=&nbsp; | \n7(√23+3)  \n14\n | &nbsp;=&nbsp;3 +&nbsp; | \n√23—3  \n2\n |\n|
+  <var>a</var><sub>2</sub> = 3, | &nbsp; | \n2  \n√23—3\n | &nbsp;=&nbsp; | \n2(√23+3)
+  \ \n14\n | &nbsp;=&nbsp;1 +&nbsp; | \n√23—4  \n7\n |\n| <var>a</var><sub>3</sub>
+  = 1, | &nbsp; | \n7  \n√23—4\n | &nbsp;=&nbsp; | \n7(√23+4)  \n7\n | &nbsp;=&nbsp;8
+  +&nbsp; | √23—4 |\n| <var>a</var><sub>4</sub> = 8, | &nbsp; | \n1  \n√23—4\n | &nbsp;=&nbsp;
+  | \n√23+4  \n7\n | &nbsp;=&nbsp;1 +&nbsp; | \n√23—3  \n7\n |\n| <var>a</var><sub>5</sub>
+  = 1, | &nbsp; | \n7  \n√23—3\n | &nbsp;=&nbsp; | \n7(√23+3)  \n14\n | &nbsp;=&nbsp;3
+  +&nbsp; | \n√23—3  \n2\n |\n| <var>a</var><sub>6</sub> = 3, | &nbsp; | \n2  \n√23—3\n
+  | &nbsp;=&nbsp; | \n2(√23+3)  \n14\n | &nbsp;=&nbsp;1 +&nbsp; | \n√23—4  \n7\n |\n|
+  <var>a</var><sub>7</sub> = 1, | &nbsp; | \n7  \n√23—4\n | &nbsp;=&nbsp; | \n7(√23+4)
+  \ \n7\n | &nbsp;=&nbsp;8 +&nbsp; | √23—4 |\n\nIt can be seen that the sequence is
+  repeating. For conciseness, we use the notation √23 = [4;(1,3,1,8)], to indicate
   that the block (1,3,1,8) repeats indefinitely.\n\nThe first ten continued fraction
-  representations of (irrational) square roots are:\n\n![√]({{ images_dir }}/symbol_radic.gif)2=[1;(2)],
-  period=1  \n ![√]({{ images_dir }}/symbol_radic.gif)3=[1;(1,2)], period=2  \n ![√]({{
-  images_dir }}/symbol_radic.gif)5=[2;(4)], period=1  \n ![√]({{ images_dir }}/symbol_radic.gif)6=[2;(2,4)],
-  period=2  \n ![√]({{ images_dir }}/symbol_radic.gif)7=[2;(1,1,1,4)], period=4  \n
-  ![√]({{ images_dir }}/symbol_radic.gif)8=[2;(1,4)], period=2  \n ![√]({{ images_dir
-  }}/symbol_radic.gif)10=[3;(6)], period=1  \n ![√]({{ images_dir }}/symbol_radic.gif)11=[3;(3,6)],
-  period=2  \n ![√]({{ images_dir }}/symbol_radic.gif)12= [3;(2,6)], period=2  \n
-  ![√]({{ images_dir }}/symbol_radic.gif)13=[3;(1,1,1,1,6)], period=5\n\nExactly four
-  continued fractions, for <var>N</var> ![≤]({{ images_dir }}/symbol_le.gif) 13, have
-  an odd period.\n\nHow many continued fractions for <var>N</var> ![≤]({{ images_dir
-  }}/symbol_le.gif) 10000 have an odd period?\n\n"
+  representations of (irrational) square roots are:\n\n√2=[1;(2)], period=1  \n√3=[1;(1,2)],
+  period=2  \n√5=[2;(4)], period=1  \n√6=[2;(2,4)], period=2  \n√7=[2;(1,1,1,4)],
+  period=4  \n√8=[2;(1,4)], period=2  \n√10=[3;(6)], period=1  \n√11=[3;(3,6)], period=2
+  \ \n√12= [3;(2,6)], period=2  \n√13=[3;(1,1,1,1,6)], period=5\n\nExactly four continued
+  fractions, for <var>N</var> ≤ 13, have an odd period.\n\nHow many continued fractions
+  for <var>N</var> ≤ 10000 have an odd period?\n\n"

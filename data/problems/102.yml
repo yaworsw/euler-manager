@@ -1,14 +1,13 @@
 ---
 :id: 102
 :name: Triangle containment
-:url: http://projecteuler.net/problem=102
+:url: https://projecteuler.net/problem=102
 :content: "Three distinct points are plotted at random on a Cartesian plane, for which
-  -1000 ![≤]({{ images_dir }}/symbol_le.gif) _x_, _y_ ![≤]({{ images_dir }}/symbol_le.gif)
-  1000, such that a triangle is formed.\n\nConsider the following two triangles:\n\nA(-340,495),
-  B(-153,-910), C(835,-947)  \n  \n  \nX(-175,41), Y(-421,-714), Z(574,-645)\n\nIt
-  can be verified that triangle ABC contains the origin, whereas triangle XYZ does
-  not.\n\nUsing [triangles.txt](project/triangles.txt) (right click and 'Save Link/Target
-  As...'), a 27K text file containing the co-ordinates of one thousand \"random\"
-  triangles, find the number of triangles for which the interior contains the origin.\n\nNOTE:
-  The first two examples in the file represent the triangles in the example given
-  above.\n\n"
+  -1000 ≤ _x_, _y_ ≤ 1000, such that a triangle is formed.\n\nConsider the following
+  two triangles:\n\nA(-340,495), B(-153,-910), C(835,-947)  \n  \nX(-175,41), Y(-421,-714),
+  Z(574,-645)\n\nIt can be verified that triangle ABC contains the origin, whereas
+  triangle XYZ does not.\n\nUsing [triangles.txt](project/resources/p102_triangles.txt)
+  (right click and 'Save Link/Target As...'), a 27K text file containing the co-ordinates
+  of one thousand \"random\" triangles, find the number of triangles for which the
+  interior contains the origin.\n\nNOTE: The first two examples in the file represent
+  the triangles in the example given above.\n\n"

@@ -1,19 +1,20 @@
 ---
 :id: 228
 :name: Minkowski Sums
-:url: http://projecteuler.net/problem=228
-:content: "Let <var>S</var><sub>n</sub> be the regular <var>n</var>-sided polygon
-  – or _shape_ – whose vertices \r\r<var>v</var><sub><var>k</var></sub> (<var>k</var> = 1,2,…,<var>n</var>)
-  have coordinates:\n\n| | <var>x</var><sub><var>k</var></sub>   =  \r cos( <sup>2<var>k</var>-1</sup>/<sub><var>n</var></sub>
-  ![×]({{ images_dir }}/symbol_times.gif)180° ) |\n| | <var>y</var><sub><var>k</var></sub>   =
-   \r sin( <sup>2<var>k</var>-1</sup>/<sub><var>n</var></sub> ![×]({{ images_dir }}/symbol_times.gif)180° )
-  |\n\nEach <var>S</var><sub><var>n</var></sub> is to be interpreted as a filled shape
-  consisting of all points on the perimeter and in the interior.\n\nThe _Minkowski
-  sum_, <var>S</var>+<var>T</var>, of two shapes <var>S</var> and <var>T</var> is
-  the result of \r\radding every point in <var>S</var> to every point in <var>T</var>,
-  where point addition is performed coordinate-wise: \r\r(<var>u</var>, <var>v</var>)
-  + (<var>x</var>, <var>y</var>) = (<var>u</var>+<var>x</var>, <var>v</var>+<var>y</var>).\n\nFor
-  example, the sum of <var>S</var><sub>3</sub> and <var>S</var><sub>4</sub> is the
-  six-sided shape shown in pink below:\n\n ![picture showing S_3 + S_4]({{ images_dir
-  }}/p_228.png)\n\nHow many sides does <var>S</var><sub>1864</sub> + <var>S</var><sub>1865</sub> + … + <var>S</var><sub>1909</sub>
-  have?\n\n"
+:url: https://projecteuler.net/problem=228
+:content: |+
+  Let <var>S</var><sub>n</sub> be the regular <var>n</var>-sided polygon – or _shape_ – whose vertices <var>v</var><sub><var>k</var></sub> (<var>k</var> = 1,2,…,<var>n</var>) have coordinates:
+
+  | | <var>x</var><sub><var>k</var></sub>&nbsp; &nbsp;=   cos( <sup>2<var>k</var>-1</sup>/<sub><var>n</var></sub> ×180° ) |
+  | | <var>y</var><sub><var>k</var></sub>&nbsp; &nbsp;= &nbsp; sin( <sup>2<var>k</var>-1</sup>/<sub><var>n</var></sub> ×180° ) |
+
+  Each <var>S</var><sub><var>n</var></sub> is to be interpreted as a filled shape consisting of all points on the perimeter and in the interior.
+
+  The _Minkowski sum_, <var>S</var>+<var>T</var>, of two shapes <var>S</var> and <var>T</var> is the result of adding every point in <var>S</var> to every point in <var>T</var>, where point addition is performed coordinate-wise: (<var>u</var>, <var>v</var>) + (<var>x</var>, <var>y</var>) = (<var>u</var>+<var>x</var>, <var>v</var>+<var>y</var>).
+
+  For example, the sum of <var>S</var><sub>3</sub> and <var>S</var><sub>4</sub> is the six-sided shape shown in pink below:
+
+   ![picture showing S_3 + S_4]({{ images_dir }}/p228.png)
+
+  How many sides does <var>S</var><sub>1864</sub> + <var>S</var><sub>1865</sub> + … + <var>S</var><sub>1909</sub> have?
+

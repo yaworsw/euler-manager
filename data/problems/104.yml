@@ -1,11 +1,11 @@
 ---
 :id: 104
 :name: Pandigital Fibonacci ends
-:url: http://projecteuler.net/problem=104
+:url: https://projecteuler.net/problem=104
 :content: |+
   The Fibonacci sequence is defined by the recurrence relation:
 
-  > F<sub><i>n</i></sub> = F<sub><i>n</i><img src="%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif" width="9" height="3" alt="−" border="0" style="vertical-align:middle;">1</sub> + F<sub><i>n</i><img src="%7B%7B%20images_dir%20%7D%7D/symbol_minus.gif" width="9" height="3" alt="−" border="0" style="vertical-align:middle;">2</sub>, where F<sub>1</sub> = 1 and F<sub>2</sub> = 1.
+  > F<sub><i>n</i></sub> = F<sub><i>n</i>−1</sub> + F<sub><i>n</i>−2</sub>, where F<sub>1</sub> = 1 and F<sub>2</sub> = 1.
 
   It turns out that F<sub>541</sub>, which contains 113 digits, is the first Fibonacci number for which the last nine digits are 1-9 pandigital (contain all the digits 1 to 9, but not necessarily in order). And F<sub>2749</sub>, which contains 575 digits, is the first Fibonacci number for which the first nine digits are 1-9 pandigital.
 
