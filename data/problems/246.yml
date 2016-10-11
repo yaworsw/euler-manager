@@ -1,15 +1,14 @@
 ---
 :id: 246
 :name: Tangents to an ellipse
-:url: http://projecteuler.net/problem=246
-:content: "A definition for an ellipse is:  \n\rGiven a circle c with centre M and
-  radius r and a point G such that d(G,M) ![<]({{ images_dir }}/symbol_lt.gif)r, the
-  locus of the points that are equidistant from c and G form an ellipse.\n\n\rThe
-  construction of the points of the ellipse is shown below.\r\r\n ![]({{ images_dir
-  }}/p_246_anim.gif)\n\nGiven are the points M(-2000,1500) and G(8000,1500).  \n \rGiven
-  is also the circle c with centre M and radius 15000.  \n\rThe locus of the points
-  that are equidistant from G and c form an ellipse e.  \n\rFrom a point P outside
-  e the two tangents t<sub>1</sub> and t<sub>2</sub> to the ellipse are drawn.  \n\rLet
-  the points where t<sub>1</sub> and t<sub>2</sub> touch the ellipse be R and S.\n\n
-  ![]({{ images_dir }}/p_246_ellipse.gif)\n\nFor how many lattice points P is angle
-  RPS greater than 45 degrees?\n\n"
+:url: https://projecteuler.net/problem=246
+:content: "A definition for an ellipse is:  \nGiven a circle c with centre M and radius
+  r and a point G such that d(G,M)\\<r, the locus of the points that are equidistant
+  from c and G form an ellipse.\n\nThe construction of the points of the ellipse is
+  shown below.\n ![]({{ images_dir }}/p246_anim.gif)\n\nGiven are the points M(-2000,1500)
+  and G(8000,1500).  \n Given is also the circle c with centre M and radius 15000.
+  \ \nThe locus of the points that are equidistant from G and c form an ellipse e.
+  \ \nFrom a point P outside e the two tangents t<sub>1</sub> and t<sub>2</sub> to
+  the ellipse are drawn.  \nLet the points where t<sub>1</sub> and t<sub>2</sub> touch
+  the ellipse be R and S.\n\n ![]({{ images_dir }}/p246_ellipse.gif)\n\nFor how many
+  lattice points P is angle RPS greater than 45 degrees?\n\n"

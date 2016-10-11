@@ -1,15 +1,15 @@
 ---
 :id: 194
 :name: Coloured Configurations
-:url: http://projecteuler.net/problem=194
-:content: "Consider graphs built with the units A: ![]({{ images_dir }}/p_194_GraphA.png)\rand
-  B: ![]({{ images_dir }}/p_194_GraphB.png), where the units are glued along\rthe
-  vertical edges as in the graph ![]({{ images_dir }}/p_194_Fig.png).\n\nA configuration
-  of type (<var>a</var>,<var>b</var>,<var>c</var>) is a graph thus built of <var>a</var>
+:url: https://projecteuler.net/problem=194
+:content: "Consider graphs built with the units A: ![]({{ images_dir }}/p194_GraphA.png)and
+  B: ![]({{ images_dir }}/p194_GraphB.png), where the units are glued along the vertical
+  edges as in the graph ![]({{ images_dir }}/p194_Fig.png).\n\nA configuration of
+  type (<var>a</var>,<var>b</var>,<var>c</var>) is a graph thus built of <var>a</var>
   units A and <var>b</var> units B, where the graph's vertices are coloured using
   up to <var>c</var> colours, so that no two adjacent vertices have the same colour.
-  \ \n\rThe compound graph above is an example of a configuration of type (2,2,6),
-  in fact of type (2,2,<var>c</var>) for all <var>c</var> ![≥]({{ images_dir }}/symbol_ge.gif)
-  4.\n\nLet N(<var>a</var>,<var>b</var>,<var>c</var>) be the number of configurations
-  of type (<var>a</var>,<var>b</var>,<var>c</var>).  \n\rFor example, N(1,0,3) = 24,
-  N(0,2,4) = 92928 and N(2,2,3) = 20736.\n\nFind the last 8 digits of N(25,75,1984).\n\n"
+  \ \nThe compound graph above is an example of a configuration of type (2,2,6), in
+  fact of type (2,2,<var>c</var>) for all <var>c</var> ≥ 4.\n\nLet N(<var>a</var>,<var>b</var>,<var>c</var>)
+  be the number of configurations of type (<var>a</var>,<var>b</var>,<var>c</var>).
+  \ \nFor example, N(1,0,3) = 24, N(0,2,4) = 92928 and N(2,2,3) = 20736.\n\nFind the
+  last 8 digits of N(25,75,1984).\n\n"

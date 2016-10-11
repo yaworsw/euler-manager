@@ -1,9 +1,10 @@
 ---
 :id: 356
 :name: Largest roots of cubic polynomials
-:url: http://projecteuler.net/problem=356
+:url: https://projecteuler.net/problem=356
 :content: "Let <var>a</var><sub><var>n</var></sub> be the largest real root of a polynomial
   <var>g</var>(x) = x<sup>3</sup> - 2<sup><var>n</var></sup>·x<sup>2</sup> + <var>n</var>.
-  \ \n\rFor example, <var>a</var><sub>2</sub> = 3.86619826...\n\nFind the last eight
-  digits of ![]({{ images_dir }}/p_356_cubicpoly1.gif).\n\n<u><i>Note</i></u>: ![]({{
-  images_dir }}/p_356_cubicpoly2.gif) represents the floor function.\n\n"
+  \ \nFor example, <var>a</var><sub>2</sub> = 3.86619826...\n\nFind the last eight
+  digits of ![p356_cubicpoly1.gif]({{ images_dir }}/p356_cubicpoly1.gif).\n\n<u><i>Note</i></u>:
+  ![p356_cubicpoly2.gif]({{ images_dir }}/p356_cubicpoly2.gif) represents the floor
+  function.\n\n"

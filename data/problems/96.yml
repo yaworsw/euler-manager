@@ -1,7 +1,7 @@
 ---
 :id: 96
 :name: Su Doku
-:url: http://projecteuler.net/problem=96
+:url: https://projecteuler.net/problem=96
 :content: "Su Doku (Japanese meaning _number place_) is the name given to a popular
   puzzle concept. Its origin is unclear, but credit must be attributed to Leonhard
   Euler who invented a similar, and much more difficult, puzzle idea called Latin
@@ -20,11 +20,9 @@
   to eliminate options (there is much contested opinion over this). The complexity
   of the search determines the difficulty of the puzzle; the example above is considered
   _easy_ because it can be solved by straight forward direct deduction.\n\nThe 6K
-  text file, [sudoku.txt](project/sudoku.txt) (right click and 'Save Link/Target As...'),
-  contains fifty different Su Doku puzzles ranging in difficulty, but all with unique
-  solutions (the first puzzle in the file is the example above).\n\nBy solving all
-  fifty puzzles find the sum of the 3-digit numbers found in the top left corner of
-  each solution grid; for example, 483 is the 3-digit number found in the top left
-  corner of the solution grid above.\n\n<!--<p class='info'>Note: If you're convinced
-  that &quot;guess and test&quot; methods need not be employed please tell how you
-  would solve #6 and #46. (c;</p>-->\n"
+  text file, [sudoku.txt](project/resources/p096_sudoku.txt) (right click and 'Save
+  Link/Target As...'), contains fifty different Su Doku puzzles ranging in difficulty,
+  but all with unique solutions (the first puzzle in the file is the example above).\n\nBy
+  solving all fifty puzzles find the sum of the 3-digit numbers found in the top left
+  corner of each solution grid; for example, 483 is the 3-digit number found in the
+  top left corner of the solution grid above.\n\n"

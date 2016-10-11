@@ -1,13 +1,11 @@
 ---
 :id: 81
 :name: 'Path sum: two ways'
-:url: http://projecteuler.net/problem=81
-:content: "In the 5 by 5 matrix below, the minimal path sum from the top left to the
-  bottom right, by **only moving to the right and down** , is indicated in bold red
-  and is equal to 2427.\n\n| ![]({{ images_dir }}/bracket_left.gif)  \n | \n\n| **131**
-  | 673 | 234 | 103 | 18 |\n| **201** | **96** | **342** | 965 | 150 |\n| 630 | 803
-  | **746** | **422** | 111 |\n| 537 | 699 | 497 | **121** | 956 |\n| 805 | 732 |
-  524 | **37** | **331** |\n\n | ![]({{ images_dir }}/bracket_right.gif)  \n |\n\nFind
-  the minimal path sum, in [matrix.txt](project/matrix.txt) (right click and 'Save
-  Link/Target As...'), a 31K text file containing a 80 by 80 matrix, from the top
-  left to the bottom right by only moving right and down.\n\n"
+:url: https://projecteuler.net/problem=81
+:content: |+
+  In the 5 by 5 matrix below, the minimal path sum from the top left to the bottom right, by **only moving to the right and down** , is indicated in bold red and is equal to 2427.
+
+  $$ \begin{pmatrix} \color{red}{131} & 673 & 234 & 103 & 18\\ \color{red}{201} & \color{red}{96} & \color{red}{342} & 965 & 150\\ 630 & 803 & \color{red}{746} & \color{red}{422} & 111\\ 537 & 699 & 497 & \color{red}{121} & 956\\ 805 & 732 & 524 & \color{red}{37} & \color{red}{331} \end{pmatrix} $$
+
+  Find the minimal path sum, in [matrix.txt](project/resources/p081_matrix.txt) (right click and "Save Link/Target As..."), a 31K text file containing a 80 by 80 matrix, from the top left to the bottom right by only moving right and down.
+

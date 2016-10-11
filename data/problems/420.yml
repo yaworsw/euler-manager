@@ -1,12 +1,12 @@
 ---
 :id: 420
 :name: 2x2 positive integer matrix
-:url: http://projecteuler.net/problem=420
+:url: https://projecteuler.net/problem=420
 :content: "A _positive integer matrix_ is a matrix whose elements are all positive
-  integers.  \n\rSome positive integer matrices can be expressed as a square of a
-  positive integer matrix in two different ways. Here is an example:\n\n ![]({{ images_dir
-  }}/p_420_matrix.gif)\n\nWe define F(<var>N</var>) as the number of the 2x2 positive
-  integer matrices which have a <dfn title=\"the sum of the elements on the main diagonal\">trace</dfn>
-  less than <var>N</var> and which can be expressed as a square of a positive integer
-  matrix in two different ways.  \n\rWe can verify that F(50) = 7 and F(1000) = 1019.\n\nFind
-  F(10<sup>7</sup>).\n\n"
+  integers.  \nSome positive integer matrices can be expressed as a square of a positive
+  integer matrix in two different ways. Here is an example:\n\n ![p420_matrix.gif]({{
+  images_dir }}/p420_matrix.gif)\n\nWe define F(<var>N</var>) as the number of the
+  2x2 positive integer matrices which have a <dfn title=\"the sum of the elements
+  on the main diagonal\">trace</dfn> less than <var>N</var> and which can be expressed
+  as a square of a positive integer matrix in two different ways.  \nWe can verify
+  that F(50) = 7 and F(1000) = 1019.\n\nFind F(10<sup>7</sup>).\n\n"

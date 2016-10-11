@@ -1,22 +1,19 @@
 ---
 :id: 366
 :name: Stone Game III
-:url: http://projecteuler.net/problem=366
-:content: "Two players, Anton and Bernhard, are playing the following game.  \n\rThere
-  is one pile of n stones.  \n\rThe first player may remove any positive number of
-  stones, but not the whole pile.  \n\rThereafter, each player may remove at most
-  twice the number of stones his opponent took on the previous move.  \n\rThe player
-  who removes the last stone wins.\n\nE.g. n=5  \n\rIf the first player takes anything
-  more than one stone the next player will be able to take all remaining stones.  \n\rIf
-  the first player takes one stone, leaving four, his opponent will take also one
-  stone, leaving three stones.  \n\rThe first player cannot take all three because
-  he may take at most 2x1=2 stones. So let's say he takes also one stone, leaving
-  2. The second player can take the two remaining stones and wins.  \n\rSo 5 is a
-  losing position for the first player.  \n\rFor some winning positions there is more
-  than one possible move for the first player.  \n\rE.g. when n=17 the first player
-  can remove one or four stones.\n\nLet M(n) be the maximum number of stones the first
-  player can take from a winning position _at his first turn_ and M(n)=0 for any other
-  position.\n\n![∑]({{ images_dir }}/symbol_sum.gif)M(n) for n ![≤]({{ images_dir
-  }}/symbol_le.gif)100 is 728.\n\nFind ![∑]({{ images_dir }}/symbol_sum.gif)M(n) for
-  n ![≤]({{ images_dir }}/symbol_le.gif)10<sup>18</sup>.\rGive your answer modulo
-  10<sup>8</sup>.\n\n"
+:url: https://projecteuler.net/problem=366
+:content: "Two players, Anton and Bernhard, are playing the following game.  \nThere
+  is one pile of n stones.  \nThe first player may remove any positive number of stones,
+  but not the whole pile.  \nThereafter, each player may remove at most twice the
+  number of stones his opponent took on the previous move.  \nThe player who removes
+  the last stone wins.\n\nE.g. n=5  \nIf the first player takes anything more than
+  one stone the next player will be able to take all remaining stones.  \nIf the first
+  player takes one stone, leaving four, his opponent will take also one stone, leaving
+  three stones.  \nThe first player cannot take all three because he may take at most
+  2x1=2 stones. So let's say he takes also one stone, leaving 2. The second player
+  can take the two remaining stones and wins.  \nSo 5 is a losing position for the
+  first player.  \nFor some winning positions there is more than one possible move
+  for the first player.  \nE.g. when n=17 the first player can remove one or four
+  stones.\n\nLet M(n) be the maximum number of stones the first player can take from
+  a winning position _at his first turn_ and M(n)=0 for any other position.\n\n∑M(n)
+  for n≤100 is 728.\n\nFind ∑M(n) for n≤10<sup>18</sup>. Give your answer modulo 10<sup>8</sup>.\n\n"

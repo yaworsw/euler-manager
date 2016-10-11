@@ -2,7 +2,6 @@
 :id: 164
 :name: Numbers for which no three consecutive digits have a sum greater than a given
   value
-:url: http://projecteuler.net/problem=164
-:content: |+
-  How many 20 digit numbers <var>n</var> (without any leading zero) exist such that no three consecutive digits of <var>n</var> have a sum greater than 9?
-
+:url: https://projecteuler.net/problem=164
+:content: "How many 20 digit numbers <var>n</var> (without any leading zero) exist
+  such that no three consecutive digits of <var>n</var> have a sum greater than 9?\n\n"

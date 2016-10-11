@@ -1,10 +1,10 @@
 ---
 :id: 28
 :name: Number spiral diagonals
-:url: http://projecteuler.net/problem=28
+:url: https://projecteuler.net/problem=28
 :content: "Starting with the number 1 and moving to the right in a clockwise direction
-  a 5 by 5 spiral is formed as follows:\n\n**21** 22 23 24 **25**  \n\r20   **7**
-   8   **9** 10  \n\r19  6   **1**  2 11  \n\r18   **5**  4   **3** 12  \n**17** 16
-  15 14 **13**\n\nIt can be verified that the sum of the numbers on the diagonals
-  is 101.\n\nWhat is the sum of the numbers on the diagonals in a 1001 by 1001 spiral
-  formed in the same way?\n\n"
+  a 5 by 5 spiral is formed as follows:\n\n**21** 22 23 24 **25**  \n20 &nbsp; **7**
+  &nbsp;8 &nbsp; **9** 10  \n19 &nbsp;6 &nbsp; **1** &nbsp;2 11  \n18 &nbsp; **5**
+  &nbsp;4 &nbsp; **3** 12  \n**17** 16 15 14 **13**\n\nIt can be verified that the
+  sum of the numbers on the diagonals is 101.\n\nWhat is the sum of the numbers on
+  the diagonals in a 1001 by 1001 spiral formed in the same way?\n\n"

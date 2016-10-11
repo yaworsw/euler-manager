@@ -1,21 +1,18 @@
 ---
 :id: 396
 :name: Weak Goodstein sequence
-:url: http://projecteuler.net/problem=396
+:url: https://projecteuler.net/problem=396
 :content: "For any positive integer n, the **nth weak Goodstein sequence** {g<sub>1</sub>,
   g<sub>2</sub>, g<sub>3</sub>, ...} is defined as:\n\n- g<sub>1</sub> = <var>n</var>\n-
-  for <var>k</var> ![>]({{ images_dir }}/symbol_gt.gif) 1, g<sub><var>k</var></sub>
-  is obtained by writing g<sub><var>k</var>-1</sub> in base <var>k</var>, interpreting
-  it as a base <var>k</var> + 1 number, and subtracting 1.\r\n\rThe sequence terminates
-  when g<sub><var>k</var></sub> becomes 0.\r\r\n\nFor example, the 6th weak Goodstein
-  sequence is {6, 11, 17, 25, ...}:\n\n- g<sub>1</sub> = 6.\r\n- g<sub>2</sub> = 11
-  since 6 = 110<sub>2</sub>, 110<sub>3</sub> = 12, and 12 - 1 = 11.\r\n- g<sub>3</sub>
-  = 17 since 11 = 102<sub>3</sub>, 102<sub>4</sub> = 18, and 18 - 1 = 17.\r\n- g<sub>4</sub>
-  = 25 since 17 = 101<sub>4</sub>, 101<sub>5</sub> = 26, and 26 - 1 = 25.\r\n\rand
-  so on.\r\r\n\nIt can be shown that every weak Goodstein sequence terminates.\n\nLet
-  G(<var>n</var>) be the number of nonzero elements in the <var>n</var>th weak Goodstein
-  sequence.  \n\rIt can be verified that G(2) = 3, G(4) = 21 and G(6) = 381.  \n\rIt
-  can also be verified that ΣG(<var>n</var>) = 2517 for 1 ![≤]({{ images_dir }}/symbol_le.gif)
-  <var>n</var> ![<]({{ images_dir }}/symbol_lt.gif) 8.\n\nFind the last 9 digits of
-  ΣG(<var>n</var>) for 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var> ![<]({{
-  images_dir }}/symbol_lt.gif) 16.\n\n"
+  for <var>k</var> \\> 1, g<sub><var>k</var></sub> is obtained by writing g<sub><var>k</var>-1</sub>
+  in base <var>k</var>, interpreting it as a base <var>k</var> + 1 number, and subtracting
+  1.\nThe sequence terminates when g<sub><var>k</var></sub> becomes 0.\n\nFor example,
+  the 6th weak Goodstein sequence is {6, 11, 17, 25, ...}:\n\n- g<sub>1</sub> = 6.\n-
+  g<sub>2</sub> = 11 since 6 = 110<sub>2</sub>, 110<sub>3</sub> = 12, and 12 - 1 =
+  11.\n- g<sub>3</sub> = 17 since 11 = 102<sub>3</sub>, 102<sub>4</sub> = 18, and
+  18 - 1 = 17.\n- g<sub>4</sub> = 25 since 17 = 101<sub>4</sub>, 101<sub>5</sub> =
+  26, and 26 - 1 = 25.\nand so on.\n\nIt can be shown that every weak Goodstein sequence
+  terminates.\n\nLet G(<var>n</var>) be the number of nonzero elements in the <var>n</var>th
+  weak Goodstein sequence.  \nIt can be verified that G(2) = 3, G(4) = 21 and G(6)
+  = 381.  \nIt can also be verified that ΣG(<var>n</var>) = 2517 for 1 ≤ <var>n</var>
+  \\< 8.\n\nFind the last 9 digits of ΣG(<var>n</var>) for 1 ≤ <var>n</var> \\< 16.\n\n"

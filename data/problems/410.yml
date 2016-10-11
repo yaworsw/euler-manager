@@ -1,15 +1,14 @@
 ---
 :id: 410
 :name: Circle and tangent line
-:url: http://projecteuler.net/problem=410
+:url: https://projecteuler.net/problem=410
 :content: "Let C be the circle with radius <var>r</var>, <var>x</var><sup>2</sup>
   + <var>y</var><sup>2</sup> = <var>r</var><sup>2</sup>. We choose two points P(<var>a</var>,
   <var>b</var>) and Q(-<var>a</var>, <var>c</var>) so that the line passing through
   P and Q is tangent to C.\n\nFor example, the quadruplet (<var>r</var>, <var>a</var>,
   <var>b</var>, <var>c</var>) = (2, 6, 2, -7) satisfies this property.\n\nLet F(<var>R</var>,
   <var>X</var>) be the number of the integer quadruplets (<var>r</var>, <var>a</var>,
-  <var>b</var>, <var>c</var>) with this property, and with 0 ![<]({{ images_dir }}/symbol_lt.gif)
-  <var>r</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>R</var> and 0 ![<]({{ images_dir
-  }}/symbol_lt.gif) <var>a</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>X</var>.\n\nWe
-  can verify that F(1, 5) = 10, F(2, 10) = 52 and F(10, 100) = 3384.  \n\rFind F(10<sup>8</sup>,
-  10<sup>9</sup>) + F(10<sup>9</sup>, 10<sup>8</sup>).\n\n"
+  <var>b</var>, <var>c</var>) with this property, and with 0 \\< <var>r</var> ≤ <var>R</var>
+  and 0 \\< <var>a</var> ≤ <var>X</var>.\n\nWe can verify that F(1, 5) = 10, F(2,
+  10) = 52 and F(10, 100) = 3384.  \nFind F(10<sup>8</sup>, 10<sup>9</sup>) + F(10<sup>9</sup>,
+  10<sup>8</sup>).\n\n"

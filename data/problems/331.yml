@@ -1,22 +1,20 @@
 ---
 :id: 331
 :name: Cross flips
-:url: http://projecteuler.net/problem=331
-:content: "<var>N</var> ![×]({{ images_dir }}/symbol_times.gif)<var>N</var> disks
-  are placed on a square game board. Each disk has a black side and white side.\n\nAt
-  each turn, you may choose a disk and flip all the disks in the same row and the
-  same column as this disk: thus 2 ![×]({{ images_dir }}/symbol_times.gif)<var>N</var>-1
+:url: https://projecteuler.net/problem=331
+:content: "<var>N</var>×<var>N</var> disks are placed on a square game board. Each
+  disk has a black side and white side.\n\nAt each turn, you may choose a disk and
+  flip all the disks in the same row and the same column as this disk: thus 2×<var>N</var>-1
   disks are flipped. The game ends when all disks show their white side. The following
-  example shows a game on a 5 ![×]({{ images_dir }}/symbol_times.gif)5 board.\n\n
-  ![]({{ images_dir }}/p_331_crossflips3.gif)\n\nIt can be proven that 3 is the minimal
-  number of turns to finish this game.\n\nThe bottom left disk on the <var>N</var>
-  ![×]({{ images_dir }}/symbol_times.gif)<var>N</var> board has coordinates (0,0);
-  \ \n\rthe bottom right disk has coordinates (<var>N</var>-1,0) and the top left
-  disk has coordinates (0,<var>N</var>-1).\n\nLet C<sub><var>N</var></sub> be the
-  following configuration of a board with <var>N</var> ![×]({{ images_dir }}/symbol_times.gif)<var>N</var>
-  disks:  \n\rA disk at (<var>x</var>,<var>y</var>) satisfying ![]({{ images_dir }}/p_331_crossflips1.gif),
-  shows its black side; otherwise, it shows its white side. C<sub>5</sub> is shown
-  above.\n\nLet T(<var>N</var>) be the minimal number of turns to finish a game starting
-  from configuration C<sub><var>N</var></sub> or 0 if configuration C<sub><var>N</var></sub>
-  is unsolvable.  \n\rWe have shown that T(5)=3. You are also given that T(10)=29
-  and T(1 000)=395253.\n\nFind ![]({{ images_dir }}/p_331_crossflips2.gif).\n\n"
+  example shows a game on a 5×5 board.\n\n ![p331_crossflips3.gif]({{ images_dir }}/p331_crossflips3.gif)\n\nIt
+  can be proven that 3 is the minimal number of turns to finish this game.\n\nThe
+  bottom left disk on the <var>N</var>×<var>N</var> board has coordinates (0,0);  \nthe
+  bottom right disk has coordinates (<var>N</var>-1,0) and the top left disk has coordinates
+  (0,<var>N</var>-1).\n\nLet C<sub><var>N</var></sub> be the following configuration
+  of a board with <var>N</var>×<var>N</var> disks:  \nA disk at (<var>x</var>,<var>y</var>)
+  satisfying ![p331_crossflips1.gif]({{ images_dir }}/p331_crossflips1.gif), shows
+  its black side; otherwise, it shows its white side. C<sub>5</sub> is shown above.\n\nLet
+  T(<var>N</var>) be the minimal number of turns to finish a game starting from configuration
+  C<sub><var>N</var></sub> or 0 if configuration C<sub><var>N</var></sub> is unsolvable.
+  \ \nWe have shown that T(5)=3. You are also given that T(10)=29 and T(1 000)=395253.\n\nFind
+  ![p331_crossflips2.gif]({{ images_dir }}/p331_crossflips2.gif).\n\n"

@@ -1,7 +1,7 @@
 ---
 :id: 344
 :name: Silver dollar game
-:url: http://projecteuler.net/problem=344
+:url: https://projecteuler.net/problem=344
 :content: "One variant of N.G. de Bruijn's **silver dollar** game can be described
   as follows:\n\nOn a strip of squares a number of coins are placed, at most one coin
   per square. Only one coin, called the **silver dollar** , has any value. Two players
@@ -11,10 +11,10 @@
   or over another coin.\n\nAlternatively, the player can choose to make the _special_
   move of pocketing the leftmost coin rather than making a regular move. If no regular
   moves are possible, the player is forced to pocket the leftmost coin.\n\nThe winner
-  is the player who pockets the silver dollar.\n\n ![]({{ images_dir }}/p_344_silverdollar.gif)
-  \ \n\nA _winning configuration_ is an arrangement of coins on the strip where the
-  first player can force a win no matter what the second player does.\n\nLet W(<var>n</var>,<var>c</var>)
-  be the number of winning configurations for a strip of <var>n</var> squares, <var>c</var>
-  worthless coins and one silver dollar.\n\nYou are given that W(10,2) = 324 and W(100,10)
-  = 1514704946113500.\n\nFind W(1 000 000, 100) modulo the semiprime 1000 036 000
-  099 (= 1 000 003 · 1 000 033).\n\n"
+  is the player who pockets the silver dollar.\n\n ![p344_silverdollar.gif]({{ images_dir
+  }}/p344_silverdollar.gif)  \n\nA _winning configuration_ is an arrangement of coins
+  on the strip where the first player can force a win no matter what the second player
+  does.\n\nLet W(<var>n</var>,<var>c</var>) be the number of winning configurations
+  for a strip of <var>n</var> squares, <var>c</var> worthless coins and one silver
+  dollar.\n\nYou are given that W(10,2) = 324 and W(100,10) = 1514704946113500.\n\nFind
+  W(1 000 000, 100) modulo the semiprime 1000 036 000 099 (= 1 000 003 · 1 000 033).\n\n"

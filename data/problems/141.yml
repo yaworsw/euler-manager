@@ -1,12 +1,12 @@
 ---
 :id: 141
 :name: Investigating progressive numbers, _n_, which are also square
-:url: http://projecteuler.net/problem=141
+:url: https://projecteuler.net/problem=141
 :content: "A positive integer, _n_, is divided by _d_ and the quotient and remainder
   are _q_ and _r_ respectively. In addition _d_, _q_, and _r_ are consecutive positive
   integer terms in a geometric sequence, but not necessarily in that order.\n\nFor
   example, 58 divided by 6 has quotient 9 and remainder 4. It can also be seen that
-  4, 6, 9 are consecutive terms in a geometric sequence (common ratio 3/2).  \n\rWe
+  4, 6, 9 are consecutive terms in a geometric sequence (common ratio 3/2).  \nWe
   will call such numbers, _n_, progressive.\n\nSome progressive numbers, such as 9
   and 10404 = 102<sup>2</sup>, happen to also be perfect squares.  \n The sum of all
   progressive perfect squares below one hundred thousand is 124657.\n\nFind the sum

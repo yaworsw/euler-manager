@@ -1,12 +1,12 @@
 ---
 :id: 360
 :name: Scary Sphere
-:url: http://projecteuler.net/problem=360
+:url: https://projecteuler.net/problem=360
 :content: "Given two points (x<sub>1</sub>,y<sub>1</sub>,z<sub>1</sub>) and (x<sub>2</sub>,y<sub>2</sub>,z<sub>2</sub>)
   in three dimensional space, the **Manhattan distance** between those points is defined
   as   \n |x<sub>1</sub>-x<sub>2</sub>|+|y<sub>1</sub>-y<sub>2</sub>|+|z<sub>1</sub>-z<sub>2</sub>|.\n\nLet
   C(<var>r</var>) be a sphere with radius <var>r</var> and center in the origin O(0,0,0).
-  \ \n\rLet I(<var>r</var>) be the set of all points with integer coordinates on the
-  surface of C(<var>r</var>).  \n\rLet S(<var>r</var>) be the sum of the Manhattan
-  distances of all elements of I(<var>r</var>) to the origin O.\n\nE.g. S(45)=34518.\n\nFind
+  \ \nLet I(<var>r</var>) be the set of all points with integer coordinates on the
+  surface of C(<var>r</var>).  \nLet S(<var>r</var>) be the sum of the Manhattan distances
+  of all elements of I(<var>r</var>) to the origin O.\n\nE.g. S(45)=34518.\n\nFind
   S(10<sup>10</sup>).\n\n"

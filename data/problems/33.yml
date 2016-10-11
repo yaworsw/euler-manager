@@ -1,7 +1,7 @@
 ---
 :id: 33
-:name: Digit canceling fractions
-:url: http://projecteuler.net/problem=33
+:name: Digit cancelling fractions
+:url: https://projecteuler.net/problem=33
 :content: |+
   The fraction <sup>49</sup>/<sub>98</sub> is a curious fraction, as an inexperienced mathematician in attempting to simplify it may incorrectly believe that <sup>49</sup>/<sub>98</sub> = <sup>4</sup>/<sub>8</sub>, which is correct, is obtained by cancelling the 9s.
 

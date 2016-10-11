@@ -1,13 +1,12 @@
 ---
 :id: 214
 :name: Totient Chains
-:url: http://projecteuler.net/problem=214
-:content: "Let φ be Euler's totient function, i.e. for a natural number <var>n</var>,\rφ(<var>n</var>)
-  is the number of <var>k</var>, 1 ![≤]({{ images_dir }}/symbol_le.gif) <var>k</var>
-  ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var>, for which gcd(<var>k</var>,<var>n</var>)
-  = 1.\n\nBy iterating φ, each positive integer generates a decreasing chain of numbers
-  ending in 1.  \n\rE.g. if we start with 5 the sequence 5,4,2,1 is generated.  \n\rHere
-  is a listing of all chains with length 4:\n\n\r5,4,2,1  \n\r7,6,2,1  \n\r8,4,2,1
-  \ \n\r9,6,2,1  \n\r10,4,2,1  \n\r12,4,2,1  \n\r14,6,2,1  \n\r18,6,2,1\n\nOnly two
-  of these chains start with a prime, their sum is 12.\n\nWhat is the sum of all primes
-  less than 40000000 which generate a chain of length 25?\n\n"
+:url: https://projecteuler.net/problem=214
+:content: "Let φ be Euler's totient function, i.e. for a natural number <var>n</var>,
+  φ(<var>n</var>) is the number of <var>k</var>, 1 ≤ <var>k</var> ≤ <var>n</var>,
+  for which gcd(<var>k</var>,<var>n</var>) = 1.\n\nBy iterating φ, each positive integer
+  generates a decreasing chain of numbers ending in 1.  \nE.g. if we start with 5
+  the sequence 5,4,2,1 is generated.  \nHere is a listing of all chains with length
+  4:\n\n5,4,2,1  \n7,6,2,1  \n8,4,2,1  \n9,6,2,1  \n10,4,2,1  \n12,4,2,1  \n14,6,2,1
+  \ \n18,6,2,1\n\nOnly two of these chains start with a prime, their sum is 12.\n\nWhat
+  is the sum of all primes less than 40000000 which generate a chain of length 25?\n\n"

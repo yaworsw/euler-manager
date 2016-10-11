@@ -1,7 +1,7 @@
 ---
 :id: 95
 :name: Amicable chains
-:url: http://projecteuler.net/problem=95
+:url: https://projecteuler.net/problem=95
 :content: |+
   The proper divisors of a number are all the divisors excluding the number itself. For example, the proper divisors of 28 are 1, 2, 4, 7, and 14. As the sum of these divisors is equal to 28, we call it a perfect number.
 
@@ -9,7 +9,7 @@
 
   Perhaps less well known are longer chains. For example, starting with 12496, we form a chain of five numbers:
 
-  12496 ![→]({{ images_dir }}/symbol_maps.gif) 14288 ![→]({{ images_dir }}/symbol_maps.gif) 15472 ![→]({{ images_dir }}/symbol_maps.gif) 14536 ![→]({{ images_dir }}/symbol_maps.gif) 14264 ( ![→]({{ images_dir }}/symbol_maps.gif) 12496 ![→]({{ images_dir }}/symbol_maps.gif) ...)
+  12496 → 14288 → 15472 → 14536 → 14264 (→ 12496 → ...)
 
   Since this chain returns to its starting point, it is called an amicable chain.
 

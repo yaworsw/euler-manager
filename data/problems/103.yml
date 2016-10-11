@@ -1,16 +1,15 @@
 ---
 :id: 103
 :name: 'Special subset sums: optimum'
-:url: http://projecteuler.net/problem=103
+:url: https://projecteuler.net/problem=103
 :content: "Let S(A) represent the sum of elements in set A of size _n_. We shall call
   it a special sum set if for any two non-empty disjoint subsets, B and C, the following
-  properties are true:\n\n1. S(B) ![≠]({{ images_dir }}/symbol_ne.gif) S(C); that
-  is, sums of subsets cannot be equal.\n2. If B contains more elements than C then
-  S(B) ![>]({{ images_dir }}/symbol_gt.gif) S(C).\n\nIf S(A) is minimised for a given
-  _n_, we shall call it an optimum special sum set. The first five optimum special
-  sum sets are given below.\n\n_n_ = 1: {1}  \n_n_ = 2: {1, 2}  \n_n_ = 3: {2, 3,
-  4}  \n_n_ = 4: {3, 5, 6, 7}  \n_n_ = 5: {6, 9, 11, 12, 13}\n\nIt _seems_ that for
-  a given optimum set, A = {_a_<sub>1</sub>, _a_<sub>2</sub>, ... , _a_<sub>n</sub>},
+  properties are true:\n\n1. S(B) ≠ S(C); that is, sums of subsets cannot be equal.\n2.
+  If B contains more elements than C then S(B) \\> S(C).\n\nIf S(A) is minimised for
+  a given _n_, we shall call it an optimum special sum set. The first five optimum
+  special sum sets are given below.\n\n_n_ = 1: {1}  \n_n_ = 2: {1, 2}  \n_n_ = 3:
+  {2, 3, 4}  \n_n_ = 4: {3, 5, 6, 7}  \n_n_ = 5: {6, 9, 11, 12, 13}\n\nIt _seems_
+  that for a given optimum set, A = {_a_<sub>1</sub>, _a_<sub>2</sub>, ... , _a_<sub>n</sub>},
   the next optimum set is of the form B = {_b_, _a_<sub>1</sub>+_b_, _a_<sub>2</sub>+_b_,
   ... ,_a_<sub>n</sub>+_b_}, where _b_ is the \"middle\" element on the previous row.\n\nBy
   applying this \"rule\" we would expect the optimum set for _n_ = 6 to be A = {11,

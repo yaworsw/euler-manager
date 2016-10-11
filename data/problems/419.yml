@@ -1,17 +1,15 @@
 ---
 :id: 419
 :name: Look and say sequence
-:url: http://projecteuler.net/problem=419
+:url: https://projecteuler.net/problem=419
 :content: "The **look and say** sequence goes 1, 11, 21, 1211, 111221, 312211, 13112221,
-  1113213211, ...  \n\rThe sequence starts with 1 and all other members are obtained
-  by describing the previous member in terms of consecutive digits.  \n\rIt helps
-  to do this out loud:  \n\r1 is 'one one' ![→]({{ images_dir }}/symbol_maps.gif)
-  11  \n\r11 is 'two ones' ![→]({{ images_dir }}/symbol_maps.gif) 21  \n\r21 is 'one
-  two and one one' ![→]({{ images_dir }}/symbol_maps.gif) 1211   \n\r1211 is 'one
-  one, one two and two ones' ![→]({{ images_dir }}/symbol_maps.gif) 111221  \n\r111221
-  is 'three ones, two twos and one one' ![→]({{ images_dir }}/symbol_maps.gif) 312211
-  \ \n\r...\n\nDefine A(n), B(n) and C(n) as the number of ones, twos and threes in
-  the n'th element of the sequence respectively.  \n\rOne can verify that A(40) =
-  31254, B(40) = 20259 and C(40) = 11625.\n\nFind A(n), B(n) and C(n) for n = 10<sup>12</sup>.
-  \ \n \rGive your answer modulo 2<sup>30</sup> and separate your values for A, B
-  and C by a comma.  \n \rE.g. for n = 40 the answer would be 31254,20259,11625\n\n"
+  1113213211, ...  \nThe sequence starts with 1 and all other members are obtained
+  by describing the previous member in terms of consecutive digits.  \nIt helps to
+  do this out loud:  \n1 is 'one one' → 11  \n11 is 'two ones' → 21  \n21 is 'one
+  two and one one' → 1211   \n1211 is 'one one, one two and two ones' → 111221  \n111221
+  is 'three ones, two twos and one one' → 312211  \n...\n\nDefine A(n), B(n) and C(n)
+  as the number of ones, twos and threes in the n'th element of the sequence respectively.
+  \ \nOne can verify that A(40) = 31254, B(40) = 20259 and C(40) = 11625.\n\nFind
+  A(n), B(n) and C(n) for n = 10<sup>12</sup>.  \n Give your answer modulo 2<sup>30</sup>
+  and separate your values for A, B and C by a comma.  \n E.g. for n = 40 the answer
+  would be 31254,20259,11625\n\n"

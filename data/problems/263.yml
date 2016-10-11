@@ -1,17 +1,17 @@
 ---
 :id: 263
 :name: An engineers' dream come true
-:url: http://projecteuler.net/problem=263
-:content: "Consider the number 6. The divisors of 6 are: 1,2,3 and 6.  \n\rEvery number
+:url: https://projecteuler.net/problem=263
+:content: "Consider the number 6. The divisors of 6 are: 1,2,3 and 6.  \nEvery number
   from 1 up to and including 6 can be written as a sum of distinct divisors of 6:
-  \ \n\r1=1, 2=2, 3=1+2, 4=1+3, 5=2+3, 6=6.  \n\rA number <var>n</var> is called a
-  practical number if every number from 1 up to and including <var>n</var> can be
-  expressed as a sum of distinct divisors of <var>n</var>.\n\nA pair of consecutive
-  prime numbers with a difference of six is called a sexy pair (since \"sex\" is the
-  Latin word for \"six\"). The first sexy pair is (23, 29).\n\nWe may occasionally
-  find a triple-pair, which means three consecutive sexy prime pairs, such that the
-  second member of each pair is the first member of the next pair.\n\nWe shall call
-  a number <var>n</var> such that :\n\n- (<var>n</var>-9, <var>n</var>-3), (<var>n</var>-3,<var>n</var>+3),
-  (<var>n</var>+3, <var>n</var>+9) form a triple-pair, and \r\n- the numbers <var>n</var>-8,
-  <var>n</var>-4, <var>n</var>, <var>n</var>+4 and <var>n</var>+8 are all practical,\r\n
-  \ran engineers’ paradise.\r\r\n\nFind the sum of the first four engineers’ paradises.\n\n"
+  \ \n1=1, 2=2, 3=1+2, 4=1+3, 5=2+3, 6=6.  \nA number <var>n</var> is called a practical
+  number if every number from 1 up to and including <var>n</var> can be expressed
+  as a sum of distinct divisors of <var>n</var>.\n\nA pair of consecutive prime numbers
+  with a difference of six is called a sexy pair (since \"sex\" is the Latin word
+  for \"six\"). The first sexy pair is (23, 29).\n\nWe may occasionally find a triple-pair,
+  which means three consecutive sexy prime pairs, such that the second member of each
+  pair is the first member of the next pair.\n\nWe shall call a number <var>n</var>
+  such that :\n\n- (<var>n</var>-9, <var>n</var>-3), (<var>n</var>-3,<var>n</var>+3),
+  (<var>n</var>+3, <var>n</var>+9) form a triple-pair, and \n- the numbers <var>n</var>-8,
+  <var>n</var>-4, <var>n</var>, <var>n</var>+4 and <var>n</var>+8 are all practical,\n
+  an engineers’ paradise.\n\nFind the sum of the first four engineers’ paradises.\n\n"

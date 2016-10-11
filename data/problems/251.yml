@@ -1,15 +1,15 @@
 ---
 :id: 251
 :name: Cardano Triplets
-:url: http://projecteuler.net/problem=251
+:url: https://projecteuler.net/problem=251
 :content: |+
   A triplet of positive integers (<var>a</var>,<var>b</var>,<var>c</var>) is called a Cardano Triplet if it satisfies the condition:
 
-   ![]({{ images_dir }}/p_251_cardano.gif)
+   ![]({{ images_dir }}/p251_cardano.gif)
 
   For example, (2,1,5) is a Cardano Triplet.
 
-  There exist 149 Cardano Triplets for which <var>a</var>+<var>b</var>+<var>c</var> ![≤]({{ images_dir }}/symbol_le.gif) 1000.
+  There exist 149 Cardano Triplets for which <var>a</var>+<var>b</var>+<var>c</var> ≤ 1000.
 
-  Find how many Cardano Triplets exist such that <var>a</var>+<var>b</var>+<var>c</var> ![≤]({{ images_dir }}/symbol_le.gif) 110,000,000.
+  Find how many Cardano Triplets exist such that <var>a</var>+<var>b</var>+<var>c</var> ≤ 110,000,000.
 

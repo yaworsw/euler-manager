@@ -1,7 +1,7 @@
 ---
 :id: 30
 :name: Digit fifth powers
-:url: http://projecteuler.net/problem=30
+:url: https://projecteuler.net/problem=30
 :content: "Surprisingly there are only three numbers that can be written as the sum
   of fourth powers of their digits:\n\n> 1634 = 1<sup>4</sup> + 6<sup>4</sup> + 3<sup>4</sup>
   + 4<sup>4</sup>  \n> 8208 = 8<sup>4</sup> + 2<sup>4</sup> + 0<sup>4</sup> + 8<sup>4</sup>

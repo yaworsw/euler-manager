@@ -1,17 +1,16 @@
 ---
 :id: 18
 :name: Maximum path sum I
-:url: http://projecteuler.net/problem=18
+:url: https://projecteuler.net/problem=18
 :content: "By starting at the top of the triangle below and moving to adjacent numbers
   on the row below, the maximum total from top to bottom is 23.\n\n**3**  \n**7**
-  4  \n\r2 **4** 6  \n\r8 5 **9** 3\n\nThat is, 3 + 7 + 4 + 9 = 23.\n\nFind the maximum
-  total from top to bottom of the triangle below:\n\n75  \n\r95 64  \n\r17 47 82  \n\r18
-  35 87 10  \n\r20 04 82 47 65  \n\r19 01 23 75 03 34  \n\r88 02 77 73 07 63 67  \n\r99
-  65 04 28 06 16 70 92  \n\r41 41 26 56 83 40 80 70 33  \n\r41 48 72 33 47 32 37 16
-  94 29  \n\r53 71 44 65 25 43 91 52 97 51 14  \n\r70 11 33 28 77 73 17 78 39 68 17
-  57  \n\r91 71 52 38 17 14 91 43 58 50 27 29 48  \n\r63 66 04 68 89 53 67 30 73 16
-  69 87 40 31  \n\r04 62 98 27 23 09 70 98 73 93 38 53 60 04 23\n\n**NOTE:** As there
-  are only 16384 routes, it is possible to solve this problem by trying every route.
-  However, [Problem 67](problem=67), is the same challenge with a triangle containing
-  one-hundred rows; it cannot be solved by brute force, and requires a clever method!
-  ;o)\n\n"
+  4  \n2 **4** 6  \n8 5 **9** 3\n\nThat is, 3 + 7 + 4 + 9 = 23.\n\nFind the maximum
+  total from top to bottom of the triangle below:\n\n75  \n95 64  \n17 47 82  \n18
+  35 87 10  \n20 04 82 47 65  \n19 01 23 75 03 34  \n88 02 77 73 07 63 67  \n99 65
+  04 28 06 16 70 92  \n41 41 26 56 83 40 80 70 33  \n41 48 72 33 47 32 37 16 94 29
+  \ \n53 71 44 65 25 43 91 52 97 51 14  \n70 11 33 28 77 73 17 78 39 68 17 57  \n91
+  71 52 38 17 14 91 43 58 50 27 29 48  \n63 66 04 68 89 53 67 30 73 16 69 87 40 31
+  \ \n04 62 98 27 23 09 70 98 73 93 38 53 60 04 23\n\n**NOTE:** As there are only
+  16384 routes, it is possible to solve this problem by trying every route. However,
+  [Problem 67](problem=67), is the same challenge with a triangle containing one-hundred
+  rows; it cannot be solved by brute force, and requires a clever method! ;o)\n\n"

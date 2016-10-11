@@ -1,11 +1,10 @@
 ---
 :id: 274
 :name: Divisibility Multipliers
-:url: http://projecteuler.net/problem=274
-:content: "For each integer <var>p</var> ![>]({{ images_dir }}/symbol_gt.gif) 1 coprime
-  to 10 there is a positive _divisibility multiplier_ <var>m</var> ![<]({{ images_dir
-  }}/symbol_lt.gif) <var>p</var> which preserves divisibility by <var>p</var> for
-  the following function on any positive integer, <var>n</var>:\n\n<var>f</var>(<var>n</var>)
+:url: https://projecteuler.net/problem=274
+:content: "For each integer <var>p</var> \\> 1 coprime to 10 there is a positive _divisibility
+  multiplier_ <var>m</var> \\< <var>p</var> which preserves divisibility by <var>p</var>
+  for the following function on any positive integer, <var>n</var>:\n\n<var>f</var>(<var>n</var>)
   = (all but the last digit of <var>n</var>) + (the last digit of <var>n</var>) \\*
   <var>m</var>\n\nThat is, if <var>m</var> is the divisibility multiplier for <var>p</var>,
   then <var>f</var>(<var>n</var>) is divisible by <var>p</var> if and only if <var>n</var>

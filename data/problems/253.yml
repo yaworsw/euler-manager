@@ -1,7 +1,7 @@
 ---
 :id: 253
 :name: Tidying up
-:url: http://projecteuler.net/problem=253
+:url: https://projecteuler.net/problem=253
 :content: "A small child has a “number caterpillar” consisting of forty jigsaw pieces,
   each with one number on it, which, when connected together in a line, reveal the
   numbers 1 to 40 in order.\n\nEvery night, the child's father has to pick up the
@@ -13,11 +13,12 @@
   segment (all pieces placed).\n\nFor example:\n\n| **Piece Placed** | **Segments
   So Far** |\n| 12 | 1 |\n| 4 | 2 |\n| 29 | 3 |\n| 6 | 4 |\n| 34 | 5 |\n| 5 | 4 |\n|
   35 | 4 |\n| … | … |\n\nLet <var>M</var> be the maximum number of segments encountered
-  during a random tidy-up of the caterpillar.  \n\rFor a caterpillar of ten pieces,
+  during a random tidy-up of the caterpillar.  \nFor a caterpillar of ten pieces,
   the number of possibilities for each <var>M</var> is\n\n| **<var>M</var>** | **Possibilities**
-  |\n| 1 | 512       |\n| 2 | 250912       |\n| 3 | 1815264       |\n| 4 | 1418112 
-       |\n| 5 | 144000       |\n\nso the most likely value of <var>M</var> is 3 and
-  the average value is <sup>385643</sup>⁄<sub>113400</sub> = 3.400732, rounded to
-  six decimal places.\n\nThe most likely value of <var>M</var> for a forty-piece caterpillar
-  is 11; but what is the average value of <var>M</var>?\n\nGive your answer rounded
-  to six decimal places.\n\n"
+  |\n| 1 | 512&nbsp; &nbsp;&nbsp; &nbsp; |\n| 2 | 250912&nbsp; &nbsp;&nbsp; &nbsp;
+  |\n| 3 | 1815264&nbsp; &nbsp;&nbsp; &nbsp; |\n| 4 | 1418112&nbsp; &nbsp;&nbsp; &nbsp;
+  |\n| 5 | 144000&nbsp; &nbsp;&nbsp; &nbsp; |\n\nso the most likely value of <var>M</var>
+  is 3 and the average value is <sup>385643</sup>⁄<sub>113400</sub> = 3.400732, rounded
+  to six decimal places.\n\nThe most likely value of <var>M</var> for a forty-piece
+  caterpillar is 11; but what is the average value of <var>M</var>?\n\nGive your answer
+  rounded to six decimal places.\n\n"

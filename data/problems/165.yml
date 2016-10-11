@@ -1,29 +1,29 @@
 ---
 :id: 165
 :name: Intersections
-:url: http://projecteuler.net/problem=165
+:url: https://projecteuler.net/problem=165
 :content: "A segment is uniquely defined by its two endpoints.  \n By considering
-  two line segments in plane geometry there are three possibilities:  \n \rthe segments
+  two line segments in plane geometry there are three possibilities:  \n the segments
   have zero points, one point, or infinitely many points in common.\n\nMoreover when
   two segments have exactly one point in common it might be the case that that common
   point is an endpoint of either one of the segments or of both. If a common point
   of two segments is not an endpoint of either of the segments it is an interior point
-  of both segments.  \n\rWe will call a common point T of two segments L<sub>1</sub>
+  of both segments.  \nWe will call a common point T of two segments L<sub>1</sub>
   and L<sub>2</sub> a true intersection point of L<sub>1</sub> and L<sub>2</sub> if
   T is the only common point of L<sub>1</sub> and L<sub>2</sub> and T is an interior
   point of both segments.\n\nConsider the three segments L<sub>1</sub>, L<sub>2</sub>,
-  and L<sub>3</sub>:\n\nL<sub>1</sub>: (27, 44) to (12, 32)  \n\rL<sub>2</sub>: (46,
-  53) to (17, 62)  \n\rL<sub>3</sub>: (46, 70) to (22, 40)\n\nIt can be verified that
+  and L<sub>3</sub>:\n\nL<sub>1</sub>: (27, 44) to (12, 32)  \nL<sub>2</sub>: (46,
+  53) to (17, 62)  \nL<sub>3</sub>: (46, 70) to (22, 40)\n\nIt can be verified that
   line segments L<sub>2</sub> and L<sub>3</sub> have a true intersection point. We
   note that as the one of the end points of L<sub>3</sub>: (22,40) lies on L<sub>1</sub>
   this is not considered to be a true point of intersection. L<sub>1</sub> and L<sub>2</sub>
   have no common point. So among the three line segments, we find one true intersection
   point.\n\nNow let us do the same for 5000 line segments. To this end, we generate
   20000 numbers using the so-called \"Blum Blum Shub\" pseudo-random number generator.\n\ns<sub>0</sub>
-  = 290797  \n  \n  \n\rs<sub>n+1</sub> = s<sub>n</sub> ![×]({{ images_dir }}/symbol_times.gif)s<sub>n</sub>
-  (modulo 50515093)  \n  \n  \n\rt<sub>n</sub> = s<sub>n</sub> (modulo 500)\n\nTo
-  create each line segment, we use four consecutive numbers t<sub>n</sub>. That is,
-  the first line segment is given by:\n\n(t<sub>1</sub>, t<sub>2</sub>) to (t<sub>3</sub>,
-  t<sub>4</sub>)\n\nThe first four numbers computed according to the above generator
-  should be: 27, 144, 12 and 232. The first segment would thus be (27,144) to (12,232).\n\nHow
-  many distinct true intersection points are found among the 5000 line segments?\n\n"
+  = 290797  \n  \ns<sub>n+1</sub> = s<sub>n</sub>×s<sub>n</sub> (modulo 50515093)
+  \ \n  \nt<sub>n</sub> = s<sub>n</sub> (modulo 500)\n\nTo create each line segment,
+  we use four consecutive numbers t<sub>n</sub>. That is, the first line segment is
+  given by:\n\n(t<sub>1</sub>, t<sub>2</sub>) to (t<sub>3</sub>, t<sub>4</sub>)\n\nThe
+  first four numbers computed according to the above generator should be: 27, 144,
+  12 and 232. The first segment would thus be (27,144) to (12,232).\n\nHow many distinct
+  true intersection points are found among the 5000 line segments?\n\n"

@@ -1,11 +1,11 @@
 ---
 :id: 134
 :name: Prime pair connection
-:url: http://projecteuler.net/problem=134
+:url: https://projecteuler.net/problem=134
 :content: |+
   Consider the consecutive primes _p_<sub>1</sub> = 19 and _p_<sub>2</sub> = 23. It can be verified that 1219 is the smallest number such that the last digits are formed by _p_<sub>1</sub> whilst also being divisible by _p_<sub>2</sub>.
 
-  In fact, with the exception of _p_<sub>1</sub> = 3 and _p_<sub>2</sub> = 5, for every pair of consecutive primes, _p_<sub>2</sub> ![>]({{ images_dir }}/symbol_gt.gif) _p_<sub>1</sub>, there exist values of _n_ for which the last digits are formed by _p_<sub>1</sub> and _n_ is divisible by _p_<sub>2</sub>. Let _S_ be the smallest of these values of _n_.
+  In fact, with the exception of _p_<sub>1</sub> = 3 and _p_<sub>2</sub> = 5, for every pair of consecutive primes, _p_<sub>2</sub> \> _p_<sub>1</sub>, there exist values of _n_ for which the last digits are formed by _p_<sub>1</sub> and _n_ is divisible by _p_<sub>2</sub>. Let _S_ be the smallest of these values of _n_.
 
-  Find ![∑]({{ images_dir }}/symbol_sum.gif) _S_ for every pair of consecutive primes with 5 ![≤]({{ images_dir }}/symbol_le.gif) _p_<sub>1</sub> ![≤]({{ images_dir }}/symbol_le.gif) 1000000.
+  Find ∑ _S_ for every pair of consecutive primes with 5 ≤ _p_<sub>1</sub> ≤ 1000000.
 

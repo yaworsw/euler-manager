@@ -1,10 +1,10 @@
 ---
 :id: 55
 :name: Lychrel numbers
-:url: http://projecteuler.net/problem=55
+:url: https://projecteuler.net/problem=55
 :content: "If we take 47, reverse and add, 47 + 74 = 121, which is palindromic.\n\nNot
-  all numbers produce palindromes so quickly. For example,\n\n349 + 943 = 1292,  \n\r1292
-  + 2921 = 4213  \n\r4213 + 3124 = 7337\n\nThat is, 349 took three iterations to arrive
+  all numbers produce palindromes so quickly. For example,\n\n349 + 943 = 1292,  \n1292
+  + 2921 = 4213  \n4213 + 3124 = 7337\n\nThat is, 349 took three iterations to arrive
   at a palindrome.\n\nAlthough no one has proved it yet, it is thought that some numbers,
   like 196, never produce a palindrome. A number that never forms a palindrome through
   the reverse and add process is called a Lychrel number. Due to the theoretical nature

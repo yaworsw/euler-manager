@@ -1,11 +1,11 @@
 ---
 :id: 211
 :name: Divisor Square Sum
-:url: http://projecteuler.net/problem=211
+:url: https://projecteuler.net/problem=211
 :content: |+
   For a positive integer <var>n</var>, let σ<sub>2</sub>(<var>n</var>) be the sum of the squares of its divisors. For example,
 
   σ<sub>2</sub>(10) = 1 + 4 + 25 + 100 = 130.
 
-  Find the sum of all <var>n</var>, 0 ![<]({{ images_dir }}/symbol_lt.gif) <var>n</var> ![<]({{ images_dir }}/symbol_lt.gif) 64,000,000 such that σ<sub>2</sub>(<var>n</var>) is a perfect square.
+  Find the sum of all <var>n</var>, 0 \< <var>n</var> \< 64,000,000 such that σ<sub>2</sub>(<var>n</var>) is a perfect square.
 

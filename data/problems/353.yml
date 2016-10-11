@@ -1,7 +1,7 @@
 ---
 :id: 353
 :name: Risky moon
-:url: http://projecteuler.net/problem=353
+:url: https://projecteuler.net/problem=353
 :content: |+
   A moon could be described by the sphere C(<var>r</var>) with centre (0,0,0) and radius <var>r</var>.
 
@@ -15,7 +15,7 @@
 
   You are given that M(7)=0.1784943998 rounded to 10 digits behind the decimal point.
 
-  Find ![∑]({{ images_dir }}/symbol_sum.gif)M(2<sup>n</sup>-1) for 1 ![≤]({{ images_dir }}/symbol_le.gif)n ![≤]({{ images_dir }}/symbol_le.gif)15.
+  Find ∑M(2<sup>n</sup>-1) for 1≤n≤15.
 
   Give your answer rounded to 10 digits behind the decimal point in the form a.bcdefghijk.
 

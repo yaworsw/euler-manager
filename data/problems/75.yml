@@ -1,7 +1,7 @@
 ---
 :id: 75
 :name: Singular integer right triangles
-:url: http://projecteuler.net/problem=75
+:url: https://projecteuler.net/problem=75
 :content: "It turns out that 12 cm is the smallest length of wire that can be bent
   to form an integer sided right angle triangle in exactly one way, but there are
   many more examples.\n\n**12 cm** : (3,4,5)  \n**24 cm** : (6,8,10)  \n**30 cm**
@@ -10,5 +10,5 @@
   right angle triangle, and other lengths allow more than one solution to be found;
   for example, using 120 cm it is possible to form exactly three different integer
   sided right angle triangles.\n\n**120 cm** : (30,40,50), (20,48,52), (24,45,51)\n\nGiven
-  that L is the length of the wire, for how many values of L ![≤]({{ images_dir }}/symbol_le.gif)
-  1,500,000 can exactly one integer sided right angle triangle be formed?\n\n"
+  that L is the length of the wire, for how many values of L ≤ 1,500,000 can exactly
+  one integer sided right angle triangle be formed?\n\n"

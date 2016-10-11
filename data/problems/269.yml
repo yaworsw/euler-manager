@@ -1,10 +1,10 @@
 ---
 :id: 269
 :name: Polynomials with at least one integer root
-:url: http://projecteuler.net/problem=269
+:url: https://projecteuler.net/problem=269
 :content: "A root or zero of a polynomial P(<var>x</var>) is a solution to the equation
-  P(<var>x</var>) = 0.   \n\rDefine P<sub><var>n</var></sub> as the polynomial whose
-  coefficients are the digits of <var>n</var>.  \n\rFor example, P<sub>5703</sub>(<var>x</var>)
+  P(<var>x</var>) = 0.   \nDefine P<sub><var>n</var></sub> as the polynomial whose
+  coefficients are the digits of <var>n</var>.  \nFor example, P<sub>5703</sub>(<var>x</var>)
   = 5<var>x</var><sup>3</sup> + 7<var>x</var><sup>2</sup> + 3.\n\nWe can see that:\n\n-
   P<sub><var>n</var></sub>(0) is the last digit of <var>n</var>,\n- P<sub><var>n</var></sub>(1)
   is the sum of the digits of <var>n</var>,\n- P<sub><var>n</var></sub>(10) is <var>n</var>

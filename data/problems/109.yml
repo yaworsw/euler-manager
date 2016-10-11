@@ -1,10 +1,10 @@
 ---
 :id: 109
 :name: Darts
-:url: http://projecteuler.net/problem=109
+:url: https://projecteuler.net/problem=109
 :content: "In the game of darts a player throws three darts at a target board which
   is split into twenty equal sized sections numbered one to twenty.\n\n ![]({{ images_dir
-  }}/p_109.gif)  \n\nThe score of a dart is determined by the number of the region
+  }}/p109.gif)  \n\nThe score of a dart is determined by the number of the region
   that the dart lands in. A dart landing outside the red/green outer ring scores zero.
   The black and cream regions inside this ring represent single scores. However, the
   red/green outer ring and middle ring score double and treble scores respectively.\n\nAt
@@ -19,12 +19,13 @@
   a player is able to finish on their current score it is called a \"checkout\" and
   the highest checkout is 170: T20 T20 D25 (two treble 20s and double bull).\n\nThere
   are exactly eleven distinct ways to checkout on a score of 6:\n\n| ![]({{ images_dir
-  }}/spacer.gif)  \nD3 | ![]({{ images_dir }}/spacer.gif)  \n  | ![]({{ images_dir
-  }}/spacer.gif)  \n  |\n| D1 | D2 |   |\n| S2 | D2 |   |\n| D2 | D1 |   |\n| S4 |
-  D1 |   |\n| S1 | S1 | D2 |\n| S1 | T1 | D1 |\n| S1 | S3 | D1 |\n| D1 | D1 | D1 |\n|
-  D1 | S2 | D1 |\n| S2 | S2 | D1 |\n\nNote that D1 D2 is considered **different**
-  to D2 D1 as they finish on different doubles. However, the combination S1 T1 D1
-  is considered the **same** as T1 S1 D1.\n\nIn addition we shall not include misses
-  in considering combinations; for example, D3 is the **same** as 0 D3 and 0 0 D3.\n\nIncredibly
-  there are 42336 distinct ways of checking out in total.\n\nHow many distinct ways
-  can a player checkout with a score less than 100?\n\n"
+  }}/spacer.gif)  \nD3 | ![]({{ images_dir }}/spacer.gif)  \n&nbsp; | ![]({{ images_dir
+  }}/spacer.gif)  \n&nbsp; |\n| D1 | D2 | &nbsp; |\n| S2 | D2 | &nbsp; |\n| D2 | D1
+  | &nbsp; |\n| S4 | D1 | &nbsp; |\n| S1 | S1 | D2 |\n| S1 | T1 | D1 |\n| S1 | S3
+  | D1 |\n| D1 | D1 | D1 |\n| D1 | S2 | D1 |\n| S2 | S2 | D1 |\n\nNote that D1 D2
+  is considered **different** to D2 D1 as they finish on different doubles. However,
+  the combination S1 T1 D1 is considered the **same** as T1 S1 D1.\n\nIn addition
+  we shall not include misses in considering combinations; for example, D3 is the
+  **same** as 0 D3 and 0 0 D3.\n\nIncredibly there are 42336 distinct ways of checking
+  out in total.\n\nHow many distinct ways can a player checkout with a score less
+  than 100?\n\n"

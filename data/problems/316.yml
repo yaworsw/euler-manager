@@ -1,23 +1,24 @@
 ---
 :id: 316
 :name: Numbers in decimal expansions
-:url: http://projecteuler.net/problem=316
+:url: https://projecteuler.net/problem=316
 :content: "Let <var>p</var> = <var>p<sub><font size=\"-2\">1</font></sub> p<sub><font
   size=\"-2\">2</font></sub> p<sub><font size=\"-2\">3</font></sub></var> ... be an
   infinite sequence of random digits, selected from {0,1,2,3,4,5,6,7,8,9} with equal
-  probability.  \n\rIt can be seen that <var>p</var> corresponds to the real number
+  probability.  \nIt can be seen that <var>p</var> corresponds to the real number
   0.<var>p<sub><font size=\"-2\">1</font></sub> p<sub><font size=\"-2\">2</font></sub>
-  p<sub><font size=\"-2\">3</font></sub></var> ....   \n\rIt can also be seen that
-  choosing a random real number from the interval [0,1) is equivalent to choosing
-  an infinite sequence of random digits selected from {0,1,2,3,4,5,6,7,8,9} with equal
-  probability.\n\nFor any positive integer <var>n</var> with <var>d</var> decimal
-  digits, let <var>k</var> be the smallest index such that   \n <var>p<sub><small>k</small>,
-  </sub></var><var>p<sub><small>k+1</small></sub></var>, ...<var>p<sub><small>k+d-1</small></sub></var>
-  are the decimal digits of <var>n</var>, in the same order.  \n\rAlso, let <var>g</var>(<var>n</var>)
-  be the expected value of <var>k</var>; it can be proven that <var>g</var>(<var>n</var>)
-  is always finite and, interestingly, always an integer number.\n\nFor example, if
-  <var>n</var> = 535, then  \n\rfor <var>p</var> = 31415926 **535** 897...., we get
-  <var>k</var> = 9  \n\rfor <var>p</var> = 35528714365004956000049084876408468 **535**
-  4..., we get <var>k</var> = 36  \n\retc and we find that <var>g</var>(535) = 1008.\n\nGiven
-  that ![]({{ images_dir }}/p_316_decexp1.gif), find ![]({{ images_dir }}/p_316_decexp2.gif)\n\n<u><i>Note</i></u>:
-  ![]({{ images_dir }}/p_316_decexp3.gif) represents the floor function.\r\n"
+  p<sub><font size=\"-2\">3</font></sub></var> ....   \nIt can also be seen that choosing
+  a random real number from the interval [0,1) is equivalent to choosing an infinite
+  sequence of random digits selected from {0,1,2,3,4,5,6,7,8,9} with equal probability.\n\nFor
+  any positive integer <var>n</var> with <var>d</var> decimal digits, let <var>k</var>
+  be the smallest index such that   \n<var>p<sub><small>k</small>, </sub></var><var>p<sub><small>k+1</small></sub></var>,
+  ...<var>p<sub><small>k+d-1</small></sub></var> are the decimal digits of <var>n</var>,
+  in the same order.  \nAlso, let <var>g</var>(<var>n</var>) be the expected value
+  of <var>k</var>; it can be proven that <var>g</var>(<var>n</var>) is always finite
+  and, interestingly, always an integer number.\n\nFor example, if <var>n</var> =
+  535, then  \nfor <var>p</var> = 31415926 **535** 897...., we get <var>k</var> =
+  9  \nfor <var>p</var> = 35528714365004956000049084876408468 **535** 4..., we get
+  <var>k</var> = 36  \netc and we find that <var>g</var>(535) = 1008.\n\nGiven that
+  ![p316_decexp1.gif]({{ images_dir }}/p316_decexp1.gif), find ![p316_decexp2.gif]({{
+  images_dir }}/p316_decexp2.gif)\n\n<u><i>Note</i></u>: ![p316_decexp3.gif]({{ images_dir
+  }}/p316_decexp3.gif) represents the floor function.\n"

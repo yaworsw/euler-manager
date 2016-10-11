@@ -1,11 +1,9 @@
 ---
 :id: 272
 :name: Modular Cubes, part 2
-:url: http://projecteuler.net/problem=272
+:url: https://projecteuler.net/problem=272
 :content: "For a positive number <var>n</var>, define C(<var>n</var>) as the number
-  of the integers <var>x,</var> for which 1 ![<]({{ images_dir }}/symbol_lt.gif)<var>x</var>
-  ![<]({{ images_dir }}/symbol_lt.gif)<var>n</var> and  \n <var>x</var><sup>3</sup>
-  ![≡]({{ images_dir }}/symbol_cong.gif)1 mod <var>n</var>.\n\nWhen <var>n</var>=91,
-  there are 8 possible values for <var>x</var>, namely : 9, 16, 22, 29, 53, 74, 79,
-  81.  \n\rThus, C(91)=8.\n\nFind the sum of the positive numbers <var>n</var> ![≤]({{
-  images_dir }}/symbol_le.gif)10<sup>11</sup> for which C(<var>n</var>)=242.\n\n"
+  of the integers <var>x,</var> for which 1\\<<var>x</var>\\<<var>n</var> and  \n<var>x</var><sup>3</sup>≡1
+  mod <var>n</var>.\n\nWhen <var>n</var>=91, there are 8 possible values for <var>x</var>,
+  namely : 9, 16, 22, 29, 53, 74, 79, 81.  \nThus, C(91)=8.\n\nFind the sum of the
+  positive numbers <var>n</var>≤10<sup>11</sup> for which C(<var>n</var>)=242.\n\n"

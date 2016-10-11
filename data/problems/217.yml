@@ -1,16 +1,11 @@
 ---
 :id: 217
 :name: Balanced Numbers
-:url: http://projecteuler.net/problem=217
+:url: https://projecteuler.net/problem=217
 :content: "A positive integer with <var>k</var> (decimal) digits is called balanced
-  if its first ![⌈]({{ images_dir }}/symbol_lceil.gif)<sup><var>k</var></sup>/<sub>2</sub>
-  ![⌉]({{ images_dir }}/symbol_rceil.gif) digits sum to the same value as its last
-  ![⌈]({{ images_dir }}/symbol_lceil.gif)<sup><var>k</var></sup>/<sub>2</sub> ![⌉]({{
-  images_dir }}/symbol_rceil.gif) digits, where ![⌈]({{ images_dir }}/symbol_lceil.gif)<var>x</var>
-  ![⌉]({{ images_dir }}/symbol_rceil.gif), pronounced ceiling of <var>x</var>, is
-  the smallest integer ![≥]({{ images_dir }}/symbol_ge.gif) <var>x</var>, thus ![⌈]({{
-  images_dir }}/symbol_lceil.gif)π ![⌉]({{ images_dir }}/symbol_rceil.gif) = 4 and
-  ![⌈]({{ images_dir }}/symbol_lceil.gif)5 ![⌉]({{ images_dir }}/symbol_rceil.gif)
-  = 5.\n\nSo, for example, all palindromes are balanced, as is 13722.\n\nLet T(<var>n</var>)
-  be the sum of all balanced numbers less than 10<sup><var>n</var></sup>.   \n\rThus:
-  T(1) = 45, T(2) = 540 and T(5) = 334795890.\n\nFind T(47) mod 3<sup>15</sup>\n\n"
+  if its first ⌈<sup><var>k</var></sup>/<sub>2</sub>⌉ digits sum to the same value
+  as its last ⌈<sup><var>k</var></sup>/<sub>2</sub>⌉ digits, where ⌈<var>x</var>⌉,
+  pronounced ceiling of <var>x</var>, is the smallest integer ≥ <var>x</var>, thus
+  ⌈π⌉ = 4 and ⌈5⌉ = 5.\n\nSo, for example, all palindromes are balanced, as is 13722.\n\nLet
+  T(<var>n</var>) be the sum of all balanced numbers less than 10<sup><var>n</var></sup>.
+  \  \nThus: T(1) = 45, T(2) = 540 and T(5) = 334795890.\n\nFind T(47) mod 3<sup>15</sup>\n\n"

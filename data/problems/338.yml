@@ -1,28 +1,22 @@
 ---
 :id: 338
 :name: Cutting Rectangular Grid Paper
-:url: http://projecteuler.net/problem=338
+:url: https://projecteuler.net/problem=338
 :content: "A rectangular sheet of grid paper with integer dimensions <var>w</var>
-  ![×]({{ images_dir }}/symbol_times.gif) <var>h</var> is given. Its grid spacing
-  is 1.  \n\rWhen we cut the sheet along the grid lines into two pieces and rearrange
-  those pieces without overlap, we can make new rectangles with different dimensions.\n\nFor
-  example, from a sheet with dimensions 9 ![×]({{ images_dir }}/symbol_times.gif)
-  4 , we can make rectangles with dimensions 18 ![×]({{ images_dir }}/symbol_times.gif)
-  2, 12 ![×]({{ images_dir }}/symbol_times.gif) 3 and 6 ![×]({{ images_dir }}/symbol_times.gif)
-  6 by cutting and rearranging as below:\n\n ![]({{ images_dir }}/p_338_gridpaper.gif)
-  \ \n\nSimilarly, from a sheet with dimensions 9 ![×]({{ images_dir }}/symbol_times.gif)
-  8 , we can make rectangles with dimensions 18 ![×]({{ images_dir }}/symbol_times.gif)
-  4 and 12 ![×]({{ images_dir }}/symbol_times.gif) 6 .\n\nFor a pair <var>w</var>
-  and <var>h</var>, let F(<var>w</var>,<var>h</var>) be the number of distinct rectangles
-  that can be made from a sheet with dimensions <var>w</var> ![×]({{ images_dir }}/symbol_times.gif)
-  <var>h</var> .  \n\rFor example, F(2,1) = 0, F(2,2) = 1, F(9,4) = 3 and F(9,8) =
-  2.   \n\rNote that rectangles congruent to the initial one are not counted in F(<var>w</var>,<var>h</var>).
-  \ \n\rNote also that rectangles with dimensions <var>w</var> ![×]({{ images_dir
-  }}/symbol_times.gif) <var>h</var> and dimensions <var>h</var> ![×]({{ images_dir
-  }}/symbol_times.gif) <var>w</var> are not considered distinct.\n\nFor an integer
-  <var>N</var>, let G(<var>N</var>) be the sum of F(<var>w</var>,<var>h</var>) for
-  all pairs <var>w</var> and <var>h</var> which satisfy 0 ![<]({{ images_dir }}/symbol_lt.gif)
-  <var>h</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>w</var> ![≤]({{ images_dir
-  }}/symbol_le.gif) <var>N</var>.  \n\rWe can verify that G(10) = 55, G(10<sup>3</sup>)
-  = 971745 and G(10<sup>5</sup>) = 9992617687.\n\nFind G(10<sup>12</sup>). Give your
-  answer modulo 10<sup>8</sup>.\n\n"
+  × <var>h</var> is given. Its grid spacing is 1.  \nWhen we cut the sheet along the
+  grid lines into two pieces and rearrange those pieces without overlap, we can make
+  new rectangles with different dimensions.\n\nFor example, from a sheet with dimensions
+  9 × 4 , we can make rectangles with dimensions 18 × 2, 12 × 3 and 6 × 6 by cutting
+  and rearranging as below:\n\n ![p338_gridpaper.gif]({{ images_dir }}/p338_gridpaper.gif)
+  \ \n\nSimilarly, from a sheet with dimensions 9 × 8 , we can make rectangles with
+  dimensions 18 × 4 and 12 × 6 .\n\nFor a pair <var>w</var> and <var>h</var>, let
+  F(<var>w</var>,<var>h</var>) be the number of distinct rectangles that can be made
+  from a sheet with dimensions <var>w</var> × <var>h</var> .  \nFor example, F(2,1)
+  = 0, F(2,2) = 1, F(9,4) = 3 and F(9,8) = 2.   \nNote that rectangles congruent to
+  the initial one are not counted in F(<var>w</var>,<var>h</var>).  \nNote also that
+  rectangles with dimensions <var>w</var> × <var>h</var> and dimensions <var>h</var>
+  × <var>w</var> are not considered distinct.\n\nFor an integer <var>N</var>, let
+  G(<var>N</var>) be the sum of F(<var>w</var>,<var>h</var>) for all pairs <var>w</var>
+  and <var>h</var> which satisfy 0 \\< <var>h</var> ≤ <var>w</var> ≤ <var>N</var>.
+  \ \nWe can verify that G(10) = 55, G(10<sup>3</sup>) = 971745 and G(10<sup>5</sup>)
+  = 9992617687.\n\nFind G(10<sup>12</sup>). Give your answer modulo 10<sup>8</sup>.\n\n"

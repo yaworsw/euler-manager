@@ -1,18 +1,17 @@
 ---
 :id: 423
 :name: Consecutive die throws
-:url: http://projecteuler.net/problem=423
-:content: "Let <var>n</var> be a positive integer.  \n\rA 6-sided die is thrown <var>n</var>
+:url: https://projecteuler.net/problem=423
+:content: "Let <var>n</var> be a positive integer.  \nA 6-sided die is thrown <var>n</var>
   times. Let <var>c</var> be the number of pairs of consecutive throws that give the
   same value.\n\nFor example, if <var>n</var> = 7 and the values of the die throws
   are (1,1,5,6,6,6,3), then the following pairs of consecutive throws give the same
-  value:  \n\r(<u>1,1</u>,5,6,6,6,3)  \n\r(1,1,5,<u>6,6</u>,6,3)  \n\r(1,1,5,6,<u>6,6</u>,3)
-  \ \n\rTherefore, <var>c</var> = 3 for (1,1,5,6,6,6,3).\n\nDefine C(<var>n</var>)
-  as the number of outcomes of throwing a 6-sided die <var>n</var> times such that
-  <var>c</var> does not exceed π(<var>n</var>).<sup>1</sup>  \n\rFor example, C(3)
-  = 216, C(4) = 1290, C(11) = 361912500 and C(24) = 4727547363281250000.\n\nDefine
-  S(<var>L</var>) as ![∑]({{ images_dir }}/symbol_sum.gif) C(<var>n</var>) for 1 ![≤]({{
-  images_dir }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) <var>L</var>.
-  \ \n\rFor example, S(50) mod 1 000 000 007 = 832833871.\n\nFind S(50 000 000) mod
-  1 000 000 007.\n\n<sup>1</sup> π denotes the **prime-counting function** , i.e.
-  π(<var>n</var>) is the number of primes ![≤]({{ images_dir }}/symbol_le.gif) <var>n</var>.\n\n"
+  value:  \n(<u>1,1</u>,5,6,6,6,3)  \n(1,1,5,<u>6,6</u>,6,3)  \n(1,1,5,6,<u>6,6</u>,3)
+  \ \nTherefore, <var>c</var> = 3 for (1,1,5,6,6,6,3).\n\nDefine C(<var>n</var>) as
+  the number of outcomes of throwing a 6-sided die <var>n</var> times such that <var>c</var>
+  does not exceed π(<var>n</var>).<sup>1</sup>  \nFor example, C(3) = 216, C(4) =
+  1290, C(11) = 361912500 and C(24) = 4727547363281250000.\n\nDefine S(<var>L</var>)
+  as ∑ C(<var>n</var>) for 1 ≤ <var>n</var> ≤ <var>L</var>.  \nFor example, S(50)
+  mod 1&nbsp;000&nbsp;000&nbsp;007 = 832833871.\n\nFind S(50&nbsp;000&nbsp;000) mod
+  1&nbsp;000&nbsp;000&nbsp;007.\n\n<sup>1</sup> π denotes the **prime-counting function**
+  , i.e. π(<var>n</var>) is the number of primes ≤ <var>n</var>.\n\n"

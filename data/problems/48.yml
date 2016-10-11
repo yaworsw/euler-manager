@@ -1,7 +1,7 @@
 ---
 :id: 48
 :name: Self powers
-:url: http://projecteuler.net/problem=48
+:url: https://projecteuler.net/problem=48
 :content: |+
   The series, 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + ... + 10<sup>10</sup> = 10405071317.
 

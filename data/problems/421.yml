@@ -1,17 +1,12 @@
 ---
 :id: 421
 :name: Prime factors of <var>n</var><sup>15</sup>+1
-:url: http://projecteuler.net/problem=421
+:url: https://projecteuler.net/problem=421
 :content: "Numbers of the form <var>n</var><sup>15</sup>+1 are composite for every
-  integer <var>n</var> ![>]({{ images_dir }}/symbol_gt.gif) 1.  \n\rFor positive integers
-  <var>n</var> and <var>m</var> let <var>s</var>(<var>n,m</var>) be defined as the
-  sum of the _distinct_ prime factors of <var>n</var><sup>15</sup>+1 not exceeding
-  <var>m</var>.\n\n\rE.g. 2<sup>15</sup>+1 = 3 ![×]({{ images_dir }}/symbol_times.gif)3
-  ![×]({{ images_dir }}/symbol_times.gif)11 ![×]({{ images_dir }}/symbol_times.gif)331.
-  \ \n\rSo <var>s</var>(2,10) = 3 and <var>s</var>(2,1000) = 3+11+331 = 345.  \n  \n
-  \ \n\r\rAlso 10<sup>15</sup>+1 = 7 ![×]({{ images_dir }}/symbol_times.gif)11 ![×]({{
-  images_dir }}/symbol_times.gif)13 ![×]({{ images_dir }}/symbol_times.gif)211 ![×]({{
-  images_dir }}/symbol_times.gif)241 ![×]({{ images_dir }}/symbol_times.gif)2161 ![×]({{
-  images_dir }}/symbol_times.gif)9091.  \n\rSo <var>s</var>(10,100) = 31 and <var>s</var>(10,1000)
-  = 483.  \n\nFind &Sum; <var>s</var>(<var>n</var>,10<sup>8</sup>) for 1 ![≤]({{ images_dir
-  }}/symbol_le.gif) <var>n</var> ![≤]({{ images_dir }}/symbol_le.gif) 10<sup>11</sup>.\n\n"
+  integer <var>n</var> \\> 1.  \nFor positive integers <var>n</var> and <var>m</var>
+  let <var>s</var>(<var>n,m</var>) be defined as the sum of the _distinct_ prime factors
+  of <var>n</var><sup>15</sup>+1 not exceeding <var>m</var>.\n\nE.g. 2<sup>15</sup>+1
+  = 3×3×11×331.  \nSo <var>s</var>(2,10) = 3 and <var>s</var>(2,1000) = 3+11+331 =
+  345.  \n  \nAlso 10<sup>15</sup>+1 = 7×11×13×211×241×2161×9091.  \nSo <var>s</var>(10,100)
+  = 31 and <var>s</var>(10,1000) = 483.  \n\nFind ∑ <var>s</var>(<var>n</var>,10<sup>8</sup>)
+  for 1 ≤ <var>n</var> ≤ 10<sup>11</sup>.\n\n"

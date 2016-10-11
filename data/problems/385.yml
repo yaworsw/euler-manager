@@ -1,18 +1,16 @@
 ---
 :id: 385
 :name: Ellipses inside triangles
-:url: http://projecteuler.net/problem=385
+:url: https://projecteuler.net/problem=385
 :content: "For any triangle <var>T</var> in the plane, it can be shown that there
-  is a unique ellipse with largest area that is completely inside <var>T</var>.\n\n![]({{
-  images_dir }}/p_385_ellipsetriangle.png)\n\nFor a given <var>n</var>, consider triangles
-  <var>T</var> such that:  \n\r- the vertices of <var>T</var> have integer coordinates
-  with absolute value ![≤]({{ images_dir }}/symbol_le.gif) n, and   \n\r- the **foci**
-  <sup>1</sup> of the largest-area ellipse inside <var>T</var> are ( ![√]({{ images_dir
-  }}/symbol_radic.gif)13,0) and (- ![√]({{ images_dir }}/symbol_radic.gif)13,0).  \n\rLet
-  A(<var>n</var>) be the sum of the areas of all such triangles.\n\nFor example, if
-  <var>n</var> = 8, there are two such triangles. Their vertices are (-4,-3),(-4,3),(8,0)
-  and (4,3),(4,-3),(-8,0), and the area of each triangle is 36. Thus A(8) = 36 + 36
-  = 72.\n\nIt can be verified that A(10) = 252, A(100) = 34632 and A(1000) = 3529008.\n\nFind
-  A(1 000 000 000).\n\n<sup>1</sup>The **foci** (plural of **focus** ) of an ellipse
-  are two points A and B such that for every point P on the boundary of the ellipse,
-  <var>AP</var> + <var>PB</var> is constant.\n\n"
+  is a unique ellipse with largest area that is completely inside <var>T</var>.\n\n![p385_ellipsetriangle.png]({{
+  images_dir }}/p385_ellipsetriangle.png)\n\nFor a given <var>n</var>, consider triangles
+  <var>T</var> such that:  \n- the vertices of <var>T</var> have integer coordinates
+  with absolute value ≤ n, and   \n- the **foci** <sup>1</sup> of the largest-area
+  ellipse inside <var>T</var> are (√13,0) and (-√13,0).  \nLet A(<var>n</var>) be
+  the sum of the areas of all such triangles.\n\nFor example, if <var>n</var> = 8,
+  there are two such triangles. Their vertices are (-4,-3),(-4,3),(8,0) and (4,3),(4,-3),(-8,0),
+  and the area of each triangle is 36. Thus A(8) = 36 + 36 = 72.\n\nIt can be verified
+  that A(10) = 252, A(100) = 34632 and A(1000) = 3529008.\n\nFind A(1 000 000 000).\n\n<sup>1</sup>The
+  **foci** (plural of **focus** ) of an ellipse are two points A and B such that for
+  every point P on the boundary of the ellipse, <var>AP</var> + <var>PB</var> is constant.\n\n"

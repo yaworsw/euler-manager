@@ -1,11 +1,10 @@
 ---
 :id: 197
 :name: Investigating the behaviour of a recursively defined sequence
-:url: http://projecteuler.net/problem=197
-:content: "Given is the function <var>f</var>(<var>x</var>) = ![⌊]({{ images_dir }}/symbol_lfloor.gif)2<sup>30.403243784-<var>x</var><sup>2</sup></sup>
-  ![⌋]({{ images_dir }}/symbol_rfloor.gif) ![×]({{ images_dir }}/symbol_times.gif)
-  10<sup>-9</sup> ( ![⌊]({{ images_dir }}/symbol_lfloor.gif) ![⌋]({{ images_dir }}/symbol_rfloor.gif)
-  is the floor-function),  \n\rthe sequence <var>u<sub>n</sub></var> is defined by
-  <var>u</var><sub>0</sub> = -1 and <var>u</var><sub><var>n</var>+1</sub> = <var>f</var>(<var>u<sub>n</sub></var>).\n\nFind
-  <var>u<sub>n</sub></var> + <var>u</var><sub><var>n</var>+1</sub> for <var>n</var>
-  = 10<sup>12</sup>.  \n\rGive your answer with 9 digits after the decimal point.\n\n"
+:url: https://projecteuler.net/problem=197
+:content: "Given is the function <var>f</var>(<var>x</var>) = ⌊2<sup>30.403243784-<var>x</var><sup>2</sup></sup>⌋
+  × 10<sup>-9</sup> ( ⌊ ⌋ is the floor-function),  \nthe sequence <var>u<sub>n</sub></var>
+  is defined by <var>u</var><sub>0</sub> = -1 and <var>u</var><sub><var>n</var>+1</sub>
+  = <var>f</var>(<var>u<sub>n</sub></var>).\n\nFind <var>u<sub>n</sub></var> + <var>u</var><sub><var>n</var>+1</sub>
+  for <var>n</var> = 10<sup>12</sup>.  \nGive your answer with 9 digits after the
+  decimal point.\n\n"

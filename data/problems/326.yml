@@ -1,15 +1,15 @@
 ---
 :id: 326
 :name: Modulo Summations
-:url: http://projecteuler.net/problem=326
+:url: https://projecteuler.net/problem=326
 :content: |+
-  Let <var>a<sub>n</sub></var> be a sequence recursively defined by: ![]({{ images_dir }}/p_326_formula1.gif).
+  Let <var>a<sub>n</sub></var> be a sequence recursively defined by: ![p326_formula1.gif]({{ images_dir }}/p326_formula1.gif).
 
   So the first 10 elements of <var>a<sub>n</sub></var> are: 1,1,0,3,0,3,5,4,1,9.
 
   Let <var>f</var>(<var>N,M</var>) represent the number of pairs (<var>p,q</var>) such that:
 
-   ![]({{ images_dir }}/p_326_formula2.gif)
+   ![p326_formula2.gif]({{ images_dir }}/p326_formula2.gif)
 
   It can be seen that <var>f</var>(10,10)=4 with the pairs (3,3), (5,5), (7,9) and (9,10).
 

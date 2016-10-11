@@ -1,7 +1,7 @@
 ---
 :id: 308
 :name: An amazing Prime-generating Automaton
-:url: http://projecteuler.net/problem=308
+:url: https://projecteuler.net/problem=308
 :content: "A program written in the programming language Fractran consists of a list
   of fractions.\n\nThe internal state of the Fractran Virtual Machine is a positive
   integer, which is initially set to a seed value. Each iteration of a Fractran program
@@ -13,11 +13,11 @@
   \n\n| 95 |\n| 23 |\n\n | , | \n\n| 77 |\n| 19 |\n\n | , | \n\n| 1 |\n| 17 |\n\n
   | , | \n\n| 11 |\n| 13 |\n\n | , | \n\n| 13 |\n| 11 |\n\n | , | \n\n| 15 |\n| 2
   |\n\n | , | \n\n| 1 |\n| 7 |\n\n | , | \n\n| 55 |\n| 1 |\n\n | . |\n\nStarting with
-  the seed integer 2, successive iterations of the program produce the sequence:  \n\r15,
+  the seed integer 2, successive iterations of the program produce the sequence:  \n15,
   825, 725, 1925, 2275, 425, ..., 68, **4** , 30, ..., 136, **8** , 60, ..., 544,
   **32** , 240, ...\n\nThe powers of 2 that appear in this sequence are 2<sup>2</sup>,
-  2<sup>3</sup>, 2<sup>5</sup>, ...  \n\rIt can be shown that _all_ the powers of
-  2 in this sequence have prime exponents and that _all_ the primes appear as exponents
+  2<sup>3</sup>, 2<sup>5</sup>, ...  \nIt can be shown that _all_ the powers of 2
+  in this sequence have prime exponents and that _all_ the primes appear as exponents
   of powers of 2, in proper order!\n\nIf someone uses the above Fractran program to
   solve Project Euler Problem 7 (find the 10001<sup>st</sup> prime), how many iterations
   would be needed until the program produces 2<sup>10001st prime</sup> ?\n\n"

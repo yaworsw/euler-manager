@@ -1,9 +1,9 @@
 ---
 :id: 388
 :name: Distinct Lines
-:url: http://projecteuler.net/problem=388
-:content: "Consider all lattice points (a,b,c) with 0 ![≤]({{ images_dir }}/symbol_le.gif)
-  a,b,c ![≤]({{ images_dir }}/symbol_le.gif) N.\n\nFrom the origin O(0,0,0) all lines
-  are drawn to the other lattice points.  \n\rLet D(N) be the number of _distinct_
-  such lines.\n\nYou are given that D(1 000 000) = 831909254469114121.\n\nFind D(10<sup>10</sup>).
-  Give as your answer the first nine digits followed by the last nine digits.\n\n"
+:url: https://projecteuler.net/problem=388
+:content: "Consider all lattice points (a,b,c) with 0 ≤ a,b,c ≤ N.\n\nFrom the origin
+  O(0,0,0) all lines are drawn to the other lattice points.  \nLet D(N) be the number
+  of _distinct_ such lines.\n\nYou are given that D(1 000 000) = 831909254469114121.\n\nFind
+  D(10<sup>10</sup>). Give as your answer the first nine digits followed by the last
+  nine digits.\n\n"

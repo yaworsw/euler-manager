@@ -1,27 +1,25 @@
 ---
 :id: 334
 :name: Spilling the beans
-:url: http://projecteuler.net/problem=334
+:url: https://projecteuler.net/problem=334
 :content: "In Plato's heaven, there exist an infinite number of bowls in a straight
-  line.  \n\rEach bowl either contains some or none of a finite number of beans.  \n\rA
+  line.  \nEach bowl either contains some or none of a finite number of beans.  \nA
   child plays a game, which allows only one kind of move: removing two beans from
   any bowl, and putting one in each of the two adjacent bowls.  \n The game ends when
   each bowl contains either one or no beans.\n\nFor example, consider two adjacent
   bowls containing 2 and 3 beans respectively, all other bowls being empty. The following
-  eight moves will finish the game:\n\n ![]({{ images_dir }}/p_334_beans.gif)\n\nYou
-  are given the following sequences:\n\n| <var>t</var><sub><i>0</i></sub> = 123456.\r
-  |\n\n| <var>t</var><sub><i>i</i></sub> = \r | ![]({{ images_dir }}/p_334_cases.gif)
-  | \n\n| | \n\n| <var>t</var><sub><i>i-1</i></sub> |\n| 2 |\n\n | \r ,\r | | \r if
-  <var>t</var><sub><i>i-1</i></sub> is even\r |\n| ![]({{ images_dir }}/p_334_lfloor.gif)
-  | \n\n| <var>t</var><sub><i>i-1</i></sub> |\n| 2 |\n\n | ![]({{ images_dir }}/p_334_rfloor.gif)
-  | \r 926252, \r | \r if <var>t</var><sub><i>i-1</i></sub> is odd\r |\n\n | |\n|
-  | | \r where ![⌊]({{ images_dir }}/symbol_lfloor.gif)<var>x</var> ![⌋]({{ images_dir
-  }}/symbol_rfloor.gif) is the floor function\r |\n| | | \r and ![]({{ images_dir
-  }}/p_334_oplus.gif) is the bitwise XOR operator.\r |\n\n| <var>b</var><sub><i>i</i></sub>
-  = ( <var>t</var><sub><i>i</i></sub> mod 2<sup>11</sup>) + 1.\r |\n\nThe first two
-  terms of the last sequence are <var>b</var><sub><i>1</i></sub> = 289 and <var>b</var><sub><i>2</i></sub>
-  = 145.  \n\rIf we start with <var>b</var><sub><i>1</i></sub> and <var>b</var><sub><i>2</i></sub>
-  beans in two adjacent bowls, 3419100 moves would be required to finish the game.\n\nConsider
-  now 1500 adjacent bowls containing <var>b</var><sub><i>1</i></sub>, <var>b</var><sub><i>2</i></sub>,...,
-  <var>b</var><sub><i>1500</i></sub> beans respectively, all other bowls being empty.
-  Find how many moves it takes before the game ends.\n\n"
+  eight moves will finish the game:\n\n ![p334_beans.gif]({{ images_dir }}/p334_beans.gif)\n\nYou
+  are given the following sequences:\n\n| <var>t</var><sub><i>0</i></sub> = 123456.
+  |\n\n| <var>t</var><sub><i>i</i></sub> = | ![p334_cases.gif]({{ images_dir }}/p334_cases.gif)
+  | \n\n| | \n\n| <var>t</var><sub><i>i-1</i></sub> |\n| 2 |\n\n | , | | if <var>t</var><sub><i>i-1</i></sub>
+  is even |\n| ![p334_lfloor.gif]({{ images_dir }}/p334_lfloor.gif) | \n\n| <var>t</var><sub><i>i-1</i></sub>
+  |\n| 2 |\n\n | ![p334_rfloor.gif]({{ images_dir }}/p334_rfloor.gif) | 926252, |
+  if <var>t</var><sub><i>i-1</i></sub> is odd |\n\n | |\n| | | where ⌊<var>x</var>⌋
+  is the floor function |\n| | | and ![p334_oplus.gif]({{ images_dir }}/p334_oplus.gif)
+  is the bitwise XOR operator. |\n\n| <var>b</var><sub><i>i</i></sub> = ( <var>t</var><sub><i>i</i></sub>
+  mod 2<sup>11</sup>) + 1. |\n\nThe first two terms of the last sequence are <var>b</var><sub><i>1</i></sub>
+  = 289 and <var>b</var><sub><i>2</i></sub> = 145.  \nIf we start with <var>b</var><sub><i>1</i></sub>
+  and <var>b</var><sub><i>2</i></sub> beans in two adjacent bowls, 3419100 moves would
+  be required to finish the game.\n\nConsider now 1500 adjacent bowls containing <var>b</var><sub><i>1</i></sub>,
+  <var>b</var><sub><i>2</i></sub>,..., <var>b</var><sub><i>1500</i></sub> beans respectively,
+  all other bowls being empty. Find how many moves it takes before the game ends.\n\n"

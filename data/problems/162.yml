@@ -1,14 +1,14 @@
 ---
 :id: 162
 :name: Hexadecimal numbers
-:url: http://projecteuler.net/problem=162
+:url: https://projecteuler.net/problem=162
 :content: "In the hexadecimal number system numbers are represented using 16 different
   digits:\n\n0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F\n\nThe hexadecimal number AF when written
   in the decimal number system equals 10x16+15=175.\n\nIn the 3-digit hexadecimal
-  numbers 10A, 1A0, A10, and A01 the digits 0,1 and A are all present.  \n\rLike numbers
+  numbers 10A, 1A0, A10, and A01 the digits 0,1 and A are all present.  \nLike numbers
   written in base ten we write hexadecimal numbers without leading zeroes.\n\nHow
   many hexadecimal numbers containing at most sixteen hexadecimal digits exist with
-  all of the digits 0,1, and A present at least once?  \n\rGive your answer as a hexadecimal
+  all of the digits 0,1, and A present at least once?  \nGive your answer as a hexadecimal
   number.\n\n(A,B,C,D,E and F in upper case, without any leading or trailing code
   that marks the number as hexadecimal and without leading zeroes , e.g. 1A3F and
   not: 1a3f and not 0x1a3f and not $1A3F and not #1A3F and not 0000001A3F)\n\n"

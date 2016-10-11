@@ -1,7 +1,7 @@
 ---
 :id: 248
 :name: Numbers for which Euler’s totient function equals 13!
-:url: http://projecteuler.net/problem=248
+:url: https://projecteuler.net/problem=248
 :content: |+
   The first number n for which φ(n)=13! is 6227180929.
 

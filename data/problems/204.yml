@@ -1,11 +1,11 @@
 ---
 :id: 204
 :name: Generalised Hamming Numbers
-:url: http://projecteuler.net/problem=204
+:url: https://projecteuler.net/problem=204
 :content: "A Hamming number is a positive number which has no prime factor larger
-  than 5.  \n\rSo the first few Hamming numbers are 1, 2, 3, 4, 5, 6, 8, 9, 10, 12,
-  15.  \n\rThere are 1105 Hamming numbers not exceeding 10<sup>8</sup>.\n\nWe will
-  call a positive number a generalised Hamming number of type <var>n</var>, if it
-  has no prime factor larger than <var>n</var>.  \n\rHence the Hamming numbers are
-  the generalised Hamming numbers of type 5.\n\nHow many generalised Hamming numbers
-  of type 100 are there which don't exceed 10<sup>9</sup>?\n\n"
+  than 5.  \nSo the first few Hamming numbers are 1, 2, 3, 4, 5, 6, 8, 9, 10, 12,
+  15.  \nThere are 1105 Hamming numbers not exceeding 10<sup>8</sup>.\n\nWe will call
+  a positive number a generalised Hamming number of type <var>n</var>, if it has no
+  prime factor larger than <var>n</var>.  \nHence the Hamming numbers are the generalised
+  Hamming numbers of type 5.\n\nHow many generalised Hamming numbers of type 100 are
+  there which don't exceed 10<sup>9</sup>?\n\n"

@@ -1,10 +1,12 @@
 ---
 :id: 258
 :name: A lagged Fibonacci sequence
-:url: http://projecteuler.net/problem=258
-:content: "A sequence is defined as:\n\n- <var>g</var><sub><var>k</var></sub> = 1,
-  for 0 ![≤]({{ images_dir }}/symbol_le.gif) <var>k</var> ![≤]({{ images_dir }}/symbol_le.gif)
-  1999\n- <var>g</var><sub><var>k</var></sub> = <var>g</var><sub><var>k</var>-2000</sub>
-  + <var>g</var><sub><var>k</var>-1999</sub>, for <var>k</var> ![≥]({{ images_dir
-  }}/symbol_ge.gif) 2000.\r\n\nFind <var>g</var><sub><var>k</var></sub> mod 20092010
-  for <var>k</var> = 10<sup>18</sup>.\n\n"
+:url: https://projecteuler.net/problem=258
+:content: |+
+  A sequence is defined as:
+
+  - <var>g</var><sub><var>k</var></sub> = 1, for 0 ≤ <var>k</var> ≤ 1999
+  - <var>g</var><sub><var>k</var></sub> = <var>g</var><sub><var>k</var>-2000</sub> + <var>g</var><sub><var>k</var>-1999</sub>, for <var>k</var> ≥ 2000.
+
+  Find <var>g</var><sub><var>k</var></sub> mod 20092010 for <var>k</var> = 10<sup>18</sup>.
+
