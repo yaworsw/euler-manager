@@ -30,6 +30,7 @@ describe Euler do
     Euler.get_language('haskell').should be_truthy
     Euler.get_language('java').should be_truthy
     Euler.get_language('javascript').should be_truthy
+    Euler.get_language('julia').should be_truthy
     Euler.get_language('python').should be_truthy
     Euler.get_language('ruby').should be_truthy
     Euler.get_language('scala').should be_truthy
