@@ -67,7 +67,8 @@ end
   'ruby',
   'scala',
   'julia',
-  'c'
+  'c',
+  'c++'
 
 ].each do |lang|
   require_relative "../languages/#{lang}"
