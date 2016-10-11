@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['William Yaworsky']
   spec.email         = ['wj.px01@gmail.com']
   spec.summary       = %q{Manage and test project Euler problems from your command line.}
-  # spec.description   = %q{This gem provides a framework for solving project Euler problems.  You can test}
+  spec.description   = %q{This gem provides a framework for managing project Euler solutions.}
   spec.homepage      = 'https://github.com/yaworsw/euler-manager'
   spec.license       = 'MIT'
 
