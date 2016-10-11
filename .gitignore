@@ -20,3 +20,5 @@ tmp
 *.pyc
 *.class
 /vendor
+
+/data/answers-raw.yml
