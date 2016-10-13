@@ -70,6 +70,7 @@ end
   'php',
   'python',
   'ruby',
+  'rust',
   'scala'
 
 ].each do |lang|
