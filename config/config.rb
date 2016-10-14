@@ -1,3 +1,5 @@
+require_relative 'languages'
+
 # Initialize the Euler module's configuration to the default values.
 Euler.config do |config|
 
@@ -57,22 +59,7 @@ Euler.config do |config|
 end
 
 # Loads the default language definitions.
-[
-
-  'c',
-  'coffeescript',
-  'elixir',
-  'haskell',
-  'java',
-  'javascript',
-  'julia',
-  'perl',
-  'php',
-  'python',
-  'ruby',
-  'scala'
-
-].each do |lang|
+$supportedLanguagesList.each do |lang|
   require_relative "../languages/#{lang}"
 end
 
