@@ -58,7 +58,7 @@ end
 
 # Loads the default language definitions.
 [
-
+  'bash',
   'c',
   'coffeescript',
   'elixir',
