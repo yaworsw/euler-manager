@@ -1,5 +1,7 @@
 require 'spec_helper'
 
+require_relative '../config/languages'
+
 describe Euler do
 
   before(:all) do
@@ -25,19 +27,9 @@ describe Euler do
   end
 
   it "should have a few languages preregistered" do
-    Euler.get_language('bash').should be_truthy
-    Euler.get_language('c').should be_truthy
-    Euler.get_language('coffeescript').should be_truthy
-    Euler.get_language('elixir').should be_truthy
-    Euler.get_language('haskell').should be_truthy
-    Euler.get_language('java').should be_truthy
-    Euler.get_language('javascript').should be_truthy
-    Euler.get_language('julia').should be_truthy
-    Euler.get_language('perl').should be_truthy
-    Euler.get_language('php').should be_truthy
-    Euler.get_language('python').should be_truthy
-    Euler.get_language('ruby').should be_truthy
-    Euler.get_language('scala').should be_truthy
+    $supportedLanguagesList.each do |lang|
+      Euler.get_language(lang).should be_truthy
+    end
   end
 
   describe "Ruby language" do
