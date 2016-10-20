@@ -13,7 +13,7 @@ program :description, 'Project Euler solution manager.'
 
 command :run do |c|
   c.syntax  = 'euler run [problem_id] [language]'
-  c.summary = 'Runs a solution.'
+  c.summary = 'Runs a solution'
   c.description = c.summary
   c.example 'Runs the ruby solution for problem #1', 'euler run 1 ruby'
   c.action do |args, options|
@@ -28,7 +28,7 @@ end
 
 command :test do |c|
   c.syntax  = 'euler test [problem_id] [language]'
-  c.summary = 'Tests a solution.'
+  c.summary = 'Tests a solution'
   c.description = c.summary
   c.example 'Tests the ruby solution for problem #1', 'euler test 1 ruby'
   c.action do |args, options|
@@ -58,7 +58,7 @@ end
 
 command :test_all do |c|
   c.syntax  = 'euler test_all'
-  c.summary = 'Tests all solutions.'
+  c.summary = 'Tests all solutions'
   c.description = c.summary
   c.action do |args, options|
     solutions = Euler::Solution.all
@@ -106,7 +106,7 @@ end
 
 command :new do |c|
   c.syntax  = 'euler new [problem_id] [language]'
-  c.summary = 'Initialize a solution.'
+  c.summary = 'Initialize a solution'
   c.description = c.summary
   c.example 'Initialize a ruby solution for problem #1', 'euler new 1 ruby'
   c.action do |args, options|
@@ -131,7 +131,7 @@ end
 
 command :desc do |c|
   c.syntax  = 'euler desc [problem_id]'
-  c.summary = 'View the description for a problem.'
+  c.summary = 'View the description for a problem'
   c.description = c.summary
   c.example 'View the for description for problem #1', 'euler desc 1'
   c.action do |args, options|
@@ -164,7 +164,7 @@ end
 
 command :include_images do |c|
   c.syntax  = 'euler include_images'
-  c.summary = 'Copy Project Euler\'s image files.'
+  c.summary = 'Copy Project Euler\'s image files'
   c.description = c.summary
   c.action do
     images = "#{File.dirname(__FILE__)}/../data/images"
