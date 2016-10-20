@@ -13,9 +13,9 @@ program :description, 'Project Euler solution manager.'
 
 command :run do |c|
   c.syntax  = 'euler run [problem_id] [language]'
-  c.summary = 'Runs a solution'
+  c.summary = 'Run a solution'
   c.description = c.summary
-  c.example 'Runs the ruby solution for problem #1', 'euler run 1 ruby'
+  c.example 'Run the ruby solution for problem #1', 'euler run 1 ruby'
   c.action do |args, options|
     problem_id, language = Euler.params_from_dir_or_args args
     solution = Euler::Solution.new(problem_id, language)
@@ -28,9 +28,9 @@ end
 
 command :test do |c|
   c.syntax  = 'euler test [problem_id] [language]'
-  c.summary = 'Tests a solution'
+  c.summary = 'Test a solution'
   c.description = c.summary
-  c.example 'Tests the ruby solution for problem #1', 'euler test 1 ruby'
+  c.example 'Test the ruby solution for problem #1', 'euler test 1 ruby'
   c.action do |args, options|
     problem_id, language = Euler.params_from_dir_or_args args
 
@@ -58,7 +58,7 @@ end
 
 command :test_all do |c|
   c.syntax  = 'euler test_all'
-  c.summary = 'Tests all solutions'
+  c.summary = 'Test all solutions'
   c.description = c.summary
   c.action do |args, options|
     solutions = Euler::Solution.all
