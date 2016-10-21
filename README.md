@@ -120,9 +120,7 @@ directory or the `Eulerfile.rb` in the `/example` directory.
 
 ## Contributing
 
-Pull requests are welcome!
-
-Please send pull requests to the `develop` branch.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### To Do
 
