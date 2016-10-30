@@ -63,6 +63,7 @@ solution for problem number 1 then you can just run `$ euelr run` from `1/ruby`
 - php
 - python
 - ruby
+- rust
 - scala
 
 ## Configuring Euler Manager
