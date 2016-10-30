@@ -62,6 +62,7 @@ end
   'c',
   'coffeescript',
   'elixir',
+  'gst',
   'haskell',
   'java',
   'javascript',
