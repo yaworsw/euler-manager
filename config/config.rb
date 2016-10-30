@@ -60,6 +60,7 @@ end
 [
 
   'c',
+  'c++',
   'coffeescript',
   'elixir',
   'haskell',
