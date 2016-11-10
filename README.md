@@ -64,6 +64,7 @@ solution for problem number 1 then you can just run `$ euelr run` from `1/ruby`
 - python
 - ruby
 - scala
+- (GNU) smalltalk
 
 ## Configuring Euler Manager
 
