@@ -13,9 +13,9 @@ program :description, 'Project Euler solution manager.'
 
 command :run do |c|
   c.syntax  = 'euler run [problem_id] [language]'
-  c.summary = 'Runs a solution.'
+  c.summary = 'Run a solution'
   c.description = c.summary
-  c.example 'Runs the ruby solution for problem #1', 'euler run 1 ruby'
+  c.example 'Run the ruby solution for problem #1', 'euler run 1 ruby'
   c.action do |args, options|
     problem_id, language = Euler.params_from_dir_or_args args
     solution = Euler::Solution.new(problem_id, language)
@@ -28,9 +28,9 @@ end
 
 command :test do |c|
   c.syntax  = 'euler test [problem_id] [language]'
-  c.summary = 'Tests a solution.'
+  c.summary = 'Test a solution'
   c.description = c.summary
-  c.example 'Tests the ruby solution for problem #1', 'euler test 1 ruby'
+  c.example 'Test the ruby solution for problem #1', 'euler test 1 ruby'
   c.action do |args, options|
     problem_id, language = Euler.params_from_dir_or_args args
 
@@ -58,7 +58,7 @@ end
 
 command :test_all do |c|
   c.syntax  = 'euler test_all'
-  c.summary = 'Tests all solutions.'
+  c.summary = 'Test all solutions'
   c.description = c.summary
   c.action do |args, options|
     solutions = Euler::Solution.all
@@ -106,7 +106,7 @@ end
 
 command :new do |c|
   c.syntax  = 'euler new [problem_id] [language]'
-  c.summary = 'Initialize a solution.'
+  c.summary = 'Initialize a solution'
   c.description = c.summary
   c.example 'Initialize a ruby solution for problem #1', 'euler new 1 ruby'
   c.action do |args, options|
@@ -131,9 +131,9 @@ end
 
 command :desc do |c|
   c.syntax  = 'euler desc [problem_id]'
-  c.summary = 'View the description for a problem.'
+  c.summary = 'View the description for a problem'
   c.description = c.summary
-  c.example 'View the for description for problem #1', 'euler desc 1'
+  c.example 'View the description for problem #1', 'euler desc 1'
   c.action do |args, options|
     begin
       problem_id, language = Euler.params_from_dir_or_args args
@@ -153,7 +153,7 @@ end
 
 command :init do |c|
   c.syntax  = 'euler init'
-  c.summary = 'Initialize an Eulerfile.rb in the current directory'
+  c.summary = 'Initialize a Eulerfile.rb in the current directory'
   c.description = c.summary
   c.action do
     tmpl = "#{File.dirname(__FILE__)}/../templates/Eulerfile.rb"
@@ -164,7 +164,7 @@ end
 
 command :include_images do |c|
   c.syntax  = 'euler include_images'
-  c.summary = 'Copy Project Euler\'s image files.'
+  c.summary = 'Copy Project Euler\'s image files'
   c.description = c.summary
   c.action do
     images = "#{File.dirname(__FILE__)}/../data/images"
