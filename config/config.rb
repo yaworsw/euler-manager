@@ -63,6 +63,7 @@ end
   'c++',
   'coffeescript',
   'elixir',
+  'go',
   'haskell',
   'java',
   'javascript',
