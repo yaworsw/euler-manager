@@ -55,6 +55,7 @@ solution for problem number 1 then you can just run `$ euelr run` from `1/ruby`
 - C++
 - coffeescript
 - elixir
+- go
 - haskell
 - java
 - javascript
@@ -63,6 +64,7 @@ solution for problem number 1 then you can just run `$ euelr run` from `1/ruby`
 - php
 - python
 - ruby
+- rust
 - scala
 - (GNU) smalltalk
 
@@ -122,9 +124,7 @@ directory or the `Eulerfile.rb` in the `/example` directory.
 
 ## Contributing
 
-Pull requests are welcome!
-
-Please send pull requests to the `develop` branch.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### To Do
 

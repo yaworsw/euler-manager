@@ -29,6 +29,7 @@ describe Euler do
     Euler.get_language('c++').should be_truthy
     Euler.get_language('coffeescript').should be_truthy
     Euler.get_language('elixir').should be_truthy
+    Euler.get_language('go').should be_truthy
     Euler.get_language('gst').should be_truthy
     Euler.get_language('haskell').should be_truthy
     Euler.get_language('java').should be_truthy
@@ -38,6 +39,7 @@ describe Euler do
     Euler.get_language('php').should be_truthy
     Euler.get_language('python').should be_truthy
     Euler.get_language('ruby').should be_truthy
+    Euler.get_language('rust').should be_truthy
     Euler.get_language('scala').should be_truthy
   end
 

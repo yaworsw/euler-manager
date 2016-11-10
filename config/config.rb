@@ -63,6 +63,7 @@ end
   'c++',
   'coffeescript',
   'elixir',
+  'go',
   'gst',
   'haskell',
   'java',
@@ -72,6 +73,7 @@ end
   'php',
   'python',
   'ruby',
+  'rust',
   'scala'
 
 ].each do |lang|
