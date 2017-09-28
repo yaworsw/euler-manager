@@ -60,6 +60,7 @@ end
 [
 
   'c',
+  'crystal',
   'coffeescript',
   'elixir',
   'haskell',
